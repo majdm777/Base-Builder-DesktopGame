@@ -1,4 +1,7 @@
-0.0.1:
+V0.0.1:
 
 
-0.0.1.1: now you can place building without overlapping eachother
+V0.0.1.1: now you can place building without overlapping eachother
+
+
+V0.0.1.2 : setting up the spawn actor algo note(not tested yet)

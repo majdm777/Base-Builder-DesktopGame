@@ -2,6 +2,9 @@ extends StaticBody3D
 
 var object : Array 
 var ActiveBuildableObject : bool
+
+@export var SpawnActor : bool = true
+@export var Actor : PackedScene
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	$Area.area_entered.connect(_on_area_area_entered)
@@ -13,7 +16,11 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-
+func runSpawn():
+	if SpawnActor:
+		var actor = Actor.instantiate()
+		get_tree().root.add_child(actor)
+		actor.global_position= $SpawnPoint.global_position
 func _on_area_area_entered(area: Area3D) -> void:
 	if(ActiveBuildableObject):
 		BuilderManager.AbleToBuild = false
