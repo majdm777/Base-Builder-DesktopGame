@@ -1,13 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://chq2od8rbuscf"]
+[gd_scene load_steps=5 format=3 uid="uid://chq2od8rbuscf"]
 
 [ext_resource type="Script" uid="uid://beokcq0705qe6" path="res://gd/camera_3d.gd" id="1_3m5f8"]
 [ext_resource type="Script" uid="uid://b8khwxixwh2cl" path="res://gd/InterfaceManager.gd" id="2_ne8tm"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_s8d5f"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_3m5f8"]
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_ne8tm"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
 [node name="spatial" type="Node3D"]
 transform = Transform3D(0.999999, 0.00147759, 0.000273031, -0.00147749, 0.999999, -0.000393958, -0.000273605, 0.000393559, 1, 0, 0, 0)
@@ -16,22 +14,18 @@ transform = Transform3D(0.999999, 0.00147759, 0.000273031, -0.00147749, 0.999999
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.286263, -2.59143, -1.41992)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
-transform = Transform3D(1968.56, 0, 0, 0, 2.071, 0, 0, 0, 2000, 21.116, 0.5, 0.593)
+transform = Transform3D(500, 0, 0, 0, 0.53, 0, 0, 0, 508.051, 0, 0, 0)
 mesh = SubResource("BoxMesh_s8d5f")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-transform = Transform3D(1968.56, 0, 0, 0, 2.071, 0, 0, 0, 2000, 21.1159, 1.58453, 0.592639)
-shape = SubResource("BoxShape3D_3m5f8")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(20, 2.9373e-08, 3.25963e-09, -1.5254e-08, 20, 1.86265e-09, 0, -5.58794e-09, 20, -13.4887, 14.0318, -1072.39)
-mesh = SubResource("CapsuleMesh_ne8tm")
+transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0.959171, 0.00149059, 0.206072)
+shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="CameraRig" type="Node3D" parent="."]
 script = ExtResource("1_3m5f8")
 
 [node name="Camera3D" type="Camera3D" parent="CameraRig"]
-transform = Transform3D(0.999999, 0.00132921, 0.000135401, -0.000846351, 0.551777, 0.833991, 0.00103383, -0.833991, 0.551778, 24.911, 330.155, 536.722)
+transform = Transform3D(0.999999, 0.0013292, 0.000135404, -0.00084635, 0.551777, 0.833991, 0.00103383, -0.83399, 0.551778, 0, 100, 100)
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
