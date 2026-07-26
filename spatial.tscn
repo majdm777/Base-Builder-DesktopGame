@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://chq2od8rbuscf"]
+
+[ext_resource type="Script" uid="uid://beokcq0705qe6" path="res://gd/camera_3d.gd" id="1_3m5f8"]
+[ext_resource type="Script" uid="uid://b8khwxixwh2cl" path="res://gd/InterfaceManager.gd" id="2_ne8tm"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_s8d5f"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3m5f8"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ne8tm"]
+
+[node name="spatial" type="Node3D"]
+transform = Transform3D(0.999999, 0.00147759, 0.000273031, -0.00147749, 0.999999, -0.000393958, -0.000273605, 0.000393559, 1, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.286263, -2.59143, -1.41992)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(1968.56, 0, 0, 0, 2.071, 0, 0, 0, 2000, 21.116, 0.5, 0.593)
+mesh = SubResource("BoxMesh_s8d5f")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1968.56, 0, 0, 0, 2.071, 0, 0, 0, 2000, 21.1159, 1.58453, 0.592639)
+shape = SubResource("BoxShape3D_3m5f8")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(20, 2.9373e-08, 3.25963e-09, -1.5254e-08, 20, 1.86265e-09, 0, -5.58794e-09, 20, -13.4887, 14.0318, -1072.39)
+mesh = SubResource("CapsuleMesh_ne8tm")
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("1_3m5f8")
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig"]
+transform = Transform3D(0.999999, 0.00132921, 0.000135401, -0.000846351, 0.551777, 0.833991, 0.00103383, -0.833991, 0.551778, 24.911, 330.155, 536.722)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -3.0
+offset_top = 566.0
+offset_right = 1151.0
+offset_bottom = 647.0
+size_flags_vertical = 10
+script = ExtResource("2_ne8tm")
+
+[node name="BuildWoodCutterButton" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 142.0
+offset_top = -2.0
+offset_right = 244.0
+offset_bottom = 69.0
+text = "WoodCutter"
+
+[connection signal="button_down" from="Control/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_button_down"]
