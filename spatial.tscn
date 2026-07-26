@@ -1,24 +1,30 @@
-[gd_scene load_steps=5 format=3 uid="uid://chq2od8rbuscf"]
+[gd_scene load_steps=9 format=3 uid="uid://chq2od8rbuscf"]
 
 [ext_resource type="Script" uid="uid://beokcq0705qe6" path="res://gd/camera_3d.gd" id="1_3m5f8"]
 [ext_resource type="Script" uid="uid://b8khwxixwh2cl" path="res://gd/InterfaceManager.gd" id="2_ne8tm"]
+[ext_resource type="PackedScene" uid="uid://saki4syyordm" path="res://Assets/WoodCutters.tscn" id="3_m7tst"]
+[ext_resource type="Script" uid="uid://bgkfqruk4ll3y" path="res://MouseArea2D.gd" id="4_hjq85"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_s8d5f"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m7tst"]
+size = Vector2(1186, 139)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_c07jr"]
+
 [node name="spatial" type="Node3D"]
-transform = Transform3D(0.999999, 0.00147759, 0.000273031, -0.00147749, 0.999999, -0.000393958, -0.000273605, 0.000393559, 1, 0, 0, 0)
+transform = Transform3D(0.999999, 0.0014776, 0.000273023, -0.00147749, 0.999999, -0.000393963, -0.000273605, 0.000393559, 1, 0, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.286263, -2.59143, -1.41992)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
 transform = Transform3D(500, 0, 0, 0, 0.53, 0, 0, 0, 508.051, 0, 0, 0)
 mesh = SubResource("BoxMesh_s8d5f")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0.959171, 0.00149059, 0.206072)
+transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0, 0, 0)
 shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="CameraRig" type="Node3D" parent="."]
@@ -37,12 +43,41 @@ offset_bottom = 647.0
 size_flags_vertical = 10
 script = ExtResource("2_ne8tm")
 
+[node name="Panel" type="Panel" parent="Control"]
+layout_mode = 0
+offset_left = 3.0
+offset_top = -32.0
+offset_right = 1156.0
+offset_bottom = 81.0
+rotation = -0.000297377
+
 [node name="BuildWoodCutterButton" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 142.0
-offset_top = -2.0
-offset_right = 244.0
-offset_bottom = 69.0
+offset_left = 233.0
+offset_top = -12.0
+offset_right = 335.0
+offset_bottom = 59.0
 text = "WoodCutter"
 
+[node name="Area2D" type="Area2D" parent="Control"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Control/Area2D"]
+position = Vector2(580, 25)
+shape = SubResource("RectangleShape2D_m7tst")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 3.53779e-10, 5.82077e-11, -1.11918e-10, 1, 5.82077e-11, 0, -2.91038e-11, 1, 192.843, 181.747, -0.0187652)
+light_energy = 1.552
+
+[node name="WoodCutters" parent="." instance=ExtResource("3_m7tst")]
+transform = Transform3D(-0.0599827, -0.0147749, -9.9998, 0.00385094, 9.99999, -0.0147983, 9.99982, -0.00393966, -0.059977, -57.697, 0, -92.195)
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("4_hjq85")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_c07jr")
+
 [connection signal="button_down" from="Control/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_button_down"]
+[connection signal="area_entered" from="Control/Area2D" to="Control" method="_on_area_2d_area_entered"]
+[connection signal="area_exited" from="Control/Area2D" to="Control" method="_on_area_2d_area_exited"]

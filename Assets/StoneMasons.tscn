@@ -1,14 +1,10 @@
-[gd_scene load_steps=10 format=4 uid="uid://donowkhx1mstb"]
+[gd_scene load_steps=8 format=4 uid="uid://donowkhx1mstb"]
 
 [ext_resource type="Material" path="res://Assets/Home/roof.material" id="1"]
 [ext_resource type="Material" path="res://Assets/Home/border.material" id="2"]
 [ext_resource type="Material" path="res://Assets/Home/door.material" id="3"]
 [ext_resource type="Material" path="res://Assets/Home/window.material" id="4"]
 [ext_resource type="Material" path="res://Assets/Home/_defaultMat.material" id="5"]
-[ext_resource type="Script" uid="uid://cn6g3lcdites4" path="res://Assets/BuildingObject.gd" id="6"]
-
-[sub_resource type="Resource" id="Resource_4f43p"]
-metadata/__load_path__ = "res://Scenes/StoneCutter.tscn"
 
 [sub_resource type="ArrayMesh" id="1"]
 resource_name = "house_type01_Mesh house_type01"
@@ -74,10 +70,6 @@ data = PackedVector3Array(0.32, 0.27, -0.078, 0.18, 0.27, -0.078, 0.18, 0.27, -0
 
 [node name="StoneMasons" type="StaticBody3D" groups=["building"]]
 transform = Transform3D(11.26, 0, 0, 0, 11.26, 0, 0, 0, 11.26, 0, 0, 0)
-script = ExtResource("6")
-WoodCost = 15
-PopulationCost = 1
-Actor = SubResource("Resource_4f43p")
 
 [node name="tmpParent" type="Node3D" parent="."]
 

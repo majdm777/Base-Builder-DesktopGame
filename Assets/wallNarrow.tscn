@@ -1,8 +1,9 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Assets/Wall/wallDark.material" type="Material" id=1]
-[ext_resource path="res://Assets/Wall/wall.material" type="Material" id=2]
-[ext_resource path="res://Assets/BuildingObject.gd" type="Script" id=3]
+[ext_resource type="Material" path="res://Assets/Wall/wallDark.material" id="1"]
+[ext_resource type="Material" path="res://Assets/Wall/wall.material" id="2"]
+[ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="3"]
+
 
 [sub_resource type="ArrayMesh" id=1]
 blend_shape_mode = 0

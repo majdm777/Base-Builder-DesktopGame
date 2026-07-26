@@ -1,11 +1,12 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://Assets/Home/roof.material" type="Material" id=1]
-[ext_resource path="res://Assets/Home/border.material" type="Material" id=2]
-[ext_resource path="res://Assets/Home/door.material" type="Material" id=3]
-[ext_resource path="res://Assets/Home/window.material" type="Material" id=4]
-[ext_resource path="res://Assets/Home/_defaultMat.material" type="Material" id=5]
-[ext_resource path="res://Assets/BuildingObject.gd" type="Script" id=6]
+[ext_resource type="Material" path="res://Assets/Home/roof.material" id="1"]
+[ext_resource type="Material" path="res://Assets/Home/border.material" id="2"]
+[ext_resource type="Material" path="res://Assets/Home/door.material" id="3"]
+[ext_resource type="Material" path="res://Assets/Home/window.material" id="4"]
+[ext_resource type="Material" path="res://Assets/Home/_defaultMat.material" id="5"]
+[ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="6"]
+
 
 [sub_resource type="ArrayMesh" id=1]
 resource_name = "house_type17_Mesh house_type17"
