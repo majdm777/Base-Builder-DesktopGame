@@ -8,7 +8,7 @@ enum State{
 
 var Current_State = State.play
 
-var Wood : float = 20
+var Wood : float = 20.0
 var Stone : float = 20
 var Iron : float = 20
 var Gold : float = 20

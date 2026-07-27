@@ -1,5 +1,12 @@
 extends StaticBody3D
 
+@export var WoodCost : float
+@export var StoneCost : float
+@export var IronCost : float 
+@export var GoldCost : float 
+@export var PopulationCost : int
+
+
 var object : Array 
 var ActiveBuildableObject : bool
 
@@ -15,6 +22,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
+	
 
 func runSpawn():
 	if SpawnActor:

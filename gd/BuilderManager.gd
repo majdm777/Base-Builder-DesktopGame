@@ -24,31 +24,46 @@ func _process(delta: float) -> void:
 	if GameManager.Current_State == GameManager.State.building:
 		var camera = get_viewport().get_camera_3d()
 		var mouse_pos = get_viewport().get_mouse_position()
-
 		var from = camera.project_ray_origin(mouse_pos)
 		var to = from + camera.project_ray_normal(mouse_pos) * 1000.0
-
 		var query = PhysicsRayQueryParameters3D.create(from, to)
 		var result = get_world_3d().direct_space_state.intersect_ray(query)
-
 		if result:
 			var cursor_pos = result.position
-
 			currentSpawnable.position = Vector3(
 				round(cursor_pos.x),
 				0,
 				round(cursor_pos.z)
 			)
 			currentSpawnable.ActiveBuildableObject=true
-	if AbleToBuild :
-		if Input.is_action_just_pressed("LeftMouseDown"):
-			var obj = currentSpawnable.duplicate()
-			get_tree().current_scene.add_child(obj)
-			obj.ActiveBuildableObject = false
-			obj.runSpawn()
-			obj.position = currentSpawnable.position
-			get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
+		if AbleToBuild && Can_Afford(currentSpawnable) :
+			if Input.is_action_just_pressed("LeftMouseDown"):
+				var obj = currentSpawnable.duplicate()
+				get_tree().current_scene.add_child(obj)
+				obj.ActiveBuildableObject = false
+				obj.runSpawn()
+				charge_object(obj)
+				obj.position = currentSpawnable.position
+				get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
 	pass
+
+func Can_Afford(obj) -> bool:
+	if GameManager.Wood - obj.WoodCost < 0 :
+		return false
+	if GameManager.Stone - obj.StoneCost < 0 :
+		return false
+	if GameManager.Iron - obj.IronCost < 0 :
+		return false
+	if GameManager.Gold - obj.GoldCost < 0 :
+		return false
+	return true
+		
+func charge_object(obj):
+	GameManager.Wood -= obj.WoodCost
+	GameManager.Stone -= obj.StoneCost
+	GameManager.Iron -= obj.IronCost
+	GameManager.Gold -= obj.GoldCost
+	
 
 func SpawnWoodCutterHut():
 	SpawnObj(WoodCutterHut)
