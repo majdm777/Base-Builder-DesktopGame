@@ -23,6 +23,7 @@ const SPEED = 10.0
 
 func _ready() -> void:
 	# Optional: start searching when spawned
+	
 	CurrentTask = Task.Searching
 
 func _physics_process(delta: float) -> void:
@@ -85,6 +86,6 @@ func _process(delta: float) -> void:
 						runOnce = false
 						# Simulate collecting resources
 						await get_tree().create_timer(2.0).timeout
-						HeldresourcesAmount = 5
 						runOnce = true
 					CurrentTask = Task.Searching
+	$Label3D.text = str(CurrentTask)

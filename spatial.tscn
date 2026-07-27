@@ -49,6 +49,98 @@ offset_right = 1156.0
 offset_bottom = 81.0
 rotation = -0.000297377
 
+[node name="ResourcesBox" type="Control" parent="Control/Panel"]
+anchors_preset = 0
+offset_left = 7.99732
+offset_top = 9.00238
+offset_right = 207.997
+offset_bottom = 106.002
+
+[node name="WoodLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 8.0
+offset_top = -3.0
+offset_right = 108.0
+offset_bottom = 20.0
+text = "Wood:"
+
+[node name="WoodCountLabel" type="Label" parent="Control/Panel/ResourcesBox/WoodLabel"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 1.0
+offset_right = 157.0
+offset_bottom = 24.0
+text = "0 W"
+
+[node name="StoneLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 8.0
+offset_top = 18.0
+offset_right = 108.0
+offset_bottom = 41.0
+text = "Stone:"
+
+[node name="StoneCountLabel" type="Label" parent="Control/Panel/ResourcesBox/StoneLabel"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 1.0
+offset_right = 157.0
+offset_bottom = 24.0
+text = "0 S"
+
+[node name="IronLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 8.0
+offset_top = 38.0
+offset_right = 108.0
+offset_bottom = 61.0
+text = "Iron:"
+
+[node name="IronCountLabel" type="Label" parent="Control/Panel/ResourcesBox/IronLabel"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 1.0
+offset_right = 157.0
+offset_bottom = 24.0
+text = "0 I"
+
+[node name="GoldLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 8.0
+offset_top = 59.0
+offset_right = 108.0
+offset_bottom = 82.0
+text = "Gold:"
+
+[node name="GoldCountLabel" type="Label" parent="Control/Panel/ResourcesBox/GoldLabel"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 1.0
+offset_right = 157.0
+offset_bottom = 24.0
+text = "0 G"
+
+[node name="FoodLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 8.0
+offset_top = 80.0
+offset_right = 108.0
+offset_bottom = 103.0
+text = "Food:"
+
+[node name="FoodCountLabel" type="Label" parent="Control/Panel/ResourcesBox/FoodLabel"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 1.0
+offset_right = 157.0
+offset_bottom = 24.0
+text = "0 F"
+
 [node name="BuildWoodCutterButton" type="Button" parent="Control"]
 layout_mode = 0
 offset_left = 233.0
@@ -81,7 +173,7 @@ script = ExtResource("4_hjq85")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_c07jr")
 
-[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="." groups=["NavMesh"]]
 navigation_mesh = SubResource("NavigationMesh_hjq85")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D"]

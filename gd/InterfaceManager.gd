@@ -8,6 +8,11 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	$Panel/ResourcesBox/WoodLabel/WoodCountLabel.text = str(GameManager.Wood, " W")
+	$Panel/ResourcesBox/FoodLabel/FoodCountLabel.text = str(GameManager.Food, " F")
+	$Panel/ResourcesBox/GoldLabel/GoldCountLabel.text = str(GameManager.Gold, " G")
+	$Panel/ResourcesBox/IronLabel/IronCountLabel.text = str(GameManager.Iron, " I")
+	$Panel/ResourcesBox/StoneLabel/StoneCountLabel.text = str(GameManager.Stone, " S")
 	pass
 
 

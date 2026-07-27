@@ -47,6 +47,7 @@ func _process(delta: float) -> void:
 			obj.ActiveBuildableObject = false
 			obj.runSpawn()
 			obj.position = currentSpawnable.position
+			get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
 	pass
 
 func SpawnWoodCutterHut():
