@@ -1,31 +1,29 @@
-[gd_scene load_steps=9 format=3 uid="uid://chq2od8rbuscf"]
+[gd_scene load_steps=12 format=3 uid="uid://chq2od8rbuscf"]
 
 [ext_resource type="Script" uid="uid://beokcq0705qe6" path="res://gd/camera_3d.gd" id="1_3m5f8"]
 [ext_resource type="Script" uid="uid://b8khwxixwh2cl" path="res://gd/InterfaceManager.gd" id="2_ne8tm"]
 [ext_resource type="PackedScene" uid="uid://saki4syyordm" path="res://Assets/WoodCutters.tscn" id="3_m7tst"]
 [ext_resource type="Script" uid="uid://bgkfqruk4ll3y" path="res://gd/MouseArea2D.gd" id="4_hjq85"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_s8d5f"]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m7tst"]
 size = Vector2(1186, 139)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_c07jr"]
 
+[sub_resource type="NavigationMesh" id="NavigationMesh_hjq85"]
+vertices = PackedVector3Array(34, 0.735, -53.0254, 35, 0.735, -53.5254, 35, 0.735, -253.525, -249.5, 0.735, -253.525, -249.5, 0.735, -52.2754, 34, 0.735, -52.2754, 36.25, 0.735, -53.0254, 36.25, 0.735, -52.0254, 39, 0.735, -49.2754, 62, 0.735, -1.02544, 63.5, 0.735, -1.02544, 63.75, 0.735, -0.0254364, 249.5, 0.735, -0.0254364, 249.5, 0.735, -253.525, 19.5, 0.735, 4.22456, 20.5, 0.735, 4.22456, 21.25, 0.735, 2.97456, 34, 0.735, -51.7754, 19, 0.735, 5.47456, -249.5, 0.735, 5.47456, 35.75, 0.735, -51.2754, 34.5, 0.735, -51.2754, 24.5, 0.735, 1.97456, 61.5, 0.735, 0.474564, 61.5, 0.735, -0.525436, 63.75, 0.735, 0.724564, 62.75, 0.735, 1.22456, 62.75, 0.735, 253.475, 249.5, 0.735, 253.475, 21.25, 0.735, 4.97456, 62.25, 0.735, 1.22456, 21.25, 0.735, 5.97456, 20, 0.735, 6.47456, 20, 0.735, 253.475, 19, 0.735, 6.22456, -249.5, 0.735, 253.475)
+polygons = [PackedInt32Array(1, 0, 2), PackedInt32Array(2, 0, 3), PackedInt32Array(3, 0, 4), PackedInt32Array(0, 5, 4), PackedInt32Array(8, 7, 6), PackedInt32Array(10, 9, 8), PackedInt32Array(12, 11, 10), PackedInt32Array(6, 1, 2), PackedInt32Array(8, 6, 2), PackedInt32Array(10, 8, 12), PackedInt32Array(12, 8, 2), PackedInt32Array(12, 2, 13), PackedInt32Array(15, 14, 16), PackedInt32Array(16, 14, 17), PackedInt32Array(17, 14, 5), PackedInt32Array(14, 18, 5), PackedInt32Array(5, 18, 19), PackedInt32Array(5, 19, 4), PackedInt32Array(20, 7, 8), PackedInt32Array(20, 8, 21), PackedInt32Array(21, 8, 22), PackedInt32Array(22, 8, 24), PackedInt32Array(22, 24, 23), PackedInt32Array(21, 22, 17), PackedInt32Array(17, 22, 16), PackedInt32Array(8, 9, 24), PackedInt32Array(25, 11, 12), PackedInt32Array(25, 12, 26), PackedInt32Array(26, 12, 27), PackedInt32Array(27, 12, 28), PackedInt32Array(15, 16, 29), PackedInt32Array(29, 16, 22), PackedInt32Array(29, 22, 23), PackedInt32Array(29, 23, 30), PackedInt32Array(31, 29, 30), PackedInt32Array(30, 26, 31), PackedInt32Array(31, 26, 32), PackedInt32Array(32, 26, 33), PackedInt32Array(33, 26, 27), PackedInt32Array(32, 33, 34), PackedInt32Array(34, 33, 35), PackedInt32Array(34, 35, 19), PackedInt32Array(19, 18, 34)]
+
+[sub_resource type="BoxMesh" id="BoxMesh_s8d5f"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_hjq85"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_c07jr"]
+
 [node name="spatial" type="Node3D"]
 transform = Transform3D(0.999999, 0.0014776, 0.000273023, -0.00147749, 0.999999, -0.000393963, -0.000273605, 0.000393559, 1, 0, 0, 0)
-
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
-transform = Transform3D(500, 0, 0, 0, 0.53, 0, 0, 0, 508.051, 0, 0, 0)
-mesh = SubResource("BoxMesh_s8d5f")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0, 0, 0)
-shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="CameraRig" type="Node3D" parent="."]
 script = ExtResource("1_3m5f8")
@@ -67,7 +65,11 @@ position = Vector2(580, 25)
 shape = SubResource("RectangleShape2D_m7tst")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 3.53779e-10, 5.82077e-11, -1.11918e-10, 1, 5.82077e-11, 0, -2.91038e-11, 1, 192.843, 181.747, -0.0187652)
+transform = Transform3D(0.470521, 0.544961, -0.693994, 0.756378, -0.654134, -0.000844532, -0.454425, -0.524524, -0.71998, 192.843, 181.747, -0.0187652)
+light_energy = 1.368
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, -2.44012e-09, 2.32831e-10, 4.46221e-12, 1, 2.61934e-10, 0, -8.73115e-11, 1, -203.289, 181.162, -0.126919)
 light_energy = 1.552
 
 [node name="WoodCutters" parent="." instance=ExtResource("3_m7tst")]
@@ -78,6 +80,54 @@ script = ExtResource("4_hjq85")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_c07jr")
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_hjq85")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D"]
+transform = Transform3D(1, 4.583e-12, 2.91038e-11, 4.448e-12, 1, 0, 0, -2.91038e-11, 1, 0, 0, 0)
+collision_layer = 3
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D/StaticBody3D"]
+transform = Transform3D(500, 0, 0, 0, 0.53, 0, 0, 0, 508.051, 0, 0, 0)
+mesh = SubResource("BoxMesh_s8d5f")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/StaticBody3D"]
+transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0, 0, 0)
+shape = SubResource("BoxShape3D_ne8tm")
+
+[node name="Tree" type="StaticBody3D" parent="NavigationRegion3D" groups=["Tree"]]
+transform = Transform3D(1, 4.59721e-12, 5.82077e-11, 4.46221e-12, 1, 0, 2.91038e-11, -5.82077e-11, 1, 62.648, 0, 0.017)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Tree"]
+transform = Transform3D(0.994279, -4.3508e-09, 5.82077e-11, 3.84546e-11, 8.4559, 0, 8.73115e-11, -1.16415e-09, 0.998473, -0.0122946, 8.32126, -0.00327827)
+shape = SubResource("CylinderShape3D_hjq85")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D/Tree"]
+transform = Transform3D(0.994279, -2.48815e-09, 2.91038e-11, -7.79465e-11, 8.4559, 0, 1.16415e-10, -9.31323e-10, 0.998473, -0.025177, 8.9177, -0.00651325)
+mesh = SubResource("CylinderMesh_c07jr")
+
+[node name="Tree2" type="StaticBody3D" parent="NavigationRegion3D" groups=["Tree"]]
+transform = Transform3D(1, -1.11804e-10, 8.73115e-11, 1.20892e-10, 1, 0, 2.91038e-11, -1.16415e-10, 1, 20.069, 0, 5.397)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Tree2"]
+transform = Transform3D(0.994279, -4.3508e-09, 5.82077e-11, 3.84546e-11, 8.4559, 0, 8.73115e-11, -1.16415e-09, 0.998473, -0.0122946, 8.32126, -0.00327827)
+shape = SubResource("CylinderShape3D_hjq85")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D/Tree2"]
+transform = Transform3D(0.994279, -3.4197e-09, 5.82077e-11, 3.84333e-11, 8.4559, 0, 5.82077e-11, -9.31323e-10, 0.998473, -0.0122946, 8.32126, -0.00327827)
+mesh = SubResource("CylinderMesh_c07jr")
+
+[node name="Tree3" type="StaticBody3D" parent="NavigationRegion3D" groups=["Tree"]]
+transform = Transform3D(1, -1.11804e-10, 8.73115e-11, 1.20892e-10, 1, 0, 2.91038e-11, -1.16415e-10, 1, 35.074, 0, -52.298)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Tree3"]
+transform = Transform3D(0.994279, -4.3508e-09, 5.82077e-11, 3.84546e-11, 8.4559, 0, 8.73115e-11, -1.16415e-09, 0.998473, -0.0122946, 8.32126, -0.00327827)
+shape = SubResource("CylinderShape3D_hjq85")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D/Tree3"]
+transform = Transform3D(0.994279, -3.4197e-09, 5.82077e-11, 3.84333e-11, 8.4559, 0, 5.82077e-11, -9.31323e-10, 0.998473, -0.0122946, 8.32126, -0.00327827)
+mesh = SubResource("CylinderMesh_c07jr")
 
 [connection signal="button_down" from="Control/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_button_down"]
 [connection signal="area_entered" from="Control/Area2D" to="Control" method="_on_area_2d_area_entered"]

@@ -45,6 +45,7 @@ func _process(delta: float) -> void:
 			var obj = currentSpawnable.duplicate()
 			get_tree().current_scene.add_child(obj)
 			obj.ActiveBuildableObject = false
+			obj.runSpawn()
 			obj.position = currentSpawnable.position
 	pass
 

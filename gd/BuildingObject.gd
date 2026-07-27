@@ -20,7 +20,8 @@ func runSpawn():
 	if SpawnActor:
 		var actor = Actor.instantiate()
 		get_tree().root.add_child(actor)
-		actor.global_position= $SpawnPoint.global_position
+		actor.global_position = $SpawnPoint.global_position
+		actor.Hut = $SpawnPoint.global_position
 func _on_area_area_entered(area: Area3D) -> void:
 	if(ActiveBuildableObject):
 		BuilderManager.AbleToBuild = false

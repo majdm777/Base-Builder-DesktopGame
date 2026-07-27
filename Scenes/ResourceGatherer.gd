@@ -15,12 +15,10 @@ var Hut
 var HeldresourcesAmount: int = 0
 
 var runOnce := true
-
-
 @onready var navigationAgent: NavigationAgent3D = $NavigationAgent3D
 
 
-const SPEED = 5.0
+const SPEED = 10.0
 
 
 func _ready() -> void:
@@ -59,18 +57,18 @@ func _process(delta: float) -> void:
 			if runOnce:
 				runOnce = false
 				# Simulate collecting resources
-				await get_tree().create_timer(10.0).timeout
+				await get_tree().create_timer(2.0).timeout
 				HeldresourcesAmount = 5
 				runOnce = true
 				CurrentTask = Task.Delivering
 
 		Task.Delivering:
 			if Hut != null:
-				navigationAgent.target_position = Hut.global_position
+				navigationAgent.target_position = Hut
 				CurrentTask = Task.Walking
 
 		Task.Searching:
-			var resources = get_tree().get_nodes_in_group("tree")
+			var resources = get_tree().get_nodes_in_group("Tree")
 			if resources.size() > 0:
 				var closest_tree = resources[0]
 				navigationAgent.target_position = closest_tree.global_position
@@ -83,4 +81,10 @@ func _process(delta: float) -> void:
 				else:
 					GameManager.Wood += HeldresourcesAmount
 					HeldresourcesAmount = 0
+					if runOnce:
+						runOnce = false
+						# Simulate collecting resources
+						await get_tree().create_timer(2.0).timeout
+						HeldresourcesAmount = 5
+						runOnce = true
 					CurrentTask = Task.Searching
