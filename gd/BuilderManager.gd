@@ -42,9 +42,10 @@ func _process(delta: float) -> void:
 				get_tree().current_scene.add_child(obj)
 				obj.ActiveBuildableObject = false
 				obj.runSpawn()
+				obj.spawned = true 
 				charge_object(obj)
 				obj.position = currentSpawnable.position
-				get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
+				#get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
 	pass
 
 func Can_Afford(obj) -> bool:
@@ -68,15 +69,17 @@ func charge_object(obj):
 func SpawnWoodCutterHut():
 	SpawnObj(WoodCutterHut)
 
-func SpawnStoneCutterHutr():
+func SpawnStoneCutterHut():
 	SpawnObj(StoneCutterhut)
-
+func SpawnStockPile():
+	SpawnObj(StockPile)
 
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:
 		currentSpawnable.queue_free()
 
 	currentSpawnable = obj.instantiate()
+	
 
 	# Prevent the preview from blocking the ray
 	currentSpawnable.collision_layer = 0

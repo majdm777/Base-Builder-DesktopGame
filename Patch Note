@@ -8,6 +8,8 @@ V0.0.1.2 : setting up the spawn actor algo note(not tested yet)
 
 V0.0.1.3 : added a navigationregion so the actor can walk on it , placed some trees and added it to the Tree group , the actor is fully functional , can walk search deliver and getresources 
 
-V0.0.1.4: now we can track the resources through the controal pannel 
-
+V0.0.1.4: now we can track the resources through the control pannel 
+ 
 V0.0.1.5 : added charging system for building 
+
+V0.0.1.6 : 

@@ -41,6 +41,12 @@ offset_bottom = 647.0
 size_flags_vertical = 10
 script = ExtResource("2_ne8tm")
 
+[node name="Area2D" type="Area2D" parent="Control"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Control/Area2D"]
+position = Vector2(580, 25)
+shape = SubResource("RectangleShape2D_m7tst")
+
 [node name="Panel" type="Panel" parent="Control"]
 layout_mode = 0
 offset_left = 3.0
@@ -49,14 +55,15 @@ offset_right = 1156.0
 offset_bottom = 81.0
 rotation = -0.000297377
 
-[node name="ResourcesBox" type="Control" parent="Control/Panel"]
+[node name="ResourcesBox" type="Control" parent="Control"]
+layout_mode = 3
 anchors_preset = 0
-offset_left = 7.99732
-offset_top = 9.00238
-offset_right = 207.997
-offset_bottom = 106.002
+offset_left = 11.0
+offset_top = -23.0
+offset_right = 211.0
+offset_bottom = 74.0
 
-[node name="WoodLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+[node name="WoodLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 8.0
@@ -65,7 +72,7 @@ offset_right = 108.0
 offset_bottom = 20.0
 text = "Wood:"
 
-[node name="WoodCountLabel" type="Label" parent="Control/Panel/ResourcesBox/WoodLabel"]
+[node name="WoodCountLabel" type="Label" parent="Control/ResourcesBox/WoodLabel"]
 layout_mode = 0
 offset_left = 57.0
 offset_top = 1.0
@@ -73,7 +80,7 @@ offset_right = 157.0
 offset_bottom = 24.0
 text = "0 W"
 
-[node name="StoneLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+[node name="StoneLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 8.0
@@ -82,7 +89,7 @@ offset_right = 108.0
 offset_bottom = 41.0
 text = "Stone:"
 
-[node name="StoneCountLabel" type="Label" parent="Control/Panel/ResourcesBox/StoneLabel"]
+[node name="StoneCountLabel" type="Label" parent="Control/ResourcesBox/StoneLabel"]
 layout_mode = 0
 offset_left = 57.0
 offset_top = 1.0
@@ -90,7 +97,7 @@ offset_right = 157.0
 offset_bottom = 24.0
 text = "0 S"
 
-[node name="IronLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+[node name="IronLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 8.0
@@ -99,7 +106,7 @@ offset_right = 108.0
 offset_bottom = 61.0
 text = "Iron:"
 
-[node name="IronCountLabel" type="Label" parent="Control/Panel/ResourcesBox/IronLabel"]
+[node name="IronCountLabel" type="Label" parent="Control/ResourcesBox/IronLabel"]
 layout_mode = 0
 offset_left = 57.0
 offset_top = 1.0
@@ -107,7 +114,7 @@ offset_right = 157.0
 offset_bottom = 24.0
 text = "0 I"
 
-[node name="GoldLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+[node name="GoldLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 8.0
@@ -116,7 +123,7 @@ offset_right = 108.0
 offset_bottom = 82.0
 text = "Gold:"
 
-[node name="GoldCountLabel" type="Label" parent="Control/Panel/ResourcesBox/GoldLabel"]
+[node name="GoldCountLabel" type="Label" parent="Control/ResourcesBox/GoldLabel"]
 layout_mode = 0
 offset_left = 57.0
 offset_top = 1.0
@@ -124,7 +131,7 @@ offset_right = 157.0
 offset_bottom = 24.0
 text = "0 G"
 
-[node name="FoodLabel" type="Label" parent="Control/Panel/ResourcesBox"]
+[node name="FoodLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 8.0
@@ -133,7 +140,7 @@ offset_right = 108.0
 offset_bottom = 103.0
 text = "Food:"
 
-[node name="FoodCountLabel" type="Label" parent="Control/Panel/ResourcesBox/FoodLabel"]
+[node name="FoodCountLabel" type="Label" parent="Control/ResourcesBox/FoodLabel"]
 layout_mode = 0
 offset_left = 57.0
 offset_top = 1.0
@@ -141,20 +148,37 @@ offset_right = 157.0
 offset_bottom = 24.0
 text = "0 F"
 
-[node name="BuildWoodCutterButton" type="Button" parent="Control"]
+[node name="TabContainer" type="TabContainer" parent="Control"]
 layout_mode = 0
-offset_left = 233.0
-offset_top = -12.0
-offset_right = 335.0
-offset_bottom = 59.0
+offset_left = 158.0
+offset_top = -33.0
+offset_right = 1156.0
+offset_bottom = 81.0
+current_tab = 0
+
+[node name="Huts" type="HBoxContainer" parent="Control/TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="BuildWoodCutterButton" type="Button" parent="Control/TabContainer/Huts"]
+layout_mode = 2
 text = "WoodCutterhut
 "
 
-[node name="Area2D" type="Area2D" parent="Control"]
+[node name="BuildStockPileButton" type="Button" parent="Control/TabContainer/Huts"]
+layout_mode = 2
+text = "Stock Pile
+"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Control/Area2D"]
-position = Vector2(580, 25)
-shape = SubResource("RectangleShape2D_m7tst")
+[node name="Food" type="HBoxContainer" parent="Control/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="BuildWoodCutterButton" type="Button" parent="Control/TabContainer/Food"]
+layout_mode = 2
+text = "WoodCutterhut
+"
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.470521, 0.544961, -0.693994, 0.756378, -0.654134, -0.000844532, -0.454425, -0.524524, -0.71998, 192.843, 181.747, -0.0187652)
@@ -221,6 +245,9 @@ shape = SubResource("CylinderShape3D_hjq85")
 transform = Transform3D(0.994279, -3.4197e-09, 5.82077e-11, 3.84333e-11, 8.4559, 0, 5.82077e-11, -9.31323e-10, 0.998473, -0.0122946, 8.32126, -0.00327827)
 mesh = SubResource("CylinderMesh_c07jr")
 
-[connection signal="button_down" from="Control/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_button_down"]
 [connection signal="area_entered" from="Control/Area2D" to="Control" method="_on_area_2d_area_entered"]
 [connection signal="area_exited" from="Control/Area2D" to="Control" method="_on_area_2d_area_exited"]
+[connection signal="button_down" from="Control/TabContainer/Huts/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_button_down"]
+[connection signal="toggled" from="Control/TabContainer/Huts/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_toggled"]
+[connection signal="button_down" from="Control/TabContainer/Huts/BuildStockPileButton" to="Control" method="_on_build_stock_pile_button_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Food/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_button_down"]

@@ -9,6 +9,8 @@
 [node name="WoodCutter" type="CharacterBody3D"]
 collision_mask = 2
 script = ExtResource("1_tvp7j")
+ResourceNameToGet = "Tree"
+ResourceGenerationAmount = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)

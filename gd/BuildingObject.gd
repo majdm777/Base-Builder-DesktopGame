@@ -9,7 +9,7 @@ extends StaticBody3D
 
 var object : Array 
 var ActiveBuildableObject : bool
-
+var spawned : bool = false
 @export var SpawnActor : bool = true
 @export var Actor : PackedScene
 # Called when the node enters the scene tree for the first time.

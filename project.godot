@@ -20,6 +20,13 @@ config/icon="res://icon.svg"
 GameManager="*res://gd/GameManager.gd"
 BuilderManager="*res://gd/BuilderManager.gd"
 
+[global_group]
+
+Tree=""
+NavMesh=""
+building=""
+StockPile=""
+
 [input]
 
 middleMouseButton={

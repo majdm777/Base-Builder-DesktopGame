@@ -9,10 +9,18 @@ enum Task {
 }
 
 
+
+@export_enum("Tree", "Stone", "Iron")
+var ResourceNameToGet: String
+
+
 var CurrentTask: Task = Task.Searching
 
 var Hut
 var HeldresourcesAmount: int = 0
+
+@export var ResourceGenerationAmount :=0
+
 
 var runOnce := true
 @onready var navigationAgent: NavigationAgent3D = $NavigationAgent3D
@@ -52,6 +60,12 @@ func _physics_process(delta: float) -> void:
 
 
 func _process(delta: float) -> void:
+	var spawnedStockpiles = []
+	var checked =get_tree().get_nodes_in_group("StockPile")
+	if checked.size() > 0:
+		for i in checked:
+			if i.spawned:
+				spawnedStockpiles.append(i)
 
 	match CurrentTask:
 		Task.GettingResources:
@@ -59,20 +73,32 @@ func _process(delta: float) -> void:
 				runOnce = false
 				# Simulate collecting resources
 				await get_tree().create_timer(2.0).timeout
-				HeldresourcesAmount = 5
+				HeldresourcesAmount = ResourceGenerationAmount
 				runOnce = true
 				CurrentTask = Task.Delivering
 
 		Task.Delivering:
-			if Hut != null:
-				navigationAgent.target_position = Hut
+			#var stockpiles=get_tree().get_nodes_in_group("StockPile")
+
+			if spawnedStockpiles.size() > 0:
+				var nearestStockPile = spawnedStockpiles[0]
+				for i in spawnedStockpiles:
+						if i.position.distance_to(position) < nearestStockPile.position.distance_to(position):
+							nearestStockPile = i
+				navigationAgent.target_position = nearestStockPile.get_node("SpawnPoint").global_position
+			#if Hut != null:
+				#navigationAgent.target_position = Hut
 				CurrentTask = Task.Walking
 
 		Task.Searching:
-			var resources = get_tree().get_nodes_in_group("Tree")
+			var resources = get_tree().get_nodes_in_group(ResourceNameToGet)
+			
 			if resources.size() > 0:
-				var closest_tree = resources[0]
-				navigationAgent.target_position = closest_tree.global_position
+				var nearestResourceObject = resources[0]
+				for i in resources:
+					if i.position.distance_to(position) < nearestResourceObject.position.distance_to(position):
+						nearestResourceObject = i
+				navigationAgent.target_position = nearestResourceObject.global_position
 				CurrentTask = Task.Walking
 
 		Task.Walking:
@@ -80,7 +106,13 @@ func _process(delta: float) -> void:
 				if HeldresourcesAmount == 0:
 					CurrentTask = Task.GettingResources
 				else:
-					GameManager.Wood += HeldresourcesAmount
+					if ResourceNameToGet == "Tree" :
+						GameManager.Wood += HeldresourcesAmount
+					elif ResourceNameToGet == "Stone":
+						GameManager.Stone += HeldresourcesAmount
+					elif ResourceNameToGet == "Iron":
+						GameManager.Iron += HeldresourcesAmount
+
 					HeldresourcesAmount = 0
 					if runOnce:
 						runOnce = false
@@ -88,4 +120,4 @@ func _process(delta: float) -> void:
 						await get_tree().create_timer(2.0).timeout
 						runOnce = true
 					CurrentTask = Task.Searching
-	$Label3D.text = str(CurrentTask)
+	$Label3D.text = str(HeldresourcesAmount)
