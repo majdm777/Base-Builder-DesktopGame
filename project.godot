@@ -26,6 +26,7 @@ Tree=""
 NavMesh=""
 building=""
 StockPile=""
+Stone=""
 
 [input]
 

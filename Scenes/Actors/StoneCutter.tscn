@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://cdlanlrd576o8"]
+[gd_scene load_steps=4 format=3 uid="uid://dkijeym8t75bl"]
 
-[ext_resource type="Script" uid="uid://bkvy310wey6d3" path="res://gd/ResourceGatherer.gd" id="1_tvp7j"]
+[ext_resource type="Script" uid="uid://bkvy310wey6d3" path="res://gd/ResourceGatherer.gd" id="1_1p4xx"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_p5uw3"]
 
@@ -8,9 +8,10 @@
 
 [node name="WoodCutter" type="CharacterBody3D"]
 collision_mask = 2
-script = ExtResource("1_tvp7j")
-ResourceNameToGet = "Tree"
-ResourceGenerationAmount = 5
+script = ExtResource("1_1p4xx")
+ResourceNameToGet = "Stone"
+ResourceGenerationAmount = 10
+SPEED = 5.0
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)

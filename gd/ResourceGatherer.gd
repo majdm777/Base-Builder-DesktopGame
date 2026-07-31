@@ -26,7 +26,7 @@ var runOnce := true
 @onready var navigationAgent: NavigationAgent3D = $NavigationAgent3D
 
 
-const SPEED = 10.0
+@export var SPEED = 10.0
 
 
 func _ready() -> void:
@@ -86,13 +86,12 @@ func _process(delta: float) -> void:
 						if i.position.distance_to(position) < nearestStockPile.position.distance_to(position):
 							nearestStockPile = i
 				navigationAgent.target_position = nearestStockPile.get_node("SpawnPoint").global_position
-			#if Hut != null:
-				#navigationAgent.target_position = Hut
-				CurrentTask = Task.Walking
+			elif Hut != null:
+				navigationAgent.target_position = Hut
+			CurrentTask = Task.Walking
 
 		Task.Searching:
 			var resources = get_tree().get_nodes_in_group(ResourceNameToGet)
-			
 			if resources.size() > 0:
 				var nearestResourceObject = resources[0]
 				for i in resources:

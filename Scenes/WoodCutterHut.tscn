@@ -3,7 +3,7 @@
 [ext_resource type="Material" path="res://Assets/Home/roof.material" id="1"]
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_hd0yy"]
 [ext_resource type="Material" path="res://Assets/Home/border.material" id="2"]
-[ext_resource type="PackedScene" uid="uid://cdlanlrd576o8" path="res://Scenes/WoodCutter.tscn" id="2_18i1t"]
+[ext_resource type="PackedScene" uid="uid://cdlanlrd576o8" path="res://Scenes/Actors/WoodCutter.tscn" id="2_18i1t"]
 [ext_resource type="Material" path="res://Assets/Home/door.material" id="3"]
 [ext_resource type="Material" path="res://Assets/Home/window.material" id="4"]
 [ext_resource type="Material" path="res://Assets/Home/_defaultMat.material" id="5"]

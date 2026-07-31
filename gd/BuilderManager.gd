@@ -2,14 +2,18 @@ extends Node3D
 
 
 
-var WoodCutterHut : PackedScene = ResourceLoader.load("res://Assets/WoodCutters.tscn")
-var StoneCutterhut : PackedScene = ResourceLoader.load("res://Assets/StoneMasons.tscn")
-var StockPile : PackedScene = ResourceLoader.load("res://Assets/Stockpile.tscn")
-var Wall : PackedScene = ResourceLoader.load("res://Assets/wallNarrow.tscn")
-var CornerWall : PackedScene = ResourceLoader.load("res://Assets/wallNarrowCorner.tscn")
-var GateWall : PackedScene = ResourceLoader.load("res://Assets/wallNarrowGate.tscn")
-var Orchard : PackedScene = ResourceLoader.load("res://Assets/Orchard.tscn")
-var House : PackedScene = ResourceLoader.load("res://Assets/House.tscn")
+var WoodCutterHut : PackedScene = ResourceLoader.load("res://Scenes/WoodCutterHut.tscn")
+var StoneCutterhut : PackedScene = ResourceLoader.load("res://Scenes/StoneMasons.tscn")
+var StockPile : PackedScene = ResourceLoader.load("res://Scenes/Stockpile.tscn")
+
+var Wall : PackedScene = ResourceLoader.load("res://Scenes/wallNarrow.tscn")
+var CornerWall : PackedScene = ResourceLoader.load("res://Scenes/wallNarrowCorner.tscn")
+var GateWall : PackedScene = ResourceLoader.load("res://Scenes/wallNarrowGate.tscn")
+
+var Orchard : PackedScene = ResourceLoader.load("res://Scenes/Orchard.tscn")
+var Granery : PackedScene = ResourceLoader.load("res://Scenes/Granery.tscn")
+
+var House : PackedScene = ResourceLoader.load("res://Scenes/House.tscn")
 
 var AbleToBuild : bool = true
 
@@ -65,14 +69,30 @@ func charge_object(obj):
 	GameManager.Iron -= obj.IronCost
 	GameManager.Gold -= obj.GoldCost
 	
-
+#industry 
 func SpawnWoodCutterHut():
 	SpawnObj(WoodCutterHut)
-
 func SpawnStoneCutterHut():
 	SpawnObj(StoneCutterhut)
 func SpawnStockPile():
 	SpawnObj(StockPile)
+func SpawnIronCutterHut():
+	pass
+#Population
+func SpawnHouse():
+	SpawnObj(House)
+#Food
+func SpawnGranery():
+	SpawnObj(Granery)
+func SpawnOrchard():
+	SpawnObj(Orchard)
+#Wall
+func SpawnWall():
+	SpawnObj(Wall)
+func SpawnWallCorner():
+	SpawnObj(CornerWall)
+func SpawnWallGate():
+	SpawnObj(GateWall)
 
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:

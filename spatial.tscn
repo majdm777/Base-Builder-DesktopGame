@@ -1,8 +1,8 @@
-[gd_scene load_steps=12 format=3 uid="uid://chq2od8rbuscf"]
+[gd_scene load_steps=14 format=3 uid="uid://chq2od8rbuscf"]
 
 [ext_resource type="Script" uid="uid://beokcq0705qe6" path="res://gd/camera_3d.gd" id="1_3m5f8"]
 [ext_resource type="Script" uid="uid://b8khwxixwh2cl" path="res://gd/InterfaceManager.gd" id="2_ne8tm"]
-[ext_resource type="PackedScene" uid="uid://saki4syyordm" path="res://Assets/WoodCutters.tscn" id="3_m7tst"]
+[ext_resource type="PackedScene" uid="uid://saki4syyordm" path="res://Scenes/WoodCutterHut.tscn" id="3_m7tst"]
 [ext_resource type="Script" uid="uid://bgkfqruk4ll3y" path="res://gd/MouseArea2D.gd" id="4_hjq85"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m7tst"]
@@ -21,6 +21,10 @@ polygons = [PackedInt32Array(1, 0, 2), PackedInt32Array(2, 0, 3), PackedInt32Arr
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_hjq85"]
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_c07jr"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_hjq85"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_c07jr"]
 
 [node name="spatial" type="Node3D"]
 transform = Transform3D(0.999999, 0.0014776, 0.000273023, -0.00147749, 0.999999, -0.000393963, -0.000273605, 0.000393559, 1, 0, 0, 0)
@@ -160,14 +164,24 @@ current_tab = 0
 layout_mode = 2
 metadata/_tab_index = 0
 
+[node name="BuildStockPileButton" type="Button" parent="Control/TabContainer/Huts"]
+layout_mode = 2
+text = "Stock Pile
+"
+
 [node name="BuildWoodCutterButton" type="Button" parent="Control/TabContainer/Huts"]
 layout_mode = 2
 text = "WoodCutterhut
 "
 
-[node name="BuildStockPileButton" type="Button" parent="Control/TabContainer/Huts"]
+[node name="BuildIronCutterHut" type="Button" parent="Control/TabContainer/Huts"]
 layout_mode = 2
-text = "Stock Pile
+text = "Iron Cutter Hut
+"
+
+[node name="buildStoneCutterHut" type="Button" parent="Control/TabContainer/Huts"]
+layout_mode = 2
+text = "Stone Cutter Hut
 "
 
 [node name="Food" type="HBoxContainer" parent="Control/TabContainer"]
@@ -175,9 +189,50 @@ visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 
-[node name="BuildWoodCutterButton" type="Button" parent="Control/TabContainer/Food"]
+[node name="BuildGranery" type="Button" parent="Control/TabContainer/Food"]
 layout_mode = 2
-text = "WoodCutterhut
+text = "Granery
+
+"
+
+[node name="BuildOrchard" type="Button" parent="Control/TabContainer/Food"]
+layout_mode = 2
+text = "Orchard
+
+"
+
+[node name="Population" type="HBoxContainer" parent="Control/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="BuildHouse" type="Button" parent="Control/TabContainer/Population"]
+layout_mode = 2
+text = "House "
+
+[node name="Walls" type="HBoxContainer" parent="Control/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="BuildWallNarrow2" type="Button" parent="Control/TabContainer/Walls"]
+layout_mode = 2
+text = "Norrow Wall
+
+"
+
+[node name="BuildWallNarrowCorner" type="Button" parent="Control/TabContainer/Walls"]
+layout_mode = 2
+text = "Corner Narrow Wall
+
+
+"
+
+[node name="BuildWallNarrowGate" type="Button" parent="Control/TabContainer/Walls"]
+layout_mode = 2
+text = "Norrow Gate Wall
+
+
 "
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
@@ -245,9 +300,27 @@ shape = SubResource("CylinderShape3D_hjq85")
 transform = Transform3D(0.994279, -3.4197e-09, 5.82077e-11, 3.84333e-11, 8.4559, 0, 5.82077e-11, -9.31323e-10, 0.998473, -0.0122946, 8.32126, -0.00327827)
 mesh = SubResource("CylinderMesh_c07jr")
 
+[node name="StonePile" type="StaticBody3D" parent="NavigationRegion3D" groups=["Stone"]]
+transform = Transform3D(1, 4.66827e-12, -3.49246e-10, 4.59721e-12, 1, 3.20142e-10, 3.7835e-10, -3.49246e-10, 1, 35.068, 0.00861142, -30.4171)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D/StonePile"]
+transform = Transform3D(6.71463, 1.71539e-10, 3.49246e-10, -1.22324e-07, 1.05575, -8.42847e-08, 1.97906e-09, 0, 5.8302, 0, 0, 0)
+mesh = SubResource("CylinderMesh_hjq85")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/StonePile"]
+transform = Transform3D(6.71463, 5.51594e-11, 4.65661e-10, -1.22324e-07, 1.05575, -8.42847e-08, 2.21189e-09, -2.91038e-11, 5.8302, 0, 0, 0)
+shape = SubResource("CylinderShape3D_c07jr")
+
 [connection signal="area_entered" from="Control/Area2D" to="Control" method="_on_area_2d_area_entered"]
 [connection signal="area_exited" from="Control/Area2D" to="Control" method="_on_area_2d_area_exited"]
+[connection signal="button_down" from="Control/TabContainer/Huts/BuildStockPileButton" to="Control" method="_on_build_stock_pile_button_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Huts/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_button_down"]
 [connection signal="toggled" from="Control/TabContainer/Huts/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_toggled"]
-[connection signal="button_down" from="Control/TabContainer/Huts/BuildStockPileButton" to="Control" method="_on_build_stock_pile_button_button_down"]
-[connection signal="button_down" from="Control/TabContainer/Food/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Huts/BuildIronCutterHut" to="Control" method="_on_build_iron_cutter_hut_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Huts/buildStoneCutterHut" to="Control" method="_on_build_stone_cutter_hut_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Food/BuildGranery" to="Control" method="_on_build_granery_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Food/BuildOrchard" to="Control" method="_on_build_orchard_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Population/BuildHouse" to="Control" method="_on_build_house_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Walls/BuildWallNarrow2" to="Control" method="_on_build_wall_narrow_2_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Walls/BuildWallNarrowCorner" to="Control" method="_on_build_wall_narrow_corner_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Walls/BuildWallNarrowGate" to="Control" method="_on_build_wall_narrow_gate_button_down"]

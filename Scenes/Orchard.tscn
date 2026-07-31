@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=4 uid="uid://syv4ufpg6ywj"]
+[gd_scene load_steps=10 format=4 uid="uid://syv4ufpg6ywj"]
 
 [ext_resource type="Material" path="res://Assets/Home/_defaultMat.material" id="1"]
+[ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_uhofj"]
 [ext_resource type="Material" path="res://Assets/Home/roof.material" id="2"]
 [ext_resource type="Material" path="res://Assets/Home/door.material" id="3"]
 [ext_resource type="Material" path="res://Assets/Home/window.material" id="5"]
@@ -72,6 +73,7 @@ _surfaces = [{
 
 [node name="Orchard" type="StaticBody3D" groups=["building"]]
 transform = Transform3D(10.304, 0, 0, 0, 10.304, 0, 0, 0, 10.304, 0, 0, 0)
+script = ExtResource("1_uhofj")
 
 [node name="CollisionShape" type="CollisionShape3D" parent="."]
 shape = SubResource("2")
