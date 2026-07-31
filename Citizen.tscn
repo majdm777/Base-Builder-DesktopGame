@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://b6famcb1u1yh2"]
+[gd_scene load_steps=4 format=3 uid="uid://b6famcb1u1yh2"]
+
+[ext_resource type="Script" uid="uid://usk84tteykx1" path="res://gd/citizen.gd" id="1_14c6f"]
 
 [sub_resource type="CapsuleMesh" id="1"]
 
 [sub_resource type="CapsuleShape3D" id="2"]
 
 [node name="Citizen" type="CharacterBody3D"]
+script = ExtResource("1_14c6f")
 
 [node name="CSGMesh" type="CSGMesh3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.52224, -6.65393e-08)

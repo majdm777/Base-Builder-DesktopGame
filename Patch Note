@@ -17,3 +17,5 @@ V0.0.1.6 :
 V0.0.1.7 : added everyobject available with their interface Note( not faunctional yet)
 
 V0.0.1.8 : added population system (note: the objects are not asigned to the real cost ) inc Pop , Dec Pop system
+
+V0.0.1.9: added a citizen with 2 tasks.walking.sitting . and set up the population spawnpoint
