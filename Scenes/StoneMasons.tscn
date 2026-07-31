@@ -75,6 +75,7 @@ transform = Transform3D(11.26, 0, 0, 0, 11.26, 0, 0, 0, 11.26, 0, 0, 0)
 script = ExtResource("1_tk7lg")
 WoodCost = 10.0
 StoneCost = 5.0
+SpawnActor = true
 Actor = ExtResource("2_q0cva")
 
 [node name="tmpParent" type="Node3D" parent="."]

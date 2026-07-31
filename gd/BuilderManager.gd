@@ -40,7 +40,7 @@ func _process(delta: float) -> void:
 				round(cursor_pos.z)
 			)
 			currentSpawnable.ActiveBuildableObject=true
-		if AbleToBuild && Can_Afford(currentSpawnable) :
+		if AbleToBuild && Can_Afford(currentSpawnable) && GameManager.AvlPopulation >= currentSpawnable.PopulationCost  :
 			if Input.is_action_just_pressed("LeftMouseDown"):
 				var obj = currentSpawnable.duplicate()
 				get_tree().current_scene.add_child(obj)
@@ -48,6 +48,7 @@ func _process(delta: float) -> void:
 				obj.runSpawn()
 				obj.spawned = true 
 				charge_object(obj)
+				GameManager.AvlPopulation -= obj.PopulationCost
 				obj.position = currentSpawnable.position
 				#get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
 	pass

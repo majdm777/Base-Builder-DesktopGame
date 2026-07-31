@@ -76,7 +76,6 @@ data = PackedVector3Array(-0.6551, 0.34, 0.2959, -0.703, 0.3256, 0.2959, -0.703,
 transform = Transform3D(12.554, 0, 0, 0, 12.554, 0, 0, 0, 12.554, 0, 0, 0)
 script = ExtResource("6")
 WoodCost = 15.0
-SpawnActor = false
 
 [node name="tmpParent" type="Node3D" parent="."]
 

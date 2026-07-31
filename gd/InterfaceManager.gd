@@ -10,6 +10,8 @@ func _process(delta: float) -> void:
 	$ResourcesBox/GoldLabel/GoldCountLabel.text = str(GameManager.Gold, " G")
 	$ResourcesBox/IronLabel/IronCountLabel.text = str(GameManager.Iron, " I")
 	$ResourcesBox/StoneLabel/StoneCountLabel.text = str(GameManager.Stone, " S")
+	$PopulationBox/AlvPop/AvlPopValue.text = str(GameManager.AvlPopulation)
+	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + " / " + str(GameManager.MaxPopulation)
 	pass
 
 
@@ -64,5 +66,5 @@ func _on_build_wall_narrow_corner_button_down() -> void:
 
 
 func _on_build_wall_narrow_gate_button_down() -> void:
-	BuilderManager.SpawnWallGate()
+	#BuilderManager.SpawnWallGate()
 	pass # Replace with function body.

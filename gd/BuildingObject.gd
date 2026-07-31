@@ -5,12 +5,14 @@ extends StaticBody3D
 @export var IronCost : float 
 @export var GoldCost : float 
 @export var PopulationCost : int
+@export var IncreasePopcap : bool = false
+@export var IncreaseCapAmount := 5
 
 
 var object : Array 
 var ActiveBuildableObject : bool
 var spawned : bool = false
-@export var SpawnActor : bool = true
+@export var SpawnActor : bool = false
 @export var Actor : PackedScene
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -30,6 +32,8 @@ func runSpawn():
 		get_tree().root.add_child(actor)
 		actor.global_position = $SpawnPoint.global_position
 		actor.Hut = $SpawnPoint.global_position
+	if IncreasePopcap :
+		GameManager.MaxPopulation += IncreaseCapAmount
 func _on_area_area_entered(area: Area3D) -> void:
 	if(ActiveBuildableObject):
 		BuilderManager.AbleToBuild = false

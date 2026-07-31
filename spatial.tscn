@@ -64,100 +64,140 @@ layout_mode = 3
 anchors_preset = 0
 offset_left = 11.0
 offset_top = -23.0
-offset_right = 211.0
+offset_right = 120.0
 offset_bottom = 74.0
 
 [node name="WoodLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 8.0
+offset_left = -8.0
 offset_top = -3.0
-offset_right = 108.0
+offset_right = 47.0
 offset_bottom = 20.0
 text = "Wood:"
 
 [node name="WoodCountLabel" type="Label" parent="Control/ResourcesBox/WoodLabel"]
 layout_mode = 0
-offset_left = 57.0
+offset_left = 50.0
 offset_top = 1.0
-offset_right = 157.0
+offset_right = 100.0
 offset_bottom = 24.0
-text = "0 W"
+text = "1000 W"
 
 [node name="StoneLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 8.0
+offset_left = -8.0
 offset_top = 18.0
-offset_right = 108.0
+offset_right = 47.0
 offset_bottom = 41.0
 text = "Stone:"
 
 [node name="StoneCountLabel" type="Label" parent="Control/ResourcesBox/StoneLabel"]
 layout_mode = 0
-offset_left = 57.0
+offset_left = 50.0
 offset_top = 1.0
-offset_right = 157.0
+offset_right = 100.0
 offset_bottom = 24.0
-text = "0 S"
+text = "1000 W"
 
 [node name="IronLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 8.0
+offset_left = -8.0
 offset_top = 38.0
-offset_right = 108.0
+offset_right = 47.0
 offset_bottom = 61.0
 text = "Iron:"
 
 [node name="IronCountLabel" type="Label" parent="Control/ResourcesBox/IronLabel"]
 layout_mode = 0
-offset_left = 57.0
+offset_left = 50.0
 offset_top = 1.0
-offset_right = 157.0
+offset_right = 100.0
 offset_bottom = 24.0
-text = "0 I"
+text = "1000 W"
 
 [node name="GoldLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 8.0
+offset_left = -8.0
 offset_top = 59.0
-offset_right = 108.0
+offset_right = 47.0
 offset_bottom = 82.0
 text = "Gold:"
 
 [node name="GoldCountLabel" type="Label" parent="Control/ResourcesBox/GoldLabel"]
 layout_mode = 0
-offset_left = 57.0
+offset_left = 50.0
 offset_top = 1.0
-offset_right = 157.0
+offset_right = 100.0
 offset_bottom = 24.0
-text = "0 G"
+text = "1000 W"
 
 [node name="FoodLabel" type="Label" parent="Control/ResourcesBox"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 8.0
+offset_left = -8.0
 offset_top = 80.0
-offset_right = 108.0
+offset_right = 47.0
 offset_bottom = 103.0
 text = "Food:"
 
 [node name="FoodCountLabel" type="Label" parent="Control/ResourcesBox/FoodLabel"]
 layout_mode = 0
-offset_left = 57.0
+offset_left = 50.0
 offset_top = 1.0
-offset_right = 157.0
+offset_right = 100.0
 offset_bottom = 24.0
-text = "0 F"
+text = "1000 W"
+
+[node name="PopulationBox" type="Control" parent="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 133.0
+offset_top = -22.0
+offset_right = 248.0
+offset_bottom = 75.0
+
+[node name="Pop" type="Label" parent="Control/PopulationBox"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = -8.0
+offset_top = -3.0
+offset_right = 47.0
+offset_bottom = 20.0
+text = "Pop"
+
+[node name="PopValue" type="Label" parent="Control/PopulationBox/Pop"]
+layout_mode = 0
+offset_left = 68.0
+offset_right = 118.0
+offset_bottom = 23.0
+text = "1/4"
+
+[node name="AlvPop" type="Label" parent="Control/PopulationBox"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = -8.0
+offset_top = 18.0
+offset_right = 47.0
+offset_bottom = 41.0
+text = "AVLPOP"
+
+[node name="AvlPopValue" type="Label" parent="Control/PopulationBox/AlvPop"]
+layout_mode = 0
+offset_left = 68.0
+offset_right = 124.0
+offset_bottom = 23.0
+text = "1"
 
 [node name="TabContainer" type="TabContainer" parent="Control"]
 layout_mode = 0
-offset_left = 158.0
-offset_top = -33.0
-offset_right = 1156.0
-offset_bottom = 81.0
+offset_left = 314.0
+offset_top = -32.0
+offset_right = 1152.0
+offset_bottom = 82.0
 current_tab = 0
 
 [node name="Huts" type="HBoxContainer" parent="Control/TabContainer"]
