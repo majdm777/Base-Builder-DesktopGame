@@ -15,7 +15,10 @@ var FirePitPos : Marker3D
 var CurrentTask = Task.Walking
 
 func _ready() -> void:
-	navigation.target_position = FirePitPos.position
+	
+	pass
+func spawn_Object_Setup():
+	navigation.target_position = FirePitPos.global_position
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

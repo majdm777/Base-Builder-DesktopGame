@@ -48,7 +48,7 @@ func _process(delta: float) -> void:
 				obj.runSpawn()
 				obj.spawned = true 
 				charge_object(obj)
-				GameManager.AvlPopulation -= obj.PopulationCost
+				GameManager.remove_citizen(obj.PopulationCost)
 				obj.position = currentSpawnable.position
 				#get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
 	pass
