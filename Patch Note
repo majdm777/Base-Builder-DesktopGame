@@ -22,3 +22,4 @@ V0.0.1.9: added a citizen with 2 tasks.walking.sitting . and set up the populati
 
 V0.0.1.10: adding/removing subchildren of objects . added a marker3d so the available citizen can spawn at it 
 
+V0.0.1.11: unselect an object and change from building state to playing state

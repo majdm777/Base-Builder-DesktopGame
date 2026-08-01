@@ -51,6 +51,10 @@ func _process(delta: float) -> void:
 				GameManager.remove_citizen(obj.PopulationCost)
 				obj.position = currentSpawnable.position
 				#get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
+		if Input.is_action_just_pressed("RightMouseDown"):
+			currentSpawnable.queue_free()
+			currentSpawnable = null
+			GameManager.Current_State = GameManager.State.play
 	pass
 
 func Can_Afford(obj) -> bool:
