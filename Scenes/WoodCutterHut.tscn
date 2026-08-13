@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4 uid="uid://saki4syyordm"]
+[gd_scene format=4 uid="uid://saki4syyordm"]
 
 [ext_resource type="Material" path="res://Assets/Home/roof.material" id="1"]
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_hd0yy"]
@@ -70,33 +70,34 @@ _surfaces = [{
 [sub_resource type="BoxShape3D" id="2"]
 size = Vector3(1.956, 1.102, 1.168)
 
-[node name="WoodCuttersHut" type="StaticBody3D" groups=["building"]]
+[node name="WoodCuttersHut" type="StaticBody3D" unique_id=1084691016 groups=["building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 collision_layer = 129
 collision_mask = 129
 script = ExtResource("1_hd0yy")
 WoodCost = 5.0
 PopulationCost = 1
+IncreaseCapAmount = 0
 SpawnActor = true
 Actor = ExtResource("2_18i1t")
 
-[node name="tmpParent" type="Node3D" parent="."]
+[node name="tmpParent" type="Node3D" parent="." unique_id=1900327228]
 
-[node name="house_type08" type="MeshInstance3D" parent="tmpParent"]
+[node name="house_type08" type="MeshInstance3D" parent="tmpParent" unique_id=1258573928]
 mesh = SubResource("1")
 
-[node name="house_type09" type="MeshInstance3D" parent="tmpParent"]
+[node name="house_type09" type="MeshInstance3D" parent="tmpParent" unique_id=1665414778]
 mesh = SubResource("1")
 
-[node name="SpawnPoint" type="Marker3D" parent="."]
+[node name="SpawnPoint" type="Marker3D" parent="." unique_id=1116528273]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.191062, -1.19209e-07, 0.646975)
 
-[node name="Area" type="Area3D" parent="." groups=["building"]]
+[node name="Area" type="Area3D" parent="." unique_id=2085164279 groups=["building"]]
 
-[node name="CollisionShape" type="CollisionShape3D" parent="Area"]
+[node name="CollisionShape" type="CollisionShape3D" parent="Area" unique_id=1626751618]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.527864, -0.0593569)
 shape = SubResource("2")
 
-[node name="CollisionShape" type="CollisionShape3D" parent="."]
+[node name="CollisionShape" type="CollisionShape3D" parent="." unique_id=909158161]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.527864, -0.0593569)
 shape = SubResource("2")

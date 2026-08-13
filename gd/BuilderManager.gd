@@ -44,6 +44,7 @@ func _process(delta: float) -> void:
 			if Input.is_action_just_pressed("LeftMouseDown"):
 				var obj = currentSpawnable.duplicate()
 				get_tree().current_scene.add_child(obj)
+				print("Placed object groups: ", obj.get_groups())
 				obj.ActiveBuildableObject = false
 				obj.runSpawn()
 				obj.spawned = true 
@@ -55,6 +56,19 @@ func _process(delta: float) -> void:
 			currentSpawnable.queue_free()
 			currentSpawnable = null
 			GameManager.Current_State = GameManager.State.play
+	
+	if GameManager.Current_State == GameManager.State.destroying:
+		if Input.is_action_just_released("LeftMouseDown"):
+			var camera = get_viewport().get_camera_3d()
+			var mouse_pos = get_viewport().get_mouse_position()
+			var from = camera.project_ray_origin(mouse_pos)
+			var to = from + camera.project_ray_normal(mouse_pos) * 1000.0
+			var spaceState=get_world_3d().direct_space_state
+			var result = spaceState.intersect_ray(
+						PhysicsRayQueryParameters3D.create(from, to))
+
+			if result and result.collider.is_in_group("building"):
+				result.collider.run_despawn()
 	pass
 
 func Can_Afford(obj) -> bool:
@@ -107,8 +121,8 @@ func SpawnObj(obj: PackedScene):
 	
 
 	# Prevent the preview from blocking the ray
-	currentSpawnable.collision_layer = 0
-	currentSpawnable.collision_mask = 0
+	currentSpawnable.collision_layer = 1
+	currentSpawnable.collision_mask = 1
 
 	get_tree().current_scene.add_child(currentSpawnable)
 

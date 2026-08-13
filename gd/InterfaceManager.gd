@@ -68,3 +68,8 @@ func _on_build_wall_narrow_corner_button_down() -> void:
 func _on_build_wall_narrow_gate_button_down() -> void:
 	#BuilderManager.SpawnWallGate()
 	pass # Replace with function body.
+
+
+func _on_destory_mode_button_down() -> void:
+	GameManager.Current_State = GameManager.State.destroying
+	pass # Replace with function body.

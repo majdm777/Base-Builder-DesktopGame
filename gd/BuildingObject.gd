@@ -14,6 +14,8 @@ var ActiveBuildableObject : bool
 var spawned : bool = false
 @export var SpawnActor : bool = false
 @export var Actor : PackedScene
+
+var CurrentActor
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	$Area.area_entered.connect(_on_area_area_entered)
@@ -28,12 +30,21 @@ func _process(delta: float) -> void:
 
 func runSpawn():
 	if SpawnActor:
-		var actor = Actor.instantiate()
-		get_tree().root.add_child(actor)
-		actor.global_position = $SpawnPoint.global_position
-		actor.Hut = $SpawnPoint.global_position
+		CurrentActor = Actor.instantiate()
+		get_tree().root.add_child(CurrentActor)
+		CurrentActor.global_position = $SpawnPoint.global_position
+		CurrentActor.Hut = $SpawnPoint.global_position
 	if IncreasePopcap :
 		GameManager.MaxPopulation += IncreaseCapAmount
+		
+func run_despawn():
+	if SpawnActor and CurrentActor:
+		CurrentActor.queue_free()
+	GameManager.population -= PopulationCost
+	if IncreaseCapAmount:
+		GameManager.population -= IncreaseCapAmount
+	queue_free()
+
 func _on_area_area_entered(area: Area3D) -> void:
 	if(ActiveBuildableObject):
 		BuilderManager.AbleToBuild = false
