@@ -58,6 +58,9 @@ func _process(delta: float) -> void:
 			GameManager.Current_State = GameManager.State.play
 	
 	if GameManager.Current_State == GameManager.State.destroying:
+		if is_instance_valid(currentSpawnable):
+			currentSpawnable.queue_free()
+			currentSpawnable = null
 		if Input.is_action_just_released("LeftMouseDown"):
 			var camera = get_viewport().get_camera_3d()
 			var mouse_pos = get_viewport().get_mouse_position()
