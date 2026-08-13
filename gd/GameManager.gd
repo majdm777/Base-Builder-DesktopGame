@@ -11,11 +11,13 @@ var Current_State = State.play
 var Wood : float = 20.0
 var Stone : float = 20
 var Iron : float = 20
-var Gold : float = 20
+var Gold : int = 20
 
 var population : int = 0
 var MaxPopulation : int = 4
 var AvlPopulation : int = 0
+
+var taxRate := 1
 
 var Citizen : PackedScene
 
@@ -24,9 +26,11 @@ var OccupiedFireSpaces : Array
 
 var Happiness := 1
 
+var foodbool := true
+
 var spawnReady := true 
 
-var Food : float =20
+var Food : int =4
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	Citizen = ResourceLoader.load("res://Citizen.tscn")
@@ -49,10 +53,31 @@ func _process(delta: float) -> void:
 		AvlPopulation +=1
 	elif  spawnReady && Happiness < 0 :
 		spawnReady = false
-		await get_tree().create_timer(60).timeout
+		await get_tree().create_timer(3).timeout
 		spawnReady = true
 		if AvlPopulation >0:
-			AvlPopulation -= 1
+			remove_citizen(1)
+	if foodbool:
+		foodbool = false
+		await get_tree().create_timer(6.0).timeout
+		Food -= population
+		if Food < 0:
+			Food = 0
+		foodbool = true
+		Gold += round(population * taxRate)
+		var happinessValue = 0
+		if Food > 0:
+			happinessValue +=1
+		else:
+			happinessValue-=10
+		if taxRate > 0:
+			happinessValue -=round(taxRate/2)
+		Happiness += happinessValue
+		if Happiness >=2:
+			Happiness = 2
+		elif Happiness <= -2:
+			Happiness =-2
+	pass
 	pass
 	
 func remove_citizen(Cost : int):
@@ -62,6 +87,7 @@ func remove_citizen(Cost : int):
 		delete_child(temp)
 		OccupiedFireSpaces.remove_at(0)
 		AvlPopulation -=1
+		population -=1
 		
 
 func delete_child(node):
