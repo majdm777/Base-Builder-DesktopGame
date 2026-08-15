@@ -32,8 +32,12 @@ func runSpawn():
 	if SpawnActor:
 		CurrentActor = Actor.instantiate()
 		CurrentActor.Hut = $SpawnPoint
+		await get_tree().create_timer(2).timeout
 		get_tree().root.add_child(CurrentActor)
 		CurrentActor.global_position = $SpawnPoint.global_position
+		
+		var nav_map:RID = CurrentActor.get_world_3d().navigation_map
+		var closest_point :Vector3 = NavigationServer3D.map_get_closest_point(nav_map,$SpawnPoint.global_position)
 		
 	if IncreasePopcap :
 		GameManager.MaxPopulation += IncreaseCapAmount

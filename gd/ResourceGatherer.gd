@@ -87,7 +87,7 @@ func _process(delta: float) -> void:
 							nearestStockPile = i
 				navigationAgent.target_position = nearestStockPile.get_node("SpawnPoint").global_position
 			elif Hut != null:
-				navigationAgent.target_position = Hut
+				navigationAgent.target_position = Hut.global_position
 			CurrentTask = Task.Walking
 
 		Task.Searching:

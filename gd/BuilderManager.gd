@@ -43,7 +43,8 @@ func _process(delta: float) -> void:
 		if AbleToBuild && Can_Afford(currentSpawnable) && GameManager.AvlPopulation >= currentSpawnable.PopulationCost  :
 			if Input.is_action_just_pressed("LeftMouseDown"):
 				var obj = currentSpawnable.duplicate()
-				get_tree().current_scene.add_child(obj)
+				#get_tree().current_scene.add_child(obj)
+				get_tree().current_scene.get_node("NavigationRegion3D").add_child(obj)
 				print("Placed object groups: ", obj.get_groups())
 				obj.ActiveBuildableObject = false
 				obj.runSpawn()
@@ -51,7 +52,8 @@ func _process(delta: float) -> void:
 				charge_object(obj)
 				GameManager.remove_citizen(obj.PopulationCost)
 				obj.position = currentSpawnable.position
-				#get_tree().get_nodes_in_group("NavMesh")[0].bake_navigation_mesh(true)
+				await get_tree().physics_frame
+				get_tree().get_nodes_in_group("NavRegion")[0].bake_navigation_mesh(true)
 		if Input.is_action_just_pressed("RightMouseDown"):
 			currentSpawnable.queue_free()
 			currentSpawnable = null
@@ -73,6 +75,9 @@ func _process(delta: float) -> void:
 
 			if result and result.collider.is_in_group("building"):
 				result.collider.run_despawn()
+				await get_tree().physics_frame
+				get_tree().get_nodes_in_group("NavRegion")[0].bake_navigation_mesh(true)
+
 	pass
 
 func Can_Afford(obj) -> bool:
