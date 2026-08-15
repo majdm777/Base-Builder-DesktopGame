@@ -58,7 +58,6 @@ func _physics_process(delta: float) -> void:
 
 
 func _process(delta: float) -> void:
-	print(foodIndex)
 	var spawnedGranery = []
 	var checked =get_tree().get_nodes_in_group("Granery")
 	if checked.size() > 0:

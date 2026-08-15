@@ -56,7 +56,8 @@ func _process(delta: float) -> void:
 			currentSpawnable.queue_free()
 			currentSpawnable = null
 			GameManager.Current_State = GameManager.State.play
-	
+		if Input.is_action_just_pressed("rotation"):
+			currentSpawnable.rotation_degrees += Vector3(0,90,0)
 	if GameManager.Current_State == GameManager.State.destroying:
 		if is_instance_valid(currentSpawnable):
 			currentSpawnable.queue_free()

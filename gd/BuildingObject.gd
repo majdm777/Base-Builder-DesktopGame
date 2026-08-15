@@ -6,7 +6,7 @@ extends StaticBody3D
 @export var GoldCost : float 
 @export var PopulationCost : int
 @export var IncreasePopcap : bool = false
-@export var IncreaseCapAmount := 5
+@export var IncreaseCapAmount := 0
 
 
 var object : Array 
