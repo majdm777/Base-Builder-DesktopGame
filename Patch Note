@@ -35,3 +35,5 @@ V0.0.1.15: added the rotation key . you can now rotate the spawnablbe object on 
 V1.0.0.0: tutorial finished
 
 V1.0.1.1 : fixed the collision between the actors and building and the navigationResgion is updated every time we place an item or deleting if 
+
+V1.0.1.1.1: fix the baking issue after placing two object instantly 
