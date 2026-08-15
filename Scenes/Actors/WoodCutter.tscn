@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cdlanlrd576o8"]
+[gd_scene format=3 uid="uid://cdlanlrd576o8"]
 
 [ext_resource type="Script" uid="uid://bkvy310wey6d3" path="res://gd/ResourceGatherer.gd" id="1_y7yxl"]
 
@@ -6,23 +6,23 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jq63x"]
 
-[node name="WoodCutter" type="CharacterBody3D"]
+[node name="WoodCutter" type="CharacterBody3D" unique_id=766743813]
 collision_mask = 2
 script = ExtResource("1_y7yxl")
 ResourceNameToGet = "Tree"
 ResourceGenerationAmount = 5
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=308992244]
 transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)
 mesh = SubResource("CapsuleMesh_p5uw3")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=119699263]
 transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)
 shape = SubResource("CapsuleShape3D_jq63x")
 
-[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=1903007098]
 
-[node name="Label3D" type="Label3D" parent="."]
+[node name="Label3D" type="Label3D" parent="." unique_id=1673071633]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.0895, 0)
 pixel_size = 0.05
 billboard = 1

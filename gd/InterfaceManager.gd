@@ -11,6 +11,7 @@ func _process(delta: float) -> void:
 	$ResourcesBox/IronLabel/IronCountLabel.text = str(GameManager.Iron, " I")
 	$ResourcesBox/StoneLabel/StoneCountLabel.text = str(GameManager.Stone, " S")
 	$PopulationBox/AlvPop/AvlPopValue.text = str(GameManager.AvlPopulation)
+	$PopulationBox/Hap/HapValue.text = str(GameManager.Happiness)
 	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + " / " + str(GameManager.MaxPopulation)
 	pass
 

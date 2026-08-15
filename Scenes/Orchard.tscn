@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=4 uid="uid://syv4ufpg6ywj"]
+[gd_scene format=4 uid="uid://syv4ufpg6ywj"]
 
 [ext_resource type="Material" path="res://Assets/Home/_defaultMat.material" id="1"]
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_uhofj"]
 [ext_resource type="Material" path="res://Assets/Home/roof.material" id="2"]
+[ext_resource type="PackedScene" uid="uid://c1mq8v8yvjujo" path="res://Scenes/Actors/OrchardWorker.tscn" id="2_210da"]
 [ext_resource type="Material" path="res://Assets/Home/door.material" id="3"]
 [ext_resource type="Material" path="res://Assets/Home/window.material" id="5"]
 [ext_resource type="Material" path="res://Assets/Home/border.material" id="6"]
@@ -71,51 +72,53 @@ _surfaces = [{
 
 [sub_resource type="CapsuleMesh" id="3"]
 
-[node name="Orchard" type="StaticBody3D" groups=["building"]]
+[node name="Orchard" type="StaticBody3D" unique_id=501545128 groups=["building"]]
 transform = Transform3D(10.304, 0, 0, 0, 10.304, 0, 0, 0, 10.304, 0, 0, 0)
 script = ExtResource("1_uhofj")
+WoodCost = 5.0
+SpawnActor = true
+Actor = ExtResource("2_210da")
 
-[node name="CollisionShape" type="CollisionShape3D" parent="."]
+[node name="CollisionShape" type="CollisionShape3D" parent="." unique_id=557808408]
 shape = SubResource("2")
 
-[node name="tmpParent" type="Node3D" parent="."]
+[node name="tmpParent" type="Node3D" parent="." unique_id=1540857039]
 
-[node name="house_type21" type="MeshInstance3D" parent="tmpParent"]
+[node name="house_type21" type="MeshInstance3D" parent="tmpParent" unique_id=1081362571]
 mesh = SubResource("1")
 
-[node name="Area" type="Area3D" parent="."]
+[node name="Area" type="Area3D" parent="." unique_id=1288489489]
 
-[node name="CollisionShape2" type="CollisionShape3D" parent="Area"]
+[node name="CollisionShape2" type="CollisionShape3D" parent="Area" unique_id=1626318310]
 shape = SubResource("2")
 
-[node name="SpawnPoint" type="Marker3D" parent="."]
+[node name="SpawnPoint" type="Marker3D" parent="." unique_id=1825824892]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00250366, -1.19209e-07, 0.478048)
 
-[node name="Resources" type="Node3D" parent="SpawnPoint"]
+[node name="Resources" type="Node3D" parent="SpawnPoint" unique_id=19610789]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00250366, 1.19209e-07, -0.478048)
 
-[node name="MeshInstance" type="MeshInstance3D" parent="SpawnPoint/Resources"]
+[node name="MeshInstance" type="MeshInstance3D" parent="SpawnPoint/Resources" unique_id=996598423]
 transform = Transform3D(0.101445, 0, 0, 0, -9.09306e-09, 0.208025, 0, -0.101445, -4.4343e-09, 0.750447, 0.226704, 0.198574)
-visible = false
 mesh = SubResource("3")
 
-[node name="MeshInstance2" type="MeshInstance3D" parent="SpawnPoint/Resources"]
+[node name="MeshInstance2" type="MeshInstance3D" parent="SpawnPoint/Resources" unique_id=387943057]
 transform = Transform3D(0.101445, 0, 0, 0, -9.09306e-09, 0.208025, 0, -0.101445, -4.4343e-09, 0.750447, 0.226704, -0.24092)
 mesh = SubResource("3")
 
-[node name="MeshInstance3" type="MeshInstance3D" parent="SpawnPoint/Resources"]
+[node name="MeshInstance3" type="MeshInstance3D" parent="SpawnPoint/Resources" unique_id=1972969]
 transform = Transform3D(0.101445, 0, 0, 0, -9.09306e-09, 0.208025, 0, -0.101445, -4.4343e-09, 1.24693, 0.226704, 0.198574)
 mesh = SubResource("3")
 
-[node name="MeshInstance4" type="MeshInstance3D" parent="SpawnPoint/Resources"]
+[node name="MeshInstance4" type="MeshInstance3D" parent="SpawnPoint/Resources" unique_id=729664049]
 transform = Transform3D(0.101445, 0, 0, 0, -9.09306e-09, 0.208025, 0, -0.101445, -4.4343e-09, 1.24693, 0.226704, -0.24092)
 mesh = SubResource("3")
 
-[node name="MeshInstance5" type="MeshInstance3D" parent="SpawnPoint/Resources"]
+[node name="MeshInstance5" type="MeshInstance3D" parent="SpawnPoint/Resources" unique_id=346048393]
 transform = Transform3D(0.101445, 0, 0, 0, -9.09306e-09, 0.208025, 0, -0.101445, -4.4343e-09, 1.74978, 0.226704, 0.198574)
 mesh = SubResource("3")
 
-[node name="MeshInstance6" type="MeshInstance3D" parent="SpawnPoint/Resources"]
+[node name="MeshInstance6" type="MeshInstance3D" parent="SpawnPoint/Resources" unique_id=1906591909]
 transform = Transform3D(0.101445, 0, 0, 0, -9.09306e-09, 0.208025, 0, -0.101445, -4.4343e-09, 1.74978, 0.226704, -0.24092)
 mesh = SubResource("3")
 
