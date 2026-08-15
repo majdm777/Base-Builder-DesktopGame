@@ -58,8 +58,9 @@ func _on_area_area_entered(area: Area3D) -> void:
 
 
 func _on_area_area_exited(area: Area3D) -> void:
-	if(ActiveBuildableObject):
-		object.remove_at(object.find(area))
+	if ActiveBuildableObject:
+		if not object.has(area):
+			return  # was never tracked, nothing to remove
+		object.erase(area)
 		if object.size() <= 0:
 			BuilderManager.AbleToBuild = true
-	pass # Replace with function body.
