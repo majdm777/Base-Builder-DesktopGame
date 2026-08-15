@@ -6,7 +6,7 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jq63x"]
 
-[node name="WoodCutter" type="CharacterBody3D" unique_id=419540081]
+[node name="orchardWorker" type="CharacterBody3D" unique_id=419540081]
 collision_mask = 2
 script = ExtResource("1_hv3a5")
 ResourceGenerationAmount = 2

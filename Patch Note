@@ -31,3 +31,9 @@ V0.0.1.13 : added happiness system and food consumption , if there is no food th
 V0.0.1.14 : added  the food production , edited the granery and the orchard actor .
 
 V0.0.1.15: added the rotation key . you can now rotate the spawnablbe object on the map with the R key.
+
+V1.0.0.0: tutorial finished
+
+V1.0.1.1 : fixed the collision between the actors and building and the navigationResgion is updated every time we place an item or deleting if 
+
+V1.0.1.1.1: fix the baking issue after placing two object instantly 

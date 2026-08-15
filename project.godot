@@ -31,6 +31,7 @@ NavMesh=""
 building=""
 StockPile=""
 Stone=""
+NavRegion=""
 
 [input]
 

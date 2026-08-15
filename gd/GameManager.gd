@@ -30,7 +30,7 @@ var foodbool := true
 
 var spawnReady := true 
 
-var Food : int =4
+var Food : int =5000
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	Citizen = ResourceLoader.load("res://Citizen.tscn")

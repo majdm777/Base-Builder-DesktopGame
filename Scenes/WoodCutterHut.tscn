@@ -70,14 +70,13 @@ _surfaces = [{
 [sub_resource type="BoxShape3D" id="2"]
 size = Vector3(1.956, 1.102, 1.168)
 
-[node name="WoodCuttersHut" type="StaticBody3D" unique_id=1084691016 groups=["building"]]
+[node name="WoodCuttersHut" type="StaticBody3D" unique_id=1084691016 groups=["NavMesh", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 collision_layer = 129
 collision_mask = 129
 script = ExtResource("1_hd0yy")
 WoodCost = 5.0
 PopulationCost = 1
-IncreaseCapAmount = 0
 SpawnActor = true
 Actor = ExtResource("2_18i1t")
 
@@ -90,7 +89,7 @@ mesh = SubResource("1")
 mesh = SubResource("1")
 
 [node name="SpawnPoint" type="Marker3D" parent="." unique_id=1116528273]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.191062, -1.19209e-07, 0.646975)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.191062, -1.19209e-07, 0.7160038)
 
 [node name="Area" type="Area3D" parent="." unique_id=2085164279 groups=["building"]]
 
