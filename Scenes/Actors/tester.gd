@@ -71,17 +71,13 @@ func _process(delta: float) -> void:
 
 	match CurrentTask:
 		Task.GettingResources:
-			if is_instance_valid(currentResource): 
-				if runOnce:
-					runOnce = false
-					# Simulate collecting resources
-					if is_instance_valid(currentResource):
-						await get_tree().create_timer(2.0).timeout
-						HeldresourcesAmount = currentResource._Harvest(ResourceGenerationAmount)
-					runOnce = true
-					CurrentTask = Task.Delivering
-			else: 
-				CurrentTask = Task.Searching
+			if runOnce:
+				runOnce = false
+				# Simulate collecting resources
+				await get_tree().create_timer(2.0).timeout
+				HeldresourcesAmount = currentResource._Harvest(ResourceGenerationAmount)
+				runOnce = true
+				CurrentTask = Task.Delivering
 
 		Task.Delivering:
 			#var stockpiles=get_tree().get_nodes_in_group("StockPile")
@@ -101,15 +97,11 @@ func _process(delta: float) -> void:
 			if resources.size() > 0:
 				var nearestResourceObject = resources[0]
 				for i in resources:
-					if i.position.distance_to(position) < nearestResourceObject.position.distance_to(position) and i.is_harvesting == false:
+					if i.position.distance_to(position) < nearestResourceObject.position.distance_to(position):
 						nearestResourceObject = i
 				navigationAgent.target_position = nearestResourceObject.global_position
 				currentResource = nearestResourceObject
 				CurrentTask = Task.Walking
-			else :
-				if self.global_position != Hut.global_position:
-					navigationAgent.target_position = Hut.global_position
-					CurrentTask = Task.Walking
 
 		Task.Walking:
 			if navigationAgent.is_navigation_finished():
