@@ -44,9 +44,6 @@ func runSpawn():
 		var nav_map:RID = CurrentActor.get_world_3d().navigation_map
 		var closest_point :Vector3 = NavigationServer3D.map_get_closest_point(nav_map,$SpawnPoint.global_position)
 		
-		var nav_map:RID = CurrentActor.get_world_3d().navigation_map
-		var closest_point :Vector3 = NavigationServer3D.map_get_closest_point(nav_map,$SpawnPoint.global_position)
-		
 	if IncreasePopcap :
 		GameManager.MaxPopulation += IncreaseCapAmount
 		
