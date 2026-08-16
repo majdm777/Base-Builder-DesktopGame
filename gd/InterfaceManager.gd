@@ -41,6 +41,7 @@ func _on_build_stone_cutter_hut_button_down() -> void:
 	BuilderManager.SpawnStoneCutterHut()
 	pass # Replace with function body.
 func _on_build_iron_cutter_hut_button_down() -> void:
+	BuilderManager.spawn_ironmine_hut()
 	pass # Replace with function body.
 
 

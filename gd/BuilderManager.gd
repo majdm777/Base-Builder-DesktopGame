@@ -2,6 +2,7 @@ extends Node3D
 
 var WoodCutterHut : PackedScene = ResourceLoader.load("res://Scenes/WoodCutterHut.tscn")
 var StoneCutterhut : PackedScene = ResourceLoader.load("res://Scenes/StoneMasons.tscn")
+var IronMineHut: PackedScene = ResourceLoader.load("res://Scenes/RecourceProducers/Iron/iron_mine.tscn")
 var StockPile : PackedScene = ResourceLoader.load("res://Scenes/Stockpile.tscn")
 
 var Wall : PackedScene = ResourceLoader.load("res://Scenes/wallNarrow.tscn")
@@ -158,8 +159,8 @@ func SpawnStoneCutterHut():
 	SpawnObj(StoneCutterhut)
 func SpawnStockPile():
 	SpawnObj(StockPile)
-func SpawnIronCutterHut():
-	pass
+func spawn_ironmine_hut():
+	SpawnObj(IronMineHut)
 # Population
 func SpawnHouse():
 	SpawnObj(House)

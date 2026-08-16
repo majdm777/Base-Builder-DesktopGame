@@ -89,7 +89,7 @@ func _process(delta: float) -> void:
 				for i in spawnedGranery:
 						if i.position.distance_to(position) < nearestGranery.position.distance_to(position):
 							nearestGranery = i
-				navigationAgent.target_position = nearestGranery.get_node("SpawnPoint").global_position
+				navigationAgent.target_position = nearestGranery.get_node("SpawnPoint") .global_position
 			elif Hut != null:
 				navigationAgent.target_position = Hut.global_postion
 			CurrentTask = Task.Walking

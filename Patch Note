@@ -37,3 +37,4 @@ V1.0.0.0: tutorial finished
 V1.0.1.1 : fixed the collision between the actors and building and the navigationResgion is updated every time we place an item or deleting if 
 
 V1.0.1.1.1: fix the baking issue after placing two object instantly 
+V1.0.1.2 : added the stone harvestion stone shapes added Rockproducers and buildingmine .gd plus added the ironmine with animation 

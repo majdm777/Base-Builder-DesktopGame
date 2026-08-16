@@ -1,3 +1,4 @@
+class_name BuildingObject
 extends StaticBody3D
 
 @export var WoodCost : float
@@ -22,11 +23,14 @@ func _ready() -> void:
 	$Area.area_exited.connect(_on_area_area_exited)
 	pass # Replace with function body.
 
-
+var run_once :bool = true
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	if run_once and spawned:
+		run_once =false
+		await _mining()
+		run_once = true
 	pass
-	
 
 func runSpawn():
 	if SpawnActor:
@@ -64,3 +68,6 @@ func _on_area_area_exited(area: Area3D) -> void:
 		object.erase(area)
 		if object.size() <= 0:
 			BuilderManager.AbleToBuild = true
+			
+func _mining()->void:
+	pass
