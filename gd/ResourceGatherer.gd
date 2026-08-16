@@ -117,7 +117,7 @@ func _process(delta: float) -> void:
 					runOnce = false
 					match ResourceNameToGet:
 						"Tree": GameManager.Wood += HeldresourcesAmount
-						"Stone": GameManager.Stone += HeldresourcesAmount
+						"Rock": GameManager.Stone += HeldresourcesAmount
 						"Iron": GameManager.Iron += HeldresourcesAmount
 					HeldresourcesAmount = 0
 					await get_tree().create_timer(2.0).timeout
