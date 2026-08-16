@@ -1,3 +1,4 @@
+class_name ResourceProducer
 extends StaticBody3D
 
 
@@ -29,4 +30,6 @@ func _Harvest(GathererCapacity : int) -> int:
 		
 	is_harvesting = false
 	return amount
-	
+
+func on_harvest() -> void:
+	pass

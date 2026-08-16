@@ -32,6 +32,7 @@ building=""
 StockPile=""
 Stone=""
 NavRegion=""
+Rock=""
 
 [input]
 

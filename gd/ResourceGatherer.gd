@@ -10,7 +10,7 @@ enum Task {
 
 
 
-@export_enum("Tree", "Stone", "Iron")
+@export_enum("Tree", "Rock", "Iron")
 var ResourceNameToGet: String
 
 
@@ -62,13 +62,6 @@ func _physics_process(delta: float) -> void:
 
 
 func _process(delta: float) -> void:
-	var spawnedStockpiles = []
-	var checked =get_tree().get_nodes_in_group("StockPile")
-	if checked.size() > 0:
-		for i in checked:
-			if i.spawned:
-				spawnedStockpiles.append(i)
-
 	match CurrentTask:
 		Task.GettingResources:
 			if is_instance_valid(currentResource): 
@@ -85,7 +78,12 @@ func _process(delta: float) -> void:
 
 		Task.Delivering:
 			#var stockpiles=get_tree().get_nodes_in_group("StockPile")
-
+			var spawnedStockpiles = []
+			var checked =get_tree().get_nodes_in_group("StockPile")
+			if checked.size() > 0:
+				for i in checked:
+					if i.spawned:
+						spawnedStockpiles.append(i)
 			if spawnedStockpiles.size() > 0:
 				var nearestStockPile = spawnedStockpiles[0]
 				for i in spawnedStockpiles:
@@ -115,19 +113,14 @@ func _process(delta: float) -> void:
 			if navigationAgent.is_navigation_finished():
 				if HeldresourcesAmount == 0:
 					CurrentTask = Task.GettingResources
-				else:
-					if ResourceNameToGet == "Tree" :
-						GameManager.Wood += HeldresourcesAmount
-					elif ResourceNameToGet == "Stone":
-						GameManager.Stone += HeldresourcesAmount
-					elif ResourceNameToGet == "Iron":
-						GameManager.Iron += HeldresourcesAmount
-
+				elif runOnce:
+					runOnce = false
+					match ResourceNameToGet:
+						"Tree": GameManager.Wood += HeldresourcesAmount
+						"Stone": GameManager.Stone += HeldresourcesAmount
+						"Iron": GameManager.Iron += HeldresourcesAmount
 					HeldresourcesAmount = 0
-					if runOnce:
-						runOnce = false
-						# Simulate collecting resources
-						await get_tree().create_timer(2.0).timeout
-						runOnce = true
+					await get_tree().create_timer(2.0).timeout
+					runOnce = true
 					CurrentTask = Task.Searching
 	$Label3D.text = str(HeldresourcesAmount)
