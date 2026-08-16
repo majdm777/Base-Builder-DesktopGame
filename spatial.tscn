@@ -212,6 +212,7 @@ offset_top = -32.0
 offset_right = 1099.0
 offset_bottom = 82.0
 current_tab = 0
+current_tab = 0
 
 [node name="Huts" type="HBoxContainer" parent="Control/TabContainer" unique_id=1732926609]
 layout_mode = 2
@@ -264,6 +265,7 @@ layout_mode = 2
 text = "House "
 
 [node name="Walls" type="HBoxContainer" parent="Control/TabContainer" unique_id=379035408]
+visible = false
 visible = false
 layout_mode = 2
 metadata/_tab_index = 3
