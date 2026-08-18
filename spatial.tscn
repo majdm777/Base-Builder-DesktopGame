@@ -346,6 +346,7 @@ transform = Transform3D(1, -4.46434e-11, 0, -9.40673e-10, 1, 0, 1.45519e-10, 2.3
 transform = Transform3D(1, -4.46505e-11, 0, -9.40659e-10, 1, 0, 1.74623e-10, 2.61934e-10, 1, -0.0195246, 0.149775, -0.859124)
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=1693179708 groups=["NavMesh", "NavRegion"]]
+transform = Transform3D(0.99999976, -1.1178258e-10, 1.1641532e-10, 1.2089885e-10, 0.99999976, 0, 5.820766e-11, -1.4551915e-10, 0.9999995, 32.165573, 13.389889, -25.887606)
 navigation_mesh = SubResource("NavigationMesh_y7yxl")
 
 [node name="LargeRock" parent="NavigationRegion3D" unique_id=1497674382 instance=ExtResource("9_7s1p8")]
