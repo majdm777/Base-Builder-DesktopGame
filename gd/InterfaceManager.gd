@@ -45,8 +45,8 @@ func _on_build_iron_cutter_hut_button_down() -> void:
 	pass # Replace with function body.
 
 
-func _on_build_granery_button_down() -> void:
-	BuilderManager.SpawnGranery()
+func _on_build_mill_button_down() -> void:
+	BuilderManager.SpawnMill()
 	pass # Replace with function body.
 func _on_build_orchard_button_down() -> void:
 	BuilderManager.SpawnOrchard()
