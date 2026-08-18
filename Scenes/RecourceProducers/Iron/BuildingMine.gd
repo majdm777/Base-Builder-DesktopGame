@@ -4,6 +4,16 @@ extends BuildingObject
 @export var ResourceAmount :int = 10
 @export_enum("Wood", "Stone", "Iron")
 var ResourceType: String 
+
+func _ready() -> void:
+	super()
+func _process(delta: float) -> void:
+	if run_once and spawned:
+		run_once = false
+		await _mining()
+		run_once = true
+	pass
+	
 # Called when the node enters the scene tree for the first time.
 func _mining():
 	var animation :=$CharacterBody3D/AnimationPlayer

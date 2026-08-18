@@ -1,5 +1,6 @@
 class_name BuildingObject
 extends StaticBody3D
+signal building_spawned
 
 @export var WoodCost : float
 @export var StoneCost : float
@@ -26,27 +27,22 @@ func _ready() -> void:
 var run_once :bool = true
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if run_once and spawned:
-		run_once =false
-		await _mining()
-		run_once = true
 	pass
 
 func runSpawn():
 	if SpawnActor:
 		CurrentActor = Actor.instantiate()
-		CurrentActor.Hut = $SpawnPoint
-		await get_tree().create_timer(2).timeout
+		CurrentActor.Hut = self
 		await get_tree().create_timer(2).timeout
 		get_tree().root.add_child(CurrentActor)
 		CurrentActor.global_position = $SpawnPoint.global_position
-		
-		var nav_map:RID = CurrentActor.get_world_3d().navigation_map
-		var closest_point :Vector3 = NavigationServer3D.map_get_closest_point(nav_map,$SpawnPoint.global_position)
-		
-	if IncreasePopcap :
+		var nav_map: RID = CurrentActor.get_world_3d().navigation_map
+		var closest_point: Vector3 = NavigationServer3D.map_get_closest_point(nav_map, $SpawnPoint.global_position)
+	if IncreasePopcap:
 		GameManager.MaxPopulation += IncreaseCapAmount
-		
+	spawned = true
+	building_spawned.emit()
+
 func run_despawn():
 	if SpawnActor and CurrentActor:
 		CurrentActor.queue_free()
@@ -74,5 +70,3 @@ func _on_area_area_exited(area: Area3D) -> void:
 		if object.size() <= 0:
 			BuilderManager.AbleToBuild = true
 			
-func _mining()->void:
-	pass

@@ -159,6 +159,7 @@ script = ExtResource("1_wkudu")
 time_mining = 3
 ResourceAmount = 6
 ResourceType = "Iron"
+building_type = "Mine"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=962706408]
 shape = SubResource("ConcavePolygonShape3D_ibeb5")

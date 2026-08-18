@@ -11,6 +11,7 @@ var GateWall : PackedScene = ResourceLoader.load("res://Scenes/wallNarrowGate.ts
 
 var Orchard : PackedScene = ResourceLoader.load("res://Scenes/Orchard.tscn")
 var Granery : PackedScene = ResourceLoader.load("res://Scenes/Granery.tscn")
+var Farm : PackedScene = ResourceLoader.load("res://Scenes/RecourceProducers/Food/farm.tscn")
 
 var House : PackedScene = ResourceLoader.load("res://Scenes/House.tscn")
 
@@ -169,6 +170,8 @@ func SpawnGranery():
 	SpawnObj(Granery)
 func SpawnOrchard():
 	SpawnObj(Orchard)
+func SpawnFarm():
+	SpawnObj(Farm)
 # Wall
 func SpawnWall():
 	SpawnObj(Wall)
