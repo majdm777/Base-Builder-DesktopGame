@@ -38,23 +38,19 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 func _process(delta: float) -> void:
-	var spawnedGranery = []
-	var checked = get_tree().get_nodes_in_group("Granery")
+	var spawnedMill = []
+	var checked = get_tree().get_nodes_in_group("Mills")
 	if checked.size() > 0:
 		for i in checked:
 			if i.spawned:
-				spawnedGranery.append(i)
+				spawnedMill.append(i)
 
 	match CurrentTask:
 		Task.harvesting:
 			if runOnce:
 				runOnce = false
 				HeldresourcesAmount += current_plot.plot_amount
-				if HeldresourcesAmount > pocket_space:
-					HeldresourcesAmount -=current_plot.plot_amount
-					CurrentTask = Task.Delivering
-					runOnce = true
-					return
+				
 				await get_tree().create_timer(2.0).timeout
 				current_plot.current_state = current_plot.State.harvested
 
@@ -64,18 +60,22 @@ func _process(delta: float) -> void:
 					current_plot = null
 
 				runOnce = true
-				CurrentTask = Task.Searching
+				if HeldresourcesAmount >= pocket_space:
+					HeldresourcesAmount =pocket_space
+					CurrentTask = Task.Delivering
+				else:
+					CurrentTask = Task.Searching
 
 				if FoodProducers.size() <= 0:
 					CurrentTask = Task.Delivering
 
 		Task.Delivering:
-			if spawnedGranery.size() > 0 and HeldresourcesAmount > 0:
-				var nearestGranery = spawnedGranery[0]
-				for i in spawnedGranery:
-					if i.position.distance_to(position) < nearestGranery.position.distance_to(position):
-						nearestGranery = i
-				navigationAgent.target_position = nearestGranery.get_node("SpawnPoint").global_position
+			if spawnedMill.size() > 0 and HeldresourcesAmount > 0:
+				var nearestMill = spawnedMill[0]
+				for i in spawnedMill:
+					if i.position.distance_to(position) < nearestMill.position.distance_to(position):
+						nearestMill = i
+				navigationAgent.target_position = nearestMill.get_node("SpawnPoint").global_position
 			elif Hut != null:
 				navigationAgent.target_position = Hut.get_node("SpawnPoint").global_position
 			CurrentTask = Task.Walking
@@ -90,16 +90,16 @@ func _process(delta: float) -> void:
 
 		Task.Walking:
 			if navigationAgent.is_navigation_finished():
-				if current_plot != null:
+				if current_plot != null and pocket_space!=HeldresourcesAmount:
 					CurrentTask = Task.harvesting
 				else:
 					# We were walking to deliver
 					GameManager.Food += HeldresourcesAmount
 					HeldresourcesAmount = 0
 					if runOnce:
-						runOnce = false
-						await get_tree().create_timer(2.0).timeout
-						runOnce = true
+						runOnce=false
+						await get_tree().create_timer(2).timeout
+						runOnce= true
 					CurrentTask = Task.Searching
 
 	$Label3D.text = str(HeldresourcesAmount)

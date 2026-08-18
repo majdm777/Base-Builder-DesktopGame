@@ -10,7 +10,7 @@ var CornerWall : PackedScene = ResourceLoader.load("res://Scenes/wallNarrowCorne
 var GateWall : PackedScene = ResourceLoader.load("res://Scenes/wallNarrowGate.tscn")
 
 var Orchard : PackedScene = ResourceLoader.load("res://Scenes/Orchard.tscn")
-var Granery : PackedScene = ResourceLoader.load("res://Scenes/Granery.tscn")
+var Mill : PackedScene = ResourceLoader.load("res://Scenes/mill.tscn")
 var Farm : PackedScene = ResourceLoader.load("res://Scenes/RecourceProducers/Food/farm.tscn")
 
 var House : PackedScene = ResourceLoader.load("res://Scenes/House.tscn")
@@ -166,8 +166,8 @@ func spawn_ironmine_hut():
 func SpawnHouse():
 	SpawnObj(House)
 # Food
-func SpawnGranery():
-	SpawnObj(Granery)
+func SpawnMill():
+	SpawnObj(Mill)
 func SpawnOrchard():
 	SpawnObj(Orchard)
 func SpawnFarm():
