@@ -38,3 +38,5 @@ V1.0.1.1 : fixed the collision between the actors and building and the navigatio
 
 V1.0.1.1.1: fix the baking issue after placing two object instantly 
 V1.0.1.2 : added the stone harvestion stone shapes added Rockproducers and buildingmine .gd plus added the ironmine with animation 
+
+V1.0.2.1: added the farm with its worker and plots 
