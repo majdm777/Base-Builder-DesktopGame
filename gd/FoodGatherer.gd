@@ -1,9 +1,11 @@
 extends CharacterBody3D
 enum Task {
-	harvesting,
+	Harvesting,
 	Searching,
 	Walking,
-	Delivering
+	Delivering,
+	Depositing,
+	Waiting 
 }
 var FoodProducers : Array
 var current_plot = null
@@ -14,7 +16,7 @@ var HeldresourcesAmount: int = 0
 var runOnce := true
 @onready var navigationAgent: NavigationAgent3D = $NavigationAgent3D
 @export var SPEED = 10.0
-
+var going_to_mill := false
 func _ready() -> void:
 	Hut.plot_ready.connect(_on_plot_ready)
 
@@ -38,71 +40,82 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 func _process(delta: float) -> void:
-	var spawnedMill = []
-	var checked = get_tree().get_nodes_in_group("Mills")
-	if checked.size() > 0:
-		for i in checked:
-			if i.spawned:
-				spawnedMill.append(i)
-
 	match CurrentTask:
-		Task.harvesting:
+		Task.Harvesting:
 			if runOnce:
 				runOnce = false
-				HeldresourcesAmount += current_plot.plot_amount
-				
 				await get_tree().create_timer(2.0).timeout
+				HeldresourcesAmount += current_plot.plot_amount
 				current_plot.current_state = current_plot.State.harvested
-
 				# Harvest done — remove this plot from the queue for good
 				if current_plot != null:
 					FoodProducers.erase(current_plot)
 					current_plot = null
-
 				runOnce = true
 				if HeldresourcesAmount >= pocket_space:
 					HeldresourcesAmount =pocket_space
 					CurrentTask = Task.Delivering
 				else:
 					CurrentTask = Task.Searching
-
 				if FoodProducers.size() <= 0:
 					CurrentTask = Task.Delivering
 
 		Task.Delivering:
+			var spawnedMill = get_spawned_mills()
 			if spawnedMill.size() > 0 and HeldresourcesAmount > 0:
 				var nearestMill = spawnedMill[0]
 				for i in spawnedMill:
 					if i.position.distance_to(position) < nearestMill.position.distance_to(position):
 						nearestMill = i
 				navigationAgent.target_position = nearestMill.get_node("SpawnPoint").global_position
+				going_to_mill = true
 			elif Hut != null:
 				navigationAgent.target_position = Hut.get_node("SpawnPoint").global_position
+				going_to_mill = false
 			CurrentTask = Task.Walking
 
 		Task.Searching:
-			if FoodProducers.size() > 0:
+			if FoodProducers.size() > 0 and HeldresourcesAmount < pocket_space:
 				current_plot = FoodProducers[0]
 				navigationAgent.target_position = current_plot.global_position
 				CurrentTask = Task.Walking
-			else:
+			elif HeldresourcesAmount > 0 :
 				CurrentTask = Task.Delivering
+			else:
+				CurrentTask = Task.Waiting
 
 		Task.Walking:
 			if navigationAgent.is_navigation_finished():
 				if current_plot != null and pocket_space!=HeldresourcesAmount:
-					CurrentTask = Task.harvesting
+					CurrentTask = Task.Harvesting
+				elif going_to_mill:
+					CurrentTask = Task.Depositing
 				else:
 					# We were walking to deliver
-					GameManager.Food += HeldresourcesAmount
-					HeldresourcesAmount = 0
-					if runOnce:
-						runOnce=false
-						await get_tree().create_timer(2.0).timeout
-						runOnce= true
-					CurrentTask = Task.Searching
+					CurrentTask = Task.Waiting
+		Task.Depositing:
+			if runOnce:
+				runOnce=false
+				await get_tree().create_timer(2.0).timeout
+				GameManager.Food += HeldresourcesAmount
+				HeldresourcesAmount = 0
+				runOnce= true
+			CurrentTask = Task.Searching
+		Task.Waiting:
+			if runOnce:
+				runOnce=false
+				await get_tree().create_timer(1.0).timeout
+				runOnce= true
+			CurrentTask = Task.Searching
 
-	$Label3D.text = str(HeldresourcesAmount)
+	$Label3D.text = str(CurrentTask)
 
 func _on_plot_ready(plot):
 	FoodProducers.append(plot)
+	
+func get_spawned_mills() -> Array:
+	var mills: Array = []
+	for mill in get_tree().get_nodes_in_group("Mills"):
+		if mill.spawned:
+			mills.append(mill)
+	return mills

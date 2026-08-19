@@ -106,7 +106,7 @@ func _handle_destroying_state() -> void:
 		var result = spaceState.intersect_ray(
 			PhysicsRayQueryParameters3D.create(from, to))
 
-		if result and result.collider.is_in_group("building"):
+		if result and result.collider.is_in_group("building") and result.collider.spawned:
 			result.collider.run_despawn()
 			await request_bake()
 

@@ -33,7 +33,7 @@ size = Vector3(1.2081833, 0.99420166, 1.6970215)
 [node name="Farm" type="StaticBody3D" unique_id=1117096852 groups=["building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.016469896, 0, 0)
 script = ExtResource("1_u438h")
-time_to_grow = 20
+time_to_grow = 2
 SpawnActor = true
 Actor = ExtResource("2_6vc4g")
 
