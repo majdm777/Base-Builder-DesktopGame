@@ -32,10 +32,8 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if GameManager.Current_State == GameManager.State.building:
 		_handle_building_state()
-
 	if GameManager.Current_State == GameManager.State.destroying:
 		_handle_destroying_state()
-
 
 func _handle_building_state() -> void:
 	if not is_instance_valid(currentSpawnable):
@@ -136,22 +134,22 @@ func _on_bake_finished() -> void:
 
 
 func Can_Afford(obj) -> bool:
-	if GameManager.Wood - obj.WoodCost < 0:
+	if ResourceManager.Wood - obj.WoodCost < 0:
 		return false
-	if GameManager.Stone - obj.StoneCost < 0:
+	if ResourceManager.Stone - obj.StoneCost < 0:
 		return false
-	if GameManager.Iron - obj.IronCost < 0:
+	if ResourceManager.Iron - obj.IronCost < 0:
 		return false
-	if GameManager.Gold - obj.GoldCost < 0:
+	if ResourceManager.Gold - obj.GoldCost < 0:
 		return false
 	return true
 
 
 func charge_object(obj):
-	GameManager.Wood -= obj.WoodCost
-	GameManager.Stone -= obj.StoneCost
-	GameManager.Iron -= obj.IronCost
-	GameManager.Gold -= obj.GoldCost
+	ResourceManager.Wood -= obj.WoodCost
+	ResourceManager.Stone -= obj.StoneCost
+	ResourceManager.Iron -= obj.IronCost
+	ResourceManager.Gold -= obj.GoldCost
 
 # industry
 func SpawnWoodCutterHut():

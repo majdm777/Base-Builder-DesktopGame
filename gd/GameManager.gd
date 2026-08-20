@@ -8,11 +8,6 @@ enum State{
 
 var Current_State = State.play
 
-var Wood : float = 20.0
-var Stone : float = 20
-var Iron : float = 20
-var Gold : int = 20
-
 var population : int = 0
 var MaxPopulation : int = 4
 var AvlPopulation : int = 0
@@ -60,13 +55,13 @@ func _process(delta: float) -> void:
 	if foodbool:
 		foodbool = false
 		await get_tree().create_timer(6.0).timeout
-		Food -= population
-		if Food < 0:
-			Food = 0
+		ResourceManager.Food -= population
+		if ResourceManager.Food < 0:
+			ResourceManager.Food = 0
 		foodbool = true
-		Gold += round(population * taxRate)
+		ResourceManager.Gold += round(population * taxRate)
 		var happinessValue = 0
-		if Food > 0:
+		if ResourceManager.Food > 0:
 			happinessValue +=1
 		else:
 			happinessValue-=10
