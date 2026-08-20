@@ -62,7 +62,7 @@ func _process(delta: float) -> void:
 
 		Task.Delivering:
 			var spawnedMill = get_spawned_mills()
-			if spawnedMill.size() > 0 and HeldresourcesAmount > 0:
+			if spawnedMill.size() > 0 and HeldresourcesAmount > 0 and ResourceManager.Food < ResourceManager.food_capacity:
 				var nearestMill = spawnedMill[0]
 				for i in spawnedMill:
 					if i.position.distance_to(position) < nearestMill.position.distance_to(position):
@@ -94,10 +94,12 @@ func _process(delta: float) -> void:
 					# We were walking to deliver
 					CurrentTask = Task.Waiting
 		Task.Depositing:
-			if runOnce:
+			if runOnce and ResourceManager.Food < ResourceManager.food_capacity:
 				runOnce=false
 				await get_tree().create_timer(2.0).timeout
-				GameManager.Food += HeldresourcesAmount
+				ResourceManager.Food += HeldresourcesAmount
+				if ResourceManager.Food > ResourceManager.food_capacity:
+					ResourceManager.Food = ResourceManager.food_capacity
 				HeldresourcesAmount = 0
 				runOnce= true
 			CurrentTask = Task.Searching

@@ -5,14 +5,14 @@ extends Control
 func _ready() -> void:
 	pass# Replace with function body.func _process(delta: float) -> void:
 func _process(delta: float) -> void:
-	$ResourcesBox/WoodLabel/WoodCountLabel.text = str(GameManager.Wood, " W")
-	$ResourcesBox/FoodLabel/FoodCountLabel.text = str(GameManager.Food, " F")
-	$ResourcesBox/GoldLabel/GoldCountLabel.text = str(GameManager.Gold, " G")
-	$ResourcesBox/IronLabel/IronCountLabel.text = str(GameManager.Iron, " I")
-	$ResourcesBox/StoneLabel/StoneCountLabel.text = str(GameManager.Stone, " S")
+	$ResourcesBox/WoodLabel/WoodCountLabel.text = str(ResourceManager.Wood, "/",ResourceManager.wood_capacity)
+	$ResourcesBox/FoodLabel/FoodCountLabel.text = str(ResourceManager.Food, "/",ResourceManager.food_capacity)
+	$ResourcesBox/GoldLabel/GoldCountLabel.text = str(ResourceManager.Gold, "/",ResourceManager.gold_capacity)
+	$ResourcesBox/IronLabel/IronCountLabel.text = str(ResourceManager.Iron, "/",ResourceManager.iron_capacity)
+	$ResourcesBox/StoneLabel/StoneCountLabel.text = str(ResourceManager.Stone, "/",ResourceManager.stone_capacity)
 	$PopulationBox/AlvPop/AvlPopValue.text = str(GameManager.AvlPopulation)
 	$PopulationBox/Hap/HapValue.text = str(GameManager.Happiness)
-	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + " / " + str(GameManager.MaxPopulation)
+	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + "/" + str(GameManager.MaxPopulation)
 	pass
 
 

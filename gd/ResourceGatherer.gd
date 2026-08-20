@@ -84,7 +84,7 @@ func _process(delta: float) -> void:
 				for i in checked:
 					if i.spawned:
 						spawnedStockpiles.append(i)
-			if spawnedStockpiles.size() > 0:
+			if spawnedStockpiles.size() > 0 :
 				var nearestStockPile = spawnedStockpiles[0]
 				for i in spawnedStockpiles:
 						if i.position.distance_to(position) < nearestStockPile.position.distance_to(position):
@@ -116,9 +116,24 @@ func _process(delta: float) -> void:
 				elif runOnce:
 					runOnce = false
 					match ResourceNameToGet:
-						"Tree": GameManager.Wood += HeldresourcesAmount
-						"Rock": GameManager.Stone += HeldresourcesAmount
-						"Iron": GameManager.Iron += HeldresourcesAmount
+						"Tree":
+							if ResourceManager.Wood < ResourceManager.wood_capacity:
+								ResourceManager.Wood += HeldresourcesAmount
+								return
+							if ResourceManager.Wood > ResourceManager.wood_capacity:
+								ResourceManager.Wood = ResourceManager.wood_capacity
+						"Rock":
+							if ResourceManager.Stone < ResourceManager.stone_capacity:
+								ResourceManager.Stone += HeldresourcesAmount
+								return
+							if ResourceManager.Stone > ResourceManager.stone_capacity:
+								ResourceManager.Stone = ResourceManager.stone_capacity
+						"Iron":
+							if ResourceManager.Iron < ResourceManager.iron_capacity:
+								ResourceManager.Iron += HeldresourcesAmount
+								return
+							if ResourceManager.Iron > ResourceManager.iron_capacity:
+								ResourceManager.Iron = ResourceManager.iron_capacity
 					HeldresourcesAmount = 0
 					await get_tree().create_timer(2.0).timeout
 					runOnce = true
