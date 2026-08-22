@@ -9,7 +9,7 @@ enum State {
 }
 
 @onready var plot = get_children()
-var plot_amount:int =0 
+var amount:int = 0 
 var current_state: State
 var run_once := true
 var time_to_grow: int

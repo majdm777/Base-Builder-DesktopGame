@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dhekhlkfg165u"]
 
-[ext_resource type="Script" uid="uid://cvllu7gbl4q7l" path="res://gd/FoodGatherer.gd" id="1_qspl3"]
+[ext_resource type="Script" uid="uid://cvfo7rgqgdwee" path="res://gd/FoodGatherer.gd" id="1_qspl3"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_p5uw3"]
 
@@ -9,7 +9,7 @@
 [node name="FarmWorker" type="CharacterBody3D" unique_id=419540081]
 collision_mask = 2
 script = ExtResource("1_qspl3")
-ResourceGenerationAmount = 2
+resource_type = "food"
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=58428467]
 transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)

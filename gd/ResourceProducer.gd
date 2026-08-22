@@ -2,9 +2,9 @@ class_name ResourceProducer
 extends StaticBody3D
 
 
-@export var ResourceAmount :int = 10
+@export var amount :int = 10
 
-var remaining_resource_amount = ResourceAmount
+var remaining_resource_amount = amount
 
 
 var is_harvesting: bool = false
@@ -22,14 +22,14 @@ func _process(delta: float) -> void:
 func _Harvest(GathererCapacity: int) -> int:
 	is_harvesting = true
 
-	var amount: int
+	var _amount: int
 
 	if remaining_resource_amount >= GathererCapacity:
 		remaining_resource_amount -= GathererCapacity
-		amount = GathererCapacity
+		_amount = GathererCapacity
 		
 	else:
-		amount = remaining_resource_amount
+		_amount = remaining_resource_amount
 		remaining_resource_amount = 0
 	
 	on_harvest()

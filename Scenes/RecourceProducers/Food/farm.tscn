@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://dee1cmocvu6gr"]
 
 [ext_resource type="ArrayMesh" uid="uid://dgamxtuklxuo6" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/building_dirt.obj" id="1_01kia"]
-[ext_resource type="Script" uid="uid://c4hlq6ej8tpkc" path="res://Scenes/RecourceProducers/Food/BuildingFarm.gd" id="1_u438h"]
+[ext_resource type="Script" uid="uid://c4hlq6ej8tpkc" path="res://gd/BuildingFarm.gd" id="1_u438h"]
 [ext_resource type="PackedScene" uid="uid://dhekhlkfg165u" path="res://Scenes/Actors/FarmWorker.tscn" id="2_6vc4g"]
 [ext_resource type="ArrayMesh" uid="uid://ic4ah5f7j0x3" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/building_grain.obj" id="2_mt2ul"]
-[ext_resource type="Script" uid="uid://dxp0ongvenqjr" path="res://Scenes/RecourceProducers/Food/Plot.gd" id="3_6vc4g"]
+[ext_resource type="Script" uid="uid://dxp0ongvenqjr" path="res://gd/Plot.gd" id="3_6vc4g"]
 [ext_resource type="ArrayMesh" uid="uid://cyy5fjs34xljm" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/blue/building_tower_A_blue_building_tower_A_top_blue.obj" id="3_u438h"]
 [ext_resource type="ArrayMesh" uid="uid://dmksiovbt8gmo" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/bucket_water.obj" id="4_6vc4g"]
 [ext_resource type="ArrayMesh" uid="uid://btnitymnree0a" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/bucket_empty.obj" id="5_ymg0n"]

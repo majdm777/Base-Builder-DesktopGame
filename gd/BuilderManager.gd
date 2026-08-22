@@ -32,8 +32,10 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if GameManager.Current_State == GameManager.State.building:
 		_handle_building_state()
+
 	if GameManager.Current_State == GameManager.State.destroying:
 		_handle_destroying_state()
+
 
 func _handle_building_state() -> void:
 	if not is_instance_valid(currentSpawnable):
@@ -105,6 +107,7 @@ func _handle_destroying_state() -> void:
 			PhysicsRayQueryParameters3D.create(from, to))
 
 		if result and result.collider.is_in_group("building") and result.collider.spawned:
+			
 			result.collider.run_despawn()
 			await request_bake()
 

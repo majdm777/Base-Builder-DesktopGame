@@ -49,7 +49,6 @@ shadow_mesh = SubResource("ArrayMesh_up3hy")
 transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 0, 0, 0)
 physics_material_override = SubResource("PhysicsMaterial_6ghtm")
 script = ExtResource("1_6ghtm")
-ResourceAmount = 7
 ResourceType = "Stone"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=939597123]

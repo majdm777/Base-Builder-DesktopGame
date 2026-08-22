@@ -2,7 +2,7 @@ extends BuildingObject
 
 @export var time_mining :int
 @export var ResourceAmount :int = 10
-@export_enum("Wood", "Stone", "Iron")
+@export_enum("wood", "stone", "iron")
 var ResourceType: String 
 
 func _ready() -> void:
@@ -26,9 +26,6 @@ func _mining():
 		animation.play_backwards("mining")
 		await animation.animation_finished
 		await get_tree().create_timer(2).timeout
-		match ResourceType:
-			"Wood": GameManager.Wood += ResourceAmount
-			"Stone": GameManager.Stone += ResourceAmount
-			"Iron": GameManager.Iron += ResourceAmount
-		print(GameManager.Iron)
+		ResourceManager.resources[ResourceType] += ResourceAmount
+		print(ResourceManager.Iron)
 	pass
