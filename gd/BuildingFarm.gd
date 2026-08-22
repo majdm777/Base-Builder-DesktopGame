@@ -14,7 +14,7 @@ func _ready() -> void:
 
 func _on_spawned() -> void:
 	for plot in plots:
-		plot.plot_amount = crops_amount/plots.size()
+		plot.amount = crops_amount/plots.size()
 		plot.time_to_grow = time_to_grow
 		plot.current_state = plot.State.empty
 

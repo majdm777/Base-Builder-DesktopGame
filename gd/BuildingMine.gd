@@ -27,8 +27,8 @@ func _mining():
 		await animation.animation_finished
 		await get_tree().create_timer(2).timeout
 		match ResourceType:
-			"Wood": GameManager.Wood += ResourceAmount
-			"Stone": GameManager.Stone += ResourceAmount
-			"Iron": GameManager.Iron += ResourceAmount
-		print(GameManager.Iron)
+			"Wood": ResourceManager.Wood += ResourceAmount
+			"Stone": ResourceManager.Stone += ResourceAmount
+			"Iron": ResourceManager.Iron += ResourceAmount
+		print(ResourceManager.Iron)
 	pass

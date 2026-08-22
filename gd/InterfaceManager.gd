@@ -5,9 +5,9 @@ extends Control
 func _ready() -> void:
 	pass# Replace with function body.func _process(delta: float) -> void:
 func _process(delta: float) -> void:
-	$ResourcesBox/WoodLabel/WoodCountLabel.text = str(ResourceManager.Wood, "/",ResourceManager.wood_capacity)
+	$ResourcesBox/WoodLabel/WoodCountLabel.text = str(ResourceManager.resources["wood"], "/",ResourceManager.capacities["wood"])
 	$ResourcesBox/FoodLabel/FoodCountLabel.text = str(ResourceManager.Food, "/",ResourceManager.food_capacity)
-	$ResourcesBox/GoldLabel/GoldCountLabel.text = str(ResourceManager.Gold, "/",ResourceManager.gold_capacity)
+	$ResourcesBox/GoldLabel/GoldCountLabel.text = str(ResourceManager.Gold)
 	$ResourcesBox/IronLabel/IronCountLabel.text = str(ResourceManager.Iron, "/",ResourceManager.iron_capacity)
 	$ResourcesBox/StoneLabel/StoneCountLabel.text = str(ResourceManager.Stone, "/",ResourceManager.stone_capacity)
 	$PopulationBox/AlvPop/AvlPopValue.text = str(GameManager.AvlPopulation)

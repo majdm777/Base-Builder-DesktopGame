@@ -44,3 +44,5 @@ V1.0.2.1: added the farm with its worker and plots
 V1.0.2.2: fix the farm worker logic plus fix destroying object before spawning 
 
 V1.0.2.3: material not controlled by the RecourceManager
+
+V1.0.2.4: the gathering logic almost done , need some testing and edits to fully complete.

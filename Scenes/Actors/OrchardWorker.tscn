@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c1mq8v8yvjujo"]
 
-[ext_resource type="Script" uid="uid://cvllu7gbl4q7l" path="res://gd/FoodGatherer.gd" id="1_hv3a5"]
+[ext_resource type="Script" uid="uid://cvllu7gbl4q7l" path="res://gd/FoodGathererbackup.gd" id="1_hv3a5"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_p5uw3"]
 

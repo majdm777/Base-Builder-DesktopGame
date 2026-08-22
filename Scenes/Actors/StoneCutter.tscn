@@ -1,17 +1,17 @@
 [gd_scene format=3 uid="uid://dkijeym8t75bl"]
 
-[ext_resource type="Script" uid="uid://bkvy310wey6d3" path="res://gd/ResourceGatherer.gd" id="1_1p4xx"]
+[ext_resource type="Script" uid="uid://bu2dpf0n3kyne" path="res://gd/ResourceGathering.gd" id="1_d0fnx"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_p5uw3"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jq63x"]
 
-[node name="WoodCutter" type="CharacterBody3D" unique_id=453949702]
+[node name="StoneMiner" type="CharacterBody3D" unique_id=453949702]
 collision_mask = 2
-script = ExtResource("1_1p4xx")
-ResourceNameToGet = "Rock"
-ResourceGenerationAmount = 4
+script = ExtResource("1_d0fnx")
+ResourceName = "Rock"
 SPEED = 5.0
+resource_type = "stone"
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1075984681]
 transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)
