@@ -6,10 +6,10 @@ func _ready() -> void:
 	pass# Replace with function body.func _process(delta: float) -> void:
 func _process(delta: float) -> void:
 	$ResourcesBox/WoodLabel/WoodCountLabel.text = str(ResourceManager.resources["wood"], "/",ResourceManager.capacities["wood"])
-	$ResourcesBox/FoodLabel/FoodCountLabel.text = str(ResourceManager.Food, "/",ResourceManager.food_capacity)
-	$ResourcesBox/GoldLabel/GoldCountLabel.text = str(ResourceManager.Gold)
-	$ResourcesBox/IronLabel/IronCountLabel.text = str(ResourceManager.Iron, "/",ResourceManager.iron_capacity)
-	$ResourcesBox/StoneLabel/StoneCountLabel.text = str(ResourceManager.Stone, "/",ResourceManager.stone_capacity)
+	$ResourcesBox/FoodLabel/FoodCountLabel.text = str(ResourceManager.resources["food"], "/",ResourceManager.capacities["food"])
+	$ResourcesBox/GoldLabel/GoldCountLabel.text = str(ResourceManager.resources["gold"])
+	$ResourcesBox/IronLabel/IronCountLabel.text = str(ResourceManager.resources["iron"], "/",ResourceManager.capacities["iron"])
+	$ResourcesBox/StoneLabel/StoneCountLabel.text = str(ResourceManager.resources["stone"], "/",ResourceManager.capacities["stone"])
 	$PopulationBox/AlvPop/AvlPopValue.text = str(GameManager.AvlPopulation)
 	$PopulationBox/Hap/HapValue.text = str(GameManager.Happiness)
 	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + "/" + str(GameManager.MaxPopulation)

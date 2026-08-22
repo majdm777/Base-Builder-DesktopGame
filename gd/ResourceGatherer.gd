@@ -1,141 +1,30 @@
-extends CharacterBody3D
+class_name resource_gatherer
+extends gatherer
 
+@export_enum("Tree","Rock") var ResourceName : String
 
-enum Task {
-	GettingResources,
-	Searching,
-	Walking,
-	Delivering
-}
-
-
-
-@export_enum("Tree", "Rock", "Iron")
-var ResourceNameToGet: String
-
-
-var CurrentTask: Task = Task.Searching
-
-var Hut
-var HeldresourcesAmount: int = 0
-
-@export var ResourceGenerationAmount :=0
-
-
-var runOnce := true
-@onready var navigationAgent: NavigationAgent3D = $NavigationAgent3D
-
-
-@export var SPEED = 10.0
-
-var currentResource
-
-
+# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	# Optional: start searching when spawned
-	
-	CurrentTask = Task.Searching
-
-func _physics_process(delta: float) -> void:
-	# Gravity
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-	# NPC movement
-	if CurrentTask == Task.Walking:
-		if not navigationAgent.is_navigation_finished():
-			var targetPos = navigationAgent.get_next_path_position()
-			var direction = global_position.direction_to(targetPos)
-			velocity.x = direction.x * SPEED
-			velocity.z = direction.z * SPEED
-		else:
-			# Stop when reaching destination
-			velocity.x = 0
-			velocity.z = 0
-	else:
-		# Stop if not walking
-		velocity.x = 0
-		velocity.z = 0
+	super()
+	pass # Replace with function body.
 
 
-	move_and_slide()
-
-
-
+# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	match CurrentTask:
-		Task.GettingResources:
-			if is_instance_valid(currentResource): 
-				if runOnce:
-					runOnce = false
-					# Simulate collecting resources
-					if is_instance_valid(currentResource):
-						await get_tree().create_timer(2.0).timeout
-						HeldresourcesAmount = currentResource._Harvest(ResourceGenerationAmount)
-					runOnce = true
-					CurrentTask = Task.Delivering
-			else: 
-				CurrentTask = Task.Searching
+	super(delta)
+	pass
 
-		Task.Delivering:
-			#var stockpiles=get_tree().get_nodes_in_group("StockPile")
-			var spawnedStockpiles = []
-			var checked =get_tree().get_nodes_in_group("StockPile")
-			if checked.size() > 0:
-				for i in checked:
-					if i.spawned:
-						spawnedStockpiles.append(i)
-			if spawnedStockpiles.size() > 0 :
-				var nearestStockPile = spawnedStockpiles[0]
-				for i in spawnedStockpiles:
-						if i.position.distance_to(position) < nearestStockPile.position.distance_to(position):
-							nearestStockPile = i
-				navigationAgent.target_position = nearestStockPile.get_node("SpawnPoint").global_position
-			elif Hut != null:
-				navigationAgent.target_position = Hut.get_node("SpawnPoint").global_position
-			CurrentTask = Task.Walking
+func _find_resources():
+	Producers = []
+	for building in get_tree().get_nodes_in_group(ResourceName):
+			Producers.append(building)
+	Producers.sort_custom(func(a, b):
+		return global_position.distance_squared_to(a.global_position) < \
+			  	global_position.distance_squared_to(b.global_position)  )
 
-		Task.Searching:
-			var resources = get_tree().get_nodes_in_group(ResourceNameToGet)
-			if resources.size() > 0:
-				var nearestResourceObject = resources[0]
-				for i in resources:
-					if i.position.distance_to(position) < nearestResourceObject.position.distance_to(position) and i.is_harvesting == false:
-						nearestResourceObject = i
-				navigationAgent.target_position = nearestResourceObject.global_position
-				currentResource = nearestResourceObject
-				CurrentTask = Task.Walking
-			else :
-				if self.global_position != Hut.global_position:
-					navigationAgent.target_position = Hut.global_position
-					CurrentTask = Task.Walking
-
-		Task.Walking:
-			if navigationAgent.is_navigation_finished():
-				if HeldresourcesAmount == 0:
-					CurrentTask = Task.GettingResources
-				elif runOnce:
-					runOnce = false
-					match ResourceNameToGet:
-						"Tree":
-							if ResourceManager.Wood < ResourceManager.wood_capacity:
-								ResourceManager.Wood += HeldresourcesAmount
-								return
-							if ResourceManager.Wood > ResourceManager.wood_capacity:
-								ResourceManager.Wood = ResourceManager.wood_capacity
-						"Rock":
-							if ResourceManager.Stone < ResourceManager.stone_capacity:
-								ResourceManager.Stone += HeldresourcesAmount
-								return
-							if ResourceManager.Stone > ResourceManager.stone_capacity:
-								ResourceManager.Stone = ResourceManager.stone_capacity
-						"Iron":
-							if ResourceManager.Iron < ResourceManager.iron_capacity:
-								ResourceManager.Iron += HeldresourcesAmount
-								return
-							if ResourceManager.Iron > ResourceManager.iron_capacity:
-								ResourceManager.Iron = ResourceManager.iron_capacity
-					HeldresourcesAmount = 0
-					await get_tree().create_timer(2.0).timeout
-					runOnce = true
-					CurrentTask = Task.Searching
-	$Label3D.text = str(HeldresourcesAmount)
+func get_spawned_storage() -> Array:
+	var Stock_Piles: Array = []
+	for stock_pile in get_tree().get_nodes_in_group("StockPile"):
+		if stock_pile.spawned:
+			Stock_Piles.append(stock_pile)
+	return Stock_Piles

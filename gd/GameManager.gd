@@ -55,13 +55,13 @@ func _process(delta: float) -> void:
 	if foodbool:
 		foodbool = false
 		await get_tree().create_timer(6.0).timeout
-		ResourceManager.Food -= population
-		if ResourceManager.Food < 0:
-			ResourceManager.Food = 0
+		ResourceManager.resources["food"] -= population
+		if ResourceManager.resources["food"] < 0:
+			ResourceManager.resources["food"] = 0
 		foodbool = true
-		ResourceManager.Gold += round(population * taxRate)
+		ResourceManager.resources["gold"] += round(population * taxRate)
 		var happinessValue = 0
-		if ResourceManager.Food > 0:
+		if ResourceManager.resources["food"] > 0:
 			happinessValue +=1
 		else:
 			happinessValue-=10

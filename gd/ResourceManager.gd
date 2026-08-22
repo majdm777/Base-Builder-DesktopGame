@@ -11,7 +11,8 @@ var resources = {
 	"wood":0,
 	"stone":0,
 	"iron":0,
-	"food":0
+	"food":0,
+	"gold":0
 }
 
 var capacities = {
@@ -36,21 +37,20 @@ func _process(delta: float) -> void:
 	pass
 
 func _on_spawn_object(obj)-> void:
-	wood_capacity += obj.wood_capacity 
-	stone_capacity += obj.stone_capacity 
-	iron_capacity += obj.iron_capacity 
-
-	food_capacity += obj.food_capacity
+	capacities["wood"] += obj.wood_capacity 
+	capacities["stone"] += obj.stone_capacity 
+	capacities["iron"] += obj.iron_capacity 
+	capacities["food"] += obj.food_capacity
 	pass
 
 func _on_despawn_object(obj)->void:
-	wood_capacity -= obj.wood_capacity 
-	if(Wood > wood_capacity): Wood = wood_capacity
-	stone_capacity -= obj.stone_capacity 
-	if(Stone > stone_capacity): Stone = stone_capacity
-	iron_capacity -= obj.iron_capacity 
-	if(Iron > iron_capacity): Iron = iron_capacity
-	food_capacity -= obj.food_capacity
-	if(Food > food_capacity): Food = food_capacity
+	capacities["wood"] -= obj.wood_capacity 
+	if(resources["wood"] > capacities["wood"]): resources["wood"] = capacities["wood"]
+	capacities["stone"] -= obj.stone_capacity 
+	if(resources["stone"] > capacities["stone"]): resources["stone"] = capacities["stone"]
+	capacities["iron"] -= obj.iron_capacity 
+	if(resources["iron"] > capacities["iron"]): resources["iron"] = capacities["iron"]
+	capacities["food"] -= obj.food_capacity
+	if(resources["food"] > capacities["food"]): resources["food"] = capacities["food"]
 	
 	pass
