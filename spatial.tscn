@@ -363,7 +363,7 @@ navigation_mesh = SubResource("NavigationMesh_y7yxl")
 
 [node name="Map" type="StaticBody3D" parent="NavigationRegion3D" unique_id=817173769 groups=["NavMesh"]]
 transform = Transform3D(0.9999999, 4.6114224e-12, 1.4551915e-10, 1.2092016e-10, 0.9999999, 0, 8.731149e-11, -1.4551915e-10, 0.99999964, -7.450581e-09, 7.450581e-09, -3.7252903e-09)
-collision_layer = 3
+collision_layer = 2
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="NavigationRegion3D/Map" unique_id=285093446]
 transform = Transform3D(0.8660258, 0.38302222, -0.32139394, -2.910383e-10, 0.642788, 0.7660445, 0.5000003, -0.6634145, 0.5566711, 192.74019, 181.84763, -0.061168466)
