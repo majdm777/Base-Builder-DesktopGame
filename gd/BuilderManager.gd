@@ -88,6 +88,8 @@ func _place_building() -> void:
 	# Wait until the navmesh has actually been rebaked to include this
 	# building before spawning its actor, so it never spawns on stale nav data.
 	await request_bake()
+	obj.collision_layer = 1
+	obj.collision_mask = 1
 
 	obj.runSpawn()
 	obj.spawned = true
@@ -99,18 +101,29 @@ func _handle_destroying_state() -> void:
 		currentSpawnable = null
 
 	if Input.is_action_just_released("LeftMouseDown"):
-		var camera = get_viewport().get_camera_3d()
-		var mouse_pos = get_viewport().get_mouse_position()
-		var from = camera.project_ray_origin(mouse_pos)
-		var to = from + camera.project_ray_normal(mouse_pos) * 1000.0
-		var spaceState = get_world_3d().direct_space_state
-		var result = spaceState.intersect_ray(
-			PhysicsRayQueryParameters3D.create(from, to))
+		var camera := get_viewport().get_camera_3d()
+		var mouse_pos := get_viewport().get_mouse_position()
 
-		if result and result.collider.is_in_group("building") and result.collider.spawned:
-			
-			result.collider.run_despawn()
-			await request_bake()
+		var from := camera.project_ray_origin(mouse_pos)
+		var to := from + camera.project_ray_normal(mouse_pos) * 1000.0
+
+		var query := PhysicsRayQueryParameters3D.create(from, to)
+
+		# Building collision layer
+		query.collision_mask = 1
+
+		var result := get_world_3d().direct_space_state.intersect_ray(query)
+
+		if result:
+			print(result.collider.name)
+			var building = result.collider
+
+			if building.is_in_group("building") and building.spawned:
+				print("Destroying: ", building.name)
+
+				building.run_despawn()
+
+				await request_bake()
 
 
 # --- Nav baking queue ---
@@ -138,22 +151,22 @@ func _on_bake_finished() -> void:
 
 
 func Can_Afford(obj) -> bool:
-	if ResourceManager.Wood - obj.WoodCost < 0:
+	if ResourceManager.resources["wood"] - obj.WoodCost < 0:
 		return false
-	if ResourceManager.Stone - obj.StoneCost < 0:
+	if ResourceManager.resources["stone"] - obj.StoneCost < 0:
 		return false
-	if ResourceManager.Iron - obj.IronCost < 0:
+	if ResourceManager.resources["iron"] - obj.IronCost < 0:
 		return false
-	if ResourceManager.Gold - obj.GoldCost < 0:
+	if ResourceManager.resources["gold"] - obj.GoldCost < 0:
 		return false
 	return true
 
 
 func charge_object(obj):
-	ResourceManager.Wood -= obj.WoodCost
-	ResourceManager.Stone -= obj.StoneCost
-	ResourceManager.Iron -= obj.IronCost
-	ResourceManager.Gold -= obj.GoldCost
+	ResourceManager.resources["wood"] -= obj.WoodCost
+	ResourceManager.resources["stone"] -= obj.StoneCost
+	ResourceManager.resources["iron"] -= obj.IronCost
+	ResourceManager.resources["gold"] -= obj.GoldCost
 
 # industry
 func SpawnWoodCutterHut():
