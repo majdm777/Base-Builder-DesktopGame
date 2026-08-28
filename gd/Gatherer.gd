@@ -52,7 +52,7 @@ func _physics_process(delta: float) -> void:
 func _process(delta: float) -> void:
 	match CurrentTask:
 		Task.Gathering:
-			if runOnce:
+			if runOnce and is_instance_valid(current_target):
 				runOnce = false
 				await get_tree().create_timer(2.0).timeout
 				if current_target.has_method("_Harvest"):

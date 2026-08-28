@@ -1,10 +1,10 @@
 [gd_scene format=4 uid="uid://d0ld5jkm1fjsr"]
 
 [ext_resource type="Material" path="res://Assets/Home/roof.material" id="1"]
-[ext_resource type="Material" path="res://Assets/Home/border.material" id="2"]
-[ext_resource type="Material" path="res://Assets/Home/door.material" id="3"]
-[ext_resource type="Material" path="res://Assets/Home/window.material" id="4"]
-[ext_resource type="Material" path="res://Assets/Home/_defaultMat.material" id="5"]
+[ext_resource type="Material" uid="uid://c3e6bhs14hb86" path="res://Assets/Home/border.material" id="2"]
+[ext_resource type="Material" uid="uid://jwj0lydwymvq" path="res://Assets/Home/door.material" id="3"]
+[ext_resource type="Material" uid="uid://dupv3ete21s4q" path="res://Assets/Home/window.material" id="4"]
+[ext_resource type="Material" uid="uid://dyhpdtl4x01qy" path="res://Assets/Home/_defaultMat.material" id="5"]
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="6"]
 
 [sub_resource type="ArrayMesh" id="1"]
@@ -75,7 +75,6 @@ data = PackedVector3Array(-0.6551, 0.34, 0.2959, -0.703, 0.3256, 0.2959, -0.703,
 [node name="Stockpile" type="StaticBody3D" unique_id=83563834 groups=["StockPile", "Stockpile"]]
 transform = Transform3D(12.554, 0, 0, 0, 12.554, 0, 0, 0, 12.554, 0, 0, 0)
 script = ExtResource("6")
-WoodCost = 5
 
 [node name="tmpParent" type="Node3D" parent="." unique_id=728138529]
 
