@@ -360,6 +360,7 @@ shape = SubResource("BoxShape3D_ne8tm")
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=1693179708 groups=["NavMesh", "NavRegion"]]
 transform = Transform3D(0.9999997, -1.1176837e-10, 1.4551915e-10, 1.2091306e-10, 0.9999997, 0, 5.820766e-11, -1.7462298e-10, 0.9999994, 0.10291271, -0.100577496, 0.042403247)
 navigation_mesh = SubResource("NavigationMesh_y7yxl")
+navigation_layers = 3
 
 [node name="Map" type="StaticBody3D" parent="NavigationRegion3D" unique_id=817173769 groups=["NavMesh"]]
 transform = Transform3D(0.9999999, 4.6114224e-12, 1.4551915e-10, 1.2092016e-10, 0.9999999, 0, 8.731149e-11, -1.4551915e-10, 0.99999964, -7.450581e-09, 7.450581e-09, -3.7252903e-09)
