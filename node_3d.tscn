@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dhbgkhd0bxcq0"]
+
+[ext_resource type="ArrayMesh" uid="uid://bq1me8233x2om" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/base/hex_grass.obj" id="1_a202f"]
+
+[node name="Node3D" type="Node3D" unique_id=2071560046]
+
+[node name="Node3D" type="Node3D" parent="." unique_id=1221532113]
+
+[node name="HexGrass2" type="MeshInstance3D" parent="Node3D" unique_id=1812420712]
+transform = Transform3D(0.5376404, 0, 0.8431743, 0, 1, 0, -0.8431743, 0, 0.5376404, 0.0013918877, 1.1920929e-07, -0.0021167994)
+mesh = ExtResource("1_a202f")
+skeleton = NodePath("../..")
+
+[node name="HexGrass3" type="MeshInstance3D" parent="Node3D" unique_id=574633966]
+transform = Transform3D(0.66338533, 0, -0.7482779, 0, 1, 0, 0.7482779, 0, 0.66338533, 0.0013918877, 1.1920929e-07, -0.0021167994)
+mesh = ExtResource("1_a202f")
+skeleton = NodePath("../..")

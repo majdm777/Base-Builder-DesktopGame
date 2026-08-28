@@ -72,10 +72,6 @@ func _on_area_area_exited(area: Area3D) -> void:
 		if not object.has(area):
 			return  # was never tracked, nothing to remove
 		object.erase(area)
-	if ActiveBuildableObject:
-		if not object.has(area):
-			return  # was never tracked, nothing to remove
-		object.erase(area)
 		if object.size() <= 0:
 			BuilderManager.AbleToBuild = true
 			

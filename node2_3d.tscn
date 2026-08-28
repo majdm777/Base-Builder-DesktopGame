@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dp5usu1nw72y"]
+
+[ext_resource type="ArrayMesh" uid="uid://d02gu86s6sxks" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/roads/hex_road_A.obj" id="1_xb6kb"]
+
+[node name="Node3D" type="Node3D" unique_id=1484401670]
+
+[node name="HexRoadA" type="MeshInstance3D" parent="." unique_id=1810838986]
+mesh = ExtResource("1_xb6kb")

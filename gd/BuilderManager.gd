@@ -46,6 +46,7 @@ func _handle_building_state() -> void:
 	var from = camera.project_ray_origin(mouse_pos)
 	var to = from + camera.project_ray_normal(mouse_pos) * 1000.0
 	var query = PhysicsRayQueryParameters3D.create(from, to)
+	query.collision_mask = 2
 	var result = get_world_3d().direct_space_state.intersect_ray(query)
 
 	if result:
@@ -187,8 +188,8 @@ func SpawnObj(obj: PackedScene):
 
 	currentSpawnable = obj.instantiate()
 
-	currentSpawnable.collision_layer = 1
-	currentSpawnable.collision_mask = 1
+	currentSpawnable.collision_layer = 0
+	currentSpawnable.collision_mask = 0
 
 	get_tree().current_scene.add_child(currentSpawnable)
 
