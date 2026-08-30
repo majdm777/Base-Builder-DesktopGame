@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://chq2od8rbuscf"]
 
 [ext_resource type="Script" uid="uid://beokcq0705qe6" path="res://gd/camera_3d.gd" id="1_3m5f8"]
+[ext_resource type="Script" uid="uid://c4ka5aa6hjy1p" path="res://spatial.gd" id="1_pij2x"]
 [ext_resource type="Script" uid="uid://b8khwxixwh2cl" path="res://gd/InterfaceManager.gd" id="2_ne8tm"]
 [ext_resource type="Script" uid="uid://bgkfqruk4ll3y" path="res://gd/MouseArea2D.gd" id="4_hjq85"]
 [ext_resource type="ArrayMesh" uid="uid://blmwwxy6hyhc7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/base/hex_grass_bottom.obj" id="5_7s1p8"]
@@ -19,13 +20,6 @@ size = Vector2(1186, 139)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
-[sub_resource type="NavigationMesh" id="NavigationMesh_y7yxl"]
-vertices = PackedVector3Array(8.250015, 0.7349999, -29.775436, 21.750015, 0.7349999, -36.275436, 21.750015, 0.7349999, -38.025436, 7.0000153, 0.7349999, -30.025436, 22.250015, 0.7349999, -58.275436, 22.250015, 0.7349999, -62.025436, 23.500015, 0.7349999, -38.275436, 23.750015, 0.7349999, -56.775436, 23.750015, 0.7349999, -63.275436, 25.250015, 0.7349999, -63.275436, 25.000015, 0.7349999, -253.52544, 6.0000153, 0.7349999, -29.025436, -249.49998, 0.7349999, -253.52544, -249.49998, 0.7349999, -29.025436, 26.250015, 0.7349999, -63.275436, 26.500015, 0.7349999, -253.52544, 24.250015, 0.7349999, -38.025436, 27.500015, 0.7349999, -56.775436, 28.750015, 0.7349999, -62.275436, 29.000015, 0.7349999, -58.025436, 61.750015, 0.7349999, -29.275436, 249.50002, 0.7349999, -28.525436, 249.50002, 0.7349999, -253.52544, 24.250015, 0.7349999, -36.275436, 59.250015, 0.7349999, -29.525436, 61.000015, 0.7349999, -29.775436, 61.750015, 0.7349999, -28.525436, 27.750015, 0.7349999, -63.275436, 25.000015, 5.9849997, -60.775436, 25.500015, 5.9849997, -60.775436, 25.500015, 5.9849997, -62.275436, 23.250015, 5.9849997, -60.275436, 24.750015, 5.9849997, -60.275436, 23.500015, 5.9849997, -62.275436, 26.000015, 5.9849997, -60.525436, 28.000015, 5.9849997, -62.025436, 25.000015, 5.9849997, -59.525436, 23.500015, 5.9849997, -57.775436, 25.750015, 5.9849997, -59.525436, 27.750015, 5.9849997, -57.775436, 23.500015, 0.7349999, -61.025436, 23.500015, 0.7349999, -60.525436, 25.000015, 0.7349999, -60.525436, 25.000015, 0.7349999, -62.025436, 26.250015, 0.7349999, -60.525436, 27.750015, 0.7349999, -60.525436, 26.750015, 0.7349999, -62.025436, 26.250015, 0.7349999, -62.025436, 24.000015, 0.7349999, -58.525436, 25.000015, 0.7349999, -58.025436, 25.000015, 0.7349999, -59.275436, 23.750015, 0.7349999, -59.275436, 26.250015, 0.7349999, -59.275436, 26.250015, 0.7349999, -58.025436, 27.750015, 0.7349999, -59.025436, 22.750015, 1.9849999, -37.275436, 22.750015, 1.9849999, -36.775436, 23.250015, 1.9849999, -36.775436, 23.250015, 1.9849999, -37.275436, 25.000015, 0.7349999, -27.025436, 24.250015, 0.7349999, -36.025436, 22.000015, 0.7349999, -35.775436, 24.500015, 0.7349999, -26.525436, 9.000015, 0.7349999, -29.275436, 8.750015, 0.7349999, -27.025436, 26.750015, 0.7349999, -27.025436, 58.750015, 0.7349999, -29.275436, 58.750015, 0.7349999, -27.525436, 1.5258789e-05, 0.7349999, -11.525436, 6.0000153, 0.7349999, -27.775436, -249.49998, 0.7349999, -9.775436, -1.7499847, 0.7349999, -10.775436, -1.7499847, 0.7349999, -9.775436, 61.000015, 0.7349999, -26.775436, 60.250015, 0.7349999, -26.775436, 60.250015, 0.7349999, -11.275436, 61.500015, 0.7349999, -11.025436, 61.750015, 0.7349999, -27.525436, 61.750015, 0.7349999, -9.775436, 249.50002, 0.7349999, -9.775436, 1.2500153, 0.7349999, -10.525436, 5.5000153, 0.7349999, -14.275436, 7.0000153, 0.7349999, -26.775436, 27.000015, 0.7349999, -25.775436, 27.500015, 0.7349999, -25.775436, 27.750015, 0.7349999, -25.275436, 59.250015, 0.7349999, -27.025436, 25.000015, 0.7349999, -23.525436, 25.000015, 0.7349999, -24.525436, 24.500015, 0.7349999, -24.775436, 25.500015, 0.7349999, -23.275436, 59.000015, 0.7349999, -11.025436, 27.750015, 0.7349999, -23.525436, 58.750015, 0.7349999, -10.525436, 27.250015, 0.7349999, -23.275436, 25.500015, 1.9849999, -25.525436, 26.000015, 1.9849999, -25.275436, 26.000015, 1.9849999, -26.025436, 25.500015, 1.9849999, -26.025436, 26.000015, 1.9849999, -25.025436, 26.000015, 1.9849999, -24.275436, 26.500015, 1.9849999, -24.275436, 1.2500153, 0.7349999, -8.775436, 58.750015, 0.7349999, -8.775436, 60.250015, 0.7349999, -8.275436, -0.24998474, 0.7349999, -8.275436, -0.24998474, 0.7349999, 253.47456, 60.250015, 0.7349999, 253.47456, -1.7499847, 0.7349999, -8.775436, -249.49998, 0.7349999, 253.47456, 61.500015, 0.7349999, -8.525436, 249.50002, 0.7349999, 253.47456)
-polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(0, 3, 2), PackedInt32Array(2, 3, 4), PackedInt32Array(4, 3, 5), PackedInt32Array(6, 2, 7), PackedInt32Array(7, 2, 4), PackedInt32Array(10, 9, 8), PackedInt32Array(3, 11, 5), PackedInt32Array(5, 11, 10), PackedInt32Array(10, 11, 13), PackedInt32Array(10, 13, 12), PackedInt32Array(5, 10, 8), PackedInt32Array(9, 10, 14), PackedInt32Array(14, 10, 15), PackedInt32Array(6, 7, 16), PackedInt32Array(16, 7, 17), PackedInt32Array(19, 18, 20), PackedInt32Array(20, 18, 21), PackedInt32Array(21, 18, 15), PackedInt32Array(21, 15, 22), PackedInt32Array(16, 17, 23), PackedInt32Array(23, 17, 19), PackedInt32Array(23, 19, 24), PackedInt32Array(24, 19, 25), PackedInt32Array(21, 26, 20), PackedInt32Array(27, 14, 15), PackedInt32Array(18, 27, 15), PackedInt32Array(20, 25, 19), PackedInt32Array(30, 29, 28), PackedInt32Array(32, 31, 28), PackedInt32Array(28, 31, 33), PackedInt32Array(28, 33, 30), PackedInt32Array(29, 30, 34), PackedInt32Array(34, 30, 35), PackedInt32Array(32, 36, 31), PackedInt32Array(31, 36, 37), PackedInt32Array(34, 35, 38), PackedInt32Array(38, 35, 39), PackedInt32Array(36, 38, 37), PackedInt32Array(37, 38, 39), PackedInt32Array(41, 40, 42), PackedInt32Array(42, 40, 43), PackedInt32Array(47, 46, 44), PackedInt32Array(44, 46, 45), PackedInt32Array(51, 50, 48), PackedInt32Array(48, 50, 49), PackedInt32Array(54, 53, 52), PackedInt32Array(58, 57, 55), PackedInt32Array(55, 57, 56), PackedInt32Array(61, 60, 59), PackedInt32Array(59, 62, 61), PackedInt32Array(61, 62, 1), PackedInt32Array(1, 62, 63), PackedInt32Array(63, 62, 64), PackedInt32Array(1, 63, 0), PackedInt32Array(60, 23, 59), PackedInt32Array(59, 23, 65), PackedInt32Array(65, 23, 66), PackedInt32Array(66, 23, 24), PackedInt32Array(66, 67, 65), PackedInt32Array(69, 68, 11), PackedInt32Array(11, 68, 71), PackedInt32Array(11, 71, 13), PackedInt32Array(13, 71, 70), PackedInt32Array(71, 72, 70), PackedInt32Array(74, 73, 75), PackedInt32Array(75, 73, 76), PackedInt32Array(77, 26, 21), PackedInt32Array(73, 77, 76), PackedInt32Array(76, 77, 78), PackedInt32Array(78, 77, 79), PackedInt32Array(79, 77, 21), PackedInt32Array(80, 68, 81), PackedInt32Array(81, 68, 82), PackedInt32Array(82, 68, 69), PackedInt32Array(83, 65, 84), PackedInt32Array(84, 65, 67), PackedInt32Array(84, 67, 85), PackedInt32Array(85, 67, 86), PackedInt32Array(88, 87, 89), PackedInt32Array(89, 87, 64), PackedInt32Array(82, 64, 81), PackedInt32Array(81, 64, 87), PackedInt32Array(81, 87, 90), PackedInt32Array(64, 62, 89), PackedInt32Array(74, 75, 86), PackedInt32Array(86, 75, 91), PackedInt32Array(92, 85, 86), PackedInt32Array(91, 93, 86), PackedInt32Array(86, 93, 92), PackedInt32Array(92, 93, 94), PackedInt32Array(98, 97, 95), PackedInt32Array(95, 97, 96), PackedInt32Array(101, 100, 99), PackedInt32Array(81, 102, 80), PackedInt32Array(90, 94, 81), PackedInt32Array(81, 94, 102), PackedInt32Array(102, 94, 93), PackedInt32Array(102, 93, 103), PackedInt32Array(103, 104, 102), PackedInt32Array(102, 104, 105), PackedInt32Array(105, 104, 107), PackedInt32Array(105, 107, 106), PackedInt32Array(70, 72, 108), PackedInt32Array(108, 105, 70), PackedInt32Array(70, 105, 106), PackedInt32Array(70, 106, 109), PackedInt32Array(110, 78, 79), PackedInt32Array(110, 79, 104), PackedInt32Array(104, 79, 107), PackedInt32Array(107, 79, 111)]
-edge_max_error = 1.0
-
-[sub_resource type="BoxMesh" id="BoxMesh_s8d5f"]
-
 [sub_resource type="Environment" id="Environment_ih4ol"]
 background_mode = 2
 ambient_light_color = Color(0.78775924, 0.78775924, 0.78775924, 1)
@@ -36,8 +30,251 @@ dof_blur_far_distance = 2375.79
 
 [sub_resource type="Compositor" id="Compositor_7s1p8"]
 
+[sub_resource type="BoxMesh" id="BoxMesh_s8d5f"]
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_pij2x"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_jr5po"]
+vertices = PackedVector3Array(77, 0, 9, 77, 0, 7.5, 0.5, 0, 0.5, 77.75, 0, 6.75, 99.5, 0, 0.5, 79, 0, 6.75, 78.75, 0, 9.75, 77.5, 0, 9.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 79.75, 0, 7.5, 79.75, 0, 9)
+polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(3, 1, 2), PackedInt32Array(5, 3, 4), PackedInt32Array(4, 3, 2), PackedInt32Array(7, 6, 2), PackedInt32Array(2, 6, 8), PackedInt32Array(8, 6, 9), PackedInt32Array(10, 5, 4), PackedInt32Array(11, 10, 4), PackedInt32Array(11, 4, 6), PackedInt32Array(6, 4, 9), PackedInt32Array(2, 0, 7)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_5tnxy"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_nlo1c"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_2lfnd"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_oh3xu"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 7.75, 99.5, 0, 7.75, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 8.190002)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_v0c60"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_oy7l1"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_pcflx"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_isvsb"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_lljr5"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_f88lv"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 7.75, 99.5, 0, 7.75, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 8.190002)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_hvh7e"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_33nm3"]
+vertices = PackedVector3Array(72.5, 0, 96, 72.5, 0, 92, 0.5, 0, 99.5, 73.75, 0, 97.5, 99.5, 0, 99.5, 77.25, 0, 97.5, 74.25, 0, 90.75, 77.75, 0, 90.75, 99.5, 0, 0.5, 79, 0, 96, 79, 0, 92.5, 0.5, 0, 0.5, 73.75, 6, 96.5, 77.5, 6, 96.5, 78, 6, 96, 77.75, 6, 91.75, 73.5, 6, 92)
+polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(2, 0, 3), PackedInt32Array(5, 4, 3), PackedInt32Array(3, 4, 2), PackedInt32Array(8, 7, 6), PackedInt32Array(4, 5, 9), PackedInt32Array(4, 9, 10), PackedInt32Array(10, 7, 4), PackedInt32Array(4, 7, 8), PackedInt32Array(1, 2, 6), PackedInt32Array(6, 2, 11), PackedInt32Array(6, 11, 8), PackedInt32Array(13, 12, 14), PackedInt32Array(14, 12, 15), PackedInt32Array(15, 12, 16)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_1wy7k"]
+vertices = PackedVector3Array(49, 0, 43.75, 49.75, 0, 43.5, 49.75, 0, 0.5, 0.5, 0, 0.5, 0.5, 0, 44.5, 49, 0, 44.5, 75.25, 0, 30.5, 75.25, 0, 29.5, 74.5, 0, 29.25, 50.25, 0, 43.5, 74.5, 0, 27.25, 73.75, 0, 18.5, 71.75, 0, 18.25, 71.75, 0, 16, 73, 0, 15.75, 73, 0, 0.5, 74, 0, 15.75, 74.25, 0, 17, 99.5, 0, 17, 99.5, 0, 0.5, 76.75, 0, 27, 77, 0, 28.25, 77.75, 0, 28.5, 74.25, 0, 18.25, 77.75, 0, 29.75, 99.5, 0, 29.75, 77.5, 0, 31, 75.75, 0, 31, 50.75, 0, 44, 50.75, 0, 45, 50, 0, 45.25, 50, 0, 99.5, 99.5, 0, 99.5, 49.25, 0, 45.25, 0.5, 0, 99.5)
+polygons = [PackedInt32Array(1, 0, 2), PackedInt32Array(2, 0, 3), PackedInt32Array(3, 0, 4), PackedInt32Array(0, 5, 4), PackedInt32Array(7, 6, 8), PackedInt32Array(8, 6, 9), PackedInt32Array(12, 11, 10), PackedInt32Array(10, 8, 12), PackedInt32Array(12, 8, 9), PackedInt32Array(12, 9, 1), PackedInt32Array(12, 1, 2), PackedInt32Array(14, 13, 15), PackedInt32Array(15, 13, 2), PackedInt32Array(2, 13, 12), PackedInt32Array(16, 14, 15), PackedInt32Array(16, 15, 17), PackedInt32Array(17, 15, 18), PackedInt32Array(18, 15, 19), PackedInt32Array(20, 22, 21), PackedInt32Array(11, 23, 10), PackedInt32Array(10, 23, 20), PackedInt32Array(25, 24, 22), PackedInt32Array(23, 17, 20), PackedInt32Array(20, 17, 22), PackedInt32Array(22, 17, 18), PackedInt32Array(22, 18, 25), PackedInt32Array(26, 24, 25), PackedInt32Array(28, 27, 29), PackedInt32Array(29, 27, 26), PackedInt32Array(29, 25, 30), PackedInt32Array(30, 25, 31), PackedInt32Array(31, 25, 32), PackedInt32Array(29, 26, 25), PackedInt32Array(9, 6, 28), PackedInt32Array(28, 6, 27), PackedInt32Array(5, 33, 4), PackedInt32Array(4, 33, 34), PackedInt32Array(34, 33, 31), PackedInt32Array(33, 30, 31)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_o3i8t"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_sk1fn"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_pkshj"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 7.75, 99.5, 0, 7.75, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 8.190002)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_in6lh"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_u33rn"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_vg73f"]
+vertices = PackedVector3Array(0.5, 0, 25.75, 9.5, 0, 25.75, 9.75, 0, 25, 0.5, 0, 0.5, 9.75, 0, 45.25, 9.5, 0, 44.5, 0.5, 0, 44.5, 0.5, 0, 99.5, 99.5, 0, 0.5, 11, 0, 43.5, 11, 0, 45.25, 11, 0, 25, 11, 0, 26.75, 99.5, 0, 99.5, 9.75, 0, 43.5, 9.75, 0, 26.75)
+polygons = [PackedInt32Array(1, 0, 2), PackedInt32Array(2, 0, 3), PackedInt32Array(5, 4, 6), PackedInt32Array(6, 4, 7), PackedInt32Array(10, 9, 8), PackedInt32Array(2, 3, 11), PackedInt32Array(11, 3, 8), PackedInt32Array(9, 12, 8), PackedInt32Array(7, 4, 10), PackedInt32Array(7, 10, 13), PackedInt32Array(13, 10, 8), PackedInt32Array(12, 11, 8), PackedInt32Array(1, 15, 0), PackedInt32Array(0, 15, 14), PackedInt32Array(0, 14, 5), PackedInt32Array(0, 5, 6), PackedInt32Array(15, 12, 14), PackedInt32Array(14, 12, 9)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_3eam0"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_dgorl"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_3qc5g"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 7.75, 99.5, 0, 7.75, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 8.190002)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_iap5d"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_rgjo8"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_lo8gv"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_0k2rb"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_1dn05"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 99.5, 99.5, 0, 99.5, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_hkrgh"]
+vertices = PackedVector3Array(0.5, 0, 0.5, 0.5, 0, 7.75, 99.5, 0, 7.75, 99.5, 0, 0.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 100, 12, 8.190002)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_81wwd"]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 0.14001465, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_vu0ko"]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 0.14001465, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_2ekri"]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 0.14001465, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_ktv1c"]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 0.14001465, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_g8kdg"]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 0.14001465, 12, 100)
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_4lt0l"]
+geometry_source_geometry_mode = 1
+geometry_source_group_name = &"nav_geometry"
+filter_baking_aabb = AABB(0, -1.5, 0, 0.14001465, 12, 8.190002)
+
 [node name="spatial" type="Node3D" unique_id=387631361]
 transform = Transform3D(0.999999, 0.0014776, 0.000273023, -0.00147749, 0.999999, -0.000393963, -0.000273605, 0.000393559, 1, 0, 0, 0)
+script = ExtResource("1_pij2x")
 
 [node name="CameraRig" type="Node3D" parent="." unique_id=2075760420]
 script = ExtResource("1_3m5f8")
@@ -357,56 +594,195 @@ mesh = ExtResource("5_7s1p8")
 transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0, 0, 0)
 shape = SubResource("BoxShape3D_ne8tm")
 
-[node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=1693179708 groups=["NavMesh", "NavRegion"]]
-transform = Transform3D(0.9999997, -1.1176837e-10, 1.4551915e-10, 1.2091306e-10, 0.9999997, 0, 5.820766e-11, -1.7462298e-10, 0.9999994, 0.10291271, -0.100577496, 0.042403247)
-navigation_mesh = SubResource("NavigationMesh_y7yxl")
-navigation_layers = 3
+[node name="Map" type="Node3D" parent="." unique_id=283358216 groups=["nav_geometry"]]
 
-[node name="Map" type="StaticBody3D" parent="NavigationRegion3D" unique_id=817173769 groups=["NavMesh"]]
-transform = Transform3D(0.9999999, 4.6114224e-12, 1.4551915e-10, 1.2092016e-10, 0.9999999, 0, 8.731149e-11, -1.4551915e-10, 0.99999964, -7.450581e-09, 7.450581e-09, -3.7252903e-09)
-collision_layer = 2
+[node name="LargeRock" parent="Map" unique_id=1497674382 instance=ExtResource("9_7s1p8")]
+transform = Transform3D(4.999991, -0.007387457, -0.0013680219, 0.0073879827, 4.9999905, 0.0019677943, 0.001365115, -0.001969813, 4.9999933, 25.694769, 0.2649998, -59.972992)
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="NavigationRegion3D/Map" unique_id=285093446]
-transform = Transform3D(0.8660258, 0.38302222, -0.32139394, -2.910383e-10, 0.642788, 0.7660445, 0.5000003, -0.6634145, 0.5566711, 192.74019, 181.84763, -0.061168466)
+[node name="MediumRock" parent="Map" unique_id=490376830 instance=ExtResource("8_h2366")]
+transform = Transform3D(2.4999955, -0.0036937285, -0.00068401097, 0.0036939913, 2.4999952, 0.0009838971, 0.0006825575, -0.0009849065, 2.4999967, 25.705767, 0.2693974, -25.791077)
+
+[node name="SmallRock" parent="Map" unique_id=375359296 instance=ExtResource("6_ab87h")]
+transform = Transform3D(2.4999955, -0.0036937285, -0.00068401097, 0.0036939913, 2.4999952, 0.0009838971, 0.0006825575, -0.0009849065, 2.4999967, 22.93655, 0.26499978, -37.00369)
+
+[node name="Tree_Small" parent="Map" unique_id=2086737538 instance=ExtResource("6_u7lc8")]
+transform = Transform3D(9.999978, -0.01477491, -0.002736042, 0.01477596, 9.999977, 0.003935586, 0.0027302296, -0.003939626, 9.999979, -171.71732, -0.04410989, -145.85841)
+
+[node name="Tree_Small2" parent="Map" unique_id=1817092831 instance=ExtResource("6_u7lc8")]
+transform = Transform3D(9.999981, -0.014774911, -0.0027360434, 0.0147759635, 9.99998, 0.003935588, 0.00273023, -0.0039396263, 9.999985, 60.245827, 0.34492713, -28.300999)
+
+[node name="Tree_Small3" parent="Map" unique_id=961585219 instance=ExtResource("6_u7lc8")]
+transform = Transform3D(9.99998, -0.014774911, -0.0027360432, 0.014775963, 9.999979, 0.003935587, 0.0027302299, -0.0039396263, 9.999983, 60.240753, 0.35222152, -9.7664175)
+
+[node name="Tree_Small4" parent="Map" unique_id=1791539150 instance=ExtResource("6_u7lc8")]
+transform = Transform3D(9.999979, -0.014774908, -0.0027360427, 0.014775961, 9.999978, 0.003935586, 0.0027302296, -0.0039396263, 9.999981, -0.209, 0, -9.783)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=285093446]
+transform = Transform3D(0.8660254, 0.38302192, -0.3213938, 5.820766e-11, 0.6427877, 0.7660441, 0.49999973, -0.6634137, 0.55667055, 192.84297, 181.74695, -0.018765196)
 shadow_enabled = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D/Map" unique_id=2130248338]
-transform = Transform3D(500, 0, 0, 0, 0.53, 0, 0, 0, 508.051, 0, 0, 0)
-mesh = SubResource("BoxMesh_s8d5f")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Map" unique_id=264632891]
-transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0, 0, 0)
-shape = SubResource("BoxShape3D_ne8tm")
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="NavigationRegion3D/Map" unique_id=427985028]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Map" unique_id=427985028]
 environment = SubResource("Environment_ih4ol")
 camera_attributes = SubResource("CameraAttributesPractical_7s1p8")
 compositor = SubResource("Compositor_7s1p8")
 
-[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="NavigationRegion3D" unique_id=823843176]
-transform = Transform3D(1.0000002, -2.3237874e-09, 8.731149e-11, 4.419576e-12, 1.0000001, 3.2014214e-10, -2.910383e-11, 5.820766e-11, 1.0000005, -203.39198, 181.26262, -0.16932231)
-light_energy = 1.372
+[node name="terrain" type="StaticBody3D" parent="Map" unique_id=817173769 groups=["NavMesh"]]
+transform = Transform3D(0.99999946, -2.2809843e-10, 3.4924597e-10, 3.5381476e-10, 0.99999946, 0, 1.7462298e-10, -4.0745363e-10, 0.9999988, 0, -0.53, 0)
+collision_layer = 2
 
-[node name="LargeRock" parent="NavigationRegion3D" unique_id=1497674382 instance=ExtResource("9_7s1p8")]
-transform = Transform3D(4.999993, -0.007387459, -0.0013680232, 0.007387985, 4.9999924, 0.001967795, 0.0013651156, -0.0019698134, 4.999997, 25.69478, 0.26499993, -59.973034)
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Map/terrain" unique_id=2130248338]
+transform = Transform3D(500, 0, 0, 0, 0.53, 0, 0, 0, 508.051, 0, 0, 0)
+mesh = SubResource("BoxMesh_s8d5f")
 
-[node name="MediumRock" parent="NavigationRegion3D" unique_id=490376830 instance=ExtResource("8_h2366")]
-transform = Transform3D(2.4999964, -0.0036937294, -0.0006840116, 0.0036939925, 2.4999962, 0.0009838975, 0.0006825578, -0.0009849067, 2.4999986, 25.705776, 0.2693975, -25.791096)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/terrain" unique_id=264632891]
+transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0, 0, 0)
+shape = SubResource("BoxShape3D_ne8tm")
 
-[node name="SmallRock" parent="NavigationRegion3D" unique_id=375359296 instance=ExtResource("6_ab87h")]
-transform = Transform3D(2.4999964, -0.0036937294, -0.0006840116, 0.0036939925, 2.4999962, 0.0009838975, 0.0006825578, -0.0009849067, 2.4999986, 22.93656, 0.26499987, -37.003716)
+[node name="Navigation" type="Node3D" parent="Map" unique_id=452769991]
 
-[node name="Tree_Small" parent="NavigationRegion3D" unique_id=2086737538 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.999986, -0.014774918, -0.0027360464, 0.01477597, 9.999985, 0.00393559, 0.0027302313, -0.0039396267, 9.999994, 7.5560083, 0.26707283, -28.315409)
+[node name="chunk_0_0" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1377269979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.07, 0, -254.09)
+navigation_mesh = SubResource("NavigationMesh_pij2x")
 
-[node name="Tree_Small2" parent="NavigationRegion3D" unique_id=1817092831 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.999985, -0.014774916, -0.002736046, 0.014775968, 9.999984, 0.0039355895, 0.0027302313, -0.0039396267, 9.999992, 60.24585, 0.34492725, -28.30102)
+[node name="chunk_0_1" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1117805342]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.07, 0, -154.09)
+navigation_mesh = SubResource("NavigationMesh_jr5po")
 
-[node name="Tree_Small3" parent="NavigationRegion3D" unique_id=961585219 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.999984, -0.014774915, -0.0027360455, 0.014775967, 9.999983, 0.0039355885, 0.002730231, -0.0039396267, 9.99999, 60.240776, 0.35222167, -9.766425)
+[node name="chunk_0_2" type="NavigationRegion3D" parent="Map/Navigation" unique_id=94387197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.07, 0, -54.089996)
+navigation_mesh = SubResource("NavigationMesh_5tnxy")
 
-[node name="Tree_Small4" parent="NavigationRegion3D" unique_id=1791539150 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.999983, -0.014774913, -0.002736045, 0.014775965, 9.999982, 0.003935588, 0.0027302308, -0.0039396267, 9.999989, -0.2087353, 0.26290148, -9.7829275)
+[node name="chunk_0_3" type="NavigationRegion3D" parent="Map/Navigation" unique_id=922650809]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.07, 0, 45.910004)
+navigation_mesh = SubResource("NavigationMesh_nlo1c")
+
+[node name="chunk_0_4" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1357722379]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.07, 0, 145.91)
+navigation_mesh = SubResource("NavigationMesh_2lfnd")
+
+[node name="chunk_0_5" type="NavigationRegion3D" parent="Map/Navigation" unique_id=922019825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.07, 0, 245.91)
+navigation_mesh = SubResource("NavigationMesh_oh3xu")
+
+[node name="chunk_1_0" type="NavigationRegion3D" parent="Map/Navigation" unique_id=193541725]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.07, 0, -254.09)
+navigation_mesh = SubResource("NavigationMesh_v0c60")
+
+[node name="chunk_1_1" type="NavigationRegion3D" parent="Map/Navigation" unique_id=358997754]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.07, 0, -154.09)
+navigation_mesh = SubResource("NavigationMesh_oy7l1")
+
+[node name="chunk_1_2" type="NavigationRegion3D" parent="Map/Navigation" unique_id=222686012]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.07, 0, -54.089996)
+navigation_mesh = SubResource("NavigationMesh_pcflx")
+
+[node name="chunk_1_3" type="NavigationRegion3D" parent="Map/Navigation" unique_id=868193937]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.07, 0, 45.910004)
+navigation_mesh = SubResource("NavigationMesh_isvsb")
+
+[node name="chunk_1_4" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1912015117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.07, 0, 145.91)
+navigation_mesh = SubResource("NavigationMesh_lljr5")
+
+[node name="chunk_1_5" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1998439326]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.07, 0, 245.91)
+navigation_mesh = SubResource("NavigationMesh_f88lv")
+
+[node name="chunk_2_0" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1604331093]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.070007, 0, -254.09)
+navigation_mesh = SubResource("NavigationMesh_hvh7e")
+
+[node name="chunk_2_1" type="NavigationRegion3D" parent="Map/Navigation" unique_id=482648639]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.070007, 0, -154.09)
+navigation_mesh = SubResource("NavigationMesh_33nm3")
+
+[node name="chunk_2_2" type="NavigationRegion3D" parent="Map/Navigation" unique_id=518804135]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.070007, 0, -54.089996)
+navigation_mesh = SubResource("NavigationMesh_1wy7k")
+
+[node name="chunk_2_3" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1199251946]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.070007, 0, 45.910004)
+navigation_mesh = SubResource("NavigationMesh_o3i8t")
+
+[node name="chunk_2_4" type="NavigationRegion3D" parent="Map/Navigation" unique_id=298280775]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.070007, 0, 145.91)
+navigation_mesh = SubResource("NavigationMesh_sk1fn")
+
+[node name="chunk_2_5" type="NavigationRegion3D" parent="Map/Navigation" unique_id=653223088]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.070007, 0, 245.91)
+navigation_mesh = SubResource("NavigationMesh_pkshj")
+
+[node name="chunk_3_0" type="NavigationRegion3D" parent="Map/Navigation" unique_id=110192545]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.929993, 0, -254.09)
+navigation_mesh = SubResource("NavigationMesh_in6lh")
+
+[node name="chunk_3_1" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1383539490]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.929993, 0, -154.09)
+navigation_mesh = SubResource("NavigationMesh_u33rn")
+
+[node name="chunk_3_2" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1440806974]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.929993, 0, -54.089996)
+navigation_mesh = SubResource("NavigationMesh_vg73f")
+
+[node name="chunk_3_3" type="NavigationRegion3D" parent="Map/Navigation" unique_id=448262537]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.929993, 0, 45.910004)
+navigation_mesh = SubResource("NavigationMesh_3eam0")
+
+[node name="chunk_3_4" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1601319994]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.929993, 0, 145.91)
+navigation_mesh = SubResource("NavigationMesh_dgorl")
+
+[node name="chunk_3_5" type="NavigationRegion3D" parent="Map/Navigation" unique_id=343891879]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.929993, 0, 245.91)
+navigation_mesh = SubResource("NavigationMesh_3qc5g")
+
+[node name="chunk_4_0" type="NavigationRegion3D" parent="Map/Navigation" unique_id=188428867]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.93, 0, -254.09)
+navigation_mesh = SubResource("NavigationMesh_iap5d")
+
+[node name="chunk_4_1" type="NavigationRegion3D" parent="Map/Navigation" unique_id=334687921]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.93, 0, -154.09)
+navigation_mesh = SubResource("NavigationMesh_rgjo8")
+
+[node name="chunk_4_2" type="NavigationRegion3D" parent="Map/Navigation" unique_id=92333532]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.93, 0, -54.089996)
+navigation_mesh = SubResource("NavigationMesh_lo8gv")
+
+[node name="chunk_4_3" type="NavigationRegion3D" parent="Map/Navigation" unique_id=48566117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.93, 0, 45.910004)
+navigation_mesh = SubResource("NavigationMesh_0k2rb")
+
+[node name="chunk_4_4" type="NavigationRegion3D" parent="Map/Navigation" unique_id=848863800]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.93, 0, 145.91)
+navigation_mesh = SubResource("NavigationMesh_1dn05")
+
+[node name="chunk_4_5" type="NavigationRegion3D" parent="Map/Navigation" unique_id=300564553]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.93, 0, 245.91)
+navigation_mesh = SubResource("NavigationMesh_hkrgh")
+
+[node name="chunk_5_0" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1916703692]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 249.93, 0, -254.09)
+navigation_mesh = SubResource("NavigationMesh_81wwd")
+
+[node name="chunk_5_1" type="NavigationRegion3D" parent="Map/Navigation" unique_id=63697281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 249.93, 0, -154.09)
+navigation_mesh = SubResource("NavigationMesh_vu0ko")
+
+[node name="chunk_5_2" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1706618625]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 249.93, 0, -54.089996)
+navigation_mesh = SubResource("NavigationMesh_2ekri")
+
+[node name="chunk_5_3" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1427736036]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 249.93, 0, 45.910004)
+navigation_mesh = SubResource("NavigationMesh_ktv1c")
+
+[node name="chunk_5_4" type="NavigationRegion3D" parent="Map/Navigation" unique_id=428825464]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 249.93, 0, 145.91)
+navigation_mesh = SubResource("NavigationMesh_g8kdg")
+
+[node name="chunk_5_5" type="NavigationRegion3D" parent="Map/Navigation" unique_id=734217228]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 249.93, 0, 245.91)
+navigation_mesh = SubResource("NavigationMesh_4lt0l")
 
 [connection signal="area_entered" from="Control/Area2D" to="Control" method="_on_area_2d_area_entered"]
 [connection signal="area_exited" from="Control/Area2D" to="Control" method="_on_area_2d_area_exited"]
