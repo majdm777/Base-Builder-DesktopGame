@@ -18,15 +18,22 @@ var House : PackedScene = ResourceLoader.load("res://Scenes/Houses/House.tscn")
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
 
-# --- Nav baking queue state ---
-var nav_region : NavigationRegion3D
-var isBaking : bool = false
-var bake_pending : bool = false
+# --- Map reference (lazy, resolved on first use since this runs as an autoload) ---
+var map_root : Node
 
 
-func _ready() -> void:
-	nav_region = get_tree().get_nodes_in_group("NavRegion")[0]
-	nav_region.bake_finished.connect(_on_bake_finished)
+func _get_map_root() -> Node:
+	if map_root == null:
+		map_root = get_tree().current_scene.find_child("Map", true, false)
+	return map_root
+
+
+# --- Building footprint, read straight off the StaticBody3D's own CollisionShape3D ---
+# (Not the Area3D's shape - that one's just for placement-validity checks.)
+func _building_world_aabb(building: StaticBody3D) -> AABB:
+	var collision_shape := building.get_node("CollisionShape3D") as CollisionShape3D
+	var local_aabb := collision_shape.shape.get_debug_mesh().get_aabb()
+	return collision_shape.global_transform * local_aabb
 
 
 func _process(delta: float) -> void:
@@ -77,7 +84,7 @@ func _place_building() -> void:
 	obj.position = currentSpawnable.position
 	obj.rotation = currentSpawnable.rotation
 
-	nav_region.add_child(obj)
+	_get_map_root().add_child(obj)
 	print("Placed object groups: ", obj.get_groups())
 
 	obj.ActiveBuildableObject = false
@@ -87,7 +94,9 @@ func _place_building() -> void:
 
 	# Wait until the navmesh has actually been rebaked to include this
 	# building before spawning its actor, so it never spawns on stale nav data.
-	await request_bake()
+	var aabb := _building_world_aabb(obj)
+	await NavChunks.rebake_affected_chunks(aabb)
+
 	obj.collision_layer = 1
 	obj.collision_mask = 1
 
@@ -121,33 +130,18 @@ func _handle_destroying_state() -> void:
 			if building.is_in_group("building") and building.spawned:
 				print("Destroying: ", building.name)
 
+				# Capture the footprint BEFORE freeing - once run_despawn()
+				# queue_frees it, the CollisionShape3D is gone.
+				var aabb := _building_world_aabb(building)
+
 				building.run_despawn()
 
-				await request_bake()
-
-
-# --- Nav baking queue ---
-
-# Starts a bake if none is running, or marks that another bake is needed
-# once the current one finishes. Always resolves AFTER a bake that includes
-# all geometry changes requested up to the point this was called.
-func request_bake() -> void:
-	if isBaking:
-		bake_pending = true
-		await nav_region.bake_finished
-		return
-
-	isBaking = true
-	nav_region.bake_navigation_mesh(true)
-	await nav_region.bake_finished
-
-
-func _on_bake_finished() -> void:
-	isBaking = false
-	if bake_pending:
-		bake_pending = false
-		isBaking = true
-		nav_region.bake_navigation_mesh(true)
+				# queue_free() is deferred; wait a frame so the building has
+				# actually left the tree before the bake scans nav_geometry,
+				# otherwise the removed building can leave a phantom obstacle
+				# in the navmesh until some unrelated rebake happens to fix it.
+				await get_tree().process_frame
+				await NavChunks.rebake_affected_chunks(aabb)
 
 
 func Can_Afford(obj) -> bool:

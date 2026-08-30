@@ -81,7 +81,7 @@ script = ExtResource("6")
 [node name="house_type17" type="MeshInstance3D" parent="tmpParent" unique_id=1968188860]
 mesh = SubResource("1")
 
-[node name="CollisionShape" type="CollisionShape3D" parent="." unique_id=624808132]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=624808132]
 shape = SubResource("2")
 
 [node name="Area" type="Area3D" parent="." unique_id=153860229]
