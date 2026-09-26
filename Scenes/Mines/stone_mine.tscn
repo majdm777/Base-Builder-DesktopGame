@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://1f5n5vyexj43"]
+
+[ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_ln1c3"]
+[ext_resource type="ArrayMesh" uid="uid://b58tspdaslr33" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_mine_green.obj" id="1_xd4vp"]
+[ext_resource type="ArrayMesh" uid="uid://io74cs56luxh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/flag_green.obj" id="2_ln1c3"]
+[ext_resource type="ArrayMesh" uid="uid://c6igrcxxa7aiv" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/wheelbarrow.obj" id="3_um4lk"]
+[ext_resource type="ArrayMesh" uid="uid://dgkojpcj528on" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Chunks_Small.obj" id="4_mkgw5"]
+[ext_resource type="ArrayMesh" uid="uid://kd6lrhnosshd" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Brick.obj" id="5_nxh3q"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mti6b"]
+size = Vector3(1.604248, 1.1317749, 1.5470581)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
+size = Vector3(2.2901917, 1.5653687, 2.6030273)
+
+[node name="stone_mine" type="StaticBody3D" unique_id=1488272549]
+script = ExtResource("1_ln1c3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1659906098]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008666992, 0.566803, -0.250885)
+shape = SubResource("BoxShape3D_mti6b")
+
+[node name="Building" type="Node3D" parent="." unique_id=825181535]
+
+[node name="main_building" type="MeshInstance3D" parent="Building" unique_id=690041534]
+mesh = ExtResource("1_xd4vp")
+
+[node name="flag" type="MeshInstance3D" parent="Building" unique_id=282562922]
+transform = Transform3D(0.9983013, 0.039802216, 0.042546388, -0.053450897, 0.9162627, 0.39699653, -0.023182381, -0.39859626, 0.91683376, 0, 0.7908016, -0.90658736)
+mesh = ExtResource("2_ln1c3")
+
+[node name="wheelbarrow" type="MeshInstance3D" parent="Building" unique_id=223148540]
+transform = Transform3D(0.8118269, 0, 0.5838981, 0.01524032, 0.9996593, -0.021189481, -0.5836992, 0.026100988, 0.81155026, -0.5091866, 0.00067066774, 0.77723473)
+mesh = ExtResource("3_um4lk")
+
+[node name="stone_chunks" type="MeshInstance3D" parent="Building" unique_id=1553434260]
+transform = Transform3D(0.13776776, 0, -0.14498292, 0, 0.2, 0, 0.14498292, 0, 0.13776776, -0.513049, 0.11313398, 0.78084373)
+mesh = ExtResource("4_mkgw5")
+
+[node name="stone" type="MeshInstance3D" parent="Building" unique_id=1909745146]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -0.41955018, 0.18964759, 0.41979703)
+mesh = ExtResource("5_nxh3q")
+
+[node name="Area" type="Area3D" parent="." unique_id=1000582745]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=534910861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.008926392, 0.66348267, -0.022705078)
+shape = SubResource("BoxShape3D_4kxuq")
+
+[node name="SpawnPoint" type="Marker3D" parent="." unique_id=2021608981]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.020578474, 0.56489056)
