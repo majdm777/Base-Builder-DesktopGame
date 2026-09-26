@@ -1,7 +1,7 @@
 extends Node3D
 
 var WoodCutterHut : PackedScene = ResourceLoader.load("res://Scenes/ResourceExtraction/wood_cutter.tscn")
-var StoneCutterhut : PackedScene = ResourceLoader.load("res://Scenes/ResourceExtraction/StoneMasons.tscn")
+var StoneCutterhut : PackedScene = ResourceLoader.load("res://Scenes/Mines/stone_mine.tscn")
 var IronMineHut: PackedScene = ResourceLoader.load("res://Scenes/Mines/iron_mine.tscn")
 var StockPile : PackedScene = ResourceLoader.load("res://Scenes/Storage/Stockpile.tscn")
 
