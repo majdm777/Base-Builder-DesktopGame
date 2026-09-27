@@ -2,7 +2,7 @@
 
 [ext_resource type="ArrayMesh" uid="uid://li6pkhn3k31y" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/blue/building_watermill_blue.obj" id="2_lcif4"]
 [ext_resource type="ArrayMesh" uid="uid://c1bgypsl5wuhx" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Wood_Log_B.obj" id="3_mkb0w"]
-[ext_resource type="Script" uid="uid://bs63b7pscy8fa" path="res://Scenes/Storage/storage_appearance.gd" id="3_ut3la"]
+[ext_resource type="Script" uid="uid://bs63b7pscy8fa" path="res://gd/storage_appearance.gd" id="3_ut3la"]
 [ext_resource type="ArrayMesh" uid="uid://bf230vja8grca" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Wood_Log_Stack.obj" id="4_ne4pj"]
 [ext_resource type="ArrayMesh" uid="uid://kd6lrhnosshd" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Brick.obj" id="5_ie7tx"]
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="6"]

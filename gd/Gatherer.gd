@@ -18,6 +18,7 @@ var Producers : Array
 var HeldresourcesAmount: int = 0
 
 @export var SPEED = 10.0
+@export var Gathering_Speed := 2
 @export var pocket_space := 5
 @export_enum("wood","stone","iron","food") var resource_type: String
 
@@ -54,15 +55,17 @@ func _process(delta: float) -> void:
 		Task.Gathering:
 			if runOnce and is_instance_valid(current_target):
 				runOnce = false
-				await get_tree().create_timer(2.0).timeout
+				
 				if current_target.has_method("_Harvest"):
-					HeldresourcesAmount += current_target._Harvest(pocket_space)
+					HeldresourcesAmount += await current_target._Harvest(pocket_space)
 				else:
 					HeldresourcesAmount += current_target.amount
-				if "current_state" in current_target:
-					current_target.current_state = current_target.State.harvested
+				await get_tree().create_timer(Gathering_Speed).timeout
+				if is_instance_valid(current_target):
+					if "current_state" in current_target:
+						current_target.current_state = current_target.State.harvested
 				# Harvest done — remove this plot from the queue for good
-				if current_target != null:
+				if is_instance_valid(current_target):
 					Producers.erase(current_target)
 					current_target = null
 				runOnce = true

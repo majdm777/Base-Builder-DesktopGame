@@ -11,6 +11,7 @@ collision_mask = 2
 script = ExtResource("1_d0fnx")
 ResourceName = "Rock"
 SPEED = 5.0
+Gathering_Speed = 4
 resource_type = "stone"
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1075984681]

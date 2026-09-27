@@ -1,7 +1,7 @@
 extends Node3D
 
 var WoodCutterHut : PackedScene = ResourceLoader.load("res://Scenes/ResourceExtraction/wood_cutter.tscn")
-var StoneCutterhut : PackedScene = ResourceLoader.load("res://Scenes/ResourceExtraction/StoneMasons.tscn")
+var StoneCutterhut : PackedScene = ResourceLoader.load("res://Scenes/ResourceExtraction/stone_cutter_hut.tscn")
 var IronMineHut: PackedScene = ResourceLoader.load("res://Scenes/Mines/iron_mine.tscn")
 var StockPile : PackedScene = ResourceLoader.load("res://Scenes/Storage/Stockpile.tscn")
 
@@ -14,6 +14,9 @@ var Mill : PackedScene = ResourceLoader.load("res://Scenes/Storage/mill.tscn")
 var Farm : PackedScene = ResourceLoader.load("res://Scenes/Farms/farm.tscn")
 
 var House : PackedScene = ResourceLoader.load("res://Scenes/Houses/House.tscn")
+
+var StoneMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/stone_mine.tscn")
+var IronMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/iron_mine.tscn")
 
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
@@ -188,6 +191,11 @@ func SpawnWallCorner():
 	SpawnObj(CornerWall)
 func SpawnWallGate():
 	SpawnObj(GateWall)
+#Mines
+func SpawnStoneMine():
+	SpawnObj(StoneMine)
+func SpawnIronMine():
+	SpawnObj(IronMine)
 
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:
