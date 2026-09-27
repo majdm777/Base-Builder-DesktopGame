@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://d15bd6hu4k6g8"]
+
+[ext_resource type="Script" uid="uid://eh6gxx86dwo6" path="res://gd/silviculturist.gd" id="1_772do"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_p5uw3"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jq63x"]
+
+[node name="Silviculturist" type="CharacterBody3D" unique_id=419540081]
+collision_mask = 2
+script = ExtResource("1_772do")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=58428467]
+transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)
+mesh = SubResource("CapsuleMesh_p5uw3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1581574721]
+transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)
+shape = SubResource("CapsuleShape3D_jq63x")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=993033925]
+
+[node name="Label3D" type="Label3D" parent="." unique_id=139812233]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.0895, 0)
+pixel_size = 0.05
+billboard = 1
+text = "test"
