@@ -1,0 +1,298 @@
+[gd_scene format=3 uid="uid://cnq5lfbjbc1ij"]
+
+[ext_resource type="ArrayMesh" uid="uid://chvkl2ekukson" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_tower_B_green_building_tower_B_top_green.obj" id="1_7jc5g"]
+[ext_resource type="Script" uid="uid://c4hlq6ej8tpkc" path="res://gd/BuildingFarm.gd" id="1_kuiuu"]
+[ext_resource type="ArrayMesh" uid="uid://dgamxtuklxuo6" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/building_dirt.obj" id="2_cbj3q"]
+[ext_resource type="PackedScene" uid="uid://d15bd6hu4k6g8" path="res://Scenes/Actors/Silviculturist.tscn" id="2_ib6dg"]
+[ext_resource type="ArrayMesh" uid="uid://bwuaslopt8nyq" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/waterplant_B.obj" id="4_cbj3q"]
+[ext_resource type="Script" uid="uid://dl3wq62s4fddr" path="res://Scenes/RecourceProducers/tree_plot.gd" id="5_bqflr"]
+[ext_resource type="ArrayMesh" uid="uid://dgut3adthlvss" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/tree_single_B_cut.obj" id="7_ib6dg"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
+size = Vector3(1.2226563, 1.0686035, 1.4229126)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mti6b"]
+size = Vector3(2.992035, 1.079834, 2.78833)
+
+[node name="Tree_planter" type="StaticBody3D" unique_id=86827153]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+script = ExtResource("1_kuiuu")
+SpawnActor = true
+Actor = ExtResource("2_ib6dg")
+
+[node name="farm" type="Node3D" parent="." unique_id=706073120]
+
+[node name="Main Building" type="MeshInstance3D" parent="farm" unique_id=1830836830]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.2743427, 0)
+mesh = ExtResource("1_7jc5g")
+
+[node name="beds" type="Node3D" parent="farm" unique_id=687412117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.018, 0)
+
+[node name="Plot" type="MeshInstance3D" parent="farm/beds" unique_id=504261872]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.178, 0, 0)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot" unique_id=1007847024]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot" unique_id=1796132936]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.24484214, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot2" type="MeshInstance3D" parent="farm/beds" unique_id=1028895624]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.178, 0, 0.554)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot2" unique_id=626224166]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot2" unique_id=57132000]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.23867565, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot3" type="MeshInstance3D" parent="farm/beds" unique_id=506594323]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.1775503, 0, 1.0361336)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot3" unique_id=1730396717]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot3" unique_id=791291388]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.23723304, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot5" type="MeshInstance3D" parent="farm/beds" unique_id=459666998]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.008786067, 0, 1.0361336)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot5" unique_id=1508361183]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot5" unique_id=2058254034]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot6" type="MeshInstance3D" parent="farm/beds" unique_id=1279882380]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.5009676, 0, 1.0361336)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot6" unique_id=1189723694]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot6" unique_id=1307270403]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.24226171, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot7" type="MeshInstance3D" parent="farm/beds" unique_id=1337210669]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.1753938, 0, 1.0361336)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot7" unique_id=1328494109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot7" unique_id=1777821696]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.23404235, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot9" type="MeshInstance3D" parent="farm/beds" unique_id=132187425]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.1769601, 0, -0.001788497)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot9" unique_id=1194762259]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot9" unique_id=1012430408]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot10" type="MeshInstance3D" parent="farm/beds" unique_id=1635489237]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.1813065, 0, -0.49164402)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot10" unique_id=1474324911]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot10" unique_id=198754925]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot11" type="MeshInstance3D" parent="farm/beds" unique_id=1097923217]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.181, 0, -1)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot11" unique_id=1301949160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot11" unique_id=667325250]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot12" type="MeshInstance3D" parent="farm/beds" unique_id=1612278995]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.512, 0, -1)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot12" unique_id=1786692617]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot12" unique_id=353672780]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot14" type="MeshInstance3D" parent="farm/beds" unique_id=568225309]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.178, 0, -1)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot14" unique_id=963773122]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot14" unique_id=49230067]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot16" type="MeshInstance3D" parent="farm/beds" unique_id=54929730]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -0.533, 0, -1)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot16" unique_id=1870027682]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot16" unique_id=83082407]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot15" type="MeshInstance3D" parent="farm/beds" unique_id=835860423]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.178, 0, -0.55)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot15" unique_id=1992344683]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot15" unique_id=267699310]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot13" type="MeshInstance3D" parent="farm/beds" unique_id=660400040]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.003, 0, -1)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot13" unique_id=411112080]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot13" unique_id=768981654]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot8" type="MeshInstance3D" parent="farm/beds" unique_id=365917859]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.1670226, 0, 0.47254765)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot8" unique_id=606040613]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot8" unique_id=1676215423]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.242, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="Plot4" type="MeshInstance3D" parent="farm/beds" unique_id=752607141]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -0.6521128, 0, 1.0361336)
+mesh = ExtResource("2_cbj3q")
+skeleton = NodePath("../..")
+script = ExtResource("5_bqflr")
+
+[node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot4" unique_id=1825722833]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
+visible = false
+mesh = ExtResource("4_cbj3q")
+
+[node name="Tree_lvl0" type="MeshInstance3D" parent="farm/beds/Plot4" unique_id=917644780]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.24251753, 0)
+visible = false
+mesh = ExtResource("7_ib6dg")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1058398531]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0009765625, 0.4642334, -0.00039672852)
+shape = SubResource("BoxShape3D_4kxuq")
+
+[node name="Area" type="Area3D" parent="." unique_id=1140586075]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=831686662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.029525757, 0.46520996, 0.049926758)
+shape = SubResource("BoxShape3D_mti6b")
+debug_color = Color(0, 0.38970533, 0.18696067, 0.41960785)
+
+[node name="SpawnPoint" type="Marker3D" parent="." unique_id=437822355]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74704874, 0, 0)

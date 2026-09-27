@@ -17,7 +17,7 @@ func _on_spawned() -> void:
 	for plot in plots:
 		plot.amount = crops_amount/plots.size()
 		plot.time_to_grow = time_to_grow
-		plot.current_state = plot.State.empty
+		plot.current_state = plot.State.growing
 
 func _on_plot_ready(plot) -> void:
 	plot_ready.emit(plot)

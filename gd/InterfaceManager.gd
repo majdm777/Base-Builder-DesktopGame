@@ -85,3 +85,8 @@ func _on_build_farm_button_down() -> void:
 func _on_stone_mine_button_down() -> void:
 	BuilderManager.SpawnStoneMine()
 	pass # Replace with function body.
+
+
+func _on_tree_plantation_button_down() -> void:
+	BuilderManager.SpawnTreePlantation()
+	pass # Replace with function body.
