@@ -15,6 +15,9 @@ var Farm : PackedScene = ResourceLoader.load("res://Scenes/Farms/farm.tscn")
 
 var House : PackedScene = ResourceLoader.load("res://Scenes/Houses/House.tscn")
 
+var StoneMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/stone_mine.tscn")
+var IronMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/iron_mine.tscn")
+
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
 
@@ -188,6 +191,11 @@ func SpawnWallCorner():
 	SpawnObj(CornerWall)
 func SpawnWallGate():
 	SpawnObj(GateWall)
+#Mines
+func SpawnStoneMine():
+	SpawnObj(StoneMine)
+func SpawnIronMine():
+	SpawnObj(IronMine)
 
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:

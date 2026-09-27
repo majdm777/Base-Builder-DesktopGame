@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_ln1c3"]
 [ext_resource type="ArrayMesh" uid="uid://b58tspdaslr33" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_mine_green.obj" id="1_xd4vp"]
 [ext_resource type="ArrayMesh" uid="uid://io74cs56luxh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/flag_green.obj" id="2_ln1c3"]
-[ext_resource type="Script" uid="uid://bm18f3w32v2uy" path="res://Scenes/Mines/mine_cooldown.gd" id="2_mkgw5"]
 [ext_resource type="Script" uid="uid://xj8nflhggg1d" path="res://gd/RockProducer.gd" id="2_um4lk"]
 [ext_resource type="ArrayMesh" uid="uid://c6igrcxxa7aiv" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/wheelbarrow.obj" id="3_um4lk"]
 [ext_resource type="ArrayMesh" uid="uid://dgkojpcj528on" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Chunks_Small.obj" id="4_mkgw5"]
@@ -11,6 +10,32 @@
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_mti6b"]
 size = Vector3(1.604248, 1.1317749, 1.5470581)
+
+[sub_resource type="GDScript" id="GDScript_um4lk"]
+script/source = "extends Node3D
+
+var marker: Marker3D
+
+func _ready():
+	var marker_temp = get_node_or_null(\"SpawnPoint\")
+	if marker_temp == null:
+		create_marker()
+
+func create_marker():
+	marker = Marker3D.new()
+	marker.set_script(preload(\"res://gd/RockProducer.gd\"))
+	marker.add_to_group(\"stone\")
+	marker.name = \"SpawnPoint\"
+	add_child(marker)
+
+func recreate_marker():
+	marker = null
+
+	await get_tree().create_timer(2.0).timeout
+
+	if is_inside_tree():
+		create_marker()
+"
 
 [sub_resource type="Animation" id="Animation_um4lk"]
 length = 0.001
@@ -78,7 +103,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008666992, 0.566803, -0.25
 shape = SubResource("BoxShape3D_mti6b")
 
 [node name="Building" type="Node3D" parent="." unique_id=825181535]
-script = ExtResource("2_mkgw5")
+script = SubResource("GDScript_um4lk")
 
 [node name="main_building" type="MeshInstance3D" parent="Building" unique_id=690041534]
 mesh = ExtResource("1_xd4vp")
@@ -107,7 +132,7 @@ mesh = ExtResource("5_nxh3q")
 [node name="SpawnPoint" type="Marker3D" parent="Building" unique_id=2021608981 groups=["Rock"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.020578474, 0.9002566)
 script = ExtResource("2_um4lk")
-amount = 5
+amount = 50
 ResourceType = "Stone"
 
 [node name="Area" type="Area3D" parent="." unique_id=1000582745]

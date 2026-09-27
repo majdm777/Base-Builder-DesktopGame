@@ -485,10 +485,19 @@ layout_mode = 2
 text = "Stone Cutter Hut
 "
 
-[node name="Food" type="HBoxContainer" parent="Control/TabContainer" unique_id=860265092]
+[node name="Mines" type="HBoxContainer" parent="Control/TabContainer" unique_id=141158127]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 1
+
+[node name="Stone Mine" type="Button" parent="Control/TabContainer/Mines" unique_id=1263590511]
+layout_mode = 2
+text = "Stone Mine"
+
+[node name="Food" type="HBoxContainer" parent="Control/TabContainer" unique_id=860265092]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
 
 [node name="BuildMill" type="Button" parent="Control/TabContainer/Food" unique_id=1552357276]
 layout_mode = 2
@@ -511,7 +520,7 @@ text = "Farm
 [node name="Population" type="HBoxContainer" parent="Control/TabContainer" unique_id=2032019868]
 visible = false
 layout_mode = 2
-metadata/_tab_index = 2
+metadata/_tab_index = 3
 
 [node name="BuildHouse" type="Button" parent="Control/TabContainer/Population" unique_id=320435690]
 layout_mode = 2
@@ -520,7 +529,7 @@ text = "House "
 [node name="Walls" type="HBoxContainer" parent="Control/TabContainer" unique_id=379035408]
 visible = false
 layout_mode = 2
-metadata/_tab_index = 3
+metadata/_tab_index = 4
 
 [node name="BuildWallNarrow" type="Button" parent="Control/TabContainer/Walls" unique_id=627091967]
 layout_mode = 2
@@ -791,6 +800,7 @@ navigation_mesh = SubResource("NavigationMesh_4lt0l")
 [connection signal="toggled" from="Control/TabContainer/Huts/BuildWoodCutterButton" to="Control" method="_on_build_wood_cutter_button_toggled"]
 [connection signal="button_down" from="Control/TabContainer/Huts/BuildIronCutterHut" to="Control" method="_on_build_iron_cutter_hut_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Huts/buildStoneCutterHut" to="Control" method="_on_build_stone_cutter_hut_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Mines/Stone Mine" to="Control" method="_on_stone_mine_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/BuildMill" to="Control" method="_on_build_mill_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/BuildOrchard" to="Control" method="_on_build_orchard_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/BuildFarm" to="Control" method="_on_build_farm_button_down"]

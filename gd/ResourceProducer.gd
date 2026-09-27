@@ -1,10 +1,10 @@
 class_name ResourceProducer
-extends StaticBody3D
+extends Node3D
 
 
 @export var amount :int = 10
 
-var remaining_resource_amount = amount
+var remaining_resource_amount 
 
 
 var is_harvesting: bool = false
@@ -13,6 +13,7 @@ var is_harvesting: bool = false
 var ResourceType: String 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	remaining_resource_amount = amount
 	pass # Replace with function body.
 
 
@@ -32,7 +33,7 @@ func _Harvest(GathererCapacity: int) -> int:
 		_amount = remaining_resource_amount
 		remaining_resource_amount = 0
 	
-	on_harvest()
+	await on_harvest()
 	if remaining_resource_amount <= 0:
 		queue_free()
 
