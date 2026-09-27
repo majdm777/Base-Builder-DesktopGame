@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_ln1c3"]
 [ext_resource type="ArrayMesh" uid="uid://b58tspdaslr33" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_mine_green.obj" id="1_xd4vp"]
 [ext_resource type="ArrayMesh" uid="uid://io74cs56luxh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/flag_green.obj" id="2_ln1c3"]
-[ext_resource type="Script" uid="uid://bm18f3w32v2uy" path="res://Scenes/Mines/mine_cooldown.gd" id="2_mkgw5"]
+[ext_resource type="Script" uid="uid://bm18f3w32v2uy" path="res://gd/mine_cooldown.gd" id="2_mkgw5"]
 [ext_resource type="Script" uid="uid://xj8nflhggg1d" path="res://gd/RockProducer.gd" id="2_um4lk"]
 [ext_resource type="ArrayMesh" uid="uid://c6igrcxxa7aiv" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/wheelbarrow.obj" id="3_um4lk"]
 [ext_resource type="ArrayMesh" uid="uid://dgkojpcj528on" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Chunks_Small.obj" id="4_mkgw5"]
