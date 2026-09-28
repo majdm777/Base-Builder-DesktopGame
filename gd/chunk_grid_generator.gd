@@ -9,6 +9,7 @@ extends EditorScript
 const MAP_MIN := Vector2(-250.07, -254.09)  # measured from the terrain MeshInstance3D's world AABB
 const MAP_SIZE := Vector2(500.14, 508.19)   # measured, not the earlier assumed 500/508 round numbers
 const CHUNK_SIZE := Vector2(100.0, 100.0)  # desired chunk width/depth (edge chunks may be smaller)
+const BAKE_BORDER := 1.0                   # for the gaps between chunks
 const CHUNK_Y := 0.0                       # world Y position for chunk nodes
 const BAKE_Y_MIN := -1.5                   # local Y where the bake volume starts (below terrain's measured bottom, -1.26)
 const BAKE_HEIGHT := 12.0                  # local Y extent of the bake volume (raise if trees/buildings are tall)
@@ -44,15 +45,20 @@ func _run() -> void:
 
 			var region := NavigationRegion3D.new()
 			region.name = "chunk_%d_%d" % [col, row]
+			region.use_edge_connections = true
 			nav_parent.add_child(region)
 			region.owner = scene_root
 			region.position = Vector3(x, CHUNK_Y, z)
 
 			var navmesh := NavigationMesh.new()
+			navmesh.border_size = 2
 			navmesh.geometry_parsed_geometry_type = NavigationMesh.PARSED_GEOMETRY_BOTH
 			navmesh.geometry_source_geometry_mode = NavigationMesh.SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN
 			navmesh.geometry_source_group_name = NAV_GROUP
-			navmesh.filter_baking_aabb = AABB(Vector3(0.0, BAKE_Y_MIN, 0.0), Vector3(w, BAKE_HEIGHT, d))
+			navmesh.filter_baking_aabb = AABB(
+			Vector3(-BAKE_BORDER, BAKE_Y_MIN, -BAKE_BORDER),
+			Vector3(w + BAKE_BORDER * 2.0, BAKE_HEIGHT, d + BAKE_BORDER * 2.0)
+			)
 			region.navigation_mesh = navmesh
 
 			# Bake now, synchronously, so the resulting navmesh data is saved
