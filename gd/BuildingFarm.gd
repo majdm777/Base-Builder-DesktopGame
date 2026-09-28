@@ -7,7 +7,6 @@ var plots
 
 func _ready() -> void:
 	super()
-	
 	plots = $farm/beds.get_children()
 	for plot in plots:
 		plot.plot_ready.connect(_on_plot_ready)

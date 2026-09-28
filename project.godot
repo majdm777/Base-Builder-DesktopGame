@@ -34,6 +34,7 @@ building=""
 StockPile=""
 NavRegion=""
 Rock=""
+nav_geometry=""
 
 [input]
 
