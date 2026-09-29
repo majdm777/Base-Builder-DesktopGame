@@ -2,12 +2,12 @@
 
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_2pek0"]
 [ext_resource type="Script" uid="uid://bm18f3w32v2uy" path="res://gd/mine_cooldown.gd" id="2_2ew2m"]
-[ext_resource type="ArrayMesh" uid="uid://b58tspdaslr33" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_mine_green.obj" id="3_mghxj"]
-[ext_resource type="ArrayMesh" uid="uid://io74cs56luxh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/flag_green.obj" id="4_b6nmn"]
+[ext_resource type="ArrayMesh" uid="uid://coay1ouw164v" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/blue/building_mine_blue.obj" id="3_2pek0"]
+[ext_resource type="ArrayMesh" uid="uid://cx8gb74ddooh7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/flag_blue.obj" id="4_2ew2m"]
 [ext_resource type="ArrayMesh" uid="uid://c6igrcxxa7aiv" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/wheelbarrow.obj" id="5_pdua5"]
-[ext_resource type="ArrayMesh" uid="uid://dgkojpcj528on" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Chunks_Small.obj" id="6_3dq8b"]
-[ext_resource type="ArrayMesh" uid="uid://kd6lrhnosshd" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Brick.obj" id="7_uxmlx"]
-[ext_resource type="Script" uid="uid://xj8nflhggg1d" path="res://gd/RockProducer.gd" id="8_7vbgl"]
+[ext_resource type="ArrayMesh" uid="uid://c1fe7bplyx14f" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Nugget_Large.obj" id="6_mghxj"]
+[ext_resource type="ArrayMesh" uid="uid://dh2j3qjrlor41" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Bar.obj" id="7_b6nmn"]
+[ext_resource type="Script" uid="uid://b1hht2fkp1s05" path="res://Scenes/Mines/IronProducer.gd" id="8_2pek0"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_mti6b"]
 size = Vector3(1.604248, 1.1317749, 1.5470581)
@@ -69,7 +69,7 @@ _data = {
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
 size = Vector3(2.2901917, 1.5653687, 2.6030273)
 
-[node name="stone_mine" type="StaticBody3D" unique_id=1488272549 groups=["building"]]
+[node name="iron_mine" type="StaticBody3D" unique_id=1488272549 groups=["building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_2pek0")
 
@@ -81,34 +81,34 @@ shape = SubResource("BoxShape3D_mti6b")
 script = ExtResource("2_2ew2m")
 
 [node name="main_building" type="MeshInstance3D" parent="Building" unique_id=690041534]
-mesh = ExtResource("3_mghxj")
+mesh = ExtResource("3_2pek0")
 
 [node name="flag" type="MeshInstance3D" parent="Building" unique_id=282562922]
 transform = Transform3D(0.9983013, 0.039802216, 0.042546388, -0.053450897, 0.9162627, 0.39699653, -0.023182381, -0.39859626, 0.91683376, 0, 0.7908016, -0.90658736)
-mesh = ExtResource("4_b6nmn")
+mesh = ExtResource("4_2ew2m")
 
 [node name="wheelbarrow" type="MeshInstance3D" parent="Building" unique_id=223148540]
 transform = Transform3D(0.9998147, -0.015485279, -0.011444903, 0.015240319, 0.99965936, -0.02118948, 0.011769104, 0.021011129, 0.9997098, 0.0044988394, 0.039830264, 0.57391304)
 mesh = ExtResource("5_pdua5")
 
-[node name="stone_chunks" type="MeshInstance3D" parent="Building/wheelbarrow" unique_id=1553434260]
-transform = Transform3D(-0.010690112, 0.0030480628, -0.19969082, 0.004395231, 0.19993183, 0.0028164505, 0.19966574, -0.0042378963, -0.010753462, -0.010121012, 0.074029356, 0.025776505)
+[node name="iron_nugget" type="MeshInstance3D" parent="Building/wheelbarrow" unique_id=1553434260]
+transform = Transform3D(-0.010690112, 0.0030480616, -0.19969082, 0.0043952293, 0.19993174, 0.0028164487, 0.19966564, -0.004237895, -0.010753462, 0.0006213337, 0.14190415, 0.024223626)
 visible = false
-mesh = ExtResource("6_3dq8b")
+mesh = ExtResource("6_mghxj")
 skeleton = NodePath("../..")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Building/wheelbarrow" unique_id=1502516327]
 libraries/ = SubResource("AnimationLibrary_qovb2")
 
-[node name="stone" type="MeshInstance3D" parent="Building" unique_id=1909745146]
+[node name="iron" type="MeshInstance3D" parent="Building" unique_id=1909745146]
 transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -0.41955018, 0.18964759, 0.41979703)
-mesh = ExtResource("7_uxmlx")
+mesh = ExtResource("7_b6nmn")
 
-[node name="SpawnPoint" type="Marker3D" parent="Building" unique_id=2021608981 groups=["Rock"]]
+[node name="SpawnPoint" type="Marker3D" parent="Building" unique_id=2021608981 groups=["Iron"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.020578474, 0.9002566)
-script = ExtResource("8_7vbgl")
+script = ExtResource("8_2pek0")
 amount = 100
-ResourceType = "Stone"
+ResourceType = "Iron"
 
 [node name="Area" type="Area3D" parent="." unique_id=1000582745]
 
