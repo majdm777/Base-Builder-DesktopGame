@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ekx8l0egjhpt"
-path.s3tc="res://.godot/imported/hexagons_medieval.png-1f387994822be03f3070ab5d5ba35018.s3tc.ctex"
+path.s3tc="res://.godot/imported/hexagons_medieval.png-ef019b56d1ad7eacdf382278f6abb0ba.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/coast/waterless/hexagons_medieval.png"
-dest_files=["res://.godot/imported/hexagons_medieval.png-1f387994822be03f3070ab5d5ba35018.s3tc.ctex"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/coast/waterless/hexagons_medieval.png"
+dest_files=["res://.godot/imported/hexagons_medieval.png-ef019b56d1ad7eacdf382278f6abb0ba.s3tc.ctex"]
 
 [params]
 
