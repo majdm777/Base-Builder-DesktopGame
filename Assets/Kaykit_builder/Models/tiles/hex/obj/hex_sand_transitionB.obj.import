@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dub23i4gxc548"
+path="res://.godot/imported/hex_sand_transitionB.obj-af1815ea453d4700f888a3550a2e291d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hex_sand_transitionB.obj-af1815ea453d4700f888a3550a2e291d.mesh"]
+
+source_file="res://Assets/Models/tiles/hex/obj/hex_sand_transitionB.obj"
+dest_files=["res://.godot/imported/hex_sand_transitionB.obj-af1815ea453d4700f888a3550a2e291d.mesh", "res://.godot/imported/hex_sand_transitionB.obj-af1815ea453d4700f888a3550a2e291d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djb8q3g5pg2lc"
+path="res://.godot/imported/Pallet_Wood.obj-06371b5dc2513ed5a5eede78eaebe805.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Pallet_Wood.obj-06371b5dc2513ed5a5eede78eaebe805.mesh"]
+
+source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Pallet_Wood.obj"
+dest_files=["res://.godot/imported/Pallet_Wood.obj-06371b5dc2513ed5a5eede78eaebe805.mesh", "res://.godot/imported/Pallet_Wood.obj-06371b5dc2513ed5a5eede78eaebe805.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -6,10 +6,7 @@
 [ext_resource type="Script" uid="uid://bgkfqruk4ll3y" path="res://gd/MouseArea2D.gd" id="4_hjq85"]
 [ext_resource type="ArrayMesh" uid="uid://blmwwxy6hyhc7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/base/hex_grass_bottom.obj" id="5_7s1p8"]
 [ext_resource type="PackedScene" uid="uid://dg0fq677q3d03" path="res://CastleKeep.tscn" id="5_c07jr"]
-[ext_resource type="PackedScene" uid="uid://buru5rfrq6jhl" path="res://Scenes/RecourceProducers/Rocks/small_rock.tscn" id="6_ab87h"]
 [ext_resource type="PackedScene" uid="uid://c42aeiyw66dc3" path="res://Scenes/RecourceProducers/Trees/tree.tscn" id="6_u7lc8"]
-[ext_resource type="PackedScene" uid="uid://ciwu76hnu8uja" path="res://Scenes/RecourceProducers/Rocks/medium_rock.tscn" id="8_h2366"]
-[ext_resource type="PackedScene" uid="uid://cei5n35ravvpn" path="res://Scenes/RecourceProducers/Rocks/LargeRock.tscn" id="9_7s1p8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m7tst"]
 size = Vector2(1186, 139)
@@ -651,15 +648,6 @@ shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="Map" type="Node3D" parent="." unique_id=283358216 groups=["nav_geometry"]]
 
-[node name="LargeRock" parent="Map" unique_id=1497674382 instance=ExtResource("9_7s1p8")]
-transform = Transform3D(4.999991, -0.007387457, -0.0013680219, 0.0073879827, 4.9999905, 0.0019677943, 0.001365115, -0.001969813, 4.9999933, 25.694769, 0.2649998, -59.972992)
-
-[node name="MediumRock" parent="Map" unique_id=490376830 instance=ExtResource("8_h2366")]
-transform = Transform3D(2.4999955, -0.0036937285, -0.00068401097, 0.0036939913, 2.4999952, 0.0009838971, 0.0006825575, -0.0009849065, 2.4999967, 25.705767, 0.2693974, -25.791077)
-
-[node name="SmallRock" parent="Map" unique_id=375359296 instance=ExtResource("6_ab87h")]
-transform = Transform3D(2.4999955, -0.0036937285, -0.00068401097, 0.0036939913, 2.4999952, 0.0009838971, 0.0006825575, -0.0009849065, 2.4999967, 22.93655, 0.26499978, -37.00369)
-
 [node name="Tree_Small" parent="Map" unique_id=2086737538 instance=ExtResource("6_u7lc8")]
 transform = Transform3D(9.999978, -0.01477491, -0.002736042, 0.01477596, 9.999977, 0.003935586, 0.0027302296, -0.003939626, 9.999979, -171.71732, -0.04410989, -145.85841)
 
@@ -670,7 +658,7 @@ transform = Transform3D(9.999981, -0.014774911, -0.0027360434, 0.0147759635, 9.9
 transform = Transform3D(9.99998, -0.014774911, -0.0027360432, 0.014775963, 9.999979, 0.003935587, 0.0027302299, -0.0039396263, 9.999983, 60.240753, 0.35222152, -9.7664175)
 
 [node name="Tree_Small4" parent="Map" unique_id=1791539150 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.999979, -0.014774908, -0.0027360427, 0.014775961, 9.999978, 0.003935586, 0.0027302296, -0.0039396263, 9.999981, -0.209, 0, -9.783)
+transform = Transform3D(9.999978, -0.014774907, -0.0027360423, 0.01477596, 9.999977, 0.0039355857, 0.0027302296, -0.0039396263, 9.999979, 18.598654, 0.02779017, -9.7778635)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=285093446]
 transform = Transform3D(0.8660254, 0.38302192, -0.3213938, 5.820766e-11, 0.6427877, 0.7660441, 0.49999973, -0.6634137, 0.55667055, 192.84297, 181.74695, -0.018765196)

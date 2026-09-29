@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c1oeex38easkv"
+path="res://.godot/imported/square_rock.obj-7f97f75200ff5e9dd0b8a4e43c098b3e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/square_rock.obj-7f97f75200ff5e9dd0b8a4e43c098b3e.mesh"]
+
+source_file="res://Assets/Models/tiles/square/obj/square_rock.obj"
+dest_files=["res://.godot/imported/square_rock.obj-7f97f75200ff5e9dd0b8a4e43c098b3e.mesh", "res://.godot/imported/square_rock.obj-7f97f75200ff5e9dd0b8a4e43c098b3e.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

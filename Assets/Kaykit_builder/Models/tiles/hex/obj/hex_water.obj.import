@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cp87sng8ig7tj"
+path="res://.godot/imported/hex_water.obj-847c41cec659721170ad318a6fb32efa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hex_water.obj-847c41cec659721170ad318a6fb32efa.mesh"]
+
+source_file="res://Assets/Models/tiles/hex/obj/hex_water.obj"
+dest_files=["res://.godot/imported/hex_water.obj-847c41cec659721170ad318a6fb32efa.mesh", "res://.godot/imported/hex_water.obj-847c41cec659721170ad318a6fb32efa.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

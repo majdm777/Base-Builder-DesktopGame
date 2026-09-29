@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jx77u4pit25p"
+path="res://.godot/imported/hex_forest_roadE_detail.obj-430546b1a1487973ce0041d9ee7f17ef.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hex_forest_roadE_detail.obj-430546b1a1487973ce0041d9ee7f17ef.mesh"]
+
+source_file="res://Assets/Models/tiles/hex/obj/hex_forest_roadE_detail.obj"
+dest_files=["res://.godot/imported/hex_forest_roadE_detail.obj-430546b1a1487973ce0041d9ee7f17ef.mesh", "res://.godot/imported/hex_forest_roadE_detail.obj-430546b1a1487973ce0041d9ee7f17ef.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

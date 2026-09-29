@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://utnwth4h4t06"
+path="res://.godot/imported/hex_sand_roadG_detail.obj-128b3329139c63a0a9535080a2f30e51.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hex_sand_roadG_detail.obj-128b3329139c63a0a9535080a2f30e51.mesh"]
+
+source_file="res://Assets/Models/tiles/hex/obj/hex_sand_roadG_detail.obj"
+dest_files=["res://.godot/imported/hex_sand_roadG_detail.obj-128b3329139c63a0a9535080a2f30e51.mesh", "res://.godot/imported/hex_sand_roadG_detail.obj-128b3329139c63a0a9535080a2f30e51.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -5,7 +5,7 @@
 [ext_resource type="ArrayMesh" uid="uid://dgamxtuklxuo6" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/building_dirt.obj" id="2_cbj3q"]
 [ext_resource type="PackedScene" uid="uid://d15bd6hu4k6g8" path="res://Scenes/Actors/Silviculturist.tscn" id="2_ib6dg"]
 [ext_resource type="ArrayMesh" uid="uid://bwuaslopt8nyq" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/waterplant_B.obj" id="4_cbj3q"]
-[ext_resource type="Script" uid="uid://dl3wq62s4fddr" path="res://Scenes/RecourceProducers/tree_plot.gd" id="5_bqflr"]
+[ext_resource type="Script" uid="uid://dl3wq62s4fddr" path="res://gd/tree_plot.gd" id="5_ib6dg"]
 [ext_resource type="ArrayMesh" uid="uid://dgut3adthlvss" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/tree_single_B_cut.obj" id="7_ib6dg"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
@@ -34,7 +34,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.018, 0)
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.178, 0, 0)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot" unique_id=1007847024]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -50,7 +50,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.178, 0, 0.554)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot2" unique_id=626224166]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -65,7 +65,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.1775503, 0, 1.0361336)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot3" unique_id=1730396717]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -80,7 +80,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.008786067, 0, 1.0361336)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot5" unique_id=1508361183]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -96,7 +96,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.5009676, 0, 1.0361336)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot6" unique_id=1189723694]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -112,7 +112,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.1753938, 0, 1.0361336)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot7" unique_id=1328494109]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -128,7 +128,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.1769601, 0, -0.001788497)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot9" unique_id=1194762259]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -144,7 +144,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.1813065, 0, -0.49164402)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot10" unique_id=1474324911]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -160,7 +160,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.181, 0, -1)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot11" unique_id=1301949160]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -176,7 +176,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.512, 0, -1)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot12" unique_id=1786692617]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -192,7 +192,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.178, 0, -1)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot14" unique_id=963773122]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -208,7 +208,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -0.533, 0, -1)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot16" unique_id=1870027682]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -224,7 +224,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -1.178, 0, -0.55)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot15" unique_id=1992344683]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -240,7 +240,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.003, 0, -1)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot13" unique_id=411112080]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -256,7 +256,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 1.1670226, 0, 0.47254765)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot8" unique_id=606040613]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
@@ -272,7 +272,7 @@ mesh = ExtResource("7_ib6dg")
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -0.6521128, 0, 1.0361336)
 mesh = ExtResource("2_cbj3q")
 skeleton = NodePath("../..")
-script = ExtResource("5_bqflr")
+script = ExtResource("5_ib6dg")
 
 [node name="Tree_lvl1" type="MeshInstance3D" parent="farm/beds/Plot4" unique_id=1825722833]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07312734, 0)
