@@ -530,6 +530,10 @@ metadata/_tab_index = 1
 layout_mode = 2
 text = "Stone Mine"
 
+[node name="Iron Mine" type="Button" parent="Control/TabContainer/Mines" unique_id=1395790322]
+layout_mode = 2
+text = "Iron Mine"
+
 [node name="Food" type="HBoxContainer" parent="Control/TabContainer" unique_id=860265092]
 visible = false
 layout_mode = 2
@@ -843,6 +847,7 @@ navigation_mesh = SubResource("NavigationMesh_4lt0l")
 [connection signal="button_down" from="Control/TabContainer/Huts/BuildIronCutterHut" to="Control" method="_on_build_iron_cutter_hut_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Huts/buildStoneCutterHut" to="Control" method="_on_build_stone_cutter_hut_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Mines/Stone Mine" to="Control" method="_on_stone_mine_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Mines/Iron Mine" to="Control" method="_on_iron_mine_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/BuildMill" to="Control" method="_on_build_mill_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/BuildOrchard" to="Control" method="_on_build_orchard_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/BuildFarm" to="Control" method="_on_build_farm_button_down"]

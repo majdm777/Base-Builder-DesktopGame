@@ -50,3 +50,5 @@ V1.0.2.4.1: fixes some bugs and tested everything , the logic works as intended 
 
 V1.0.2.5: added the stone mine, updated the stone cutter hut, and updateted the logic of the stone gatherer 
 V1.0.2.5.1 : added the tree_plantation that plant tree with its worker silviculturist the logic works but not tested completly and the tree_plantation need more polish. note (there is a bug when placing the farm in the gaps between each navigation chunks need to be fixed) 
+V1.0.2.6: added the Iron mine , and added the iron miner hut , removed the animated mining , and now the stone and the iron mining looks a like, aslo added the iron miner .
+    - increased the zoom in scale .

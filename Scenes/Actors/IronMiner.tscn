@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://rusbq1gjwyrq"]
+
+[ext_resource type="Script" uid="uid://bu2dpf0n3kyne" path="res://gd/ResourceGatherer.gd" id="1_7enwh"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_p5uw3"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jq63x"]
+
+[node name="IronMiner" type="CharacterBody3D" unique_id=453949702]
+collision_mask = 2
+script = ExtResource("1_7enwh")
+ResourceName = "Iron"
+SPEED = 5.0
+Gathering_Speed = 8
+resource_type = "iron"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1075984681]
+transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)
+mesh = SubResource("CapsuleMesh_p5uw3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=910905346]
+transform = Transform3D(1.0349, 0, 0, 0, 0.905951, 0, 0, 0, 1.25031, 0, 1.2, 0)
+shape = SubResource("CapsuleShape3D_jq63x")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=552762354]
+
+[node name="Label3D" type="Label3D" parent="." unique_id=1018062560]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.0895, 0)
+pixel_size = 0.05
+billboard = 1
+text = "test"
