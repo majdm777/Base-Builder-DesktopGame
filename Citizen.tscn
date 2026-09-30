@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://b6famcb1u1yh2"]
+[gd_scene format=3 uid="uid://b6famcb1u1yh2"]
 
 [ext_resource type="Script" uid="uid://usk84tteykx1" path="res://gd/citizen.gd" id="1_14c6f"]
 
@@ -6,22 +6,21 @@
 
 [sub_resource type="CapsuleShape3D" id="2"]
 
-[node name="Citizen" type="CharacterBody3D"]
+[node name="Citizen" type="CharacterBody3D" unique_id=1761146493]
 collision_mask = 2
 script = ExtResource("1_14c6f")
 
-[node name="CSGMesh" type="CSGMesh3D" parent="."]
+[node name="CSGMesh" type="CSGMesh3D" parent="." unique_id=775080561]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.52224, -6.65393e-08)
 mesh = SubResource("1")
 
-[node name="CollisionShape" type="CollisionShape3D" parent="."]
+[node name="CollisionShape" type="CollisionShape3D" parent="." unique_id=183407407]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.52224, -6.65393e-08)
 shape = SubResource("2")
 
-[node name="NavigationAgent" type="NavigationAgent3D" parent="."]
-target_desired_distance = 0.1
+[node name="NavigationAgent" type="NavigationAgent3D" parent="." unique_id=464524987]
 
-[node name="Label3D" type="Label3D" parent="."]
+[node name="Label3D" type="Label3D" parent="." unique_id=468464402]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.40804, 0)
 pixel_size = 0.05
 billboard = 1

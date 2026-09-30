@@ -3,33 +3,30 @@ extends CharacterBody3D
 
 @export var SPEED = 5.0
 const JUMP_VELOCITY = 4
+var run_once := true
 
 enum Task{
 	Walking,
-	Sitting
+	Sitting,
+	Sleeping,
+	Wondering
 }
 
 var Home : Marker3D
-
+var going_home :bool = false
 @onready var  navigation : NavigationAgent3D = $NavigationAgent
 var current_task = Task.Walking
+var activities : Array
 
 func _ready() -> void:
 	pass
 func _physics_process(delta: float) -> void:
-	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var input_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
-	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	if direction:
+	if current_task == Task.Walking and not navigation.is_navigation_finished():
+		var next_pos := navigation.get_next_path_position()
+		var direction := (next_pos - global_position).normalized()
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
 	else:
@@ -39,10 +36,41 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 func _process(delta: float) -> void:
+	$Label3D.text = str(current_task)
 	match current_task:
 		Task.Sitting:
+			if run_once:
+				run_once = false
+				await get_tree().create_timer(3.0).timeout
+				current_task = Task.Wondering
+				run_once = true
 			pass
 		Task.Walking:
 			if navigation.is_navigation_finished():
+				if going_home:
+					current_task = Task.Sleeping
+					return
 				current_task = Task.Sitting
 				return 
+		Task.Wondering:
+			activities.clear()
+			for child in BuilderManager.map_root.get_children():
+				if child.is_in_group("building"):
+					activities.append(child)
+			if activities.size() > 0:
+				var temp = activities.pick_random()
+				if is_instance_valid(temp.get_node("SpawnPoint")):
+					if temp.is_in_group("House"):
+						going_home = true
+					navigation.target_position = temp.get_node("SpawnPoint").global_position
+					current_task = Task.Walking
+			pass
+		Task.Sleeping:
+			if run_once:
+				run_once = false
+				visible = false
+				await get_tree().create_timer(15).timeout
+				visible = true
+				going_home = false;
+				current_task = Task.Sitting
+				run_once = true

@@ -2,11 +2,11 @@
 
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_2pek0"]
 [ext_resource type="Script" uid="uid://bm18f3w32v2uy" path="res://gd/mine_cooldown.gd" id="2_2ew2m"]
-[ext_resource type="ArrayMesh" uid="uid://coay1ouw164v" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/blue/building_mine_blue.obj" id="3_2pek0"]
-[ext_resource type="ArrayMesh" uid="uid://cx8gb74ddooh7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/flag_blue.obj" id="4_2ew2m"]
-[ext_resource type="ArrayMesh" uid="uid://c6igrcxxa7aiv" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/wheelbarrow.obj" id="5_pdua5"]
-[ext_resource type="ArrayMesh" uid="uid://c1fe7bplyx14f" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Nugget_Large.obj" id="6_mghxj"]
-[ext_resource type="ArrayMesh" uid="uid://dh2j3qjrlor41" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Bar.obj" id="7_b6nmn"]
+[ext_resource type="ArrayMesh" uid="uid://coay1ouw164v" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_mine_blue.obj" id="3_2pek0"]
+[ext_resource type="ArrayMesh" uid="uid://cx8gb74ddooh7" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/flag_blue.obj" id="4_2ew2m"]
+[ext_resource type="ArrayMesh" uid="uid://c6igrcxxa7aiv" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/wheelbarrow.obj" id="5_pdua5"]
+[ext_resource type="ArrayMesh" uid="uid://c1fe7bplyx14f" path="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Nugget_Large.obj" id="6_mghxj"]
+[ext_resource type="ArrayMesh" uid="uid://dh2j3qjrlor41" path="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Bar.obj" id="7_b6nmn"]
 [ext_resource type="Script" uid="uid://b1hht2fkp1s05" path="res://gd/IronProducer.gd" id="8_2pek0"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_mti6b"]

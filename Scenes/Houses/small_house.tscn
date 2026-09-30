@@ -35,4 +35,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00093460083, 0.4658203, -0
 shape = SubResource("BoxShape3D_4kxuq")
 
 [node name="SpawnPoint" type="Marker3D" parent="." unique_id=2116994401]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.41687012)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.43191528)
