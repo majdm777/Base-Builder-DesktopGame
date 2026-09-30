@@ -1,3 +1,4 @@
+class_name Citizen
 extends CharacterBody3D
 
 
@@ -59,7 +60,7 @@ func _process(delta: float) -> void:
 					activities.append(child)
 			if activities.size() > 0:
 				var temp = activities.pick_random()
-				if is_instance_valid(temp.get_node("SpawnPoint")):
+				if temp.has_node("SpawnPoint") :
 					if temp.is_in_group("House"):
 						going_home = true
 					navigation.target_position = temp.get_node("SpawnPoint").global_position

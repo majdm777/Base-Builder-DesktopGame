@@ -94,6 +94,8 @@ func _place_building() -> void:
 	obj.ActiveBuildableObject = false
 
 	charge_object(obj)
+	if obj.PopulationCost > 0:
+		GameManager.assign_citizen()
 	#GameManager.remove_citizen(obj.PopulationCost)
 
 	# Wait until the navmesh has actually been rebaked to include this
@@ -165,6 +167,7 @@ func charge_object(obj):
 	ResourceManager.resources["stone"] -= obj.StoneCost
 	ResourceManager.resources["iron"] -= obj.IronCost
 	ResourceManager.resources["gold"] -= obj.GoldCost
+	GameManager.AvlPopulation -= obj.PopulationCost
 
 # industry
 func SpawnWoodCutterHut():

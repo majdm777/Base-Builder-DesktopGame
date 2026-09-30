@@ -52,3 +52,7 @@ V1.0.2.5: added the stone mine, updated the stone cutter hut, and updateted the 
 V1.0.2.5.1 : added the tree_plantation that plant tree with its worker silviculturist the logic works but not tested completly and the tree_plantation need more polish. note (there is a bug when placing the farm in the gaps between each navigation chunks need to be fixed) 
 V1.0.2.6: added the Iron mine , and added the iron miner hut , removed the animated mining , and now the stone and the iron mining looks a like, aslo added the iron miner .
     - increased the zoom in scale .
+
+V1.0.2.7 : organized the files deleted an unneeded assests and files , added the main assests to the github 
+    V1.0.2.7.1 : added to the community system : food_availability plus safty plus community which they control the happiness in the community by 60% , 20% , 20% . this could be changed in the future adding a new controllers .
+    V1.0.2.7.2: edited the citizen now the i have a lifecycle , and response when there is a capacity through building houses which they will responed to the assigned one. once a building need a worker or that cost a population one of the citizen will disappear as if they are  assigned to tha work , the population will statyh the same but the available population will be decremented .

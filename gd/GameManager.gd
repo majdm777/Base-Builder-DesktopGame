@@ -18,7 +18,7 @@ var AvlPopulation : int = 0
 
 var taxRate := 1
 
-var Citizen : PackedScene
+var TCitizen : PackedScene
 
 var Happiness := 100
 
@@ -32,7 +32,7 @@ var Food : int = 5000
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	Citizen = ResourceLoader.load("res://Citizen.tscn")
+	TCitizen = ResourceLoader.load("res://Citizen.tscn")
 
 	add_child(food_timer)
 	food_timer.one_shot = true
@@ -77,7 +77,7 @@ func _process(delta: float) -> void:
 		var houses = get_tree().get_nodes_in_group("House")
 		if houses.size() > 0:
 			await get_tree().create_timer(3.0).timeout
-			var citizen = Citizen.instantiate()
+			var citizen = TCitizen.instantiate()
 			BuilderManager.map_root.add_child(citizen)
 			for house in houses:
 				if is_instance_valid(house) and house.spawned and house.remaining_space > 0 :
@@ -91,3 +91,9 @@ func _process(delta: float) -> void:
 			if not FoundHouse:
 				citizen.queue_free()
 		spawnReady = true
+func assign_citizen():
+	for node in BuilderManager.map_root.get_children():
+		if node is Citizen:
+			node.queue_free()
+			return
+	pass
