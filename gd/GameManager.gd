@@ -26,6 +26,7 @@ var Happiness := 100
 var foodbool := true
 
 var spawnReady := true 
+var FoundHouse := false
 
 var Food : int = 5000
 # Called when the node enters the scene tree for the first time.
@@ -55,12 +56,25 @@ func _process(delta: float) -> void:
 	
 	if Happiness > 60 && population < MaxPopulation && spawnReady:
 		spawnReady = false
-		await get_tree().create_timer(3.0).timeout
+		FoundHouse = false;
+		var houses = get_tree().get_nodes_in_group("House")
+		if houses.size() > 0:
+			await get_tree().create_timer(3.0).timeout
+			var citizen = Citizen.instantiate()
+			for house in houses:
+				if is_instance_valid(house) and house.spawned and house.remaining_space > 0 :
+					BuilderManager.map_root.add_child(citizen)
+					citizen.Home = house.occupy()
+					citizen.global_position = citizen.Home.global_position
+					citizen.current_task = citizen.Task.Sitting
+					FoundHouse = true;
+					population += 1
+					AvlPopulation += 1
+					break 
+			#citizen.Spawn()
+			if not FoundHouse:
+				citizen.queue_free()
 		spawnReady = true
-		var citizen = Citizen.instantiate()
-		#citizen.Spawn()
-		population += 1
-		AvlPopulation += 1
 	if foodbool:
 		foodbool = false
 		await get_tree().create_timer(10.0).timeout

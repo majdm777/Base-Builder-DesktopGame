@@ -9,16 +9,13 @@ enum Task{
 	Sitting
 }
 
-var FirePitPos : Marker3D
+var Home : Marker3D
 
 @onready var  navigation : NavigationAgent3D = $NavigationAgent
-var CurrentTask = Task.Walking
+var current_task = Task.Walking
 
 func _ready() -> void:
 	pass
-func spawn_Object_Setup():
-	navigation.target_position = FirePitPos.global_position
-
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():
@@ -42,10 +39,10 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 func _process(delta: float) -> void:
-	match CurrentTask:
+	match current_task:
 		Task.Sitting:
 			pass
 		Task.Walking:
 			if navigation.is_navigation_finished():
-				CurrentTask = Task.Sitting
+				current_task = Task.Sitting
 				return 

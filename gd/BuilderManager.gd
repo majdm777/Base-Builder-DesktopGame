@@ -94,7 +94,7 @@ func _place_building() -> void:
 	obj.ActiveBuildableObject = false
 
 	charge_object(obj)
-	GameManager.remove_citizen(obj.PopulationCost)
+	#GameManager.remove_citizen(obj.PopulationCost)
 
 	# Wait until the navmesh has actually been rebaked to include this
 	# building before spawning its actor, so it never spawns on stale nav data.

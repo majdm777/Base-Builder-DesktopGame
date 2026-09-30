@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bmsvns2u8yde1"]
 
-[ext_resource type="Script" uid="uid://bpd0vvsp3cgds" path="res://Scenes/Houses/BuildingHouse.gd" id="1_xysir"]
+[ext_resource type="Script" uid="uid://bpd0vvsp3cgds" path="res://gd/BuildingHouse.gd" id="1_xysir"]
 [ext_resource type="ArrayMesh" uid="uid://b68bf1o4ibm0s" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_home_A_blue.obj" id="2_p4i4n"]
 [ext_resource type="ArrayMesh" uid="uid://cocv83e6q2x5f" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/bed_frame.obj" id="3_uin78"]
 
@@ -10,9 +10,11 @@ data = PackedVector3Array(-0.24499999, 0.336, -0.24499999, -0.24499999, 0.336, -
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
 size = Vector3(0.92131805, 1.0410156, 1.0356445)
 
-[node name="SmallHouse" type="StaticBody3D" unique_id=879737008 groups=["House", "building"]]
+[node name="SmallHouse" type="StaticBody3D" unique_id=879737008 groups=["building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_xysir")
+IncreasePopcap = true
+IncreaseCapAmount = 4
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1408862006]
 shape = SubResource("ConcavePolygonShape3D_gsv83")
@@ -28,7 +30,7 @@ mesh = ExtResource("3_uin78")
 
 [node name="Area" type="Area3D" parent="." unique_id=1939680230]
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="Area" unique_id=1323723207]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=1323723207]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00093460083, 0.4658203, -0.017822266)
 shape = SubResource("BoxShape3D_4kxuq")
 
