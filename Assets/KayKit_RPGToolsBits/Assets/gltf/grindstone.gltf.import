@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bfsbtqf15plh8"
-path="res://.godot/imported/grindstone.gltf-2a9ab535b0de51a5b60d9083ce0be308.scn"
+path="res://.godot/imported/grindstone.gltf-de789dd99b32a7916706c67ed824c3a3.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/grindstone.gltf"
-dest_files=["res://.godot/imported/grindstone.gltf-2a9ab535b0de51a5b60d9083ce0be308.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/grindstone.gltf"
+dest_files=["res://.godot/imported/grindstone.gltf-de789dd99b32a7916706c67ed824c3a3.scn"]
 
 [params]
 

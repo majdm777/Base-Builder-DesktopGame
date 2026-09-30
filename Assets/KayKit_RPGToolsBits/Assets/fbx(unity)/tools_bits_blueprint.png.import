@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjwg2emla2wos"
-path.s3tc="res://.godot/imported/tools_bits_blueprint.png-38b47b6db4f226f192ba6fea600cc035.s3tc.ctex"
+path.s3tc="res://.godot/imported/tools_bits_blueprint.png-81b98483473450880d74068d4f8366f8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/tools_bits_blueprint.png"
-dest_files=["res://.godot/imported/tools_bits_blueprint.png-38b47b6db4f226f192ba6fea600cc035.s3tc.ctex"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/tools_bits_blueprint.png"
+dest_files=["res://.godot/imported/tools_bits_blueprint.png-81b98483473450880d74068d4f8366f8.s3tc.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cso0ve1jj5p1t"
-path="res://.godot/imported/Skeleton_Arrow.fbx-e349783b64283e3ab0d31c77c46497e0.scn"
+path="res://.godot/imported/Skeleton_Arrow.fbx-87bd7dd6780f837172f39ca036385860.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/fbx(unity)/Skeleton_Arrow.fbx"
-dest_files=["res://.godot/imported/Skeleton_Arrow.fbx-e349783b64283e3ab0d31c77c46497e0.scn"]
+source_file="res://Assets/KayKit_Skeletons/assets/fbx(unity)/Skeleton_Arrow.fbx"
+dest_files=["res://.godot/imported/Skeleton_Arrow.fbx-87bd7dd6780f837172f39ca036385860.scn"]
 
 [params]
 

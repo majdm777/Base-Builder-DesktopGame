@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://drxeqpcsm8aqx"
-path="res://.godot/imported/hex_road_G.obj-4c0f2392d56474571eb9c3f3a26911f2.mesh"
+path="res://.godot/imported/hex_road_G.obj-84f0fec8491dd8eb3a0618d61ed0b274.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_road_G.obj-4c0f2392d56474571eb9c3f3a26911f2.mesh"]
+files=["res://.godot/imported/hex_road_G.obj-84f0fec8491dd8eb3a0618d61ed0b274.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/roads/hex_road_G.obj"
-dest_files=["res://.godot/imported/hex_road_G.obj-4c0f2392d56474571eb9c3f3a26911f2.mesh", "res://.godot/imported/hex_road_G.obj-4c0f2392d56474571eb9c3f3a26911f2.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/roads/hex_road_G.obj"
+dest_files=["res://.godot/imported/hex_road_G.obj-84f0fec8491dd8eb3a0618d61ed0b274.mesh", "res://.godot/imported/hex_road_G.obj-84f0fec8491dd8eb3a0618d61ed0b274.mesh"]
 
 [params]
 

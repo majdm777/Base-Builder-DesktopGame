@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c5sfs376javgw"
-path="res://.godot/imported/hex_river_L_waterless.obj-5f8b2b33deffe3add384ad2391886e36.mesh"
+path="res://.godot/imported/hex_river_L_waterless.obj-a340a0173e62e29ec24378208d38faae.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_river_L_waterless.obj-5f8b2b33deffe3add384ad2391886e36.mesh"]
+files=["res://.godot/imported/hex_river_L_waterless.obj-a340a0173e62e29ec24378208d38faae.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/rivers/waterless/hex_river_L_waterless.obj"
-dest_files=["res://.godot/imported/hex_river_L_waterless.obj-5f8b2b33deffe3add384ad2391886e36.mesh", "res://.godot/imported/hex_river_L_waterless.obj-5f8b2b33deffe3add384ad2391886e36.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/rivers/waterless/hex_river_L_waterless.obj"
+dest_files=["res://.godot/imported/hex_river_L_waterless.obj-a340a0173e62e29ec24378208d38faae.mesh", "res://.godot/imported/hex_river_L_waterless.obj-a340a0173e62e29ec24378208d38faae.mesh"]
 
 [params]
 

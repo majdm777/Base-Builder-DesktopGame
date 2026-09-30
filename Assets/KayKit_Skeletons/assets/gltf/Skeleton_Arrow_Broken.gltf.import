@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hqk7hvqv0hha"
-path="res://.godot/imported/Skeleton_Arrow_Broken.gltf-3e7fb3d8e0c7c3141cd218c71c235c03.scn"
+path="res://.godot/imported/Skeleton_Arrow_Broken.gltf-7427515315ede7096ebb02ac1087d14b.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/gltf/Skeleton_Arrow_Broken.gltf"
-dest_files=["res://.godot/imported/Skeleton_Arrow_Broken.gltf-3e7fb3d8e0c7c3141cd218c71c235c03.scn"]
+source_file="res://Assets/KayKit_Skeletons/assets/gltf/Skeleton_Arrow_Broken.gltf"
+dest_files=["res://.godot/imported/Skeleton_Arrow_Broken.gltf-7427515315ede7096ebb02ac1087d14b.scn"]
 
 [params]
 

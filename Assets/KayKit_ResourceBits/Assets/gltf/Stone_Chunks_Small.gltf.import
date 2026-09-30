@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b56jb3jpccahj"
-path="res://.godot/imported/Stone_Chunks_Small.gltf-94cefb97d1f206cf3dafcace6a9146fb.scn"
+path="res://.godot/imported/Stone_Chunks_Small.gltf-b7796e10c065ac3f42540af257ed33cc.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Stone_Chunks_Small.gltf"
-dest_files=["res://.godot/imported/Stone_Chunks_Small.gltf-94cefb97d1f206cf3dafcace6a9146fb.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Stone_Chunks_Small.gltf"
+dest_files=["res://.godot/imported/Stone_Chunks_Small.gltf-b7796e10c065ac3f42540af257ed33cc.scn"]
 
 [params]
 

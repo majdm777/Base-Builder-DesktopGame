@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://do58wyevxxxx0"
-path="res://.godot/imported/wall_endcap.fbx-fb83ab71e2d74c1f7f4916a222f58718.scn"
+path="res://.godot/imported/wall_endcap.fbx-0411ebf6dc7d711bb4b2d03aad6ba441.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_endcap.fbx"
-dest_files=["res://.godot/imported/wall_endcap.fbx-fb83ab71e2d74c1f7f4916a222f58718.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/wall_endcap.fbx"
+dest_files=["res://.godot/imported/wall_endcap.fbx-0411ebf6dc7d711bb4b2d03aad6ba441.scn"]
 
 [params]
 

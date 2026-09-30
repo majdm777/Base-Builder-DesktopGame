@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://beji22d3old6p"
-path="res://.godot/imported/shield_spikes.fbx-4c482ae7bc2d3f9f00f5bc7359b5f29e.scn"
+path="res://.godot/imported/shield_spikes.fbx-f839f89b2456a1ac3c8a89e95e28e2e6.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/fbx/shield_spikes.fbx"
-dest_files=["res://.godot/imported/shield_spikes.fbx-4c482ae7bc2d3f9f00f5bc7359b5f29e.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/fbx/shield_spikes.fbx"
+dest_files=["res://.godot/imported/shield_spikes.fbx-f839f89b2456a1ac3c8a89e95e28e2e6.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ddvwoiyveyphe"
-path="res://.godot/imported/wall_window_closed_scaffold.obj-e56cc2105d8c659488cd64ad1e55a7f2.mesh"
+path="res://.godot/imported/wall_window_closed_scaffold.obj-04722283c80aa7fa6bd0d2dcd9fd653c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_window_closed_scaffold.obj-e56cc2105d8c659488cd64ad1e55a7f2.mesh"]
+files=["res://.godot/imported/wall_window_closed_scaffold.obj-04722283c80aa7fa6bd0d2dcd9fd653c.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/wall_window_closed_scaffold.obj"
-dest_files=["res://.godot/imported/wall_window_closed_scaffold.obj-e56cc2105d8c659488cd64ad1e55a7f2.mesh", "res://.godot/imported/wall_window_closed_scaffold.obj-e56cc2105d8c659488cd64ad1e55a7f2.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/wall_window_closed_scaffold.obj"
+dest_files=["res://.godot/imported/wall_window_closed_scaffold.obj-04722283c80aa7fa6bd0d2dcd9fd653c.mesh", "res://.godot/imported/wall_window_closed_scaffold.obj-04722283c80aa7fa6bd0d2dcd9fd653c.mesh"]
 
 [params]
 

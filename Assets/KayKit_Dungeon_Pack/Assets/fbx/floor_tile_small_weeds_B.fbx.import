@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cpv53ohqidnc4"
-path="res://.godot/imported/floor_tile_small_weeds_B.fbx-2aef0e393a1de3c724c4bbb764537a26.scn"
+path="res://.godot/imported/floor_tile_small_weeds_B.fbx-748fc825df04a4132c8c215ac62f88f4.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_small_weeds_B.fbx"
-dest_files=["res://.godot/imported/floor_tile_small_weeds_B.fbx-2aef0e393a1de3c724c4bbb764537a26.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/floor_tile_small_weeds_B.fbx"
+dest_files=["res://.godot/imported/floor_tile_small_weeds_B.fbx-748fc825df04a4132c8c215ac62f88f4.scn"]
 
 [params]
 

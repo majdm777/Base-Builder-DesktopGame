@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c7kovu84kkhav"
-path="res://.godot/imported/Fuel_C_Barrels.obj-f172f47caa7aed638bdb4c6fb7467400.mesh"
+path="res://.godot/imported/Fuel_C_Barrels.obj-c9f5bbb08b16c750b10ccbfdadca5f67.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Fuel_C_Barrels.obj-f172f47caa7aed638bdb4c6fb7467400.mesh"]
+files=["res://.godot/imported/Fuel_C_Barrels.obj-c9f5bbb08b16c750b10ccbfdadca5f67.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Fuel_C_Barrels.obj"
-dest_files=["res://.godot/imported/Fuel_C_Barrels.obj-f172f47caa7aed638bdb4c6fb7467400.mesh", "res://.godot/imported/Fuel_C_Barrels.obj-f172f47caa7aed638bdb4c6fb7467400.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Fuel_C_Barrels.obj"
+dest_files=["res://.godot/imported/Fuel_C_Barrels.obj-c9f5bbb08b16c750b10ccbfdadca5f67.mesh", "res://.godot/imported/Fuel_C_Barrels.obj-c9f5bbb08b16c750b10ccbfdadca5f67.mesh"]
 
 [params]
 

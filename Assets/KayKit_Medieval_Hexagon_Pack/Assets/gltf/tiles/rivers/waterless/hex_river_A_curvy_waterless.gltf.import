@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://28g7picxb26g"
-path="res://.godot/imported/hex_river_A_curvy_waterless.gltf-57607f618bce99ff590d4c2a73ddd275.scn"
+path="res://.godot/imported/hex_river_A_curvy_waterless.gltf-49cda0cd9280a6c0c97897cdd20f3a16.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_A_curvy_waterless.gltf"
-dest_files=["res://.godot/imported/hex_river_A_curvy_waterless.gltf-57607f618bce99ff590d4c2a73ddd275.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/tiles/rivers/waterless/hex_river_A_curvy_waterless.gltf"
+dest_files=["res://.godot/imported/hex_river_A_curvy_waterless.gltf-49cda0cd9280a6c0c97897cdd20f3a16.scn"]
 
 [params]
 

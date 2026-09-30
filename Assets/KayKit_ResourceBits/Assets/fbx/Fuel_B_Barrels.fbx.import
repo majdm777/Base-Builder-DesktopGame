@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bken8brr8xq5o"
-path="res://.godot/imported/Fuel_B_Barrels.fbx-e2fcfcc5ad5c5c4a1f60e26e8f8c8e6a.scn"
+path="res://.godot/imported/Fuel_B_Barrels.fbx-d7fb4f52960d2746c737c5aee9f22b6f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx/Fuel_B_Barrels.fbx"
-dest_files=["res://.godot/imported/Fuel_B_Barrels.fbx-e2fcfcc5ad5c5c4a1f60e26e8f8c8e6a.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx/Fuel_B_Barrels.fbx"
+dest_files=["res://.godot/imported/Fuel_B_Barrels.fbx-d7fb4f52960d2746c737c5aee9f22b6f.scn"]
 
 [params]
 

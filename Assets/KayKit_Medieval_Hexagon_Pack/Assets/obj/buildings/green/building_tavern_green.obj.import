@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dirlstumurw1o"
-path="res://.godot/imported/building_tavern_green.obj-a4aaae570621109eb47970d1af18134f.mesh"
+path="res://.godot/imported/building_tavern_green.obj-7d3f020ebe7f8c4d0b48f344ae2119ec.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_tavern_green.obj-a4aaae570621109eb47970d1af18134f.mesh"]
+files=["res://.godot/imported/building_tavern_green.obj-7d3f020ebe7f8c4d0b48f344ae2119ec.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_tavern_green.obj"
-dest_files=["res://.godot/imported/building_tavern_green.obj-a4aaae570621109eb47970d1af18134f.mesh", "res://.godot/imported/building_tavern_green.obj-a4aaae570621109eb47970d1af18134f.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_tavern_green.obj"
+dest_files=["res://.godot/imported/building_tavern_green.obj-7d3f020ebe7f8c4d0b48f344ae2119ec.mesh", "res://.godot/imported/building_tavern_green.obj-7d3f020ebe7f8c4d0b48f344ae2119ec.mesh"]
 
 [params]
 

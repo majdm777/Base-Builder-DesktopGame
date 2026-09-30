@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://csx70hn7rhhsd"
-path="res://.godot/imported/square_forest_roadB.dae-300a7032d79e5cfc8c795be7d8e9d72b.scn"
+path="res://.godot/imported/square_forest_roadB.dae-a0b89c8b8666b3742763b2e7265654d0.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/square/dae/square_forest_roadB.dae"
-dest_files=["res://.godot/imported/square_forest_roadB.dae-300a7032d79e5cfc8c795be7d8e9d72b.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/dae/square_forest_roadB.dae"
+dest_files=["res://.godot/imported/square_forest_roadB.dae-a0b89c8b8666b3742763b2e7265654d0.scn"]
 
 [params]
 

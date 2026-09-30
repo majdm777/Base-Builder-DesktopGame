@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dsla0nw7dib65"
-path="res://.godot/imported/square_forest_waterInnerCorner_empty.fbx-a754e32c8dccaac688f05bbb393bb1ef.scn"
+path="res://.godot/imported/square_forest_waterInnerCorner_empty.fbx-4af5eba46d68dda34fa4b8cee4556914.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/square/fbx/square_forest_waterInnerCorner_empty.fbx"
-dest_files=["res://.godot/imported/square_forest_waterInnerCorner_empty.fbx-a754e32c8dccaac688f05bbb393bb1ef.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/fbx/square_forest_waterInnerCorner_empty.fbx"
+dest_files=["res://.godot/imported/square_forest_waterInnerCorner_empty.fbx-4af5eba46d68dda34fa4b8cee4556914.scn"]
 
 [params]
 

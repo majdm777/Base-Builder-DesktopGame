@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ba3li2gdvrjyg"
-path="res://.godot/imported/floor_tile_small_corner.obj-7eeea1598d8db0ca64436a3f8072c567.mesh"
+path="res://.godot/imported/floor_tile_small_corner.obj-c0f5af90651d276e233d0ce629a66036.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_small_corner.obj-7eeea1598d8db0ca64436a3f8072c567.mesh"]
+files=["res://.godot/imported/floor_tile_small_corner.obj-c0f5af90651d276e233d0ce629a66036.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_tile_small_corner.obj"
-dest_files=["res://.godot/imported/floor_tile_small_corner.obj-7eeea1598d8db0ca64436a3f8072c567.mesh", "res://.godot/imported/floor_tile_small_corner.obj-7eeea1598d8db0ca64436a3f8072c567.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_tile_small_corner.obj"
+dest_files=["res://.godot/imported/floor_tile_small_corner.obj-c0f5af90651d276e233d0ce629a66036.mesh", "res://.godot/imported/floor_tile_small_corner.obj-c0f5af90651d276e233d0ce629a66036.mesh"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di16rpikudctj"
-path="res://.godot/imported/contents_tiles.jpg-2a22dcb488cdfff2bab38c3edc1e077a.ctex"
+path="res://.godot/imported/contents_tiles.jpg-09a58262c6469cc5c8de931b957005de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/contents_tiles.jpg"
-dest_files=["res://.godot/imported/contents_tiles.jpg-2a22dcb488cdfff2bab38c3edc1e077a.ctex"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/contents_tiles.jpg"
+dest_files=["res://.godot/imported/contents_tiles.jpg-09a58262c6469cc5c8de931b957005de.ctex"]
 
 [params]
 

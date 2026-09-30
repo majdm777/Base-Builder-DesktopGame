@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cyi50ahx3smwc"
-path="res://.godot/imported/detail_forestB.obj-5b097a286acf3a3d9daf2eafcac1c2d7.mesh"
+path="res://.godot/imported/detail_forestB.obj-d432995f18e66a68acd27281fe390ad7.mesh"
 
 [deps]
 
-files=["res://.godot/imported/detail_forestB.obj-5b097a286acf3a3d9daf2eafcac1c2d7.mesh"]
+files=["res://.godot/imported/detail_forestB.obj-d432995f18e66a68acd27281fe390ad7.mesh"]
 
-source_file="res://Assets/Models/objects/obj/detail_forestB.obj"
-dest_files=["res://.godot/imported/detail_forestB.obj-5b097a286acf3a3d9daf2eafcac1c2d7.mesh", "res://.godot/imported/detail_forestB.obj-5b097a286acf3a3d9daf2eafcac1c2d7.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/detail_forestB.obj"
+dest_files=["res://.godot/imported/detail_forestB.obj-d432995f18e66a68acd27281fe390ad7.mesh", "res://.godot/imported/detail_forestB.obj-d432995f18e66a68acd27281fe390ad7.mesh"]
 
 [params]
 

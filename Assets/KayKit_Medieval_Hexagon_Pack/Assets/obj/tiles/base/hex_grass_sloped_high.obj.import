@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cqospml5d601n"
-path="res://.godot/imported/hex_grass_sloped_high.obj-46e98c9a3dcde781cbfb8ede49ce44fb.mesh"
+path="res://.godot/imported/hex_grass_sloped_high.obj-4284b0c2a25157018261d05bb34c87ac.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_grass_sloped_high.obj-46e98c9a3dcde781cbfb8ede49ce44fb.mesh"]
+files=["res://.godot/imported/hex_grass_sloped_high.obj-4284b0c2a25157018261d05bb34c87ac.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/base/hex_grass_sloped_high.obj"
-dest_files=["res://.godot/imported/hex_grass_sloped_high.obj-46e98c9a3dcde781cbfb8ede49ce44fb.mesh", "res://.godot/imported/hex_grass_sloped_high.obj-46e98c9a3dcde781cbfb8ede49ce44fb.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/base/hex_grass_sloped_high.obj"
+dest_files=["res://.godot/imported/hex_grass_sloped_high.obj-4284b0c2a25157018261d05bb34c87ac.mesh", "res://.godot/imported/hex_grass_sloped_high.obj-4284b0c2a25157018261d05bb34c87ac.mesh"]
 
 [params]
 

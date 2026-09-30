@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bnbw3wny5vx0m"
-path="res://.godot/imported/watermill_wheel.obj-687fe019e5a45be5eba72cb6f466a92b.mesh"
+path="res://.godot/imported/watermill_wheel.obj-0e82cc0d6dd6ac8ba586646c15b91c5c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/watermill_wheel.obj-687fe019e5a45be5eba72cb6f466a92b.mesh"]
+files=["res://.godot/imported/watermill_wheel.obj-0e82cc0d6dd6ac8ba586646c15b91c5c.mesh"]
 
-source_file="res://Assets/Models/objects/obj/watermill_wheel.obj"
-dest_files=["res://.godot/imported/watermill_wheel.obj-687fe019e5a45be5eba72cb6f466a92b.mesh", "res://.godot/imported/watermill_wheel.obj-687fe019e5a45be5eba72cb6f466a92b.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/watermill_wheel.obj"
+dest_files=["res://.godot/imported/watermill_wheel.obj-0e82cc0d6dd6ac8ba586646c15b91c5c.mesh", "res://.godot/imported/watermill_wheel.obj-0e82cc0d6dd6ac8ba586646c15b91c5c.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://xg4y0hobgop6"
-path="res://.godot/imported/shelves.obj-1c4bd1bad6a23f10a5bdec503b1fcdc2.mesh"
+path="res://.godot/imported/shelves.obj-7d633b8e8fbbb97230f2b4a52e84fefb.mesh"
 
 [deps]
 
-files=["res://.godot/imported/shelves.obj-1c4bd1bad6a23f10a5bdec503b1fcdc2.mesh"]
+files=["res://.godot/imported/shelves.obj-7d633b8e8fbbb97230f2b4a52e84fefb.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/shelves.obj"
-dest_files=["res://.godot/imported/shelves.obj-1c4bd1bad6a23f10a5bdec503b1fcdc2.mesh", "res://.godot/imported/shelves.obj-1c4bd1bad6a23f10a5bdec503b1fcdc2.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/shelves.obj"
+dest_files=["res://.godot/imported/shelves.obj-7d633b8e8fbbb97230f2b4a52e84fefb.mesh", "res://.godot/imported/shelves.obj-7d633b8e8fbbb97230f2b4a52e84fefb.mesh"]
 
 [params]
 

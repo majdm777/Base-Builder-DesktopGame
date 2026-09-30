@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c1sba0sg0iqrx"
-path="res://.godot/imported/forest.fbx-827011cd87c15f8bd5a499852103788e.scn"
+path="res://.godot/imported/forest.fbx-5d1ee47af14f2c92da7a556a3a647a62.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/forest.fbx"
-dest_files=["res://.godot/imported/forest.fbx-827011cd87c15f8bd5a499852103788e.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/forest.fbx"
+dest_files=["res://.godot/imported/forest.fbx-5d1ee47af14f2c92da7a556a3a647a62.scn"]
 
 [params]
 

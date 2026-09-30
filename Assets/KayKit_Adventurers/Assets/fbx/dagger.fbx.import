@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdn7ubkx30n6i"
-path="res://.godot/imported/dagger.fbx-85a463629acf6f41b0eb8d9199a83fae.scn"
+path="res://.godot/imported/dagger.fbx-f6aa2fba1b8a24c8669a4ac45838afda.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/fbx/dagger.fbx"
-dest_files=["res://.godot/imported/dagger.fbx-85a463629acf6f41b0eb8d9199a83fae.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/fbx/dagger.fbx"
+dest_files=["res://.godot/imported/dagger.fbx-f6aa2fba1b8a24c8669a4ac45838afda.scn"]
 
 [params]
 

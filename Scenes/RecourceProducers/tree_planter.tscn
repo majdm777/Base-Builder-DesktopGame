@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://cnq5lfbjbc1ij"]
 
-[ext_resource type="ArrayMesh" uid="uid://chvkl2ekukson" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_tower_B_green_building_tower_B_top_green.obj" id="1_7jc5g"]
+[ext_resource type="ArrayMesh" uid="uid://chvkl2ekukson" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_tower_B_green_building_tower_B_top_green.obj" id="1_7jc5g"]
 [ext_resource type="Script" uid="uid://c4hlq6ej8tpkc" path="res://gd/BuildingFarm.gd" id="1_kuiuu"]
-[ext_resource type="ArrayMesh" uid="uid://dgamxtuklxuo6" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/building_dirt.obj" id="2_cbj3q"]
+[ext_resource type="ArrayMesh" uid="uid://dgamxtuklxuo6" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/building_dirt.obj" id="2_cbj3q"]
 [ext_resource type="PackedScene" uid="uid://d15bd6hu4k6g8" path="res://Scenes/Actors/Silviculturist.tscn" id="2_ib6dg"]
-[ext_resource type="ArrayMesh" uid="uid://bwuaslopt8nyq" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/waterplant_B.obj" id="4_cbj3q"]
+[ext_resource type="ArrayMesh" uid="uid://bwuaslopt8nyq" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/waterplant_B.obj" id="4_cbj3q"]
 [ext_resource type="Script" uid="uid://dl3wq62s4fddr" path="res://gd/tree_plot.gd" id="5_ib6dg"]
-[ext_resource type="ArrayMesh" uid="uid://dgut3adthlvss" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/tree_single_B_cut.obj" id="7_ib6dg"]
+[ext_resource type="ArrayMesh" uid="uid://dgut3adthlvss" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/tree_single_B_cut.obj" id="7_ib6dg"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
 size = Vector3(1.2226563, 1.0686035, 1.4229126)

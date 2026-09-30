@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://w84ypua3y1f7"
-path="res://.godot/imported/wall_straight.fbx-e57bee63cd7f055cd64260dcacdf5401.scn"
+path="res://.godot/imported/wall_straight.fbx-6d3d495d17e2d46be7c05a696a0e8e2e.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/wall_straight.fbx"
-dest_files=["res://.godot/imported/wall_straight.fbx-e57bee63cd7f055cd64260dcacdf5401.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/wall_straight.fbx"
+dest_files=["res://.godot/imported/wall_straight.fbx-6d3d495d17e2d46be7c05a696a0e8e2e.scn"]
 
 [params]
 

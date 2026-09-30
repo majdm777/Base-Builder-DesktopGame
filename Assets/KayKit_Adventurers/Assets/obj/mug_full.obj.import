@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dkyweu6excrjr"
-path="res://.godot/imported/mug_full.obj-8764ae703c26839a2ac3a395e6cf6ee1.mesh"
+path="res://.godot/imported/mug_full.obj-197fc32f723b73b46b3c289181b28d63.mesh"
 
 [deps]
 
-files=["res://.godot/imported/mug_full.obj-8764ae703c26839a2ac3a395e6cf6ee1.mesh"]
+files=["res://.godot/imported/mug_full.obj-197fc32f723b73b46b3c289181b28d63.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/mug_full.obj"
-dest_files=["res://.godot/imported/mug_full.obj-8764ae703c26839a2ac3a395e6cf6ee1.mesh", "res://.godot/imported/mug_full.obj-8764ae703c26839a2ac3a395e6cf6ee1.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/mug_full.obj"
+dest_files=["res://.godot/imported/mug_full.obj-197fc32f723b73b46b3c289181b28d63.mesh", "res://.godot/imported/mug_full.obj-197fc32f723b73b46b3c289181b28d63.mesh"]
 
 [params]
 

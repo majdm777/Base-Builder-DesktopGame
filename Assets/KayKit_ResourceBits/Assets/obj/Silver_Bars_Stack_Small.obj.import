@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://con8dfatm5cgp"
-path="res://.godot/imported/Silver_Bars_Stack_Small.obj-d7803a7d5a3afd13333473f110dc8629.mesh"
+path="res://.godot/imported/Silver_Bars_Stack_Small.obj-efdb3211415d614bf99d1ac490196304.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Silver_Bars_Stack_Small.obj-d7803a7d5a3afd13333473f110dc8629.mesh"]
+files=["res://.godot/imported/Silver_Bars_Stack_Small.obj-efdb3211415d614bf99d1ac490196304.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Silver_Bars_Stack_Small.obj"
-dest_files=["res://.godot/imported/Silver_Bars_Stack_Small.obj-d7803a7d5a3afd13333473f110dc8629.mesh", "res://.godot/imported/Silver_Bars_Stack_Small.obj-d7803a7d5a3afd13333473f110dc8629.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Silver_Bars_Stack_Small.obj"
+dest_files=["res://.godot/imported/Silver_Bars_Stack_Small.obj-efdb3211415d614bf99d1ac490196304.mesh", "res://.godot/imported/Silver_Bars_Stack_Small.obj-efdb3211415d614bf99d1ac490196304.mesh"]
 
 [params]
 

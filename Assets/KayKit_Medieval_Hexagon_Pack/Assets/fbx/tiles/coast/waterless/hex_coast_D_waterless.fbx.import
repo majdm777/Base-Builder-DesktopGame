@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b67mmc6xn71aq"
-path="res://.godot/imported/hex_coast_D_waterless.fbx-ea393d0a1ed909c043c0abab39f5858b.scn"
+path="res://.godot/imported/hex_coast_D_waterless.fbx-d5252bb4e69f07967dd5e170d7a9908f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx/tiles/coast/waterless/hex_coast_D_waterless.fbx"
-dest_files=["res://.godot/imported/hex_coast_D_waterless.fbx-ea393d0a1ed909c043c0abab39f5858b.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx/tiles/coast/waterless/hex_coast_D_waterless.fbx"
+dest_files=["res://.godot/imported/hex_coast_D_waterless.fbx-d5252bb4e69f07967dd5e170d7a9908f.scn"]
 
 [params]
 

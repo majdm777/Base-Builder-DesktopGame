@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxx0ml73cs4xn"
-path="res://.godot/imported/Rig_Medium_General.fbx-b31161bbc06f52bf1499c5d4d820a819.scn"
+path="res://.godot/imported/Rig_Medium_General.fbx-7a725d18595bb7c011106552acb48b25.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Animations/fbx/Rig_Medium/Rig_Medium_General.fbx"
-dest_files=["res://.godot/imported/Rig_Medium_General.fbx-b31161bbc06f52bf1499c5d4d820a819.scn"]
+source_file="res://Assets/KayKit_Adventurers/Animations/fbx/Rig_Medium/Rig_Medium_General.fbx"
+dest_files=["res://.godot/imported/Rig_Medium_General.fbx-7a725d18595bb7c011106552acb48b25.scn"]
 
 [params]
 

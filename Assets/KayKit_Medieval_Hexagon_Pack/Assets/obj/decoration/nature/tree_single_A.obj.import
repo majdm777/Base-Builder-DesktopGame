@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://5miy3eaux1ah"
-path="res://.godot/imported/tree_single_A.obj-0d3838ece3e8af22f59bf6467864efe4.mesh"
+path="res://.godot/imported/tree_single_A.obj-f29fc022157d39ad49e982d76636eb78.mesh"
 
 [deps]
 
-files=["res://.godot/imported/tree_single_A.obj-0d3838ece3e8af22f59bf6467864efe4.mesh"]
+files=["res://.godot/imported/tree_single_A.obj-f29fc022157d39ad49e982d76636eb78.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/tree_single_A.obj"
-dest_files=["res://.godot/imported/tree_single_A.obj-0d3838ece3e8af22f59bf6467864efe4.mesh", "res://.godot/imported/tree_single_A.obj-0d3838ece3e8af22f59bf6467864efe4.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/tree_single_A.obj"
+dest_files=["res://.godot/imported/tree_single_A.obj-f29fc022157d39ad49e982d76636eb78.mesh", "res://.godot/imported/tree_single_A.obj-f29fc022157d39ad49e982d76636eb78.mesh"]
 
 [params]
 

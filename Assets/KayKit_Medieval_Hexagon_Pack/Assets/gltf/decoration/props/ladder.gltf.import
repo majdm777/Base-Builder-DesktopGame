@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://11d54v0alrnk"
-path="res://.godot/imported/ladder.gltf-5d59b6ce8fb3ae30eeff11d15a4c385c.scn"
+path="res://.godot/imported/ladder.gltf-e9913467f81103346f0cd890b53797f8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/ladder.gltf"
-dest_files=["res://.godot/imported/ladder.gltf-5d59b6ce8fb3ae30eeff11d15a4c385c.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/props/ladder.gltf"
+dest_files=["res://.godot/imported/ladder.gltf-e9913467f81103346f0cd890b53797f8.scn"]
 
 [params]
 

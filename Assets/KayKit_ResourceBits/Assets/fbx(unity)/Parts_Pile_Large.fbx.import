@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c63t6r81c2nvw"
-path="res://.godot/imported/Parts_Pile_Large.fbx-2956a88316d9b3d58654a518854e1ffe.scn"
+path="res://.godot/imported/Parts_Pile_Large.fbx-5a14d5abbd1a7d341ca14d004d351848.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx(unity)/Parts_Pile_Large.fbx"
-dest_files=["res://.godot/imported/Parts_Pile_Large.fbx-2956a88316d9b3d58654a518854e1ffe.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx(unity)/Parts_Pile_Large.fbx"
+dest_files=["res://.godot/imported/Parts_Pile_Large.fbx-5a14d5abbd1a7d341ca14d004d351848.scn"]
 
 [params]
 

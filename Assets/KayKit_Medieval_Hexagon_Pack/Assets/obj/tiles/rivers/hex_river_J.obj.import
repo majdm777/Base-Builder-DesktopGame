@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://deq3i4cbi8jnn"
-path="res://.godot/imported/hex_river_J.obj-14abe581154924658dad5bc45ec7dcd8.mesh"
+path="res://.godot/imported/hex_river_J.obj-03d946d97e65a7384104fc0f459a296d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_river_J.obj-14abe581154924658dad5bc45ec7dcd8.mesh"]
+files=["res://.godot/imported/hex_river_J.obj-03d946d97e65a7384104fc0f459a296d.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/rivers/hex_river_J.obj"
-dest_files=["res://.godot/imported/hex_river_J.obj-14abe581154924658dad5bc45ec7dcd8.mesh", "res://.godot/imported/hex_river_J.obj-14abe581154924658dad5bc45ec7dcd8.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/rivers/hex_river_J.obj"
+dest_files=["res://.godot/imported/hex_river_J.obj-03d946d97e65a7384104fc0f459a296d.mesh", "res://.godot/imported/hex_river_J.obj-03d946d97e65a7384104fc0f459a296d.mesh"]
 
 [params]
 

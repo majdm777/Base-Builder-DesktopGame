@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5vjuijlqlflx"
-path="res://.godot/imported/hex_rock_transitionB.dae-b90272576409416ba3bc68efa54141e4.scn"
+path="res://.godot/imported/hex_rock_transitionB.dae-f20a507c42b35de910463cff777a0017.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/dae/hex_rock_transitionB.dae"
-dest_files=["res://.godot/imported/hex_rock_transitionB.dae-b90272576409416ba3bc68efa54141e4.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/dae/hex_rock_transitionB.dae"
+dest_files=["res://.godot/imported/hex_rock_transitionB.dae-f20a507c42b35de910463cff777a0017.scn"]
 
 [params]
 

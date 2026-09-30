@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cr4s7c32obyqb"
-path="res://.godot/imported/chest_gold.gltf-2c322168ab3df48fe5d9aaa54ae58573.scn"
+path="res://.godot/imported/chest_gold.gltf-b4fd6523e3612103bfd744a8a63bb6c2.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/chest_gold.gltf"
-dest_files=["res://.godot/imported/chest_gold.gltf-2c322168ab3df48fe5d9aaa54ae58573.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/chest_gold.gltf"
+dest_files=["res://.godot/imported/chest_gold.gltf-b4fd6523e3612103bfd744a8a63bb6c2.scn"]
 
 [params]
 

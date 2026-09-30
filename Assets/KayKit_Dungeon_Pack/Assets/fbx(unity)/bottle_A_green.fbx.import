@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dalr0oly3omf5"
-path="res://.godot/imported/bottle_A_green.fbx-a245f9e54474f91e26b520623ab84ec7.scn"
+path="res://.godot/imported/bottle_A_green.fbx-96e7eac152a3cea7ea35010861e31433.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/bottle_A_green.fbx"
-dest_files=["res://.godot/imported/bottle_A_green.fbx-a245f9e54474f91e26b520623ab84ec7.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/bottle_A_green.fbx"
+dest_files=["res://.godot/imported/bottle_A_green.fbx-96e7eac152a3cea7ea35010861e31433.scn"]
 
 [params]
 

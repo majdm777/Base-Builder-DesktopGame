@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c162huxtv4c1h"
-path="res://.godot/imported/wall_arched.fbx-bee601c5059dfeccd574ea31ff529efc.scn"
+path="res://.godot/imported/wall_arched.fbx-3495f42312c317c7ec3ff28b2c5282f2.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/wall_arched.fbx"
-dest_files=["res://.godot/imported/wall_arched.fbx-bee601c5059dfeccd574ea31ff529efc.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/wall_arched.fbx"
+dest_files=["res://.godot/imported/wall_arched.fbx-3495f42312c317c7ec3ff28b2c5282f2.scn"]
 
 [params]
 

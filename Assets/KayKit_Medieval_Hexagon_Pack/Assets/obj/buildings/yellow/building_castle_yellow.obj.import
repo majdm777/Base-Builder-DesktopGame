@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cbalvnykaasx7"
-path="res://.godot/imported/building_castle_yellow.obj-51ef7f359ed21df4bc40217acbe7f289.mesh"
+path="res://.godot/imported/building_castle_yellow.obj-7554ba34bc09a93818e74ffac3664a06.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_castle_yellow.obj-51ef7f359ed21df4bc40217acbe7f289.mesh"]
+files=["res://.godot/imported/building_castle_yellow.obj-7554ba34bc09a93818e74ffac3664a06.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/yellow/building_castle_yellow.obj"
-dest_files=["res://.godot/imported/building_castle_yellow.obj-51ef7f359ed21df4bc40217acbe7f289.mesh", "res://.godot/imported/building_castle_yellow.obj-51ef7f359ed21df4bc40217acbe7f289.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/yellow/building_castle_yellow.obj"
+dest_files=["res://.godot/imported/building_castle_yellow.obj-7554ba34bc09a93818e74ffac3664a06.mesh", "res://.godot/imported/building_castle_yellow.obj-7554ba34bc09a93818e74ffac3664a06.mesh"]
 
 [params]
 

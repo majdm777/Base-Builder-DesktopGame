@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bk65ovvo2vqc3"
-path="res://.godot/imported/floor_foundation_corner.obj-a0b1ec261d182d8c62c182cdc1a4e4dc.mesh"
+path="res://.godot/imported/floor_foundation_corner.obj-4ce1bce4b350ebfbad624347baf2be27.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_foundation_corner.obj-a0b1ec261d182d8c62c182cdc1a4e4dc.mesh"]
+files=["res://.godot/imported/floor_foundation_corner.obj-4ce1bce4b350ebfbad624347baf2be27.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_foundation_corner.obj"
-dest_files=["res://.godot/imported/floor_foundation_corner.obj-a0b1ec261d182d8c62c182cdc1a4e4dc.mesh", "res://.godot/imported/floor_foundation_corner.obj-a0b1ec261d182d8c62c182cdc1a4e4dc.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_foundation_corner.obj"
+dest_files=["res://.godot/imported/floor_foundation_corner.obj-4ce1bce4b350ebfbad624347baf2be27.mesh", "res://.godot/imported/floor_foundation_corner.obj-4ce1bce4b350ebfbad624347baf2be27.mesh"]
 
 [params]
 

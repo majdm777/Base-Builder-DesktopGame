@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b0r1amgm1w0rm"
-path="res://.godot/imported/building_watermill_yellow.obj-fc6b1d054c31a36df9199b9ef5cbf414.mesh"
+path="res://.godot/imported/building_watermill_yellow.obj-c9408a874b14d8cfffd359ced2bc0bc7.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_watermill_yellow.obj-fc6b1d054c31a36df9199b9ef5cbf414.mesh"]
+files=["res://.godot/imported/building_watermill_yellow.obj-c9408a874b14d8cfffd359ced2bc0bc7.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/yellow/building_watermill_yellow.obj"
-dest_files=["res://.godot/imported/building_watermill_yellow.obj-fc6b1d054c31a36df9199b9ef5cbf414.mesh", "res://.godot/imported/building_watermill_yellow.obj-fc6b1d054c31a36df9199b9ef5cbf414.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/yellow/building_watermill_yellow.obj"
+dest_files=["res://.godot/imported/building_watermill_yellow.obj-c9408a874b14d8cfffd359ced2bc0bc7.mesh", "res://.godot/imported/building_watermill_yellow.obj-c9408a874b14d8cfffd359ced2bc0bc7.mesh"]
 
 [params]
 

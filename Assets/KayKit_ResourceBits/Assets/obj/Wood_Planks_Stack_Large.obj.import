@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cxixiksf7kvlu"
-path="res://.godot/imported/Wood_Planks_Stack_Large.obj-d2753f6c841ae23b72fa52d79f2f6b98.mesh"
+path="res://.godot/imported/Wood_Planks_Stack_Large.obj-7ee79b2bdbd227627317eedd0294656e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Wood_Planks_Stack_Large.obj-d2753f6c841ae23b72fa52d79f2f6b98.mesh"]
+files=["res://.godot/imported/Wood_Planks_Stack_Large.obj-7ee79b2bdbd227627317eedd0294656e.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Wood_Planks_Stack_Large.obj"
-dest_files=["res://.godot/imported/Wood_Planks_Stack_Large.obj-d2753f6c841ae23b72fa52d79f2f6b98.mesh", "res://.godot/imported/Wood_Planks_Stack_Large.obj-d2753f6c841ae23b72fa52d79f2f6b98.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Wood_Planks_Stack_Large.obj"
+dest_files=["res://.godot/imported/Wood_Planks_Stack_Large.obj-7ee79b2bdbd227627317eedd0294656e.mesh", "res://.godot/imported/Wood_Planks_Stack_Large.obj-7ee79b2bdbd227627317eedd0294656e.mesh"]
 
 [params]
 

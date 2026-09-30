@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cx43nb1pnukbv"
-path="res://.godot/imported/hex_forest_waterC_empty.obj-b9474d78c9cfb1373a12c02077dca8f9.mesh"
+path="res://.godot/imported/hex_forest_waterC_empty.obj-4337a1deac9ab4541aa2fe566019e136.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_forest_waterC_empty.obj-b9474d78c9cfb1373a12c02077dca8f9.mesh"]
+files=["res://.godot/imported/hex_forest_waterC_empty.obj-4337a1deac9ab4541aa2fe566019e136.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_forest_waterC_empty.obj"
-dest_files=["res://.godot/imported/hex_forest_waterC_empty.obj-b9474d78c9cfb1373a12c02077dca8f9.mesh", "res://.godot/imported/hex_forest_waterC_empty.obj-b9474d78c9cfb1373a12c02077dca8f9.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_forest_waterC_empty.obj"
+dest_files=["res://.godot/imported/hex_forest_waterC_empty.obj-4337a1deac9ab4541aa2fe566019e136.mesh", "res://.godot/imported/hex_forest_waterC_empty.obj-4337a1deac9ab4541aa2fe566019e136.mesh"]
 
 [params]
 

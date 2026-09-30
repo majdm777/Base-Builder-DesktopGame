@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bnmq8mw4gxhvn"
-path="res://.godot/imported/barrier_half.fbx-3c6ef7a73737f1084886fbad028ae0a8.scn"
+path="res://.godot/imported/barrier_half.fbx-6f89a9bbd4948185258f8b863a099d07.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrier_half.fbx"
-dest_files=["res://.godot/imported/barrier_half.fbx-3c6ef7a73737f1084886fbad028ae0a8.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/barrier_half.fbx"
+dest_files=["res://.godot/imported/barrier_half.fbx-6f89a9bbd4948185258f8b863a099d07.scn"]
 
 [params]
 

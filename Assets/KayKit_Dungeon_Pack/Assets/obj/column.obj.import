@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dypkx6elahoa5"
-path="res://.godot/imported/column.obj-2ee80017fc3cd172ea42431dd679c834.mesh"
+path="res://.godot/imported/column.obj-e43fe426d06bf69192ecedeb49ff4acd.mesh"
 
 [deps]
 
-files=["res://.godot/imported/column.obj-2ee80017fc3cd172ea42431dd679c834.mesh"]
+files=["res://.godot/imported/column.obj-e43fe426d06bf69192ecedeb49ff4acd.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/column.obj"
-dest_files=["res://.godot/imported/column.obj-2ee80017fc3cd172ea42431dd679c834.mesh", "res://.godot/imported/column.obj-2ee80017fc3cd172ea42431dd679c834.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/column.obj"
+dest_files=["res://.godot/imported/column.obj-e43fe426d06bf69192ecedeb49ff4acd.mesh", "res://.godot/imported/column.obj-e43fe426d06bf69192ecedeb49ff4acd.mesh"]
 
 [params]
 

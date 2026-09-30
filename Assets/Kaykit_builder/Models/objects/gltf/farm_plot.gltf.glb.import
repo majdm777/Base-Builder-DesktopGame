@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bewt0im4hwpva"
-path="res://.godot/imported/farm_plot.gltf.glb-cb028e599862bd96d29dcc9547b93b0e.scn"
+path="res://.godot/imported/farm_plot.gltf.glb-b031e8215b229e12266d0abb6e4c0a49.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/farm_plot.gltf.glb"
-dest_files=["res://.godot/imported/farm_plot.gltf.glb-cb028e599862bd96d29dcc9547b93b0e.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/farm_plot.gltf.glb"
+dest_files=["res://.godot/imported/farm_plot.gltf.glb-b031e8215b229e12266d0abb6e4c0a49.scn"]
 
 [params]
 

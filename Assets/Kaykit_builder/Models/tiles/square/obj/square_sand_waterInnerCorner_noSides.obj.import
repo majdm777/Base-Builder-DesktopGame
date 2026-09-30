@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bcxfb8r1ssjhl"
-path="res://.godot/imported/square_sand_waterInnerCorner_noSides.obj-c0daae7cfe5893da6abffe0d27bee807.mesh"
+path="res://.godot/imported/square_sand_waterInnerCorner_noSides.obj-9cc9be24a3657154bfc3541113d9460f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_sand_waterInnerCorner_noSides.obj-c0daae7cfe5893da6abffe0d27bee807.mesh"]
+files=["res://.godot/imported/square_sand_waterInnerCorner_noSides.obj-9cc9be24a3657154bfc3541113d9460f.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_sand_waterInnerCorner_noSides.obj"
-dest_files=["res://.godot/imported/square_sand_waterInnerCorner_noSides.obj-c0daae7cfe5893da6abffe0d27bee807.mesh", "res://.godot/imported/square_sand_waterInnerCorner_noSides.obj-c0daae7cfe5893da6abffe0d27bee807.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_sand_waterInnerCorner_noSides.obj"
+dest_files=["res://.godot/imported/square_sand_waterInnerCorner_noSides.obj-9cc9be24a3657154bfc3541113d9460f.mesh", "res://.godot/imported/square_sand_waterInnerCorner_noSides.obj-9cc9be24a3657154bfc3541113d9460f.mesh"]
 
 [params]
 

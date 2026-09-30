@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://jfygt5n0gcpq"
-path="res://.godot/imported/well.dae-886f33caf8858baad22d23566a8a5646.scn"
+path="res://.godot/imported/well.dae-a5abd62c6cbf6a5b9f4ba5dbd428ae8a.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/dae/well.dae"
-dest_files=["res://.godot/imported/well.dae-886f33caf8858baad22d23566a8a5646.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/dae/well.dae"
+dest_files=["res://.godot/imported/well.dae-a5abd62c6cbf6a5b9f4ba5dbd428ae8a.scn"]
 
 [params]
 

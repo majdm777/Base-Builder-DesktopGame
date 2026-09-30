@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bxd6h4r72exut"
-path="res://.godot/imported/crate_long_empty.obj-4b8c632cbfe2774d5773b7e6ae6d8d2f.mesh"
+path="res://.godot/imported/crate_long_empty.obj-d6bc9be7cecd90eed2d497106cfc9f16.mesh"
 
 [deps]
 
-files=["res://.godot/imported/crate_long_empty.obj-4b8c632cbfe2774d5773b7e6ae6d8d2f.mesh"]
+files=["res://.godot/imported/crate_long_empty.obj-d6bc9be7cecd90eed2d497106cfc9f16.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/crate_long_empty.obj"
-dest_files=["res://.godot/imported/crate_long_empty.obj-4b8c632cbfe2774d5773b7e6ae6d8d2f.mesh", "res://.godot/imported/crate_long_empty.obj-4b8c632cbfe2774d5773b7e6ae6d8d2f.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/crate_long_empty.obj"
+dest_files=["res://.godot/imported/crate_long_empty.obj-d6bc9be7cecd90eed2d497106cfc9f16.mesh", "res://.godot/imported/crate_long_empty.obj-d6bc9be7cecd90eed2d497106cfc9f16.mesh"]
 
 [params]
 

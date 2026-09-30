@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://djwmbr87tfmko"
-path="res://.godot/imported/journal_open.fbx-2309e798111eb97c62d5497d01c20f53.scn"
+path="res://.godot/imported/journal_open.fbx-30e5fbadf8563cc2d6a88c6797d6df3f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/journal_open.fbx"
-dest_files=["res://.godot/imported/journal_open.fbx-2309e798111eb97c62d5497d01c20f53.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/journal_open.fbx"
+dest_files=["res://.godot/imported/journal_open.fbx-30e5fbadf8563cc2d6a88c6797d6df3f.scn"]
 
 [params]
 

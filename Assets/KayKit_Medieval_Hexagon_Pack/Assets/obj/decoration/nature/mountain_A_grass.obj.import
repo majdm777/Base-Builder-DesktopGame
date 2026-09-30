@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cwwcw347p3d7j"
-path="res://.godot/imported/mountain_A_grass.obj-2acc9d11aa9a28f023a4e12fd22c700f.mesh"
+path="res://.godot/imported/mountain_A_grass.obj-197e56ff7883e920cf55c246a996233f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/mountain_A_grass.obj-2acc9d11aa9a28f023a4e12fd22c700f.mesh"]
+files=["res://.godot/imported/mountain_A_grass.obj-197e56ff7883e920cf55c246a996233f.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/mountain_A_grass.obj"
-dest_files=["res://.godot/imported/mountain_A_grass.obj-2acc9d11aa9a28f023a4e12fd22c700f.mesh", "res://.godot/imported/mountain_A_grass.obj-2acc9d11aa9a28f023a4e12fd22c700f.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/mountain_A_grass.obj"
+dest_files=["res://.godot/imported/mountain_A_grass.obj-197e56ff7883e920cf55c246a996233f.mesh", "res://.godot/imported/mountain_A_grass.obj-197e56ff7883e920cf55c246a996233f.mesh"]
 
 [params]
 

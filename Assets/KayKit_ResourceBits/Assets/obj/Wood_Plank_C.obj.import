@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dbtox5rl07m1u"
-path="res://.godot/imported/Wood_Plank_C.obj-0043953d7dcb49591db7513d5db25df1.mesh"
+path="res://.godot/imported/Wood_Plank_C.obj-d9b68ace753c58c81c6d6531ca5ff954.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Wood_Plank_C.obj-0043953d7dcb49591db7513d5db25df1.mesh"]
+files=["res://.godot/imported/Wood_Plank_C.obj-d9b68ace753c58c81c6d6531ca5ff954.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Wood_Plank_C.obj"
-dest_files=["res://.godot/imported/Wood_Plank_C.obj-0043953d7dcb49591db7513d5db25df1.mesh", "res://.godot/imported/Wood_Plank_C.obj-0043953d7dcb49591db7513d5db25df1.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Wood_Plank_C.obj"
+dest_files=["res://.godot/imported/Wood_Plank_C.obj-d9b68ace753c58c81c6d6531ca5ff954.mesh", "res://.godot/imported/Wood_Plank_C.obj-d9b68ace753c58c81c6d6531ca5ff954.mesh"]
 
 [params]
 

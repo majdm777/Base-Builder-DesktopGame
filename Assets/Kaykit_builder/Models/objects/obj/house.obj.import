@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cirm3jvhkij07"
-path="res://.godot/imported/house.obj-38ff32d1ea69c904d52efeba1001b503.mesh"
+path="res://.godot/imported/house.obj-2f6283d5d26c3fc8e1b333d209e56e46.mesh"
 
 [deps]
 
-files=["res://.godot/imported/house.obj-38ff32d1ea69c904d52efeba1001b503.mesh"]
+files=["res://.godot/imported/house.obj-2f6283d5d26c3fc8e1b333d209e56e46.mesh"]
 
-source_file="res://Assets/Models/objects/obj/house.obj"
-dest_files=["res://.godot/imported/house.obj-38ff32d1ea69c904d52efeba1001b503.mesh", "res://.godot/imported/house.obj-38ff32d1ea69c904d52efeba1001b503.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/house.obj"
+dest_files=["res://.godot/imported/house.obj-2f6283d5d26c3fc8e1b333d209e56e46.mesh", "res://.godot/imported/house.obj-2f6283d5d26c3fc8e1b333d209e56e46.mesh"]
 
 [params]
 

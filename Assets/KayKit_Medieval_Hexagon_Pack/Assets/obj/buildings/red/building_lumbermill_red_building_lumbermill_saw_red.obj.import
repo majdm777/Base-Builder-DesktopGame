@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dnc4q281t8mfn"
-path="res://.godot/imported/building_lumbermill_red_building_lumbermill_saw_red.obj-dbd38688e6bf76e626c046305e402337.mesh"
+path="res://.godot/imported/building_lumbermill_red_building_lumbermill_saw_red.obj-963dea6b7ccd19f23c91848814faa2b1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_lumbermill_red_building_lumbermill_saw_red.obj-dbd38688e6bf76e626c046305e402337.mesh"]
+files=["res://.godot/imported/building_lumbermill_red_building_lumbermill_saw_red.obj-963dea6b7ccd19f23c91848814faa2b1.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/red/building_lumbermill_red_building_lumbermill_saw_red.obj"
-dest_files=["res://.godot/imported/building_lumbermill_red_building_lumbermill_saw_red.obj-dbd38688e6bf76e626c046305e402337.mesh", "res://.godot/imported/building_lumbermill_red_building_lumbermill_saw_red.obj-dbd38688e6bf76e626c046305e402337.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/red/building_lumbermill_red_building_lumbermill_saw_red.obj"
+dest_files=["res://.godot/imported/building_lumbermill_red_building_lumbermill_saw_red.obj-963dea6b7ccd19f23c91848814faa2b1.mesh", "res://.godot/imported/building_lumbermill_red_building_lumbermill_saw_red.obj-963dea6b7ccd19f23c91848814faa2b1.mesh"]
 
 [params]
 

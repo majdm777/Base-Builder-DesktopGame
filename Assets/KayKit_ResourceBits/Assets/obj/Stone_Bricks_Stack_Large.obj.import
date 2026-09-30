@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://micpvmwbjib3"
-path="res://.godot/imported/Stone_Bricks_Stack_Large.obj-fa0544e86b1a7186134325cd2dd71bba.mesh"
+path="res://.godot/imported/Stone_Bricks_Stack_Large.obj-a7395d85f02040eba85b5662739a4100.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Stone_Bricks_Stack_Large.obj-fa0544e86b1a7186134325cd2dd71bba.mesh"]
+files=["res://.godot/imported/Stone_Bricks_Stack_Large.obj-a7395d85f02040eba85b5662739a4100.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Bricks_Stack_Large.obj"
-dest_files=["res://.godot/imported/Stone_Bricks_Stack_Large.obj-fa0544e86b1a7186134325cd2dd71bba.mesh", "res://.godot/imported/Stone_Bricks_Stack_Large.obj-fa0544e86b1a7186134325cd2dd71bba.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Stone_Bricks_Stack_Large.obj"
+dest_files=["res://.godot/imported/Stone_Bricks_Stack_Large.obj-a7395d85f02040eba85b5662739a4100.mesh", "res://.godot/imported/Stone_Bricks_Stack_Large.obj-a7395d85f02040eba85b5662739a4100.mesh"]
 
 [params]
 

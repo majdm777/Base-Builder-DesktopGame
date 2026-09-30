@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://whotpxivufq8"
-path="res://.godot/imported/mountain.gltf.glb-092da967d83a107dd544c85fd7c334aa.scn"
+path="res://.godot/imported/mountain.gltf.glb-aec71a6e4b18e74ca7df5344a8c65ddd.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/mountain.gltf.glb"
-dest_files=["res://.godot/imported/mountain.gltf.glb-092da967d83a107dd544c85fd7c334aa.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/mountain.gltf.glb"
+dest_files=["res://.godot/imported/mountain.gltf.glb-aec71a6e4b18e74ca7df5344a8c65ddd.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cu5k7g3harvli"
-path="res://.godot/imported/mountain_B.gltf-f8d42c0ca41e06b50a705d169d62bbc2.scn"
+path="res://.godot/imported/mountain_B.gltf-63c174a5407b0e317d0c3fd1463b5613.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_B.gltf"
-dest_files=["res://.godot/imported/mountain_B.gltf-f8d42c0ca41e06b50a705d169d62bbc2.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/nature/mountain_B.gltf"
+dest_files=["res://.godot/imported/mountain_B.gltf-63c174a5407b0e317d0c3fd1463b5613.scn"]
 
 [params]
 

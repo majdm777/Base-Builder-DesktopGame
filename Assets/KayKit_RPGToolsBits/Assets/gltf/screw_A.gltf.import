@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b824pavmednop"
-path="res://.godot/imported/screw_A.gltf-45aa218aa0745ae92d38f9f0073b1b53.scn"
+path="res://.godot/imported/screw_A.gltf-f5609507efd323875dfdbcb22deb6b7d.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/screw_A.gltf"
-dest_files=["res://.godot/imported/screw_A.gltf-45aa218aa0745ae92d38f9f0073b1b53.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/screw_A.gltf"
+dest_files=["res://.godot/imported/screw_A.gltf-f5609507efd323875dfdbcb22deb6b7d.scn"]
 
 [params]
 

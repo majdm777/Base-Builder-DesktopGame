@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bfl7f2dutltea"
-path="res://.godot/imported/square_forest_waterStraight_noSides.obj-9c3382a8958e4bb411bcd79ab8da109e.mesh"
+path="res://.godot/imported/square_forest_waterStraight_noSides.obj-904c3be0cdb4ce307f90d4857759bc3c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_forest_waterStraight_noSides.obj-9c3382a8958e4bb411bcd79ab8da109e.mesh"]
+files=["res://.godot/imported/square_forest_waterStraight_noSides.obj-904c3be0cdb4ce307f90d4857759bc3c.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_forest_waterStraight_noSides.obj"
-dest_files=["res://.godot/imported/square_forest_waterStraight_noSides.obj-9c3382a8958e4bb411bcd79ab8da109e.mesh", "res://.godot/imported/square_forest_waterStraight_noSides.obj-9c3382a8958e4bb411bcd79ab8da109e.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_forest_waterStraight_noSides.obj"
+dest_files=["res://.godot/imported/square_forest_waterStraight_noSides.obj-904c3be0cdb4ce307f90d4857759bc3c.mesh", "res://.godot/imported/square_forest_waterStraight_noSides.obj-904c3be0cdb4ce307f90d4857759bc3c.mesh"]
 
 [params]
 

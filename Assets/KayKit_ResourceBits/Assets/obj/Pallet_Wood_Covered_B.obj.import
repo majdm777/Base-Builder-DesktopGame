@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://vsy3bxagnfm"
-path="res://.godot/imported/Pallet_Wood_Covered_B.obj-60ddb16ed8b94cbfe82a686216e72ac1.mesh"
+path="res://.godot/imported/Pallet_Wood_Covered_B.obj-74f84547accd2fa22d01803828d9aed4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Pallet_Wood_Covered_B.obj-60ddb16ed8b94cbfe82a686216e72ac1.mesh"]
+files=["res://.godot/imported/Pallet_Wood_Covered_B.obj-74f84547accd2fa22d01803828d9aed4.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Pallet_Wood_Covered_B.obj"
-dest_files=["res://.godot/imported/Pallet_Wood_Covered_B.obj-60ddb16ed8b94cbfe82a686216e72ac1.mesh", "res://.godot/imported/Pallet_Wood_Covered_B.obj-60ddb16ed8b94cbfe82a686216e72ac1.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Pallet_Wood_Covered_B.obj"
+dest_files=["res://.godot/imported/Pallet_Wood_Covered_B.obj-74f84547accd2fa22d01803828d9aed4.mesh", "res://.godot/imported/Pallet_Wood_Covered_B.obj-74f84547accd2fa22d01803828d9aed4.mesh"]
 
 [params]
 

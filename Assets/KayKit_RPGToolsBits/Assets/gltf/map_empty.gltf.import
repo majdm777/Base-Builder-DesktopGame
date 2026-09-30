@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dlofepfp01apa"
-path="res://.godot/imported/map_empty.gltf-8386a7dc0bde988bd57f2799b13b6bee.scn"
+path="res://.godot/imported/map_empty.gltf-5bf3397e646bc84abac0d9fe01312f64.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/map_empty.gltf"
-dest_files=["res://.godot/imported/map_empty.gltf-8386a7dc0bde988bd57f2799b13b6bee.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/map_empty.gltf"
+dest_files=["res://.godot/imported/map_empty.gltf-5bf3397e646bc84abac0d9fe01312f64.scn"]
 
 [params]
 

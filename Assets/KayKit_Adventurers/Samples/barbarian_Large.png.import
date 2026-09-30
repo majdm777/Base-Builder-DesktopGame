@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbd8enscjw7nu"
-path="res://.godot/imported/barbarian_Large.png-12f46ae309c5c98d8f9c503b9a30ab69.ctex"
+path="res://.godot/imported/barbarian_Large.png-582c4f9ebc734eba77f0058d2c0eaa31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Samples/barbarian_Large.png"
-dest_files=["res://.godot/imported/barbarian_Large.png-12f46ae309c5c98d8f9c503b9a30ab69.ctex"]
+source_file="res://Assets/KayKit_Adventurers/Samples/barbarian_Large.png"
+dest_files=["res://.godot/imported/barbarian_Large.png-582c4f9ebc734eba77f0058d2c0eaa31.ctex"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c1wlwac3p1qes"
-path="res://.godot/imported/building_archeryrange_red.obj-15d7cca1a27c954dc9b76bb79571fc00.mesh"
+path="res://.godot/imported/building_archeryrange_red.obj-e88b240c9b37475e1e32329c0e4f8616.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_archeryrange_red.obj-15d7cca1a27c954dc9b76bb79571fc00.mesh"]
+files=["res://.godot/imported/building_archeryrange_red.obj-e88b240c9b37475e1e32329c0e4f8616.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/red/building_archeryrange_red.obj"
-dest_files=["res://.godot/imported/building_archeryrange_red.obj-15d7cca1a27c954dc9b76bb79571fc00.mesh", "res://.godot/imported/building_archeryrange_red.obj-15d7cca1a27c954dc9b76bb79571fc00.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/red/building_archeryrange_red.obj"
+dest_files=["res://.godot/imported/building_archeryrange_red.obj-e88b240c9b37475e1e32329c0e4f8616.mesh", "res://.godot/imported/building_archeryrange_red.obj-e88b240c9b37475e1e32329c0e4f8616.mesh"]
 
 [params]
 

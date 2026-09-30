@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c4j2l6xtlgmmh"
-path="res://.godot/imported/wall_gated.fbx-1c183780ddde0ab7e4ab2b021e86d25f.scn"
+path="res://.godot/imported/wall_gated.fbx-112b99bf8e1b6b9f8c371c966ac4e449.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/wall_gated.fbx"
-dest_files=["res://.godot/imported/wall_gated.fbx-1c183780ddde0ab7e4ab2b021e86d25f.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/wall_gated.fbx"
+dest_files=["res://.godot/imported/wall_gated.fbx-112b99bf8e1b6b9f8c371c966ac4e449.scn"]
 
 [params]
 

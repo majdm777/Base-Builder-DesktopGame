@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bx04bftj17i7w"
-path="res://.godot/imported/building_tower_B_green.obj-48b14c055961efa7fc81f407ed93d8a3.mesh"
+path="res://.godot/imported/building_tower_B_green.obj-6b1b54d27e5de2de041eb585399e85d5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_tower_B_green.obj-48b14c055961efa7fc81f407ed93d8a3.mesh"]
+files=["res://.godot/imported/building_tower_B_green.obj-6b1b54d27e5de2de041eb585399e85d5.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_tower_B_green.obj"
-dest_files=["res://.godot/imported/building_tower_B_green.obj-48b14c055961efa7fc81f407ed93d8a3.mesh", "res://.godot/imported/building_tower_B_green.obj-48b14c055961efa7fc81f407ed93d8a3.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_tower_B_green.obj"
+dest_files=["res://.godot/imported/building_tower_B_green.obj-6b1b54d27e5de2de041eb585399e85d5.mesh", "res://.godot/imported/building_tower_B_green.obj-6b1b54d27e5de2de041eb585399e85d5.mesh"]
 
 [params]
 

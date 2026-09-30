@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://rh4b0qio8tyf"
-path="res://.godot/imported/Textiles_Stack_Large.obj-c0faaf74ca497da4a31a4d0fdf207c4e.mesh"
+path="res://.godot/imported/Textiles_Stack_Large.obj-ecc0a61809aff58eae2d1fcf39b6d2df.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Textiles_Stack_Large.obj-c0faaf74ca497da4a31a4d0fdf207c4e.mesh"]
+files=["res://.godot/imported/Textiles_Stack_Large.obj-ecc0a61809aff58eae2d1fcf39b6d2df.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Textiles_Stack_Large.obj"
-dest_files=["res://.godot/imported/Textiles_Stack_Large.obj-c0faaf74ca497da4a31a4d0fdf207c4e.mesh", "res://.godot/imported/Textiles_Stack_Large.obj-c0faaf74ca497da4a31a4d0fdf207c4e.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Textiles_Stack_Large.obj"
+dest_files=["res://.godot/imported/Textiles_Stack_Large.obj-ecc0a61809aff58eae2d1fcf39b6d2df.mesh", "res://.godot/imported/Textiles_Stack_Large.obj-ecc0a61809aff58eae2d1fcf39b6d2df.mesh"]
 
 [params]
 

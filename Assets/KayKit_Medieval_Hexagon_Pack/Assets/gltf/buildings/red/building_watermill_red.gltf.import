@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cj382slxrj0po"
-path="res://.godot/imported/building_watermill_red.gltf-2b908cf85456f3de3434e1bff6e23c89.scn"
+path="res://.godot/imported/building_watermill_red.gltf-54f5ec757f4b354fa5c40e3756889fa7.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/red/building_watermill_red.gltf"
-dest_files=["res://.godot/imported/building_watermill_red.gltf-2b908cf85456f3de3434e1bff6e23c89.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/red/building_watermill_red.gltf"
+dest_files=["res://.godot/imported/building_watermill_red.gltf-54f5ec757f4b354fa5c40e3756889fa7.scn"]
 
 [params]
 

@@ -15,7 +15,6 @@ var FirePitPos : Marker3D
 var CurrentTask = Task.Walking
 
 func _ready() -> void:
-	
 	pass
 func spawn_Object_Setup():
 	navigation.target_position = FirePitPos.global_position

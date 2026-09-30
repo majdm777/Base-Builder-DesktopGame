@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdtpqmyd22ki1"
-path="res://.godot/imported/wall_half.fbx-f9ae678e24a87b71749f86d6b3cccabb.scn"
+path="res://.godot/imported/wall_half.fbx-0939733bf0aeb1fed7ebe309cefe94ed.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_half.fbx"
-dest_files=["res://.godot/imported/wall_half.fbx-f9ae678e24a87b71749f86d6b3cccabb.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/wall_half.fbx"
+dest_files=["res://.godot/imported/wall_half.fbx-0939733bf0aeb1fed7ebe309cefe94ed.scn"]
 
 [params]
 

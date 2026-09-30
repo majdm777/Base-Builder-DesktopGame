@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cowbi7guwe6dv"
-path="res://.godot/imported/mine.fbx-b5b1bd640a52b1fcb0b9d5b8c11e566b.scn"
+path="res://.godot/imported/mine.fbx-56479fb8f5c7eb63d0af256f2d459db1.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/mine.fbx"
-dest_files=["res://.godot/imported/mine.fbx-b5b1bd640a52b1fcb0b9d5b8c11e566b.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/mine.fbx"
+dest_files=["res://.godot/imported/mine.fbx-56479fb8f5c7eb63d0af256f2d459db1.scn"]
 
 [params]
 

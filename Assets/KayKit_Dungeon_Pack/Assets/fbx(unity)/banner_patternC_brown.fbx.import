@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cfhmm3rgvs5ny"
-path="res://.godot/imported/banner_patternC_brown.fbx-e82bd04d624097f362abe85c885c9292.scn"
+path="res://.godot/imported/banner_patternC_brown.fbx-9830d6ebb2e04b14b3c9c49029d41abe.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/banner_patternC_brown.fbx"
-dest_files=["res://.godot/imported/banner_patternC_brown.fbx-e82bd04d624097f362abe85c885c9292.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/banner_patternC_brown.fbx"
+dest_files=["res://.godot/imported/banner_patternC_brown.fbx-9830d6ebb2e04b14b3c9c49029d41abe.scn"]
 
 [params]
 

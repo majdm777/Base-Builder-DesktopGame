@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bciy2y3eycotn"
-path="res://.godot/imported/detail_rocks_small.gltf.glb-143ec65308de7f6e64ab226fcc81dc9f.scn"
+path="res://.godot/imported/detail_rocks_small.gltf.glb-15406f9377eff9089701bd64c4966f12.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/detail_rocks_small.gltf.glb"
-dest_files=["res://.godot/imported/detail_rocks_small.gltf.glb-143ec65308de7f6e64ab226fcc81dc9f.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/detail_rocks_small.gltf.glb"
+dest_files=["res://.godot/imported/detail_rocks_small.gltf.glb-15406f9377eff9089701bd64c4966f12.scn"]
 
 [params]
 

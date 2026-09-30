@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bqj1lr1vvyd2w"
-path="res://.godot/imported/stairs_narrow.fbx-3b2aabdd32a02d6b99ba0f8a0f9f8af1.scn"
+path="res://.godot/imported/stairs_narrow.fbx-afe234cbd889afc5a4beefd63c9f50eb.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/stairs_narrow.fbx"
-dest_files=["res://.godot/imported/stairs_narrow.fbx-3b2aabdd32a02d6b99ba0f8a0f9f8af1.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/stairs_narrow.fbx"
+dest_files=["res://.godot/imported/stairs_narrow.fbx-afe234cbd889afc5a4beefd63c9f50eb.scn"]
 
 [params]
 

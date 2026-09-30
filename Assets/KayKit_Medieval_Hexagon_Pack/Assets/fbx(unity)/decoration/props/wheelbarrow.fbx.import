@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d3edw6t8n85i8"
-path="res://.godot/imported/wheelbarrow.fbx-631861155fbfeaa8e7c05e53e7756961.scn"
+path="res://.godot/imported/wheelbarrow.fbx-c5746c5ab03bf1dc52fc26cca87ef509.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/decoration/props/wheelbarrow.fbx"
-dest_files=["res://.godot/imported/wheelbarrow.fbx-631861155fbfeaa8e7c05e53e7756961.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/decoration/props/wheelbarrow.fbx"
+dest_files=["res://.godot/imported/wheelbarrow.fbx-c5746c5ab03bf1dc52fc26cca87ef509.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cp1e5wda7pa2j"
-path="res://.godot/imported/hammer.fbx-dfb6d07f42e3c3717b4c0449d361dfd4.scn"
+path="res://.godot/imported/hammer.fbx-18e1831631f92c08c99c4911671135f7.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx/hammer.fbx"
-dest_files=["res://.godot/imported/hammer.fbx-dfb6d07f42e3c3717b4c0449d361dfd4.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx/hammer.fbx"
+dest_files=["res://.godot/imported/hammer.fbx-18e1831631f92c08c99c4911671135f7.scn"]
 
 [params]
 

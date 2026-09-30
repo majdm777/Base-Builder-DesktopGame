@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://blit3prthxl1b"
-path="res://.godot/imported/shield_round_barbarian.fbx-336f5118d7f4848e6ef5aed9a66d525f.scn"
+path="res://.godot/imported/shield_round_barbarian.fbx-34c8759294feb79f9c431da4209670b8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_round_barbarian.fbx"
-dest_files=["res://.godot/imported/shield_round_barbarian.fbx-336f5118d7f4848e6ef5aed9a66d525f.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/fbx(unity)/shield_round_barbarian.fbx"
+dest_files=["res://.godot/imported/shield_round_barbarian.fbx-34c8759294feb79f9c431da4209670b8.scn"]
 
 [params]
 

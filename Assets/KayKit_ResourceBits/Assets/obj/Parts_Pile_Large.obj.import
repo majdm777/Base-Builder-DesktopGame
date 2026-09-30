@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cbypyofbbqkt3"
-path="res://.godot/imported/Parts_Pile_Large.obj-76436a633c1aa0a4054f0fff9510a1b9.mesh"
+path="res://.godot/imported/Parts_Pile_Large.obj-5568e5f82a98fae1d21c309cbeb22837.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Parts_Pile_Large.obj-76436a633c1aa0a4054f0fff9510a1b9.mesh"]
+files=["res://.godot/imported/Parts_Pile_Large.obj-5568e5f82a98fae1d21c309cbeb22837.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Parts_Pile_Large.obj"
-dest_files=["res://.godot/imported/Parts_Pile_Large.obj-76436a633c1aa0a4054f0fff9510a1b9.mesh", "res://.godot/imported/Parts_Pile_Large.obj-76436a633c1aa0a4054f0fff9510a1b9.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Parts_Pile_Large.obj"
+dest_files=["res://.godot/imported/Parts_Pile_Large.obj-5568e5f82a98fae1d21c309cbeb22837.mesh", "res://.godot/imported/Parts_Pile_Large.obj-5568e5f82a98fae1d21c309cbeb22837.mesh"]
 
 [params]
 

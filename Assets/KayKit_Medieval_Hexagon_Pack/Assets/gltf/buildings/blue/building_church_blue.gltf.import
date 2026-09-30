@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://csed74481wgjp"
-path="res://.godot/imported/building_church_blue.gltf-d2c33010f68ae7e072a285d2d12e8ee9.scn"
+path="res://.godot/imported/building_church_blue.gltf-087d85e9452247665bfdd7dc28d7eee3.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/blue/building_church_blue.gltf"
-dest_files=["res://.godot/imported/building_church_blue.gltf-d2c33010f68ae7e072a285d2d12e8ee9.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/blue/building_church_blue.gltf"
+dest_files=["res://.godot/imported/building_church_blue.gltf-087d85e9452247665bfdd7dc28d7eee3.scn"]
 
 [params]
 

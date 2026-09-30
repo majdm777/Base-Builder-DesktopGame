@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c3tctprgrwru4"
-path="res://.godot/imported/Copper_Bars_Stack_Medium.obj-ca0acd38a94c27735a3d669ad83db173.mesh"
+path="res://.godot/imported/Copper_Bars_Stack_Medium.obj-3a6efa53e94382cd7f8ca294b211ab29.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Copper_Bars_Stack_Medium.obj-ca0acd38a94c27735a3d669ad83db173.mesh"]
+files=["res://.godot/imported/Copper_Bars_Stack_Medium.obj-3a6efa53e94382cd7f8ca294b211ab29.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Copper_Bars_Stack_Medium.obj"
-dest_files=["res://.godot/imported/Copper_Bars_Stack_Medium.obj-ca0acd38a94c27735a3d669ad83db173.mesh", "res://.godot/imported/Copper_Bars_Stack_Medium.obj-ca0acd38a94c27735a3d669ad83db173.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Copper_Bars_Stack_Medium.obj"
+dest_files=["res://.godot/imported/Copper_Bars_Stack_Medium.obj-3a6efa53e94382cd7f8ca294b211ab29.mesh", "res://.godot/imported/Copper_Bars_Stack_Medium.obj-3a6efa53e94382cd7f8ca294b211ab29.mesh"]
 
 [params]
 

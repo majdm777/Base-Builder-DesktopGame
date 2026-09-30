@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://mc4ldluev4my"
-path="res://.godot/imported/sword_shield_broken.obj-f99b00c167e7a24fc3b63aeb93a316e2.mesh"
+path="res://.godot/imported/sword_shield_broken.obj-fa3049ceb2a72b022cd7ce66e2b18bc3.mesh"
 
 [deps]
 
-files=["res://.godot/imported/sword_shield_broken.obj-f99b00c167e7a24fc3b63aeb93a316e2.mesh"]
+files=["res://.godot/imported/sword_shield_broken.obj-fa3049ceb2a72b022cd7ce66e2b18bc3.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/sword_shield_broken.obj"
-dest_files=["res://.godot/imported/sword_shield_broken.obj-f99b00c167e7a24fc3b63aeb93a316e2.mesh", "res://.godot/imported/sword_shield_broken.obj-f99b00c167e7a24fc3b63aeb93a316e2.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/sword_shield_broken.obj"
+dest_files=["res://.godot/imported/sword_shield_broken.obj-fa3049ceb2a72b022cd7ce66e2b18bc3.mesh", "res://.godot/imported/sword_shield_broken.obj-fa3049ceb2a72b022cd7ce66e2b18bc3.mesh"]
 
 [params]
 

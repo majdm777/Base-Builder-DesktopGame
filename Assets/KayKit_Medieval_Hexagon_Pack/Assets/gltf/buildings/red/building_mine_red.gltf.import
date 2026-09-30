@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cdjmtxvoecga4"
-path="res://.godot/imported/building_mine_red.gltf-b1032d645a69cd3c53a291a47c4f38ab.scn"
+path="res://.godot/imported/building_mine_red.gltf-be73fc852dd6e21fda37ab9f315435ce.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/red/building_mine_red.gltf"
-dest_files=["res://.godot/imported/building_mine_red.gltf-b1032d645a69cd3c53a291a47c4f38ab.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/red/building_mine_red.gltf"
+dest_files=["res://.godot/imported/building_mine_red.gltf-be73fc852dd6e21fda37ab9f315435ce.scn"]
 
 [params]
 

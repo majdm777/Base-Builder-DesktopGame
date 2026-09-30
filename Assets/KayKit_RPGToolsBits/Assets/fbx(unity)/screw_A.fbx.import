@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dwmxsyo64jt50"
-path="res://.godot/imported/screw_A.fbx-44fe60a7c0c442fd75c111ec3bdbb672.scn"
+path="res://.godot/imported/screw_A.fbx-285339c72e34d6c00fe38b328e76d3cd.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/screw_A.fbx"
-dest_files=["res://.godot/imported/screw_A.fbx-44fe60a7c0c442fd75c111ec3bdbb672.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/screw_A.fbx"
+dest_files=["res://.godot/imported/screw_A.fbx-285339c72e34d6c00fe38b328e76d3cd.scn"]
 
 [params]
 

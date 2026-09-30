@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2gsx0t80b7ma"
-path="res://.godot/imported/floor_tile_extralarge_grates.gltf-066712421107e78788912cc622554277.scn"
+path="res://.godot/imported/floor_tile_extralarge_grates.gltf-c8c290f3da70d8ee07456a193884b631.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/floor_tile_extralarge_grates.gltf"
-dest_files=["res://.godot/imported/floor_tile_extralarge_grates.gltf-066712421107e78788912cc622554277.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/floor_tile_extralarge_grates.gltf"
+dest_files=["res://.godot/imported/floor_tile_extralarge_grates.gltf-c8c290f3da70d8ee07456a193884b631.scn"]
 
 [params]
 

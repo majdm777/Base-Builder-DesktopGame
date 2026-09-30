@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://3up58a8wuuau"
-path="res://.godot/imported/tent.obj-1ed05b37d5c7eff421b2e71bb6ee7df8.mesh"
+path="res://.godot/imported/tent.obj-a8841a3286c3a557cabb267c5d771f67.mesh"
 
 [deps]
 
-files=["res://.godot/imported/tent.obj-1ed05b37d5c7eff421b2e71bb6ee7df8.mesh"]
+files=["res://.godot/imported/tent.obj-a8841a3286c3a557cabb267c5d771f67.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/tent.obj"
-dest_files=["res://.godot/imported/tent.obj-1ed05b37d5c7eff421b2e71bb6ee7df8.mesh", "res://.godot/imported/tent.obj-1ed05b37d5c7eff421b2e71bb6ee7df8.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/tent.obj"
+dest_files=["res://.godot/imported/tent.obj-a8841a3286c3a557cabb267c5d771f67.mesh", "res://.godot/imported/tent.obj-a8841a3286c3a557cabb267c5d771f67.mesh"]
 
 [params]
 

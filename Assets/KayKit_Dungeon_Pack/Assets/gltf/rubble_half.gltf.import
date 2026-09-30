@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cl0iv0xyekmsg"
-path="res://.godot/imported/rubble_half.gltf-7655efebef38281118abc24ccfef79f5.scn"
+path="res://.godot/imported/rubble_half.gltf-29efad5253631f97c4ced6d5bff32fc5.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/rubble_half.gltf"
-dest_files=["res://.godot/imported/rubble_half.gltf-7655efebef38281118abc24ccfef79f5.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/rubble_half.gltf"
+dest_files=["res://.godot/imported/rubble_half.gltf-29efad5253631f97c4ced6d5bff32fc5.scn"]
 
 [params]
 

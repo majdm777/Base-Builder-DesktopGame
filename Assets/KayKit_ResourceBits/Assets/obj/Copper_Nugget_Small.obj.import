@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cfcajk0rxirs0"
-path="res://.godot/imported/Copper_Nugget_Small.obj-0417f3f437a2c4030c88c27695b2e3b4.mesh"
+path="res://.godot/imported/Copper_Nugget_Small.obj-15cf9eb9b098f918249fbb7270323a5b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Copper_Nugget_Small.obj-0417f3f437a2c4030c88c27695b2e3b4.mesh"]
+files=["res://.godot/imported/Copper_Nugget_Small.obj-15cf9eb9b098f918249fbb7270323a5b.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Copper_Nugget_Small.obj"
-dest_files=["res://.godot/imported/Copper_Nugget_Small.obj-0417f3f437a2c4030c88c27695b2e3b4.mesh", "res://.godot/imported/Copper_Nugget_Small.obj-0417f3f437a2c4030c88c27695b2e3b4.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Copper_Nugget_Small.obj"
+dest_files=["res://.godot/imported/Copper_Nugget_Small.obj-15cf9eb9b098f918249fbb7270323a5b.mesh", "res://.godot/imported/Copper_Nugget_Small.obj-15cf9eb9b098f918249fbb7270323a5b.mesh"]
 
 [params]
 

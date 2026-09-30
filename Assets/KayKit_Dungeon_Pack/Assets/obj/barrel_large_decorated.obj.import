@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://wtlt54ucvmjr"
-path="res://.godot/imported/barrel_large_decorated.obj-0070c5bc809c3937c256b77ad26adc07.mesh"
+path="res://.godot/imported/barrel_large_decorated.obj-a8fc89be70eb0acb9e1e7351ccbf5d95.mesh"
 
 [deps]
 
-files=["res://.godot/imported/barrel_large_decorated.obj-0070c5bc809c3937c256b77ad26adc07.mesh"]
+files=["res://.godot/imported/barrel_large_decorated.obj-a8fc89be70eb0acb9e1e7351ccbf5d95.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/barrel_large_decorated.obj"
-dest_files=["res://.godot/imported/barrel_large_decorated.obj-0070c5bc809c3937c256b77ad26adc07.mesh", "res://.godot/imported/barrel_large_decorated.obj-0070c5bc809c3937c256b77ad26adc07.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/barrel_large_decorated.obj"
+dest_files=["res://.godot/imported/barrel_large_decorated.obj-a8fc89be70eb0acb9e1e7351ccbf5d95.mesh", "res://.godot/imported/barrel_large_decorated.obj-a8fc89be70eb0acb9e1e7351ccbf5d95.mesh"]
 
 [params]
 

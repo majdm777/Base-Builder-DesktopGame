@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c4bo7hh0fdjw6"
-path="res://.godot/imported/archeryrange.fbx-2ee815bf65d549b6e3add96d49738831.scn"
+path="res://.godot/imported/archeryrange.fbx-c01866f18ffe2e1a313e7bfc96acafec.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/archeryrange.fbx"
-dest_files=["res://.godot/imported/archeryrange.fbx-2ee815bf65d549b6e3add96d49738831.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/archeryrange.fbx"
+dest_files=["res://.godot/imported/archeryrange.fbx-c01866f18ffe2e1a313e7bfc96acafec.scn"]
 
 [params]
 

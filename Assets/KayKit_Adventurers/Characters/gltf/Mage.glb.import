@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dr48hcgk84vrs"
-path="res://.godot/imported/Mage.glb-1da307ad86ef685d111f3131a36cbc27.scn"
+path="res://.godot/imported/Mage.glb-8a17daea4997eae38db6a0b7e885dacd.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Characters/gltf/Mage.glb"
-dest_files=["res://.godot/imported/Mage.glb-1da307ad86ef685d111f3131a36cbc27.scn"]
+source_file="res://Assets/KayKit_Adventurers/Characters/gltf/Mage.glb"
+dest_files=["res://.godot/imported/Mage.glb-8a17daea4997eae38db6a0b7e885dacd.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bv2iq232ww4w1"
-path="res://.godot/imported/knife.obj-86af23394768466861c6c8305bcafd29.mesh"
+path="res://.godot/imported/knife.obj-81e0cf0bd5a227d26db94793d16f15a2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/knife.obj-86af23394768466861c6c8305bcafd29.mesh"]
+files=["res://.godot/imported/knife.obj-81e0cf0bd5a227d26db94793d16f15a2.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/knife.obj"
-dest_files=["res://.godot/imported/knife.obj-86af23394768466861c6c8305bcafd29.mesh", "res://.godot/imported/knife.obj-86af23394768466861c6c8305bcafd29.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/knife.obj"
+dest_files=["res://.godot/imported/knife.obj-81e0cf0bd5a227d26db94793d16f15a2.mesh", "res://.godot/imported/knife.obj-81e0cf0bd5a227d26db94793d16f15a2.mesh"]
 
 [params]
 

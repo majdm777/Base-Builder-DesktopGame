@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b4qqx6am6mj4h"
-path="res://.godot/imported/rope_bundle_A.fbx-c0c1854bd9940dd7773a163c80902128.scn"
+path="res://.godot/imported/rope_bundle_A.fbx-11096d7c30cafe280098f125d7c25e8f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx/rope_bundle_A.fbx"
-dest_files=["res://.godot/imported/rope_bundle_A.fbx-c0c1854bd9940dd7773a163c80902128.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx/rope_bundle_A.fbx"
+dest_files=["res://.godot/imported/rope_bundle_A.fbx-11096d7c30cafe280098f125d7c25e8f.scn"]
 
 [params]
 

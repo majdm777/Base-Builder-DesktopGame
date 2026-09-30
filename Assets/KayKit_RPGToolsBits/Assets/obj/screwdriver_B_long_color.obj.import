@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://3oy5hpn8nqvl"
-path="res://.godot/imported/screwdriver_B_long_color.obj-a78413bb945425ce95e3398719ae29da.mesh"
+path="res://.godot/imported/screwdriver_B_long_color.obj-3f1359e040305abb8894d416c002121c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/screwdriver_B_long_color.obj-a78413bb945425ce95e3398719ae29da.mesh"]
+files=["res://.godot/imported/screwdriver_B_long_color.obj-3f1359e040305abb8894d416c002121c.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/screwdriver_B_long_color.obj"
-dest_files=["res://.godot/imported/screwdriver_B_long_color.obj-a78413bb945425ce95e3398719ae29da.mesh", "res://.godot/imported/screwdriver_B_long_color.obj-a78413bb945425ce95e3398719ae29da.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/screwdriver_B_long_color.obj"
+dest_files=["res://.godot/imported/screwdriver_B_long_color.obj-3f1359e040305abb8894d416c002121c.mesh", "res://.godot/imported/screwdriver_B_long_color.obj-3f1359e040305abb8894d416c002121c.mesh"]
 
 [params]
 

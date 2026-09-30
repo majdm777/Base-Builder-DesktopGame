@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b3fl4algs5hyw"
-path="res://.godot/imported/wall_doorway_door.obj-18505b96ea8affc00d66ec8081e86b7d.mesh"
+path="res://.godot/imported/wall_doorway_door.obj-d823f281b5e2077972921b578d8f719b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_doorway_door.obj-18505b96ea8affc00d66ec8081e86b7d.mesh"]
+files=["res://.godot/imported/wall_doorway_door.obj-d823f281b5e2077972921b578d8f719b.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/wall_doorway_door.obj"
-dest_files=["res://.godot/imported/wall_doorway_door.obj-18505b96ea8affc00d66ec8081e86b7d.mesh", "res://.godot/imported/wall_doorway_door.obj-18505b96ea8affc00d66ec8081e86b7d.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/wall_doorway_door.obj"
+dest_files=["res://.godot/imported/wall_doorway_door.obj-d823f281b5e2077972921b578d8f719b.mesh", "res://.godot/imported/wall_doorway_door.obj-d823f281b5e2077972921b578d8f719b.mesh"]
 
 [params]
 

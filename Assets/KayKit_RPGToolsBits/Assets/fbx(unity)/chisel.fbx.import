@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d1mnul5b26i1h"
-path="res://.godot/imported/chisel.fbx-4f80a50a4ab1691816225543b428524f.scn"
+path="res://.godot/imported/chisel.fbx-1f9e27a22f1393992b41ab552aae14ea.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/chisel.fbx"
-dest_files=["res://.godot/imported/chisel.fbx-4f80a50a4ab1691816225543b428524f.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/chisel.fbx"
+dest_files=["res://.godot/imported/chisel.fbx-1f9e27a22f1393992b41ab552aae14ea.scn"]
 
 [params]
 

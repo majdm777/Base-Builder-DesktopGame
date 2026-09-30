@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cqsfbs8yo2ii4"
-path="res://.godot/imported/house.fbx-78290e0e86f6e6f09d037141b212cafe.scn"
+path="res://.godot/imported/house.fbx-fe148fa8fb80252e02573a84bd1b89bd.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/house.fbx"
-dest_files=["res://.godot/imported/house.fbx-78290e0e86f6e6f09d037141b212cafe.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/house.fbx"
+dest_files=["res://.godot/imported/house.fbx-fe148fa8fb80252e02573a84bd1b89bd.scn"]
 
 [params]
 

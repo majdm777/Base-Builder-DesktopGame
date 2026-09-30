@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://07nwmig7qac4"
-path="res://.godot/imported/crossbow_1handed.obj-2fbf804d0e1b2aa8042be75dfabbd6b6.mesh"
+path="res://.godot/imported/crossbow_1handed.obj-2e4fa0e6c3199f9516b9d380533ff015.mesh"
 
 [deps]
 
-files=["res://.godot/imported/crossbow_1handed.obj-2fbf804d0e1b2aa8042be75dfabbd6b6.mesh"]
+files=["res://.godot/imported/crossbow_1handed.obj-2e4fa0e6c3199f9516b9d380533ff015.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/crossbow_1handed.obj"
-dest_files=["res://.godot/imported/crossbow_1handed.obj-2fbf804d0e1b2aa8042be75dfabbd6b6.mesh", "res://.godot/imported/crossbow_1handed.obj-2fbf804d0e1b2aa8042be75dfabbd6b6.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/crossbow_1handed.obj"
+dest_files=["res://.godot/imported/crossbow_1handed.obj-2e4fa0e6c3199f9516b9d380533ff015.mesh", "res://.godot/imported/crossbow_1handed.obj-2e4fa0e6c3199f9516b9d380533ff015.mesh"]
 
 [params]
 

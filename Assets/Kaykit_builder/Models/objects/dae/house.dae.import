@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dbts28lnq3ekm"
-path="res://.godot/imported/house.dae-22ecc617456b9f81bb2e1e8d65e70bd3.scn"
+path="res://.godot/imported/house.dae-6b232ac2d34694ada9951bf1bc4b43af.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/dae/house.dae"
-dest_files=["res://.godot/imported/house.dae-22ecc617456b9f81bb2e1e8d65e70bd3.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/dae/house.dae"
+dest_files=["res://.godot/imported/house.dae-6b232ac2d34694ada9951bf1bc4b43af.scn"]
 
 [params]
 

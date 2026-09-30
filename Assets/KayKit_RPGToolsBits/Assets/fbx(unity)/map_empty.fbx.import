@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ddio8o433kbe2"
-path="res://.godot/imported/map_empty.fbx-932e4f33a51d824a1e19bcbcaa2c36b2.scn"
+path="res://.godot/imported/map_empty.fbx-2149e1d0c85dfbe1ba3a511d7bdde7e8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/map_empty.fbx"
-dest_files=["res://.godot/imported/map_empty.fbx-932e4f33a51d824a1e19bcbcaa2c36b2.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/map_empty.fbx"
+dest_files=["res://.godot/imported/map_empty.fbx-2149e1d0c85dfbe1ba3a511d7bdde7e8.scn"]
 
 [params]
 

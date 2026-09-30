@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwqhbb1j0yd5t"
-path.s3tc="res://.godot/imported/mage_texture.png-09e9f7c531ab1f849dbaf786fd272307.s3tc.ctex"
+path.s3tc="res://.godot/imported/mage_texture.png-1391251aa6bdbb6412d60c9e4ef17eae.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/mage_texture.png"
-dest_files=["res://.godot/imported/mage_texture.png-09e9f7c531ab1f849dbaf786fd272307.s3tc.ctex"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/mage_texture.png"
+dest_files=["res://.godot/imported/mage_texture.png-1391251aa6bdbb6412d60c9e4ef17eae.s3tc.ctex"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://7dvepbde734m"
-path="res://.godot/imported/stairs_long.obj-2c2d77d564d7797f765cb4eed26c190c.mesh"
+path="res://.godot/imported/stairs_long.obj-2342962d9606af53c1fe6a77c1b16117.mesh"
 
 [deps]
 
-files=["res://.godot/imported/stairs_long.obj-2c2d77d564d7797f765cb4eed26c190c.mesh"]
+files=["res://.godot/imported/stairs_long.obj-2342962d9606af53c1fe6a77c1b16117.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/stairs_long.obj"
-dest_files=["res://.godot/imported/stairs_long.obj-2c2d77d564d7797f765cb4eed26c190c.mesh", "res://.godot/imported/stairs_long.obj-2c2d77d564d7797f765cb4eed26c190c.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/stairs_long.obj"
+dest_files=["res://.godot/imported/stairs_long.obj-2342962d9606af53c1fe6a77c1b16117.mesh", "res://.godot/imported/stairs_long.obj-2342962d9606af53c1fe6a77c1b16117.mesh"]
 
 [params]
 

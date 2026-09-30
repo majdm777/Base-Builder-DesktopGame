@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dvygeakoh52jp"
-path="res://.godot/imported/hex_rock_roadI_detail.dae-abe894d40d9a6bdd5f978ed66b053d70.scn"
+path="res://.godot/imported/hex_rock_roadI_detail.dae-f6431f738b5eccc3dc2547eb73a2bcb1.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/dae/hex_rock_roadI_detail.dae"
-dest_files=["res://.godot/imported/hex_rock_roadI_detail.dae-abe894d40d9a6bdd5f978ed66b053d70.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/dae/hex_rock_roadI_detail.dae"
+dest_files=["res://.godot/imported/hex_rock_roadI_detail.dae-f6431f738b5eccc3dc2547eb73a2bcb1.scn"]
 
 [params]
 

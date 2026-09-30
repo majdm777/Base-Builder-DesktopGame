@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dblm6j0s1jh00"
-path="res://.godot/imported/stool.fbx-b9798265e1ffec9d8e58acf123e1abbb.scn"
+path="res://.godot/imported/stool.fbx-46ce7bc37d36f6c0b711cd16f1d25966.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stool.fbx"
-dest_files=["res://.godot/imported/stool.fbx-b9798265e1ffec9d8e58acf123e1abbb.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/stool.fbx"
+dest_files=["res://.godot/imported/stool.fbx-46ce7bc37d36f6c0b711cd16f1d25966.scn"]
 
 [params]
 

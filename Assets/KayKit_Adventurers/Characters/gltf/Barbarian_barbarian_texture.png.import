@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8whcvef3y5rq"
-path.s3tc="res://.godot/imported/Barbarian_barbarian_texture.png-491622df1e15dab9879aaa9778587f98.s3tc.ctex"
+path.s3tc="res://.godot/imported/Barbarian_barbarian_texture.png-0370cf5c1d03a86020e6e92e8b31652b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Characters/gltf/Barbarian_barbarian_texture.png"
-dest_files=["res://.godot/imported/Barbarian_barbarian_texture.png-491622df1e15dab9879aaa9778587f98.s3tc.ctex"]
+source_file="res://Assets/KayKit_Adventurers/Characters/gltf/Barbarian_barbarian_texture.png"
+dest_files=["res://.godot/imported/Barbarian_barbarian_texture.png-0370cf5c1d03a86020e6e92e8b31652b.s3tc.ctex"]
 
 [params]
 

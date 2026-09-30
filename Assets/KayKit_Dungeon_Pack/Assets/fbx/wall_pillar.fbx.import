@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b6vk7rtx64112"
-path="res://.godot/imported/wall_pillar.fbx-7b113f706add79df9aa1cef276bcb3e6.scn"
+path="res://.godot/imported/wall_pillar.fbx-9f67cb3ae954d3a16eaa806da9d8c0f5.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_pillar.fbx"
-dest_files=["res://.godot/imported/wall_pillar.fbx-7b113f706add79df9aa1cef276bcb3e6.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/wall_pillar.fbx"
+dest_files=["res://.godot/imported/wall_pillar.fbx-9f67cb3ae954d3a16eaa806da9d8c0f5.scn"]
 
 [params]
 

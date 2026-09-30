@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d4bfsyfdhq1xc"
-path="res://.godot/imported/detail_hill.gltf.glb-937b6ca982bf04a348d2aa61e4433c9d.scn"
+path="res://.godot/imported/detail_hill.gltf.glb-b2b6470f5508682fe51473a0f5e34a26.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/detail_hill.gltf.glb"
-dest_files=["res://.godot/imported/detail_hill.gltf.glb-937b6ca982bf04a348d2aa61e4433c9d.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/detail_hill.gltf.glb"
+dest_files=["res://.godot/imported/detail_hill.gltf.glb-b2b6470f5508682fe51473a0f5e34a26.scn"]
 
 [params]
 

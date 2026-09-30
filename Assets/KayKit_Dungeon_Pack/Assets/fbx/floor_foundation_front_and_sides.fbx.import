@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bih0qsjkci7oo"
-path="res://.godot/imported/floor_foundation_front_and_sides.fbx-e7a84e5d36fb287c26cca5d832a2643c.scn"
+path="res://.godot/imported/floor_foundation_front_and_sides.fbx-a2ca3bd182ba9c6140ccb7a3c896c787.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_foundation_front_and_sides.fbx"
-dest_files=["res://.godot/imported/floor_foundation_front_and_sides.fbx-e7a84e5d36fb287c26cca5d832a2643c.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/floor_foundation_front_and_sides.fbx"
+dest_files=["res://.godot/imported/floor_foundation_front_and_sides.fbx-a2ca3bd182ba9c6140ccb7a3c896c787.scn"]
 
 [params]
 

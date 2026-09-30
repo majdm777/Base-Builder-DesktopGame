@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dveferphxiy0d"
-path="res://.godot/imported/rock_single_C.obj-579027bf7f771b0e3e3d7e0a414c685d.mesh"
+path="res://.godot/imported/rock_single_C.obj-659cab67600d55dc4482038fb39f2986.mesh"
 
 [deps]
 
-files=["res://.godot/imported/rock_single_C.obj-579027bf7f771b0e3e3d7e0a414c685d.mesh"]
+files=["res://.godot/imported/rock_single_C.obj-659cab67600d55dc4482038fb39f2986.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/rock_single_C.obj"
-dest_files=["res://.godot/imported/rock_single_C.obj-579027bf7f771b0e3e3d7e0a414c685d.mesh", "res://.godot/imported/rock_single_C.obj-579027bf7f771b0e3e3d7e0a414c685d.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/rock_single_C.obj"
+dest_files=["res://.godot/imported/rock_single_C.obj-659cab67600d55dc4482038fb39f2986.mesh", "res://.godot/imported/rock_single_C.obj-659cab67600d55dc4482038fb39f2986.mesh"]
 
 [params]
 

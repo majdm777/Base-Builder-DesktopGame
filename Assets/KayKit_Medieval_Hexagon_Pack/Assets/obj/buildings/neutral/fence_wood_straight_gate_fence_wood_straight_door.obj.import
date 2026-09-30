@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cj3cx6dci2lro"
-path="res://.godot/imported/fence_wood_straight_gate_fence_wood_straight_door.obj-007490c91737ae6294f7674f244b821f.mesh"
+path="res://.godot/imported/fence_wood_straight_gate_fence_wood_straight_door.obj-f3e817549c26c7409123f5c32f857b58.mesh"
 
 [deps]
 
-files=["res://.godot/imported/fence_wood_straight_gate_fence_wood_straight_door.obj-007490c91737ae6294f7674f244b821f.mesh"]
+files=["res://.godot/imported/fence_wood_straight_gate_fence_wood_straight_door.obj-f3e817549c26c7409123f5c32f857b58.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/fence_wood_straight_gate_fence_wood_straight_door.obj"
-dest_files=["res://.godot/imported/fence_wood_straight_gate_fence_wood_straight_door.obj-007490c91737ae6294f7674f244b821f.mesh", "res://.godot/imported/fence_wood_straight_gate_fence_wood_straight_door.obj-007490c91737ae6294f7674f244b821f.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/fence_wood_straight_gate_fence_wood_straight_door.obj"
+dest_files=["res://.godot/imported/fence_wood_straight_gate_fence_wood_straight_door.obj-f3e817549c26c7409123f5c32f857b58.mesh", "res://.godot/imported/fence_wood_straight_gate_fence_wood_straight_door.obj-f3e817549c26c7409123f5c32f857b58.mesh"]
 
 [params]
 

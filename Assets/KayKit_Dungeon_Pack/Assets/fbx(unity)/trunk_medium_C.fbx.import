@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cn2ow0ilf30nd"
-path="res://.godot/imported/trunk_medium_C.fbx-813ba6c9123d1b662df7badae01404d8.scn"
+path="res://.godot/imported/trunk_medium_C.fbx-4e7a9be16467d674dd49c9a05eaa6f81.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/trunk_medium_C.fbx"
-dest_files=["res://.godot/imported/trunk_medium_C.fbx-813ba6c9123d1b662df7badae01404d8.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/trunk_medium_C.fbx"
+dest_files=["res://.godot/imported/trunk_medium_C.fbx-4e7a9be16467d674dd49c9a05eaa6f81.scn"]
 
 [params]
 

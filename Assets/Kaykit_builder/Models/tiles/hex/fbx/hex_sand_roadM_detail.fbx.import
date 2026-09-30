@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ceavk2em23vao"
-path="res://.godot/imported/hex_sand_roadM_detail.fbx-d648273280d598fb59bf627cbc57ea8a.scn"
+path="res://.godot/imported/hex_sand_roadM_detail.fbx-ed2a1239545095d2d832792d687b8533.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/fbx/hex_sand_roadM_detail.fbx"
-dest_files=["res://.godot/imported/hex_sand_roadM_detail.fbx-d648273280d598fb59bf627cbc57ea8a.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/fbx/hex_sand_roadM_detail.fbx"
+dest_files=["res://.godot/imported/hex_sand_roadM_detail.fbx-ed2a1239545095d2d832792d687b8533.scn"]
 
 [params]
 

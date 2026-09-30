@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c4ylivnjxqa51"
-path="res://.godot/imported/keyring_hanging.fbx-0771a801378d9ae68cf3da2b2f3af1d8.scn"
+path="res://.godot/imported/keyring_hanging.fbx-339d28d295550cefbbd7453980a70970.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/keyring_hanging.fbx"
-dest_files=["res://.godot/imported/keyring_hanging.fbx-0771a801378d9ae68cf3da2b2f3af1d8.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/keyring_hanging.fbx"
+dest_files=["res://.godot/imported/keyring_hanging.fbx-339d28d295550cefbbd7453980a70970.scn"]
 
 [params]
 

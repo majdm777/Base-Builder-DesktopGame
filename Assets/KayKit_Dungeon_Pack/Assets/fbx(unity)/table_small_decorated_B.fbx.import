@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhae22u0oatuk"
-path="res://.godot/imported/table_small_decorated_B.fbx-afc47ec88386069f282034a5456252e9.scn"
+path="res://.godot/imported/table_small_decorated_B.fbx-d664e4a88a85672fe8646fd2d40cd59e.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/table_small_decorated_B.fbx"
-dest_files=["res://.godot/imported/table_small_decorated_B.fbx-afc47ec88386069f282034a5456252e9.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/table_small_decorated_B.fbx"
+dest_files=["res://.godot/imported/table_small_decorated_B.fbx-d664e4a88a85672fe8646fd2d40cd59e.scn"]
 
 [params]
 

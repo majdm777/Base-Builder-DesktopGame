@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c210k5ti6x51x"
-path="res://.godot/imported/hex_river_crossing_B_waterless.obj-4da194db780f82238c1845467ce2211c.mesh"
+path="res://.godot/imported/hex_river_crossing_B_waterless.obj-3ac47c6bc585e2734e302a149eec707c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_river_crossing_B_waterless.obj-4da194db780f82238c1845467ce2211c.mesh"]
+files=["res://.godot/imported/hex_river_crossing_B_waterless.obj-3ac47c6bc585e2734e302a149eec707c.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/rivers/waterless/hex_river_crossing_B_waterless.obj"
-dest_files=["res://.godot/imported/hex_river_crossing_B_waterless.obj-4da194db780f82238c1845467ce2211c.mesh", "res://.godot/imported/hex_river_crossing_B_waterless.obj-4da194db780f82238c1845467ce2211c.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/rivers/waterless/hex_river_crossing_B_waterless.obj"
+dest_files=["res://.godot/imported/hex_river_crossing_B_waterless.obj-3ac47c6bc585e2734e302a149eec707c.mesh", "res://.godot/imported/hex_river_crossing_B_waterless.obj-3ac47c6bc585e2734e302a149eec707c.mesh"]
 
 [params]
 

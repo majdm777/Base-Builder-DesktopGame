@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://djsfgsb8mb3fc"
-path="res://.godot/imported/building_well_blue(1).fbx-926f37c7ee549b1797a3863816327462.scn"
+path="res://.godot/imported/building_well_blue(1).fbx-d8d5e21313df6f228f61f92f40d61e5e.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx/buildings/blue/building_well_blue(1).fbx"
-dest_files=["res://.godot/imported/building_well_blue(1).fbx-926f37c7ee549b1797a3863816327462.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx/buildings/blue/building_well_blue(1).fbx"
+dest_files=["res://.godot/imported/building_well_blue(1).fbx-d8d5e21313df6f228f61f92f40d61e5e.scn"]
 
 [params]
 

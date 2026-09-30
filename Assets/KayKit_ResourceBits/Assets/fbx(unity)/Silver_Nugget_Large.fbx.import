@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://g8833crxep6f"
-path="res://.godot/imported/Silver_Nugget_Large.fbx-34dcb524578ed14e06807b1318a73e2b.scn"
+path="res://.godot/imported/Silver_Nugget_Large.fbx-c4c3c1827149038225e2b9d6e9376bd5.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx(unity)/Silver_Nugget_Large.fbx"
-dest_files=["res://.godot/imported/Silver_Nugget_Large.fbx-34dcb524578ed14e06807b1318a73e2b.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx(unity)/Silver_Nugget_Large.fbx"
+dest_files=["res://.godot/imported/Silver_Nugget_Large.fbx-c4c3c1827149038225e2b9d6e9376bd5.scn"]
 
 [params]
 

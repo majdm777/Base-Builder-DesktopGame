@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b1y1mqtiu1f8f"
-path="res://.godot/imported/shield_spikes_color.obj-8ba0fb2fc16478ea6cf751f906e7453d.mesh"
+path="res://.godot/imported/shield_spikes_color.obj-0f3d5add62a6c57c210a98611dfe5ed0.mesh"
 
 [deps]
 
-files=["res://.godot/imported/shield_spikes_color.obj-8ba0fb2fc16478ea6cf751f906e7453d.mesh"]
+files=["res://.godot/imported/shield_spikes_color.obj-0f3d5add62a6c57c210a98611dfe5ed0.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_spikes_color.obj"
-dest_files=["res://.godot/imported/shield_spikes_color.obj-8ba0fb2fc16478ea6cf751f906e7453d.mesh", "res://.godot/imported/shield_spikes_color.obj-8ba0fb2fc16478ea6cf751f906e7453d.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/shield_spikes_color.obj"
+dest_files=["res://.godot/imported/shield_spikes_color.obj-0f3d5add62a6c57c210a98611dfe5ed0.mesh", "res://.godot/imported/shield_spikes_color.obj-0f3d5add62a6c57c210a98611dfe5ed0.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://fths1l5hxyo7"
-path="res://.godot/imported/wall_hexCornerA.gltf.glb-599a9e5d66073be12ed4441667958fa6.scn"
+path="res://.godot/imported/wall_hexCornerA.gltf.glb-30d7e05acaa7f5d48066af0a615ffd84.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/wall_hexCornerA.gltf.glb"
-dest_files=["res://.godot/imported/wall_hexCornerA.gltf.glb-599a9e5d66073be12ed4441667958fa6.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/wall_hexCornerA.gltf.glb"
+dest_files=["res://.godot/imported/wall_hexCornerA.gltf.glb-30d7e05acaa7f5d48066af0a615ffd84.scn"]
 
 [params]
 

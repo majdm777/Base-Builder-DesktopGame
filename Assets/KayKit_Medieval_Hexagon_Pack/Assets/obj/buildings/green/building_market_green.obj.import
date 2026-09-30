@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dkcfd3h3n4vb"
-path="res://.godot/imported/building_market_green.obj-878fda35f907abc35340df04d491474a.mesh"
+path="res://.godot/imported/building_market_green.obj-1ad861404ba67525e02967d9c28f21ce.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_market_green.obj-878fda35f907abc35340df04d491474a.mesh"]
+files=["res://.godot/imported/building_market_green.obj-1ad861404ba67525e02967d9c28f21ce.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_market_green.obj"
-dest_files=["res://.godot/imported/building_market_green.obj-878fda35f907abc35340df04d491474a.mesh", "res://.godot/imported/building_market_green.obj-878fda35f907abc35340df04d491474a.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_market_green.obj"
+dest_files=["res://.godot/imported/building_market_green.obj-1ad861404ba67525e02967d9c28f21ce.mesh", "res://.godot/imported/building_market_green.obj-1ad861404ba67525e02967d9c28f21ce.mesh"]
 
 [params]
 

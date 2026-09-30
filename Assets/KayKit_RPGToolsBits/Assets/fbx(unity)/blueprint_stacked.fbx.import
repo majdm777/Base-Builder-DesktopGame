@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://tlfg5mi5vba7"
-path="res://.godot/imported/blueprint_stacked.fbx-2acaf46123fcb161ccd0b61798b2d824.scn"
+path="res://.godot/imported/blueprint_stacked.fbx-274bb570e75c77fd1b953a06a1df209b.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/blueprint_stacked.fbx"
-dest_files=["res://.godot/imported/blueprint_stacked.fbx-2acaf46123fcb161ccd0b61798b2d824.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/blueprint_stacked.fbx"
+dest_files=["res://.godot/imported/blueprint_stacked.fbx-274bb570e75c77fd1b953a06a1df209b.scn"]
 
 [params]
 

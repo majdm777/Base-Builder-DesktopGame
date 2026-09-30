@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://eu5y3wluegaf"
-path="res://.godot/imported/hex_forest_roadG.dae-6f0518abcb686f5ffd3923bb182122ff.scn"
+path="res://.godot/imported/hex_forest_roadG.dae-4de0f5e295b745698b1368c58b5880aa.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/dae/hex_forest_roadG.dae"
-dest_files=["res://.godot/imported/hex_forest_roadG.dae-6f0518abcb686f5ffd3923bb182122ff.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/dae/hex_forest_roadG.dae"
+dest_files=["res://.godot/imported/hex_forest_roadG.dae-4de0f5e295b745698b1368c58b5880aa.scn"]
 
 [params]
 

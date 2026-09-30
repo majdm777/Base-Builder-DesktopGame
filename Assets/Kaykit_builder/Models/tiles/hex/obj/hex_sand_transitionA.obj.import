@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bwv18vggs87yb"
-path="res://.godot/imported/hex_sand_transitionA.obj-84f8f98e89439287bce247d883b9fca9.mesh"
+path="res://.godot/imported/hex_sand_transitionA.obj-e276bf4c2c8af1cbc8c92d4bc5b22652.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_sand_transitionA.obj-84f8f98e89439287bce247d883b9fca9.mesh"]
+files=["res://.godot/imported/hex_sand_transitionA.obj-e276bf4c2c8af1cbc8c92d4bc5b22652.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_sand_transitionA.obj"
-dest_files=["res://.godot/imported/hex_sand_transitionA.obj-84f8f98e89439287bce247d883b9fca9.mesh", "res://.godot/imported/hex_sand_transitionA.obj-84f8f98e89439287bce247d883b9fca9.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_sand_transitionA.obj"
+dest_files=["res://.godot/imported/hex_sand_transitionA.obj-e276bf4c2c8af1cbc8c92d4bc5b22652.mesh", "res://.godot/imported/hex_sand_transitionA.obj-e276bf4c2c8af1cbc8c92d4bc5b22652.mesh"]
 
 [params]
 

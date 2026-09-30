@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cxoqkw0fdr5y"
-path="res://.godot/imported/hex_sand.obj-c65928d7382fb25dd6fd650d2972d937.mesh"
+path="res://.godot/imported/hex_sand.obj-37e8bca2450289cdac8f3015f903a997.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_sand.obj-c65928d7382fb25dd6fd650d2972d937.mesh"]
+files=["res://.godot/imported/hex_sand.obj-37e8bca2450289cdac8f3015f903a997.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_sand.obj"
-dest_files=["res://.godot/imported/hex_sand.obj-c65928d7382fb25dd6fd650d2972d937.mesh", "res://.godot/imported/hex_sand.obj-c65928d7382fb25dd6fd650d2972d937.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_sand.obj"
+dest_files=["res://.godot/imported/hex_sand.obj-37e8bca2450289cdac8f3015f903a997.mesh", "res://.godot/imported/hex_sand.obj-37e8bca2450289cdac8f3015f903a997.mesh"]
 
 [params]
 

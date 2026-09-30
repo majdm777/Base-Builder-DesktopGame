@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://byo3msen0jm7t"
-path="res://.godot/imported/detail_rocks_small.fbx-0545bba0c4e30b805994ba2a0cf01fdf.scn"
+path="res://.godot/imported/detail_rocks_small.fbx-f745dfde52683cda38c4a943ecabbd38.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/detail_rocks_small.fbx"
-dest_files=["res://.godot/imported/detail_rocks_small.fbx-0545bba0c4e30b805994ba2a0cf01fdf.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/detail_rocks_small.fbx"
+dest_files=["res://.godot/imported/detail_rocks_small.fbx-f745dfde52683cda38c4a943ecabbd38.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cfldrnnd21nyc"
-path="res://.godot/imported/hex_river_A_curvy.obj-84a33807457aacef83f701578dbcb5e9.mesh"
+path="res://.godot/imported/hex_river_A_curvy.obj-53dff6908a48ad2ed86b5c451a33b154.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_river_A_curvy.obj-84a33807457aacef83f701578dbcb5e9.mesh"]
+files=["res://.godot/imported/hex_river_A_curvy.obj-53dff6908a48ad2ed86b5c451a33b154.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/rivers/hex_river_A_curvy.obj"
-dest_files=["res://.godot/imported/hex_river_A_curvy.obj-84a33807457aacef83f701578dbcb5e9.mesh", "res://.godot/imported/hex_river_A_curvy.obj-84a33807457aacef83f701578dbcb5e9.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/rivers/hex_river_A_curvy.obj"
+dest_files=["res://.godot/imported/hex_river_A_curvy.obj-53dff6908a48ad2ed86b5c451a33b154.mesh", "res://.godot/imported/hex_river_A_curvy.obj-53dff6908a48ad2ed86b5c451a33b154.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://chqfvk7irdflg"
-path="res://.godot/imported/bed_floor.gltf-1127ff05c90e6672514d2cd6bce22eb6.scn"
+path="res://.godot/imported/bed_floor.gltf-4e623f92ee348ecd10e50e1097b144a3.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/bed_floor.gltf"
-dest_files=["res://.godot/imported/bed_floor.gltf-1127ff05c90e6672514d2cd6bce22eb6.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/bed_floor.gltf"
+dest_files=["res://.godot/imported/bed_floor.gltf-4e623f92ee348ecd10e50e1097b144a3.scn"]
 
 [params]
 

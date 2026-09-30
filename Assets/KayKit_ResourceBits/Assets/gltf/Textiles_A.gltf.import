@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b1ax4anyt4a5c"
-path="res://.godot/imported/Textiles_A.gltf-646f65c9a3cfb749affb64bdbf6ef417.scn"
+path="res://.godot/imported/Textiles_A.gltf-eeb6706a999e7fb2e43eaca6d9614585.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Textiles_A.gltf"
-dest_files=["res://.godot/imported/Textiles_A.gltf-646f65c9a3cfb749affb64bdbf6ef417.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Textiles_A.gltf"
+dest_files=["res://.godot/imported/Textiles_A.gltf-eeb6706a999e7fb2e43eaca6d9614585.scn"]
 
 [params]
 

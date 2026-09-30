@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://6r6cvteojil"
-path="res://.godot/imported/hex_rock_transitionB.obj-d7b0e1e633e92fa6c74d3ab8a2bda65b.mesh"
+path="res://.godot/imported/hex_rock_transitionB.obj-1318abee6d1b5bd311d5699f86f64978.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_rock_transitionB.obj-d7b0e1e633e92fa6c74d3ab8a2bda65b.mesh"]
+files=["res://.godot/imported/hex_rock_transitionB.obj-1318abee6d1b5bd311d5699f86f64978.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_rock_transitionB.obj"
-dest_files=["res://.godot/imported/hex_rock_transitionB.obj-d7b0e1e633e92fa6c74d3ab8a2bda65b.mesh", "res://.godot/imported/hex_rock_transitionB.obj-d7b0e1e633e92fa6c74d3ab8a2bda65b.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_rock_transitionB.obj"
+dest_files=["res://.godot/imported/hex_rock_transitionB.obj-1318abee6d1b5bd311d5699f86f64978.mesh", "res://.godot/imported/hex_rock_transitionB.obj-1318abee6d1b5bd311d5699f86f64978.mesh"]
 
 [params]
 

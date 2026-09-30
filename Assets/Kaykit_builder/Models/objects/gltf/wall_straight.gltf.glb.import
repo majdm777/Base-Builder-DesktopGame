@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cfvaxxv85g471"
-path="res://.godot/imported/wall_straight.gltf.glb-4febb42d885a98ddc34f5710d825a49b.scn"
+path="res://.godot/imported/wall_straight.gltf.glb-e6f1c6194d0e325b02d3824f46d5d805.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/wall_straight.gltf.glb"
-dest_files=["res://.godot/imported/wall_straight.gltf.glb-4febb42d885a98ddc34f5710d825a49b.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/wall_straight.gltf.glb"
+dest_files=["res://.godot/imported/wall_straight.gltf.glb-e6f1c6194d0e325b02d3824f46d5d805.scn"]
 
 [params]
 

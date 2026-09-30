@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bjjxhh7iv10bx"
-path="res://.godot/imported/archeryrange.obj-0ebec552547c80aade132f2ef49adee6.mesh"
+path="res://.godot/imported/archeryrange.obj-b8fdbf0526d6584d8c08fd0bb66f7f06.mesh"
 
 [deps]
 
-files=["res://.godot/imported/archeryrange.obj-0ebec552547c80aade132f2ef49adee6.mesh"]
+files=["res://.godot/imported/archeryrange.obj-b8fdbf0526d6584d8c08fd0bb66f7f06.mesh"]
 
-source_file="res://Assets/Models/objects/obj/archeryrange.obj"
-dest_files=["res://.godot/imported/archeryrange.obj-0ebec552547c80aade132f2ef49adee6.mesh", "res://.godot/imported/archeryrange.obj-0ebec552547c80aade132f2ef49adee6.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/archeryrange.obj"
+dest_files=["res://.godot/imported/archeryrange.obj-b8fdbf0526d6584d8c08fd0bb66f7f06.mesh", "res://.godot/imported/archeryrange.obj-b8fdbf0526d6584d8c08fd0bb66f7f06.mesh"]
 
 [params]
 

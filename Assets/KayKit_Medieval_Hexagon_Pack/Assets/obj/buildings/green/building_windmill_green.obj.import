@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://be1o1xkwjhs56"
-path="res://.godot/imported/building_windmill_green.obj-48382709b48f11f2c24b1f37a16528d7.mesh"
+path="res://.godot/imported/building_windmill_green.obj-a57e9f4288b130962c7e7f55dbe62c7f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_windmill_green.obj-48382709b48f11f2c24b1f37a16528d7.mesh"]
+files=["res://.godot/imported/building_windmill_green.obj-a57e9f4288b130962c7e7f55dbe62c7f.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_windmill_green.obj"
-dest_files=["res://.godot/imported/building_windmill_green.obj-48382709b48f11f2c24b1f37a16528d7.mesh", "res://.godot/imported/building_windmill_green.obj-48382709b48f11f2c24b1f37a16528d7.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_windmill_green.obj"
+dest_files=["res://.godot/imported/building_windmill_green.obj-a57e9f4288b130962c7e7f55dbe62c7f.mesh", "res://.godot/imported/building_windmill_green.obj-a57e9f4288b130962c7e7f55dbe62c7f.mesh"]
 
 [params]
 

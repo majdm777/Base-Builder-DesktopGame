@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cykweese0bso1"
-path="res://.godot/imported/mill.dae-0b1deeafa7251ad5a54698cc7a81459c.scn"
+path="res://.godot/imported/mill.dae-d1eea299d14d92f7b4c4ce2daf95e076.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/dae/mill.dae"
-dest_files=["res://.godot/imported/mill.dae-0b1deeafa7251ad5a54698cc7a81459c.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/dae/mill.dae"
+dest_files=["res://.godot/imported/mill.dae-d1eea299d14d92f7b4c4ce2daf95e076.scn"]
 
 [params]
 

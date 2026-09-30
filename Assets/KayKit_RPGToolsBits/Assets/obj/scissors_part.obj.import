@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b45s2midi4qc6"
-path="res://.godot/imported/scissors_part.obj-6eb967b1ea872acf5b36bc33fae60da7.mesh"
+path="res://.godot/imported/scissors_part.obj-166bdffc1139ec1c7e7a66e1b5e89f10.mesh"
 
 [deps]
 
-files=["res://.godot/imported/scissors_part.obj-6eb967b1ea872acf5b36bc33fae60da7.mesh"]
+files=["res://.godot/imported/scissors_part.obj-166bdffc1139ec1c7e7a66e1b5e89f10.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/scissors_part.obj"
-dest_files=["res://.godot/imported/scissors_part.obj-6eb967b1ea872acf5b36bc33fae60da7.mesh", "res://.godot/imported/scissors_part.obj-6eb967b1ea872acf5b36bc33fae60da7.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/scissors_part.obj"
+dest_files=["res://.godot/imported/scissors_part.obj-166bdffc1139ec1c7e7a66e1b5e89f10.mesh", "res://.godot/imported/scissors_part.obj-166bdffc1139ec1c7e7a66e1b5e89f10.mesh"]
 
 [params]
 

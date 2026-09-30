@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cj5ovbwi8tck4"
-path="res://.godot/imported/market.fbx-21391fef65c63154bc56914243b45121.scn"
+path="res://.godot/imported/market.fbx-bacffc55723128b394f390d9d8f6cb85.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/market.fbx"
-dest_files=["res://.godot/imported/market.fbx-21391fef65c63154bc56914243b45121.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/market.fbx"
+dest_files=["res://.godot/imported/market.fbx-bacffc55723128b394f390d9d8f6cb85.scn"]
 
 [params]
 

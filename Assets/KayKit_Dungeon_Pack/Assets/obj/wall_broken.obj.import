@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ceotemrruajdd"
-path="res://.godot/imported/wall_broken.obj-f7b2950293a7436b0381a9f9aa5b9abf.mesh"
+path="res://.godot/imported/wall_broken.obj-d7ea7e79cc4953e78ca54843875b2dd7.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_broken.obj-f7b2950293a7436b0381a9f9aa5b9abf.mesh"]
+files=["res://.godot/imported/wall_broken.obj-d7ea7e79cc4953e78ca54843875b2dd7.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/wall_broken.obj"
-dest_files=["res://.godot/imported/wall_broken.obj-f7b2950293a7436b0381a9f9aa5b9abf.mesh", "res://.godot/imported/wall_broken.obj-f7b2950293a7436b0381a9f9aa5b9abf.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/wall_broken.obj"
+dest_files=["res://.godot/imported/wall_broken.obj-d7ea7e79cc4953e78ca54843875b2dd7.mesh", "res://.godot/imported/wall_broken.obj-d7ea7e79cc4953e78ca54843875b2dd7.mesh"]
 
 [params]
 

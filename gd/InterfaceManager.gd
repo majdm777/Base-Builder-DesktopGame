@@ -54,7 +54,7 @@ func _on_build_orchard_button_down() -> void:
 
 
 func _on_build_house_button_down() -> void:
-	BuilderManager.SpawnHouse()
+	BuilderManager.SpawnSmallHouse()
 	pass # Replace with function body.
 
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://oq5cfntgx53e"
-path="res://.godot/imported/shield_spikes_color.gltf-850699ee15e8e0aee4949429a2b01596.scn"
+path="res://.godot/imported/shield_spikes_color.gltf-543254d713f0728c5be49c2f1ef700af.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/gltf/shield_spikes_color.gltf"
-dest_files=["res://.godot/imported/shield_spikes_color.gltf-850699ee15e8e0aee4949429a2b01596.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/gltf/shield_spikes_color.gltf"
+dest_files=["res://.godot/imported/shield_spikes_color.gltf-543254d713f0728c5be49c2f1ef700af.scn"]
 
 [params]
 

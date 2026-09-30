@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cdreiwt8g1gly"
-path="res://.godot/imported/Rig_Medium_MovementBasic.glb-c90e07bcf25f76dde52faa69f4e4feaa.scn"
+path="res://.godot/imported/Rig_Medium_MovementBasic.glb-fee8f89b1b3fd9686b09d0158866a7e8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb"
-dest_files=["res://.godot/imported/Rig_Medium_MovementBasic.glb-c90e07bcf25f76dde52faa69f4e4feaa.scn"]
+source_file="res://Assets/KayKit_Skeletons/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb"
+dest_files=["res://.godot/imported/Rig_Medium_MovementBasic.glb-fee8f89b1b3fd9686b09d0158866a7e8.scn"]
 
 [params]
 

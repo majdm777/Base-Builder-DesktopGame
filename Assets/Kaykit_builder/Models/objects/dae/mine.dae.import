@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bicnifewn8fp6"
-path="res://.godot/imported/mine.dae-f3a60dd541dd372cd143dd6607e9b555.scn"
+path="res://.godot/imported/mine.dae-49ba84366a47b1356eb71bbfd45f121c.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/dae/mine.dae"
-dest_files=["res://.godot/imported/mine.dae-f3a60dd541dd372cd143dd6607e9b555.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/dae/mine.dae"
+dest_files=["res://.godot/imported/mine.dae-49ba84366a47b1356eb71bbfd45f121c.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://gjb7ifpigsng"
-path="res://.godot/imported/square_forest_detail.fbx-ae9e7f23d0551853cc5a54d050b0e300.scn"
+path="res://.godot/imported/square_forest_detail.fbx-9e39d50faef1417ead368bacb300a8a9.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/square/fbx/square_forest_detail.fbx"
-dest_files=["res://.godot/imported/square_forest_detail.fbx-ae9e7f23d0551853cc5a54d050b0e300.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/fbx/square_forest_detail.fbx"
+dest_files=["res://.godot/imported/square_forest_detail.fbx-9e39d50faef1417ead368bacb300a8a9.scn"]
 
 [params]
 

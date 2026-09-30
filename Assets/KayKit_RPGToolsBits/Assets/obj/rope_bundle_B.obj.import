@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://iljsef0ds0r1"
-path="res://.godot/imported/rope_bundle_B.obj-61a987c87b4013b6a9822b3918c8f539.mesh"
+path="res://.godot/imported/rope_bundle_B.obj-3fc0a40e4e48e3a2add31bfc66adaa28.mesh"
 
 [deps]
 
-files=["res://.godot/imported/rope_bundle_B.obj-61a987c87b4013b6a9822b3918c8f539.mesh"]
+files=["res://.godot/imported/rope_bundle_B.obj-3fc0a40e4e48e3a2add31bfc66adaa28.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/rope_bundle_B.obj"
-dest_files=["res://.godot/imported/rope_bundle_B.obj-61a987c87b4013b6a9822b3918c8f539.mesh", "res://.godot/imported/rope_bundle_B.obj-61a987c87b4013b6a9822b3918c8f539.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/rope_bundle_B.obj"
+dest_files=["res://.godot/imported/rope_bundle_B.obj-3fc0a40e4e48e3a2add31bfc66adaa28.mesh", "res://.godot/imported/rope_bundle_B.obj-3fc0a40e4e48e3a2add31bfc66adaa28.mesh"]
 
 [params]
 

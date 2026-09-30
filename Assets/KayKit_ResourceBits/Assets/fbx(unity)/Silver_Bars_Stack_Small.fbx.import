@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bywuibych4xuv"
-path="res://.godot/imported/Silver_Bars_Stack_Small.fbx-2d8c5f3ff8316c8b00368e38138fe203.scn"
+path="res://.godot/imported/Silver_Bars_Stack_Small.fbx-621b52b6aa711eeb178b6f786ecbfa37.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx(unity)/Silver_Bars_Stack_Small.fbx"
-dest_files=["res://.godot/imported/Silver_Bars_Stack_Small.fbx-2d8c5f3ff8316c8b00368e38138fe203.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx(unity)/Silver_Bars_Stack_Small.fbx"
+dest_files=["res://.godot/imported/Silver_Bars_Stack_Small.fbx-621b52b6aa711eeb178b6f786ecbfa37.scn"]
 
 [params]
 

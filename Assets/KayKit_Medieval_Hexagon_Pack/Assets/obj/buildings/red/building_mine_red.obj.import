@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dkhqare1tulw7"
-path="res://.godot/imported/building_mine_red.obj-fdc72e61736de638cb8614540195f269.mesh"
+path="res://.godot/imported/building_mine_red.obj-c4e449477083962f391c2a7c2bf8496f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_mine_red.obj-fdc72e61736de638cb8614540195f269.mesh"]
+files=["res://.godot/imported/building_mine_red.obj-c4e449477083962f391c2a7c2bf8496f.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/red/building_mine_red.obj"
-dest_files=["res://.godot/imported/building_mine_red.obj-fdc72e61736de638cb8614540195f269.mesh", "res://.godot/imported/building_mine_red.obj-fdc72e61736de638cb8614540195f269.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/red/building_mine_red.obj"
+dest_files=["res://.godot/imported/building_mine_red.obj-c4e449477083962f391c2a7c2bf8496f.mesh", "res://.godot/imported/building_mine_red.obj-c4e449477083962f391c2a7c2bf8496f.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c248rftoixslx"
-path="res://.godot/imported/candle_thin_lit.fbx-c623eb347b2520bfb71bc2c50e4d2af0.scn"
+path="res://.godot/imported/candle_thin_lit.fbx-90e5b92919026bb2982308c6d396c9b8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/candle_thin_lit.fbx"
-dest_files=["res://.godot/imported/candle_thin_lit.fbx-c623eb347b2520bfb71bc2c50e4d2af0.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/candle_thin_lit.fbx"
+dest_files=["res://.godot/imported/candle_thin_lit.fbx-90e5b92919026bb2982308c6d396c9b8.scn"]
 
 [params]
 

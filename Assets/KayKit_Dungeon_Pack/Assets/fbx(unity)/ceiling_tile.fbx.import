@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cyncum1k6ieoi"
-path="res://.godot/imported/ceiling_tile.fbx-7d2dd833ab9a479f703431c5eda1637c.scn"
+path="res://.godot/imported/ceiling_tile.fbx-903a79d51efbc1ae8b7440870b7489a3.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/ceiling_tile.fbx"
-dest_files=["res://.godot/imported/ceiling_tile.fbx-7d2dd833ab9a479f703431c5eda1637c.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/ceiling_tile.fbx"
+dest_files=["res://.godot/imported/ceiling_tile.fbx-903a79d51efbc1ae8b7440870b7489a3.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ebjg7qypoon8"
-path="res://.godot/imported/wall_crossing.obj-a2c0222d2f235157d6440ef11dc60ad0.mesh"
+path="res://.godot/imported/wall_crossing.obj-fc0354c92ba111329e8a918b9b846752.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_crossing.obj-a2c0222d2f235157d6440ef11dc60ad0.mesh"]
+files=["res://.godot/imported/wall_crossing.obj-fc0354c92ba111329e8a918b9b846752.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/wall_crossing.obj"
-dest_files=["res://.godot/imported/wall_crossing.obj-a2c0222d2f235157d6440ef11dc60ad0.mesh", "res://.godot/imported/wall_crossing.obj-a2c0222d2f235157d6440ef11dc60ad0.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/wall_crossing.obj"
+dest_files=["res://.godot/imported/wall_crossing.obj-fc0354c92ba111329e8a918b9b846752.mesh", "res://.godot/imported/wall_crossing.obj-fc0354c92ba111329e8a918b9b846752.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cf8bgux4lhkvo"
-path="res://.godot/imported/stairs_long_modular_right.obj-4ffa3a5236471e68d79571b51ae68273.mesh"
+path="res://.godot/imported/stairs_long_modular_right.obj-0b03af09d1a0644f18c05a701d88896b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/stairs_long_modular_right.obj-4ffa3a5236471e68d79571b51ae68273.mesh"]
+files=["res://.godot/imported/stairs_long_modular_right.obj-0b03af09d1a0644f18c05a701d88896b.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/stairs_long_modular_right.obj"
-dest_files=["res://.godot/imported/stairs_long_modular_right.obj-4ffa3a5236471e68d79571b51ae68273.mesh", "res://.godot/imported/stairs_long_modular_right.obj-4ffa3a5236471e68d79571b51ae68273.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/stairs_long_modular_right.obj"
+dest_files=["res://.godot/imported/stairs_long_modular_right.obj-0b03af09d1a0644f18c05a701d88896b.mesh", "res://.godot/imported/stairs_long_modular_right.obj-0b03af09d1a0644f18c05a701d88896b.mesh"]
 
 [params]
 

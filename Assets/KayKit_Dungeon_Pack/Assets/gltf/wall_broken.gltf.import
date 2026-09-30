@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cqvrdjdt3wm8r"
-path="res://.godot/imported/wall_broken.gltf-7f4a1f1e545451caff975f5749ff9820.scn"
+path="res://.godot/imported/wall_broken.gltf-9475526847dee7b40b6909088a1dafd4.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/wall_broken.gltf"
-dest_files=["res://.godot/imported/wall_broken.gltf-7f4a1f1e545451caff975f5749ff9820.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/wall_broken.gltf"
+dest_files=["res://.godot/imported/wall_broken.gltf-9475526847dee7b40b6909088a1dafd4.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://6l2jj2awu1yv"
-path="res://.godot/imported/building_well_yellow.obj-c098189ea9c58628c163ee55366c9c8c.mesh"
+path="res://.godot/imported/building_well_yellow.obj-fd563dee949de67b18c86db712cd1b1b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_well_yellow.obj-c098189ea9c58628c163ee55366c9c8c.mesh"]
+files=["res://.godot/imported/building_well_yellow.obj-fd563dee949de67b18c86db712cd1b1b.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/yellow/building_well_yellow.obj"
-dest_files=["res://.godot/imported/building_well_yellow.obj-c098189ea9c58628c163ee55366c9c8c.mesh", "res://.godot/imported/building_well_yellow.obj-c098189ea9c58628c163ee55366c9c8c.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/yellow/building_well_yellow.obj"
+dest_files=["res://.godot/imported/building_well_yellow.obj-fd563dee949de67b18c86db712cd1b1b.mesh", "res://.godot/imported/building_well_yellow.obj-fd563dee949de67b18c86db712cd1b1b.mesh"]
 
 [params]
 

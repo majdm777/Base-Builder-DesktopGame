@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://kmr0e1irpou"
-path="res://.godot/imported/tongs.obj-62a8f45da0e47ac6d3051081dc4e2ed1.mesh"
+path="res://.godot/imported/tongs.obj-581d16a0a5023580e40f719b6b3fdc63.mesh"
 
 [deps]
 
-files=["res://.godot/imported/tongs.obj-62a8f45da0e47ac6d3051081dc4e2ed1.mesh"]
+files=["res://.godot/imported/tongs.obj-581d16a0a5023580e40f719b6b3fdc63.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/tongs.obj"
-dest_files=["res://.godot/imported/tongs.obj-62a8f45da0e47ac6d3051081dc4e2ed1.mesh", "res://.godot/imported/tongs.obj-62a8f45da0e47ac6d3051081dc4e2ed1.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/tongs.obj"
+dest_files=["res://.godot/imported/tongs.obj-581d16a0a5023580e40f719b6b3fdc63.mesh", "res://.godot/imported/tongs.obj-581d16a0a5023580e40f719b6b3fdc63.mesh"]
 
 [params]
 

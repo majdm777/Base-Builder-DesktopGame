@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://mmasrhf30hwm"
-path="res://.godot/imported/bottle_B_green.gltf-705493c4046c359a309a5fc02dbf3045.scn"
+path="res://.godot/imported/bottle_B_green.gltf-17ce91c14f28ee7b5d3c21b3ae2df1b7.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/bottle_B_green.gltf"
-dest_files=["res://.godot/imported/bottle_B_green.gltf-705493c4046c359a309a5fc02dbf3045.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/bottle_B_green.gltf"
+dest_files=["res://.godot/imported/bottle_B_green.gltf-17ce91c14f28ee7b5d3c21b3ae2df1b7.scn"]
 
 [params]
 

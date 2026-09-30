@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b8ga7jdax474p"
-path="res://.godot/imported/Pallet_Wood_Covered_A.gltf-f19b737a2599c81885e565b9799d6c3f.scn"
+path="res://.godot/imported/Pallet_Wood_Covered_A.gltf-d1249f90ec692bb2acadcc5cadd4481a.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Pallet_Wood_Covered_A.gltf"
-dest_files=["res://.godot/imported/Pallet_Wood_Covered_A.gltf-f19b737a2599c81885e565b9799d6c3f.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Pallet_Wood_Covered_A.gltf"
+dest_files=["res://.godot/imported/Pallet_Wood_Covered_A.gltf-d1249f90ec692bb2acadcc5cadd4481a.scn"]
 
 [params]
 

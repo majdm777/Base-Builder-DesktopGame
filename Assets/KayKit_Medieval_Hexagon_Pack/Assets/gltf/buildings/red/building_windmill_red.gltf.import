@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dx1pyfasjb1gt"
-path="res://.godot/imported/building_windmill_red.gltf-036d6573409f5b3b958cacad1a2d2f69.scn"
+path="res://.godot/imported/building_windmill_red.gltf-c2c1547505c3ba45d223e6afaadbe379.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/red/building_windmill_red.gltf"
-dest_files=["res://.godot/imported/building_windmill_red.gltf-036d6573409f5b3b958cacad1a2d2f69.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/red/building_windmill_red.gltf"
+dest_files=["res://.godot/imported/building_windmill_red.gltf-c2c1547505c3ba45d223e6afaadbe379.scn"]
 
 [params]
 

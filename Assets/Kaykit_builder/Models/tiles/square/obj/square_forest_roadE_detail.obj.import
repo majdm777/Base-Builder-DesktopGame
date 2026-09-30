@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dicw8rrgirmc1"
-path="res://.godot/imported/square_forest_roadE_detail.obj-b47bf2ec65d681d27ba7a5db2911fa81.mesh"
+path="res://.godot/imported/square_forest_roadE_detail.obj-098eddaacd9327f1b26439b948e82ecd.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_forest_roadE_detail.obj-b47bf2ec65d681d27ba7a5db2911fa81.mesh"]
+files=["res://.godot/imported/square_forest_roadE_detail.obj-098eddaacd9327f1b26439b948e82ecd.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_forest_roadE_detail.obj"
-dest_files=["res://.godot/imported/square_forest_roadE_detail.obj-b47bf2ec65d681d27ba7a5db2911fa81.mesh", "res://.godot/imported/square_forest_roadE_detail.obj-b47bf2ec65d681d27ba7a5db2911fa81.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_forest_roadE_detail.obj"
+dest_files=["res://.godot/imported/square_forest_roadE_detail.obj-098eddaacd9327f1b26439b948e82ecd.mesh", "res://.godot/imported/square_forest_roadE_detail.obj-098eddaacd9327f1b26439b948e82ecd.mesh"]
 
 [params]
 

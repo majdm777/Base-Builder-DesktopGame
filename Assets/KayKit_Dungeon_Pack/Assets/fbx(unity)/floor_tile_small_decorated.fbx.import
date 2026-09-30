@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ddc43h4ci76nl"
-path="res://.godot/imported/floor_tile_small_decorated.fbx-2b7f87e18380aca769eb46031d4d8389.scn"
+path="res://.godot/imported/floor_tile_small_decorated.fbx-badd5d2c98c2b4ea2f6ad8021bdf5b90.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/floor_tile_small_decorated.fbx"
-dest_files=["res://.godot/imported/floor_tile_small_decorated.fbx-2b7f87e18380aca769eb46031d4d8389.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/floor_tile_small_decorated.fbx"
+dest_files=["res://.godot/imported/floor_tile_small_decorated.fbx-badd5d2c98c2b4ea2f6ad8021bdf5b90.scn"]
 
 [params]
 

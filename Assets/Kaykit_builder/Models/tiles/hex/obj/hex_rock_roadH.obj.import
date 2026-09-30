@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c51ue5tiyv7ws"
-path="res://.godot/imported/hex_rock_roadH.obj-a50977da64a6b6a680caf948a034569b.mesh"
+path="res://.godot/imported/hex_rock_roadH.obj-c0b824b04087a167be00a95030c50aaa.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_rock_roadH.obj-a50977da64a6b6a680caf948a034569b.mesh"]
+files=["res://.godot/imported/hex_rock_roadH.obj-c0b824b04087a167be00a95030c50aaa.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_rock_roadH.obj"
-dest_files=["res://.godot/imported/hex_rock_roadH.obj-a50977da64a6b6a680caf948a034569b.mesh", "res://.godot/imported/hex_rock_roadH.obj-a50977da64a6b6a680caf948a034569b.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_rock_roadH.obj"
+dest_files=["res://.godot/imported/hex_rock_roadH.obj-c0b824b04087a167be00a95030c50aaa.mesh", "res://.godot/imported/hex_rock_roadH.obj-c0b824b04087a167be00a95030c50aaa.mesh"]
 
 [params]
 

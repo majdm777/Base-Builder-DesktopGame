@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://eg0fl8grc1yx"
-path="res://.godot/imported/building_blacksmith_yellow.fbx-d63fd95be60f8ae016d1751f99163098.scn"
+path="res://.godot/imported/building_blacksmith_yellow.fbx-63f9bbe985252bdd1595a4c0c6982921.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/buildings/yellow/building_blacksmith_yellow.fbx"
-dest_files=["res://.godot/imported/building_blacksmith_yellow.fbx-d63fd95be60f8ae016d1751f99163098.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/buildings/yellow/building_blacksmith_yellow.fbx"
+dest_files=["res://.godot/imported/building_blacksmith_yellow.fbx-63f9bbe985252bdd1595a4c0c6982921.scn"]
 
 [params]
 

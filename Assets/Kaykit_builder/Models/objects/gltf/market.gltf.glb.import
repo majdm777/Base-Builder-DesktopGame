@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bru1xq11irmut"
-path="res://.godot/imported/market.gltf.glb-100b5dcf2577a4cc6492bd84a3de8c47.scn"
+path="res://.godot/imported/market.gltf.glb-07126250447b8a94260639429d7ac0aa.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/market.gltf.glb"
-dest_files=["res://.godot/imported/market.gltf.glb-100b5dcf2577a4cc6492bd84a3de8c47.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/market.gltf.glb"
+dest_files=["res://.godot/imported/market.gltf.glb-07126250447b8a94260639429d7ac0aa.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dnr3jscom5pu6"
-path="res://.godot/imported/pickaxe.fbx-e0c682d71ed3b1e08872f6784f709b54.scn"
+path="res://.godot/imported/pickaxe.fbx-3c4fdb87c147878c0e4b942bd9d1314d.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/pickaxe.fbx"
-dest_files=["res://.godot/imported/pickaxe.fbx-e0c682d71ed3b1e08872f6784f709b54.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/pickaxe.fbx"
+dest_files=["res://.godot/imported/pickaxe.fbx-3c4fdb87c147878c0e4b942bd9d1314d.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://coql2bspro2p8"
-path="res://.godot/imported/bridge.obj-f11842f67eaec251cdff2412441d437f.mesh"
+path="res://.godot/imported/bridge.obj-ad8372aae3a3266fd1708443fc5afe2b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/bridge.obj-f11842f67eaec251cdff2412441d437f.mesh"]
+files=["res://.godot/imported/bridge.obj-ad8372aae3a3266fd1708443fc5afe2b.mesh"]
 
-source_file="res://Assets/Models/objects/obj/bridge.obj"
-dest_files=["res://.godot/imported/bridge.obj-f11842f67eaec251cdff2412441d437f.mesh", "res://.godot/imported/bridge.obj-f11842f67eaec251cdff2412441d437f.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/bridge.obj"
+dest_files=["res://.godot/imported/bridge.obj-ad8372aae3a3266fd1708443fc5afe2b.mesh", "res://.godot/imported/bridge.obj-ad8372aae3a3266fd1708443fc5afe2b.mesh"]
 
 [params]
 

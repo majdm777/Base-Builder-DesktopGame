@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cvqnaak8kl22i"
-path="res://.godot/imported/weaponrack.gltf-b88ccb8f663bfb6739fe3e96dc8afffa.scn"
+path="res://.godot/imported/weaponrack.gltf-bb085c02b28bf69c5210ab3fe3ee94f2.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/weaponrack.gltf"
-dest_files=["res://.godot/imported/weaponrack.gltf-b88ccb8f663bfb6739fe3e96dc8afffa.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/props/weaponrack.gltf"
+dest_files=["res://.godot/imported/weaponrack.gltf-bb085c02b28bf69c5210ab3fe3ee94f2.scn"]
 
 [params]
 

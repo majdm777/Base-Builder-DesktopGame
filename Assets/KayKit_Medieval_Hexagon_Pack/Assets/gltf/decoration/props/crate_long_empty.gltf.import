@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bx66v4vxgvcl0"
-path="res://.godot/imported/crate_long_empty.gltf-f52d0c6590adf3f2793bd453a4798818.scn"
+path="res://.godot/imported/crate_long_empty.gltf-086fd6fd522c066a1f1384a95938937f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_long_empty.gltf"
-dest_files=["res://.godot/imported/crate_long_empty.gltf-f52d0c6590adf3f2793bd453a4798818.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/props/crate_long_empty.gltf"
+dest_files=["res://.godot/imported/crate_long_empty.gltf-086fd6fd522c066a1f1384a95938937f.scn"]
 
 [params]
 

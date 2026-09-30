@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dwyq8cixfb6lp"
-path="res://.godot/imported/hills_B_trees.gltf-baa8879c46ae61ed722e3941349d4146.scn"
+path="res://.godot/imported/hills_B_trees.gltf-16c8bb3c3845a8048cc1477e647a04ab.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hills_B_trees.gltf"
-dest_files=["res://.godot/imported/hills_B_trees.gltf-baa8879c46ae61ed722e3941349d4146.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/nature/hills_B_trees.gltf"
+dest_files=["res://.godot/imported/hills_B_trees.gltf-16c8bb3c3845a8048cc1477e647a04ab.scn"]
 
 [params]
 

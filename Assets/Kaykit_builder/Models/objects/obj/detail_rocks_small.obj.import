@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://1uel1a1071i4"
-path="res://.godot/imported/detail_rocks_small.obj-41dfb7e58268f27459001d0b964b58bd.mesh"
+path="res://.godot/imported/detail_rocks_small.obj-80750ef0b9342d8af0c95c1ca4652731.mesh"
 
 [deps]
 
-files=["res://.godot/imported/detail_rocks_small.obj-41dfb7e58268f27459001d0b964b58bd.mesh"]
+files=["res://.godot/imported/detail_rocks_small.obj-80750ef0b9342d8af0c95c1ca4652731.mesh"]
 
-source_file="res://Assets/Models/objects/obj/detail_rocks_small.obj"
-dest_files=["res://.godot/imported/detail_rocks_small.obj-41dfb7e58268f27459001d0b964b58bd.mesh", "res://.godot/imported/detail_rocks_small.obj-41dfb7e58268f27459001d0b964b58bd.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/detail_rocks_small.obj"
+dest_files=["res://.godot/imported/detail_rocks_small.obj-80750ef0b9342d8af0c95c1ca4652731.mesh", "res://.godot/imported/detail_rocks_small.obj-80750ef0b9342d8af0c95c1ca4652731.mesh"]
 
 [params]
 

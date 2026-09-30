@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cyijaacrv7ibj"
-path="res://.godot/imported/pencil_B_short.fbx-4d7fc253416a53c65d8db1453aa83b66.scn"
+path="res://.godot/imported/pencil_B_short.fbx-b97a969508128dd482ef93c04a07bb4c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/pencil_B_short.fbx"
-dest_files=["res://.godot/imported/pencil_B_short.fbx-4d7fc253416a53c65d8db1453aa83b66.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/pencil_B_short.fbx"
+dest_files=["res://.godot/imported/pencil_B_short.fbx-b97a969508128dd482ef93c04a07bb4c.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://nloxo2rp37ms"
-path="res://.godot/imported/building_castle_red.gltf-99d945f7b51eee3015e79c3bad164d8f.scn"
+path="res://.godot/imported/building_castle_red.gltf-762c3dd30057737e1cbcbc2814e07fa7.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/red/building_castle_red.gltf"
-dest_files=["res://.godot/imported/building_castle_red.gltf-99d945f7b51eee3015e79c3bad164d8f.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/red/building_castle_red.gltf"
+dest_files=["res://.godot/imported/building_castle_red.gltf-762c3dd30057737e1cbcbc2814e07fa7.scn"]
 
 [params]
 

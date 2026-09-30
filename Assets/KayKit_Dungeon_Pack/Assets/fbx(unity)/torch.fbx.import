@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://rh7jdck4xtry"
-path="res://.godot/imported/torch.fbx-018c32066bf66d1b5593910b07c0c8b9.scn"
+path="res://.godot/imported/torch.fbx-bf288aa0f0aa6d7ddd4b36c9f8e318e0.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/torch.fbx"
-dest_files=["res://.godot/imported/torch.fbx-018c32066bf66d1b5593910b07c0c8b9.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/torch.fbx"
+dest_files=["res://.godot/imported/torch.fbx-bf288aa0f0aa6d7ddd4b36c9f8e318e0.scn"]
 
 [params]
 

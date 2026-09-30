@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b86g6d7hj0p1b"
-path="res://.godot/imported/journal_open.gltf-b07dc5fc1800c0f7f619be23ef76c818.scn"
+path="res://.godot/imported/journal_open.gltf-fde50913a92be3b588f48103de2ba84c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/journal_open.gltf"
-dest_files=["res://.godot/imported/journal_open.gltf-b07dc5fc1800c0f7f619be23ef76c818.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/journal_open.gltf"
+dest_files=["res://.godot/imported/journal_open.gltf-fde50913a92be3b588f48103de2ba84c.scn"]
 
 [params]
 

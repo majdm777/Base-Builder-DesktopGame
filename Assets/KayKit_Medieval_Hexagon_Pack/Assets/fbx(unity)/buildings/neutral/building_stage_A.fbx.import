@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5lbvjaeqs8kn"
-path="res://.godot/imported/building_stage_A.fbx-374a1bb6708e8f057ded3e24ce29598e.scn"
+path="res://.godot/imported/building_stage_A.fbx-eaaf92982341711aa51d9f706a10b641.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/buildings/neutral/building_stage_A.fbx"
-dest_files=["res://.godot/imported/building_stage_A.fbx-374a1bb6708e8f057ded3e24ce29598e.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/buildings/neutral/building_stage_A.fbx"
+dest_files=["res://.godot/imported/building_stage_A.fbx-eaaf92982341711aa51d9f706a10b641.scn"]
 
 [params]
 

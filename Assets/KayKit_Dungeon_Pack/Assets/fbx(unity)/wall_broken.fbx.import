@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://k5u04ye7e4kk"
-path="res://.godot/imported/wall_broken.fbx-b4f213eea042274bb7e82c55c2c2c8f9.scn"
+path="res://.godot/imported/wall_broken.fbx-3fff63c96790446894f88095e156432d.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/wall_broken.fbx"
-dest_files=["res://.godot/imported/wall_broken.fbx-b4f213eea042274bb7e82c55c2c2c8f9.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/wall_broken.fbx"
+dest_files=["res://.godot/imported/wall_broken.fbx-3fff63c96790446894f88095e156432d.scn"]
 
 [params]
 

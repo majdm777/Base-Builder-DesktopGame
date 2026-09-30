@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dumqip8mpb08g"
-path="res://.godot/imported/building_barracks_red.gltf-fdde3b0b7f31fcdb8f3ad9bcb1138f3a.scn"
+path="res://.godot/imported/building_barracks_red.gltf-e31bf786dacedb5df0a8e310d86426fd.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/red/building_barracks_red.gltf"
-dest_files=["res://.godot/imported/building_barracks_red.gltf-fdde3b0b7f31fcdb8f3ad9bcb1138f3a.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/red/building_barracks_red.gltf"
+dest_files=["res://.godot/imported/building_barracks_red.gltf-e31bf786dacedb5df0a8e310d86426fd.scn"]
 
 [params]
 

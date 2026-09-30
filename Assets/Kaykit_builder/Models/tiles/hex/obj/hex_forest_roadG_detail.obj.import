@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c7hb5e58lvlhi"
-path="res://.godot/imported/hex_forest_roadG_detail.obj-0feb3bdc2d4bf6528475955cbc3601be.mesh"
+path="res://.godot/imported/hex_forest_roadG_detail.obj-be33a0e7c72cace804015c12a456b8f2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_forest_roadG_detail.obj-0feb3bdc2d4bf6528475955cbc3601be.mesh"]
+files=["res://.godot/imported/hex_forest_roadG_detail.obj-be33a0e7c72cace804015c12a456b8f2.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_forest_roadG_detail.obj"
-dest_files=["res://.godot/imported/hex_forest_roadG_detail.obj-0feb3bdc2d4bf6528475955cbc3601be.mesh", "res://.godot/imported/hex_forest_roadG_detail.obj-0feb3bdc2d4bf6528475955cbc3601be.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_forest_roadG_detail.obj"
+dest_files=["res://.godot/imported/hex_forest_roadG_detail.obj-be33a0e7c72cace804015c12a456b8f2.mesh", "res://.godot/imported/hex_forest_roadG_detail.obj-be33a0e7c72cace804015c12a456b8f2.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ncgftfkb5wvb"
-path="res://.godot/imported/floor_tile_small.obj-ea221a2ab5df59d5a92e5241eca84a12.mesh"
+path="res://.godot/imported/floor_tile_small.obj-f090a5284aeaaa5f7cc6c44924b548d4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_small.obj-ea221a2ab5df59d5a92e5241eca84a12.mesh"]
+files=["res://.godot/imported/floor_tile_small.obj-f090a5284aeaaa5f7cc6c44924b548d4.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_tile_small.obj"
-dest_files=["res://.godot/imported/floor_tile_small.obj-ea221a2ab5df59d5a92e5241eca84a12.mesh", "res://.godot/imported/floor_tile_small.obj-ea221a2ab5df59d5a92e5241eca84a12.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_tile_small.obj"
+dest_files=["res://.godot/imported/floor_tile_small.obj-f090a5284aeaaa5f7cc6c44924b548d4.mesh", "res://.godot/imported/floor_tile_small.obj-f090a5284aeaaa5f7cc6c44924b548d4.mesh"]
 
 [params]
 

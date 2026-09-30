@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c8ryq52bkuk2s"
-path="res://.godot/imported/bridge.gltf.glb-38b9f7d8cd0cb8508a45ede6d9b1ff00.scn"
+path="res://.godot/imported/bridge.gltf.glb-c9e3074f2d0a4265862eb24036ad5604.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/bridge.gltf.glb"
-dest_files=["res://.godot/imported/bridge.gltf.glb-38b9f7d8cd0cb8508a45ede6d9b1ff00.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/bridge.gltf.glb"
+dest_files=["res://.godot/imported/bridge.gltf.glb-c9e3074f2d0a4265862eb24036ad5604.scn"]
 
 [params]
 

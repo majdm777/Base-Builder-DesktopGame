@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://4u47u545gaww"
-path="res://.godot/imported/box_stacked.fbx-a827a73255c86d40dee06a00160b455b.scn"
+path="res://.godot/imported/box_stacked.fbx-ca23a241090b4de4694de2c2d6e9fb7c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/box_stacked.fbx"
-dest_files=["res://.godot/imported/box_stacked.fbx-a827a73255c86d40dee06a00160b455b.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/box_stacked.fbx"
+dest_files=["res://.godot/imported/box_stacked.fbx-ca23a241090b4de4694de2c2d6e9fb7c.scn"]
 
 [params]
 

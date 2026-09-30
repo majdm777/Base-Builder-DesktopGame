@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b6h6dhaqqi5hs"
-path="res://.godot/imported/detail_treeC.fbx-61cc4c62e41ec1a58d6ec92371b726e7.scn"
+path="res://.godot/imported/detail_treeC.fbx-77106fc892ade7aeacbf6df2d19a68b5.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/detail_treeC.fbx"
-dest_files=["res://.godot/imported/detail_treeC.fbx-61cc4c62e41ec1a58d6ec92371b726e7.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/detail_treeC.fbx"
+dest_files=["res://.godot/imported/detail_treeC.fbx-77106fc892ade7aeacbf6df2d19a68b5.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://v5cqpxdvrgpd"
-path="res://.godot/imported/banner_triple_yellow.gltf-0e9fb1d80b0d612d1ee04b4f853a22e9.scn"
+path="res://.godot/imported/banner_triple_yellow.gltf-e82d8a7cd122934d7c95e4d066788ac8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/banner_triple_yellow.gltf"
-dest_files=["res://.godot/imported/banner_triple_yellow.gltf-0e9fb1d80b0d612d1ee04b4f853a22e9.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/banner_triple_yellow.gltf"
+dest_files=["res://.godot/imported/banner_triple_yellow.gltf-e82d8a7cd122934d7c95e4d066788ac8.scn"]
 
 [params]
 

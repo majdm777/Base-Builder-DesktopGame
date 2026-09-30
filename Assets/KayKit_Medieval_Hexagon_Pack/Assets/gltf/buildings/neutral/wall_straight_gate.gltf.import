@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://coi53ln18vbgu"
-path="res://.godot/imported/wall_straight_gate.gltf-362671e21ca981346d585560ab90843c.scn"
+path="res://.godot/imported/wall_straight_gate.gltf-315675bffc74276147e5591c034046e8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/neutral/wall_straight_gate.gltf"
-dest_files=["res://.godot/imported/wall_straight_gate.gltf-362671e21ca981346d585560ab90843c.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/neutral/wall_straight_gate.gltf"
+dest_files=["res://.godot/imported/wall_straight_gate.gltf-315675bffc74276147e5591c034046e8.scn"]
 
 [params]
 

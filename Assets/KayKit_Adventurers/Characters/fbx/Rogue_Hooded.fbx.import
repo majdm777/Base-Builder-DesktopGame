@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b1qrvpxw6u3d5"
-path="res://.godot/imported/Rogue_Hooded.fbx-176c10c28a49badcf5290cd3c1bb507a.scn"
+path="res://.godot/imported/Rogue_Hooded.fbx-949757137f17e2eb3fe3e849783ff8dc.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Characters/fbx/Rogue_Hooded.fbx"
-dest_files=["res://.godot/imported/Rogue_Hooded.fbx-176c10c28a49badcf5290cd3c1bb507a.scn"]
+source_file="res://Assets/KayKit_Adventurers/Characters/fbx/Rogue_Hooded.fbx"
+dest_files=["res://.godot/imported/Rogue_Hooded.fbx-949757137f17e2eb3fe3e849783ff8dc.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://da1ds1scu0yk2"
-path="res://.godot/imported/building_watermill_green_building_watermill_wheel_green.obj-805a9075445261b0d8a95a0274119417.mesh"
+path="res://.godot/imported/building_watermill_green_building_watermill_wheel_green.obj-e5296c61723aa8f2ba3997b15d8d9546.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_watermill_green_building_watermill_wheel_green.obj-805a9075445261b0d8a95a0274119417.mesh"]
+files=["res://.godot/imported/building_watermill_green_building_watermill_wheel_green.obj-e5296c61723aa8f2ba3997b15d8d9546.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_watermill_green_building_watermill_wheel_green.obj"
-dest_files=["res://.godot/imported/building_watermill_green_building_watermill_wheel_green.obj-805a9075445261b0d8a95a0274119417.mesh", "res://.godot/imported/building_watermill_green_building_watermill_wheel_green.obj-805a9075445261b0d8a95a0274119417.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_watermill_green_building_watermill_wheel_green.obj"
+dest_files=["res://.godot/imported/building_watermill_green_building_watermill_wheel_green.obj-e5296c61723aa8f2ba3997b15d8d9546.mesh", "res://.godot/imported/building_watermill_green_building_watermill_wheel_green.obj-e5296c61723aa8f2ba3997b15d8d9546.mesh"]
 
 [params]
 

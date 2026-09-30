@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dv1tnq2lbnk8g"
-path="res://.godot/imported/Gold_Bars_Stack_Large.obj-47f8c24334c9009d749e8e972a969c49.mesh"
+path="res://.godot/imported/Gold_Bars_Stack_Large.obj-c1edee22df3fcd52a9a414d31a61f5c5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Gold_Bars_Stack_Large.obj-47f8c24334c9009d749e8e972a969c49.mesh"]
+files=["res://.godot/imported/Gold_Bars_Stack_Large.obj-c1edee22df3fcd52a9a414d31a61f5c5.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Gold_Bars_Stack_Large.obj"
-dest_files=["res://.godot/imported/Gold_Bars_Stack_Large.obj-47f8c24334c9009d749e8e972a969c49.mesh", "res://.godot/imported/Gold_Bars_Stack_Large.obj-47f8c24334c9009d749e8e972a969c49.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Gold_Bars_Stack_Large.obj"
+dest_files=["res://.godot/imported/Gold_Bars_Stack_Large.obj-c1edee22df3fcd52a9a414d31a61f5c5.mesh", "res://.godot/imported/Gold_Bars_Stack_Large.obj-c1edee22df3fcd52a9a414d31a61f5c5.mesh"]
 
 [params]
 

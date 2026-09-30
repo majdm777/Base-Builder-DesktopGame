@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dfo3ix1adk5a8"
-path="res://.godot/imported/building_grain.gltf-0c9005abe1b6c264fa1b2044a64d844c.scn"
+path="res://.godot/imported/building_grain.gltf-2c63b47d15f87444390fdb1e72ce3e2f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/neutral/building_grain.gltf"
-dest_files=["res://.godot/imported/building_grain.gltf-0c9005abe1b6c264fa1b2044a64d844c.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/neutral/building_grain.gltf"
+dest_files=["res://.godot/imported/building_grain.gltf-2c63b47d15f87444390fdb1e72ce3e2f.scn"]
 
 [params]
 

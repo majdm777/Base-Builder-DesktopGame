@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c7xucbids5eo7"
-path="res://.godot/imported/map_rolled.obj-83490bab6b3061b6798a50fe57fb6d54.mesh"
+path="res://.godot/imported/map_rolled.obj-d78ed29774599e8a0ac771a3784f21fa.mesh"
 
 [deps]
 
-files=["res://.godot/imported/map_rolled.obj-83490bab6b3061b6798a50fe57fb6d54.mesh"]
+files=["res://.godot/imported/map_rolled.obj-d78ed29774599e8a0ac771a3784f21fa.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/map_rolled.obj"
-dest_files=["res://.godot/imported/map_rolled.obj-83490bab6b3061b6798a50fe57fb6d54.mesh", "res://.godot/imported/map_rolled.obj-83490bab6b3061b6798a50fe57fb6d54.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/map_rolled.obj"
+dest_files=["res://.godot/imported/map_rolled.obj-d78ed29774599e8a0ac771a3784f21fa.mesh", "res://.godot/imported/map_rolled.obj-d78ed29774599e8a0ac771a3784f21fa.mesh"]
 
 [params]
 

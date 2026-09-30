@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://kg2bu12txvam"
-path="res://.godot/imported/hill_single_C.obj-93131a011ba698ea28cfab63df69b9b9.mesh"
+path="res://.godot/imported/hill_single_C.obj-b51ebd2754e595c237241cfc423c4c43.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hill_single_C.obj-93131a011ba698ea28cfab63df69b9b9.mesh"]
+files=["res://.godot/imported/hill_single_C.obj-b51ebd2754e595c237241cfc423c4c43.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/hill_single_C.obj"
-dest_files=["res://.godot/imported/hill_single_C.obj-93131a011ba698ea28cfab63df69b9b9.mesh", "res://.godot/imported/hill_single_C.obj-93131a011ba698ea28cfab63df69b9b9.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/hill_single_C.obj"
+dest_files=["res://.godot/imported/hill_single_C.obj-b51ebd2754e595c237241cfc423c4c43.mesh", "res://.godot/imported/hill_single_C.obj-b51ebd2754e595c237241cfc423c4c43.mesh"]
 
 [params]
 

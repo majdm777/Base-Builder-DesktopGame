@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://rtmpx54mxf4e"
-path="res://.godot/imported/stairs_wood.gltf-10812623be3f8025dc0fee74d1c97915.scn"
+path="res://.godot/imported/stairs_wood.gltf-e71a83e692f9771ca82f517af3919818.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/stairs_wood.gltf"
-dest_files=["res://.godot/imported/stairs_wood.gltf-10812623be3f8025dc0fee74d1c97915.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/stairs_wood.gltf"
+dest_files=["res://.godot/imported/stairs_wood.gltf-e71a83e692f9771ca82f517af3919818.scn"]
 
 [params]
 

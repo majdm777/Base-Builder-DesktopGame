@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b74as4jvrfss6"
-path="res://.godot/imported/mallet.fbx-0883c2a7d332ad86594facce52400c0a.scn"
+path="res://.godot/imported/mallet.fbx-13d4c31981041afa211220128066c722.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/mallet.fbx"
-dest_files=["res://.godot/imported/mallet.fbx-0883c2a7d332ad86594facce52400c0a.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/mallet.fbx"
+dest_files=["res://.godot/imported/mallet.fbx-13d4c31981041afa211220128066c722.scn"]
 
 [params]
 

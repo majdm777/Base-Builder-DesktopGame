@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dwrfdbcagbc7k"
-path="res://.godot/imported/Iron_Bars_Stack_Medium.obj-a88c6dad1d47f74b8a59cbb0cb6055fa.mesh"
+path="res://.godot/imported/Iron_Bars_Stack_Medium.obj-9af7b48cbb69eaafc74990e92d034c45.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Iron_Bars_Stack_Medium.obj-a88c6dad1d47f74b8a59cbb0cb6055fa.mesh"]
+files=["res://.godot/imported/Iron_Bars_Stack_Medium.obj-9af7b48cbb69eaafc74990e92d034c45.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Bars_Stack_Medium.obj"
-dest_files=["res://.godot/imported/Iron_Bars_Stack_Medium.obj-a88c6dad1d47f74b8a59cbb0cb6055fa.mesh", "res://.godot/imported/Iron_Bars_Stack_Medium.obj-a88c6dad1d47f74b8a59cbb0cb6055fa.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Bars_Stack_Medium.obj"
+dest_files=["res://.godot/imported/Iron_Bars_Stack_Medium.obj-9af7b48cbb69eaafc74990e92d034c45.mesh", "res://.godot/imported/Iron_Bars_Stack_Medium.obj-9af7b48cbb69eaafc74990e92d034c45.mesh"]
 
 [params]
 

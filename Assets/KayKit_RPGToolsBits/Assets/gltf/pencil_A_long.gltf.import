@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dpk27747e2xl5"
-path="res://.godot/imported/pencil_A_long.gltf-f106dd6d0f6bf13c3b953c3f473f9e84.scn"
+path="res://.godot/imported/pencil_A_long.gltf-659f815dd9e676aece541779cd43fcb7.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/pencil_A_long.gltf"
-dest_files=["res://.godot/imported/pencil_A_long.gltf-f106dd6d0f6bf13c3b953c3f473f9e84.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/pencil_A_long.gltf"
+dest_files=["res://.godot/imported/pencil_A_long.gltf-659f815dd9e676aece541779cd43fcb7.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://mbpym3myfsj3"
-path="res://.godot/imported/watermill.obj-93c3be29208fd5803860114edef52fbf.mesh"
+path="res://.godot/imported/watermill.obj-1e0414f590d3037a31f49dea54911203.mesh"
 
 [deps]
 
-files=["res://.godot/imported/watermill.obj-93c3be29208fd5803860114edef52fbf.mesh"]
+files=["res://.godot/imported/watermill.obj-1e0414f590d3037a31f49dea54911203.mesh"]
 
-source_file="res://Assets/Models/objects/obj/watermill.obj"
-dest_files=["res://.godot/imported/watermill.obj-93c3be29208fd5803860114edef52fbf.mesh", "res://.godot/imported/watermill.obj-93c3be29208fd5803860114edef52fbf.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/watermill.obj"
+dest_files=["res://.godot/imported/watermill.obj-1e0414f590d3037a31f49dea54911203.mesh", "res://.godot/imported/watermill.obj-1e0414f590d3037a31f49dea54911203.mesh"]
 
 [params]
 

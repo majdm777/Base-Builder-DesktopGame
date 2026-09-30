@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bbo3qms473bsx"
-path="res://.godot/imported/building_home_A_yellow.obj-caed153065e3e7e1a1df35b33eccab33.mesh"
+path="res://.godot/imported/building_home_A_yellow.obj-007920f7dfc1a359dbb74380139ed2b3.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_home_A_yellow.obj-caed153065e3e7e1a1df35b33eccab33.mesh"]
+files=["res://.godot/imported/building_home_A_yellow.obj-007920f7dfc1a359dbb74380139ed2b3.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/yellow/building_home_A_yellow.obj"
-dest_files=["res://.godot/imported/building_home_A_yellow.obj-caed153065e3e7e1a1df35b33eccab33.mesh", "res://.godot/imported/building_home_A_yellow.obj-caed153065e3e7e1a1df35b33eccab33.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/yellow/building_home_A_yellow.obj"
+dest_files=["res://.godot/imported/building_home_A_yellow.obj-007920f7dfc1a359dbb74380139ed2b3.mesh", "res://.godot/imported/building_home_A_yellow.obj-007920f7dfc1a359dbb74380139ed2b3.mesh"]
 
 [params]
 

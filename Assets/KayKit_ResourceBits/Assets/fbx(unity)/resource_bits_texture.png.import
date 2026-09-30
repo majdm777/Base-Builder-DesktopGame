@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ncsimyx32inw"
-path.s3tc="res://.godot/imported/resource_bits_texture.png-c821079e0832b275f1d87728f6c6fa10.s3tc.ctex"
+path.s3tc="res://.godot/imported/resource_bits_texture.png-f59eb653b44138599cd6a53736dd1cf4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx(unity)/resource_bits_texture.png"
-dest_files=["res://.godot/imported/resource_bits_texture.png-c821079e0832b275f1d87728f6c6fa10.s3tc.ctex"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx(unity)/resource_bits_texture.png"
+dest_files=["res://.godot/imported/resource_bits_texture.png-f59eb653b44138599cd6a53736dd1cf4.s3tc.ctex"]
 
 [params]
 

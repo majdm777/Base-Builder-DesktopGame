@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://04464s0g0va4"
-path="res://.godot/imported/ranger.png-e309bd827bc2862509c8738f30f1f483.ctex"
+path="res://.godot/imported/ranger.png-4cc8d1c02ef50cdf589ecddbade27b17.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Samples/ranger.png"
-dest_files=["res://.godot/imported/ranger.png-e309bd827bc2862509c8738f30f1f483.ctex"]
+source_file="res://Assets/KayKit_Adventurers/Samples/ranger.png"
+dest_files=["res://.godot/imported/ranger.png-4cc8d1c02ef50cdf589ecddbade27b17.ctex"]
 
 [params]
 

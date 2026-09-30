@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://nii66bw8gjgd"
-path="res://.godot/imported/Skeleton_Blade.fbx-e79db6f7dff64dfff7c0a366e3e0355a.scn"
+path="res://.godot/imported/Skeleton_Blade.fbx-0effdec1db9b93c8cc28152eecb9acd3.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/fbx/Skeleton_Blade.fbx"
-dest_files=["res://.godot/imported/Skeleton_Blade.fbx-e79db6f7dff64dfff7c0a366e3e0355a.scn"]
+source_file="res://Assets/KayKit_Skeletons/assets/fbx/Skeleton_Blade.fbx"
+dest_files=["res://.godot/imported/Skeleton_Blade.fbx-0effdec1db9b93c8cc28152eecb9acd3.scn"]
 
 [params]
 

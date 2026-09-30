@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dlhm6klmetrid"
-path="res://.godot/imported/hex_water.fbx-c67ecff3b8d0416a4362be7560b4ef5e.scn"
+path="res://.godot/imported/hex_water.fbx-da11c308a2ba244d3f5b49a2635836de.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/tiles/base/hex_water.fbx"
-dest_files=["res://.godot/imported/hex_water.fbx-c67ecff3b8d0416a4362be7560b4ef5e.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/tiles/base/hex_water.fbx"
+dest_files=["res://.godot/imported/hex_water.fbx-da11c308a2ba244d3f5b49a2635836de.scn"]
 
 [params]
 

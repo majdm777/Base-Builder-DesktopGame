@@ -1,19 +1,19 @@
 [gd_scene format=3 uid="uid://d0ld5jkm1fjsr"]
 
-[ext_resource type="ArrayMesh" uid="uid://li6pkhn3k31y" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/blue/building_watermill_blue.obj" id="2_lcif4"]
-[ext_resource type="ArrayMesh" uid="uid://c1bgypsl5wuhx" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Wood_Log_B.obj" id="3_mkb0w"]
+[ext_resource type="ArrayMesh" uid="uid://li6pkhn3k31y" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_watermill_blue.obj" id="2_lcif4"]
+[ext_resource type="ArrayMesh" uid="uid://c1bgypsl5wuhx" path="res://Assets/KayKit_ResourceBits/Assets/obj/Wood_Log_B.obj" id="3_mkb0w"]
 [ext_resource type="Script" uid="uid://bs63b7pscy8fa" path="res://gd/storage_appearance.gd" id="3_ut3la"]
-[ext_resource type="ArrayMesh" uid="uid://bf230vja8grca" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Wood_Log_Stack.obj" id="4_ne4pj"]
-[ext_resource type="ArrayMesh" uid="uid://kd6lrhnosshd" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Brick.obj" id="5_ie7tx"]
+[ext_resource type="ArrayMesh" uid="uid://bf230vja8grca" path="res://Assets/KayKit_ResourceBits/Assets/obj/Wood_Log_Stack.obj" id="4_ne4pj"]
+[ext_resource type="ArrayMesh" uid="uid://kd6lrhnosshd" path="res://Assets/KayKit_ResourceBits/Assets/obj/Stone_Brick.obj" id="5_ie7tx"]
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="6"]
-[ext_resource type="ArrayMesh" uid="uid://b6m4kbtsu20qg" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Bricks_Stack_Small.obj" id="6_7gegk"]
-[ext_resource type="ArrayMesh" uid="uid://csb1mtyy6opru" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Bricks_Stack_Medium.obj" id="7_1fhab"]
-[ext_resource type="ArrayMesh" uid="uid://micpvmwbjib3" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Stone_Bricks_Stack_Large.obj" id="8_mkb0w"]
-[ext_resource type="ArrayMesh" uid="uid://dh2j3qjrlor41" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Bar.obj" id="9_ntwe1"]
-[ext_resource type="ArrayMesh" uid="uid://cx6j2rqjxyt7t" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Bars_Stack_Small.obj" id="10_ut3la"]
-[ext_resource type="ArrayMesh" uid="uid://dwrfdbcagbc7k" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Bars_Stack_Medium.obj" id="11_cyfee"]
-[ext_resource type="ArrayMesh" uid="uid://djb8q3g5pg2lc" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Pallet_Wood.obj" id="12_mibw2"]
-[ext_resource type="ArrayMesh" uid="uid://ct3pwrqm8ci0c" path="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Bars_Stack_Large.obj" id="13_qjwyg"]
+[ext_resource type="ArrayMesh" uid="uid://b6m4kbtsu20qg" path="res://Assets/KayKit_ResourceBits/Assets/obj/Stone_Bricks_Stack_Small.obj" id="6_7gegk"]
+[ext_resource type="ArrayMesh" uid="uid://csb1mtyy6opru" path="res://Assets/KayKit_ResourceBits/Assets/obj/Stone_Bricks_Stack_Medium.obj" id="7_1fhab"]
+[ext_resource type="ArrayMesh" uid="uid://micpvmwbjib3" path="res://Assets/KayKit_ResourceBits/Assets/obj/Stone_Bricks_Stack_Large.obj" id="8_mkb0w"]
+[ext_resource type="ArrayMesh" uid="uid://dh2j3qjrlor41" path="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Bar.obj" id="9_ntwe1"]
+[ext_resource type="ArrayMesh" uid="uid://cx6j2rqjxyt7t" path="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Bars_Stack_Small.obj" id="10_ut3la"]
+[ext_resource type="ArrayMesh" uid="uid://dwrfdbcagbc7k" path="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Bars_Stack_Medium.obj" id="11_cyfee"]
+[ext_resource type="ArrayMesh" uid="uid://djb8q3g5pg2lc" path="res://Assets/KayKit_ResourceBits/Assets/obj/Pallet_Wood.obj" id="12_mibw2"]
+[ext_resource type="ArrayMesh" uid="uid://ct3pwrqm8ci0c" path="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Bars_Stack_Large.obj" id="13_qjwyg"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
 size = Vector3(1.5849609, 1.614502, 1.7768555)
@@ -27,7 +27,7 @@ script = ExtResource("6")
 
 [node name="stock_pile" type="Node3D" parent="." unique_id=728138529]
 
-[node name="house_type17" type="MeshInstance3D" parent="stock_pile" unique_id=1968188860]
+[node name="main building" type="MeshInstance3D" parent="stock_pile" unique_id=1968188860]
 transform = Transform3D(1.0000002, 0, 0, 0, 1.0000002, 0, 0, 0, 1.0000002, 0, 0.005298386, 0)
 mesh = ExtResource("2_lcif4")
 

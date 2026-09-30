@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ccb1wvjcbwiar"
-path="res://.godot/imported/table_small_decorated_A.obj-13a136b5c43fefe810483dff481d6cfd.mesh"
+path="res://.godot/imported/table_small_decorated_A.obj-9046657536845a4223df9f872a31fe22.mesh"
 
 [deps]
 
-files=["res://.godot/imported/table_small_decorated_A.obj-13a136b5c43fefe810483dff481d6cfd.mesh"]
+files=["res://.godot/imported/table_small_decorated_A.obj-9046657536845a4223df9f872a31fe22.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/table_small_decorated_A.obj"
-dest_files=["res://.godot/imported/table_small_decorated_A.obj-13a136b5c43fefe810483dff481d6cfd.mesh", "res://.godot/imported/table_small_decorated_A.obj-13a136b5c43fefe810483dff481d6cfd.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/table_small_decorated_A.obj"
+dest_files=["res://.godot/imported/table_small_decorated_A.obj-9046657536845a4223df9f872a31fe22.mesh", "res://.godot/imported/table_small_decorated_A.obj-9046657536845a4223df9f872a31fe22.mesh"]
 
 [params]
 

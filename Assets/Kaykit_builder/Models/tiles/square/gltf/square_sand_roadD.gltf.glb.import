@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bl2w3ji60nhfe"
-path="res://.godot/imported/square_sand_roadD.gltf.glb-cb16bb98a2be7379802fc83748acae01.scn"
+path="res://.godot/imported/square_sand_roadD.gltf.glb-acd1c59c98924e5cbfd59833c90d4e51.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/square/gltf/square_sand_roadD.gltf.glb"
-dest_files=["res://.godot/imported/square_sand_roadD.gltf.glb-cb16bb98a2be7379802fc83748acae01.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/gltf/square_sand_roadD.gltf.glb"
+dest_files=["res://.godot/imported/square_sand_roadD.gltf.glb-acd1c59c98924e5cbfd59833c90d4e51.scn"]
 
 [params]
 

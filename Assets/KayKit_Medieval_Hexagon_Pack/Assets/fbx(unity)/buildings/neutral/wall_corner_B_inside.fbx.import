@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://peie3glr4mf1"
-path="res://.godot/imported/wall_corner_B_inside.fbx-bf2180e020991cd35f015fd9649e144a.scn"
+path="res://.godot/imported/wall_corner_B_inside.fbx-b18bd9378585e76e1733cb275723d449.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/buildings/neutral/wall_corner_B_inside.fbx"
-dest_files=["res://.godot/imported/wall_corner_B_inside.fbx-bf2180e020991cd35f015fd9649e144a.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/buildings/neutral/wall_corner_B_inside.fbx"
+dest_files=["res://.godot/imported/wall_corner_B_inside.fbx-b18bd9378585e76e1733cb275723d449.scn"]
 
 [params]
 

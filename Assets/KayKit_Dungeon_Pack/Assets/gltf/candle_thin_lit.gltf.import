@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://drgf4niil4wci"
-path="res://.godot/imported/candle_thin_lit.gltf-d384f274d4023c82856b31a12be21f69.scn"
+path="res://.godot/imported/candle_thin_lit.gltf-ef2c19de754da5e06eacfb911760c9a1.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/candle_thin_lit.gltf"
-dest_files=["res://.godot/imported/candle_thin_lit.gltf-d384f274d4023c82856b31a12be21f69.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/candle_thin_lit.gltf"
+dest_files=["res://.godot/imported/candle_thin_lit.gltf-ef2c19de754da5e06eacfb911760c9a1.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bb6eqp8ai8f6h"
-path="res://.godot/imported/wall_doorway_scaffold.gltf-ecf63d237e6734f3036892f26bcd6626.scn"
+path="res://.godot/imported/wall_doorway_scaffold.gltf-c85c4cee0c31e861a455e5eabc85145e.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/wall_doorway_scaffold.gltf"
-dest_files=["res://.godot/imported/wall_doorway_scaffold.gltf-ecf63d237e6734f3036892f26bcd6626.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/wall_doorway_scaffold.gltf"
+dest_files=["res://.godot/imported/wall_doorway_scaffold.gltf-c85c4cee0c31e861a455e5eabc85145e.scn"]
 
 [params]
 

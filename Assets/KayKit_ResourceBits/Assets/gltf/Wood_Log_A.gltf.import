@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://1eo4vvnplgo7"
-path="res://.godot/imported/Wood_Log_A.gltf-6627f23dc214eaad0f79f2d92a7267f3.scn"
+path="res://.godot/imported/Wood_Log_A.gltf-e1cea6cd66b42b9da03c7394301cc0b5.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Wood_Log_A.gltf"
-dest_files=["res://.godot/imported/Wood_Log_A.gltf-6627f23dc214eaad0f79f2d92a7267f3.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Wood_Log_A.gltf"
+dest_files=["res://.godot/imported/Wood_Log_A.gltf-e1cea6cd66b42b9da03c7394301cc0b5.scn"]
 
 [params]
 

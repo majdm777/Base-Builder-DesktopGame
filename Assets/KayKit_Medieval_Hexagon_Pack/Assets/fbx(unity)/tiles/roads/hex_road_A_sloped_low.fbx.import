@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d3bdpdwya563m"
-path="res://.godot/imported/hex_road_A_sloped_low.fbx-057238c02aa6ad220c1e5de0458b1027.scn"
+path="res://.godot/imported/hex_road_A_sloped_low.fbx-5598ae04fb5a8a3bdbd091da0658081c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/tiles/roads/hex_road_A_sloped_low.fbx"
-dest_files=["res://.godot/imported/hex_road_A_sloped_low.fbx-057238c02aa6ad220c1e5de0458b1027.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/tiles/roads/hex_road_A_sloped_low.fbx"
+dest_files=["res://.godot/imported/hex_road_A_sloped_low.fbx-5598ae04fb5a8a3bdbd091da0658081c.scn"]
 
 [params]
 

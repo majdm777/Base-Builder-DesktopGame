@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ygiow6nx6bnp"
-path="res://.godot/imported/square_forest.obj-7ef1c129d7a991197ee6a019a3f2593c.mesh"
+path="res://.godot/imported/square_forest.obj-4889c87cc1f635314cae486f2622266e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_forest.obj-7ef1c129d7a991197ee6a019a3f2593c.mesh"]
+files=["res://.godot/imported/square_forest.obj-4889c87cc1f635314cae486f2622266e.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_forest.obj"
-dest_files=["res://.godot/imported/square_forest.obj-7ef1c129d7a991197ee6a019a3f2593c.mesh", "res://.godot/imported/square_forest.obj-7ef1c129d7a991197ee6a019a3f2593c.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_forest.obj"
+dest_files=["res://.godot/imported/square_forest.obj-4889c87cc1f635314cae486f2622266e.mesh", "res://.godot/imported/square_forest.obj-4889c87cc1f635314cae486f2622266e.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dg50ua2h5ac5l"
-path="res://.godot/imported/bucket_metal.fbx-b51214271033fd10e325be2b1f54cd5f.scn"
+path="res://.godot/imported/bucket_metal.fbx-848ec8f9343851d5ef3e3d407ab390ce.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx/bucket_metal.fbx"
-dest_files=["res://.godot/imported/bucket_metal.fbx-b51214271033fd10e325be2b1f54cd5f.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx/bucket_metal.fbx"
+dest_files=["res://.godot/imported/bucket_metal.fbx-848ec8f9343851d5ef3e3d407ab390ce.scn"]
 
 [params]
 

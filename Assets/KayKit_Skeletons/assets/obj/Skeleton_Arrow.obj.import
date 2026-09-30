@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c4l4o4xjaj05t"
-path="res://.godot/imported/Skeleton_Arrow.obj-cf230484e11082af747049e4e56806e4.mesh"
+path="res://.godot/imported/Skeleton_Arrow.obj-ae34fcce6ae5313de5dd6e125d733dea.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Skeleton_Arrow.obj-cf230484e11082af747049e4e56806e4.mesh"]
+files=["res://.godot/imported/Skeleton_Arrow.obj-ae34fcce6ae5313de5dd6e125d733dea.mesh"]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/obj/Skeleton_Arrow.obj"
-dest_files=["res://.godot/imported/Skeleton_Arrow.obj-cf230484e11082af747049e4e56806e4.mesh", "res://.godot/imported/Skeleton_Arrow.obj-cf230484e11082af747049e4e56806e4.mesh"]
+source_file="res://Assets/KayKit_Skeletons/assets/obj/Skeleton_Arrow.obj"
+dest_files=["res://.godot/imported/Skeleton_Arrow.obj-ae34fcce6ae5313de5dd6e125d733dea.mesh", "res://.godot/imported/Skeleton_Arrow.obj-ae34fcce6ae5313de5dd6e125d733dea.mesh"]
 
 [params]
 

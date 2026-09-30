@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ckbbwt7fobrnl"
-path="res://.godot/imported/wall_corner_A_gate_door_right.obj-a5b0c8c5bf716d7bad16031252455950.mesh"
+path="res://.godot/imported/wall_corner_A_gate_door_right.obj-6b0aa5fa1103415e6c1ff76af695b901.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_corner_A_gate_door_right.obj-a5b0c8c5bf716d7bad16031252455950.mesh"]
+files=["res://.godot/imported/wall_corner_A_gate_door_right.obj-6b0aa5fa1103415e6c1ff76af695b901.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/wall_corner_A_gate_door_right.obj"
-dest_files=["res://.godot/imported/wall_corner_A_gate_door_right.obj-a5b0c8c5bf716d7bad16031252455950.mesh", "res://.godot/imported/wall_corner_A_gate_door_right.obj-a5b0c8c5bf716d7bad16031252455950.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/wall_corner_A_gate_door_right.obj"
+dest_files=["res://.godot/imported/wall_corner_A_gate_door_right.obj-6b0aa5fa1103415e6c1ff76af695b901.mesh", "res://.godot/imported/wall_corner_A_gate_door_right.obj-6b0aa5fa1103415e6c1ff76af695b901.mesh"]
 
 [params]
 

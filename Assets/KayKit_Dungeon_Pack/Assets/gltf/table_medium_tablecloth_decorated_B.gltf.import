@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c4thvmr6w0n3y"
-path="res://.godot/imported/table_medium_tablecloth_decorated_B.gltf-9037f9ecaf0a595788f9a6ba29c9a153.scn"
+path="res://.godot/imported/table_medium_tablecloth_decorated_B.gltf-b51afef7c543bfdde8a6d61f586fc52d.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/table_medium_tablecloth_decorated_B.gltf"
-dest_files=["res://.godot/imported/table_medium_tablecloth_decorated_B.gltf-9037f9ecaf0a595788f9a6ba29c9a153.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/table_medium_tablecloth_decorated_B.gltf"
+dest_files=["res://.godot/imported/table_medium_tablecloth_decorated_B.gltf-b51afef7c543bfdde8a6d61f586fc52d.scn"]
 
 [params]
 

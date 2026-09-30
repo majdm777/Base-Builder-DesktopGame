@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dyskpxc2pxbho"
-path="res://.godot/imported/mountain_C.fbx-efde152625fdcf5f5d5d1e881ddf95c5.scn"
+path="res://.godot/imported/mountain_C.fbx-d815fdf13861944bcc1325b169b15bc8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx/decoration/nature/mountain_C.fbx"
-dest_files=["res://.godot/imported/mountain_C.fbx-efde152625fdcf5f5d5d1e881ddf95c5.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx/decoration/nature/mountain_C.fbx"
+dest_files=["res://.godot/imported/mountain_C.fbx-d815fdf13861944bcc1325b169b15bc8.scn"]
 
 [params]
 

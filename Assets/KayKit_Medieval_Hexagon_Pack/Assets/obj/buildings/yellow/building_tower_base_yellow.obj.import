@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cd58qpuive28p"
-path="res://.godot/imported/building_tower_base_yellow.obj-0f754da4ea0b5469048054b1c68cb5cc.mesh"
+path="res://.godot/imported/building_tower_base_yellow.obj-fd882bef595d9e7f3bfdc6e7e781b385.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_tower_base_yellow.obj-0f754da4ea0b5469048054b1c68cb5cc.mesh"]
+files=["res://.godot/imported/building_tower_base_yellow.obj-fd882bef595d9e7f3bfdc6e7e781b385.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/yellow/building_tower_base_yellow.obj"
-dest_files=["res://.godot/imported/building_tower_base_yellow.obj-0f754da4ea0b5469048054b1c68cb5cc.mesh", "res://.godot/imported/building_tower_base_yellow.obj-0f754da4ea0b5469048054b1c68cb5cc.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/yellow/building_tower_base_yellow.obj"
+dest_files=["res://.godot/imported/building_tower_base_yellow.obj-fd882bef595d9e7f3bfdc6e7e781b385.mesh", "res://.godot/imported/building_tower_base_yellow.obj-fd882bef595d9e7f3bfdc6e7e781b385.mesh"]
 
 [params]
 

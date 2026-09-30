@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://tl7tfic6fcgv"
-path="res://.godot/imported/wall_straight.obj-0dfaff7e44d932eac087a2264899e4f5.mesh"
+path="res://.godot/imported/wall_straight.obj-90016ecdf29f49bf1d5bea705e9a462e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_straight.obj-0dfaff7e44d932eac087a2264899e4f5.mesh"]
+files=["res://.godot/imported/wall_straight.obj-90016ecdf29f49bf1d5bea705e9a462e.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/wall_straight.obj"
-dest_files=["res://.godot/imported/wall_straight.obj-0dfaff7e44d932eac087a2264899e4f5.mesh", "res://.godot/imported/wall_straight.obj-0dfaff7e44d932eac087a2264899e4f5.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/wall_straight.obj"
+dest_files=["res://.godot/imported/wall_straight.obj-90016ecdf29f49bf1d5bea705e9a462e.mesh", "res://.godot/imported/wall_straight.obj-90016ecdf29f49bf1d5bea705e9a462e.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmtes6sfi0sur"
-path="res://.godot/imported/Stone_Chunks_Large.fbx-2f49e0165e2e7d9efdf472a1faa94262.scn"
+path="res://.godot/imported/Stone_Chunks_Large.fbx-419a850a9826bb92867c1b1747cb3091.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx(unity)/Stone_Chunks_Large.fbx"
-dest_files=["res://.godot/imported/Stone_Chunks_Large.fbx-2f49e0165e2e7d9efdf472a1faa94262.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx(unity)/Stone_Chunks_Large.fbx"
+dest_files=["res://.godot/imported/Stone_Chunks_Large.fbx-419a850a9826bb92867c1b1747cb3091.scn"]
 
 [params]
 

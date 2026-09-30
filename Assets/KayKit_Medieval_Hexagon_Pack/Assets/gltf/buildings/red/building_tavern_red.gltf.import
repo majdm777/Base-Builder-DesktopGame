@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bwg8n036unxj7"
-path="res://.godot/imported/building_tavern_red.gltf-96a8ec86837ec24ecd8afd54bcbbc778.scn"
+path="res://.godot/imported/building_tavern_red.gltf-6d7e1632c1aba6b1d71abb45d805f678.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/red/building_tavern_red.gltf"
-dest_files=["res://.godot/imported/building_tavern_red.gltf-96a8ec86837ec24ecd8afd54bcbbc778.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/red/building_tavern_red.gltf"
+dest_files=["res://.godot/imported/building_tavern_red.gltf-6d7e1632c1aba6b1d71abb45d805f678.scn"]
 
 [params]
 

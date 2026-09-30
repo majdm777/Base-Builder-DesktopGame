@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ccfrvcfoi2he8"
-path="res://.godot/imported/wall_Tsplit.fbx-8d869f33a8f02e31663ebc3da1136f98.scn"
+path="res://.godot/imported/wall_Tsplit.fbx-6e5521a8a9822894833f46c8416998a4.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/wall_Tsplit.fbx"
-dest_files=["res://.godot/imported/wall_Tsplit.fbx-8d869f33a8f02e31663ebc3da1136f98.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/wall_Tsplit.fbx"
+dest_files=["res://.godot/imported/wall_Tsplit.fbx-6e5521a8a9822894833f46c8416998a4.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5py1b1ihdq8l"
-path="res://.godot/imported/wall_corner_gated.gltf-3578bd72e06d02e3be733fc4da3dc44d.scn"
+path="res://.godot/imported/wall_corner_gated.gltf-a7538204c83e0f365389c07f595f3f75.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/wall_corner_gated.gltf"
-dest_files=["res://.godot/imported/wall_corner_gated.gltf-3578bd72e06d02e3be733fc4da3dc44d.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/wall_corner_gated.gltf"
+dest_files=["res://.godot/imported/wall_corner_gated.gltf-a7538204c83e0f365389c07f595f3f75.scn"]
 
 [params]
 

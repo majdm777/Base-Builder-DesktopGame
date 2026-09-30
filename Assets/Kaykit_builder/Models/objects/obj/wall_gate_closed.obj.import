@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bxggbismc0c8s"
-path="res://.godot/imported/wall_gate_closed.obj-22346e95525eccddef724cef0bdcf44c.mesh"
+path="res://.godot/imported/wall_gate_closed.obj-15f50d3e7c72911a5d31dfb44bc5a0dd.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_gate_closed.obj-22346e95525eccddef724cef0bdcf44c.mesh"]
+files=["res://.godot/imported/wall_gate_closed.obj-15f50d3e7c72911a5d31dfb44bc5a0dd.mesh"]
 
-source_file="res://Assets/Models/objects/obj/wall_gate_closed.obj"
-dest_files=["res://.godot/imported/wall_gate_closed.obj-22346e95525eccddef724cef0bdcf44c.mesh", "res://.godot/imported/wall_gate_closed.obj-22346e95525eccddef724cef0bdcf44c.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/wall_gate_closed.obj"
+dest_files=["res://.godot/imported/wall_gate_closed.obj-15f50d3e7c72911a5d31dfb44bc5a0dd.mesh", "res://.godot/imported/wall_gate_closed.obj-15f50d3e7c72911a5d31dfb44bc5a0dd.mesh"]
 
 [params]
 

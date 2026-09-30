@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b2p2goyvwavv1"
-path="res://.godot/imported/hex_water_detail.obj-22dab3435b30eee46ec4501b4de8c5d5.mesh"
+path="res://.godot/imported/hex_water_detail.obj-f35276b60bb910d5f2535c782a820bea.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_water_detail.obj-22dab3435b30eee46ec4501b4de8c5d5.mesh"]
+files=["res://.godot/imported/hex_water_detail.obj-f35276b60bb910d5f2535c782a820bea.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_water_detail.obj"
-dest_files=["res://.godot/imported/hex_water_detail.obj-22dab3435b30eee46ec4501b4de8c5d5.mesh", "res://.godot/imported/hex_water_detail.obj-22dab3435b30eee46ec4501b4de8c5d5.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_water_detail.obj"
+dest_files=["res://.godot/imported/hex_water_detail.obj-f35276b60bb910d5f2535c782a820bea.mesh", "res://.godot/imported/hex_water_detail.obj-f35276b60bb910d5f2535c782a820bea.mesh"]
 
 [params]
 

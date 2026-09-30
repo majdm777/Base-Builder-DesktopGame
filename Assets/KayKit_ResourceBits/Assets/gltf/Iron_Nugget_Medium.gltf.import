@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bf0fim50sgyg0"
-path="res://.godot/imported/Iron_Nugget_Medium.gltf-7922cc6f6980c7415117bfd4d96343cf.scn"
+path="res://.godot/imported/Iron_Nugget_Medium.gltf-09ae702d84a9e94ffa760152464f900e.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Iron_Nugget_Medium.gltf"
-dest_files=["res://.godot/imported/Iron_Nugget_Medium.gltf-7922cc6f6980c7415117bfd4d96343cf.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Iron_Nugget_Medium.gltf"
+dest_files=["res://.godot/imported/Iron_Nugget_Medium.gltf-09ae702d84a9e94ffa760152464f900e.scn"]
 
 [params]
 

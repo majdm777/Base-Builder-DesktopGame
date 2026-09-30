@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://3v2fbj02q3hy"
-path="res://.godot/imported/building_church_yellow.obj-723e6a8579219ab4493fa88d8b4a781e.mesh"
+path="res://.godot/imported/building_church_yellow.obj-0e56e3e90680b437fabcf5018c2d6b7c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_church_yellow.obj-723e6a8579219ab4493fa88d8b4a781e.mesh"]
+files=["res://.godot/imported/building_church_yellow.obj-0e56e3e90680b437fabcf5018c2d6b7c.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/yellow/building_church_yellow.obj"
-dest_files=["res://.godot/imported/building_church_yellow.obj-723e6a8579219ab4493fa88d8b4a781e.mesh", "res://.godot/imported/building_church_yellow.obj-723e6a8579219ab4493fa88d8b4a781e.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/yellow/building_church_yellow.obj"
+dest_files=["res://.godot/imported/building_church_yellow.obj-0e56e3e90680b437fabcf5018c2d6b7c.mesh", "res://.godot/imported/building_church_yellow.obj-0e56e3e90680b437fabcf5018c2d6b7c.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bi3v44qm0kxbd"
-path="res://.godot/imported/lantern.obj-f77eada5ff96dcf61fdb65831108de24.mesh"
+path="res://.godot/imported/lantern.obj-1b0e9adcbecb0e05eb9b8874de6c6b1b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/lantern.obj-f77eada5ff96dcf61fdb65831108de24.mesh"]
+files=["res://.godot/imported/lantern.obj-1b0e9adcbecb0e05eb9b8874de6c6b1b.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/lantern.obj"
-dest_files=["res://.godot/imported/lantern.obj-f77eada5ff96dcf61fdb65831108de24.mesh", "res://.godot/imported/lantern.obj-f77eada5ff96dcf61fdb65831108de24.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/lantern.obj"
+dest_files=["res://.godot/imported/lantern.obj-1b0e9adcbecb0e05eb9b8874de6c6b1b.mesh", "res://.godot/imported/lantern.obj-1b0e9adcbecb0e05eb9b8874de6c6b1b.mesh"]
 
 [params]
 

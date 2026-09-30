@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bkj2kyenhynu3"
-path="res://.godot/imported/shovel.obj-53b808caa5293133fa6459825ddca5ce.mesh"
+path="res://.godot/imported/shovel.obj-bd53d9c4687443c8939d22bca979a030.mesh"
 
 [deps]
 
-files=["res://.godot/imported/shovel.obj-53b808caa5293133fa6459825ddca5ce.mesh"]
+files=["res://.godot/imported/shovel.obj-bd53d9c4687443c8939d22bca979a030.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/shovel.obj"
-dest_files=["res://.godot/imported/shovel.obj-53b808caa5293133fa6459825ddca5ce.mesh", "res://.godot/imported/shovel.obj-53b808caa5293133fa6459825ddca5ce.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/shovel.obj"
+dest_files=["res://.godot/imported/shovel.obj-bd53d9c4687443c8939d22bca979a030.mesh", "res://.godot/imported/shovel.obj-bd53d9c4687443c8939d22bca979a030.mesh"]
 
 [params]
 

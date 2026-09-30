@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dy5hpfya6b7oq"
-path="res://.godot/imported/stairs_modular_right.fbx-70a2a8ec1e3bf1fe30d7c1bc4e397d41.scn"
+path="res://.godot/imported/stairs_modular_right.fbx-aa542e55f426eb8a8b03c679d922e268.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/stairs_modular_right.fbx"
-dest_files=["res://.godot/imported/stairs_modular_right.fbx-70a2a8ec1e3bf1fe30d7c1bc4e397d41.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/stairs_modular_right.fbx"
+dest_files=["res://.godot/imported/stairs_modular_right.fbx-aa542e55f426eb8a8b03c679d922e268.scn"]
 
 [params]
 

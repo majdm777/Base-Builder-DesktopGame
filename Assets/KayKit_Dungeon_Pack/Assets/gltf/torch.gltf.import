@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dpkueyi0pq3rw"
-path="res://.godot/imported/torch.gltf-272de2b9abe8e3da7e5028e48b62d933.scn"
+path="res://.godot/imported/torch.gltf-07b84bd13c02702e49ef90ae17de6e9c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/torch.gltf"
-dest_files=["res://.godot/imported/torch.gltf-272de2b9abe8e3da7e5028e48b62d933.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/torch.gltf"
+dest_files=["res://.godot/imported/torch.gltf-07b84bd13c02702e49ef90ae17de6e9c.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://btqc060p073hk"
-path="res://.godot/imported/quiver.obj-7344eb04afc4063671750ab8afe06605.mesh"
+path="res://.godot/imported/quiver.obj-0c9ea16a83aed46534302bb49a02d791.mesh"
 
 [deps]
 
-files=["res://.godot/imported/quiver.obj-7344eb04afc4063671750ab8afe06605.mesh"]
+files=["res://.godot/imported/quiver.obj-0c9ea16a83aed46534302bb49a02d791.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/quiver.obj"
-dest_files=["res://.godot/imported/quiver.obj-7344eb04afc4063671750ab8afe06605.mesh", "res://.godot/imported/quiver.obj-7344eb04afc4063671750ab8afe06605.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/quiver.obj"
+dest_files=["res://.godot/imported/quiver.obj-0c9ea16a83aed46534302bb49a02d791.mesh", "res://.godot/imported/quiver.obj-0c9ea16a83aed46534302bb49a02d791.mesh"]
 
 [params]
 

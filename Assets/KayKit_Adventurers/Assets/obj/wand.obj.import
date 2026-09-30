@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://csphmxyh3riu0"
-path="res://.godot/imported/wand.obj-cf0947d2235f6ae10b2051d85afcbffa.mesh"
+path="res://.godot/imported/wand.obj-90e062dfda82f7f27aa0c541e00a947d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wand.obj-cf0947d2235f6ae10b2051d85afcbffa.mesh"]
+files=["res://.godot/imported/wand.obj-90e062dfda82f7f27aa0c541e00a947d.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/wand.obj"
-dest_files=["res://.godot/imported/wand.obj-cf0947d2235f6ae10b2051d85afcbffa.mesh", "res://.godot/imported/wand.obj-cf0947d2235f6ae10b2051d85afcbffa.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/wand.obj"
+dest_files=["res://.godot/imported/wand.obj-90e062dfda82f7f27aa0c541e00a947d.mesh", "res://.godot/imported/wand.obj-90e062dfda82f7f27aa0c541e00a947d.mesh"]
 
 [params]
 

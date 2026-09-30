@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://q8on25u2gm36"
-path="res://.godot/imported/hex_road_D.fbx-2d0e484674d97da117db742e497611ed.scn"
+path="res://.godot/imported/hex_road_D.fbx-4352c966291c5f94f9bc5414d8fbe1ca.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx/tiles/roads/hex_road_D.fbx"
-dest_files=["res://.godot/imported/hex_road_D.fbx-2d0e484674d97da117db742e497611ed.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx/tiles/roads/hex_road_D.fbx"
+dest_files=["res://.godot/imported/hex_road_D.fbx-4352c966291c5f94f9bc5414d8fbe1ca.scn"]
 
 [params]
 

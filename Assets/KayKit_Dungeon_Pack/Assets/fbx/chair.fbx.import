@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://vpq8ecdib27p"
-path="res://.godot/imported/chair.fbx-1642fac2cfe25f75908b56ad582a8491.scn"
+path="res://.godot/imported/chair.fbx-61345b71a6e58f72bb318840ff7d2cfe.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/chair.fbx"
-dest_files=["res://.godot/imported/chair.fbx-1642fac2cfe25f75908b56ad582a8491.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/chair.fbx"
+dest_files=["res://.godot/imported/chair.fbx-61345b71a6e58f72bb318840ff7d2cfe.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://vm1hpf1vx82x"
-path="res://.godot/imported/shield_square_color.gltf-361ade228ab88ee466ec2f28be26e572.scn"
+path="res://.godot/imported/shield_square_color.gltf-f6a3a9127a791610bd33bffa03947260.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/gltf/shield_square_color.gltf"
-dest_files=["res://.godot/imported/shield_square_color.gltf-361ade228ab88ee466ec2f28be26e572.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/gltf/shield_square_color.gltf"
+dest_files=["res://.godot/imported/shield_square_color.gltf-f6a3a9127a791610bd33bffa03947260.scn"]
 
 [params]
 

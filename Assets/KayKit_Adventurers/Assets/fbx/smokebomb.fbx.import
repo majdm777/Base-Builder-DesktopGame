@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c2ukmohw178rq"
-path="res://.godot/imported/smokebomb.fbx-209ed4267ad3099bd0ce297508391cc4.scn"
+path="res://.godot/imported/smokebomb.fbx-17a91dd625b5f7255c1253e7eef28634.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/fbx/smokebomb.fbx"
-dest_files=["res://.godot/imported/smokebomb.fbx-209ed4267ad3099bd0ce297508391cc4.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/fbx/smokebomb.fbx"
+dest_files=["res://.godot/imported/smokebomb.fbx-17a91dd625b5f7255c1253e7eef28634.scn"]
 
 [params]
 

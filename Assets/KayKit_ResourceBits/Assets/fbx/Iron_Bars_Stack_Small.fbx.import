@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bu33ucog8ds3j"
-path="res://.godot/imported/Iron_Bars_Stack_Small.fbx-da540d3c2b7472d77c0c796f00b2ecdd.scn"
+path="res://.godot/imported/Iron_Bars_Stack_Small.fbx-a581c79c4c9dcbbd394b66bd3dad65de.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx/Iron_Bars_Stack_Small.fbx"
-dest_files=["res://.godot/imported/Iron_Bars_Stack_Small.fbx-da540d3c2b7472d77c0c796f00b2ecdd.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx/Iron_Bars_Stack_Small.fbx"
+dest_files=["res://.godot/imported/Iron_Bars_Stack_Small.fbx-a581c79c4c9dcbbd394b66bd3dad65de.scn"]
 
 [params]
 

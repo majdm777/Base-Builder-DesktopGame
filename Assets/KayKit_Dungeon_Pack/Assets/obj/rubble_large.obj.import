@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b3paqludxkrlf"
-path="res://.godot/imported/rubble_large.obj-823c27158748af944bef2f4dadfd422c.mesh"
+path="res://.godot/imported/rubble_large.obj-6e57914221ffc98854879de319eae980.mesh"
 
 [deps]
 
-files=["res://.godot/imported/rubble_large.obj-823c27158748af944bef2f4dadfd422c.mesh"]
+files=["res://.godot/imported/rubble_large.obj-6e57914221ffc98854879de319eae980.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/rubble_large.obj"
-dest_files=["res://.godot/imported/rubble_large.obj-823c27158748af944bef2f4dadfd422c.mesh", "res://.godot/imported/rubble_large.obj-823c27158748af944bef2f4dadfd422c.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/rubble_large.obj"
+dest_files=["res://.godot/imported/rubble_large.obj-6e57914221ffc98854879de319eae980.mesh", "res://.godot/imported/rubble_large.obj-6e57914221ffc98854879de319eae980.mesh"]
 
 [params]
 

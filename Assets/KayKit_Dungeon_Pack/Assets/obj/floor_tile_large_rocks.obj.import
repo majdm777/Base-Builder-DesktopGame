@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://u7hqm3xn5y4r"
-path="res://.godot/imported/floor_tile_large_rocks.obj-73076b5bea2c006e771f4b9f0b5069c0.mesh"
+path="res://.godot/imported/floor_tile_large_rocks.obj-42a4bb8c8a5d2ee0a362283106dd1a27.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_large_rocks.obj-73076b5bea2c006e771f4b9f0b5069c0.mesh"]
+files=["res://.godot/imported/floor_tile_large_rocks.obj-42a4bb8c8a5d2ee0a362283106dd1a27.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_tile_large_rocks.obj"
-dest_files=["res://.godot/imported/floor_tile_large_rocks.obj-73076b5bea2c006e771f4b9f0b5069c0.mesh", "res://.godot/imported/floor_tile_large_rocks.obj-73076b5bea2c006e771f4b9f0b5069c0.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_tile_large_rocks.obj"
+dest_files=["res://.godot/imported/floor_tile_large_rocks.obj-42a4bb8c8a5d2ee0a362283106dd1a27.mesh", "res://.godot/imported/floor_tile_large_rocks.obj-42a4bb8c8a5d2ee0a362283106dd1a27.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ce21f3dchfaoy"
-path="res://.godot/imported/screwdriver_B_long_color.gltf-d56a7c36b3d7926501a910e69422774c.scn"
+path="res://.godot/imported/screwdriver_B_long_color.gltf-8d873eb4adee3a2752101f9e4cd50db6.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/screwdriver_B_long_color.gltf"
-dest_files=["res://.godot/imported/screwdriver_B_long_color.gltf-d56a7c36b3d7926501a910e69422774c.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/screwdriver_B_long_color.gltf"
+dest_files=["res://.godot/imported/screwdriver_B_long_color.gltf-8d873eb4adee3a2752101f9e4cd50db6.scn"]
 
 [params]
 

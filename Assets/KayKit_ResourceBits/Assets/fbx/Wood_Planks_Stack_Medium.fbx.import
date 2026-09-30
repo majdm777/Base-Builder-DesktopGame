@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bvmftd6j0x6r3"
-path="res://.godot/imported/Wood_Planks_Stack_Medium.fbx-a364c9e43878b25dd074e20805e5d6d0.scn"
+path="res://.godot/imported/Wood_Planks_Stack_Medium.fbx-a8f744eb0d8e182369cbd46c65a53d2c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx/Wood_Planks_Stack_Medium.fbx"
-dest_files=["res://.godot/imported/Wood_Planks_Stack_Medium.fbx-a364c9e43878b25dd074e20805e5d6d0.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx/Wood_Planks_Stack_Medium.fbx"
+dest_files=["res://.godot/imported/Wood_Planks_Stack_Medium.fbx-a8f744eb0d8e182369cbd46c65a53d2c.scn"]
 
 [params]
 

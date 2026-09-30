@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://df85f7fcbxe4j"
-path="res://.godot/imported/sword_shield_gold.fbx-c5e58cf58c26996646c7fd5abf69668d.scn"
+path="res://.godot/imported/sword_shield_gold.fbx-172bf3375169dcc21c8c0aade11e7757.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/sword_shield_gold.fbx"
-dest_files=["res://.godot/imported/sword_shield_gold.fbx-c5e58cf58c26996646c7fd5abf69668d.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/sword_shield_gold.fbx"
+dest_files=["res://.godot/imported/sword_shield_gold.fbx-172bf3375169dcc21c8c0aade11e7757.scn"]
 
 [params]
 

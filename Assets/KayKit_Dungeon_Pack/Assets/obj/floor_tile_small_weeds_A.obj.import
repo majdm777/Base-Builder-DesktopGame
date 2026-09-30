@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dc61o0hp38ucs"
-path="res://.godot/imported/floor_tile_small_weeds_A.obj-e7a3bde010f0b8582137059cdd2a8ff8.mesh"
+path="res://.godot/imported/floor_tile_small_weeds_A.obj-96895b97b32df4a019c312be843ab846.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_small_weeds_A.obj-e7a3bde010f0b8582137059cdd2a8ff8.mesh"]
+files=["res://.godot/imported/floor_tile_small_weeds_A.obj-96895b97b32df4a019c312be843ab846.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_tile_small_weeds_A.obj"
-dest_files=["res://.godot/imported/floor_tile_small_weeds_A.obj-e7a3bde010f0b8582137059cdd2a8ff8.mesh", "res://.godot/imported/floor_tile_small_weeds_A.obj-e7a3bde010f0b8582137059cdd2a8ff8.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_tile_small_weeds_A.obj"
+dest_files=["res://.godot/imported/floor_tile_small_weeds_A.obj-96895b97b32df4a019c312be843ab846.mesh", "res://.godot/imported/floor_tile_small_weeds_A.obj-96895b97b32df4a019c312be843ab846.mesh"]
 
 [params]
 

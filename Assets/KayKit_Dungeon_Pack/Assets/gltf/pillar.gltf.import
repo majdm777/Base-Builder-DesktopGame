@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bsn2crrxak6hq"
-path="res://.godot/imported/pillar.gltf-0afba46fa89c216cf42ca207e55287f3.scn"
+path="res://.godot/imported/pillar.gltf-fdf67bbc4ba551798a6d1bba71b17436.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/pillar.gltf"
-dest_files=["res://.godot/imported/pillar.gltf-0afba46fa89c216cf42ca207e55287f3.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/pillar.gltf"
+dest_files=["res://.godot/imported/pillar.gltf-fdf67bbc4ba551798a6d1bba71b17436.scn"]
 
 [params]
 

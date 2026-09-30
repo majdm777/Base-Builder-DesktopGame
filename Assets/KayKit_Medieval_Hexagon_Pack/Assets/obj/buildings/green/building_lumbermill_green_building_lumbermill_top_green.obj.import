@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://1gj8w7i6vepq"
-path="res://.godot/imported/building_lumbermill_green_building_lumbermill_top_green.obj-19e9f5fa2bdf0f443e9ed18cd68dd01b.mesh"
+path="res://.godot/imported/building_lumbermill_green_building_lumbermill_top_green.obj-6b6a83de7bd0b3eb7c4b710eafcbcc61.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_lumbermill_green_building_lumbermill_top_green.obj-19e9f5fa2bdf0f443e9ed18cd68dd01b.mesh"]
+files=["res://.godot/imported/building_lumbermill_green_building_lumbermill_top_green.obj-6b6a83de7bd0b3eb7c4b710eafcbcc61.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_lumbermill_green_building_lumbermill_top_green.obj"
-dest_files=["res://.godot/imported/building_lumbermill_green_building_lumbermill_top_green.obj-19e9f5fa2bdf0f443e9ed18cd68dd01b.mesh", "res://.godot/imported/building_lumbermill_green_building_lumbermill_top_green.obj-19e9f5fa2bdf0f443e9ed18cd68dd01b.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_lumbermill_green_building_lumbermill_top_green.obj"
+dest_files=["res://.godot/imported/building_lumbermill_green_building_lumbermill_top_green.obj-6b6a83de7bd0b3eb7c4b710eafcbcc61.mesh", "res://.godot/imported/building_lumbermill_green_building_lumbermill_top_green.obj-6b6a83de7bd0b3eb7c4b710eafcbcc61.mesh"]
 
 [params]
 

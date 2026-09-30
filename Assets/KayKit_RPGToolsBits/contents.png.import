@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyh12j05ewi0b"
-path="res://.godot/imported/contents.png-ec2cf7152a57eb5f6efea47ec9dd6c06.ctex"
+path="res://.godot/imported/contents.png-276500e1986f686b6f84bf4caa9112b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/contents.png"
-dest_files=["res://.godot/imported/contents.png-ec2cf7152a57eb5f6efea47ec9dd6c06.ctex"]
+source_file="res://Assets/KayKit_RPGToolsBits/contents.png"
+dest_files=["res://.godot/imported/contents.png-276500e1986f686b6f84bf4caa9112b9.ctex"]
 
 [params]
 

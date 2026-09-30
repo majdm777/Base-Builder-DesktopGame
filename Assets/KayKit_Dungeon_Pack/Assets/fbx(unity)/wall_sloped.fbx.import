@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bcq8imon4fbwk"
-path="res://.godot/imported/wall_sloped.fbx-69220de8fe6fb5eb8d2b115c39cf799e.scn"
+path="res://.godot/imported/wall_sloped.fbx-17db1fa0b5f97441f3b1f3c3df57f972.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/wall_sloped.fbx"
-dest_files=["res://.godot/imported/wall_sloped.fbx-69220de8fe6fb5eb8d2b115c39cf799e.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/wall_sloped.fbx"
+dest_files=["res://.godot/imported/wall_sloped.fbx-17db1fa0b5f97441f3b1f3c3df57f972.scn"]
 
 [params]
 

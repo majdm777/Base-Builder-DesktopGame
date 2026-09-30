@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://clpw7ieoqtoru"
-path="res://.godot/imported/floor_tile_big_grate.fbx-04c6d366ea6939bd0b5f8d94497bad09.scn"
+path="res://.godot/imported/floor_tile_big_grate.fbx-38c78cea7477ee3106d075058c72c7e6.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_big_grate.fbx"
-dest_files=["res://.godot/imported/floor_tile_big_grate.fbx-04c6d366ea6939bd0b5f8d94497bad09.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/floor_tile_big_grate.fbx"
+dest_files=["res://.godot/imported/floor_tile_big_grate.fbx-38c78cea7477ee3106d075058c72c7e6.scn"]
 
 [params]
 

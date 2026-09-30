@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxs4uv5f01r3m"
-path="res://.godot/imported/building_barracks_red.fbx-83c8a63a696ccdde51e924a7d8c8da8f.scn"
+path="res://.godot/imported/building_barracks_red.fbx-02e29ac6db0a21215576bb5f69ea3474.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/buildings/red/building_barracks_red.fbx"
-dest_files=["res://.godot/imported/building_barracks_red.fbx-83c8a63a696ccdde51e924a7d8c8da8f.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/buildings/red/building_barracks_red.fbx"
+dest_files=["res://.godot/imported/building_barracks_red.fbx-02e29ac6db0a21215576bb5f69ea3474.scn"]
 
 [params]
 

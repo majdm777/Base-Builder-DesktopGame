@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cx8gb74ddooh7"
-path="res://.godot/imported/flag_blue.obj-60707fa1b08f8b11c98637a6ed197f06.mesh"
+path="res://.godot/imported/flag_blue.obj-f057acac8c039f0608ae150741253696.mesh"
 
 [deps]
 
-files=["res://.godot/imported/flag_blue.obj-60707fa1b08f8b11c98637a6ed197f06.mesh"]
+files=["res://.godot/imported/flag_blue.obj-f057acac8c039f0608ae150741253696.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/flag_blue.obj"
-dest_files=["res://.godot/imported/flag_blue.obj-60707fa1b08f8b11c98637a6ed197f06.mesh", "res://.godot/imported/flag_blue.obj-60707fa1b08f8b11c98637a6ed197f06.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/flag_blue.obj"
+dest_files=["res://.godot/imported/flag_blue.obj-f057acac8c039f0608ae150741253696.mesh", "res://.godot/imported/flag_blue.obj-f057acac8c039f0608ae150741253696.mesh"]
 
 [params]
 

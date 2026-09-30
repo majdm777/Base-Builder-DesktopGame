@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://o2bdhhfxsqk"
-path="res://.godot/imported/Silver_Bar.gltf-cb8690f5e3f05f9c31ab763d4e461b74.scn"
+path="res://.godot/imported/Silver_Bar.gltf-528142adaa942b853b892d00b2f1b409.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Silver_Bar.gltf"
-dest_files=["res://.godot/imported/Silver_Bar.gltf-cb8690f5e3f05f9c31ab763d4e461b74.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Silver_Bar.gltf"
+dest_files=["res://.godot/imported/Silver_Bar.gltf-528142adaa942b853b892d00b2f1b409.scn"]
 
 [params]
 

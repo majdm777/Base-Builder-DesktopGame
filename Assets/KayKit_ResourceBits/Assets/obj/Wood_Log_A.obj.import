@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cvgvad3k4guit"
-path="res://.godot/imported/Wood_Log_A.obj-ae7a28487e137dfd453a09d715597719.mesh"
+path="res://.godot/imported/Wood_Log_A.obj-8d1944c887944ff14e4e6439666861c1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Wood_Log_A.obj-ae7a28487e137dfd453a09d715597719.mesh"]
+files=["res://.godot/imported/Wood_Log_A.obj-8d1944c887944ff14e4e6439666861c1.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Wood_Log_A.obj"
-dest_files=["res://.godot/imported/Wood_Log_A.obj-ae7a28487e137dfd453a09d715597719.mesh", "res://.godot/imported/Wood_Log_A.obj-ae7a28487e137dfd453a09d715597719.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Wood_Log_A.obj"
+dest_files=["res://.godot/imported/Wood_Log_A.obj-8d1944c887944ff14e4e6439666861c1.mesh", "res://.godot/imported/Wood_Log_A.obj-8d1944c887944ff14e4e6439666861c1.mesh"]
 
 [params]
 

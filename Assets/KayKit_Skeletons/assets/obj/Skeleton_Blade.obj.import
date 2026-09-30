@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dvrewe1612pld"
-path="res://.godot/imported/Skeleton_Blade.obj-487fb74210dde52f47e1f80792b94b10.mesh"
+path="res://.godot/imported/Skeleton_Blade.obj-c5c509a6aa9fda16ce4f2394dc11569f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Skeleton_Blade.obj-487fb74210dde52f47e1f80792b94b10.mesh"]
+files=["res://.godot/imported/Skeleton_Blade.obj-c5c509a6aa9fda16ce4f2394dc11569f.mesh"]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/obj/Skeleton_Blade.obj"
-dest_files=["res://.godot/imported/Skeleton_Blade.obj-487fb74210dde52f47e1f80792b94b10.mesh", "res://.godot/imported/Skeleton_Blade.obj-487fb74210dde52f47e1f80792b94b10.mesh"]
+source_file="res://Assets/KayKit_Skeletons/assets/obj/Skeleton_Blade.obj"
+dest_files=["res://.godot/imported/Skeleton_Blade.obj-c5c509a6aa9fda16ce4f2394dc11569f.mesh", "res://.godot/imported/Skeleton_Blade.obj-c5c509a6aa9fda16ce4f2394dc11569f.mesh"]
 
 [params]
 

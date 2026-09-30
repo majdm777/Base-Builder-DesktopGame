@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bhmlenwf7uel2"
-path="res://.godot/imported/sword_shield_gold.obj-7ce4591a06f0a3bed81dd6ba4f544b06.mesh"
+path="res://.godot/imported/sword_shield_gold.obj-e698392b27ee544abecab38137a4e31a.mesh"
 
 [deps]
 
-files=["res://.godot/imported/sword_shield_gold.obj-7ce4591a06f0a3bed81dd6ba4f544b06.mesh"]
+files=["res://.godot/imported/sword_shield_gold.obj-e698392b27ee544abecab38137a4e31a.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/sword_shield_gold.obj"
-dest_files=["res://.godot/imported/sword_shield_gold.obj-7ce4591a06f0a3bed81dd6ba4f544b06.mesh", "res://.godot/imported/sword_shield_gold.obj-7ce4591a06f0a3bed81dd6ba4f544b06.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/sword_shield_gold.obj"
+dest_files=["res://.godot/imported/sword_shield_gold.obj-e698392b27ee544abecab38137a4e31a.mesh", "res://.godot/imported/sword_shield_gold.obj-e698392b27ee544abecab38137a4e31a.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cto2top28t6l6"
-path="res://.godot/imported/Fuel_A_Barrel_Dirty.obj-946c18b5ce170dd9932d4c9d018251ea.mesh"
+path="res://.godot/imported/Fuel_A_Barrel_Dirty.obj-1ebf0e710938ae4529e43a3f7018584c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Fuel_A_Barrel_Dirty.obj-946c18b5ce170dd9932d4c9d018251ea.mesh"]
+files=["res://.godot/imported/Fuel_A_Barrel_Dirty.obj-1ebf0e710938ae4529e43a3f7018584c.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Fuel_A_Barrel_Dirty.obj"
-dest_files=["res://.godot/imported/Fuel_A_Barrel_Dirty.obj-946c18b5ce170dd9932d4c9d018251ea.mesh", "res://.godot/imported/Fuel_A_Barrel_Dirty.obj-946c18b5ce170dd9932d4c9d018251ea.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Fuel_A_Barrel_Dirty.obj"
+dest_files=["res://.godot/imported/Fuel_A_Barrel_Dirty.obj-1ebf0e710938ae4529e43a3f7018584c.mesh", "res://.godot/imported/Fuel_A_Barrel_Dirty.obj-1ebf0e710938ae4529e43a3f7018584c.mesh"]
 
 [params]
 

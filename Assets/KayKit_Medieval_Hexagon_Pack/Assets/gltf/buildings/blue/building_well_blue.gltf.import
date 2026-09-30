@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cvr88172y6suy"
-path="res://.godot/imported/building_well_blue.gltf-d2c1baa0aa63019ddbb1b9bd65c6b5cc.scn"
+path="res://.godot/imported/building_well_blue.gltf-a382d874f2d004ed27aa33172c4027f5.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/blue/building_well_blue.gltf"
-dest_files=["res://.godot/imported/building_well_blue.gltf-d2c1baa0aa63019ddbb1b9bd65c6b5cc.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/blue/building_well_blue.gltf"
+dest_files=["res://.godot/imported/building_well_blue.gltf-a382d874f2d004ed27aa33172c4027f5.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://q2sykwybilfi"
-path="res://.godot/imported/wall_corner_B_inside.obj-45c2dad39eb3a3852ba27eb4cd16523c.mesh"
+path="res://.godot/imported/wall_corner_B_inside.obj-763bd03037e3207b675f3051d1a97fd5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_corner_B_inside.obj-45c2dad39eb3a3852ba27eb4cd16523c.mesh"]
+files=["res://.godot/imported/wall_corner_B_inside.obj-763bd03037e3207b675f3051d1a97fd5.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/wall_corner_B_inside.obj"
-dest_files=["res://.godot/imported/wall_corner_B_inside.obj-45c2dad39eb3a3852ba27eb4cd16523c.mesh", "res://.godot/imported/wall_corner_B_inside.obj-45c2dad39eb3a3852ba27eb4cd16523c.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/wall_corner_B_inside.obj"
+dest_files=["res://.godot/imported/wall_corner_B_inside.obj-763bd03037e3207b675f3051d1a97fd5.mesh", "res://.godot/imported/wall_corner_B_inside.obj-763bd03037e3207b675f3051d1a97fd5.mesh"]
 
 [params]
 

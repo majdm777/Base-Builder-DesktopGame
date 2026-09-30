@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://domq5aty30hyu"
-path="res://.godot/imported/square_water_empty.dae-1ddf88e22f69a8e6ee9e1f2baeda1d02.scn"
+path="res://.godot/imported/square_water_empty.dae-b54954580a1a22db21d6e2150dd5e64c.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/square/dae/square_water_empty.dae"
-dest_files=["res://.godot/imported/square_water_empty.dae-1ddf88e22f69a8e6ee9e1f2baeda1d02.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/dae/square_water_empty.dae"
+dest_files=["res://.godot/imported/square_water_empty.dae-b54954580a1a22db21d6e2150dd5e64c.scn"]
 
 [params]
 

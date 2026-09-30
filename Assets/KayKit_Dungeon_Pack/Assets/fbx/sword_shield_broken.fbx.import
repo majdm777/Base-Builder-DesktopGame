@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dx1k5yq3mokjo"
-path="res://.godot/imported/sword_shield_broken.fbx-c002e48378cdad8b8bf5dea619b35879.scn"
+path="res://.godot/imported/sword_shield_broken.fbx-5a01991e3092419df81c34c70db93d8f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/sword_shield_broken.fbx"
-dest_files=["res://.godot/imported/sword_shield_broken.fbx-c002e48378cdad8b8bf5dea619b35879.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/sword_shield_broken.fbx"
+dest_files=["res://.godot/imported/sword_shield_broken.fbx-5a01991e3092419df81c34c70db93d8f.scn"]
 
 [params]
 

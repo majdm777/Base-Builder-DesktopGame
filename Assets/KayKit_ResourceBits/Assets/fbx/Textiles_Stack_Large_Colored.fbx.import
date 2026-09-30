@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dva4ihm6lri36"
-path="res://.godot/imported/Textiles_Stack_Large_Colored.fbx-fa829da1d5c53a0fcda848ce03751c9b.scn"
+path="res://.godot/imported/Textiles_Stack_Large_Colored.fbx-f25551b1f89f0ffb6f1541bb3b2fb279.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx/Textiles_Stack_Large_Colored.fbx"
-dest_files=["res://.godot/imported/Textiles_Stack_Large_Colored.fbx-fa829da1d5c53a0fcda848ce03751c9b.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx/Textiles_Stack_Large_Colored.fbx"
+dest_files=["res://.godot/imported/Textiles_Stack_Large_Colored.fbx-f25551b1f89f0ffb6f1541bb3b2fb279.scn"]
 
 [params]
 

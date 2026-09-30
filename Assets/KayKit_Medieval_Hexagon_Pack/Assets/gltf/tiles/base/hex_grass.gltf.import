@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ctklysirkfyrj"
-path="res://.godot/imported/hex_grass.gltf-4609438b175d13010958d564f3b2a069.scn"
+path="res://.godot/imported/hex_grass.gltf-8c5373ce65baf99aaeccf5e53abf1809.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/base/hex_grass.gltf"
-dest_files=["res://.godot/imported/hex_grass.gltf-4609438b175d13010958d564f3b2a069.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/tiles/base/hex_grass.gltf"
+dest_files=["res://.godot/imported/hex_grass.gltf-8c5373ce65baf99aaeccf5e53abf1809.scn"]
 
 [params]
 

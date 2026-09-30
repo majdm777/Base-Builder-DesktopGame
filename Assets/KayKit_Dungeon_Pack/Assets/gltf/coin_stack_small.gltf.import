@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bfkta65aqny44"
-path="res://.godot/imported/coin_stack_small.gltf-e4db9014a9c79aebe6e143f80d0f6fb4.scn"
+path="res://.godot/imported/coin_stack_small.gltf-44933ed7dbff7ba827e0dadf0512fc63.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/coin_stack_small.gltf"
-dest_files=["res://.godot/imported/coin_stack_small.gltf-e4db9014a9c79aebe6e143f80d0f6fb4.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/coin_stack_small.gltf"
+dest_files=["res://.godot/imported/coin_stack_small.gltf-44933ed7dbff7ba827e0dadf0512fc63.scn"]
 
 [params]
 

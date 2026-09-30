@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://de02ho3k3s813"
-path="res://.godot/imported/banner_patternC_green.obj-3ac80c63c7f6dd9cdd952c4d73842bc0.mesh"
+path="res://.godot/imported/banner_patternC_green.obj-07dba1b16ae693f7db0e7e715046dec1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/banner_patternC_green.obj-3ac80c63c7f6dd9cdd952c4d73842bc0.mesh"]
+files=["res://.godot/imported/banner_patternC_green.obj-07dba1b16ae693f7db0e7e715046dec1.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/banner_patternC_green.obj"
-dest_files=["res://.godot/imported/banner_patternC_green.obj-3ac80c63c7f6dd9cdd952c4d73842bc0.mesh", "res://.godot/imported/banner_patternC_green.obj-3ac80c63c7f6dd9cdd952c4d73842bc0.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/banner_patternC_green.obj"
+dest_files=["res://.godot/imported/banner_patternC_green.obj-07dba1b16ae693f7db0e7e715046dec1.mesh", "res://.godot/imported/banner_patternC_green.obj-07dba1b16ae693f7db0e7e715046dec1.mesh"]
 
 [params]
 

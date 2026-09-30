@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b8w285nnlao38"
-path="res://.godot/imported/building_scaffolding.obj-e18dd215d5a7165707c139e4225b5565.mesh"
+path="res://.godot/imported/building_scaffolding.obj-9a630a737df9d281263db8001dbeba2c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_scaffolding.obj-e18dd215d5a7165707c139e4225b5565.mesh"]
+files=["res://.godot/imported/building_scaffolding.obj-9a630a737df9d281263db8001dbeba2c.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/building_scaffolding.obj"
-dest_files=["res://.godot/imported/building_scaffolding.obj-e18dd215d5a7165707c139e4225b5565.mesh", "res://.godot/imported/building_scaffolding.obj-e18dd215d5a7165707c139e4225b5565.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/building_scaffolding.obj"
+dest_files=["res://.godot/imported/building_scaffolding.obj-9a630a737df9d281263db8001dbeba2c.mesh", "res://.godot/imported/building_scaffolding.obj-9a630a737df9d281263db8001dbeba2c.mesh"]
 
 [params]
 

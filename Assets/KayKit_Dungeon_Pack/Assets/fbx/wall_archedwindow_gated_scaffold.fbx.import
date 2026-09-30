@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://r4gdr3aqoxtl"
-path="res://.godot/imported/wall_archedwindow_gated_scaffold.fbx-4fe0afa4de208ad9586b5780cea58e94.scn"
+path="res://.godot/imported/wall_archedwindow_gated_scaffold.fbx-6e6f25366284672051397b3091e0272c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_archedwindow_gated_scaffold.fbx"
-dest_files=["res://.godot/imported/wall_archedwindow_gated_scaffold.fbx-4fe0afa4de208ad9586b5780cea58e94.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/wall_archedwindow_gated_scaffold.fbx"
+dest_files=["res://.godot/imported/wall_archedwindow_gated_scaffold.fbx-6e6f25366284672051397b3091e0272c.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hiqqc2xijql8"
-path="res://.godot/imported/building_windmill_yellow.fbx-38b7be875b72f0bc0954de035f06d66d.scn"
+path="res://.godot/imported/building_windmill_yellow.fbx-e76b2260953a5f9521b5a82c63096044.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/buildings/yellow/building_windmill_yellow.fbx"
-dest_files=["res://.godot/imported/building_windmill_yellow.fbx-38b7be875b72f0bc0954de035f06d66d.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/buildings/yellow/building_windmill_yellow.fbx"
+dest_files=["res://.godot/imported/building_windmill_yellow.fbx-e76b2260953a5f9521b5a82c63096044.scn"]
 
 [params]
 

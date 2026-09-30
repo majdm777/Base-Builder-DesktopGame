@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://beiomg5n8w38n"
-path="res://.godot/imported/well.obj-ffa6158045074af2a8798b10c56eb6e3.mesh"
+path="res://.godot/imported/well.obj-c6c5fb3d33d9112d19bca45a5ad836a4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/well.obj-ffa6158045074af2a8798b10c56eb6e3.mesh"]
+files=["res://.godot/imported/well.obj-c6c5fb3d33d9112d19bca45a5ad836a4.mesh"]
 
-source_file="res://Assets/Models/objects/obj/well.obj"
-dest_files=["res://.godot/imported/well.obj-ffa6158045074af2a8798b10c56eb6e3.mesh", "res://.godot/imported/well.obj-ffa6158045074af2a8798b10c56eb6e3.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/well.obj"
+dest_files=["res://.godot/imported/well.obj-c6c5fb3d33d9112d19bca45a5ad836a4.mesh", "res://.godot/imported/well.obj-c6c5fb3d33d9112d19bca45a5ad836a4.mesh"]
 
 [params]
 

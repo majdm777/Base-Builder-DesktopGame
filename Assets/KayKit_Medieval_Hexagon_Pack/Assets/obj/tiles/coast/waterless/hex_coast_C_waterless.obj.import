@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://btw55etbbrwni"
-path="res://.godot/imported/hex_coast_C_waterless.obj-e332f2d710d402f5c8afd7cfddb522f5.mesh"
+path="res://.godot/imported/hex_coast_C_waterless.obj-f446641cd7f7bf2f3a56fbacefb1efd0.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_coast_C_waterless.obj-e332f2d710d402f5c8afd7cfddb522f5.mesh"]
+files=["res://.godot/imported/hex_coast_C_waterless.obj-f446641cd7f7bf2f3a56fbacefb1efd0.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/coast/waterless/hex_coast_C_waterless.obj"
-dest_files=["res://.godot/imported/hex_coast_C_waterless.obj-e332f2d710d402f5c8afd7cfddb522f5.mesh", "res://.godot/imported/hex_coast_C_waterless.obj-e332f2d710d402f5c8afd7cfddb522f5.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/coast/waterless/hex_coast_C_waterless.obj"
+dest_files=["res://.godot/imported/hex_coast_C_waterless.obj-f446641cd7f7bf2f3a56fbacefb1efd0.mesh", "res://.godot/imported/hex_coast_C_waterless.obj-f446641cd7f7bf2f3a56fbacefb1efd0.mesh"]
 
 [params]
 

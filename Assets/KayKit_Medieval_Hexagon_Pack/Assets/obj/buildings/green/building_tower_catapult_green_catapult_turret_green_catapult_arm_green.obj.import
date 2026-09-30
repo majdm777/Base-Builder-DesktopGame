@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cktln48hgrrpn"
-path="res://.godot/imported/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj-cbd1dfda86afe3d88a32ad425f9e7385.mesh"
+path="res://.godot/imported/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj-f8db4a9c7b334295dd64024476e04bdf.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj-cbd1dfda86afe3d88a32ad425f9e7385.mesh"]
+files=["res://.godot/imported/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj-f8db4a9c7b334295dd64024476e04bdf.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj"
-dest_files=["res://.godot/imported/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj-cbd1dfda86afe3d88a32ad425f9e7385.mesh", "res://.godot/imported/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj-cbd1dfda86afe3d88a32ad425f9e7385.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj"
+dest_files=["res://.godot/imported/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj-f8db4a9c7b334295dd64024476e04bdf.mesh", "res://.godot/imported/building_tower_catapult_green_catapult_turret_green_catapult_arm_green.obj-f8db4a9c7b334295dd64024476e04bdf.mesh"]
 
 [params]
 

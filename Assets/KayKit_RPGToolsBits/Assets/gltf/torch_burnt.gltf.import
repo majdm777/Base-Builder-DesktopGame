@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c8ajncxb431v2"
-path="res://.godot/imported/torch_burnt.gltf-c310564b09ef2ec2eb4e278e191ba5d7.scn"
+path="res://.godot/imported/torch_burnt.gltf-fa23aef1ada99256a7472bc26788a2b0.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/torch_burnt.gltf"
-dest_files=["res://.godot/imported/torch_burnt.gltf-c310564b09ef2ec2eb4e278e191ba5d7.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/torch_burnt.gltf"
+dest_files=["res://.godot/imported/torch_burnt.gltf-fa23aef1ada99256a7472bc26788a2b0.scn"]
 
 [params]
 

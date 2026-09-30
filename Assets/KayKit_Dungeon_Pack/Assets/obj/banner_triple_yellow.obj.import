@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cwl4026s31gcu"
-path="res://.godot/imported/banner_triple_yellow.obj-8d6b42d7f71fa7db86646803c197f82e.mesh"
+path="res://.godot/imported/banner_triple_yellow.obj-9b52b393e2cb838ddb57a6e6cb0e9f21.mesh"
 
 [deps]
 
-files=["res://.godot/imported/banner_triple_yellow.obj-8d6b42d7f71fa7db86646803c197f82e.mesh"]
+files=["res://.godot/imported/banner_triple_yellow.obj-9b52b393e2cb838ddb57a6e6cb0e9f21.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/banner_triple_yellow.obj"
-dest_files=["res://.godot/imported/banner_triple_yellow.obj-8d6b42d7f71fa7db86646803c197f82e.mesh", "res://.godot/imported/banner_triple_yellow.obj-8d6b42d7f71fa7db86646803c197f82e.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/banner_triple_yellow.obj"
+dest_files=["res://.godot/imported/banner_triple_yellow.obj-9b52b393e2cb838ddb57a6e6cb0e9f21.mesh", "res://.godot/imported/banner_triple_yellow.obj-9b52b393e2cb838ddb57a6e6cb0e9f21.mesh"]
 
 [params]
 

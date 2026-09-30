@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b0nngc8xgapub"
-path="res://.godot/imported/shield_badge.gltf-e69b5849485d6c3614aa464d69c20417.scn"
+path="res://.godot/imported/shield_badge.gltf-2b5cb8aa030564989d89ce6fa3e963e8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/gltf/shield_badge.gltf"
-dest_files=["res://.godot/imported/shield_badge.gltf-e69b5849485d6c3614aa464d69c20417.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/gltf/shield_badge.gltf"
+dest_files=["res://.godot/imported/shield_badge.gltf-2b5cb8aa030564989d89ce6fa3e963e8.scn"]
 
 [params]
 

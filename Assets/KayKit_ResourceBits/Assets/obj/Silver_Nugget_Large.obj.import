@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dkd0r32huvwcs"
-path="res://.godot/imported/Silver_Nugget_Large.obj-a9429c0129566c3cb5a56833b0a14138.mesh"
+path="res://.godot/imported/Silver_Nugget_Large.obj-b6d3cc57fc93df16e90bd9f164e375e1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Silver_Nugget_Large.obj-a9429c0129566c3cb5a56833b0a14138.mesh"]
+files=["res://.godot/imported/Silver_Nugget_Large.obj-b6d3cc57fc93df16e90bd9f164e375e1.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Silver_Nugget_Large.obj"
-dest_files=["res://.godot/imported/Silver_Nugget_Large.obj-a9429c0129566c3cb5a56833b0a14138.mesh", "res://.godot/imported/Silver_Nugget_Large.obj-a9429c0129566c3cb5a56833b0a14138.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Silver_Nugget_Large.obj"
+dest_files=["res://.godot/imported/Silver_Nugget_Large.obj-b6d3cc57fc93df16e90bd9f164e375e1.mesh", "res://.godot/imported/Silver_Nugget_Large.obj-b6d3cc57fc93df16e90bd9f164e375e1.mesh"]
 
 [params]
 

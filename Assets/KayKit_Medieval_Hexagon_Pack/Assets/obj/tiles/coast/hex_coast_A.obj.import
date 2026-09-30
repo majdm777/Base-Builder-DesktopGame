@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cklcut0fn6ytx"
-path="res://.godot/imported/hex_coast_A.obj-482872e8d053331718d5c580bc2dc238.mesh"
+path="res://.godot/imported/hex_coast_A.obj-465cb5d4b1f6c5bbc8ed78be8ea0dd66.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_coast_A.obj-482872e8d053331718d5c580bc2dc238.mesh"]
+files=["res://.godot/imported/hex_coast_A.obj-465cb5d4b1f6c5bbc8ed78be8ea0dd66.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/coast/hex_coast_A.obj"
-dest_files=["res://.godot/imported/hex_coast_A.obj-482872e8d053331718d5c580bc2dc238.mesh", "res://.godot/imported/hex_coast_A.obj-482872e8d053331718d5c580bc2dc238.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/coast/hex_coast_A.obj"
+dest_files=["res://.godot/imported/hex_coast_A.obj-465cb5d4b1f6c5bbc8ed78be8ea0dd66.mesh", "res://.godot/imported/hex_coast_A.obj-465cb5d4b1f6c5bbc8ed78be8ea0dd66.mesh"]
 
 [params]
 

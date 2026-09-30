@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cy4aqvj6q4r2g"
-path="res://.godot/imported/building_tower_base_yellow.fbx-c3dac71981ec42c310e4c88dc364f0c3.scn"
+path="res://.godot/imported/building_tower_base_yellow.fbx-8225f9d53b7d597db2965bb469195e2d.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/buildings/yellow/building_tower_base_yellow.fbx"
-dest_files=["res://.godot/imported/building_tower_base_yellow.fbx-c3dac71981ec42c310e4c88dc364f0c3.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/buildings/yellow/building_tower_base_yellow.fbx"
+dest_files=["res://.godot/imported/building_tower_base_yellow.fbx-8225f9d53b7d597db2965bb469195e2d.scn"]
 
 [params]
 

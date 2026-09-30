@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c8khdamsg8nj4"
-path="res://.godot/imported/plate_food_B.obj-3947118afff700cb5b55f62db700a7ee.mesh"
+path="res://.godot/imported/plate_food_B.obj-d74fdf5690548497c3a363939f014df8.mesh"
 
 [deps]
 
-files=["res://.godot/imported/plate_food_B.obj-3947118afff700cb5b55f62db700a7ee.mesh"]
+files=["res://.godot/imported/plate_food_B.obj-d74fdf5690548497c3a363939f014df8.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/plate_food_B.obj"
-dest_files=["res://.godot/imported/plate_food_B.obj-3947118afff700cb5b55f62db700a7ee.mesh", "res://.godot/imported/plate_food_B.obj-3947118afff700cb5b55f62db700a7ee.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/plate_food_B.obj"
+dest_files=["res://.godot/imported/plate_food_B.obj-d74fdf5690548497c3a363939f014df8.mesh", "res://.godot/imported/plate_food_B.obj-d74fdf5690548497c3a363939f014df8.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bx4mwlx2v7um5"
-path="res://.godot/imported/mine.obj-814d454456e52d7b893573180eb56d33.mesh"
+path="res://.godot/imported/mine.obj-9091f763ef60581178edb8c8653b752f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/mine.obj-814d454456e52d7b893573180eb56d33.mesh"]
+files=["res://.godot/imported/mine.obj-9091f763ef60581178edb8c8653b752f.mesh"]
 
-source_file="res://Assets/Models/objects/obj/mine.obj"
-dest_files=["res://.godot/imported/mine.obj-814d454456e52d7b893573180eb56d33.mesh", "res://.godot/imported/mine.obj-814d454456e52d7b893573180eb56d33.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/mine.obj"
+dest_files=["res://.godot/imported/mine.obj-9091f763ef60581178edb8c8653b752f.mesh", "res://.godot/imported/mine.obj-9091f763ef60581178edb8c8653b752f.mesh"]
 
 [params]
 

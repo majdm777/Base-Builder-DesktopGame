@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bjf8tq1n8m2rn"
-path="res://.godot/imported/rock_single_E.fbx-6cf887815fce4b2e91f18f3813423ed5.scn"
+path="res://.godot/imported/rock_single_E.fbx-608300dd41ef274c40ae72be7247fc89.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/decoration/nature/rock_single_E.fbx"
-dest_files=["res://.godot/imported/rock_single_E.fbx-6cf887815fce4b2e91f18f3813423ed5.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/decoration/nature/rock_single_E.fbx"
+dest_files=["res://.godot/imported/rock_single_E.fbx-608300dd41ef274c40ae72be7247fc89.scn"]
 
 [params]
 

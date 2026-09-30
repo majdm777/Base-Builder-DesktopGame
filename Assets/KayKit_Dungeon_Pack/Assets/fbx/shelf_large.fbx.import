@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hbknc2bikdnq"
-path="res://.godot/imported/shelf_large.fbx-93fd003e6c79ac6a6cce1da18c71f113.scn"
+path="res://.godot/imported/shelf_large.fbx-55646729c58e3cd7ad8d4d1ffabf0189.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/shelf_large.fbx"
-dest_files=["res://.godot/imported/shelf_large.fbx-93fd003e6c79ac6a6cce1da18c71f113.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/shelf_large.fbx"
+dest_files=["res://.godot/imported/shelf_large.fbx-55646729c58e3cd7ad8d4d1ffabf0189.scn"]
 
 [params]
 

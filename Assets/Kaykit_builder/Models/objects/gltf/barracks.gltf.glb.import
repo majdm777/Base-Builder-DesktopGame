@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dn8gbriqou805"
-path="res://.godot/imported/barracks.gltf.glb-8306a5a4c313328e50da8e8cdd21a8e2.scn"
+path="res://.godot/imported/barracks.gltf.glb-2c54d88a2c08d97cb6cb8ad1014cb63e.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/barracks.gltf.glb"
-dest_files=["res://.godot/imported/barracks.gltf.glb-8306a5a4c313328e50da8e8cdd21a8e2.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/barracks.gltf.glb"
+dest_files=["res://.godot/imported/barracks.gltf.glb-2c54d88a2c08d97cb6cb8ad1014cb63e.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://i5goi562gf0j"
-path="res://.godot/imported/sword_2handed.fbx-cd13ad69e2338e2a8bd51546edadfd63.scn"
+path="res://.godot/imported/sword_2handed.fbx-31ebdf3fefecddd5312b519a3f29601c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/sword_2handed.fbx"
-dest_files=["res://.godot/imported/sword_2handed.fbx-cd13ad69e2338e2a8bd51546edadfd63.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/fbx(unity)/sword_2handed.fbx"
+dest_files=["res://.godot/imported/sword_2handed.fbx-31ebdf3fefecddd5312b519a3f29601c.scn"]
 
 [params]
 

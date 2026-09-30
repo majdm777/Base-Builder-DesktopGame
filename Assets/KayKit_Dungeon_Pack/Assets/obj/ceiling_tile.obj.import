@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d251raijeed40"
-path="res://.godot/imported/ceiling_tile.obj-22cfddd4b17d84e20df0aa928116360e.mesh"
+path="res://.godot/imported/ceiling_tile.obj-6e83f87848d3db09c4bf5b4ef3ab8399.mesh"
 
 [deps]
 
-files=["res://.godot/imported/ceiling_tile.obj-22cfddd4b17d84e20df0aa928116360e.mesh"]
+files=["res://.godot/imported/ceiling_tile.obj-6e83f87848d3db09c4bf5b4ef3ab8399.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/ceiling_tile.obj"
-dest_files=["res://.godot/imported/ceiling_tile.obj-22cfddd4b17d84e20df0aa928116360e.mesh", "res://.godot/imported/ceiling_tile.obj-22cfddd4b17d84e20df0aa928116360e.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/ceiling_tile.obj"
+dest_files=["res://.godot/imported/ceiling_tile.obj-6e83f87848d3db09c4bf5b4ef3ab8399.mesh", "res://.godot/imported/ceiling_tile.obj-6e83f87848d3db09c4bf5b4ef3ab8399.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cee3bahvg3hto"
-path="res://.godot/imported/watermill.dae-b28fa240f271c057d8fb7ca53bd1cc14.scn"
+path="res://.godot/imported/watermill.dae-1d7b69ec816abccc9f8cb26baaf162f0.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/dae/watermill.dae"
-dest_files=["res://.godot/imported/watermill.dae-b28fa240f271c057d8fb7ca53bd1cc14.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/dae/watermill.dae"
+dest_files=["res://.godot/imported/watermill.dae-1d7b69ec816abccc9f8cb26baaf162f0.scn"]
 
 [params]
 

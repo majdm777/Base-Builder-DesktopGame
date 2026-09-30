@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bg2d2xpw0vy5n"
-path="res://.godot/imported/arrow_bow.obj-c7a5d5ef32e16a5feee747c4d36f5d0d.mesh"
+path="res://.godot/imported/arrow_bow.obj-c38dbbf56965eb8f64d914ad2a7e0756.mesh"
 
 [deps]
 
-files=["res://.godot/imported/arrow_bow.obj-c7a5d5ef32e16a5feee747c4d36f5d0d.mesh"]
+files=["res://.godot/imported/arrow_bow.obj-c38dbbf56965eb8f64d914ad2a7e0756.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/arrow_bow.obj"
-dest_files=["res://.godot/imported/arrow_bow.obj-c7a5d5ef32e16a5feee747c4d36f5d0d.mesh", "res://.godot/imported/arrow_bow.obj-c7a5d5ef32e16a5feee747c4d36f5d0d.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/arrow_bow.obj"
+dest_files=["res://.godot/imported/arrow_bow.obj-c38dbbf56965eb8f64d914ad2a7e0756.mesh", "res://.godot/imported/arrow_bow.obj-c38dbbf56965eb8f64d914ad2a7e0756.mesh"]
 
 [params]
 

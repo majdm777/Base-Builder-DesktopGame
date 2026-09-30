@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b6wu7prvrnusu"
-path="res://.godot/imported/forest.gltf.glb-8347b03c6b2144bd69d93961a78330b3.scn"
+path="res://.godot/imported/forest.gltf.glb-e5201a65a3db6d2b3bdb6c5a4fc74f7b.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/forest.gltf.glb"
-dest_files=["res://.godot/imported/forest.gltf.glb-8347b03c6b2144bd69d93961a78330b3.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/forest.gltf.glb"
+dest_files=["res://.godot/imported/forest.gltf.glb-e5201a65a3db6d2b3bdb6c5a4fc74f7b.scn"]
 
 [params]
 

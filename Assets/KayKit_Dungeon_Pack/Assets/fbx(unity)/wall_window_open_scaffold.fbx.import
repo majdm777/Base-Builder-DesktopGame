@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://f2o6k0s2ev30"
-path="res://.godot/imported/wall_window_open_scaffold.fbx-fff48a4330913f0a7263f9f91f882144.scn"
+path="res://.godot/imported/wall_window_open_scaffold.fbx-b1640b02fec560b85cf2c097263d1947.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/wall_window_open_scaffold.fbx"
-dest_files=["res://.godot/imported/wall_window_open_scaffold.fbx-fff48a4330913f0a7263f9f91f882144.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/wall_window_open_scaffold.fbx"
+dest_files=["res://.godot/imported/wall_window_open_scaffold.fbx-b1640b02fec560b85cf2c097263d1947.scn"]
 
 [params]
 

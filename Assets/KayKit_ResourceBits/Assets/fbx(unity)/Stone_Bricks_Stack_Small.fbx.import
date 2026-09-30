@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0733hds84r7u"
-path="res://.godot/imported/Stone_Bricks_Stack_Small.fbx-cbfa7d11e84b51af6bd5b697f7934735.scn"
+path="res://.godot/imported/Stone_Bricks_Stack_Small.fbx-61f45e8298ff108ee4ea91892473b27c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx(unity)/Stone_Bricks_Stack_Small.fbx"
-dest_files=["res://.godot/imported/Stone_Bricks_Stack_Small.fbx-cbfa7d11e84b51af6bd5b697f7934735.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx(unity)/Stone_Bricks_Stack_Small.fbx"
+dest_files=["res://.godot/imported/Stone_Bricks_Stack_Small.fbx-61f45e8298ff108ee4ea91892473b27c.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ctl58hhhv4d2e"
-path="res://.godot/imported/mill.gltf.glb-4516af34625c7173b8e217424def7c36.scn"
+path="res://.godot/imported/mill.gltf.glb-597af7802482b74eddb90e48433d2b18.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/mill.gltf.glb"
-dest_files=["res://.godot/imported/mill.gltf.glb-4516af34625c7173b8e217424def7c36.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/mill.gltf.glb"
+dest_files=["res://.godot/imported/mill.gltf.glb-597af7802482b74eddb90e48433d2b18.scn"]
 
 [params]
 

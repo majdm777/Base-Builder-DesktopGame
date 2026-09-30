@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://csy8vupqotmbk"
-path="res://.godot/imported/wall_corner.fbx-226b668e5cca2a3caa16b084e508390c.scn"
+path="res://.godot/imported/wall_corner.fbx-6421820de26ebd03d3e5b5c1b07f11ec.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/wall_corner.fbx"
-dest_files=["res://.godot/imported/wall_corner.fbx-226b668e5cca2a3caa16b084e508390c.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/wall_corner.fbx"
+dest_files=["res://.godot/imported/wall_corner.fbx-6421820de26ebd03d3e5b5c1b07f11ec.scn"]
 
 [params]
 

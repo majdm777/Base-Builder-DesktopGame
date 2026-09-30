@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dwe4yc0doefun"
-path="res://.godot/imported/arrow_crossbow_bundle.obj-76c38be549425ef821d846f2044f5629.mesh"
+path="res://.godot/imported/arrow_crossbow_bundle.obj-7006487d817f526ee504c54ad0aaeaaf.mesh"
 
 [deps]
 
-files=["res://.godot/imported/arrow_crossbow_bundle.obj-76c38be549425ef821d846f2044f5629.mesh"]
+files=["res://.godot/imported/arrow_crossbow_bundle.obj-7006487d817f526ee504c54ad0aaeaaf.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/arrow_crossbow_bundle.obj"
-dest_files=["res://.godot/imported/arrow_crossbow_bundle.obj-76c38be549425ef821d846f2044f5629.mesh", "res://.godot/imported/arrow_crossbow_bundle.obj-76c38be549425ef821d846f2044f5629.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/arrow_crossbow_bundle.obj"
+dest_files=["res://.godot/imported/arrow_crossbow_bundle.obj-7006487d817f526ee504c54ad0aaeaaf.mesh", "res://.godot/imported/arrow_crossbow_bundle.obj-7006487d817f526ee504c54ad0aaeaaf.mesh"]
 
 [params]
 

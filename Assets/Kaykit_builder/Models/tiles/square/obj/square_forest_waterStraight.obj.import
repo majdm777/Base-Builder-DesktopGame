@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d0jpa2bu0108u"
-path="res://.godot/imported/square_forest_waterStraight.obj-74575822679edb15d545a9b7d6483bff.mesh"
+path="res://.godot/imported/square_forest_waterStraight.obj-435a106e3b9489113cd0d5e4e5f96d39.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_forest_waterStraight.obj-74575822679edb15d545a9b7d6483bff.mesh"]
+files=["res://.godot/imported/square_forest_waterStraight.obj-435a106e3b9489113cd0d5e4e5f96d39.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_forest_waterStraight.obj"
-dest_files=["res://.godot/imported/square_forest_waterStraight.obj-74575822679edb15d545a9b7d6483bff.mesh", "res://.godot/imported/square_forest_waterStraight.obj-74575822679edb15d545a9b7d6483bff.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_forest_waterStraight.obj"
+dest_files=["res://.godot/imported/square_forest_waterStraight.obj-435a106e3b9489113cd0d5e4e5f96d39.mesh", "res://.godot/imported/square_forest_waterStraight.obj-435a106e3b9489113cd0d5e4e5f96d39.mesh"]
 
 [params]
 

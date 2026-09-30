@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cemx2f6f5afmn"
-path="res://.godot/imported/tent.gltf-9fbc69a396a1094d0005f11aa71a5f83.scn"
+path="res://.godot/imported/tent.gltf-64b0f9f623ea8394e0be48cf28290b83.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/tent.gltf"
-dest_files=["res://.godot/imported/tent.gltf-9fbc69a396a1094d0005f11aa71a5f83.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/props/tent.gltf"
+dest_files=["res://.godot/imported/tent.gltf-64b0f9f623ea8394e0be48cf28290b83.scn"]
 
 [params]
 

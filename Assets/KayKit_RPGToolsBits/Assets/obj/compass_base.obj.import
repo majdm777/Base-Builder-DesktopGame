@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b3hgyonenh0i3"
-path="res://.godot/imported/compass_base.obj-e17d95186a26754b13b85a5b21247ede.mesh"
+path="res://.godot/imported/compass_base.obj-9e4b3cd5fb40db35b9f56cc41801630c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/compass_base.obj-e17d95186a26754b13b85a5b21247ede.mesh"]
+files=["res://.godot/imported/compass_base.obj-9e4b3cd5fb40db35b9f56cc41801630c.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/compass_base.obj"
-dest_files=["res://.godot/imported/compass_base.obj-e17d95186a26754b13b85a5b21247ede.mesh", "res://.godot/imported/compass_base.obj-e17d95186a26754b13b85a5b21247ede.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/compass_base.obj"
+dest_files=["res://.godot/imported/compass_base.obj-9e4b3cd5fb40db35b9f56cc41801630c.mesh", "res://.godot/imported/compass_base.obj-9e4b3cd5fb40db35b9f56cc41801630c.mesh"]
 
 [params]
 

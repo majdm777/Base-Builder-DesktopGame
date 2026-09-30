@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bvhgbpuc75evr"
-path="res://.godot/imported/Parts_Pile_Small.gltf-bad065054e84f165b6f30c958491ac10.scn"
+path="res://.godot/imported/Parts_Pile_Small.gltf-00e6f50c5ef41930e7d0a8d58d3a19d7.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Parts_Pile_Small.gltf"
-dest_files=["res://.godot/imported/Parts_Pile_Small.gltf-bad065054e84f165b6f30c958491ac10.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Parts_Pile_Small.gltf"
+dest_files=["res://.godot/imported/Parts_Pile_Small.gltf-00e6f50c5ef41930e7d0a8d58d3a19d7.scn"]
 
 [params]
 

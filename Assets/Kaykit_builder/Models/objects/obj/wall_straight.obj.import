@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cmhksut7wcuhe"
-path="res://.godot/imported/wall_straight.obj-aa1289cb59dc6892adaaceaf8a1166ea.mesh"
+path="res://.godot/imported/wall_straight.obj-fe5f3a3c24dc10eda4cb004cd357d3e9.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_straight.obj-aa1289cb59dc6892adaaceaf8a1166ea.mesh"]
+files=["res://.godot/imported/wall_straight.obj-fe5f3a3c24dc10eda4cb004cd357d3e9.mesh"]
 
-source_file="res://Assets/Models/objects/obj/wall_straight.obj"
-dest_files=["res://.godot/imported/wall_straight.obj-aa1289cb59dc6892adaaceaf8a1166ea.mesh", "res://.godot/imported/wall_straight.obj-aa1289cb59dc6892adaaceaf8a1166ea.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/wall_straight.obj"
+dest_files=["res://.godot/imported/wall_straight.obj-fe5f3a3c24dc10eda4cb004cd357d3e9.mesh", "res://.godot/imported/wall_straight.obj-fe5f3a3c24dc10eda4cb004cd357d3e9.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bjhrlckher712"
-path="res://.godot/imported/building_home_B_green.obj-f4b297ceccc6a2323e43b0745cb37e9d.mesh"
+path="res://.godot/imported/building_home_B_green.obj-4ba15602155afaa2871c572df1cf9d68.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_home_B_green.obj-f4b297ceccc6a2323e43b0745cb37e9d.mesh"]
+files=["res://.godot/imported/building_home_B_green.obj-4ba15602155afaa2871c572df1cf9d68.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_home_B_green.obj"
-dest_files=["res://.godot/imported/building_home_B_green.obj-f4b297ceccc6a2323e43b0745cb37e9d.mesh", "res://.godot/imported/building_home_B_green.obj-f4b297ceccc6a2323e43b0745cb37e9d.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_home_B_green.obj"
+dest_files=["res://.godot/imported/building_home_B_green.obj-4ba15602155afaa2871c572df1cf9d68.mesh", "res://.godot/imported/building_home_B_green.obj-4ba15602155afaa2871c572df1cf9d68.mesh"]
 
 [params]
 

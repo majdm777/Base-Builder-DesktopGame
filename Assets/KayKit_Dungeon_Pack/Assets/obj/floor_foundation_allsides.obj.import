@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cqqm584vosuey"
-path="res://.godot/imported/floor_foundation_allsides.obj-f8032076a7aa363cfd1160896a80acf2.mesh"
+path="res://.godot/imported/floor_foundation_allsides.obj-cddbf24ac6994cdcb1f440a9348e2a1c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_foundation_allsides.obj-f8032076a7aa363cfd1160896a80acf2.mesh"]
+files=["res://.godot/imported/floor_foundation_allsides.obj-cddbf24ac6994cdcb1f440a9348e2a1c.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_foundation_allsides.obj"
-dest_files=["res://.godot/imported/floor_foundation_allsides.obj-f8032076a7aa363cfd1160896a80acf2.mesh", "res://.godot/imported/floor_foundation_allsides.obj-f8032076a7aa363cfd1160896a80acf2.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_foundation_allsides.obj"
+dest_files=["res://.godot/imported/floor_foundation_allsides.obj-cddbf24ac6994cdcb1f440a9348e2a1c.mesh", "res://.godot/imported/floor_foundation_allsides.obj-cddbf24ac6994cdcb1f440a9348e2a1c.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c3jhc07640tb1"
-path="res://.godot/imported/bridge_roofed.fbx-3ce529fc34050e531601f43601d5ebb9.scn"
+path="res://.godot/imported/bridge_roofed.fbx-eae1e161a1febc851458320b1f5c03d0.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/bridge_roofed.fbx"
-dest_files=["res://.godot/imported/bridge_roofed.fbx-3ce529fc34050e531601f43601d5ebb9.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/bridge_roofed.fbx"
+dest_files=["res://.godot/imported/bridge_roofed.fbx-eae1e161a1febc851458320b1f5c03d0.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c8s515hhbgu56"
-path="res://.godot/imported/shield_badge_color.gltf-97b79f341d2c9884975ec558bbd81ab6.scn"
+path="res://.godot/imported/shield_badge_color.gltf-cbb5bb5a079c11b13ccdb715927a5e6a.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/gltf/shield_badge_color.gltf"
-dest_files=["res://.godot/imported/shield_badge_color.gltf-97b79f341d2c9884975ec558bbd81ab6.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/gltf/shield_badge_color.gltf"
+dest_files=["res://.godot/imported/shield_badge_color.gltf-cbb5bb5a079c11b13ccdb715927a5e6a.scn"]
 
 [params]
 

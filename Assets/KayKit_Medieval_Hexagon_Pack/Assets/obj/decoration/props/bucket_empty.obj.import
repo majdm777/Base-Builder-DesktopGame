@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://btnitymnree0a"
-path="res://.godot/imported/bucket_empty.obj-09ba5e35d28e1ba73e74bfd0f9dd84a0.mesh"
+path="res://.godot/imported/bucket_empty.obj-d04b9b3272950101d4515a04bc01e48d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/bucket_empty.obj-09ba5e35d28e1ba73e74bfd0f9dd84a0.mesh"]
+files=["res://.godot/imported/bucket_empty.obj-d04b9b3272950101d4515a04bc01e48d.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/bucket_empty.obj"
-dest_files=["res://.godot/imported/bucket_empty.obj-09ba5e35d28e1ba73e74bfd0f9dd84a0.mesh", "res://.godot/imported/bucket_empty.obj-09ba5e35d28e1ba73e74bfd0f9dd84a0.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/bucket_empty.obj"
+dest_files=["res://.godot/imported/bucket_empty.obj-d04b9b3272950101d4515a04bc01e48d.mesh", "res://.godot/imported/bucket_empty.obj-d04b9b3272950101d4515a04bc01e48d.mesh"]
 
 [params]
 

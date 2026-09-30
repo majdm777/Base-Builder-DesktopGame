@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bx26a5exgfjaw"
-path="res://.godot/imported/Fuel_B_Jerrycan.obj-cb2e52c7502554d9b92da76a2665efb1.mesh"
+path="res://.godot/imported/Fuel_B_Jerrycan.obj-e08ecbfd16cdc7d52372e0411ad74553.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Fuel_B_Jerrycan.obj-cb2e52c7502554d9b92da76a2665efb1.mesh"]
+files=["res://.godot/imported/Fuel_B_Jerrycan.obj-e08ecbfd16cdc7d52372e0411ad74553.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Fuel_B_Jerrycan.obj"
-dest_files=["res://.godot/imported/Fuel_B_Jerrycan.obj-cb2e52c7502554d9b92da76a2665efb1.mesh", "res://.godot/imported/Fuel_B_Jerrycan.obj-cb2e52c7502554d9b92da76a2665efb1.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Fuel_B_Jerrycan.obj"
+dest_files=["res://.godot/imported/Fuel_B_Jerrycan.obj-e08ecbfd16cdc7d52372e0411ad74553.mesh", "res://.godot/imported/Fuel_B_Jerrycan.obj-e08ecbfd16cdc7d52372e0411ad74553.mesh"]
 
 [params]
 

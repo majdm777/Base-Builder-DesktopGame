@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dcpbgrp67wwmc"
-path="res://.godot/imported/floor_tile_small_broken_B.obj-0ce9d1f46306faa167c43423f91724e7.mesh"
+path="res://.godot/imported/floor_tile_small_broken_B.obj-991cbb399c48c1ae33c4905746e14da0.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_small_broken_B.obj-0ce9d1f46306faa167c43423f91724e7.mesh"]
+files=["res://.godot/imported/floor_tile_small_broken_B.obj-991cbb399c48c1ae33c4905746e14da0.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_tile_small_broken_B.obj"
-dest_files=["res://.godot/imported/floor_tile_small_broken_B.obj-0ce9d1f46306faa167c43423f91724e7.mesh", "res://.godot/imported/floor_tile_small_broken_B.obj-0ce9d1f46306faa167c43423f91724e7.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_tile_small_broken_B.obj"
+dest_files=["res://.godot/imported/floor_tile_small_broken_B.obj-991cbb399c48c1ae33c4905746e14da0.mesh", "res://.godot/imported/floor_tile_small_broken_B.obj-991cbb399c48c1ae33c4905746e14da0.mesh"]
 
 [params]
 

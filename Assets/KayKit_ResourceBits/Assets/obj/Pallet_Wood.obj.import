@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://djb8q3g5pg2lc"
-path="res://.godot/imported/Pallet_Wood.obj-06371b5dc2513ed5a5eede78eaebe805.mesh"
+path="res://.godot/imported/Pallet_Wood.obj-0cf262ea32ba65278645f3c4a102cb10.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Pallet_Wood.obj-06371b5dc2513ed5a5eede78eaebe805.mesh"]
+files=["res://.godot/imported/Pallet_Wood.obj-0cf262ea32ba65278645f3c4a102cb10.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Pallet_Wood.obj"
-dest_files=["res://.godot/imported/Pallet_Wood.obj-06371b5dc2513ed5a5eede78eaebe805.mesh", "res://.godot/imported/Pallet_Wood.obj-06371b5dc2513ed5a5eede78eaebe805.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Pallet_Wood.obj"
+dest_files=["res://.godot/imported/Pallet_Wood.obj-0cf262ea32ba65278645f3c4a102cb10.mesh", "res://.godot/imported/Pallet_Wood.obj-0cf262ea32ba65278645f3c4a102cb10.mesh"]
 
 [params]
 

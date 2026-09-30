@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dlcul5k2jmbra"
-path="res://.godot/imported/barrel_large.gltf-cc447a0c5ab5f491617b483ddb2f021a.scn"
+path="res://.godot/imported/barrel_large.gltf-301cd529800d300ff7bdb79ecef7bcc4.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/barrel_large.gltf"
-dest_files=["res://.godot/imported/barrel_large.gltf-cc447a0c5ab5f491617b483ddb2f021a.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/barrel_large.gltf"
+dest_files=["res://.godot/imported/barrel_large.gltf-301cd529800d300ff7bdb79ecef7bcc4.scn"]
 
 [params]
 

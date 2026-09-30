@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cjuh0ryfehh7o"
-path="res://.godot/imported/shelf_small_candles.obj-95fde35d005f9ba73552ee790db45b0f.mesh"
+path="res://.godot/imported/shelf_small_candles.obj-fae5355e06abd2d762cde460e166da44.mesh"
 
 [deps]
 
-files=["res://.godot/imported/shelf_small_candles.obj-95fde35d005f9ba73552ee790db45b0f.mesh"]
+files=["res://.godot/imported/shelf_small_candles.obj-fae5355e06abd2d762cde460e166da44.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/shelf_small_candles.obj"
-dest_files=["res://.godot/imported/shelf_small_candles.obj-95fde35d005f9ba73552ee790db45b0f.mesh", "res://.godot/imported/shelf_small_candles.obj-95fde35d005f9ba73552ee790db45b0f.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/shelf_small_candles.obj"
+dest_files=["res://.godot/imported/shelf_small_candles.obj-fae5355e06abd2d762cde460e166da44.mesh", "res://.godot/imported/shelf_small_candles.obj-fae5355e06abd2d762cde460e166da44.mesh"]
 
 [params]
 

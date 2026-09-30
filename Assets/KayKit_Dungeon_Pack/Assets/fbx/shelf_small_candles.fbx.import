@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dueehqdxqas7i"
-path="res://.godot/imported/shelf_small_candles.fbx-51f72c60d65cc9a9b8b84d0e175fc60c.scn"
+path="res://.godot/imported/shelf_small_candles.fbx-746e54f7147ab81d9f39766febae8850.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/shelf_small_candles.fbx"
-dest_files=["res://.godot/imported/shelf_small_candles.fbx-51f72c60d65cc9a9b8b84d0e175fc60c.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/shelf_small_candles.fbx"
+dest_files=["res://.godot/imported/shelf_small_candles.fbx-746e54f7147ab81d9f39766febae8850.scn"]
 
 [params]
 

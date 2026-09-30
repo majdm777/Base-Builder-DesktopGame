@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dvh3ho5rnhlcq"
-path="res://.godot/imported/hammer.gltf-47cfd0ad3c7f89b993e5b78b0babf54f.scn"
+path="res://.godot/imported/hammer.gltf-2262b6d3050678f6112d3d567ec95407.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/hammer.gltf"
-dest_files=["res://.godot/imported/hammer.gltf-47cfd0ad3c7f89b993e5b78b0babf54f.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/hammer.gltf"
+dest_files=["res://.godot/imported/hammer.gltf-2262b6d3050678f6112d3d567ec95407.scn"]
 
 [params]
 

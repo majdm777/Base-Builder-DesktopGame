@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cibe06rh2jv7j"
-path="res://.godot/imported/hammer.obj-4b37599315883a6ca209df0e0c8be842.mesh"
+path="res://.godot/imported/hammer.obj-0e73639878731d85f175a5ac1a630a68.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hammer.obj-4b37599315883a6ca209df0e0c8be842.mesh"]
+files=["res://.godot/imported/hammer.obj-0e73639878731d85f175a5ac1a630a68.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/hammer.obj"
-dest_files=["res://.godot/imported/hammer.obj-4b37599315883a6ca209df0e0c8be842.mesh", "res://.godot/imported/hammer.obj-4b37599315883a6ca209df0e0c8be842.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/hammer.obj"
+dest_files=["res://.godot/imported/hammer.obj-0e73639878731d85f175a5ac1a630a68.mesh", "res://.godot/imported/hammer.obj-0e73639878731d85f175a5ac1a630a68.mesh"]
 
 [params]
 

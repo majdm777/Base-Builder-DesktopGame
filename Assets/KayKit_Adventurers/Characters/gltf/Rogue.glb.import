@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://delf0janlt40i"
-path="res://.godot/imported/Rogue.glb-c953714b8cf66dfcb07e579f21b9e071.scn"
+path="res://.godot/imported/Rogue.glb-1c911aea1510b209954eb17422bc598f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Characters/gltf/Rogue.glb"
-dest_files=["res://.godot/imported/Rogue.glb-c953714b8cf66dfcb07e579f21b9e071.scn"]
+source_file="res://Assets/KayKit_Adventurers/Characters/gltf/Rogue.glb"
+dest_files=["res://.godot/imported/Rogue.glb-1c911aea1510b209954eb17422bc598f.scn"]
 
 [params]
 

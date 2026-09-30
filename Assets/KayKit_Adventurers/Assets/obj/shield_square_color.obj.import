@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dnhxy808h8mg0"
-path="res://.godot/imported/shield_square_color.obj-68c7fbf0ae7dfb52117ed638e00042be.mesh"
+path="res://.godot/imported/shield_square_color.obj-37e5470ba8e43f8e8712c308280eccba.mesh"
 
 [deps]
 
-files=["res://.godot/imported/shield_square_color.obj-68c7fbf0ae7dfb52117ed638e00042be.mesh"]
+files=["res://.godot/imported/shield_square_color.obj-37e5470ba8e43f8e8712c308280eccba.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_square_color.obj"
-dest_files=["res://.godot/imported/shield_square_color.obj-68c7fbf0ae7dfb52117ed638e00042be.mesh", "res://.godot/imported/shield_square_color.obj-68c7fbf0ae7dfb52117ed638e00042be.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/shield_square_color.obj"
+dest_files=["res://.godot/imported/shield_square_color.obj-37e5470ba8e43f8e8712c308280eccba.mesh", "res://.godot/imported/shield_square_color.obj-37e5470ba8e43f8e8712c308280eccba.mesh"]
 
 [params]
 

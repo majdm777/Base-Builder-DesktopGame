@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bno0q8wotnldi"
-path="res://.godot/imported/handdrill.obj-ff2af8c3e533c4125ce3ca92cc857b2c.mesh"
+path="res://.godot/imported/handdrill.obj-6f60f57bf9abc746168f1eb577bcc164.mesh"
 
 [deps]
 
-files=["res://.godot/imported/handdrill.obj-ff2af8c3e533c4125ce3ca92cc857b2c.mesh"]
+files=["res://.godot/imported/handdrill.obj-6f60f57bf9abc746168f1eb577bcc164.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/handdrill.obj"
-dest_files=["res://.godot/imported/handdrill.obj-ff2af8c3e533c4125ce3ca92cc857b2c.mesh", "res://.godot/imported/handdrill.obj-ff2af8c3e533c4125ce3ca92cc857b2c.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/handdrill.obj"
+dest_files=["res://.godot/imported/handdrill.obj-6f60f57bf9abc746168f1eb577bcc164.mesh", "res://.godot/imported/handdrill.obj-6f60f57bf9abc746168f1eb577bcc164.mesh"]
 
 [params]
 

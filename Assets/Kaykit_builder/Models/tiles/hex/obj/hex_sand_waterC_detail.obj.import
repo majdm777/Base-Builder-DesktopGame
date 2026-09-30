@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cvngglh2n873b"
-path="res://.godot/imported/hex_sand_waterC_detail.obj-29be65bbcf655086ee0f08a273fd2fd7.mesh"
+path="res://.godot/imported/hex_sand_waterC_detail.obj-7c60cf6209a3b2234d6c776172c77da1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_sand_waterC_detail.obj-29be65bbcf655086ee0f08a273fd2fd7.mesh"]
+files=["res://.godot/imported/hex_sand_waterC_detail.obj-7c60cf6209a3b2234d6c776172c77da1.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_sand_waterC_detail.obj"
-dest_files=["res://.godot/imported/hex_sand_waterC_detail.obj-29be65bbcf655086ee0f08a273fd2fd7.mesh", "res://.godot/imported/hex_sand_waterC_detail.obj-29be65bbcf655086ee0f08a273fd2fd7.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_sand_waterC_detail.obj"
+dest_files=["res://.godot/imported/hex_sand_waterC_detail.obj-7c60cf6209a3b2234d6c776172c77da1.mesh", "res://.godot/imported/hex_sand_waterC_detail.obj-7c60cf6209a3b2234d6c776172c77da1.mesh"]
 
 [params]
 

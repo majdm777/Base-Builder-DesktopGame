@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://2newtdqgr6q4"
-path="res://.godot/imported/Pallet_Wood.fbx-dca8402d980b196a7d3d0d2d39ff35b8.scn"
+path="res://.godot/imported/Pallet_Wood.fbx-f7a60b5b00474a39624c7d5596291bd6.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx/Pallet_Wood.fbx"
-dest_files=["res://.godot/imported/Pallet_Wood.fbx-dca8402d980b196a7d3d0d2d39ff35b8.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx/Pallet_Wood.fbx"
+dest_files=["res://.godot/imported/Pallet_Wood.fbx-f7a60b5b00474a39624c7d5596291bd6.scn"]
 
 [params]
 

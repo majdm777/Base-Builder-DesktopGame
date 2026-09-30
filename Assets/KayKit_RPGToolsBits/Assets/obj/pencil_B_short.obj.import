@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b1l3i5aygfyny"
-path="res://.godot/imported/pencil_B_short.obj-271048cac6dcc3b648ef3b7121814531.mesh"
+path="res://.godot/imported/pencil_B_short.obj-1b669d5c719cd8198c70cb1f37e9f598.mesh"
 
 [deps]
 
-files=["res://.godot/imported/pencil_B_short.obj-271048cac6dcc3b648ef3b7121814531.mesh"]
+files=["res://.godot/imported/pencil_B_short.obj-1b669d5c719cd8198c70cb1f37e9f598.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/pencil_B_short.obj"
-dest_files=["res://.godot/imported/pencil_B_short.obj-271048cac6dcc3b648ef3b7121814531.mesh", "res://.godot/imported/pencil_B_short.obj-271048cac6dcc3b648ef3b7121814531.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/pencil_B_short.obj"
+dest_files=["res://.godot/imported/pencil_B_short.obj-1b669d5c719cd8198c70cb1f37e9f598.mesh", "res://.godot/imported/pencil_B_short.obj-1b669d5c719cd8198c70cb1f37e9f598.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bi588qd5wdmsx"
-path="res://.godot/imported/hex_forest_waterD.dae-fe798c08cf115951241b1bc40e1b152f.scn"
+path="res://.godot/imported/hex_forest_waterD.dae-fd327f4150005f43dab490099c0aafda.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/dae/hex_forest_waterD.dae"
-dest_files=["res://.godot/imported/hex_forest_waterD.dae-fe798c08cf115951241b1bc40e1b152f.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/dae/hex_forest_waterD.dae"
+dest_files=["res://.godot/imported/hex_forest_waterD.dae-fd327f4150005f43dab490099c0aafda.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dro25pai2kxlv"
-path="res://.godot/imported/square_rock_roadA.obj-6774ed9e149fd50a8ba806115ce01e40.mesh"
+path="res://.godot/imported/square_rock_roadA.obj-f5b06e322a3ace14b8417aff728149dd.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_rock_roadA.obj-6774ed9e149fd50a8ba806115ce01e40.mesh"]
+files=["res://.godot/imported/square_rock_roadA.obj-f5b06e322a3ace14b8417aff728149dd.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_rock_roadA.obj"
-dest_files=["res://.godot/imported/square_rock_roadA.obj-6774ed9e149fd50a8ba806115ce01e40.mesh", "res://.godot/imported/square_rock_roadA.obj-6774ed9e149fd50a8ba806115ce01e40.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_rock_roadA.obj"
+dest_files=["res://.godot/imported/square_rock_roadA.obj-f5b06e322a3ace14b8417aff728149dd.mesh", "res://.godot/imported/square_rock_roadA.obj-f5b06e322a3ace14b8417aff728149dd.mesh"]
 
 [params]
 

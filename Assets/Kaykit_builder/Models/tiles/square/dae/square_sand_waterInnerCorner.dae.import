@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bev82cge5xl65"
-path="res://.godot/imported/square_sand_waterInnerCorner.dae-07d8293d302864cd023a780a85e7bc32.scn"
+path="res://.godot/imported/square_sand_waterInnerCorner.dae-d54a9b240c336a55cce9b7040d6e8609.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/square/dae/square_sand_waterInnerCorner.dae"
-dest_files=["res://.godot/imported/square_sand_waterInnerCorner.dae-07d8293d302864cd023a780a85e7bc32.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/dae/square_sand_waterInnerCorner.dae"
+dest_files=["res://.godot/imported/square_sand_waterInnerCorner.dae-d54a9b240c336a55cce9b7040d6e8609.scn"]
 
 [params]
 

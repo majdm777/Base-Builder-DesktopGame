@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://basdk64xvgxab"
-path="res://.godot/imported/building_lumbermill_yellow.obj-c5381c4bdb57e02ce90b8320b7374109.mesh"
+path="res://.godot/imported/building_lumbermill_yellow.obj-15f83ad54a5ec9a8f22a66a3e8822e4c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_lumbermill_yellow.obj-c5381c4bdb57e02ce90b8320b7374109.mesh"]
+files=["res://.godot/imported/building_lumbermill_yellow.obj-15f83ad54a5ec9a8f22a66a3e8822e4c.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/yellow/building_lumbermill_yellow.obj"
-dest_files=["res://.godot/imported/building_lumbermill_yellow.obj-c5381c4bdb57e02ce90b8320b7374109.mesh", "res://.godot/imported/building_lumbermill_yellow.obj-c5381c4bdb57e02ce90b8320b7374109.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/yellow/building_lumbermill_yellow.obj"
+dest_files=["res://.godot/imported/building_lumbermill_yellow.obj-15f83ad54a5ec9a8f22a66a3e8822e4c.mesh", "res://.godot/imported/building_lumbermill_yellow.obj-15f83ad54a5ec9a8f22a66a3e8822e4c.mesh"]
 
 [params]
 

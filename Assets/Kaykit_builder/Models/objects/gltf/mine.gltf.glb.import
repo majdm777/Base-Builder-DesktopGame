@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://k6tup2x6m2j3"
-path="res://.godot/imported/mine.gltf.glb-ee3bd5f7f32d4597663799bc3cca5ddf.scn"
+path="res://.godot/imported/mine.gltf.glb-564186af9dc6613573fc01d673141388.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/mine.gltf.glb"
-dest_files=["res://.godot/imported/mine.gltf.glb-ee3bd5f7f32d4597663799bc3cca5ddf.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/mine.gltf.glb"
+dest_files=["res://.godot/imported/mine.gltf.glb-564186af9dc6613573fc01d673141388.scn"]
 
 [params]
 

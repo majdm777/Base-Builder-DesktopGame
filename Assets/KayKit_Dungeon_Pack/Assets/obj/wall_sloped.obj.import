@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://q0xir31p64l0"
-path="res://.godot/imported/wall_sloped.obj-ec4ec377ad42597fb14108ec7b5334d6.mesh"
+path="res://.godot/imported/wall_sloped.obj-6c3b736c1adbae938788253c3c78306f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_sloped.obj-ec4ec377ad42597fb14108ec7b5334d6.mesh"]
+files=["res://.godot/imported/wall_sloped.obj-6c3b736c1adbae938788253c3c78306f.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/wall_sloped.obj"
-dest_files=["res://.godot/imported/wall_sloped.obj-ec4ec377ad42597fb14108ec7b5334d6.mesh", "res://.godot/imported/wall_sloped.obj-ec4ec377ad42597fb14108ec7b5334d6.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/wall_sloped.obj"
+dest_files=["res://.godot/imported/wall_sloped.obj-6c3b736c1adbae938788253c3c78306f.mesh", "res://.godot/imported/wall_sloped.obj-6c3b736c1adbae938788253c3c78306f.mesh"]
 
 [params]
 

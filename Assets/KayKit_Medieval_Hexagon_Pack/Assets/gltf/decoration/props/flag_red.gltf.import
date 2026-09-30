@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cg28mc23r23ks"
-path="res://.godot/imported/flag_red.gltf-108e46f27183a30845057609c618db60.scn"
+path="res://.godot/imported/flag_red.gltf-060a2cfab8962be53c3f779ab4830da7.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/flag_red.gltf"
-dest_files=["res://.godot/imported/flag_red.gltf-108e46f27183a30845057609c618db60.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/props/flag_red.gltf"
+dest_files=["res://.godot/imported/flag_red.gltf-060a2cfab8962be53c3f779ab4830da7.scn"]
 
 [params]
 

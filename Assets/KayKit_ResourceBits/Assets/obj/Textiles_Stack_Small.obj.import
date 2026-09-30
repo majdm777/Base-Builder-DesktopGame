@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cfrlv3c0sovcu"
-path="res://.godot/imported/Textiles_Stack_Small.obj-75f87fc996903f416b17713edaf13999.mesh"
+path="res://.godot/imported/Textiles_Stack_Small.obj-f9229ef7b069b61bddfbb6fd773aad7f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Textiles_Stack_Small.obj-75f87fc996903f416b17713edaf13999.mesh"]
+files=["res://.godot/imported/Textiles_Stack_Small.obj-f9229ef7b069b61bddfbb6fd773aad7f.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Textiles_Stack_Small.obj"
-dest_files=["res://.godot/imported/Textiles_Stack_Small.obj-75f87fc996903f416b17713edaf13999.mesh", "res://.godot/imported/Textiles_Stack_Small.obj-75f87fc996903f416b17713edaf13999.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Textiles_Stack_Small.obj"
+dest_files=["res://.godot/imported/Textiles_Stack_Small.obj-f9229ef7b069b61bddfbb6fd773aad7f.mesh", "res://.godot/imported/Textiles_Stack_Small.obj-f9229ef7b069b61bddfbb6fd773aad7f.mesh"]
 
 [params]
 

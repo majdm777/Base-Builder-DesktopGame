@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://boaq3nssec4ho"
-path="res://.godot/imported/floor_wood_small.obj-59bd419abf76e2698788eb85818774a7.mesh"
+path="res://.godot/imported/floor_wood_small.obj-2eff62ead2285755e480bb5b176d6c8f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_wood_small.obj-59bd419abf76e2698788eb85818774a7.mesh"]
+files=["res://.godot/imported/floor_wood_small.obj-2eff62ead2285755e480bb5b176d6c8f.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_wood_small.obj"
-dest_files=["res://.godot/imported/floor_wood_small.obj-59bd419abf76e2698788eb85818774a7.mesh", "res://.godot/imported/floor_wood_small.obj-59bd419abf76e2698788eb85818774a7.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_wood_small.obj"
+dest_files=["res://.godot/imported/floor_wood_small.obj-2eff62ead2285755e480bb5b176d6c8f.mesh", "res://.godot/imported/floor_wood_small.obj-2eff62ead2285755e480bb5b176d6c8f.mesh"]
 
 [params]
 

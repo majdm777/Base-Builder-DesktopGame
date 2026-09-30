@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://brapefjqo0lbx"
-path="res://.godot/imported/resource_lumber.gltf-462bb0937ad772781bfad331b6d77556.scn"
+path="res://.godot/imported/resource_lumber.gltf-a8b345ddce560d1e3c59f24a00ca9a7e.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/resource_lumber.gltf"
-dest_files=["res://.godot/imported/resource_lumber.gltf-462bb0937ad772781bfad331b6d77556.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/props/resource_lumber.gltf"
+dest_files=["res://.godot/imported/resource_lumber.gltf-a8b345ddce560d1e3c59f24a00ca9a7e.scn"]
 
 [params]
 

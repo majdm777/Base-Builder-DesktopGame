@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d3amsyy6afyry"
-path="res://.godot/imported/Textiles_Stack_Small.fbx-6368933e1fdb3902cc262c23e1e0f8d0.scn"
+path="res://.godot/imported/Textiles_Stack_Small.fbx-5ecfd850d2d014ba49675b14ff79af04.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx/Textiles_Stack_Small.fbx"
-dest_files=["res://.godot/imported/Textiles_Stack_Small.fbx-6368933e1fdb3902cc262c23e1e0f8d0.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx/Textiles_Stack_Small.fbx"
+dest_files=["res://.godot/imported/Textiles_Stack_Small.fbx-5ecfd850d2d014ba49675b14ff79af04.scn"]
 
 [params]
 

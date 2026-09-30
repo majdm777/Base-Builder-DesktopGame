@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dgamxtuklxuo6"
-path="res://.godot/imported/building_dirt.obj-83feaa0d3fb341c03839775e8d20484b.mesh"
+path="res://.godot/imported/building_dirt.obj-4434a75eed25fee38834a2422b32458d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_dirt.obj-83feaa0d3fb341c03839775e8d20484b.mesh"]
+files=["res://.godot/imported/building_dirt.obj-4434a75eed25fee38834a2422b32458d.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/building_dirt.obj"
-dest_files=["res://.godot/imported/building_dirt.obj-83feaa0d3fb341c03839775e8d20484b.mesh", "res://.godot/imported/building_dirt.obj-83feaa0d3fb341c03839775e8d20484b.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/building_dirt.obj"
+dest_files=["res://.godot/imported/building_dirt.obj-4434a75eed25fee38834a2422b32458d.mesh", "res://.godot/imported/building_dirt.obj-4434a75eed25fee38834a2422b32458d.mesh"]
 
 [params]
 

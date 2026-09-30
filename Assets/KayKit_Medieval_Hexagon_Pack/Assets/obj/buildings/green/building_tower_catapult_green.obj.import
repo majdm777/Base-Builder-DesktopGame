@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://jq1ma8yxesea"
-path="res://.godot/imported/building_tower_catapult_green.obj-1311c774cde1a330ac9082770754610f.mesh"
+path="res://.godot/imported/building_tower_catapult_green.obj-dc6b03293513ebb05281911696749eb2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_tower_catapult_green.obj-1311c774cde1a330ac9082770754610f.mesh"]
+files=["res://.godot/imported/building_tower_catapult_green.obj-dc6b03293513ebb05281911696749eb2.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_tower_catapult_green.obj"
-dest_files=["res://.godot/imported/building_tower_catapult_green.obj-1311c774cde1a330ac9082770754610f.mesh", "res://.godot/imported/building_tower_catapult_green.obj-1311c774cde1a330ac9082770754610f.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_tower_catapult_green.obj"
+dest_files=["res://.godot/imported/building_tower_catapult_green.obj-dc6b03293513ebb05281911696749eb2.mesh", "res://.godot/imported/building_tower_catapult_green.obj-dc6b03293513ebb05281911696749eb2.mesh"]
 
 [params]
 

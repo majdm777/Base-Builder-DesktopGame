@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://q5nsxdi2w7xo"
-path="res://.godot/imported/Skeleton_Shield_Large_B.obj-1fed97c67e80e3c409f892b4f35bec22.mesh"
+path="res://.godot/imported/Skeleton_Shield_Large_B.obj-385375bf9883aa05a5ab1bd809620964.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Skeleton_Shield_Large_B.obj-1fed97c67e80e3c409f892b4f35bec22.mesh"]
+files=["res://.godot/imported/Skeleton_Shield_Large_B.obj-385375bf9883aa05a5ab1bd809620964.mesh"]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/obj/Skeleton_Shield_Large_B.obj"
-dest_files=["res://.godot/imported/Skeleton_Shield_Large_B.obj-1fed97c67e80e3c409f892b4f35bec22.mesh", "res://.godot/imported/Skeleton_Shield_Large_B.obj-1fed97c67e80e3c409f892b4f35bec22.mesh"]
+source_file="res://Assets/KayKit_Skeletons/assets/obj/Skeleton_Shield_Large_B.obj"
+dest_files=["res://.godot/imported/Skeleton_Shield_Large_B.obj-385375bf9883aa05a5ab1bd809620964.mesh", "res://.godot/imported/Skeleton_Shield_Large_B.obj-385375bf9883aa05a5ab1bd809620964.mesh"]
 
 [params]
 

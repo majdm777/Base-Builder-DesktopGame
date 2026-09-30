@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bycpfnxoia5g7"
-path="res://.godot/imported/trunk_medium_C.obj-e025629e68c1c059e08b9a9cb2a5d1a1.mesh"
+path="res://.godot/imported/trunk_medium_C.obj-e2f799e565d9abdb196e7294eae77bc8.mesh"
 
 [deps]
 
-files=["res://.godot/imported/trunk_medium_C.obj-e025629e68c1c059e08b9a9cb2a5d1a1.mesh"]
+files=["res://.godot/imported/trunk_medium_C.obj-e2f799e565d9abdb196e7294eae77bc8.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/trunk_medium_C.obj"
-dest_files=["res://.godot/imported/trunk_medium_C.obj-e025629e68c1c059e08b9a9cb2a5d1a1.mesh", "res://.godot/imported/trunk_medium_C.obj-e025629e68c1c059e08b9a9cb2a5d1a1.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/trunk_medium_C.obj"
+dest_files=["res://.godot/imported/trunk_medium_C.obj-e2f799e565d9abdb196e7294eae77bc8.mesh", "res://.godot/imported/trunk_medium_C.obj-e2f799e565d9abdb196e7294eae77bc8.mesh"]
 
 [params]
 

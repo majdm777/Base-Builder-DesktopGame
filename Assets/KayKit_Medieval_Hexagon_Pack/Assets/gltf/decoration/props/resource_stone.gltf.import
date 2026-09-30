@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b7iq2sdt0a5n2"
-path="res://.godot/imported/resource_stone.gltf-8a7c8430e4da2babc2a9c5f7deb10181.scn"
+path="res://.godot/imported/resource_stone.gltf-c1d68add4ecf059a5f8cf39d182c34c4.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/resource_stone.gltf"
-dest_files=["res://.godot/imported/resource_stone.gltf-8a7c8430e4da2babc2a9c5f7deb10181.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/props/resource_stone.gltf"
+dest_files=["res://.godot/imported/resource_stone.gltf-c1d68add4ecf059a5f8cf39d182c34c4.scn"]
 
 [params]
 

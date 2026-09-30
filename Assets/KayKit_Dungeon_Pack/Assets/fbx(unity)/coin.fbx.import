@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cop0s71ykidlv"
-path="res://.godot/imported/coin.fbx-49b9fcf48bc72948fb7146d7bb8316ca.scn"
+path="res://.godot/imported/coin.fbx-049c2d73b8416e4e29ace4390acc8e9b.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/coin.fbx"
-dest_files=["res://.godot/imported/coin.fbx-49b9fcf48bc72948fb7146d7bb8316ca.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/coin.fbx"
+dest_files=["res://.godot/imported/coin.fbx-049c2d73b8416e4e29ace4390acc8e9b.scn"]
 
 [params]
 

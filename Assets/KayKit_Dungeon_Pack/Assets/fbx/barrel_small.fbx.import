@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://db3oaknrshjbf"
-path="res://.godot/imported/barrel_small.fbx-402aeb6a8fb50e0b1ae407d5371e240a.scn"
+path="res://.godot/imported/barrel_small.fbx-46ddc9653c9b7f2ed515df8edd636e77.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrel_small.fbx"
-dest_files=["res://.godot/imported/barrel_small.fbx-402aeb6a8fb50e0b1ae407d5371e240a.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/barrel_small.fbx"
+dest_files=["res://.godot/imported/barrel_small.fbx-46ddc9653c9b7f2ed515df8edd636e77.scn"]
 
 [params]
 

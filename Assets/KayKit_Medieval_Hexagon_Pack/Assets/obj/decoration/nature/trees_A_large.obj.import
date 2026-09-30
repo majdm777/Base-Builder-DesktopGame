@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b85u1v5230c2"
-path="res://.godot/imported/trees_A_large.obj-7048fb2af421a7c3dd63bebac060b183.mesh"
+path="res://.godot/imported/trees_A_large.obj-44378a53beaec62c2a269f5b3004eefc.mesh"
 
 [deps]
 
-files=["res://.godot/imported/trees_A_large.obj-7048fb2af421a7c3dd63bebac060b183.mesh"]
+files=["res://.godot/imported/trees_A_large.obj-44378a53beaec62c2a269f5b3004eefc.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/trees_A_large.obj"
-dest_files=["res://.godot/imported/trees_A_large.obj-7048fb2af421a7c3dd63bebac060b183.mesh", "res://.godot/imported/trees_A_large.obj-7048fb2af421a7c3dd63bebac060b183.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/trees_A_large.obj"
+dest_files=["res://.godot/imported/trees_A_large.obj-44378a53beaec62c2a269f5b3004eefc.mesh", "res://.godot/imported/trees_A_large.obj-44378a53beaec62c2a269f5b3004eefc.mesh"]
 
 [params]
 

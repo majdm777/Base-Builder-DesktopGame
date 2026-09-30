@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cer7oi1xpc8un"
-path="res://.godot/imported/castle.fbx-41e2b89d65d3651235d24e4e23f26a80.scn"
+path="res://.godot/imported/castle.fbx-a511743207ec39a61cba90e4e281a278.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/castle.fbx"
-dest_files=["res://.godot/imported/castle.fbx-41e2b89d65d3651235d24e4e23f26a80.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/castle.fbx"
+dest_files=["res://.godot/imported/castle.fbx-a511743207ec39a61cba90e4e281a278.scn"]
 
 [params]
 

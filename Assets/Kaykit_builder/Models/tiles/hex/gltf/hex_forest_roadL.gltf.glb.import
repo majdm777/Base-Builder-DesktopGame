@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://036hgpvavpfe"
-path="res://.godot/imported/hex_forest_roadL.gltf.glb-e810616e1c8587f0c01857717565951a.scn"
+path="res://.godot/imported/hex_forest_roadL.gltf.glb-15be50e33d924c0f2afd55ec49f8c1f2.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/gltf/hex_forest_roadL.gltf.glb"
-dest_files=["res://.godot/imported/hex_forest_roadL.gltf.glb-e810616e1c8587f0c01857717565951a.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/gltf/hex_forest_roadL.gltf.glb"
+dest_files=["res://.godot/imported/hex_forest_roadL.gltf.glb-15be50e33d924c0f2afd55ec49f8c1f2.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://qngh2tx7qp1l"
-path="res://.godot/imported/table_medium_broken.gltf-e0c781e7cd8fbd7a6d0e61a23900f5f5.scn"
+path="res://.godot/imported/table_medium_broken.gltf-ec1a073dd45b671ef170d7d153666136.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/table_medium_broken.gltf"
-dest_files=["res://.godot/imported/table_medium_broken.gltf-e0c781e7cd8fbd7a6d0e61a23900f5f5.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/table_medium_broken.gltf"
+dest_files=["res://.godot/imported/table_medium_broken.gltf-ec1a073dd45b671ef170d7d153666136.scn"]
 
 [params]
 

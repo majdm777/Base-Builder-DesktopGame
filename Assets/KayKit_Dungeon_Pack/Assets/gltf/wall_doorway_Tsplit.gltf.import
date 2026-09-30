@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bu68u5duvbhoj"
-path="res://.godot/imported/wall_doorway_Tsplit.gltf-173097562117dcd9f12721f77c2d06e2.scn"
+path="res://.godot/imported/wall_doorway_Tsplit.gltf-9bdbbbf7ed21bd45dc2bfdc5d13aea70.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/wall_doorway_Tsplit.gltf"
-dest_files=["res://.godot/imported/wall_doorway_Tsplit.gltf-173097562117dcd9f12721f77c2d06e2.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/wall_doorway_Tsplit.gltf"
+dest_files=["res://.godot/imported/wall_doorway_Tsplit.gltf-9bdbbbf7ed21bd45dc2bfdc5d13aea70.scn"]
 
 [params]
 

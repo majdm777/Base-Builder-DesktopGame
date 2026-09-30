@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://boejctqfolfd0"
-path="res://.godot/imported/Iron_Bars_Stack_Large.gltf-9ca755d06efc25457ad5e816b47fcc6e.scn"
+path="res://.godot/imported/Iron_Bars_Stack_Large.gltf-20dc69ddcde5a1194363180943224979.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Iron_Bars_Stack_Large.gltf"
-dest_files=["res://.godot/imported/Iron_Bars_Stack_Large.gltf-9ca755d06efc25457ad5e816b47fcc6e.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Iron_Bars_Stack_Large.gltf"
+dest_files=["res://.godot/imported/Iron_Bars_Stack_Large.gltf-20dc69ddcde5a1194363180943224979.scn"]
 
 [params]
 

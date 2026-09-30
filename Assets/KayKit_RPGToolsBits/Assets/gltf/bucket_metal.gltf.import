@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdsm6lfnn6fxm"
-path="res://.godot/imported/bucket_metal.gltf-55afa84bd6fba9c79a4802bc05589e35.scn"
+path="res://.godot/imported/bucket_metal.gltf-b4ef5945e456d8ee5aedcf8b65d0060a.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/bucket_metal.gltf"
-dest_files=["res://.godot/imported/bucket_metal.gltf-55afa84bd6fba9c79a4802bc05589e35.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/bucket_metal.gltf"
+dest_files=["res://.godot/imported/bucket_metal.gltf-b4ef5945e456d8ee5aedcf8b65d0060a.scn"]
 
 [params]
 

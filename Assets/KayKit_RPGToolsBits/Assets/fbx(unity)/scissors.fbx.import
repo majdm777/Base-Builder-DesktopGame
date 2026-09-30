@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://chvrgdjqacn5y"
-path="res://.godot/imported/scissors.fbx-1e1542747a52808ef920e053b80e7f9b.scn"
+path="res://.godot/imported/scissors.fbx-8ad339aa90095e0cf64fb01ed1cbb71b.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/scissors.fbx"
-dest_files=["res://.godot/imported/scissors.fbx-1e1542747a52808ef920e053b80e7f9b.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/scissors.fbx"
+dest_files=["res://.godot/imported/scissors.fbx-8ad339aa90095e0cf64fb01ed1cbb71b.scn"]
 
 [params]
 

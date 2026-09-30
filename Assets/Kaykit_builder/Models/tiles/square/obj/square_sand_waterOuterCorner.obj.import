@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ci2ljunrrigxa"
-path="res://.godot/imported/square_sand_waterOuterCorner.obj-aa5c625b128a7122ee966bc98031bb8b.mesh"
+path="res://.godot/imported/square_sand_waterOuterCorner.obj-5219478b8b0807aa77b59aada9dd3bda.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_sand_waterOuterCorner.obj-aa5c625b128a7122ee966bc98031bb8b.mesh"]
+files=["res://.godot/imported/square_sand_waterOuterCorner.obj-5219478b8b0807aa77b59aada9dd3bda.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_sand_waterOuterCorner.obj"
-dest_files=["res://.godot/imported/square_sand_waterOuterCorner.obj-aa5c625b128a7122ee966bc98031bb8b.mesh", "res://.godot/imported/square_sand_waterOuterCorner.obj-aa5c625b128a7122ee966bc98031bb8b.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_sand_waterOuterCorner.obj"
+dest_files=["res://.godot/imported/square_sand_waterOuterCorner.obj-5219478b8b0807aa77b59aada9dd3bda.mesh", "res://.godot/imported/square_sand_waterOuterCorner.obj-5219478b8b0807aa77b59aada9dd3bda.mesh"]
 
 [params]
 

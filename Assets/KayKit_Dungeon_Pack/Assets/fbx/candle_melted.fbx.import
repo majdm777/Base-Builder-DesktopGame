@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://2mhplieua8kd"
-path="res://.godot/imported/candle_melted.fbx-bcc685ad36a20b6ed8ae9e568f3b163f.scn"
+path="res://.godot/imported/candle_melted.fbx-f4795727136b50a0a728dc4456abb45f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/candle_melted.fbx"
-dest_files=["res://.godot/imported/candle_melted.fbx-bcc685ad36a20b6ed8ae9e568f3b163f.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/candle_melted.fbx"
+dest_files=["res://.godot/imported/candle_melted.fbx-f4795727136b50a0a728dc4456abb45f.scn"]
 
 [params]
 

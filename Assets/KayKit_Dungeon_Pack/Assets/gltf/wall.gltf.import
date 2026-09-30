@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://chm2ubb3lom6v"
-path="res://.godot/imported/wall.gltf-3cd785f877c68126c1b166711ac3e750.scn"
+path="res://.godot/imported/wall.gltf-6f1d28313e277d57e629c832330fb540.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/wall.gltf"
-dest_files=["res://.godot/imported/wall.gltf-3cd785f877c68126c1b166711ac3e750.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/wall.gltf"
+dest_files=["res://.godot/imported/wall.gltf-6f1d28313e277d57e629c832330fb540.scn"]
 
 [params]
 

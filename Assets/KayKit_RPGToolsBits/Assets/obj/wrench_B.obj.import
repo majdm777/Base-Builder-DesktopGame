@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dm6wm6t1todkn"
-path="res://.godot/imported/wrench_B.obj-02ed7f71111cc1ce627404aa3ad8d704.mesh"
+path="res://.godot/imported/wrench_B.obj-5afd3780cc2d645f22cbc9b096b6b288.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wrench_B.obj-02ed7f71111cc1ce627404aa3ad8d704.mesh"]
+files=["res://.godot/imported/wrench_B.obj-5afd3780cc2d645f22cbc9b096b6b288.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/wrench_B.obj"
-dest_files=["res://.godot/imported/wrench_B.obj-02ed7f71111cc1ce627404aa3ad8d704.mesh", "res://.godot/imported/wrench_B.obj-02ed7f71111cc1ce627404aa3ad8d704.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/wrench_B.obj"
+dest_files=["res://.godot/imported/wrench_B.obj-5afd3780cc2d645f22cbc9b096b6b288.mesh", "res://.godot/imported/wrench_B.obj-5afd3780cc2d645f22cbc9b096b6b288.mesh"]
 
 [params]
 

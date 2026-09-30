@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bka6y834gya3x"
-path="res://.godot/imported/hex_rock_waterD.fbx-cd6709bf2fd27f9fe6b3161039be5b37.scn"
+path="res://.godot/imported/hex_rock_waterD.fbx-d2d51f7448b11c960a01d0848aac713b.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/fbx/hex_rock_waterD.fbx"
-dest_files=["res://.godot/imported/hex_rock_waterD.fbx-cd6709bf2fd27f9fe6b3161039be5b37.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/fbx/hex_rock_waterD.fbx"
+dest_files=["res://.godot/imported/hex_rock_waterD.fbx-d2d51f7448b11c960a01d0848aac713b.scn"]
 
 [params]
 

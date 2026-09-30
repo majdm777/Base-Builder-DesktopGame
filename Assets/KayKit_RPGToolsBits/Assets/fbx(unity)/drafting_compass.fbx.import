@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d2nffl8mcq41n"
-path="res://.godot/imported/drafting_compass.fbx-0d8d76ba9c53d6c590c6238f92ee9a7a.scn"
+path="res://.godot/imported/drafting_compass.fbx-3d237bd0b2d17e83d54e58a2dd3b6b34.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/drafting_compass.fbx"
-dest_files=["res://.godot/imported/drafting_compass.fbx-0d8d76ba9c53d6c590c6238f92ee9a7a.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/drafting_compass.fbx"
+dest_files=["res://.godot/imported/drafting_compass.fbx-3d237bd0b2d17e83d54e58a2dd3b6b34.scn"]
 
 [params]
 

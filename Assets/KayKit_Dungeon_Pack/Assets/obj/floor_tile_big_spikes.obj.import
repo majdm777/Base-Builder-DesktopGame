@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bim8g0sfvhqaw"
-path="res://.godot/imported/floor_tile_big_spikes.obj-8056ec4a30592aec0971fee51108d5eb.mesh"
+path="res://.godot/imported/floor_tile_big_spikes.obj-bfda62a819e1ef915946d2e93dcd4326.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_big_spikes.obj-8056ec4a30592aec0971fee51108d5eb.mesh"]
+files=["res://.godot/imported/floor_tile_big_spikes.obj-bfda62a819e1ef915946d2e93dcd4326.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_tile_big_spikes.obj"
-dest_files=["res://.godot/imported/floor_tile_big_spikes.obj-8056ec4a30592aec0971fee51108d5eb.mesh", "res://.godot/imported/floor_tile_big_spikes.obj-8056ec4a30592aec0971fee51108d5eb.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_tile_big_spikes.obj"
+dest_files=["res://.godot/imported/floor_tile_big_spikes.obj-bfda62a819e1ef915946d2e93dcd4326.mesh", "res://.godot/imported/floor_tile_big_spikes.obj-bfda62a819e1ef915946d2e93dcd4326.mesh"]
 
 [params]
 

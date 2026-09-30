@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dpcd274h71b17"
-path="res://.godot/imported/Silver_Bars.obj-7c518edb7e260a5a3eae8a30ecc24b2e.mesh"
+path="res://.godot/imported/Silver_Bars.obj-c087a521eb0e583e9d642cc369549340.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Silver_Bars.obj-7c518edb7e260a5a3eae8a30ecc24b2e.mesh"]
+files=["res://.godot/imported/Silver_Bars.obj-c087a521eb0e583e9d642cc369549340.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Silver_Bars.obj"
-dest_files=["res://.godot/imported/Silver_Bars.obj-7c518edb7e260a5a3eae8a30ecc24b2e.mesh", "res://.godot/imported/Silver_Bars.obj-7c518edb7e260a5a3eae8a30ecc24b2e.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Silver_Bars.obj"
+dest_files=["res://.godot/imported/Silver_Bars.obj-c087a521eb0e583e9d642cc369549340.mesh", "res://.godot/imported/Silver_Bars.obj-c087a521eb0e583e9d642cc369549340.mesh"]
 
 [params]
 

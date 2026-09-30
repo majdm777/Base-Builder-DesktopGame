@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxuggwusgd1ql"
-path="res://.godot/imported/chest_gold.fbx-05cac02ff48f433fe08287302ce51471.scn"
+path="res://.godot/imported/chest_gold.fbx-7c1461ba75d2a72ec24d78a181137930.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/chest_gold.fbx"
-dest_files=["res://.godot/imported/chest_gold.fbx-05cac02ff48f433fe08287302ce51471.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/chest_gold.fbx"
+dest_files=["res://.godot/imported/chest_gold.fbx-7c1461ba75d2a72ec24d78a181137930.scn"]
 
 [params]
 

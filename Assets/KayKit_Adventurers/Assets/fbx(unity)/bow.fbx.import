@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://l6737et588l0"
-path="res://.godot/imported/bow.fbx-670267550718f1e84180c876d8c8655d.scn"
+path="res://.godot/imported/bow.fbx-7bdf4ee26a754eee96364b1a4f019d50.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/bow.fbx"
-dest_files=["res://.godot/imported/bow.fbx-670267550718f1e84180c876d8c8655d.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/fbx(unity)/bow.fbx"
+dest_files=["res://.godot/imported/bow.fbx-7bdf4ee26a754eee96364b1a4f019d50.scn"]
 
 [params]
 

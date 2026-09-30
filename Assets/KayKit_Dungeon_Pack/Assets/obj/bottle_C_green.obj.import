@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ba62xjbh22px7"
-path="res://.godot/imported/bottle_C_green.obj-7e2361d793ae4d95276691ff1d0fdd33.mesh"
+path="res://.godot/imported/bottle_C_green.obj-cf05579102f90b6999d4bc8aa44e0ebc.mesh"
 
 [deps]
 
-files=["res://.godot/imported/bottle_C_green.obj-7e2361d793ae4d95276691ff1d0fdd33.mesh"]
+files=["res://.godot/imported/bottle_C_green.obj-cf05579102f90b6999d4bc8aa44e0ebc.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/bottle_C_green.obj"
-dest_files=["res://.godot/imported/bottle_C_green.obj-7e2361d793ae4d95276691ff1d0fdd33.mesh", "res://.godot/imported/bottle_C_green.obj-7e2361d793ae4d95276691ff1d0fdd33.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/bottle_C_green.obj"
+dest_files=["res://.godot/imported/bottle_C_green.obj-cf05579102f90b6999d4bc8aa44e0ebc.mesh", "res://.godot/imported/bottle_C_green.obj-cf05579102f90b6999d4bc8aa44e0ebc.mesh"]
 
 [params]
 

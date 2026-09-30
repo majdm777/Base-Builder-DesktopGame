@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d22wulxm5s2ve"
-path="res://.godot/imported/sampleB.png-ec6839210bafee12b2b7bb61f4de9813.ctex"
+path="res://.godot/imported/sampleB.png-33df052e168cd83f87915b0013bdb56b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Samples/sampleB.png"
-dest_files=["res://.godot/imported/sampleB.png-ec6839210bafee12b2b7bb61f4de9813.ctex"]
+source_file="res://Assets/Kaykit_builder/Samples/sampleB.png"
+dest_files=["res://.godot/imported/sampleB.png-33df052e168cd83f87915b0013bdb56b.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bfmoiemxxfrba"
-path="res://.godot/imported/waterplant_B.gltf-e733b3da8513fbb50186aa9ac639aa3b.scn"
+path="res://.godot/imported/waterplant_B.gltf-2537e6541a60ee84223c4dfbb44be7bc.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/waterplant_B.gltf"
-dest_files=["res://.godot/imported/waterplant_B.gltf-e733b3da8513fbb50186aa9ac639aa3b.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/nature/waterplant_B.gltf"
+dest_files=["res://.godot/imported/waterplant_B.gltf-2537e6541a60ee84223c4dfbb44be7bc.scn"]
 
 [params]
 

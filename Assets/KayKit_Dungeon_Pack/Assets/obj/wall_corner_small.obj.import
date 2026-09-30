@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ccvkcfxvk5nsr"
-path="res://.godot/imported/wall_corner_small.obj-51761bfb855d9f89bc935bfffcaebbd8.mesh"
+path="res://.godot/imported/wall_corner_small.obj-bb01bcf9ceb7d64d61a0e5f5e033fb05.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_corner_small.obj-51761bfb855d9f89bc935bfffcaebbd8.mesh"]
+files=["res://.godot/imported/wall_corner_small.obj-bb01bcf9ceb7d64d61a0e5f5e033fb05.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/wall_corner_small.obj"
-dest_files=["res://.godot/imported/wall_corner_small.obj-51761bfb855d9f89bc935bfffcaebbd8.mesh", "res://.godot/imported/wall_corner_small.obj-51761bfb855d9f89bc935bfffcaebbd8.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/wall_corner_small.obj"
+dest_files=["res://.godot/imported/wall_corner_small.obj-bb01bcf9ceb7d64d61a0e5f5e033fb05.mesh", "res://.godot/imported/wall_corner_small.obj-bb01bcf9ceb7d64d61a0e5f5e033fb05.mesh"]
 
 [params]
 

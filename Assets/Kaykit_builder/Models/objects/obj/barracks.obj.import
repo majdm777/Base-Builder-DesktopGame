@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dc554sunj1tll"
-path="res://.godot/imported/barracks.obj-f7947145d6c1c1987ed08126a5001375.mesh"
+path="res://.godot/imported/barracks.obj-40bca32b58e9f7440de3d3d227db92b6.mesh"
 
 [deps]
 
-files=["res://.godot/imported/barracks.obj-f7947145d6c1c1987ed08126a5001375.mesh"]
+files=["res://.godot/imported/barracks.obj-40bca32b58e9f7440de3d3d227db92b6.mesh"]
 
-source_file="res://Assets/Models/objects/obj/barracks.obj"
-dest_files=["res://.godot/imported/barracks.obj-f7947145d6c1c1987ed08126a5001375.mesh", "res://.godot/imported/barracks.obj-f7947145d6c1c1987ed08126a5001375.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/barracks.obj"
+dest_files=["res://.godot/imported/barracks.obj-40bca32b58e9f7440de3d3d227db92b6.mesh", "res://.godot/imported/barracks.obj-40bca32b58e9f7440de3d3d227db92b6.mesh"]
 
 [params]
 

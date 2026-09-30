@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bgm3jivlm5jin"
-path="res://.godot/imported/nail.obj-6f2cb00f3d37e57d10f33b9a8421f783.mesh"
+path="res://.godot/imported/nail.obj-4c0550680b1d53c171cd3d04e196dd5d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/nail.obj-6f2cb00f3d37e57d10f33b9a8421f783.mesh"]
+files=["res://.godot/imported/nail.obj-4c0550680b1d53c171cd3d04e196dd5d.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/nail.obj"
-dest_files=["res://.godot/imported/nail.obj-6f2cb00f3d37e57d10f33b9a8421f783.mesh", "res://.godot/imported/nail.obj-6f2cb00f3d37e57d10f33b9a8421f783.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/nail.obj"
+dest_files=["res://.godot/imported/nail.obj-4c0550680b1d53c171cd3d04e196dd5d.mesh", "res://.godot/imported/nail.obj-4c0550680b1d53c171cd3d04e196dd5d.mesh"]
 
 [params]
 

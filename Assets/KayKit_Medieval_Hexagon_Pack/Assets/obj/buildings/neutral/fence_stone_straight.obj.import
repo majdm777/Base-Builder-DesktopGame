@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dikji7joi0n3p"
-path="res://.godot/imported/fence_stone_straight.obj-45e64465ee973f46680f9bfea985613e.mesh"
+path="res://.godot/imported/fence_stone_straight.obj-45b6c7d14d590335a5961059c6a0127e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/fence_stone_straight.obj-45e64465ee973f46680f9bfea985613e.mesh"]
+files=["res://.godot/imported/fence_stone_straight.obj-45b6c7d14d590335a5961059c6a0127e.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/fence_stone_straight.obj"
-dest_files=["res://.godot/imported/fence_stone_straight.obj-45e64465ee973f46680f9bfea985613e.mesh", "res://.godot/imported/fence_stone_straight.obj-45e64465ee973f46680f9bfea985613e.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/fence_stone_straight.obj"
+dest_files=["res://.godot/imported/fence_stone_straight.obj-45b6c7d14d590335a5961059c6a0127e.mesh", "res://.godot/imported/fence_stone_straight.obj-45b6c7d14d590335a5961059c6a0127e.mesh"]
 
 [params]
 

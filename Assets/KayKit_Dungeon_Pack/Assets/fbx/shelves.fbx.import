@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c3syf2r5vl5je"
-path="res://.godot/imported/shelves.fbx-bc39efa4dc457a845dbbc9ebc170e826.scn"
+path="res://.godot/imported/shelves.fbx-7f3a416e818688496075f53dc4fcda6f.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/shelves.fbx"
-dest_files=["res://.godot/imported/shelves.fbx-bc39efa4dc457a845dbbc9ebc170e826.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/shelves.fbx"
+dest_files=["res://.godot/imported/shelves.fbx-7f3a416e818688496075f53dc4fcda6f.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b0j0h2wlqntbw"
-path="res://.godot/imported/floor_foundation_corner.gltf-5da69ce9152a8a6e61481bd05c35e22c.scn"
+path="res://.godot/imported/floor_foundation_corner.gltf-240d1618494a12337444bbcf35783740.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/floor_foundation_corner.gltf"
-dest_files=["res://.godot/imported/floor_foundation_corner.gltf-5da69ce9152a8a6e61481bd05c35e22c.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/floor_foundation_corner.gltf"
+dest_files=["res://.godot/imported/floor_foundation_corner.gltf-240d1618494a12337444bbcf35783740.scn"]
 
 [params]
 

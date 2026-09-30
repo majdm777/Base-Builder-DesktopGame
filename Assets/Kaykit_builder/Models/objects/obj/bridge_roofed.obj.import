@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://j0344h0y1u2r"
-path="res://.godot/imported/bridge_roofed.obj-2a4d66c2a6dd8dc5ff07b67a172a36bc.mesh"
+path="res://.godot/imported/bridge_roofed.obj-dbe72bc418808403ae63a4f3e674c964.mesh"
 
 [deps]
 
-files=["res://.godot/imported/bridge_roofed.obj-2a4d66c2a6dd8dc5ff07b67a172a36bc.mesh"]
+files=["res://.godot/imported/bridge_roofed.obj-dbe72bc418808403ae63a4f3e674c964.mesh"]
 
-source_file="res://Assets/Models/objects/obj/bridge_roofed.obj"
-dest_files=["res://.godot/imported/bridge_roofed.obj-2a4d66c2a6dd8dc5ff07b67a172a36bc.mesh", "res://.godot/imported/bridge_roofed.obj-2a4d66c2a6dd8dc5ff07b67a172a36bc.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/bridge_roofed.obj"
+dest_files=["res://.godot/imported/bridge_roofed.obj-dbe72bc418808403ae63a4f3e674c964.mesh", "res://.godot/imported/bridge_roofed.obj-dbe72bc418808403ae63a4f3e674c964.mesh"]
 
 [params]
 

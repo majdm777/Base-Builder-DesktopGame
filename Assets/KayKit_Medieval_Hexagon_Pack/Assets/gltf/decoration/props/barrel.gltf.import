@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c27xalu6kxp1j"
-path="res://.godot/imported/barrel.gltf-b51880ce6a0ef0ab6625121a4ed77a05.scn"
+path="res://.godot/imported/barrel.gltf-525ad7f31c8953bce7b5164126534e4a.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/barrel.gltf"
-dest_files=["res://.godot/imported/barrel.gltf-b51880ce6a0ef0ab6625121a4ed77a05.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/decoration/props/barrel.gltf"
+dest_files=["res://.godot/imported/barrel.gltf-525ad7f31c8953bce7b5164126534e4a.scn"]
 
 [params]
 

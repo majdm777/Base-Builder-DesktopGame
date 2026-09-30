@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cnfj6aygs5732"
-path="res://.godot/imported/mountain.fbx-b88ca5a4bc2bf6dcd3dfe08c1289285f.scn"
+path="res://.godot/imported/mountain.fbx-c1566647d56bd92e16746c3f99fcd129.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/mountain.fbx"
-dest_files=["res://.godot/imported/mountain.fbx-b88ca5a4bc2bf6dcd3dfe08c1289285f.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/mountain.fbx"
+dest_files=["res://.godot/imported/mountain.fbx-c1566647d56bd92e16746c3f99fcd129.scn"]
 
 [params]
 

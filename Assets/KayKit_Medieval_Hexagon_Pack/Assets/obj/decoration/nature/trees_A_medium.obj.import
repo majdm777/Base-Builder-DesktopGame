@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://pvsniuw5mrld"
-path="res://.godot/imported/trees_A_medium.obj-e51b6e9d156d8efc8b79e9d6f0eb822e.mesh"
+path="res://.godot/imported/trees_A_medium.obj-f71e09387689898625ee40db61de6f1b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/trees_A_medium.obj-e51b6e9d156d8efc8b79e9d6f0eb822e.mesh"]
+files=["res://.godot/imported/trees_A_medium.obj-f71e09387689898625ee40db61de6f1b.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/nature/trees_A_medium.obj"
-dest_files=["res://.godot/imported/trees_A_medium.obj-e51b6e9d156d8efc8b79e9d6f0eb822e.mesh", "res://.godot/imported/trees_A_medium.obj-e51b6e9d156d8efc8b79e9d6f0eb822e.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/trees_A_medium.obj"
+dest_files=["res://.godot/imported/trees_A_medium.obj-f71e09387689898625ee40db61de6f1b.mesh", "res://.godot/imported/trees_A_medium.obj-f71e09387689898625ee40db61de6f1b.mesh"]
 
 [params]
 

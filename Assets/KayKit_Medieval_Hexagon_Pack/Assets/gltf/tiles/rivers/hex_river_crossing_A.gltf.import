@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ctj2wa5pnlngj"
-path="res://.godot/imported/hex_river_crossing_A.gltf-48fed002cd2d03ecf4d42c7a7ca9c414.scn"
+path="res://.godot/imported/hex_river_crossing_A.gltf-901998fb5b93f9c283144b0c12547747.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_crossing_A.gltf"
-dest_files=["res://.godot/imported/hex_river_crossing_A.gltf-48fed002cd2d03ecf4d42c7a7ca9c414.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/tiles/rivers/hex_river_crossing_A.gltf"
+dest_files=["res://.godot/imported/hex_river_crossing_A.gltf-901998fb5b93f9c283144b0c12547747.scn"]
 
 [params]
 

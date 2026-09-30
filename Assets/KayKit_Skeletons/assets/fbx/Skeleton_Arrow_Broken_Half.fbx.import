@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bbljns4aektlv"
-path="res://.godot/imported/Skeleton_Arrow_Broken_Half.fbx-8e1c6d2e1f2447c3e590bf25a34c1533.scn"
+path="res://.godot/imported/Skeleton_Arrow_Broken_Half.fbx-cec895c3bfa763a3ece732218224c51c.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/fbx/Skeleton_Arrow_Broken_Half.fbx"
-dest_files=["res://.godot/imported/Skeleton_Arrow_Broken_Half.fbx-8e1c6d2e1f2447c3e590bf25a34c1533.scn"]
+source_file="res://Assets/KayKit_Skeletons/assets/fbx/Skeleton_Arrow_Broken_Half.fbx"
+dest_files=["res://.godot/imported/Skeleton_Arrow_Broken_Half.fbx-cec895c3bfa763a3ece732218224c51c.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cnq3ag6e8pbov"
-path="res://.godot/imported/wall_crossing.fbx-e01d08e7cce4b83eb7bf8d8c6e0344ea.scn"
+path="res://.godot/imported/wall_crossing.fbx-1ac61f5a9fe36aa322b69d1c13d12273.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/wall_crossing.fbx"
-dest_files=["res://.godot/imported/wall_crossing.fbx-e01d08e7cce4b83eb7bf8d8c6e0344ea.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/wall_crossing.fbx"
+dest_files=["res://.godot/imported/wall_crossing.fbx-1ac61f5a9fe36aa322b69d1c13d12273.scn"]
 
 [params]
 

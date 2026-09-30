@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://67ajsh2p53wi"
-path="res://.godot/imported/barrier_column.obj-624b985a92f6d53dfbd3662e19e79d0e.mesh"
+path="res://.godot/imported/barrier_column.obj-2315759a3647250515314074d6a8717c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/barrier_column.obj-624b985a92f6d53dfbd3662e19e79d0e.mesh"]
+files=["res://.godot/imported/barrier_column.obj-2315759a3647250515314074d6a8717c.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/barrier_column.obj"
-dest_files=["res://.godot/imported/barrier_column.obj-624b985a92f6d53dfbd3662e19e79d0e.mesh", "res://.godot/imported/barrier_column.obj-624b985a92f6d53dfbd3662e19e79d0e.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/barrier_column.obj"
+dest_files=["res://.godot/imported/barrier_column.obj-2315759a3647250515314074d6a8717c.mesh", "res://.godot/imported/barrier_column.obj-2315759a3647250515314074d6a8717c.mesh"]
 
 [params]
 

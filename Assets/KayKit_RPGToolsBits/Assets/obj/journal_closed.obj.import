@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ca56oerasj46w"
-path="res://.godot/imported/journal_closed.obj-fb5e40753ba090de4473874245af2591.mesh"
+path="res://.godot/imported/journal_closed.obj-104b1f73034603f09fd79588ef29e5ec.mesh"
 
 [deps]
 
-files=["res://.godot/imported/journal_closed.obj-fb5e40753ba090de4473874245af2591.mesh"]
+files=["res://.godot/imported/journal_closed.obj-104b1f73034603f09fd79588ef29e5ec.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/journal_closed.obj"
-dest_files=["res://.godot/imported/journal_closed.obj-fb5e40753ba090de4473874245af2591.mesh", "res://.godot/imported/journal_closed.obj-fb5e40753ba090de4473874245af2591.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/journal_closed.obj"
+dest_files=["res://.godot/imported/journal_closed.obj-104b1f73034603f09fd79588ef29e5ec.mesh", "res://.godot/imported/journal_closed.obj-104b1f73034603f09fd79588ef29e5ec.mesh"]
 
 [params]
 

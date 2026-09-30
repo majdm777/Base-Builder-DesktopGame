@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dqve3kfxf8doo"
-path="res://.godot/imported/resource_lumber.fbx-c5070dd51d431491b34f830d621b1c8e.scn"
+path="res://.godot/imported/resource_lumber.fbx-118c2acf8187f16112b7111aa20546c9.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/decoration/props/resource_lumber.fbx"
-dest_files=["res://.godot/imported/resource_lumber.fbx-c5070dd51d431491b34f830d621b1c8e.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/decoration/props/resource_lumber.fbx"
+dest_files=["res://.godot/imported/resource_lumber.fbx-118c2acf8187f16112b7111aa20546c9.scn"]
 
 [params]
 

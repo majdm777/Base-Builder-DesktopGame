@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://i4ruepvuvalj"
-path="res://.godot/imported/chest_gold_lid.obj-2595c4b4bfc091b4a86c9a057e979787.mesh"
+path="res://.godot/imported/chest_gold_lid.obj-34ee135a6c76b85abe09662a2b218bb4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/chest_gold_lid.obj-2595c4b4bfc091b4a86c9a057e979787.mesh"]
+files=["res://.godot/imported/chest_gold_lid.obj-34ee135a6c76b85abe09662a2b218bb4.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/chest_gold_lid.obj"
-dest_files=["res://.godot/imported/chest_gold_lid.obj-2595c4b4bfc091b4a86c9a057e979787.mesh", "res://.godot/imported/chest_gold_lid.obj-2595c4b4bfc091b4a86c9a057e979787.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/chest_gold_lid.obj"
+dest_files=["res://.godot/imported/chest_gold_lid.obj-34ee135a6c76b85abe09662a2b218bb4.mesh", "res://.godot/imported/chest_gold_lid.obj-34ee135a6c76b85abe09662a2b218bb4.mesh"]
 
 [params]
 

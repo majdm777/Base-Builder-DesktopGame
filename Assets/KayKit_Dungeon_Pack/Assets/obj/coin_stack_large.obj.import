@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bkj5n8cuer2up"
-path="res://.godot/imported/coin_stack_large.obj-dd7c4a92fd4761aba49ceab1bcf2a2f9.mesh"
+path="res://.godot/imported/coin_stack_large.obj-2fd09f6b7afa2e6ca38669e38f4920f1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/coin_stack_large.obj-dd7c4a92fd4761aba49ceab1bcf2a2f9.mesh"]
+files=["res://.godot/imported/coin_stack_large.obj-2fd09f6b7afa2e6ca38669e38f4920f1.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/coin_stack_large.obj"
-dest_files=["res://.godot/imported/coin_stack_large.obj-dd7c4a92fd4761aba49ceab1bcf2a2f9.mesh", "res://.godot/imported/coin_stack_large.obj-dd7c4a92fd4761aba49ceab1bcf2a2f9.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/coin_stack_large.obj"
+dest_files=["res://.godot/imported/coin_stack_large.obj-2fd09f6b7afa2e6ca38669e38f4920f1.mesh", "res://.godot/imported/coin_stack_large.obj-2fd09f6b7afa2e6ca38669e38f4920f1.mesh"]
 
 [params]
 

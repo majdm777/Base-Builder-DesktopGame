@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dtd7ydnb8xcde"
-path="res://.godot/imported/screwdriver_B_short.obj-b8358288123827c821e92949ec50eaab.mesh"
+path="res://.godot/imported/screwdriver_B_short.obj-3af5686b1673db126ee96be22f42a896.mesh"
 
 [deps]
 
-files=["res://.godot/imported/screwdriver_B_short.obj-b8358288123827c821e92949ec50eaab.mesh"]
+files=["res://.godot/imported/screwdriver_B_short.obj-3af5686b1673db126ee96be22f42a896.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/screwdriver_B_short.obj"
-dest_files=["res://.godot/imported/screwdriver_B_short.obj-b8358288123827c821e92949ec50eaab.mesh", "res://.godot/imported/screwdriver_B_short.obj-b8358288123827c821e92949ec50eaab.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/screwdriver_B_short.obj"
+dest_files=["res://.godot/imported/screwdriver_B_short.obj-3af5686b1673db126ee96be22f42a896.mesh", "res://.godot/imported/screwdriver_B_short.obj-3af5686b1673db126ee96be22f42a896.mesh"]
 
 [params]
 

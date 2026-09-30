@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cv6ace3v86lhc"
-path="res://.godot/imported/spellbook_closed.fbx-362adecf9a3c13ad59cbcd407be4111d.scn"
+path="res://.godot/imported/spellbook_closed.fbx-e4b1c9b62c9dd7684f5a95c42a441067.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/fbx/spellbook_closed.fbx"
-dest_files=["res://.godot/imported/spellbook_closed.fbx-362adecf9a3c13ad59cbcd407be4111d.scn"]
+source_file="res://Assets/KayKit_Adventurers/Assets/fbx/spellbook_closed.fbx"
+dest_files=["res://.godot/imported/spellbook_closed.fbx-e4b1c9b62c9dd7684f5a95c42a441067.scn"]
 
 [params]
 

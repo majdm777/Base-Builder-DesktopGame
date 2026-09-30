@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cyy5fjs34xljm"
-path="res://.godot/imported/building_tower_A_blue_building_tower_A_top_blue.obj-fdc1fdee04dbc192105e40420814e158.mesh"
+path="res://.godot/imported/building_tower_A_blue_building_tower_A_top_blue.obj-f0cbaa7e23ed961b01bb983aa844bd0e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_tower_A_blue_building_tower_A_top_blue.obj-fdc1fdee04dbc192105e40420814e158.mesh"]
+files=["res://.godot/imported/building_tower_A_blue_building_tower_A_top_blue.obj-f0cbaa7e23ed961b01bb983aa844bd0e.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/blue/building_tower_A_blue_building_tower_A_top_blue.obj"
-dest_files=["res://.godot/imported/building_tower_A_blue_building_tower_A_top_blue.obj-fdc1fdee04dbc192105e40420814e158.mesh", "res://.godot/imported/building_tower_A_blue_building_tower_A_top_blue.obj-fdc1fdee04dbc192105e40420814e158.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_tower_A_blue_building_tower_A_top_blue.obj"
+dest_files=["res://.godot/imported/building_tower_A_blue_building_tower_A_top_blue.obj-f0cbaa7e23ed961b01bb983aa844bd0e.mesh", "res://.godot/imported/building_tower_A_blue_building_tower_A_top_blue.obj-f0cbaa7e23ed961b01bb983aa844bd0e.mesh"]
 
 [params]
 

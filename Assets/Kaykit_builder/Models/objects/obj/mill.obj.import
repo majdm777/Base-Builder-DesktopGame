@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dwih5lmov4p3k"
-path="res://.godot/imported/mill.obj-4ec678ebdf44217be3a58d405681c49b.mesh"
+path="res://.godot/imported/mill.obj-1133ca42968d03417ffd55d4736b5325.mesh"
 
 [deps]
 
-files=["res://.godot/imported/mill.obj-4ec678ebdf44217be3a58d405681c49b.mesh"]
+files=["res://.godot/imported/mill.obj-1133ca42968d03417ffd55d4736b5325.mesh"]
 
-source_file="res://Assets/Models/objects/obj/mill.obj"
-dest_files=["res://.godot/imported/mill.obj-4ec678ebdf44217be3a58d405681c49b.mesh", "res://.godot/imported/mill.obj-4ec678ebdf44217be3a58d405681c49b.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/mill.obj"
+dest_files=["res://.godot/imported/mill.obj-1133ca42968d03417ffd55d4736b5325.mesh", "res://.godot/imported/mill.obj-1133ca42968d03417ffd55d4736b5325.mesh"]
 
 [params]
 

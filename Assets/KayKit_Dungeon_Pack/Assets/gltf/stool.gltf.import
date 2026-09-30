@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bpgnqsna7f8u8"
-path="res://.godot/imported/stool.gltf-0c492228a5f16a3d48f9cd65d4d297e1.scn"
+path="res://.godot/imported/stool.gltf-2bf97e30f7fd6d08d02ec84f5c8c8a57.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/stool.gltf"
-dest_files=["res://.godot/imported/stool.gltf-0c492228a5f16a3d48f9cd65d4d297e1.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/stool.gltf"
+dest_files=["res://.godot/imported/stool.gltf-2bf97e30f7fd6d08d02ec84f5c8c8a57.scn"]
 
 [params]
 

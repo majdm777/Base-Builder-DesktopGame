@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bnjj3yu3ictad"
-path="res://.godot/imported/barrel.obj-502bdfcfd0697ada9e1e70291b7e3c90.mesh"
+path="res://.godot/imported/barrel.obj-a8cb98c4309423ecea9773f1435c2edf.mesh"
 
 [deps]
 
-files=["res://.godot/imported/barrel.obj-502bdfcfd0697ada9e1e70291b7e3c90.mesh"]
+files=["res://.godot/imported/barrel.obj-a8cb98c4309423ecea9773f1435c2edf.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/barrel.obj"
-dest_files=["res://.godot/imported/barrel.obj-502bdfcfd0697ada9e1e70291b7e3c90.mesh", "res://.godot/imported/barrel.obj-502bdfcfd0697ada9e1e70291b7e3c90.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/barrel.obj"
+dest_files=["res://.godot/imported/barrel.obj-a8cb98c4309423ecea9773f1435c2edf.mesh", "res://.godot/imported/barrel.obj-a8cb98c4309423ecea9773f1435c2edf.mesh"]
 
 [params]
 

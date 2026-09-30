@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://yqoamrxroett"
-path="res://.godot/imported/wall_archedwindow_gated.fbx-8effc907506f17d88159b78f53068e87.scn"
+path="res://.godot/imported/wall_archedwindow_gated.fbx-b59bfe57e0be308efc98d59943fa2e79.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/wall_archedwindow_gated.fbx"
-dest_files=["res://.godot/imported/wall_archedwindow_gated.fbx-8effc907506f17d88159b78f53068e87.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/wall_archedwindow_gated.fbx"
+dest_files=["res://.godot/imported/wall_archedwindow_gated.fbx-b59bfe57e0be308efc98d59943fa2e79.scn"]
 
 [params]
 

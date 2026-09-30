@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://esijoae8la04"
-path="res://.godot/imported/cloud_big.fbx-81004c1b185a5080c07c740efd7038df.scn"
+path="res://.godot/imported/cloud_big.fbx-9ac9987d364fefc5db966944e9937b17.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/decoration/nature/cloud_big.fbx"
-dest_files=["res://.godot/imported/cloud_big.fbx-81004c1b185a5080c07c740efd7038df.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/decoration/nature/cloud_big.fbx"
+dest_files=["res://.godot/imported/cloud_big.fbx-9ac9987d364fefc5db966944e9937b17.scn"]
 
 [params]
 

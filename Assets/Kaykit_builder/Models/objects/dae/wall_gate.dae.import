@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgg1n47qk6xaq"
-path="res://.godot/imported/wall_gate.dae-6f8b18e0dd09fe3c7563ed0f413cde2e.scn"
+path="res://.godot/imported/wall_gate.dae-2c743688c468c5ed175913a73d8e201c.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/dae/wall_gate.dae"
-dest_files=["res://.godot/imported/wall_gate.dae-6f8b18e0dd09fe3c7563ed0f413cde2e.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/dae/wall_gate.dae"
+dest_files=["res://.godot/imported/wall_gate.dae-2c743688c468c5ed175913a73d8e201c.scn"]
 
 [params]
 

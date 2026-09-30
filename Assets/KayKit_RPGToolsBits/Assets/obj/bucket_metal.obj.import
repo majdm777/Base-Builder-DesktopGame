@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cvhu5g0olfa87"
-path="res://.godot/imported/bucket_metal.obj-676c57cc99b8d10b50bc55e97d6df439.mesh"
+path="res://.godot/imported/bucket_metal.obj-b5e523ac9a01ba5d1fab20aabba65440.mesh"
 
 [deps]
 
-files=["res://.godot/imported/bucket_metal.obj-676c57cc99b8d10b50bc55e97d6df439.mesh"]
+files=["res://.godot/imported/bucket_metal.obj-b5e523ac9a01ba5d1fab20aabba65440.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/bucket_metal.obj"
-dest_files=["res://.godot/imported/bucket_metal.obj-676c57cc99b8d10b50bc55e97d6df439.mesh", "res://.godot/imported/bucket_metal.obj-676c57cc99b8d10b50bc55e97d6df439.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/bucket_metal.obj"
+dest_files=["res://.godot/imported/bucket_metal.obj-b5e523ac9a01ba5d1fab20aabba65440.mesh", "res://.godot/imported/bucket_metal.obj-b5e523ac9a01ba5d1fab20aabba65440.mesh"]
 
 [params]
 

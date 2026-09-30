@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hmx68l0hjqxp"
-path="res://.godot/imported/table_long_broken.gltf-41ebeed46380709482e1c98b939d880b.scn"
+path="res://.godot/imported/table_long_broken.gltf-4bad0b970cea9217574b40a7e60cd676.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/table_long_broken.gltf"
-dest_files=["res://.godot/imported/table_long_broken.gltf-41ebeed46380709482e1c98b939d880b.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/table_long_broken.gltf"
+dest_files=["res://.godot/imported/table_long_broken.gltf-4bad0b970cea9217574b40a7e60cd676.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://khpr6xr6bxjd"
-path="res://.godot/imported/floor_dirt_small_C.fbx-564a8d38db2c2b5786d984ab61c3c74e.scn"
+path="res://.godot/imported/floor_dirt_small_C.fbx-9b8d6b7f669178c48cd46d795a5b64ea.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_small_C.fbx"
-dest_files=["res://.godot/imported/floor_dirt_small_C.fbx-564a8d38db2c2b5786d984ab61c3c74e.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx/floor_dirt_small_C.fbx"
+dest_files=["res://.godot/imported/floor_dirt_small_C.fbx-9b8d6b7f669178c48cd46d795a5b64ea.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bp2imissdonly"
-path="res://.godot/imported/trunk_large_C.gltf-03010f1fd18bcfce4e17d0c72c8f8ecb.scn"
+path="res://.godot/imported/trunk_large_C.gltf-08b96013feb8506555b6d9c48903d24a.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/trunk_large_C.gltf"
-dest_files=["res://.godot/imported/trunk_large_C.gltf-03010f1fd18bcfce4e17d0c72c8f8ecb.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/trunk_large_C.gltf"
+dest_files=["res://.godot/imported/trunk_large_C.gltf-08b96013feb8506555b6d9c48903d24a.scn"]
 
 [params]
 

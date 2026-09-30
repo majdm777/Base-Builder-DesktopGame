@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://4gp2cq4ychg2"
-path="res://.godot/imported/trunk_small_A.obj-2e9eeea4b3040527cb2a2a959ee20e40.mesh"
+path="res://.godot/imported/trunk_small_A.obj-4834f51bd7175e61319c41b825828ed5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/trunk_small_A.obj-2e9eeea4b3040527cb2a2a959ee20e40.mesh"]
+files=["res://.godot/imported/trunk_small_A.obj-4834f51bd7175e61319c41b825828ed5.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/trunk_small_A.obj"
-dest_files=["res://.godot/imported/trunk_small_A.obj-2e9eeea4b3040527cb2a2a959ee20e40.mesh", "res://.godot/imported/trunk_small_A.obj-2e9eeea4b3040527cb2a2a959ee20e40.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/trunk_small_A.obj"
+dest_files=["res://.godot/imported/trunk_small_A.obj-4834f51bd7175e61319c41b825828ed5.mesh", "res://.godot/imported/trunk_small_A.obj-4834f51bd7175e61319c41b825828ed5.mesh"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxavy7ekla0bk"
-path.s3tc="res://.godot/imported/Ranger_ranger_texture.png-15299c26c3f38b2ad99da04322474846.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ranger_ranger_texture.png-aa50c652b8cbdf6c3118f28e6553b472.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Characters/gltf/Ranger_ranger_texture.png"
-dest_files=["res://.godot/imported/Ranger_ranger_texture.png-15299c26c3f38b2ad99da04322474846.s3tc.ctex"]
+source_file="res://Assets/KayKit_Adventurers/Characters/gltf/Ranger_ranger_texture.png"
+dest_files=["res://.godot/imported/Ranger_ranger_texture.png-aa50c652b8cbdf6c3118f28e6553b472.s3tc.ctex"]
 
 [params]
 

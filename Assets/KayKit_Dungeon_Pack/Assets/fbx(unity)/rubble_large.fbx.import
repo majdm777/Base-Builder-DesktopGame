@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://v2n6e1w0ia78"
-path="res://.godot/imported/rubble_large.fbx-4c0142645cb9dd41980093296a5bec66.scn"
+path="res://.godot/imported/rubble_large.fbx-c26e0824c089ec2d26c381974038e0b9.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx(unity)/rubble_large.fbx"
-dest_files=["res://.godot/imported/rubble_large.fbx-4c0142645cb9dd41980093296a5bec66.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/fbx(unity)/rubble_large.fbx"
+dest_files=["res://.godot/imported/rubble_large.fbx-c26e0824c089ec2d26c381974038e0b9.scn"]
 
 [params]
 

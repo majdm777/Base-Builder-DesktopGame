@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dh2j3qjrlor41"
-path="res://.godot/imported/Iron_Bar.obj-42a589c404cb763a0be7e9daea787364.mesh"
+path="res://.godot/imported/Iron_Bar.obj-79acca6c48bbee81afd7dc1385b3b19b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Iron_Bar.obj-42a589c404cb763a0be7e9daea787364.mesh"]
+files=["res://.godot/imported/Iron_Bar.obj-79acca6c48bbee81afd7dc1385b3b19b.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Bar.obj"
-dest_files=["res://.godot/imported/Iron_Bar.obj-42a589c404cb763a0be7e9daea787364.mesh", "res://.godot/imported/Iron_Bar.obj-42a589c404cb763a0be7e9daea787364.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Bar.obj"
+dest_files=["res://.godot/imported/Iron_Bar.obj-79acca6c48bbee81afd7dc1385b3b19b.mesh", "res://.godot/imported/Iron_Bar.obj-79acca6c48bbee81afd7dc1385b3b19b.mesh"]
 
 [params]
 

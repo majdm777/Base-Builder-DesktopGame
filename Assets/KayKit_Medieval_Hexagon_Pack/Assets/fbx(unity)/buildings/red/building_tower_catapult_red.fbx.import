@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://6p2g7rjlokno"
-path="res://.godot/imported/building_tower_catapult_red.fbx-8a2f504e61dcbda158d4b0f2c5a63110.scn"
+path="res://.godot/imported/building_tower_catapult_red.fbx-357030198eb392fbdfe0c1df08a6b1bf.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/buildings/red/building_tower_catapult_red.fbx"
-dest_files=["res://.godot/imported/building_tower_catapult_red.fbx-8a2f504e61dcbda158d4b0f2c5a63110.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/buildings/red/building_tower_catapult_red.fbx"
+dest_files=["res://.godot/imported/building_tower_catapult_red.fbx-357030198eb392fbdfe0c1df08a6b1bf.scn"]
 
 [params]
 

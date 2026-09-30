@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://djevtue1um5p"
-path="res://.godot/imported/magnifying_glass.fbx-efe39fa5b5a6790b03b04df98ce3553b.scn"
+path="res://.godot/imported/magnifying_glass.fbx-892c025acef117293bcd1b1641851d58.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/magnifying_glass.fbx"
-dest_files=["res://.godot/imported/magnifying_glass.fbx-efe39fa5b5a6790b03b04df98ce3553b.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/magnifying_glass.fbx"
+dest_files=["res://.godot/imported/magnifying_glass.fbx-892c025acef117293bcd1b1641851d58.scn"]
 
 [params]
 

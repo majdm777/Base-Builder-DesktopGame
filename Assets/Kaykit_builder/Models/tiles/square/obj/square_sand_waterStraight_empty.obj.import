@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cy74dqmhyomca"
-path="res://.godot/imported/square_sand_waterStraight_empty.obj-a372707d11045d3c0c8113c4539cea43.mesh"
+path="res://.godot/imported/square_sand_waterStraight_empty.obj-bf6fe46d2e5f6650fe33824e1e64aee2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_sand_waterStraight_empty.obj-a372707d11045d3c0c8113c4539cea43.mesh"]
+files=["res://.godot/imported/square_sand_waterStraight_empty.obj-bf6fe46d2e5f6650fe33824e1e64aee2.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_sand_waterStraight_empty.obj"
-dest_files=["res://.godot/imported/square_sand_waterStraight_empty.obj-a372707d11045d3c0c8113c4539cea43.mesh", "res://.godot/imported/square_sand_waterStraight_empty.obj-a372707d11045d3c0c8113c4539cea43.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_sand_waterStraight_empty.obj"
+dest_files=["res://.godot/imported/square_sand_waterStraight_empty.obj-bf6fe46d2e5f6650fe33824e1e64aee2.mesh", "res://.godot/imported/square_sand_waterStraight_empty.obj-bf6fe46d2e5f6650fe33824e1e64aee2.mesh"]
 
 [params]
 

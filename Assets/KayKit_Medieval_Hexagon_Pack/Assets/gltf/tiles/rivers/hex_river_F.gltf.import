@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dg5ci4wujegf0"
-path="res://.godot/imported/hex_river_F.gltf-493dda7a16b6a948a58f43875efc0231.scn"
+path="res://.godot/imported/hex_river_F.gltf-e40842316e584b1d4a4d429c36237ae2.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_F.gltf"
-dest_files=["res://.godot/imported/hex_river_F.gltf-493dda7a16b6a948a58f43875efc0231.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/tiles/rivers/hex_river_F.gltf"
+dest_files=["res://.godot/imported/hex_river_F.gltf-e40842316e584b1d4a4d429c36237ae2.scn"]
 
 [params]
 

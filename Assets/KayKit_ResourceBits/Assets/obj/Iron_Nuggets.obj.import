@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cxdu3yrgupo1a"
-path="res://.godot/imported/Iron_Nuggets.obj-d97a53be72fd35a65e3cdd56c6d7215d.mesh"
+path="res://.godot/imported/Iron_Nuggets.obj-d211251bfd6730c834a6ab590fa1919d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Iron_Nuggets.obj-d97a53be72fd35a65e3cdd56c6d7215d.mesh"]
+files=["res://.godot/imported/Iron_Nuggets.obj-d211251bfd6730c834a6ab590fa1919d.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Iron_Nuggets.obj"
-dest_files=["res://.godot/imported/Iron_Nuggets.obj-d97a53be72fd35a65e3cdd56c6d7215d.mesh", "res://.godot/imported/Iron_Nuggets.obj-d97a53be72fd35a65e3cdd56c6d7215d.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Iron_Nuggets.obj"
+dest_files=["res://.godot/imported/Iron_Nuggets.obj-d211251bfd6730c834a6ab590fa1919d.mesh", "res://.godot/imported/Iron_Nuggets.obj-d211251bfd6730c834a6ab590fa1919d.mesh"]
 
 [params]
 

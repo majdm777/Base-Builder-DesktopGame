@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dom617hvwknvf"
-path="res://.godot/imported/lumbermill.obj-9d22cfe862e34630785ac8f26aa940d6.mesh"
+path="res://.godot/imported/lumbermill.obj-0516a667595457529df08ece8c79f691.mesh"
 
 [deps]
 
-files=["res://.godot/imported/lumbermill.obj-9d22cfe862e34630785ac8f26aa940d6.mesh"]
+files=["res://.godot/imported/lumbermill.obj-0516a667595457529df08ece8c79f691.mesh"]
 
-source_file="res://Assets/Models/objects/obj/lumbermill.obj"
-dest_files=["res://.godot/imported/lumbermill.obj-9d22cfe862e34630785ac8f26aa940d6.mesh", "res://.godot/imported/lumbermill.obj-9d22cfe862e34630785ac8f26aa940d6.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/lumbermill.obj"
+dest_files=["res://.godot/imported/lumbermill.obj-0516a667595457529df08ece8c79f691.mesh", "res://.godot/imported/lumbermill.obj-0516a667595457529df08ece8c79f691.mesh"]
 
 [params]
 

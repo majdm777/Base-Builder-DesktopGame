@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cq2sqq3gy7svp"
-path="res://.godot/imported/square_forest_waterOuterCorner_empty.obj-bceb65635dea82cdf2d47ffbb05c4bcc.mesh"
+path="res://.godot/imported/square_forest_waterOuterCorner_empty.obj-9dc2e0bcae284df210e11ef50f022ddc.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_forest_waterOuterCorner_empty.obj-bceb65635dea82cdf2d47ffbb05c4bcc.mesh"]
+files=["res://.godot/imported/square_forest_waterOuterCorner_empty.obj-9dc2e0bcae284df210e11ef50f022ddc.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_forest_waterOuterCorner_empty.obj"
-dest_files=["res://.godot/imported/square_forest_waterOuterCorner_empty.obj-bceb65635dea82cdf2d47ffbb05c4bcc.mesh", "res://.godot/imported/square_forest_waterOuterCorner_empty.obj-bceb65635dea82cdf2d47ffbb05c4bcc.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_forest_waterOuterCorner_empty.obj"
+dest_files=["res://.godot/imported/square_forest_waterOuterCorner_empty.obj-9dc2e0bcae284df210e11ef50f022ddc.mesh", "res://.godot/imported/square_forest_waterOuterCorner_empty.obj-9dc2e0bcae284df210e11ef50f022ddc.mesh"]
 
 [params]
 

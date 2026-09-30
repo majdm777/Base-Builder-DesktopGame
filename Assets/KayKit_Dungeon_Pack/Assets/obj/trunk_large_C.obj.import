@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://be8nqn0nepfpx"
-path="res://.godot/imported/trunk_large_C.obj-167dc71e02193566f6cf8bec1ca6e3a7.mesh"
+path="res://.godot/imported/trunk_large_C.obj-103d3b58002c5d38c9d3693907958382.mesh"
 
 [deps]
 
-files=["res://.godot/imported/trunk_large_C.obj-167dc71e02193566f6cf8bec1ca6e3a7.mesh"]
+files=["res://.godot/imported/trunk_large_C.obj-103d3b58002c5d38c9d3693907958382.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/trunk_large_C.obj"
-dest_files=["res://.godot/imported/trunk_large_C.obj-167dc71e02193566f6cf8bec1ca6e3a7.mesh", "res://.godot/imported/trunk_large_C.obj-167dc71e02193566f6cf8bec1ca6e3a7.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/trunk_large_C.obj"
+dest_files=["res://.godot/imported/trunk_large_C.obj-103d3b58002c5d38c9d3693907958382.mesh", "res://.godot/imported/trunk_large_C.obj-103d3b58002c5d38c9d3693907958382.mesh"]
 
 [params]
 

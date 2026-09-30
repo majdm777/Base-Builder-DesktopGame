@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://7ou0nsywsima"
-path="res://.godot/imported/Iron_Nuggets.fbx-d02d09947439a52088589217fc3a8bea.scn"
+path="res://.godot/imported/Iron_Nuggets.fbx-b6ef1491c8cd89bb893ad8c09150b8ab.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx/Iron_Nuggets.fbx"
-dest_files=["res://.godot/imported/Iron_Nuggets.fbx-d02d09947439a52088589217fc3a8bea.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx/Iron_Nuggets.fbx"
+dest_files=["res://.godot/imported/Iron_Nuggets.fbx-b6ef1491c8cd89bb893ad8c09150b8ab.scn"]
 
 [params]
 

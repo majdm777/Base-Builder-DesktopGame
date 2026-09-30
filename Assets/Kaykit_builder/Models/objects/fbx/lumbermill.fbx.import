@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dofs8lrbrie6b"
-path="res://.godot/imported/lumbermill.fbx-5693c79f7d320b9d9eaff6a663438a9b.scn"
+path="res://.godot/imported/lumbermill.fbx-dd54b31cc339c3b66d302a4499a603c2.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/lumbermill.fbx"
-dest_files=["res://.godot/imported/lumbermill.fbx-5693c79f7d320b9d9eaff6a663438a9b.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/lumbermill.fbx"
+dest_files=["res://.godot/imported/lumbermill.fbx-dd54b31cc339c3b66d302a4499a603c2.scn"]
 
 [params]
 

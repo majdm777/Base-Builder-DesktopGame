@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bcnas0yqth8yj"
-path="res://.godot/imported/market.obj-a97242fb375e6e0c37f9f31c6947afb0.mesh"
+path="res://.godot/imported/market.obj-db66a791901213aadf26e43102e1264f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/market.obj-a97242fb375e6e0c37f9f31c6947afb0.mesh"]
+files=["res://.godot/imported/market.obj-db66a791901213aadf26e43102e1264f.mesh"]
 
-source_file="res://Assets/Models/objects/obj/market.obj"
-dest_files=["res://.godot/imported/market.obj-a97242fb375e6e0c37f9f31c6947afb0.mesh", "res://.godot/imported/market.obj-a97242fb375e6e0c37f9f31c6947afb0.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/market.obj"
+dest_files=["res://.godot/imported/market.obj-db66a791901213aadf26e43102e1264f.mesh", "res://.godot/imported/market.obj-db66a791901213aadf26e43102e1264f.mesh"]
 
 [params]
 

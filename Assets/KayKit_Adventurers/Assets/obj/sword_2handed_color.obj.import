@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://h2x6qtdi3gcp"
-path="res://.godot/imported/sword_2handed_color.obj-532ebdf2460c6ea0fd1f4961ae807788.mesh"
+path="res://.godot/imported/sword_2handed_color.obj-becf5caa1262d8696cbb6e0ee0517341.mesh"
 
 [deps]
 
-files=["res://.godot/imported/sword_2handed_color.obj-532ebdf2460c6ea0fd1f4961ae807788.mesh"]
+files=["res://.godot/imported/sword_2handed_color.obj-becf5caa1262d8696cbb6e0ee0517341.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/sword_2handed_color.obj"
-dest_files=["res://.godot/imported/sword_2handed_color.obj-532ebdf2460c6ea0fd1f4961ae807788.mesh", "res://.godot/imported/sword_2handed_color.obj-532ebdf2460c6ea0fd1f4961ae807788.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/sword_2handed_color.obj"
+dest_files=["res://.godot/imported/sword_2handed_color.obj-becf5caa1262d8696cbb6e0ee0517341.mesh", "res://.godot/imported/sword_2handed_color.obj-becf5caa1262d8696cbb6e0ee0517341.mesh"]
 
 [params]
 

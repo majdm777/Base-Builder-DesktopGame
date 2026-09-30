@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bqpe2qs01hto"
-path="res://.godot/imported/market.dae-7563b0c83e3da4da68a3c5ef82ee2f08.scn"
+path="res://.godot/imported/market.dae-6d4cebf6823462b495d69430155e7d96.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/dae/market.dae"
-dest_files=["res://.godot/imported/market.dae-7563b0c83e3da4da68a3c5ef82ee2f08.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/dae/market.dae"
+dest_files=["res://.godot/imported/market.dae-6d4cebf6823462b495d69430155e7d96.scn"]
 
 [params]
 

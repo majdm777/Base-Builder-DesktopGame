@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bc7a3n06v8o81"
-path="res://.godot/imported/Skeleton_Quiver.obj-99c65f81924635d2879cf43568ffb9b5.mesh"
+path="res://.godot/imported/Skeleton_Quiver.obj-9699906f7c081fce987c354529b9bbb2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Skeleton_Quiver.obj-99c65f81924635d2879cf43568ffb9b5.mesh"]
+files=["res://.godot/imported/Skeleton_Quiver.obj-9699906f7c081fce987c354529b9bbb2.mesh"]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/obj/Skeleton_Quiver.obj"
-dest_files=["res://.godot/imported/Skeleton_Quiver.obj-99c65f81924635d2879cf43568ffb9b5.mesh", "res://.godot/imported/Skeleton_Quiver.obj-99c65f81924635d2879cf43568ffb9b5.mesh"]
+source_file="res://Assets/KayKit_Skeletons/assets/obj/Skeleton_Quiver.obj"
+dest_files=["res://.godot/imported/Skeleton_Quiver.obj-9699906f7c081fce987c354529b9bbb2.mesh", "res://.godot/imported/Skeleton_Quiver.obj-9699906f7c081fce987c354529b9bbb2.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dws0mtylw7fs5"
-path="res://.godot/imported/wall_corner_A_inside.gltf-1a6175f23a6d71b4848bc86478e5928d.scn"
+path="res://.godot/imported/wall_corner_A_inside.gltf-0315ba96feab3becbc5c3b79b3113230.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/neutral/wall_corner_A_inside.gltf"
-dest_files=["res://.godot/imported/wall_corner_A_inside.gltf-1a6175f23a6d71b4848bc86478e5928d.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/neutral/wall_corner_A_inside.gltf"
+dest_files=["res://.godot/imported/wall_corner_A_inside.gltf-0315ba96feab3becbc5c3b79b3113230.scn"]
 
 [params]
 

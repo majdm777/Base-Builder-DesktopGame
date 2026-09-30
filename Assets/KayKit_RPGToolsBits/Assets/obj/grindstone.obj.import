@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://q0inm67os74n"
-path="res://.godot/imported/grindstone.obj-500d4145f6f53211e460b057254aec11.mesh"
+path="res://.godot/imported/grindstone.obj-81d3bfd3f00ad34cb718f7a7b5ba077d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/grindstone.obj-500d4145f6f53211e460b057254aec11.mesh"]
+files=["res://.godot/imported/grindstone.obj-81d3bfd3f00ad34cb718f7a7b5ba077d.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/grindstone.obj"
-dest_files=["res://.godot/imported/grindstone.obj-500d4145f6f53211e460b057254aec11.mesh", "res://.godot/imported/grindstone.obj-500d4145f6f53211e460b057254aec11.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/grindstone.obj"
+dest_files=["res://.godot/imported/grindstone.obj-81d3bfd3f00ad34cb718f7a7b5ba077d.mesh", "res://.godot/imported/grindstone.obj-81d3bfd3f00ad34cb718f7a7b5ba077d.mesh"]
 
 [params]
 

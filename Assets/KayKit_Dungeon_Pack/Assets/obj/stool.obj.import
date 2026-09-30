@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bsnn6lvko5t75"
-path="res://.godot/imported/stool.obj-06ede50c877e93e47a7fe9d73103ce12.mesh"
+path="res://.godot/imported/stool.obj-7718ad475d4677bd052df477b18da319.mesh"
 
 [deps]
 
-files=["res://.godot/imported/stool.obj-06ede50c877e93e47a7fe9d73103ce12.mesh"]
+files=["res://.godot/imported/stool.obj-7718ad475d4677bd052df477b18da319.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/stool.obj"
-dest_files=["res://.godot/imported/stool.obj-06ede50c877e93e47a7fe9d73103ce12.mesh", "res://.godot/imported/stool.obj-06ede50c877e93e47a7fe9d73103ce12.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/stool.obj"
+dest_files=["res://.godot/imported/stool.obj-7718ad475d4677bd052df477b18da319.mesh", "res://.godot/imported/stool.obj-7718ad475d4677bd052df477b18da319.mesh"]
 
 [params]
 

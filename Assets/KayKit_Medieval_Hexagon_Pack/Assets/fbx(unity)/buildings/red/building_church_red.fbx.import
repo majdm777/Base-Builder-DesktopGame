@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://de1bwcglmnkb1"
-path="res://.godot/imported/building_church_red.fbx-c890fd03934d8c0fb9ce3a5248dc0ca3.scn"
+path="res://.godot/imported/building_church_red.fbx-5a275d98b71c586d586e8659115e9164.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx(unity)/buildings/red/building_church_red.fbx"
-dest_files=["res://.godot/imported/building_church_red.fbx-c890fd03934d8c0fb9ce3a5248dc0ca3.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx(unity)/buildings/red/building_church_red.fbx"
+dest_files=["res://.godot/imported/building_church_red.fbx-5a275d98b71c586d586e8659115e9164.scn"]
 
 [params]
 

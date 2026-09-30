@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://75n0an588c3a"
-path="res://.godot/imported/Gold_Bars.fbx-b7feb9f54c9dabfd48b8d53aa222c9ab.scn"
+path="res://.godot/imported/Gold_Bars.fbx-985dc11f7523e50b9eab6ace4bd58fd6.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx(unity)/Gold_Bars.fbx"
-dest_files=["res://.godot/imported/Gold_Bars.fbx-b7feb9f54c9dabfd48b8d53aa222c9ab.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx(unity)/Gold_Bars.fbx"
+dest_files=["res://.godot/imported/Gold_Bars.fbx-985dc11f7523e50b9eab6ace4bd58fd6.scn"]
 
 [params]
 

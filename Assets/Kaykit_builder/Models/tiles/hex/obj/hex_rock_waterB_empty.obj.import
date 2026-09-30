@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dnb4wiq722qa1"
-path="res://.godot/imported/hex_rock_waterB_empty.obj-aa33eef048186045a77ca38e1e82511d.mesh"
+path="res://.godot/imported/hex_rock_waterB_empty.obj-cc54422dd2d940e5a92b321037a12c4e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_rock_waterB_empty.obj-aa33eef048186045a77ca38e1e82511d.mesh"]
+files=["res://.godot/imported/hex_rock_waterB_empty.obj-cc54422dd2d940e5a92b321037a12c4e.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_rock_waterB_empty.obj"
-dest_files=["res://.godot/imported/hex_rock_waterB_empty.obj-aa33eef048186045a77ca38e1e82511d.mesh", "res://.godot/imported/hex_rock_waterB_empty.obj-aa33eef048186045a77ca38e1e82511d.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_rock_waterB_empty.obj"
+dest_files=["res://.godot/imported/hex_rock_waterB_empty.obj-cc54422dd2d940e5a92b321037a12c4e.mesh", "res://.godot/imported/hex_rock_waterB_empty.obj-cc54422dd2d940e5a92b321037a12c4e.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3hcwtqp64c2h"
-path="res://.godot/imported/hex_sand_waterB.fbx-71d993cdc527d15c866885c3af4a97d7.scn"
+path="res://.godot/imported/hex_sand_waterB.fbx-72dedff2f81ed8e0c4ea98a8492ddcaf.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/fbx/hex_sand_waterB.fbx"
-dest_files=["res://.godot/imported/hex_sand_waterB.fbx-71d993cdc527d15c866885c3af4a97d7.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/fbx/hex_sand_waterB.fbx"
+dest_files=["res://.godot/imported/hex_sand_waterB.fbx-72dedff2f81ed8e0c4ea98a8492ddcaf.scn"]
 
 [params]
 

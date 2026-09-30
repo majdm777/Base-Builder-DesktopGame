@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dfvu0jimiqnfx"
-path="res://.godot/imported/Copper_Bars.fbx-c8d57dfe6a3e4dfb1315766b10783863.scn"
+path="res://.godot/imported/Copper_Bars.fbx-fd9ff67bf179a056819080c3bfb19f56.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx/Copper_Bars.fbx"
-dest_files=["res://.godot/imported/Copper_Bars.fbx-c8d57dfe6a3e4dfb1315766b10783863.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx/Copper_Bars.fbx"
+dest_files=["res://.godot/imported/Copper_Bars.fbx-fd9ff67bf179a056819080c3bfb19f56.scn"]
 
 [params]
 

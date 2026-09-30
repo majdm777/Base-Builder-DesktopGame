@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhvrw1eo0xhgh"
-path="res://.godot/imported/Skeleton_Rogue.fbx-2d265c369de2e48d83a66b218305fd79.scn"
+path="res://.godot/imported/Skeleton_Rogue.fbx-ca4e0da72be45b4d4833c992b07fe3f4.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/characters/fbx/Skeleton_Rogue.fbx"
-dest_files=["res://.godot/imported/Skeleton_Rogue.fbx-2d265c369de2e48d83a66b218305fd79.scn"]
+source_file="res://Assets/KayKit_Skeletons/characters/fbx/Skeleton_Rogue.fbx"
+dest_files=["res://.godot/imported/Skeleton_Rogue.fbx-ca4e0da72be45b4d4833c992b07fe3f4.scn"]
 
 [params]
 

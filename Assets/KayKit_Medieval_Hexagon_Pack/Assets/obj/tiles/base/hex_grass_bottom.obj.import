@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://blmwwxy6hyhc7"
-path="res://.godot/imported/hex_grass_bottom.obj-02d4534beb34646628c177a4901b621f.mesh"
+path="res://.godot/imported/hex_grass_bottom.obj-4cf3b7bf224576f7609357b52b0766f5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_grass_bottom.obj-02d4534beb34646628c177a4901b621f.mesh"]
+files=["res://.godot/imported/hex_grass_bottom.obj-4cf3b7bf224576f7609357b52b0766f5.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/base/hex_grass_bottom.obj"
-dest_files=["res://.godot/imported/hex_grass_bottom.obj-02d4534beb34646628c177a4901b621f.mesh", "res://.godot/imported/hex_grass_bottom.obj-02d4534beb34646628c177a4901b621f.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/base/hex_grass_bottom.obj"
+dest_files=["res://.godot/imported/hex_grass_bottom.obj-4cf3b7bf224576f7609357b52b0766f5.mesh", "res://.godot/imported/hex_grass_bottom.obj-4cf3b7bf224576f7609357b52b0766f5.mesh"]
 
 [params]
 

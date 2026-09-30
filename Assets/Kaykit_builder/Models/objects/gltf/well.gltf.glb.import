@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://chhge02mnb1a0"
-path="res://.godot/imported/well.gltf.glb-082b3ba3a1dce3532121cbddc5d4927c.scn"
+path="res://.godot/imported/well.gltf.glb-1455f44368cb653d3fd124be848640a9.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/well.gltf.glb"
-dest_files=["res://.godot/imported/well.gltf.glb-082b3ba3a1dce3532121cbddc5d4927c.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/well.gltf.glb"
+dest_files=["res://.godot/imported/well.gltf.glb-1455f44368cb653d3fd124be848640a9.scn"]
 
 [params]
 

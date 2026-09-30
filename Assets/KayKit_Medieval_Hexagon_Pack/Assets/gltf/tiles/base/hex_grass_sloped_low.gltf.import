@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3rt2mru8crsw"
-path="res://.godot/imported/hex_grass_sloped_low.gltf-33712ba8c3cc536434df457c0d5b0197.scn"
+path="res://.godot/imported/hex_grass_sloped_low.gltf-d6821742f9493b5343698b086011425e.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/base/hex_grass_sloped_low.gltf"
-dest_files=["res://.godot/imported/hex_grass_sloped_low.gltf-33712ba8c3cc536434df457c0d5b0197.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/tiles/base/hex_grass_sloped_low.gltf"
+dest_files=["res://.godot/imported/hex_grass_sloped_low.gltf-d6821742f9493b5343698b086011425e.scn"]
 
 [params]
 

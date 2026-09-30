@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bgvx02tlyt8xe"
-path="res://.godot/imported/torch_lit.obj-ab0aeb383870705531732910286d3a8f.mesh"
+path="res://.godot/imported/torch_lit.obj-0a34cafcfe0bc042d0ce64d550ce156f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/torch_lit.obj-ab0aeb383870705531732910286d3a8f.mesh"]
+files=["res://.godot/imported/torch_lit.obj-0a34cafcfe0bc042d0ce64d550ce156f.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/torch_lit.obj"
-dest_files=["res://.godot/imported/torch_lit.obj-ab0aeb383870705531732910286d3a8f.mesh", "res://.godot/imported/torch_lit.obj-ab0aeb383870705531732910286d3a8f.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/torch_lit.obj"
+dest_files=["res://.godot/imported/torch_lit.obj-0a34cafcfe0bc042d0ce64d550ce156f.mesh", "res://.godot/imported/torch_lit.obj-0a34cafcfe0bc042d0ce64d550ce156f.mesh"]
 
 [params]
 

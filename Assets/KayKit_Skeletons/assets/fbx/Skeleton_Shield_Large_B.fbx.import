@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dcgiyewr30lg8"
-path="res://.godot/imported/Skeleton_Shield_Large_B.fbx-1d7b89f276d4611f44352ad0657464da.scn"
+path="res://.godot/imported/Skeleton_Shield_Large_B.fbx-23ef54b55e95b0932a5c5599a265b2b9.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Skeletons_1.1_FREE/assets/fbx/Skeleton_Shield_Large_B.fbx"
-dest_files=["res://.godot/imported/Skeleton_Shield_Large_B.fbx-1d7b89f276d4611f44352ad0657464da.scn"]
+source_file="res://Assets/KayKit_Skeletons/assets/fbx/Skeleton_Shield_Large_B.fbx"
+dest_files=["res://.godot/imported/Skeleton_Shield_Large_B.fbx-23ef54b55e95b0932a5c5599a265b2b9.scn"]
 
 [params]
 

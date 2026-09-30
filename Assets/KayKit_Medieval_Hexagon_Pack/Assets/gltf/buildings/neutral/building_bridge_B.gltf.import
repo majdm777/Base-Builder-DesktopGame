@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxvh5cs6rav8v"
-path="res://.godot/imported/building_bridge_B.gltf-af6b9378d63807af3ee68022ff52f205.scn"
+path="res://.godot/imported/building_bridge_B.gltf-775f7ef4deca91a299880e6d755db141.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/buildings/neutral/building_bridge_B.gltf"
-dest_files=["res://.godot/imported/building_bridge_B.gltf-af6b9378d63807af3ee68022ff52f205.scn"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/gltf/buildings/neutral/building_bridge_B.gltf"
+dest_files=["res://.godot/imported/building_bridge_B.gltf-775f7ef4deca91a299880e6d755db141.scn"]
 
 [params]
 

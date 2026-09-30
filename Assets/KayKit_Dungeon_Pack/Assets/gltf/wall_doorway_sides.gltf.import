@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://jwnpsc1bas8q"
-path="res://.godot/imported/wall_doorway_sides.gltf-24aaa804b783b96cfd6ec5b171f06269.scn"
+path="res://.godot/imported/wall_doorway_sides.gltf-42905cebe8470b7d80f07baaec3e4ffc.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/wall_doorway_sides.gltf"
-dest_files=["res://.godot/imported/wall_doorway_sides.gltf-24aaa804b783b96cfd6ec5b171f06269.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/wall_doorway_sides.gltf"
+dest_files=["res://.godot/imported/wall_doorway_sides.gltf-42905cebe8470b7d80f07baaec3e4ffc.scn"]
 
 [params]
 

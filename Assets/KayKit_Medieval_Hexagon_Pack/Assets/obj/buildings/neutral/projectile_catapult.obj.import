@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://rmicmt6igacp"
-path="res://.godot/imported/projectile_catapult.obj-3d3b4862a7a8465b27188b66b05728cb.mesh"
+path="res://.godot/imported/projectile_catapult.obj-ff93fc21ee20e50abb03cf3bccec5a73.mesh"
 
 [deps]
 
-files=["res://.godot/imported/projectile_catapult.obj-3d3b4862a7a8465b27188b66b05728cb.mesh"]
+files=["res://.godot/imported/projectile_catapult.obj-ff93fc21ee20e50abb03cf3bccec5a73.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/projectile_catapult.obj"
-dest_files=["res://.godot/imported/projectile_catapult.obj-3d3b4862a7a8465b27188b66b05728cb.mesh", "res://.godot/imported/projectile_catapult.obj-3d3b4862a7a8465b27188b66b05728cb.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/projectile_catapult.obj"
+dest_files=["res://.godot/imported/projectile_catapult.obj-ff93fc21ee20e50abb03cf3bccec5a73.mesh", "res://.godot/imported/projectile_catapult.obj-ff93fc21ee20e50abb03cf3bccec5a73.mesh"]
 
 [params]
 

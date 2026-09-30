@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bkqlwik6vfcjc"
-path="res://.godot/imported/wall_corner_gated.obj-fcfedc54742ab848dc3b72d54e6e25e0.mesh"
+path="res://.godot/imported/wall_corner_gated.obj-8064589a4dabf396e21c6158cf2051b1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_corner_gated.obj-fcfedc54742ab848dc3b72d54e6e25e0.mesh"]
+files=["res://.godot/imported/wall_corner_gated.obj-8064589a4dabf396e21c6158cf2051b1.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/wall_corner_gated.obj"
-dest_files=["res://.godot/imported/wall_corner_gated.obj-fcfedc54742ab848dc3b72d54e6e25e0.mesh", "res://.godot/imported/wall_corner_gated.obj-fcfedc54742ab848dc3b72d54e6e25e0.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/wall_corner_gated.obj"
+dest_files=["res://.godot/imported/wall_corner_gated.obj-8064589a4dabf396e21c6158cf2051b1.mesh", "res://.godot/imported/wall_corner_gated.obj-8064589a4dabf396e21c6158cf2051b1.mesh"]
 
 [params]
 

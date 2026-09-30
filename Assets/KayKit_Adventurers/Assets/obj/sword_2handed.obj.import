@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d0nihyl12b12c"
-path="res://.godot/imported/sword_2handed.obj-5541c62926c3602bc3d5f41992ce29fb.mesh"
+path="res://.godot/imported/sword_2handed.obj-41fb681b4472454bb22ae04f2dd89b69.mesh"
 
 [deps]
 
-files=["res://.godot/imported/sword_2handed.obj-5541c62926c3602bc3d5f41992ce29fb.mesh"]
+files=["res://.godot/imported/sword_2handed.obj-41fb681b4472454bb22ae04f2dd89b69.mesh"]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/sword_2handed.obj"
-dest_files=["res://.godot/imported/sword_2handed.obj-5541c62926c3602bc3d5f41992ce29fb.mesh", "res://.godot/imported/sword_2handed.obj-5541c62926c3602bc3d5f41992ce29fb.mesh"]
+source_file="res://Assets/KayKit_Adventurers/Assets/obj/sword_2handed.obj"
+dest_files=["res://.godot/imported/sword_2handed.obj-41fb681b4472454bb22ae04f2dd89b69.mesh", "res://.godot/imported/sword_2handed.obj-41fb681b4472454bb22ae04f2dd89b69.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://lq5u0duh71r3"
-path="res://.godot/imported/farm_plot.obj-686b64a3a5088389a441189425c74a77.mesh"
+path="res://.godot/imported/farm_plot.obj-19c111f26e2a689e4bd0ff8fa5aff027.mesh"
 
 [deps]
 
-files=["res://.godot/imported/farm_plot.obj-686b64a3a5088389a441189425c74a77.mesh"]
+files=["res://.godot/imported/farm_plot.obj-19c111f26e2a689e4bd0ff8fa5aff027.mesh"]
 
-source_file="res://Assets/Models/objects/obj/farm_plot.obj"
-dest_files=["res://.godot/imported/farm_plot.obj-686b64a3a5088389a441189425c74a77.mesh", "res://.godot/imported/farm_plot.obj-686b64a3a5088389a441189425c74a77.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/farm_plot.obj"
+dest_files=["res://.godot/imported/farm_plot.obj-19c111f26e2a689e4bd0ff8fa5aff027.mesh", "res://.godot/imported/farm_plot.obj-19c111f26e2a689e4bd0ff8fa5aff027.mesh"]
 
 [params]
 

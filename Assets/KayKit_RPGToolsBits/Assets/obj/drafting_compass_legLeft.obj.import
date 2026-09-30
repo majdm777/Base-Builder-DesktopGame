@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://l4gigd2x6327"
-path="res://.godot/imported/drafting_compass_legLeft.obj-311af7ac1c096eb530d2e44d33ca06a5.mesh"
+path="res://.godot/imported/drafting_compass_legLeft.obj-e184906f687ad5d13de84d14881cc1a6.mesh"
 
 [deps]
 
-files=["res://.godot/imported/drafting_compass_legLeft.obj-311af7ac1c096eb530d2e44d33ca06a5.mesh"]
+files=["res://.godot/imported/drafting_compass_legLeft.obj-e184906f687ad5d13de84d14881cc1a6.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/drafting_compass_legLeft.obj"
-dest_files=["res://.godot/imported/drafting_compass_legLeft.obj-311af7ac1c096eb530d2e44d33ca06a5.mesh", "res://.godot/imported/drafting_compass_legLeft.obj-311af7ac1c096eb530d2e44d33ca06a5.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/drafting_compass_legLeft.obj"
+dest_files=["res://.godot/imported/drafting_compass_legLeft.obj-e184906f687ad5d13de84d14881cc1a6.mesh", "res://.godot/imported/drafting_compass_legLeft.obj-e184906f687ad5d13de84d14881cc1a6.mesh"]
 
 [params]
 

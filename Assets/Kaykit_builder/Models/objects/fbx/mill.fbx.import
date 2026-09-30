@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://weyrqvgfyy6v"
-path="res://.godot/imported/mill.fbx-782d6a6cc5df78539e779b54b67d5bae.scn"
+path="res://.godot/imported/mill.fbx-6d9e7af547dd1d434a75ff149aca1fb5.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/fbx/mill.fbx"
-dest_files=["res://.godot/imported/mill.fbx-782d6a6cc5df78539e779b54b67d5bae.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/fbx/mill.fbx"
+dest_files=["res://.godot/imported/mill.fbx-6d9e7af547dd1d434a75ff149aca1fb5.scn"]
 
 [params]
 

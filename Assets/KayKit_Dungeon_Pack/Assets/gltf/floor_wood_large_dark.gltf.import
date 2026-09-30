@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://p1hxjx0reway"
-path="res://.godot/imported/floor_wood_large_dark.gltf-2fb5fb1d912e62fd4b9e5a1ca1c48648.scn"
+path="res://.godot/imported/floor_wood_large_dark.gltf-4e1f0a35219094f66ca76f71e0f7e1fa.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/gltf/floor_wood_large_dark.gltf"
-dest_files=["res://.godot/imported/floor_wood_large_dark.gltf-2fb5fb1d912e62fd4b9e5a1ca1c48648.scn"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/gltf/floor_wood_large_dark.gltf"
+dest_files=["res://.godot/imported/floor_wood_large_dark.gltf-4e1f0a35219094f66ca76f71e0f7e1fa.scn"]
 
 [params]
 

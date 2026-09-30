@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bwicy0i4g1fpo"
-path="res://.godot/imported/nail.fbx-897adbf11dc6f197060b42b3dbf4ab7e.scn"
+path="res://.godot/imported/nail.fbx-f266af116a6020bb61d3becfdb2c9745.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/nail.fbx"
-dest_files=["res://.godot/imported/nail.fbx-897adbf11dc6f197060b42b3dbf4ab7e.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/nail.fbx"
+dest_files=["res://.godot/imported/nail.fbx-f266af116a6020bb61d3becfdb2c9745.scn"]
 
 [params]
 

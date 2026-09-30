@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bfd8vclqfb1cq"
-path="res://.godot/imported/hex_forest_roadD.obj-671c363c6b61feb80ff989bd4012c744.mesh"
+path="res://.godot/imported/hex_forest_roadD.obj-444146da27d3624728713573856a2409.mesh"
 
 [deps]
 
-files=["res://.godot/imported/hex_forest_roadD.obj-671c363c6b61feb80ff989bd4012c744.mesh"]
+files=["res://.godot/imported/hex_forest_roadD.obj-444146da27d3624728713573856a2409.mesh"]
 
-source_file="res://Assets/Models/tiles/hex/obj/hex_forest_roadD.obj"
-dest_files=["res://.godot/imported/hex_forest_roadD.obj-671c363c6b61feb80ff989bd4012c744.mesh", "res://.godot/imported/hex_forest_roadD.obj-671c363c6b61feb80ff989bd4012c744.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/obj/hex_forest_roadD.obj"
+dest_files=["res://.godot/imported/hex_forest_roadD.obj-444146da27d3624728713573856a2409.mesh", "res://.godot/imported/hex_forest_roadD.obj-444146da27d3624728713573856a2409.mesh"]
 
 [params]
 

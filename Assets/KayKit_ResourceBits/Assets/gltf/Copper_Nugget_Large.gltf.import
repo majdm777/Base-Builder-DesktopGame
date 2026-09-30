@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b6shndehpt88y"
-path="res://.godot/imported/Copper_Nugget_Large.gltf-4f3f58715daa20af8be0ea12a0ea79f0.scn"
+path="res://.godot/imported/Copper_Nugget_Large.gltf-2b2d890761c51cc9a984ef09c31cb066.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/gltf/Copper_Nugget_Large.gltf"
-dest_files=["res://.godot/imported/Copper_Nugget_Large.gltf-4f3f58715daa20af8be0ea12a0ea79f0.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/gltf/Copper_Nugget_Large.gltf"
+dest_files=["res://.godot/imported/Copper_Nugget_Large.gltf-2b2d890761c51cc9a984ef09c31cb066.scn"]
 
 [params]
 

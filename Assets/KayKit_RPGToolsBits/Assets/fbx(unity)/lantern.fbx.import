@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://xaxixvdbdc3s"
-path="res://.godot/imported/lantern.fbx-a619b3568cd3c1a5a0cc29c7037c82f8.scn"
+path="res://.godot/imported/lantern.fbx-24c71fba0b98fd4bc511db16da4dbac8.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/lantern.fbx"
-dest_files=["res://.godot/imported/lantern.fbx-a619b3568cd3c1a5a0cc29c7037c82f8.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/lantern.fbx"
+dest_files=["res://.godot/imported/lantern.fbx-24c71fba0b98fd4bc511db16da4dbac8.scn"]
 
 [params]
 

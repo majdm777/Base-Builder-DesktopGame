@@ -2,13 +2,15 @@
 
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_yfvrr"]
 [ext_resource type="PackedScene" uid="uid://dkijeym8t75bl" path="res://Scenes/Actors/StoneCutter.tscn" id="2_b4rqm"]
-[ext_resource type="ArrayMesh" uid="uid://d3y2ugxrchtv0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_tower_A_green_building_tower_A_top_green.obj" id="3_yfvrr"]
-[ext_resource type="ArrayMesh" uid="uid://ckbbwt7fobrnl" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/wall_corner_A_gate_door_right.obj" id="4_orbrn"]
-[ext_resource type="ArrayMesh" uid="uid://bnjj3yu3ictad" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/barrel.obj" id="5_8lke6"]
-[ext_resource type="ArrayMesh" uid="uid://io74cs56luxh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/flag_green.obj" id="6_2jwct"]
-[ext_resource type="ArrayMesh" uid="uid://dinetgb4gkc2n" path="res://Assets/KayKit_Adventurers_2.0_FREE/Assets/obj/axe_2handed.obj" id="7_gch1s"]
-[ext_resource type="ArrayMesh" uid="uid://sksoj8ed8yuj" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/ladder.obj" id="8_gtrdg"]
-[ext_resource type="ArrayMesh" uid="uid://dmksiovbt8gmo" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/decoration/props/bucket_water.obj" id="9_uxhem"]
+[ext_resource type="ArrayMesh" uid="uid://d3y2ugxrchtv0" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/green/building_tower_A_green_building_tower_A_top_green.obj" id="3_yfvrr"]
+[ext_resource type="ArrayMesh" uid="uid://b3fl4algs5hyw" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/wall_doorway_door.obj" id="4_ma4w8"]
+[ext_resource type="ArrayMesh" uid="uid://bnjj3yu3ictad" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/barrel.obj" id="5_8lke6"]
+[ext_resource type="ArrayMesh" uid="uid://io74cs56luxh" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/flag_green.obj" id="6_2jwct"]
+[ext_resource type="ArrayMesh" uid="uid://cdji1w3hccyc3" path="res://Assets/KayKit_RPGToolsBits/Assets/obj/pickaxe.obj" id="7_orbrn"]
+[ext_resource type="ArrayMesh" uid="uid://sksoj8ed8yuj" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/ladder.obj" id="8_gtrdg"]
+[ext_resource type="ArrayMesh" uid="uid://dmksiovbt8gmo" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/bucket_water.obj" id="9_uxhem"]
+[ext_resource type="ArrayMesh" uid="uid://bsnn6lvko5t75" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/stool.obj" id="10_8lke6"]
+[ext_resource type="ArrayMesh" uid="uid://0axkooafuhma" path="res://Assets/KayKit_RPGToolsBits/Assets/obj/rope_bundle_A.obj" id="11_2jwct"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
 size = Vector3(1.1501465, 0.89404297, 0.99902344)
@@ -29,8 +31,8 @@ transform = Transform3D(0.86785823, 0, -0.49681193, 0, 1, 0, 0.49681193, 0, 0.86
 mesh = ExtResource("3_yfvrr")
 
 [node name="door" type="MeshInstance3D" parent="Building" unique_id=109390767]
-transform = Transform3D(0.4370538, 0.006565729, -0.24277742, 0.00672541, -0.49995276, -0.0014135631, -0.242773, -0.0020299498, -0.43710074, 0.113612786, 0.36896923, -0.5567008)
-mesh = ExtResource("4_orbrn")
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.006520891, 0, -0.3984178)
+mesh = ExtResource("4_ma4w8")
 
 [node name="decoration1" type="MeshInstance3D" parent="Building" unique_id=244180019]
 transform = Transform3D(0.8741076, 0.013131411, -0.48555478, 0.013450791, -0.9999055, -0.0028271382, -0.48554602, -0.0040598726, -0.87420166, 0.43230003, 0.21338767, -0.27320236)
@@ -41,8 +43,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8770747, 0)
 mesh = ExtResource("6_2jwct")
 
 [node name="decoration" type="MeshInstance3D" parent="Building" unique_id=1035997179]
-transform = Transform3D(0.1, 0, 0, 0, 0.0994035, -0.010906164, 0, 0.010906164, 0.0994035, 0.43351287, 0.042584553, -0.38945982)
-mesh = ExtResource("7_gch1s")
+transform = Transform3D(0.1, 0, 0, 0, 0.09754225, -0.022034317, 0, 0.022034317, 0.09754225, 0.4335129, 0.022296771, -0.39507052)
+mesh = ExtResource("7_orbrn")
 
 [node name="decoration2" type="MeshInstance3D" parent="Building" unique_id=1882568774]
 transform = Transform3D(0.37691304, -0.09912574, 0.58147264, 0.04272392, 0.6928204, 0.09041371, -0.5883122, -0.01319331, 0.37909734, 0.57166237, 0, 0.17255923)
@@ -52,14 +54,24 @@ mesh = ExtResource("8_gtrdg")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3536753, 0, -0.35362232)
 mesh = ExtResource("9_uxhem")
 
+[node name="decoration4" type="MeshInstance3D" parent="Building" unique_id=22851279]
+transform = Transform3D(0.17256792, 0, -0.10109557, 0, 0.19999999, 0, 0.10109557, 0, 0.17256792, -0.46552536, -4.7683717e-08, -0.18617697)
+mesh = ExtResource("10_8lke6")
+
+[node name="decoration5" type="MeshInstance3D" parent="Building" unique_id=1401185692]
+transform = Transform3D(0.020675113, 0, -0.09783935, 0, 0.099999994, 0, 0.09783935, 0, 0.020675113, -0.46552536, 0.108412504, -0.18617697)
+mesh = ExtResource("11_2jwct")
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=547642088]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00036621094, 0.45239258, -0.00048828125)
+visible = false
 shape = SubResource("BoxShape3D_4kxuq")
 
 [node name="Area" type="Area3D" parent="." unique_id=1616280460]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=219917684]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00592041, 0.46984738, -0.014781952)
+visible = false
 shape = SubResource("BoxShape3D_mti6b")
 
 [node name="SpawnPoint" type="Marker3D" parent="." unique_id=237557536]

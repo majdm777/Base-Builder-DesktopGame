@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bus5m7lyj3bw7"
-path="res://.godot/imported/trowel.gltf-ebc333de8d592038716a777692010901.scn"
+path="res://.godot/imported/trowel.gltf-dd9f440fdfbda8dba443af33d3b09e4d.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/gltf/trowel.gltf"
-dest_files=["res://.godot/imported/trowel.gltf-ebc333de8d592038716a777692010901.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/gltf/trowel.gltf"
+dest_files=["res://.godot/imported/trowel.gltf-dd9f440fdfbda8dba443af33d3b09e4d.scn"]
 
 [params]
 

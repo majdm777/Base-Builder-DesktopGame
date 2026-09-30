@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b54v7axmr6ppv"
-path="res://.godot/imported/bridge.dae-36c32a38fbf093242ca06d3ba82130a2.scn"
+path="res://.godot/imported/bridge.dae-deec7c22406b2d2ef5aa8fb3e60d0ba8.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/dae/bridge.dae"
-dest_files=["res://.godot/imported/bridge.dae-36c32a38fbf093242ca06d3ba82130a2.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/dae/bridge.dae"
+dest_files=["res://.godot/imported/bridge.dae-deec7c22406b2d2ef5aa8fb3e60d0ba8.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c01satmsiu4pe"
-path="res://.godot/imported/wall_corner.obj-b1acb146f3eafbc5e1d45e9ca4c0cb78.mesh"
+path="res://.godot/imported/wall_corner.obj-114230e147736cba0783652e4caeaadf.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_corner.obj-b1acb146f3eafbc5e1d45e9ca4c0cb78.mesh"]
+files=["res://.godot/imported/wall_corner.obj-114230e147736cba0783652e4caeaadf.mesh"]
 
-source_file="res://Assets/Models/objects/obj/wall_corner.obj"
-dest_files=["res://.godot/imported/wall_corner.obj-b1acb146f3eafbc5e1d45e9ca4c0cb78.mesh", "res://.godot/imported/wall_corner.obj-b1acb146f3eafbc5e1d45e9ca4c0cb78.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/wall_corner.obj"
+dest_files=["res://.godot/imported/wall_corner.obj-114230e147736cba0783652e4caeaadf.mesh", "res://.godot/imported/wall_corner.obj-114230e147736cba0783652e4caeaadf.mesh"]
 
 [params]
 

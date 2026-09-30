@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b4pniaef2upqv"
-path="res://.godot/imported/detail_hill.obj-f644675ed1e22bbef5cf2d3c81c50b26.mesh"
+path="res://.godot/imported/detail_hill.obj-196bdbbc8c501176250fa0f68723662c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/detail_hill.obj-f644675ed1e22bbef5cf2d3c81c50b26.mesh"]
+files=["res://.godot/imported/detail_hill.obj-196bdbbc8c501176250fa0f68723662c.mesh"]
 
-source_file="res://Assets/Models/objects/obj/detail_hill.obj"
-dest_files=["res://.godot/imported/detail_hill.obj-f644675ed1e22bbef5cf2d3c81c50b26.mesh", "res://.godot/imported/detail_hill.obj-f644675ed1e22bbef5cf2d3c81c50b26.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/objects/obj/detail_hill.obj"
+dest_files=["res://.godot/imported/detail_hill.obj-196bdbbc8c501176250fa0f68723662c.mesh", "res://.godot/imported/detail_hill.obj-196bdbbc8c501176250fa0f68723662c.mesh"]
 
 [params]
 

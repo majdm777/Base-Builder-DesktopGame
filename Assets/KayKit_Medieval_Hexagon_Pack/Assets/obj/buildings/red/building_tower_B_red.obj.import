@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b4eajyi3r5yn7"
-path="res://.godot/imported/building_tower_B_red.obj-efa50bba2eb96b5e8dff34cf42535e0f.mesh"
+path="res://.godot/imported/building_tower_B_red.obj-2c29564317280f5242b6672a2c95ec0c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_tower_B_red.obj-efa50bba2eb96b5e8dff34cf42535e0f.mesh"]
+files=["res://.godot/imported/building_tower_B_red.obj-2c29564317280f5242b6672a2c95ec0c.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/red/building_tower_B_red.obj"
-dest_files=["res://.godot/imported/building_tower_B_red.obj-efa50bba2eb96b5e8dff34cf42535e0f.mesh", "res://.godot/imported/building_tower_B_red.obj-efa50bba2eb96b5e8dff34cf42535e0f.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/red/building_tower_B_red.obj"
+dest_files=["res://.godot/imported/building_tower_B_red.obj-2c29564317280f5242b6672a2c95ec0c.mesh", "res://.godot/imported/building_tower_B_red.obj-2c29564317280f5242b6672a2c95ec0c.mesh"]
 
 [params]
 

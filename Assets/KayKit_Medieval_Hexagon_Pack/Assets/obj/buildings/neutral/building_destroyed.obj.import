@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d3f0rh14w5mca"
-path="res://.godot/imported/building_destroyed.obj-b8f6f41388b58df5fcd07b5cdc99b868.mesh"
+path="res://.godot/imported/building_destroyed.obj-88f7cd21742f9ed075c964c40cb7fd77.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_destroyed.obj-b8f6f41388b58df5fcd07b5cdc99b868.mesh"]
+files=["res://.godot/imported/building_destroyed.obj-88f7cd21742f9ed075c964c40cb7fd77.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/neutral/building_destroyed.obj"
-dest_files=["res://.godot/imported/building_destroyed.obj-b8f6f41388b58df5fcd07b5cdc99b868.mesh", "res://.godot/imported/building_destroyed.obj-b8f6f41388b58df5fcd07b5cdc99b868.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/building_destroyed.obj"
+dest_files=["res://.godot/imported/building_destroyed.obj-88f7cd21742f9ed075c964c40cb7fd77.mesh", "res://.godot/imported/building_destroyed.obj-88f7cd21742f9ed075c964c40cb7fd77.mesh"]
 
 [params]
 

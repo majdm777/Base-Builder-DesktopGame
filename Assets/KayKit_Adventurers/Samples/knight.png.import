@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl8qk05j2bfkf"
-path="res://.godot/imported/knight.png-ffe586aeb1e0ff7c92b5db5eb842b8c1.ctex"
+path="res://.godot/imported/knight.png-736edfcf4d4eea967ee2ab831661eee4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/KayKit_Adventurers_2.0_FREE/Samples/knight.png"
-dest_files=["res://.godot/imported/knight.png-ffe586aeb1e0ff7c92b5db5eb842b8c1.ctex"]
+source_file="res://Assets/KayKit_Adventurers/Samples/knight.png"
+dest_files=["res://.godot/imported/knight.png-736edfcf4d4eea967ee2ab831661eee4.ctex"]
 
 [params]
 

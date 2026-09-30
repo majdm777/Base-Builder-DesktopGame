@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b30o2et8np3ly"
-path="res://.godot/imported/square_sand_detail.fbx-fe3fa57a16f6b130db2994f188cf44bb.scn"
+path="res://.godot/imported/square_sand_detail.fbx-9b335cf05dbe94960a9add139b7d8913.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/square/fbx/square_sand_detail.fbx"
-dest_files=["res://.godot/imported/square_sand_detail.fbx-fe3fa57a16f6b130db2994f188cf44bb.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/fbx/square_sand_detail.fbx"
+dest_files=["res://.godot/imported/square_sand_detail.fbx-9b335cf05dbe94960a9add139b7d8913.scn"]
 
 [params]
 

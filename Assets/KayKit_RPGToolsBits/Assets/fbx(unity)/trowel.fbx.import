@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cm7i12rv4weot"
-path="res://.godot/imported/trowel.fbx-a1e154d731d55f3ad38805f2a0752c3a.scn"
+path="res://.godot/imported/trowel.fbx-01b09776dd6870f105b75ee8e0e227f4.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/fbx(unity)/trowel.fbx"
-dest_files=["res://.godot/imported/trowel.fbx-a1e154d731d55f3ad38805f2a0752c3a.scn"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/fbx(unity)/trowel.fbx"
+dest_files=["res://.godot/imported/trowel.fbx-01b09776dd6870f105b75ee8e0e227f4.scn"]
 
 [params]
 

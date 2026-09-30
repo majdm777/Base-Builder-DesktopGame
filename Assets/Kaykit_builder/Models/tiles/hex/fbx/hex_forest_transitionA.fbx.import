@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dn0kvrntiy15g"
-path="res://.godot/imported/hex_forest_transitionA.fbx-7eb7060970b26daba96b820fc40528ae.scn"
+path="res://.godot/imported/hex_forest_transitionA.fbx-6d0d9e35fc6aee7031524d9660dd313d.scn"
 
 [deps]
 
-source_file="res://Assets/Models/tiles/hex/fbx/hex_forest_transitionA.fbx"
-dest_files=["res://.godot/imported/hex_forest_transitionA.fbx-7eb7060970b26daba96b820fc40528ae.scn"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/hex/fbx/hex_forest_transitionA.fbx"
+dest_files=["res://.godot/imported/hex_forest_transitionA.fbx-6d0d9e35fc6aee7031524d9660dd313d.scn"]
 
 [params]
 

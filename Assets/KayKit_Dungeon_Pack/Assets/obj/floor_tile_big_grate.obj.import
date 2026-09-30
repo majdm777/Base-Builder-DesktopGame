@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c1w1iv7hkqgif"
-path="res://.godot/imported/floor_tile_big_grate.obj-8a21f27640868b2284c245d523b7f7fa.mesh"
+path="res://.godot/imported/floor_tile_big_grate.obj-16ff3c3be7bb1c40bf7ddcf0557605a4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_big_grate.obj-8a21f27640868b2284c245d523b7f7fa.mesh"]
+files=["res://.godot/imported/floor_tile_big_grate.obj-16ff3c3be7bb1c40bf7ddcf0557605a4.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_tile_big_grate.obj"
-dest_files=["res://.godot/imported/floor_tile_big_grate.obj-8a21f27640868b2284c245d523b7f7fa.mesh", "res://.godot/imported/floor_tile_big_grate.obj-8a21f27640868b2284c245d523b7f7fa.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_tile_big_grate.obj"
+dest_files=["res://.godot/imported/floor_tile_big_grate.obj-16ff3c3be7bb1c40bf7ddcf0557605a4.mesh", "res://.godot/imported/floor_tile_big_grate.obj-16ff3c3be7bb1c40bf7ddcf0557605a4.mesh"]
 
 [params]
 

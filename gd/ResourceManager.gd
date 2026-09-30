@@ -22,10 +22,6 @@ var capacities = {
 	"food":20
 }
 
-var wood_capacity : int = 20
-var stone_capacity : int = 20
-var iron_capacity : int = 20
-var food_capacity: int = 200
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

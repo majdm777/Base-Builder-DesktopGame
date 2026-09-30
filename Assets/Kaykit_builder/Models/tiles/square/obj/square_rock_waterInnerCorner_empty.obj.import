@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://boc462i2qnat8"
-path="res://.godot/imported/square_rock_waterInnerCorner_empty.obj-b1aca00c33e876db716fe2085779d3fe.mesh"
+path="res://.godot/imported/square_rock_waterInnerCorner_empty.obj-cd3a5e4f6c2b29856561695461627dd5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_rock_waterInnerCorner_empty.obj-b1aca00c33e876db716fe2085779d3fe.mesh"]
+files=["res://.godot/imported/square_rock_waterInnerCorner_empty.obj-cd3a5e4f6c2b29856561695461627dd5.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_rock_waterInnerCorner_empty.obj"
-dest_files=["res://.godot/imported/square_rock_waterInnerCorner_empty.obj-b1aca00c33e876db716fe2085779d3fe.mesh", "res://.godot/imported/square_rock_waterInnerCorner_empty.obj-b1aca00c33e876db716fe2085779d3fe.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_rock_waterInnerCorner_empty.obj"
+dest_files=["res://.godot/imported/square_rock_waterInnerCorner_empty.obj-cd3a5e4f6c2b29856561695461627dd5.mesh", "res://.godot/imported/square_rock_waterInnerCorner_empty.obj-cd3a5e4f6c2b29856561695461627dd5.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cyfno2n437x4h"
-path="res://.godot/imported/Gold_Bar.obj-0871bb2a36b5fba6fff55896dfee35c0.mesh"
+path="res://.godot/imported/Gold_Bar.obj-31d327586a0e826792b774719a00293c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Gold_Bar.obj-0871bb2a36b5fba6fff55896dfee35c0.mesh"]
+files=["res://.godot/imported/Gold_Bar.obj-31d327586a0e826792b774719a00293c.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Gold_Bar.obj"
-dest_files=["res://.godot/imported/Gold_Bar.obj-0871bb2a36b5fba6fff55896dfee35c0.mesh", "res://.godot/imported/Gold_Bar.obj-0871bb2a36b5fba6fff55896dfee35c0.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Gold_Bar.obj"
+dest_files=["res://.godot/imported/Gold_Bar.obj-31d327586a0e826792b774719a00293c.mesh", "res://.godot/imported/Gold_Bar.obj-31d327586a0e826792b774719a00293c.mesh"]
 
 [params]
 

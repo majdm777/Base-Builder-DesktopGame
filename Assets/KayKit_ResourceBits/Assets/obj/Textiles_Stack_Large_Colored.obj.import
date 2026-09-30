@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://djdfloijxvl47"
-path="res://.godot/imported/Textiles_Stack_Large_Colored.obj-b70663729dabb44ead8272a76efb16b8.mesh"
+path="res://.godot/imported/Textiles_Stack_Large_Colored.obj-c6113d53f64f67b938f9b1f7b57d4b68.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Textiles_Stack_Large_Colored.obj-b70663729dabb44ead8272a76efb16b8.mesh"]
+files=["res://.godot/imported/Textiles_Stack_Large_Colored.obj-c6113d53f64f67b938f9b1f7b57d4b68.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Textiles_Stack_Large_Colored.obj"
-dest_files=["res://.godot/imported/Textiles_Stack_Large_Colored.obj-b70663729dabb44ead8272a76efb16b8.mesh", "res://.godot/imported/Textiles_Stack_Large_Colored.obj-b70663729dabb44ead8272a76efb16b8.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Textiles_Stack_Large_Colored.obj"
+dest_files=["res://.godot/imported/Textiles_Stack_Large_Colored.obj-c6113d53f64f67b938f9b1f7b57d4b68.mesh", "res://.godot/imported/Textiles_Stack_Large_Colored.obj-c6113d53f64f67b938f9b1f7b57d4b68.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hfwi2tr44d7b"
-path="res://.godot/imported/Fuel_A_Jerrycan.fbx-d62749b727432f7dadb22a787f065f84.scn"
+path="res://.godot/imported/Fuel_A_Jerrycan.fbx-c4d736e324adce59f35f4bb8345037c4.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/fbx(unity)/Fuel_A_Jerrycan.fbx"
-dest_files=["res://.godot/imported/Fuel_A_Jerrycan.fbx-d62749b727432f7dadb22a787f065f84.scn"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/fbx(unity)/Fuel_A_Jerrycan.fbx"
+dest_files=["res://.godot/imported/Fuel_A_Jerrycan.fbx-c4d736e324adce59f35f4bb8345037c4.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cqd1cocni33uw"
-path="res://.godot/imported/chair.obj-26d42db9dbecbac6ff657885008a790f.mesh"
+path="res://.godot/imported/chair.obj-2bd523e4a42ffbc4167887f72867b86c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/chair.obj-26d42db9dbecbac6ff657885008a790f.mesh"]
+files=["res://.godot/imported/chair.obj-2bd523e4a42ffbc4167887f72867b86c.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/chair.obj"
-dest_files=["res://.godot/imported/chair.obj-26d42db9dbecbac6ff657885008a790f.mesh", "res://.godot/imported/chair.obj-26d42db9dbecbac6ff657885008a790f.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/chair.obj"
+dest_files=["res://.godot/imported/chair.obj-2bd523e4a42ffbc4167887f72867b86c.mesh", "res://.godot/imported/chair.obj-2bd523e4a42ffbc4167887f72867b86c.mesh"]
 
 [params]
 

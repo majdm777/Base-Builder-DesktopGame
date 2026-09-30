@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cd6fu72xcfr0o"
-path="res://.godot/imported/square_rock_detail.obj-997ae695cf1ceeefe6a83c5b67a4d1da.mesh"
+path="res://.godot/imported/square_rock_detail.obj-7ecb07848a705d05094c6f953a0749de.mesh"
 
 [deps]
 
-files=["res://.godot/imported/square_rock_detail.obj-997ae695cf1ceeefe6a83c5b67a4d1da.mesh"]
+files=["res://.godot/imported/square_rock_detail.obj-7ecb07848a705d05094c6f953a0749de.mesh"]
 
-source_file="res://Assets/Models/tiles/square/obj/square_rock_detail.obj"
-dest_files=["res://.godot/imported/square_rock_detail.obj-997ae695cf1ceeefe6a83c5b67a4d1da.mesh", "res://.godot/imported/square_rock_detail.obj-997ae695cf1ceeefe6a83c5b67a4d1da.mesh"]
+source_file="res://Assets/Kaykit_builder/Models/tiles/square/obj/square_rock_detail.obj"
+dest_files=["res://.godot/imported/square_rock_detail.obj-7ecb07848a705d05094c6f953a0749de.mesh", "res://.godot/imported/square_rock_detail.obj-7ecb07848a705d05094c6f953a0749de.mesh"]
 
 [params]
 

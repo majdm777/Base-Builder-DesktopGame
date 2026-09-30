@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c1f8v0aoquxli"
-path="res://.godot/imported/compass_base_compass_needle.obj-a4ea67c39b714ce4d6e7ddbc00a431db.mesh"
+path="res://.godot/imported/compass_base_compass_needle.obj-a3d0b36b0dc6d6bf31ca61168985eb4f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/compass_base_compass_needle.obj-a4ea67c39b714ce4d6e7ddbc00a431db.mesh"]
+files=["res://.godot/imported/compass_base_compass_needle.obj-a3d0b36b0dc6d6bf31ca61168985eb4f.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/compass_base_compass_needle.obj"
-dest_files=["res://.godot/imported/compass_base_compass_needle.obj-a4ea67c39b714ce4d6e7ddbc00a431db.mesh", "res://.godot/imported/compass_base_compass_needle.obj-a4ea67c39b714ce4d6e7ddbc00a431db.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/compass_base_compass_needle.obj"
+dest_files=["res://.godot/imported/compass_base_compass_needle.obj-a3d0b36b0dc6d6bf31ca61168985eb4f.mesh", "res://.godot/imported/compass_base_compass_needle.obj-a3d0b36b0dc6d6bf31ca61168985eb4f.mesh"]
 
 [params]
 

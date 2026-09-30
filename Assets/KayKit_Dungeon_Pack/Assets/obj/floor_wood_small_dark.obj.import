@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://yi5237p2ui1h"
-path="res://.godot/imported/floor_wood_small_dark.obj-c4fbc79db8497e4c96985c22db8f4296.mesh"
+path="res://.godot/imported/floor_wood_small_dark.obj-0fce0d621f75083757a10849d23939c1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_wood_small_dark.obj-c4fbc79db8497e4c96985c22db8f4296.mesh"]
+files=["res://.godot/imported/floor_wood_small_dark.obj-0fce0d621f75083757a10849d23939c1.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/floor_wood_small_dark.obj"
-dest_files=["res://.godot/imported/floor_wood_small_dark.obj-c4fbc79db8497e4c96985c22db8f4296.mesh", "res://.godot/imported/floor_wood_small_dark.obj-c4fbc79db8497e4c96985c22db8f4296.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/floor_wood_small_dark.obj"
+dest_files=["res://.godot/imported/floor_wood_small_dark.obj-0fce0d621f75083757a10849d23939c1.mesh", "res://.godot/imported/floor_wood_small_dark.obj-0fce0d621f75083757a10849d23939c1.mesh"]
 
 [params]
 

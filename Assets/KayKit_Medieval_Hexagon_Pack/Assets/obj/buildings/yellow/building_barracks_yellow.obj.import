@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://81ef6df1ccs6"
-path="res://.godot/imported/building_barracks_yellow.obj-3ce6aaf118646b5df5420606f48233d5.mesh"
+path="res://.godot/imported/building_barracks_yellow.obj-f16a59ed656e527649a4916bd76baa9b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/building_barracks_yellow.obj-3ce6aaf118646b5df5420606f48233d5.mesh"]
+files=["res://.godot/imported/building_barracks_yellow.obj-f16a59ed656e527649a4916bd76baa9b.mesh"]
 
-source_file="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/yellow/building_barracks_yellow.obj"
-dest_files=["res://.godot/imported/building_barracks_yellow.obj-3ce6aaf118646b5df5420606f48233d5.mesh", "res://.godot/imported/building_barracks_yellow.obj-3ce6aaf118646b5df5420606f48233d5.mesh"]
+source_file="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/yellow/building_barracks_yellow.obj"
+dest_files=["res://.godot/imported/building_barracks_yellow.obj-f16a59ed656e527649a4916bd76baa9b.mesh", "res://.godot/imported/building_barracks_yellow.obj-f16a59ed656e527649a4916bd76baa9b.mesh"]
 
 [params]
 

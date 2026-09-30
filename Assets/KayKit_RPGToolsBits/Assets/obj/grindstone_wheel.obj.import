@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dkd87b1u2w6cs"
-path="res://.godot/imported/grindstone_wheel.obj-c7e5b0498c64a43f85f6cae798b66031.mesh"
+path="res://.godot/imported/grindstone_wheel.obj-550f276ede43cd6fb47ec5dcf3219ada.mesh"
 
 [deps]
 
-files=["res://.godot/imported/grindstone_wheel.obj-c7e5b0498c64a43f85f6cae798b66031.mesh"]
+files=["res://.godot/imported/grindstone_wheel.obj-550f276ede43cd6fb47ec5dcf3219ada.mesh"]
 
-source_file="res://Assets/KayKit_RPGToolsBits_1.0_FREE/Assets/obj/grindstone_wheel.obj"
-dest_files=["res://.godot/imported/grindstone_wheel.obj-c7e5b0498c64a43f85f6cae798b66031.mesh", "res://.godot/imported/grindstone_wheel.obj-c7e5b0498c64a43f85f6cae798b66031.mesh"]
+source_file="res://Assets/KayKit_RPGToolsBits/Assets/obj/grindstone_wheel.obj"
+dest_files=["res://.godot/imported/grindstone_wheel.obj-550f276ede43cd6fb47ec5dcf3219ada.mesh", "res://.godot/imported/grindstone_wheel.obj-550f276ede43cd6fb47ec5dcf3219ada.mesh"]
 
 [params]
 

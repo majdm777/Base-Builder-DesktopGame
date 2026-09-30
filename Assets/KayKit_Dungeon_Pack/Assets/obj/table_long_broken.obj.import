@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cnjbxusv1blw6"
-path="res://.godot/imported/table_long_broken.obj-aac375bcf7a7fc8f844d4577ad617730.mesh"
+path="res://.godot/imported/table_long_broken.obj-64541cb5b119f856fc891b7b012061d2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/table_long_broken.obj-aac375bcf7a7fc8f844d4577ad617730.mesh"]
+files=["res://.godot/imported/table_long_broken.obj-64541cb5b119f856fc891b7b012061d2.mesh"]
 
-source_file="res://Assets/KayKit_Dungeon_Pack_1.1_FREE/Assets/obj/table_long_broken.obj"
-dest_files=["res://.godot/imported/table_long_broken.obj-aac375bcf7a7fc8f844d4577ad617730.mesh", "res://.godot/imported/table_long_broken.obj-aac375bcf7a7fc8f844d4577ad617730.mesh"]
+source_file="res://Assets/KayKit_Dungeon_Pack/Assets/obj/table_long_broken.obj"
+dest_files=["res://.godot/imported/table_long_broken.obj-64541cb5b119f856fc891b7b012061d2.mesh", "res://.godot/imported/table_long_broken.obj-64541cb5b119f856fc891b7b012061d2.mesh"]
 
 [params]
 

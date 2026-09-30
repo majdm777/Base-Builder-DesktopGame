@@ -3,8 +3,13 @@ extends Node
 enum State{
 	play,
 	building,
-	destroying
+	destroying,
 }
+
+var food_availability := 60
+var fbool := true
+var safty := 20
+var community := 20
 
 var Current_State = State.play
 
@@ -16,76 +21,50 @@ var taxRate := 1
 
 var Citizen : PackedScene
 
-var FirePitSpaces : Array
-var OccupiedFireSpaces : Array
-
-var Happiness := 1
+var Happiness := 100
 
 var foodbool := true
 
 var spawnReady := true 
 
-var Food : int =5000
+var Food : int = 5000
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	Citizen = ResourceLoader.load("res://Citizen.tscn")
-	FirePitSpaces = get_tree().get_nodes_in_group("CitizenSpawnPoint")
 	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if population < MaxPopulation && spawnReady && Happiness > 0 && FirePitSpaces.size() > 0:
+	Happiness = food_availability + safty + community
+	
+	if ResourceManager.resources["food"] == 0:
+		if fbool :
+			fbool = false
+			if food_availability > 0:
+				await get_tree().create_timer(5.0).timeout
+				food_availability -= 1
+			fbool = true
+	else:
+		if fbool :
+			fbool = false
+			if food_availability <= 60:
+				await get_tree().create_timer(7.5).timeout
+				food_availability += 1
+			fbool = true
+	
+	if Happiness > 60 && population < MaxPopulation && spawnReady:
 		spawnReady = false
 		await get_tree().create_timer(3.0).timeout
 		spawnReady = true
 		var citizen = Citizen.instantiate()
-		FirePitSpaces[0].add_child(citizen)
-		citizen.FirePitPos = FirePitSpaces[0]
-		citizen.spawn_Object_Setup()
-		OccupiedFireSpaces.append(FirePitSpaces.pop_at(0))
-		population +=1
-		AvlPopulation +=1
-	elif  spawnReady && Happiness < 0 :
-		spawnReady = false
-		await get_tree().create_timer(3).timeout
-		spawnReady = true
-		if AvlPopulation >0:
-			remove_citizen(1)
+		#citizen.Spawn()
+		population += 1
+		AvlPopulation += 1
 	if foodbool:
 		foodbool = false
-		await get_tree().create_timer(6.0).timeout
+		await get_tree().create_timer(10.0).timeout
 		ResourceManager.resources["food"] -= population
 		if ResourceManager.resources["food"] < 0:
 			ResourceManager.resources["food"] = 0
 		foodbool = true
-		ResourceManager.resources["gold"] += round(population * taxRate)
-		var happinessValue = 0
-		if ResourceManager.resources["food"] > 0:
-			happinessValue +=1
-		else:
-			happinessValue-=10
-		if taxRate > 0:
-			happinessValue -=round(taxRate/2)
-		Happiness += happinessValue
-		if Happiness >=2:
-			Happiness = 2
-		elif Happiness <= -2:
-			Happiness =-2
-	pass
-	pass
-	
-func remove_citizen(Cost : int):
-	for i in range(0,Cost,1):
-		FirePitSpaces.append(OccupiedFireSpaces[0])
-		var temp : Node3D = OccupiedFireSpaces[0]
-		delete_child(temp)
-		OccupiedFireSpaces.remove_at(0)
-		AvlPopulation -=1
-		population -=1
-		
-
-func delete_child(node):
-	for n in node.get_children():
-		node.remove_child(n)
-		n.queue_free()

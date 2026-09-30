@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://byxeob3kse0g0"
-path="res://.godot/imported/castle.gltf.glb-6ea0f5fa9e883c72597df2efd34191d6.scn"
+path="res://.godot/imported/castle.gltf.glb-e4527f66671a680ec843e731849d216f.scn"
 
 [deps]
 
-source_file="res://Assets/Models/objects/gltf/castle.gltf.glb"
-dest_files=["res://.godot/imported/castle.gltf.glb-6ea0f5fa9e883c72597df2efd34191d6.scn"]
+source_file="res://Assets/Kaykit_builder/Models/objects/gltf/castle.gltf.glb"
+dest_files=["res://.godot/imported/castle.gltf.glb-e4527f66671a680ec843e731849d216f.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cwgvtrtbqad3a"
-path="res://.godot/imported/Gold_Nugget_Small.obj-0abee7b83c9b4ad2eb89f2bd10db23c1.mesh"
+path="res://.godot/imported/Gold_Nugget_Small.obj-474809d79417cdcbac0c23a61814c47b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Gold_Nugget_Small.obj-0abee7b83c9b4ad2eb89f2bd10db23c1.mesh"]
+files=["res://.godot/imported/Gold_Nugget_Small.obj-474809d79417cdcbac0c23a61814c47b.mesh"]
 
-source_file="res://Assets/KayKit_ResourceBits_1.0_FREE/Assets/obj/Gold_Nugget_Small.obj"
-dest_files=["res://.godot/imported/Gold_Nugget_Small.obj-0abee7b83c9b4ad2eb89f2bd10db23c1.mesh", "res://.godot/imported/Gold_Nugget_Small.obj-0abee7b83c9b4ad2eb89f2bd10db23c1.mesh"]
+source_file="res://Assets/KayKit_ResourceBits/Assets/obj/Gold_Nugget_Small.obj"
+dest_files=["res://.godot/imported/Gold_Nugget_Small.obj-474809d79417cdcbac0c23a61814c47b.mesh", "res://.godot/imported/Gold_Nugget_Small.obj-474809d79417cdcbac0c23a61814c47b.mesh"]
 
 [params]
 
