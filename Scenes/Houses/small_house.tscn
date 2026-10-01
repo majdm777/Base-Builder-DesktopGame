@@ -10,7 +10,7 @@ data = PackedVector3Array(-0.24499999, 0.336, -0.24499999, -0.24499999, 0.336, -
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
 size = Vector3(0.92131805, 1.0410156, 1.0356445)
 
-[node name="SmallHouse" type="StaticBody3D" unique_id=879737008 groups=["building"]]
+[node name="SmallHouse" type="StaticBody3D" unique_id=879737008 groups=["Community", "House", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_xysir")
 IncreasePopcap = true

@@ -56,3 +56,7 @@ V1.0.2.6: added the Iron mine , and added the iron miner hut , removed the anima
 V1.0.2.7 : organized the files deleted an unneeded assests and files , added the main assests to the github 
     V1.0.2.7.1 : added to the community system : food_availability plus safty plus community which they control the happiness in the community by 60% , 20% , 20% . this could be changed in the future adding a new controllers .
     V1.0.2.7.2: edited the citizen now the i have a lifecycle , and response when there is a capacity through building houses which they will responed to the assigned one. once a building need a worker or that cost a population one of the citizen will disappear as if they are  assigned to tha work , the population will stay the same but the available population will be decremented .
+
+V1.0.2.8: added to the happiness system the community now the citizen have something to do , and interact with building that grouped as  community building , and if there is no building the happines decreases for 20% since the community takes 20% of the happiness system.
+    V1.0.2.8.1 : added the Church as the first community building with its scrip buildingCommunityObject which extend the BuildingObject and have the funct _interact(character : node3d) (may be edited or modified later).
+    V1.0.2.8.2 : added the Shop as the second community building (it will be modifed later ).

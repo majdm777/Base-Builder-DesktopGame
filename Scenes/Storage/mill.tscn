@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://ferr7mmlt7nn"]
 
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_63jky"]
-[ext_resource type="Texture2D" uid="uid://ri7yry4hxd2o" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx/buildings/blue/hexagons_medieval.png" id="2_g4pia"]
+[ext_resource type="Texture2D" uid="uid://ri7yry4hxd2o" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx/buildings/blue/hexagons_medieval.png" id="2_g4pia"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a4odr"]
 resource_name = "hexagons_medieval"
