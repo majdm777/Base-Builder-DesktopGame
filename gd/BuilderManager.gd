@@ -19,6 +19,8 @@ var SmallHouse : PackedScene = ResourceLoader.load("res://Scenes/Houses/small_ho
 var StoneMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/stone_mine.tscn")
 var IronMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/iron_mine.tscn")
 
+var Church :PackedScene = ResourceLoader.load("res://Scenes/Community/Church.tscn")
+
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
 
@@ -203,7 +205,8 @@ func SpawnStoneMine():
 func SpawnIronMine():
 	SpawnObj(IronMine)
 
-
+func SpawnChurch():
+	SpawnObj(Church)
 	
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:

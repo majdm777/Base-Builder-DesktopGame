@@ -29,6 +29,7 @@ var Food : int = 5000
 
 @onready var food_timer := Timer.new()
 @onready var food_consumption_timer := Timer.new()
+@onready var community_decay_timer := Timer.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -44,6 +45,12 @@ func _ready() -> void:
 	food_consumption_timer.one_shot = false
 	food_consumption_timer.timeout.connect(_on_food_consumption_timeout)
 	food_consumption_timer.start()
+	
+	add_child(community_decay_timer)
+	community_decay_timer.wait_time = 8.0
+	community_decay_timer.one_shot = false
+	community_decay_timer.timeout.connect(_on_community_decay_timeout)
+	community_decay_timer.start()
 
 
 func _restart_food_timer() -> void:
@@ -83,7 +90,7 @@ func _process(delta: float) -> void:
 				if is_instance_valid(house) and house.spawned and house.remaining_space > 0 :
 					citizen.Home = house.occupy()
 					citizen.global_position = citizen.Home.global_position
-					citizen.current_task = citizen.Task.Sitting
+					citizen.current_task = citizen.Task.Wondering
 					FoundHouse = true
 					population += 1
 					AvlPopulation += 1
@@ -97,3 +104,10 @@ func assign_citizen():
 			node.queue_free()
 			return
 	pass
+
+func _on_community_decay_timeout() -> void:
+	var decay_amount : int = 1 + int(population / 10.0)  # divisor = 10, tune as needed
+	community = max(0, community - decay_amount)
+
+func on_community_interaction() -> void:
+	community = min(20, community + 1)
