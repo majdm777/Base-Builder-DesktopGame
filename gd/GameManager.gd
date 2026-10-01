@@ -106,6 +106,8 @@ func assign_citizen():
 	pass
 
 func _on_community_decay_timeout() -> void:
+	if AvlPopulation <= 0:
+		return
 	var decay_amount : int = 1 + int(population / 10.0)  # divisor = 10, tune as needed
 	community = max(0, community - decay_amount)
 

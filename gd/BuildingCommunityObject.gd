@@ -10,12 +10,19 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	super(delta)
 
-func _interact(Character : Node3D) -> bool:
+func _interact(character: Node3D) -> bool:
 	if current_occupants >= capacity:
-		return false  # full, citizen should leave and wander again
-
+		return false
+		
 	current_occupants += 1
+	if is_instance_valid(character):
+		character.visible = false
 	await get_tree().create_timer(5.0).timeout
 	current_occupants -= 1
+	if is_instance_valid(character):
+		character.visible = true
+
+	current_occupants -= 1
 	GameManager.on_community_interaction()
+
 	return true

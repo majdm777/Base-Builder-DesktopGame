@@ -54,9 +54,9 @@ func runSpawn():
 func run_despawn():
 	if SpawnActor and CurrentActor:
 		CurrentActor.queue_free()
-	GameManager.population -= PopulationCost
+	GameManager.AvlPopulation += PopulationCost
 	if IncreaseCapAmount:
-		GameManager.population -= IncreaseCapAmount
+		GameManager.MaxPopulation -= IncreaseCapAmount
 	ResourceManager._on_despawn_object(self)
 	queue_free()
 

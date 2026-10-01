@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://b201vrj38oaks"]
+
+[ext_resource type="Script" uid="uid://cujhcu42xnkgp" path="res://gd/BuildingCommunityObject.gd" id="1_byj32"]
+[ext_resource type="ArrayMesh" uid="uid://blng13rklklxt" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_market_blue.obj" id="2_1wjju"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
+size = Vector3(2.226944, 1.0453491, 1.6456299)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mti6b"]
+size = Vector3(1.4547386, 1.042511, 1.0003662)
+
+[node name="Shop" type="StaticBody3D" unique_id=1252610734 groups=["Community", "building"]]
+script = ExtResource("1_byj32")
+
+[node name="main building" type="Node3D" parent="." unique_id=1278493497]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="main building" unique_id=1604399643]
+mesh = ExtResource("2_1wjju")
+
+[node name="Area" type="Area3D" parent="." unique_id=438171427]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=954909446]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0033798218, 0.48013306, -0.07598877)
+shape = SubResource("BoxShape3D_4kxuq")
+
+[node name="SpawnPoint" type="Marker3D" parent="." unique_id=1347628598]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5689132)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1113564600]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1707325, 0.46128845, -0.21954346)
+shape = SubResource("BoxShape3D_mti6b")
