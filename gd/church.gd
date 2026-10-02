@@ -10,12 +10,12 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	super(delta)
-	if current_occupants  == 0 :
-		$Node3D/OmniLight3D.visible = false
-		$Node3D/OmniLight3D2.visible = false
-	else:
+	if current_occupants  > 0 :
 		$Node3D/OmniLight3D.visible = true
 		$Node3D/OmniLight3D2.visible = true
+	else:
+		$Node3D/OmniLight3D.visible = false
+		$Node3D/OmniLight3D2.visible = false
 	pass
 
 func _interact(character: Node3D) -> bool:
