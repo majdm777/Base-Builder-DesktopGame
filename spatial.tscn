@@ -543,12 +543,6 @@ text = "Mill
 
 "
 
-[node name="BuildOrchard" type="Button" parent="Control/TabContainer/Food" unique_id=1024900695]
-layout_mode = 2
-text = "Orchard
-
-"
-
 [node name="BuildFarm" type="Button" parent="Control/TabContainer/Food" unique_id=1985140862]
 layout_mode = 2
 text = "Farm
@@ -583,30 +577,20 @@ metadata/_tab_index = 4
 layout_mode = 2
 text = "Church"
 
+[node name="Shop" type="Button" parent="Control/TabContainer/Community" unique_id=712987691]
+layout_mode = 2
+text = "Shop
+"
+
+[node name="Bar" type="Button" parent="Control/TabContainer/Community" unique_id=394258208]
+layout_mode = 2
+text = "Bar
+"
+
 [node name="Walls" type="HBoxContainer" parent="Control/TabContainer" unique_id=379035408]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 5
-
-[node name="BuildWallNarrow" type="Button" parent="Control/TabContainer/Walls" unique_id=627091967]
-layout_mode = 2
-text = "Norrow Wall
-
-"
-
-[node name="BuildWallNarrowCorner" type="Button" parent="Control/TabContainer/Walls" unique_id=395000221]
-layout_mode = 2
-text = "Corner Narrow Wall
-
-
-"
-
-[node name="BuildWallNarrowGate" type="Button" parent="Control/TabContainer/Walls" unique_id=1714987850]
-layout_mode = 2
-text = "Norrow Gate Wall
-
-
-"
 
 [node name="DestoryMode" type="Button" parent="Control" unique_id=819732516]
 self_modulate = Color(1, 0, 0, 1)
@@ -854,13 +838,11 @@ navigation_mesh = SubResource("NavigationMesh_4lt0l")
 [connection signal="button_down" from="Control/TabContainer/Mines/Stone Mine" to="Control" method="_on_stone_mine_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Mines/Iron Mine" to="Control" method="_on_iron_mine_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/BuildMill" to="Control" method="_on_build_mill_button_down"]
-[connection signal="button_down" from="Control/TabContainer/Food/BuildOrchard" to="Control" method="_on_build_orchard_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/BuildFarm" to="Control" method="_on_build_farm_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/tree plantation" to="Control" method="_on_tree_plantation_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Population/BuildHouse" to="Control" method="_on_build_house_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Population/BuildHouse2" to="Control" method="_on_build_house_2_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Community/Church" to="Control" method="_on_church_button_down"]
-[connection signal="button_down" from="Control/TabContainer/Walls/BuildWallNarrow" to="Control" method="_on_build_wall_narrow_button_down"]
-[connection signal="button_down" from="Control/TabContainer/Walls/BuildWallNarrowCorner" to="Control" method="_on_build_wall_narrow_corner_button_down"]
-[connection signal="button_down" from="Control/TabContainer/Walls/BuildWallNarrowGate" to="Control" method="_on_build_wall_narrow_gate_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Community/Shop" to="Control" method="_on_shop_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Community/Bar" to="Control" method="_on_bar_button_down"]
 [connection signal="button_down" from="Control/DestoryMode" to="Control" method="_on_destory_mode_button_down"]

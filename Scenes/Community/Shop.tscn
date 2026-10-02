@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b201vrj38oaks"]
 
-[ext_resource type="Script" uid="uid://cujhcu42xnkgp" path="res://gd/BuildingCommunityObject.gd" id="1_byj32"]
+[ext_resource type="Script" uid="uid://ckd2wwvl86e8r" path="res://gd/shop.gd" id="1_pgtaf"]
 [ext_resource type="ArrayMesh" uid="uid://blng13rklklxt" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_market_blue.obj" id="2_1wjju"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
@@ -10,7 +10,8 @@ size = Vector3(2.226944, 1.0453491, 1.6456299)
 size = Vector3(1.4547386, 1.042511, 1.0003662)
 
 [node name="Shop" type="StaticBody3D" unique_id=1252610734 groups=["Community", "building"]]
-script = ExtResource("1_byj32")
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+script = ExtResource("1_pgtaf")
 
 [node name="main building" type="Node3D" parent="." unique_id=1278493497]
 

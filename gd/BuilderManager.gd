@@ -5,11 +5,6 @@ var StoneCutterhut : PackedScene = ResourceLoader.load("res://Scenes/ResourceExt
 var IronMinerHut: PackedScene = ResourceLoader.load("res://Scenes/ResourceExtraction/iron_miner_hut.tscn")
 var StockPile : PackedScene = ResourceLoader.load("res://Scenes/Storage/Stockpile.tscn")
 
-var Wall : PackedScene = ResourceLoader.load("res://Scenes/Walls/wallNarrow.tscn")
-var CornerWall : PackedScene = ResourceLoader.load("res://Scenes/Walls/wallNarrowCorner.tscn")
-var GateWall : PackedScene = ResourceLoader.load("res://Scenes/Walls/wallNarrowGate.tscn")
-
-var Orchard : PackedScene = ResourceLoader.load("res://Scenes/Orchard.tscn")
 var Mill : PackedScene = ResourceLoader.load("res://Scenes/Storage/mill.tscn")
 var Farm : PackedScene = ResourceLoader.load("res://Scenes/Farms/farm.tscn")
 var TreePlantation : PackedScene = ResourceLoader.load("res://Scenes/RecourceProducers/tree_planter.tscn")
@@ -21,6 +16,8 @@ var StoneMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/stone_mine.t
 var IronMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/iron_mine.tscn")
 
 var Church :PackedScene = ResourceLoader.load("res://Scenes/Community/Church.tscn")
+var Shop :PackedScene = ResourceLoader.load("res://Scenes/Community/Shop.tscn")
+var Bar :PackedScene = ResourceLoader.load("res://Scenes/Community/Bar.tscn")
 
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
@@ -189,27 +186,25 @@ func SpawnMediumHouse():
 # Food
 func SpawnMill():
 	SpawnObj(Mill)
-func SpawnOrchard():
-	SpawnObj(Orchard)
 func SpawnFarm():
 	SpawnObj(Farm)
 func SpawnTreePlantation():
 	SpawnObj(TreePlantation)
 # Wall
-func SpawnWall():
-	SpawnObj(Wall)
-func SpawnWallCorner():
-	SpawnObj(CornerWall)
-func SpawnWallGate():
-	SpawnObj(GateWall)
+
 #Mines
 func SpawnStoneMine():
 	SpawnObj(StoneMine)
 func SpawnIronMine():
 	SpawnObj(IronMine)
 
+#community
 func SpawnChurch():
 	SpawnObj(Church)
+func SpawnShop():
+	SpawnObj(Shop)
+func SpawnBar():
+	SpawnObj(Bar)
 	
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:
