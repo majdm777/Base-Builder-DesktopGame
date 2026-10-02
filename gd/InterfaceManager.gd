@@ -89,9 +89,7 @@ func _on_church_button_down() -> void:
 	pass # Replace with function body.
 
 
-func _on_build_house_2_button_down() -> void:
-	BuilderManager.SpawnMediumHouse()
-	pass # Replace with function body.
+
 
 
 func _on_shop_button_down() -> void:
@@ -101,4 +99,9 @@ func _on_shop_button_down() -> void:
 
 func _on_bar_button_down() -> void:
 	BuilderManager.SpawnBar()
+	pass # Replace with function body.
+
+
+func _on_build_house_2_button_down() -> void:
+	BuilderManager.SpawnMediumHouse()
 	pass # Replace with function body.

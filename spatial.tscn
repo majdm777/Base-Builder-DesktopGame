@@ -564,6 +564,10 @@ metadata/_tab_index = 3
 layout_mode = 2
 text = "Small House "
 
+[node name="BuildHouse2" type="Button" parent="Control/TabContainer/Population" unique_id=1469346724]
+layout_mode = 2
+text = "Medium House "
+
 [node name="Community" type="HBoxContainer" parent="Control/TabContainer" unique_id=892320089]
 visible = false
 layout_mode = 2
@@ -837,6 +841,7 @@ navigation_mesh = SubResource("NavigationMesh_4lt0l")
 [connection signal="button_down" from="Control/TabContainer/Food/BuildFarm" to="Control" method="_on_build_farm_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Food/tree plantation" to="Control" method="_on_tree_plantation_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Population/BuildHouse" to="Control" method="_on_build_house_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Population/BuildHouse2" to="Control" method="_on_build_house_2_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Community/Church" to="Control" method="_on_church_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Community/Shop" to="Control" method="_on_shop_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Community/Bar" to="Control" method="_on_bar_button_down"]
