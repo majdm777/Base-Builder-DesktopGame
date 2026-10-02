@@ -43,7 +43,8 @@ func _process(delta: float) -> void:
 		Task.Sitting:
 			if run_once:
 				run_once = false
-				var interacted : bool = await Target._interact(self)
+				if is_instance_valid(Target):
+					var interacted : bool = await Target._interact(self)
 				current_task = Task.Wondering
 				run_once = true
 			pass
