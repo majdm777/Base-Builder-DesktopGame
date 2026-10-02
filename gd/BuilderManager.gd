@@ -15,6 +15,7 @@ var Farm : PackedScene = ResourceLoader.load("res://Scenes/Farms/farm.tscn")
 var TreePlantation : PackedScene = ResourceLoader.load("res://Scenes/RecourceProducers/tree_planter.tscn")
 
 var SmallHouse : PackedScene = ResourceLoader.load("res://Scenes/Houses/small_house.tscn")
+var MediumHouse :PackedScene = ResourceLoader.load("res://Scenes/Houses/medium_house.tscn")
 
 var StoneMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/stone_mine.tscn")
 var IronMine:PackedScene = ResourceLoader.load("res://Scenes/Mines/iron_mine.tscn")
@@ -183,6 +184,8 @@ func spawn_ironmine_hut():
 # Population
 func SpawnSmallHouse():
 	SpawnObj(SmallHouse)
+func SpawnMediumHouse():
+	SpawnObj(MediumHouse)
 # Food
 func SpawnMill():
 	SpawnObj(Mill)
