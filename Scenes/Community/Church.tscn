@@ -12,6 +12,7 @@ size = Vector3(1.4318314, 1.6958008, 1.5135498)
 [node name="Church" type="StaticBody3D" unique_id=720223680 groups=["Community", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_e5iv7")
+capacity = 4
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1972450402]
 shape = SubResource("ConcavePolygonShape3D_e5iv7")

@@ -58,19 +58,6 @@ func _on_build_house_button_down() -> void:
 	pass # Replace with function body.
 
 
-func _on_build_wall_narrow_button_down() -> void:
-	BuilderManager.SpawnWall()
-	pass # Replace with function body.
-
-func _on_build_wall_narrow_corner_button_down() -> void:
-	BuilderManager.SpawnWallCorner()
-	pass # Replace with function body.
-
-
-func _on_build_wall_narrow_gate_button_down() -> void:
-	BuilderManager.SpawnWallGate()
-	pass # Replace with function body.
-
 
 func _on_destory_mode_button_down() -> void:
 	GameManager.Current_State = GameManager.State.destroying
@@ -104,4 +91,14 @@ func _on_church_button_down() -> void:
 
 func _on_build_house_2_button_down() -> void:
 	BuilderManager.SpawnMediumHouse()
+	pass # Replace with function body.
+
+
+func _on_shop_button_down() -> void:
+	BuilderManager.SpawnShop()
+	pass # Replace with function body.
+
+
+func _on_bar_button_down() -> void:
+	BuilderManager.SpawnBar()
 	pass # Replace with function body.

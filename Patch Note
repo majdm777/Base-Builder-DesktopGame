@@ -60,3 +60,4 @@ V1.0.2.7 : organized the files deleted an unneeded assests and files , added the
 V1.0.2.8: added to the happiness system the community now the citizen have something to do , and interact with building that grouped as  community building , and if there is no building the happines decreases for 20% since the community takes 20% of the happiness system.
     V1.0.2.8.1 : added the Church as the first community building with its scrip buildingCommunityObject which extend the BuildingObject and have the funct _interact(character : node3d) (may be edited or modified later).
     V1.0.2.8.2 : added the Shop as the second community building (it will be modifed later ).
+    V1.0.2.8.3 : added Bar to the game and fixed some little bugs and also redsigned the farm 
