@@ -61,3 +61,6 @@ V1.0.2.8: added to the happiness system the community now the citizen have somet
     V1.0.2.8.1 : added the Church as the first community building with its scrip buildingCommunityObject which extend the BuildingObject and have the funct _interact(character : node3d) (may be edited or modified later).
     V1.0.2.8.2 : added the Shop as the second community building (it will be modifed later ).
     V1.0.2.8.3 : added Bar to the game and fixed some little bugs and also redsigned the farm 
+
+V1.0.2.9: added the walls and gates but only added two buttons that handles the wooden wall and wooden gate , the wall system ingeneral is fnished but still needs some edits . so over all not done and need an extra work later.
+

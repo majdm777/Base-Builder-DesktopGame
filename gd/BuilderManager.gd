@@ -19,6 +19,9 @@ var Church :PackedScene = ResourceLoader.load("res://Scenes/Community/Church.tsc
 var Shop :PackedScene = ResourceLoader.load("res://Scenes/Community/Shop.tscn")
 var Bar :PackedScene = ResourceLoader.load("res://Scenes/Community/Bar.tscn")
 
+var Wall_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Wall_lvl1.tscn")
+var Gate_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Gate_lvl1.tscn")
+
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
 
@@ -100,8 +103,9 @@ func _place_building() -> void:
 
 	# Wait until the navmesh has actually been rebaked to include this
 	# building before spawning its actor, so it never spawns on stale nav data.
-	var aabb := _building_world_aabb(obj)
-	await NavChunks.rebake_affected_chunks(aabb)
+	if not obj.is_in_group("Gate"):
+		var aabb := _building_world_aabb(obj)
+		await NavChunks.rebake_affected_chunks(aabb)
 
 	obj.collision_layer = 1
 	obj.collision_mask = 1
@@ -205,7 +209,12 @@ func SpawnShop():
 	SpawnObj(Shop)
 func SpawnBar():
 	SpawnObj(Bar)
-	
+
+#wall
+func SpawnWall_lvl1():
+	SpawnObj(Wall_lvl1)
+func SpawnGate_lvl1():
+	SpawnObj(Gate_lvl1)
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:
 		currentSpawnable.queue_free()

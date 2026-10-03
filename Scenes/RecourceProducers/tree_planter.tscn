@@ -14,7 +14,7 @@ size = Vector3(1.2226563, 1.0686035, 1.4229126)
 [sub_resource type="BoxShape3D" id="BoxShape3D_mti6b"]
 size = Vector3(2.992035, 1.079834, 2.78833)
 
-[node name="Tree_planter" type="StaticBody3D" unique_id=86827153]
+[node name="Tree_planter" type="StaticBody3D" unique_id=86827153 groups=["building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_kuiuu")
 time_to_grow = 30
