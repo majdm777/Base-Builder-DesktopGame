@@ -592,6 +592,16 @@ visible = false
 layout_mode = 2
 metadata/_tab_index = 5
 
+[node name="Wall_lvl1" type="Button" parent="Control/TabContainer/Walls" unique_id=1970469642]
+layout_mode = 2
+text = "Wooden fence 
+"
+
+[node name="WallGate_lvl1" type="Button" parent="Control/TabContainer/Walls" unique_id=223364371]
+layout_mode = 2
+text = "Wooden Gate 
+"
+
 [node name="DestoryMode" type="Button" parent="Control" unique_id=819732516]
 self_modulate = Color(1, 0, 0, 1)
 layout_mode = 1
@@ -614,7 +624,7 @@ script = ExtResource("4_hjq85")
 shape = SubResource("CircleShape2D_c07jr")
 
 [node name="CastleKeep" parent="." unique_id=1965243952 groups=["NavMesh"] instance=ExtResource("5_c07jr")]
-transform = Transform3D(0.99979913, 7.5959597e-06, 0.020033784, -8.188997e-06, 0.99999976, 2.9520685e-05, -0.020033786, -2.9678864e-05, 0.99979895, 0, 0, 0)
+transform = Transform3D(2.4994984, 1.8989856e-05, 0.05008448, -2.0472497e-05, 2.5, 7.380185e-05, -0.05008448, -7.419718e-05, 2.4994984, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CastleKeep" unique_id=393930494]
 transform = Transform3D(1.70215, 5.70964e-10, 2.32831e-10, 1.84031e-10, 1.8391, 3.49246e-10, 4.65661e-10, -1.74623e-10, 1.96311, 17.1882, 0.0116054, 0.00414438)
@@ -845,4 +855,6 @@ navigation_mesh = SubResource("NavigationMesh_4lt0l")
 [connection signal="button_down" from="Control/TabContainer/Community/Church" to="Control" method="_on_church_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Community/Shop" to="Control" method="_on_shop_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Community/Bar" to="Control" method="_on_bar_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Walls/Wall_lvl1" to="Control" method="_on_wall_lvl_1_button_down"]
+[connection signal="button_down" from="Control/TabContainer/Walls/WallGate_lvl1" to="Control" method="_on_wall_gate_lvl_1_button_down"]
 [connection signal="button_down" from="Control/DestoryMode" to="Control" method="_on_destory_mode_button_down"]

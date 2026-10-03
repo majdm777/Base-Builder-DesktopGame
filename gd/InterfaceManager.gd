@@ -105,3 +105,13 @@ func _on_bar_button_down() -> void:
 func _on_build_house_2_button_down() -> void:
 	BuilderManager.SpawnMediumHouse()
 	pass # Replace with function body.
+
+
+func _on_wall_lvl_1_button_down() -> void:
+	BuilderManager.SpawnWall_lvl1()
+	pass # Replace with function body.
+
+
+func _on_wall_gate_lvl_1_button_down() -> void:
+	BuilderManager.SpawnGate_lvl1()
+	pass # Replace with function body.
