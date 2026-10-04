@@ -711,6 +711,7 @@ directional_shadow_max_distance = 300.0
 
 [node name="Moon" type="DirectionalLight3D" parent="Map" unique_id=485640434]
 transform = Transform3D(0.8660254, 0.38302192, -0.3213938, 5.820766e-11, 0.6427877, 0.7660441, 0.49999973, -0.6634137, 0.55667055, 192.84297, 181.74695, -0.018765196)
+light_color = Color(0, 0, 0, 1)
 directional_shadow_blend_splits = true
 directional_shadow_max_distance = 300.0
 

@@ -4,7 +4,7 @@ signal day_changed(day: int, month: int, year: int)
 signal month_changed(month: int, year: int)
 signal year_changed(year: int)
 
-const SECONDS_PER_HOUR := 2
+const SECONDS_PER_HOUR := 60
 const HOURS_PER_DAY := 24.0
 const SECONDS_PER_DAY := SECONDS_PER_HOUR * HOURS_PER_DAY  # 1440
 
@@ -14,9 +14,6 @@ const MONTHS_PER_YEAR := 12
 var day : int = 1
 var month : int = 1
 var year : int = 1000
-
-const DAY_COLOR := Color(1.0, 0.97, 0.9)      # warm-ish white, daylight
-const NIGHT_COLOR := Color(0.25, 0.35, 0.55)   # cool dark blue, moonlight
 
 var moon_light : DirectionalLight3D
 const MOON_COLOR := Color(0.4, 0.5, 0.75)
