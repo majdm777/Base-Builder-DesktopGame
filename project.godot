@@ -25,6 +25,7 @@ GameManager="*res://gd/GameManager.gd"
 BuilderManager="*res://gd/BuilderManager.gd"
 ResourceManager="*uid://b3voqa7nf8jrn"
 NavChunks="*uid://seemkcpqgfmt"
+WorldTime="*uid://bwuwa1m4stn4o"
 
 [global_group]
 

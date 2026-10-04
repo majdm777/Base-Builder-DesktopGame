@@ -64,3 +64,5 @@ V1.0.2.8: added to the happiness system the community now the citizen have somet
 
 V1.0.2.9: added the walls and gates but only added two buttons that handles the wooden wall and wooden gate , the wall system ingeneral is fnished but still needs some edits . so over all not done and need an extra work later.
 
+V1.0.2.10: added the WorldTime the count how many mins/hours/days/months/years the player has been playing also added the day/nught system that is connected to the worldtime and changes according to the time(2 directional light  Sun and moon)
+        - 1 hour in-game means 690 seconds --> 1 day --> 24 mins ...

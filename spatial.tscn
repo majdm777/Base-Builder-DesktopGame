@@ -327,6 +327,7 @@ size_flags_vertical = 10
 script = ExtResource("2_ne8tm")
 
 [node name="Area2D" type="Area2D" parent="Control" unique_id=953831825]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Control/Area2D" unique_id=2146578196]
 position = Vector2(580, 25)
@@ -617,6 +618,37 @@ grow_horizontal = 0
 grow_vertical = 0
 text = "D"
 
+[node name="Panel2" type="Panel" parent="Control" unique_id=2066045583]
+layout_mode = 0
+offset_left = 971.0
+offset_top = -559.0
+offset_right = 1147.0
+offset_bottom = -507.0
+
+[node name="date" type="Control" parent="Control" unique_id=1366876376]
+anchors_preset = 0
+offset_left = 971.0
+offset_top = -559.0
+offset_right = 1148.0
+offset_bottom = -507.0
+
+[node name="Date" type="Label" parent="Control/date" unique_id=209722062]
+layout_mode = 0
+offset_left = 2.0
+offset_right = 172.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 10
+text = "wqw"
+
+[node name="Time" type="Label" parent="Control/date" unique_id=1857692674]
+layout_mode = 0
+offset_left = 3.0000336
+offset_top = 28.0
+offset_right = 176.58719
+offset_bottom = 51.0
+scale = Vector2(0.97933507, 1)
+theme_override_font_sizes/font_size = 10
+
 [node name="Area2D" type="Area2D" parent="." unique_id=418786930]
 script = ExtResource("4_hjq85")
 
@@ -671,9 +703,17 @@ transform = Transform3D(9.99998, -0.014774911, -0.0027360432, 0.014775963, 9.999
 [node name="Tree_Small4" parent="Map" unique_id=1791539150 instance=ExtResource("6_u7lc8")]
 transform = Transform3D(9.999978, -0.014774907, -0.0027360423, 0.01477596, 9.999977, 0.0039355857, 0.0027302296, -0.0039396263, 9.999979, 18.598654, 0.02779017, -9.7778635)
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map" unique_id=285093446]
+[node name="Sun" type="DirectionalLight3D" parent="Map" unique_id=285093446]
 transform = Transform3D(0.8660254, 0.38302192, -0.3213938, 5.820766e-11, 0.6427877, 0.7660441, 0.49999973, -0.6634137, 0.55667055, 192.84297, 181.74695, -0.018765196)
 shadow_enabled = true
+directional_shadow_blend_splits = true
+directional_shadow_max_distance = 300.0
+
+[node name="Moon" type="DirectionalLight3D" parent="Map" unique_id=485640434]
+transform = Transform3D(0.8660254, 0.38302192, -0.3213938, 5.820766e-11, 0.6427877, 0.7660441, 0.49999973, -0.6634137, 0.55667055, 192.84297, 181.74695, -0.018765196)
+light_color = Color(0, 0, 0, 1)
+directional_shadow_blend_splits = true
+directional_shadow_max_distance = 300.0
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="Map" unique_id=427985028]
 environment = SubResource("Environment_ih4ol")

@@ -13,6 +13,8 @@ func _process(delta: float) -> void:
 	$PopulationBox/AlvPop/AvlPopValue.text = str(GameManager.AvlPopulation)
 	$PopulationBox/Hap/HapValue.text = str(GameManager.Happiness)
 	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + "/" + str(GameManager.MaxPopulation)
+	$date/Date.text = WorldTime.get_date_string()
+	$date/Time.text = WorldTime.get_time_string()
 	pass
 
 
