@@ -656,7 +656,7 @@ script = ExtResource("4_hjq85")
 shape = SubResource("CircleShape2D_c07jr")
 
 [node name="CastleKeep" parent="." unique_id=1965243952 groups=["NavMesh"] instance=ExtResource("5_c07jr")]
-transform = Transform3D(2.4994984, 1.8989856e-05, 0.05008448, -2.0472497e-05, 2.5, 7.380185e-05, -0.05008448, -7.419718e-05, 2.4994984, 0, 0, 0)
+transform = Transform3D(1.9995986, 1.5191884e-05, 0.04006758, -1.6377995e-05, 2, 5.904148e-05, -0.04006758, -5.9357742e-05, 1.9995986, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CastleKeep" unique_id=393930494]
 transform = Transform3D(1.70215, 5.70964e-10, 2.32831e-10, 1.84031e-10, 1.8391, 3.49246e-10, 4.65661e-10, -1.74623e-10, 1.96311, 17.1882, 0.0116054, 0.00414438)
