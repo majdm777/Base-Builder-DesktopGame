@@ -2,6 +2,8 @@ class_name BuildingObject
 extends StaticBody3D
 signal building_spawned
 
+@export var Health :float = 100.0
+
 @export var WoodCost : int
 @export var StoneCost : int
 @export var IronCost : int 
@@ -75,3 +77,10 @@ func _on_area_area_exited(area: Area3D) -> void:
 		if object.size() <= 0:
 			BuilderManager.AbleToBuild = true
 			
+
+func _damage(value : int , entity : Node3D) -> bool:
+	Health -= value
+	if Health <= 0:
+		run_despawn()
+		return false
+	return true

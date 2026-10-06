@@ -123,7 +123,7 @@ func _process(delta: float) -> void:
 			CurrentTask = Task.Searching
 		Task.Waiting:
 			if runOnce:
-				runOnce=false
+				runOnce = false
 				await get_tree().create_timer(1.0).timeout
 				runOnce= true
 			CurrentTask = Task.Searching

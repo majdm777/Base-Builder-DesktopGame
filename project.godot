@@ -28,6 +28,14 @@ NavChunks="*uid://seemkcpqgfmt"
 WorldTime="*uid://bwuwa1m4stn4o"
 AttackManager="*uid://cf8e2ayui81oy"
 
+[file_customization]
+
+folder_colors={
+"res://Assets/": "red",
+"res://Scenes/": "yellow",
+"res://gd/": "gray"
+}
+
 [global_group]
 
 Tree=""
@@ -41,6 +49,7 @@ Iron=""
 House=""
 Community=""
 Gate=""
+enemy=""
 
 [input]
 

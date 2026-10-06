@@ -494,9 +494,10 @@ offset_left = 314.0
 offset_top = -32.0
 offset_right = 1099.0
 offset_bottom = 82.0
-current_tab = 0
+current_tab = 5
 
 [node name="Huts" type="HBoxContainer" parent="Control/TabContainer" unique_id=1732926609]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -589,7 +590,6 @@ text = "Bar
 "
 
 [node name="Walls" type="HBoxContainer" parent="Control/TabContainer" unique_id=379035408]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 5
 
@@ -601,6 +601,16 @@ text = "Wooden fence
 [node name="WallGate_lvl1" type="Button" parent="Control/TabContainer/Walls" unique_id=223364371]
 layout_mode = 2
 text = "Wooden Gate 
+"
+
+[node name="test" type="HBoxContainer" parent="Control/TabContainer" unique_id=1302957553]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 6
+
+[node name="enemy" type="Button" parent="Control/TabContainer/test" unique_id=440166494]
+layout_mode = 2
+text = "enemy
 "
 
 [node name="DestoryMode" type="Button" parent="Control" unique_id=819732516]
@@ -689,7 +699,7 @@ shape = SubResource("BoxShape3D_ne8tm")
 [node name="Map" type="Node3D" parent="." unique_id=283358216 groups=["nav_geometry"]]
 
 [node name="Mill" parent="Map" unique_id=1915882134 instance=ExtResource("7_h2366")]
-transform = Transform3D(9.999987, -0.014774919, -0.002736047, 0.014775971, 9.999986, 0.0039355904, 0.0027302313, -0.0039396267, 9.999996, 85.018105, 0.37507156, 89.051025)
+transform = Transform3D(9.999985, -0.014774916, -0.002736046, 0.014775968, 9.999984, 0.0039355895, 0.0027302313, -0.0039396267, 9.999992, 85.01836, 0.19537914, 89.05107)
 
 [node name="Tree_Small" parent="Map" unique_id=2086737538 instance=ExtResource("6_u7lc8")]
 transform = Transform3D(9.999978, -0.01477491, -0.002736042, 0.01477596, 9.999977, 0.003935586, 0.0027302296, -0.003939626, 9.999979, -171.71732, -0.04410989, -145.85841)
@@ -897,4 +907,5 @@ navigation_mesh = SubResource("NavigationMesh_4lt0l")
 [connection signal="button_down" from="Control/TabContainer/Community/Bar" to="Control" method="_on_bar_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Walls/Wall_lvl1" to="Control" method="_on_wall_lvl_1_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Walls/WallGate_lvl1" to="Control" method="_on_wall_gate_lvl_1_button_down"]
+[connection signal="button_down" from="Control/TabContainer/test/enemy" to="Control" method="_on_enemy_button_down"]
 [connection signal="button_down" from="Control/DestoryMode" to="Control" method="_on_destory_mode_button_down"]
