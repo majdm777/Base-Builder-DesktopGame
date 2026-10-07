@@ -7,7 +7,6 @@
 [ext_resource type="ArrayMesh" uid="uid://blmwwxy6hyhc7" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/base/hex_grass_bottom.obj" id="5_7s1p8"]
 [ext_resource type="PackedScene" uid="uid://dg0fq677q3d03" path="res://CastleKeep.tscn" id="5_c07jr"]
 [ext_resource type="PackedScene" uid="uid://c42aeiyw66dc3" path="res://Scenes/RecourceProducers/Trees/tree.tscn" id="6_u7lc8"]
-[ext_resource type="PackedScene" uid="uid://ferr7mmlt7nn" path="res://Scenes/Storage/mill.tscn" id="7_h2366"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m7tst"]
 size = Vector2(1186, 139)
@@ -697,9 +696,6 @@ transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.4
 shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="Map" type="Node3D" parent="." unique_id=283358216 groups=["nav_geometry"]]
-
-[node name="Mill" parent="Map" unique_id=1915882134 instance=ExtResource("7_h2366")]
-transform = Transform3D(9.999985, -0.014774916, -0.002736046, 0.014775968, 9.999984, 0.0039355895, 0.0027302313, -0.0039396267, 9.999992, 85.01836, 0.19537914, 89.05107)
 
 [node name="Tree_Small" parent="Map" unique_id=2086737538 instance=ExtResource("6_u7lc8")]
 transform = Transform3D(9.999978, -0.01477491, -0.002736042, 0.01477596, 9.999977, 0.003935586, 0.0027302296, -0.003939626, 9.999979, -171.71732, -0.04410989, -145.85841)

@@ -150,9 +150,12 @@ func _handle_destroying_state() -> void:
 				# actually left the tree before the bake scans nav_geometry,
 				# otherwise the removed building can leave a phantom obstacle
 				# in the navmesh until some unrelated rebake happens to fix it.
-				await get_tree().process_frame
-				await NavChunks.rebake_affected_chunks(aabb)
+				await _handle_navchunk(aabb)
 
+func _handle_navchunk(aabb : AABB):
+	await get_tree().process_frame
+	await NavChunks.rebake_affected_chunks(aabb)
+	
 
 func Can_Afford(obj) -> bool:
 	if ResourceManager.resources["wood"] - obj.WoodCost < 0:

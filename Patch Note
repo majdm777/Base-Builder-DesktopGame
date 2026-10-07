@@ -66,3 +66,6 @@ V1.0.2.9: added the walls and gates but only added two buttons that handles the 
 
 V1.0.2.10: added the WorldTime the count how many mins/hours/days/months/years the player has been playing also added the day/nught system that is connected to the worldtime and changes according to the time(2 directional light  Sun and moon)
         - 1 hour in-game means 690 seconds --> 1 day --> 24 mins ...
+
+V1.0.2.11: added the enemy script that attack any targets that assigned through the export . the character attack the buildings based on a priority list that can be set to each enemy style with area3d that represent the attack range, along with attack interval and attack_damage and added the hp . if the target building is unreachable then he thinks that the object is blocking him from going to there so he break the neariest one .
+    - V1.0.2.11.1; add the function _damage(value : int, entity: node3d)  that apply the damage to the object and the health is 0 then it queue_free() the object .
