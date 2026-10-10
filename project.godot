@@ -51,6 +51,7 @@ Community=""
 Gate=""
 enemy=""
 Wall=""
+EnemySpawnPoint=""
 
 [input]
 

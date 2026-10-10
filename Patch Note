@@ -69,3 +69,4 @@ V1.0.2.10: added the WorldTime the count how many mins/hours/days/months/years t
 
 V1.0.2.11: added the enemy script that attack any targets that assigned through the export . the character attack the buildings based on a priority list that can be set to each enemy style with area3d that represent the attack range, along with attack interval and attack_damage and added the hp . if the target building is unreachable then he thinks that the object is blocking him from going to there so he break the neariest one .
     - V1.0.2.11.1; add the function _damage(value : int, entity: node3d)  that apply the damage to the object and the health is 0 then it queue_free() the object .
+    - V1.0.2.11.2: the attackManager is done. every midnight there will be an attack and as we advanced with the levels the round will get harder every round has a budget that will increase every time and each enemy has a cost to be bought.
