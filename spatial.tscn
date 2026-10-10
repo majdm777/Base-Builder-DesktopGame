@@ -7,7 +7,7 @@
 [ext_resource type="ArrayMesh" uid="uid://blmwwxy6hyhc7" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/base/hex_grass_bottom.obj" id="5_7s1p8"]
 [ext_resource type="PackedScene" uid="uid://dg0fq677q3d03" path="res://CastleKeep.tscn" id="5_c07jr"]
 [ext_resource type="PackedScene" uid="uid://c42aeiyw66dc3" path="res://Scenes/RecourceProducers/Trees/tree.tscn" id="6_u7lc8"]
-[ext_resource type="PackedScene" uid="uid://ferr7mmlt7nn" path="res://Scenes/Storage/mill.tscn" id="7_h2366"]
+[ext_resource type="Script" uid="uid://vj2cyqmm0wsd" path="res://EnemySpawnPoint.gd" id="8_h2366"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m7tst"]
 size = Vector2(1186, 139)
@@ -494,9 +494,10 @@ offset_left = 314.0
 offset_top = -32.0
 offset_right = 1099.0
 offset_bottom = 82.0
-current_tab = 0
+current_tab = 5
 
 [node name="Huts" type="HBoxContainer" parent="Control/TabContainer" unique_id=1732926609]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -589,7 +590,6 @@ text = "Bar
 "
 
 [node name="Walls" type="HBoxContainer" parent="Control/TabContainer" unique_id=379035408]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 5
 
@@ -601,6 +601,16 @@ text = "Wooden fence
 [node name="WallGate_lvl1" type="Button" parent="Control/TabContainer/Walls" unique_id=223364371]
 layout_mode = 2
 text = "Wooden Gate 
+"
+
+[node name="test" type="HBoxContainer" parent="Control/TabContainer" unique_id=1302957553]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 6
+
+[node name="enemy" type="Button" parent="Control/TabContainer/test" unique_id=440166494]
+layout_mode = 2
+text = "enemy
 "
 
 [node name="DestoryMode" type="Button" parent="Control" unique_id=819732516]
@@ -656,7 +666,7 @@ script = ExtResource("4_hjq85")
 shape = SubResource("CircleShape2D_c07jr")
 
 [node name="CastleKeep" parent="." unique_id=1965243952 groups=["NavMesh"] instance=ExtResource("5_c07jr")]
-transform = Transform3D(2.4994984, 1.8989856e-05, 0.05008448, -2.0472497e-05, 2.5, 7.380185e-05, -0.05008448, -7.419718e-05, 2.4994984, 0, 0, 0)
+transform = Transform3D(1.9995986, 1.5191884e-05, 0.04006758, -1.6377995e-05, 2, 5.904148e-05, -0.04006758, -5.9357742e-05, 1.9995986, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CastleKeep" unique_id=393930494]
 transform = Transform3D(1.70215, 5.70964e-10, 2.32831e-10, 1.84031e-10, 1.8391, 3.49246e-10, 4.65661e-10, -1.74623e-10, 1.96311, 17.1882, 0.0116054, 0.00414438)
@@ -687,9 +697,6 @@ transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.4
 shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="Map" type="Node3D" parent="." unique_id=283358216 groups=["nav_geometry"]]
-
-[node name="Mill" parent="Map" unique_id=1915882134 instance=ExtResource("7_h2366")]
-transform = Transform3D(9.999987, -0.014774919, -0.002736047, 0.014775971, 9.999986, 0.0039355904, 0.0027302313, -0.0039396267, 9.999996, 85.018105, 0.37507156, 89.051025)
 
 [node name="Tree_Small" parent="Map" unique_id=2086737538 instance=ExtResource("6_u7lc8")]
 transform = Transform3D(9.999978, -0.01477491, -0.002736042, 0.01477596, 9.999977, 0.003935586, 0.0027302296, -0.003939626, 9.999979, -171.71732, -0.04410989, -145.85841)
@@ -878,6 +885,72 @@ navigation_mesh = SubResource("NavigationMesh_g8kdg")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 249.93, 0, 245.91)
 navigation_mesh = SubResource("NavigationMesh_4lt0l")
 
+[node name="EnemySpawnPoint" type="Node3D" parent="." unique_id=1920704200]
+
+[node name="enemyspawnpoint" type="Marker3D" parent="EnemySpawnPoint" unique_id=1661758245 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.9999993, -3.4449243e-10, 3.4924597e-10, 3.5382186e-10, 0.9999993, 0, 1.4551915e-10, -4.0745363e-10, 0.99999857, 248.74289, -0.036010515, 146.11581)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint6" type="Marker3D" parent="EnemySpawnPoint" unique_id=433799435 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.9999992, -3.4447112e-10, 3.783498e-10, 3.5383607e-10, 0.9999992, 0, 1.7462298e-10, -4.656613e-10, 0.99999845, 248.77037, -0.07556262, 45.61733)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint7" type="Marker3D" parent="EnemySpawnPoint" unique_id=1665933413 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.99999917, -3.444569e-10, 4.0745363e-10, 3.5384318e-10, 0.99999917, 0, 1.7462298e-10, -4.947651e-10, 0.99999833, 248.79768, -0.11486404, -54.244278)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint8" type="Marker3D" parent="EnemySpawnPoint" unique_id=2147195303 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.99999905, -4.608438e-10, 4.656613e-10, 4.702869e-10, 0.99999905, 0, 2.0372681e-10, -5.529728e-10, 0.9999981, 248.82515, -0.15441611, -154.74269)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint9" type="Marker3D" parent="EnemySpawnPoint" unique_id=1007853428 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.9999989, -4.6080828e-10, 5.2386895e-10, 4.7031534e-10, 0.9999989, 0, 2.6193447e-10, -6.4028427e-10, 0.99999785, 149.56595, -0.33813754, -248.82977)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint10" type="Marker3D" parent="EnemySpawnPoint" unique_id=1072261412 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.99999887, -5.772023e-10, 5.529728e-10, 5.867449e-10, 0.99999887, 0, 2.6193447e-10, -6.9849193e-10, 0.99999774, 50.07383, -0.48514697, -248.8569)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint11" type="Marker3D" parent="EnemySpawnPoint" unique_id=2003752885 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.9999988, -5.7718097e-10, 5.820766e-10, 5.867591e-10, 0.9999988, 0, 2.910383e-10, -7.2759576e-10, 0.9999976, -49.92935, -0.6329115, -248.88417)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint12" type="Marker3D" parent="EnemySpawnPoint" unique_id=1677712119 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.99999875, -5.7716676e-10, 6.1118044e-10, 5.867662e-10, 0.99999875, 0, 2.910383e-10, -7.566996e-10, 0.9999975, -149.53745, -0.78009224, -248.91133)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint13" type="Marker3D" parent="EnemySpawnPoint" unique_id=1898521447 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.9999986, -5.7713834e-10, 6.9849193e-10, 5.867946e-10, 0.9999986, 2.910383e-11, 3.2014214e-10, -8.440111e-10, 0.99999726, -243.61597, -0.8817705, -154.17697)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint14" type="Marker3D" parent="EnemySpawnPoint" unique_id=1172326426 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.99999857, -5.771099e-10, 7.2759576e-10, 5.868017e-10, 0.99999857, 2.910383e-11, 3.4924597e-10, -9.0221874e-10, 0.99999714, -243.64337, -0.8423209, -53.939003)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint15" type="Marker3D" parent="EnemySpawnPoint" unique_id=541820710 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.9999985, -5.770957e-10, 7.566996e-10, 5.8681593e-10, 0.9999985, 2.910383e-11, 3.4924597e-10, -9.313226e-10, 0.999997, -243.67067, -0.80303496, 45.883114)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint16" type="Marker3D" parent="EnemySpawnPoint" unique_id=1574819325 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.99999845, -5.770815e-10, 7.858034e-10, 5.8682303e-10, 0.99999845, 2.910383e-11, 3.783498e-10, -9.604264e-10, 0.9999969, -243.6977, -0.76413774, 144.71735)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint2" type="Marker3D" parent="EnemySpawnPoint" unique_id=1831057887 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.9999992, -3.4447112e-10, 3.783498e-10, 3.5383607e-10, 0.9999992, 0, 1.7462298e-10, -4.656613e-10, 0.99999845, 150.01788, -0.14425448, 241.61024)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint3" type="Marker3D" parent="EnemySpawnPoint" unique_id=960154950 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.99999917, -3.444569e-10, 4.0745363e-10, 3.5384318e-10, 0.99999917, 0, 1.7462298e-10, -4.947651e-10, 0.99999833, 49.494186, -0.29278815, 241.58276)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint4" type="Marker3D" parent="EnemySpawnPoint" unique_id=1292914511 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.9999991, -4.6085802e-10, 4.3655746e-10, 4.702727e-10, 0.9999991, 0, 2.0372681e-10, -5.2386895e-10, 0.9999982, -50.579277, -0.44065657, 241.5554)
+script = ExtResource("8_h2366")
+
+[node name="enemyspawnpoint5" type="Marker3D" parent="EnemySpawnPoint" unique_id=1696734225 groups=["EnemeySpawnPoint"]]
+transform = Transform3D(0.99999905, -4.608438e-10, 4.656613e-10, 4.702869e-10, 0.99999905, 0, 2.0372681e-10, -5.529728e-10, 0.9999981, -151.55641, -0.5898603, 241.5278)
+script = ExtResource("8_h2366")
+
 [connection signal="area_entered" from="Control/Area2D" to="Control" method="_on_area_2d_area_entered"]
 [connection signal="area_exited" from="Control/Area2D" to="Control" method="_on_area_2d_area_exited"]
 [connection signal="button_down" from="Control/TabContainer/Huts/BuildStockPileButton" to="Control" method="_on_build_stock_pile_button_button_down"]
@@ -897,4 +970,5 @@ navigation_mesh = SubResource("NavigationMesh_4lt0l")
 [connection signal="button_down" from="Control/TabContainer/Community/Bar" to="Control" method="_on_bar_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Walls/Wall_lvl1" to="Control" method="_on_wall_lvl_1_button_down"]
 [connection signal="button_down" from="Control/TabContainer/Walls/WallGate_lvl1" to="Control" method="_on_wall_gate_lvl_1_button_down"]
+[connection signal="button_down" from="Control/TabContainer/test/enemy" to="Control" method="_on_enemy_button_down"]
 [connection signal="button_down" from="Control/DestoryMode" to="Control" method="_on_destory_mode_button_down"]

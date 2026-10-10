@@ -20,7 +20,7 @@ const MOON_COLOR := Color(0.4, 0.5, 0.75)
 const MAX_MOON_ENERGY := 0.12
 
 var time_of_day : float = 0.5  # 0.0 = midnight, 0.5 = noon, 1.0 = next midnight
-var elapsed_seconds_today : float = SECONDS_PER_DAY * 0.0
+var elapsed_seconds_today : float = SECONDS_PER_DAY * 00
 
 var sun_light : DirectionalLight3D
 var max_sun_energy : float = 1.2
@@ -36,7 +36,6 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	elapsed_seconds_today += delta
 	time_of_day = elapsed_seconds_today / SECONDS_PER_DAY
-	print(time_of_day)
 	if elapsed_seconds_today >= SECONDS_PER_DAY:
 		elapsed_seconds_today -= SECONDS_PER_DAY
 		_advance_day()

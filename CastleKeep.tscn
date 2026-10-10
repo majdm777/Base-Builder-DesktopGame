@@ -8,7 +8,7 @@ data = PackedVector3Array(0.5, 0.85249996, 0, 0.5, 0.59999996, 0, 0.25, 0.852499
 [sub_resource type="ConvexPolygonShape3D" id="2"]
 points = PackedVector3Array(0.6, 0.85, 0.394931, 0.6, 0.399956, 0.394931, 0.6, 0.85, -0.405, -0.6, 0.85, 0.394931, -0.3, 0.299946, 0.405, 0.579914, 0, 0.37495, 0.6, 0.399956, -0.405, -0.3, 0, 0.405, 0.199922, 0, 0.394931, -0.6, 0.85, -0.405, -0.6, 0, 0.394931, -0.500039, 0.299946, 0.405, 0.579914, 0, -0.38502, 0.199922, 0, -0.405, -0.500039, 0, 0.405, -0.6, 0, -0.405)
 
-[node name="CastleKeep" type="StaticBody3D" unique_id=623605637 groups=["building"]]
+[node name="CastleKeep" type="StaticBody3D" unique_id=623605637]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 
 [node name="CollisionShape" type="CollisionShape3D" parent="." unique_id=121668026]

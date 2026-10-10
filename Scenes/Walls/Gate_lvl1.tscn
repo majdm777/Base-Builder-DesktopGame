@@ -9,7 +9,7 @@ data = PackedVector3Array(-0.95, 0.39999998, 0.35, -0.95, -0.049999997, 0.35, -0
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
 size = Vector3(0.20089722, 0.4515381, 0.9030533)
 
-[node name="Gatelvl1" type="StaticBody3D" unique_id=366057825 groups=["building"]]
+[node name="Gatelvl1" type="StaticBody3D" unique_id=366057825 groups=["Wall", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_ma2og")
 

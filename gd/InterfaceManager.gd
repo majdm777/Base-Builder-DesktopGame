@@ -117,3 +117,10 @@ func _on_wall_lvl_1_button_down() -> void:
 func _on_wall_gate_lvl_1_button_down() -> void:
 	BuilderManager.SpawnGate_lvl1()
 	pass # Replace with function body.
+
+var enemy : PackedScene = ResourceLoader.load("res://Scenes/Enemies/enemy.tscn")
+func _on_enemy_button_down() -> void:
+	var temp = enemy.instantiate()
+	BuilderManager.map_root.add_child(temp)
+	temp.global_position = Vector3(100, 0, 100)
+	pass # Replace with function body.
