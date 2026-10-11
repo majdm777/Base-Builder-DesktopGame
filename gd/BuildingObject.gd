@@ -2,7 +2,8 @@ class_name BuildingObject
 extends StaticBody3D
 signal building_spawned
 
-@export var Health :float = 100.0
+@export var Max_Health :float = 100.0
+var Health : float
 
 @export var WoodCost : int
 @export var StoneCost : int
@@ -29,6 +30,7 @@ var spawned : bool = false
 var CurrentActor
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	Health = Max_Health
 	$Area.area_entered.connect(_on_area_area_entered)
 	$Area.area_exited.connect(_on_area_area_exited)
 	pass # Replace with function body.
@@ -84,3 +86,8 @@ func _damage(value : int , entity : Node3D) -> bool:
 		run_despawn()
 		return false
 	return true
+
+func get_info_rows() -> Array:
+	return [
+		{"label": "Health", "value": "%d / %d" % [Health, Max_Health]},
+	]

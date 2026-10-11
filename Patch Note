@@ -74,3 +74,5 @@ V1.0.2.11: added the enemy script that attack any targets that assigned through 
 V1.0.2.12: edited the UI/UX with a new design now its mush better
         -V1.0.2.12.1: added the soldier script that either can be idle or garrisoned in a post like (post / tower) or attacking the enemy
                     - added the post object so the soldier can assemble or ready for and attack 
+        -V1.0.2.12.2:added the info section in the side menu whenever you clicked on a object the menu open and show you stat about the building 
+        

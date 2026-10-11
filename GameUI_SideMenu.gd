@@ -23,3 +23,11 @@ func toggle() -> void:
 	tween.tween_property(self, "offset_left", -open_width if is_open else 0.0, anim_time)
 	tween.tween_property(self, "offset_right", 0.0 if is_open else open_width, anim_time)
 	$Handle.text = ">" if is_open else "<"
+
+func open() -> void:
+	if not is_open:
+		toggle()
+
+func close() -> void:
+	if is_open:
+		toggle()

@@ -13,12 +13,14 @@ const JUMP_VELOCITY = 4.5
 
 @export var SPEED := 17.0
 @export var Health := 100
+@export var soldier :String = "Knight"
+@export var post_groups : Array[String] = ["Post"]
 
 @export var attack_damage := 10
 @export var attack_interval := 1.5
 
-var attacking := false
-var fighting := false
+var chasing_enemy := false
+var cooldown := false
 var is_alive :bool = true
 
 var current_state = State.Idle
@@ -52,24 +54,26 @@ func _process(delta: float) -> void:
 		State.Idle:
 			current_target = _enemy()
 			if current_target != null:
-				attacking = true
+				chasing_enemy = true
+				navigation.target_position = current_target.global_position
 				current_state = State.Walking
 				return
-			current_target = _find_checkpoint()
+			current_target = _find_post()
 			if current_target != null and current_target._reserve_slot():
-				attacking = false
+				chasing_enemy = false
+				navigation.target_position = current_target.global_position
 				current_state = State.Walking
 				return
 			pass
 		
 		State.Walking:
 			if is_instance_valid(current_target):
-				navigation.target_position = current_target.global_position
-				if attacking:
+				if chasing_enemy:
+					navigation.target_position = current_target.global_position
 					if _is_in_attack_range():
 						current_state = State.Attacking
 					elif navigation.is_navigation_finished():
-						attacking = false
+						chasing_enemy = false
 						current_state = State.Idle
 					pass
 				else:
@@ -77,6 +81,8 @@ func _process(delta: float) -> void:
 						if is_instance_valid(current_target):
 							if current_target._occupy(self) :
 								current_state = State.Garrisoned
+								#visible = false
+								return
 							else:
 								current_state = State.Idle
 			else:
@@ -84,8 +90,12 @@ func _process(delta: float) -> void:
 			pass
 		
 		State.Attacking:
-			_Attack()
-			pass
+			if not is_instance_valid(current_target):
+				current_state = State.Idle
+			elif not _is_in_attack_range():
+				current_state = State.Walking   # chase again
+			else:
+				_Attack()
 		
 		State.Garrisoned:
 			pass
@@ -95,17 +105,17 @@ func _process(delta: float) -> void:
 	pass
 
 
-func _find_checkpoint() -> Node3D:
-	var _CP :Node3D = null
-	var space = 100
-	for cp in get_tree().get_nodes_in_group("Post"):
-		var remaining_spaces = cp.remaining_spots
-		if remaining_spaces == 0:
-			continue
-		if remaining_spaces < space:
-			space = remaining_spaces
-			_CP = cp
-	return _CP
+func _find_post() -> Node3D:
+	for group in post_groups:
+		var best : Node3D = null
+		var best_free := 0
+		for p in get_tree().get_nodes_in_group(group):
+			if is_instance_valid(p) and p.remaining_spots > best_free:
+				best_free = p.remaining_spots
+				best = p
+		if best != null:
+			return best
+	return null
 
 func _enemy() -> Node3D:
 	var enemies = get_tree().get_nodes_in_group("Enemy")
@@ -134,16 +144,16 @@ func _is_in_attack_range() -> bool:
 
 func _Attack() :
 	
-	if fighting:
+	if cooldown:
 		return
-	fighting = true 
+	cooldown = true 
 	if is_instance_valid(current_target):
 		if current_target._damage(attack_damage , self):
 			await get_tree().create_timer(attack_interval).timeout
 		
 	else:
 		current_state= State.Idle
-	fighting = false 
+	cooldown = false 
 
 func on_post_lost():
 	visible = true 
@@ -152,6 +162,21 @@ func on_post_lost():
 func _damage(value : int , entity : Node3D) -> bool:
 	Health -= value
 	if Health <= 0:
+		is_alive = false
+		GameManager.Army[soldier] -= 1
 		queue_free()
 		return false
 	return true
+
+#func _die() -> void:
+	#if not is_alive:
+		#return
+	#is_alive = false
+	#current_state = State.Dieing
+	#if is_instance_valid(post):
+		#if post.occupants.has(self):
+			#post._leave(self)
+		#else:
+			#post._cancel_reservation()
+	#GameManager.army[soldier_type] -= 1
+	#queue_free()
