@@ -22,6 +22,9 @@ var Bar :PackedScene = ResourceLoader.load("res://Scenes/Community/Bar.tscn")
 var Wall_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Wall_lvl1.tscn")
 var Gate_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Gate_lvl1.tscn")
 
+var WatchTower : PackedScene = ResourceLoader.load("res://Scenes/Defense/WatchTower.tscn")
+var Post : PackedScene = ResourceLoader.load("res://Scenes/Defense/Post.tscn")
+
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
 
@@ -73,7 +76,7 @@ func _handle_building_state() -> void:
 		currentSpawnable.ActiveBuildableObject = true
 
 	if AbleToBuild and Can_Afford(currentSpawnable) and GameManager.AvlPopulation >= currentSpawnable.PopulationCost:
-		if Input.is_action_just_pressed("LeftMouseDown"):
+		if Input.is_action_just_pressed("LeftMouseDown") and not _mouse_over_ui():
 			_place_building()
 
 	if Input.is_action_just_pressed("RightMouseDown"):
@@ -119,7 +122,7 @@ func _handle_destroying_state() -> void:
 		currentSpawnable.queue_free()
 		currentSpawnable = null
 
-	if Input.is_action_just_released("LeftMouseDown"):
+	if Input.is_action_just_released("LeftMouseDown") and not _mouse_over_ui():
 		var camera := get_viewport().get_camera_3d()
 		var mouse_pos := get_viewport().get_mouse_position()
 
@@ -218,6 +221,10 @@ func SpawnWall_lvl1():
 	SpawnObj(Wall_lvl1)
 func SpawnGate_lvl1():
 	SpawnObj(Gate_lvl1)
+func SpawnWatchTower():
+	SpawnObj(WatchTower)
+func SpawnPost():
+	SpawnObj(Post)
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:
 		currentSpawnable.queue_free()
@@ -230,3 +237,8 @@ func SpawnObj(obj: PackedScene):
 	get_tree().current_scene.add_child(currentSpawnable)
 
 	GameManager.Current_State = GameManager.State.building
+
+func _mouse_over_ui() -> bool:
+	var c := get_viewport().gui_get_hovered_control()
+	if c: print("hovered: ", c.get_path())
+	return c != null

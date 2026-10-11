@@ -49,9 +49,10 @@ Iron=""
 House=""
 Community=""
 Gate=""
-enemy=""
 Wall=""
 EnemySpawnPoint=""
+Enemy=""
+Post=""
 
 [input]
 

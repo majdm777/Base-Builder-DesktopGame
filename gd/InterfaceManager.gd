@@ -13,8 +13,9 @@ func _process(delta: float) -> void:
 	$PopulationBox/AlvPop/AvlPopValue.text = str(GameManager.AvlPopulation)
 	$PopulationBox/Hap/HapValue.text = str(GameManager.Happiness)
 	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + "/" + str(GameManager.MaxPopulation)
-	$date/Date.text = WorldTime.get_date_string()
-	$date/Time.text = WorldTime.get_time_string()
+	#$date/Date.text = WorldTime.get_date_string()
+	#$date/Time.text = WorldTime.get_time_string()
+	$PopulationBox/Army/ArmyValue.text = str(GameManager.Army.values().reduce(func(a, b): return a + b, 0))
 	pass
 
 
@@ -23,14 +24,6 @@ func _process(delta: float) -> void:
 
 
 
-
-func _on_area_2d_area_entered(area: Area2D) -> void:
-	BuilderManager.AbleToBuild = false
-	pass # Replace with function body.
-func _on_area_2d_area_exited(area: Area2D) -> void:
-	BuilderManager.AbleToBuild = true
-	
-	pass # Replace with function body.
 
 
 func _on_build_stock_pile_button_button_down() -> void:
@@ -123,4 +116,21 @@ func _on_enemy_button_down() -> void:
 	var temp = enemy.instantiate()
 	BuilderManager.map_root.add_child(temp)
 	temp.global_position = Vector3(100, 0, 100)
+	pass # Replace with function body.
+
+
+func _on_watch_tower_button_down() -> void:
+	BuilderManager.SpawnWatchTower()
+	pass # Replace with function body.
+
+
+func _on_post_button_down() -> void:
+	BuilderManager.SpawnPost()
+	pass # Replace with function body.
+
+var soldier : PackedScene = ResourceLoader.load("res://Scenes/Soldiers/Knight.tscn")
+func _on_soldier_button_down() -> void:
+	var temp = soldier.instantiate()
+	BuilderManager.map_root.add_child(temp)
+	temp.global_position = Vector3(-100, 0, 100)
 	pass # Replace with function body.

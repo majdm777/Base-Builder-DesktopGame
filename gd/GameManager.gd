@@ -16,6 +16,10 @@ var population : int = 0
 var MaxPopulation : int = 4
 var AvlPopulation : int = 0
 
+var Army = {
+	"Archer" : 2,
+	"Knight" : 0
+}
 var taxRate := 1
 
 var TCitizen : PackedScene
@@ -75,7 +79,7 @@ func _on_food_consumption_timeout() -> void:
 	if ResourceManager.resources["food"] < 0:
 		ResourceManager.resources["food"] = 0
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(delta: float) -> void:                                                 
 	Happiness = food_availability + safty + community
 
 	if Happiness > 60 && population < MaxPopulation && spawnReady:

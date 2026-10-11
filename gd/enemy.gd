@@ -1,3 +1,4 @@
+class_name Enemy
 extends CharacterBody3D
 
 
@@ -9,7 +10,7 @@ enum State{
 }
 
 @export var SPEED := 7.0
-@export var Hp := 100
+@export var Health := 100
 
 @export var attack_damage := 10
 @export var attack_interval := 1.5
@@ -75,16 +76,21 @@ func _process(delta: float) -> void:
 		State.Attacking:
 			if attacking:
 				return
+
 			attacking = true
-			if is_instance_valid(current_target):
-				var aabb := BuilderManager._building_world_aabb(current_target)
-				if not current_target._damage(attack_damage,self):
-					BuilderManager._handle_navchunk(aabb)
-				await get_tree().create_timer(attack_interval).timeout
-			else:
+
+			if not is_instance_valid(current_target):
 				current_state = State.Searching
-			attacking= false
-			pass
+			else:
+				var destroyed : bool = not current_target._damage(attack_damage, self)
+
+				if destroyed and current_target.is_in_group("building"):
+					var aabb := BuilderManager._building_world_aabb(current_target)
+					BuilderManager._handle_navchunk(aabb)
+
+				await get_tree().create_timer(attack_interval).timeout
+
+			attacking = false
 		State.Fighting:
 			pass
 	pass
@@ -128,13 +134,14 @@ func _handle_no_path() -> bool:
 	# else: genuinely stuck, nothing we can do — shouldn't normally happen
 
 func _damage(value : int , entity : Node3D) -> bool:
-	Hp -= value
-	if Hp <= 0:
+	Health -= value
+	if Health <= 0:
 		queue_free()
 		return false
-	current_target = entity
-	navigation.target_position = current_target.global_position
-	current_state = State.Walking
+	if current_target != entity:
+		current_target = entity
+		navigation.target_position = current_target.global_position
+		current_state = State.Walking
 	return true
 
 func _is_in_attack_range() -> bool:

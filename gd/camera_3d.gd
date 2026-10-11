@@ -10,7 +10,7 @@ func _ready() -> void:
 
 
 @export var move_speed := 100.0
-@export var edge_size :=1
+@export var edge_size := 1
 
 @export var min_x := -150.0
 @export var max_x := 150.0
