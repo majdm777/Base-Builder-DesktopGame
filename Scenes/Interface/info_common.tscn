@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://b7u06wbcqc4qh"]
+
+[ext_resource type="Script" uid="uid://iec0jcbkf5l0" path="res://Scenes/Interface/info_common.gd" id="1_w3s8d"]
+[ext_resource type="PackedScene" uid="uid://bj37gp06ckxjm" path="res://Scenes/Interface/PreviewView.tscn" id="2_y6834"]
+
+[node name="InfoCommon" type="VBoxContainer" unique_id=332961530]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_w3s8d")
+
+[node name="Name" type="Label" parent="." unique_id=1639930638]
+layout_mode = 2
+text = "Nothing"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Preview" parent="." unique_id=932804574 instance=ExtResource("2_y6834")]
+layout_mode = 2
+
+[node name="Health" type="HBoxContainer" parent="." unique_id=888604100]
+layout_mode = 2
+alignment = 1
+
+[node name="HealthBar" type="ProgressBar" parent="Health" unique_id=2029297787]
+layout_mode = 2
+size_flags_horizontal = 3
+show_percentage = false
+
+[node name="HealthLabel" type="Label" parent="Health" unique_id=150778659]
+layout_mode = 2
+text = "80/ 100"
+
+[node name="Cost" type="VBoxContainer" parent="." unique_id=137380494]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Cost" unique_id=483648108]
+layout_mode = 2
+text = "Cost"
+horizontal_alignment = 1
+
+[node name="Chips" type="HFlowContainer" parent="Cost" unique_id=55814294]
+layout_mode = 2
+
+[node name="Capacity" type="VBoxContainer" parent="." unique_id=1156972494]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Capacity" unique_id=1676053247]
+layout_mode = 2
+text = "Capacity"
+horizontal_alignment = 1
+
+[node name="Chips" type="HFlowContainer" parent="Capacity" unique_id=1738361493]
+layout_mode = 2
+
+[node name="Population" type="VBoxContainer" parent="." unique_id=793710271]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Population" unique_id=1037291552]
+layout_mode = 2
+text = "Population"
+horizontal_alignment = 1
+
+[node name="Chips" type="HFlowContainer" parent="Population" unique_id=386834348]
+layout_mode = 2
+
+[node name="WorkerSection" type="VBoxContainer" parent="." unique_id=1036052463]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="WorkerSection" unique_id=1999901051]
+layout_mode = 2
+text = "Worker"
+horizontal_alignment = 1
+
+[node name="WorkerView" parent="WorkerSection" unique_id=613939011 instance=ExtResource("2_y6834")]
+layout_mode = 2
+
+[node name="Buttons" type="HBoxContainer" parent="." unique_id=1074911444]
+layout_mode = 2
+
+[node name="DemolishButton" type="Button" parent="Buttons" unique_id=1205747754]
+layout_mode = 2
+text = "Demolish
+"

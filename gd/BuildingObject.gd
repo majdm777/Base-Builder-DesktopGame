@@ -27,6 +27,12 @@ var spawned : bool = false
 @export var SpawnActor : bool = false
 @export var Actor : PackedScene
 
+const INFO_COMMON := preload("res://Scenes/Interface/info_common.tscn")
+
+@export var display_name : String = "Building"
+@export var can_demolish : bool = true     # turn off on the castle
+var info_common = Node
+
 var CurrentActor
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -87,7 +93,19 @@ func _damage(value : int , entity : Node3D) -> bool:
 		return false
 	return true
 
-func get_info_rows() -> Array:
-	return [
-		{"label": "Health", "value": "%d / %d" % [Health, Max_Health]},
-	]
+func build_info(container: Control) -> void:
+	info_common = INFO_COMMON.instantiate()
+	container.add_child(info_common)
+	if self is BuildingObject:
+		info_common.setup(self)
+	else:
+		print("NO")
+
+func update_info() -> void:
+	if is_instance_valid(info_common):
+		info_common.update()
+
+func demolish() -> void:
+	var aabb := BuilderManager._building_world_aabb(self)   # capture before it is freed
+	run_despawn()
+	BuilderManager._handle_navchunk(aabb) 

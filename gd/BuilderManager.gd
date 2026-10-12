@@ -133,7 +133,7 @@ func _pick_selectable() -> Node3D:
 
 
 func _is_selectable(node: Object) -> bool:
-	if not node.has_method("get_info_rows"):
+	if not node.has_method("build_info"):
 		return false
 	if "spawned" in node and not node.spawned:
 		return false

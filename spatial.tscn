@@ -690,43 +690,14 @@ theme_override_constants/margin_top = 12
 theme_override_constants/margin_right = 12
 theme_override_constants/margin_bottom = 12
 
-[node name="Control" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer" unique_id=1093990539]
+[node name="Control" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer" unique_id=1947741221]
 layout_mode = 2
 
-[node name="Title" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control" unique_id=962926541]
+[node name="EmptyLabel" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer" unique_id=1872517478]
 layout_mode = 2
-text = "No building Selected"
+text = "Nothing Selected
+"
 horizontal_alignment = 1
-autowrap_mode = 3
-
-[node name="Preview" type="SubViewportContainer" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control" unique_id=906905373]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-mouse_filter = 2
-stretch = true
-
-[node name="Viewport" type="SubViewport" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control/Preview" unique_id=2030058885]
-own_world_3d = true
-transparent_bg = true
-handle_input_locally = false
-size = Vector2i(176, 100)
-render_target_update_mode = 4
-
-[node name="Pivot" type="Node3D" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control/Preview/Viewport" unique_id=1962985324]
-
-[node name="Camera3D" type="Camera3D" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control/Preview/Viewport" unique_id=773829303]
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control/Preview/Viewport" unique_id=343933471]
-transform = Transform3D(1, 0, 0, 0, 0.70710677, -0.70710677, 0, 0.70710677, 0.70710677, 0, 0, 0)
-
-[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control" unique_id=345572986]
-layout_mode = 2
-
-[node name="Rows" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control" unique_id=31199170]
-layout_mode = 2
-
-[node name="Actions" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer/Control" unique_id=981348432]
-layout_mode = 2
 
 [node name="Handle" type="Button" parent="GameUI/UI/SideMenu" unique_id=1550269823]
 layout_mode = 1
