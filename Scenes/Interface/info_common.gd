@@ -65,8 +65,8 @@ func _fill(section: Control, entries: Array) -> void:
 	var chips : Control = section.get_node("Chips")
 	var any := false
 	for e in entries:
-		if e[1] <= 0:
-			continue
+		#if e[1] <= 0:
+			#continue
 		var chip = CHIP.instantiate()
 		chips.add_child(chip)
 		chip.set_data(e[0], str(e[1]))

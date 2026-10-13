@@ -634,13 +634,15 @@ offset_bottom = 54.0
 text = "00:0"
 horizontal_alignment = 1
 
-[node name="SideMenu" type="Control" parent="GameUI/UI" unique_id=399000468]
+[node name="SideMenu" type="Panel" parent="GameUI/UI" unique_id=1060481500]
+modulate = Color(0.23137255, 0.16470589, 0.11764706, 1)
 layout_mode = 1
 anchors_preset = 11
 anchor_left = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -204.0
+offset_top = 114.0
 grow_horizontal = 0
 grow_vertical = 2
 script = ExtResource("7_h2366")
@@ -652,7 +654,7 @@ anchor_left = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -205.0
-offset_top = 78.0
+offset_top = 1.0
 offset_right = -5.0
 grow_horizontal = 0
 grow_vertical = 2
@@ -701,10 +703,10 @@ horizontal_alignment = 1
 
 [node name="Handle" type="Button" parent="GameUI/UI/SideMenu" unique_id=1550269823]
 layout_mode = 1
-offset_left = -23.0
-offset_top = 112.0
-offset_right = -3.0
-offset_bottom = 172.0
+offset_left = -21.0
+offset_top = 34.0
+offset_right = -1.0
+offset_bottom = 94.0
 text = ">"
 
 [node name="BuildingMenu" type="Control" parent="GameUI/UI" unique_id=1048098266]
