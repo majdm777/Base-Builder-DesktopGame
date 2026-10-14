@@ -9,6 +9,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/separation = 12
 script = ExtResource("1_w3s8d")
 
 [node name="Name" type="Label" parent="." unique_id=1639930638]
@@ -17,70 +18,100 @@ text = "Nothing"
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="Preview" parent="." unique_id=932804574 instance=ExtResource("2_y6834")]
+[node name="PanelContainer7" type="PanelContainer" parent="." unique_id=806569393]
+layout_mode = 2
+theme_type_variation = &"PreviewFrame"
+
+[node name="Preview" parent="PanelContainer7" unique_id=932804574 instance=ExtResource("2_y6834")]
 layout_mode = 2
 
-[node name="Health" type="HBoxContainer" parent="." unique_id=888604100]
+[node name="PanelContainer4" type="PanelContainer" parent="." unique_id=974661324]
+layout_mode = 2
+
+[node name="Health" type="HBoxContainer" parent="PanelContainer4" unique_id=888604100]
 layout_mode = 2
 alignment = 1
 
-[node name="HealthBar" type="ProgressBar" parent="Health" unique_id=2029297787]
+[node name="HealthBar" type="ProgressBar" parent="PanelContainer4/Health" unique_id=2029297787]
+custom_minimum_size = Vector2(0, 9)
 layout_mode = 2
 size_flags_horizontal = 3
+size_flags_vertical = 4
 show_percentage = false
 
-[node name="HealthLabel" type="Label" parent="Health" unique_id=150778659]
+[node name="HealthLabel" type="Label" parent="PanelContainer4/Health" unique_id=150778659]
 layout_mode = 2
+theme_type_variation = &"CardLabel"
 text = "80/ 100"
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="Cost" type="VBoxContainer" parent="." unique_id=137380494]
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=699184944]
 layout_mode = 2
 
-[node name="Title" type="Label" parent="Cost" unique_id=483648108]
+[node name="Cost" type="VBoxContainer" parent="PanelContainer" unique_id=137380494]
 layout_mode = 2
+
+[node name="Title" type="Label" parent="PanelContainer/Cost" unique_id=483648108]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
 text = "Cost"
 horizontal_alignment = 1
 
-[node name="Chips" type="HFlowContainer" parent="Cost" unique_id=55814294]
+[node name="Chips" type="HFlowContainer" parent="PanelContainer/Cost" unique_id=55814294]
 layout_mode = 2
 
-[node name="Capacity" type="VBoxContainer" parent="." unique_id=1156972494]
+[node name="PanelContainer2" type="PanelContainer" parent="." unique_id=1871053677]
 layout_mode = 2
 
-[node name="Title" type="Label" parent="Capacity" unique_id=1676053247]
+[node name="Capacity" type="VBoxContainer" parent="PanelContainer2" unique_id=1156972494]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="PanelContainer2/Capacity" unique_id=1676053247]
 layout_mode = 2
 text = "Capacity"
 horizontal_alignment = 1
 
-[node name="Chips" type="HFlowContainer" parent="Capacity" unique_id=1738361493]
+[node name="Chips" type="HFlowContainer" parent="PanelContainer2/Capacity" unique_id=1738361493]
 layout_mode = 2
 
-[node name="Population" type="VBoxContainer" parent="." unique_id=793710271]
+[node name="PanelContainer3" type="PanelContainer" parent="." unique_id=345372130]
 layout_mode = 2
 
-[node name="Title" type="Label" parent="Population" unique_id=1037291552]
+[node name="Population" type="VBoxContainer" parent="PanelContainer3" unique_id=793710271]
 layout_mode = 2
+
+[node name="Title" type="Label" parent="PanelContainer3/Population" unique_id=1037291552]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
 text = "Population"
 horizontal_alignment = 1
 
-[node name="Chips" type="HFlowContainer" parent="Population" unique_id=386834348]
+[node name="Chips" type="HFlowContainer" parent="PanelContainer3/Population" unique_id=386834348]
 layout_mode = 2
 
-[node name="WorkerSection" type="VBoxContainer" parent="." unique_id=1036052463]
+[node name="PanelContainer6" type="PanelContainer" parent="." unique_id=850196815]
 layout_mode = 2
 
-[node name="Title" type="Label" parent="WorkerSection" unique_id=1999901051]
+[node name="WorkerSection" type="VBoxContainer" parent="PanelContainer6" unique_id=1036052463]
 layout_mode = 2
+
+[node name="Title" type="Label" parent="PanelContainer6/WorkerSection" unique_id=1999901051]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
 text = "Worker"
 horizontal_alignment = 1
 
-[node name="WorkerView" parent="WorkerSection" unique_id=613939011 instance=ExtResource("2_y6834")]
+[node name="WorkerView" parent="PanelContainer6/WorkerSection" unique_id=613939011 instance=ExtResource("2_y6834")]
 layout_mode = 2
 
-[node name="Buttons" type="HBoxContainer" parent="." unique_id=1074911444]
+[node name="PanelContainer5" type="PanelContainer" parent="." unique_id=1669902646]
 layout_mode = 2
 
-[node name="DemolishButton" type="Button" parent="Buttons" unique_id=1205747754]
+[node name="Buttons" type="HBoxContainer" parent="PanelContainer5" unique_id=1074911444]
+layout_mode = 2
+
+[node name="DemolishButton" type="Button" parent="PanelContainer5/Buttons" unique_id=1205747754]
 layout_mode = 2
 text = "Demolish
 "

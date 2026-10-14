@@ -3,15 +3,15 @@ extends VBoxContainer
 const CHIP := preload("res://Scenes/Interface/Stat_chip.tscn")   # adjust the path
 
 @onready var name_label : Label = $Name
-@onready var preview = $Preview
-@onready var health_bar : ProgressBar = $Health/HealthBar
-@onready var health_label : Label = $Health/HealthLabel
-@onready var cost_section = $Cost
-@onready var capacity_section = $Capacity
-@onready var population_section = $Population
-@onready var worker_section = $WorkerSection
-@onready var worker_preview = $WorkerSection/WorkerView
-@onready var demolish_button : Button = $Buttons/DemolishButton
+@onready var preview = $PanelContainer7/Preview
+@onready var health_bar : ProgressBar = $PanelContainer4/Health/HealthBar
+@onready var health_label : Label = $PanelContainer4/Health/HealthLabel
+@onready var cost_section = $PanelContainer/Cost
+@onready var capacity_section = $PanelContainer2/Capacity
+@onready var population_section = $PanelContainer3/Population
+@onready var worker_section =$PanelContainer6/WorkerSection
+@onready var worker_preview = $PanelContainer6/WorkerSection/WorkerView
+@onready var demolish_button : Button = $PanelContainer5/Buttons/DemolishButton
 
 var building : BuildingObject
 var _worker_shown := false
@@ -51,7 +51,11 @@ func update() -> void:
 	health_bar.max_value = building.Max_Health
 	health_bar.value = building.Health
 	health_label.text = "%d / %d" % [building.Health, building.Max_Health]
-
+	
+	var ratio := float(building.Health) / float(building.Max_Health)
+	var fill := health_bar.get_theme_stylebox("fill").duplicate() as StyleBoxFlat
+	fill.bg_color = Color("#5a8a3a") if ratio > 0.6 else (Color("#d19a2e") if ratio > 0.3 else Color("#a83a2a"))
+	health_bar.add_theme_stylebox_override("fill", fill)
 	# the worker spawns a couple of seconds after placement, so check every tick
 	if not _worker_shown and building.SpawnActor:
 		var w = building.CurrentActor

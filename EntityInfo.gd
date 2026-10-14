@@ -1,6 +1,6 @@
-extends VBoxContainer
+extends ScrollContainer
 
-@onready var content : Control = $MarginContainer/Control   # the container sections are added to
+@onready var content : Control = $MarginContainer/Control  # the container sections are added to
 @onready var empty_label : Label = $MarginContainer/EmptyLabel   # new: "Nothing selected"
 @onready var drawer : Control = $"../.."
 

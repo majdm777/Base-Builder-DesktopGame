@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://dg0fq677q3d03" path="res://CastleKeep.tscn" id="5_c07jr"]
 [ext_resource type="PackedScene" uid="uid://c42aeiyw66dc3" path="res://Scenes/RecourceProducers/Trees/tree.tscn" id="6_u7lc8"]
 [ext_resource type="Script" uid="uid://cuymj1vq36qje" path="res://GameUI_SideMenu.gd" id="7_h2366"]
+[ext_resource type="Theme" uid="uid://rbpdaho5neo2" path="res://Scenes/Interface/ui_theme.tres" id="7_pij2x"]
 [ext_resource type="Script" uid="uid://b3pkj3s5bu2j7" path="res://EntityInfo.gd" id="8_7s1p8"]
 [ext_resource type="Script" uid="uid://vj2cyqmm0wsd" path="res://gd/EnemySpawnPoint.gd" id="8_h2366"]
 
@@ -605,9 +606,14 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -26.0
+offset_top = -1.0
+offset_right = -26.0
+offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
+theme = ExtResource("7_pij2x")
 
 [node name="GameTimer" type="Control" parent="GameUI/UI" unique_id=1240471678]
 layout_mode = 1
@@ -635,30 +641,29 @@ text = "00:0"
 horizontal_alignment = 1
 
 [node name="SideMenu" type="Panel" parent="GameUI/UI" unique_id=1060481500]
-modulate = Color(0.23137255, 0.16470589, 0.11764706, 1)
 layout_mode = 1
 anchors_preset = 11
 anchor_left = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -204.0
-offset_top = 114.0
+offset_left = -179.0
+offset_top = 110.0
+offset_right = 25.0
+offset_bottom = -4.0
 grow_horizontal = 0
 grow_vertical = 2
 script = ExtResource("7_h2366")
 
 [node name="TabContainer" type="TabContainer" parent="GameUI/UI/SideMenu" unique_id=825815796]
 layout_mode = 1
-anchors_preset = 11
-anchor_left = 1.0
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -205.0
-offset_top = 1.0
-offset_right = -5.0
-grow_horizontal = 0
+grow_horizontal = 2
 grow_vertical = 2
-current_tab = 4
+tab_alignment = 1
+current_tab = 3
+tabs_position = 1
 
 [node name="Res" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1197826833]
 visible = false
@@ -676,17 +681,20 @@ layout_mode = 2
 metadata/_tab_index = 2
 
 [node name="note" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=903314085]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 3
 
-[node name="Info" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1841283980]
+[node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]
+visible = false
 layout_mode = 2
+theme_override_constants/scrollbar_v_separation = 2
+horizontal_scroll_mode = 0
 script = ExtResource("8_7s1p8")
 metadata/_tab_index = 4
 
 [node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/Info" unique_id=1347189302]
 layout_mode = 2
+size_flags_horizontal = 3
 theme_override_constants/margin_left = 12
 theme_override_constants/margin_top = 12
 theme_override_constants/margin_right = 12
@@ -694,6 +702,7 @@ theme_override_constants/margin_bottom = 12
 
 [node name="Control" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer" unique_id=1947741221]
 layout_mode = 2
+size_flags_horizontal = 3
 
 [node name="EmptyLabel" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer" unique_id=1872517478]
 layout_mode = 2
@@ -746,32 +755,45 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 7
+current_tab = 0
 
 [node name="Huts" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=1732926609]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
 [node name="BuildStockPileButton" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Huts" unique_id=2077423149]
+custom_minimum_size = Vector2(100, 0)
+custom_maximum_size = Vector2(101, -1)
 layout_mode = 2
 text = "Stock Pile
 "
+autowrap_mode = 3
+autowrap_trim_flags = 64
 
 [node name="BuildWoodCutterButton" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Huts" unique_id=1752792870]
+custom_minimum_size = Vector2(100, 0)
+custom_maximum_size = Vector2(101, -1)
 layout_mode = 2
 text = "WoodCutterhut
 "
+autowrap_mode = 3
+autowrap_trim_flags = 192
 
 [node name="BuildIronCutterHut" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Huts" unique_id=1338783119]
+custom_minimum_size = Vector2(100, 0)
+custom_maximum_size = Vector2(101, -1)
 layout_mode = 2
 text = "Iron Cutter Hut
 "
+autowrap_mode = 3
 
 [node name="buildStoneCutterHut" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Huts" unique_id=2081476603]
+custom_minimum_size = Vector2(100, 0)
+custom_maximum_size = Vector2(101, -1)
 layout_mode = 2
 text = "Stone Cutter Hut
 "
+autowrap_mode = 3
 
 [node name="Mines" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=141158127]
 visible = false
@@ -871,6 +893,7 @@ layout_mode = 2
 text = "Soldier"
 
 [node name="Defense" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=1888281998]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 7
 
@@ -1051,7 +1074,6 @@ offset_bottom = 23.0
 text = "1"
 
 [node name="DestoryMode" type="Button" parent="GameUI/UI/BuildingMenu" unique_id=819732516]
-self_modulate = Color(1, 0, 0, 1)
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -1064,6 +1086,7 @@ offset_right = -651.0
 offset_bottom = -72.0
 grow_horizontal = 0
 grow_vertical = 0
+theme_type_variation = &"DanagerButton"
 text = "D"
 
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Huts/BuildStockPileButton" to="GameUI/UI/BuildingMenu" method="_on_build_stock_pile_button_button_down"]
