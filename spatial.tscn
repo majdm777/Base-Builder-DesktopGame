@@ -607,9 +607,9 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -26.0
+offset_left = 1.0
 offset_top = -1.0
-offset_right = -26.0
+offset_right = 1.0
 offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
@@ -647,10 +647,9 @@ anchors_preset = 11
 anchor_left = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -179.0
-offset_top = 110.0
-offset_right = 25.0
-offset_bottom = -4.0
+offset_left = -209.0
+offset_top = 115.0
+offset_right = -3.0
 grow_horizontal = 0
 grow_vertical = 2
 script = ExtResource("7_h2366")
@@ -663,11 +662,10 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 3
+current_tab = 0
 tabs_position = 1
 
 [node name="Res" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1197826833]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -682,6 +680,7 @@ layout_mode = 2
 metadata/_tab_index = 2
 
 [node name="note" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=903314085]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 3
 
@@ -696,10 +695,8 @@ metadata/_tab_index = 4
 [node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/Info" unique_id=1347189302]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_constants/margin_left = 12
-theme_override_constants/margin_top = 12
-theme_override_constants/margin_right = 12
-theme_override_constants/margin_bottom = 12
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
 
 [node name="Control" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer" unique_id=1947741221]
 layout_mode = 2
@@ -713,22 +710,21 @@ horizontal_alignment = 1
 
 [node name="Handle" type="Button" parent="GameUI/UI/SideMenu" unique_id=1550269823]
 layout_mode = 1
-offset_left = -21.0
-offset_top = 34.0
-offset_right = -1.0
-offset_bottom = 94.0
+offset_left = -20.0
+offset_bottom = 60.0
 text = ">"
 
 [node name="BuildingMenu" type="Control" parent="GameUI/UI" unique_id=1048098266]
 layout_mode = 1
-anchors_preset = 12
+anchors_preset = 7
+anchor_left = 0.5
 anchor_top = 1.0
-anchor_right = 1.0
+anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = 132.0
-offset_top = -162.0
-offset_right = -249.0
-offset_bottom = -51.0
+offset_left = -454.0
+offset_top = -97.0
+offset_right = 277.0
+offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 0
 size_flags_vertical = 10
@@ -736,15 +732,10 @@ script = ExtResource("2_ne8tm")
 
 [node name="Panel" type="Panel" parent="GameUI/UI/BuildingMenu" unique_id=1546546486]
 layout_mode = 1
-anchors_preset = 6
-anchor_left = 1.0
-anchor_top = 0.5
+anchors_preset = 15
 anchor_right = 1.0
-anchor_bottom = 0.5
-offset_left = -646.8423
-offset_top = -48.74243
-offset_bottom = 48.74243
-grow_horizontal = 0
+anchor_bottom = 1.0
+grow_horizontal = 2
 grow_vertical = 2
 rotation = -0.000297377
 
@@ -874,6 +865,11 @@ layout_mode = 2
 text = "Wooden Wall
 "
 
+[node name="Wood_Gate" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=223364371]
+layout_mode = 2
+text = "Wooden Gate 
+"
+
 [node name="Stone_Wall" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=1845926716]
 layout_mode = 2
 text = "Stone Wall
@@ -897,11 +893,6 @@ text = "Tight Corner
 [node name="Stone_Corner_Wide" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=1045531926]
 layout_mode = 2
 text = "Wide Corner 
-"
-
-[node name="Wood_Gate" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=223364371]
-layout_mode = 2
-text = "Wooden Gate 
 "
 
 [node name="test" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=1302957553]
@@ -1105,6 +1096,7 @@ offset_bottom = 23.0
 text = "1"
 
 [node name="DestoryMode" type="Button" parent="GameUI/UI/BuildingMenu" unique_id=819732516]
+visible = false
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -1136,12 +1128,12 @@ text = "D"
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Community/Shop" to="GameUI/UI/BuildingMenu" method="_on_shop_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Community/Bar" to="GameUI/UI/BuildingMenu" method="_on_bar_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Wood_Wall" to="GameUI/UI/BuildingMenu" method="_on_wood_wall_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Wood_Gate" to="GameUI/UI/BuildingMenu" method="_on_wood_gate_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Wall" to="GameUI/UI/BuildingMenu" method="_on_stone_wall_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Gate" to="GameUI/UI/BuildingMenu" method="_on_stone_gate_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Arch" to="GameUI/UI/BuildingMenu" method="_on_stone_arch_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Corner_Tight" to="GameUI/UI/BuildingMenu" method="_on_stone_corner_tight_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Corner_Wide" to="GameUI/UI/BuildingMenu" method="_on_stone_corner_wide_button_down"]
-[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Wood_Gate" to="GameUI/UI/BuildingMenu" method="_on_wood_gate_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/test/enemy" to="GameUI/UI/BuildingMenu" method="_on_enemy_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/test/Soldier" to="GameUI/UI/BuildingMenu" method="_on_soldier_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Defense/WatchTower" to="GameUI/UI/BuildingMenu" method="_on_watch_tower_button_down"]

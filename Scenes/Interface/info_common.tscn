@@ -70,6 +70,7 @@ layout_mode = 2
 
 [node name="Title" type="Label" parent="PanelContainer2/Capacity" unique_id=1676053247]
 layout_mode = 2
+theme_type_variation = &"CardLabel"
 text = "Capacity"
 horizontal_alignment = 1
 
@@ -93,6 +94,7 @@ layout_mode = 2
 
 [node name="PanelContainer6" type="PanelContainer" parent="." unique_id=850196815]
 layout_mode = 2
+theme_type_variation = &"PreviewFrame"
 
 [node name="WorkerSection" type="VBoxContainer" parent="PanelContainer6" unique_id=1036052463]
 layout_mode = 2

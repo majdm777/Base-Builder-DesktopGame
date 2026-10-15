@@ -57,6 +57,7 @@ func update() -> void:
 	fill.bg_color = Color("#5a8a3a") if ratio > 0.6 else (Color("#d19a2e") if ratio > 0.3 else Color("#a83a2a"))
 	health_bar.add_theme_stylebox_override("fill", fill)
 	# the worker spawns a couple of seconds after placement, so check every tick
+	worker_section.get_parent().visible = _worker_shown
 	if not _worker_shown and building.SpawnActor:
 		var w = building.CurrentActor
 		if is_instance_valid(w) and w.is_inside_tree():
@@ -69,10 +70,10 @@ func _fill(section: Control, entries: Array) -> void:
 	var chips : Control = section.get_node("Chips")
 	var any := false
 	for e in entries:
-		#if e[1] <= 0:
-			#continue
+		if e[1] <= 0:
+			continue
 		var chip = CHIP.instantiate()
 		chips.add_child(chip)
 		chip.set_data(e[0], str(e[1]))
 		any = true
-	section.visible = any
+	section.get_parent().visible = any
