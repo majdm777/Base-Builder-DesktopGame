@@ -15,7 +15,7 @@ func _process(delta: float) -> void:
 	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + "/" + str(GameManager.MaxPopulation)
 	#$date/Date.text = WorldTime.get_date_string()
 	#$date/Time.text = WorldTime.get_time_string()
-	$PopulationBox/Army/ArmyValue.text = str(GameManager.Army.values().reduce(func(a, b): return a + b, 0))
+	$PopulationBox/Army/ArmyValue.text = str(GameManager.Soldiers.values().reduce(func(a, b): return a + b, 0))
 	pass
 
 
@@ -133,4 +133,9 @@ func _on_soldier_button_down() -> void:
 	var temp = soldier.instantiate()
 	BuilderManager.map_root.add_child(temp)
 	temp.global_position = Vector3(-100, 0, 100)
+	pass # Replace with function body.
+
+
+func _on_barracks_button_down() -> void:
+	BuilderManager.SpawnBarracks()
 	pass # Replace with function body.

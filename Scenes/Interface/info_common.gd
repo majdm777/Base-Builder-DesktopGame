@@ -23,10 +23,10 @@ func setup(b: BuildingObject) -> void:
 	preview.visible = preview.show_node(b)
 
 	# placeholder letters, to be replaced by icons later
-	_fill(cost_section, [
-		["W", b.WoodCost], ["S", b.StoneCost],
-		["I", b.IronCost], ["G", b.GoldCost],
-	])
+	#_fill(cost_section, [
+		#["W", b.WoodCost], ["S", b.StoneCost],
+		#["I", b.IronCost], ["G", b.GoldCost],
+	#])
 	_fill(capacity_section, [
 		["W", b.wood_capacity], ["S", b.stone_capacity], ["I", b.iron_capacity],
 		["G", b.gold_capacity], ["F", b.food_capacity],

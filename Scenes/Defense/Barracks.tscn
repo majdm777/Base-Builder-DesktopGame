@@ -9,7 +9,8 @@ data = PackedVector3Array(0.66499996, 0.0525, -0.7, -0.66499996, 0.0525, -0.7, 0
 [sub_resource type="BoxShape3D" id="BoxShape3D_4kxuq"]
 size = Vector3(2.0046387, 1.7188721, 2.0038757)
 
-[node name="Barracks" type="StaticBody3D" unique_id=1481298896]
+[node name="Barracks" type="StaticBody3D" unique_id=1481298896 groups=["building"]]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_pqaxp")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=158573669]

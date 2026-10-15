@@ -3,20 +3,24 @@ extends BuildingObject
 
 signal queue_changed
 
-# what this barracks can train. Add a row per soldier type.
-# scene_path is a string (loaded at spawn time), so a missing scene can't break parsing.
+const TRAINING_SECTION := preload("res://Scenes/InterFace/training_section.tscn")   # adjust the path
+var training_ui : Node
+
+# What this barracks can train. One entry per soldier type.
+# "costs" uses the same keys as ResourceManager.resources, so a knight can cost food, etc.
 var trainable : Dictionary = {
-	GameManager.Soldier.ARCHER: {
+	GameManager.Soldiers["Archer"]: {
 		"name": "Archer",
 		"pop_cost": 1,
-		"iron_cost": 5,
-		"train_time": 10.0,
-		"scene_path": "res://Scenes/Soldiers/archer.tscn",
+		"costs": {"iron": 0},
+		"train_time": 3.0,
+		"scene_path": "res://Scenes/Soldiers/Knight.tscn",
 	},
 }
 
-var queue : Array = []   # soldier types waiting, front is being trained
-var progress := 0.0      # seconds spent on the front entry
+var queue : Array = []     # soldier types, the front one is being trained
+var progress := 0.0        # seconds spent on the front entry
+
 
 func _process(delta: float) -> void:
 	super(delta)
@@ -30,42 +34,67 @@ func _process(delta: float) -> void:
 		_spawn_soldier(type)
 		queue_changed.emit()
 
-func can_train(type) -> bool:
-	var d : Dictionary = trainable[type]
-	return spawned \
-		and GameManager.AvlPopulation >= d.pop_cost \
-		and ResourceManager.resources["iron"] >= d.iron_cost
 
-# cost is charged now, so queued soldiers can never be double-spent
+func can_train(type) -> bool:
+	if not spawned:
+		return false
+	var d : Dictionary = trainable[type]
+	if GameManager.AvlPopulation < d.pop_cost:
+		return false
+	for res in d.costs:
+		if ResourceManager.resources[res] < d.costs[res]:
+			return false
+	return true
+
+
+# Cost is charged now, so queued soldiers can never be paid for twice.
 func train(type) -> bool:
 	if not can_train(type):
 		return false
 	var d : Dictionary = trainable[type]
-	ResourceManager.resources["iron"] -= d.iron_cost
-	GameManager.assign_citizen()
+	for res in d.costs:
+		ResourceManager.resources[res] -= d.costs[res]
+	GameManager.assign_citizen()          # see question 1
 	queue.append(type)
 	queue_changed.emit()
 	return true
+
 
 func cancel(index: int) -> void:
 	if index < 0 or index >= queue.size():
 		return
 	var d : Dictionary = trainable[queue[index]]
-	ResourceManager.resources["iron"] += d.iron_cost
-	# TODO: give the pop back (see note below)
+	for res in d.costs:
+		ResourceManager.resources[res] += d.costs[res]
+	# TODO: give the citizen back to the pool (see question 1)
 	queue.remove_at(index)
 	if index == 0:
-		progress = 0.0   # the next entry starts from zero
+		progress = 0.0                    # the next entry starts from zero
 	queue_changed.emit()
+
 
 func _spawn_soldier(type) -> void:
 	var scene : PackedScene = load(trainable[type].scene_path)
 	var soldier = scene.instantiate()
+	#soldier.soldier_type = type           # see question 3
 	BuilderManager.map_root.add_child(soldier)
 	soldier.global_position = $SpawnPoint.global_position
-	GameManager.army[type] += 1
+	#GameManager.Soldiers[type.name] += 1
+
 
 func run_despawn() -> void:
 	while not queue.is_empty():
-		cancel(queue.size() - 1)   # refund everything still queued
+		cancel(queue.size() - 1)          # refund everything still queued
 	super()
+
+
+func build_info(container: Control) -> void:
+	super(container)                       # common section first
+	training_ui = TRAINING_SECTION.instantiate()
+	container.add_child(training_ui)
+	training_ui.setup(self)
+
+func update_info() -> void:
+	super()
+	if is_instance_valid(training_ui):
+		training_ui.update()

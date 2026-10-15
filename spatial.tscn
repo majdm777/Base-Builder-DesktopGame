@@ -756,9 +756,10 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 0
+current_tab = 7
 
 [node name="Huts" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=1732926609]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -894,7 +895,6 @@ layout_mode = 2
 text = "Soldier"
 
 [node name="Defense" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=1888281998]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 7
 
@@ -906,6 +906,11 @@ text = "WatchTower
 [node name="Post" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Defense" unique_id=97878566]
 layout_mode = 2
 text = "Post
+"
+
+[node name="Barracks" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Defense" unique_id=1434387295]
+layout_mode = 2
+text = "Barracks
 "
 
 [node name="ResourcesBox" type="Control" parent="GameUI/UI/BuildingMenu" unique_id=1501659162]
@@ -1111,4 +1116,5 @@ text = "D"
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/test/Soldier" to="GameUI/UI/BuildingMenu" method="_on_soldier_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Defense/WatchTower" to="GameUI/UI/BuildingMenu" method="_on_watch_tower_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Defense/Post" to="GameUI/UI/BuildingMenu" method="_on_post_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Defense/Barracks" to="GameUI/UI/BuildingMenu" method="_on_barracks_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/DestoryMode" to="GameUI/UI/BuildingMenu" method="_on_destory_mode_button_down"]

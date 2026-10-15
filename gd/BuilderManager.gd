@@ -24,6 +24,7 @@ var Gate_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Gate_lvl1.
 
 var WatchTower : PackedScene = ResourceLoader.load("res://Scenes/Defense/WatchTower.tscn")
 var Post : PackedScene = ResourceLoader.load("res://Scenes/Defense/Post.tscn")
+var Barracks : PackedScene = ResourceLoader.load("res://Scenes/Defense/Barracks.tscn")
 
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
@@ -96,6 +97,9 @@ func _mouse_over_ui() -> bool:
 func _unhandled_input(event: InputEvent) -> void:
 	if GameManager.Current_State != GameManager.State.play:
 		return
+	if event is InputEventKey and event.pressed and event.keycode == KEY_0:
+		if selected is BuildingBarracks:
+			print("train: ", selected.train(GameManager.Soldiers["Archer"]))
 	if event.is_action_pressed("ui_cancel"):
 		clear_selection()
 		return
@@ -275,6 +279,9 @@ func SpawnWatchTower():
 	SpawnObj(WatchTower)
 func SpawnPost():
 	SpawnObj(Post)
+func SpawnBarracks():
+	SpawnObj(Barracks)
+
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:
 		currentSpawnable.queue_free()

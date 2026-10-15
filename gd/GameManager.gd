@@ -16,8 +16,8 @@ var population : int = 0
 var MaxPopulation : int = 4
 var AvlPopulation : int = 0
 
-var Army = {
-	"Archer" : 2,
+var Soldiers = {
+	"Archer" : 0,
 	"Knight" : 0
 }
 var taxRate := 1
@@ -103,9 +103,12 @@ func _process(delta: float) -> void:
 				citizen.queue_free()
 		spawnReady = true
 func assign_citizen():
+	if AvlPopulation <= 0:
+		return 
 	for node in BuilderManager.map_root.get_children():
 		if node is Citizen:
 			node.queue_free()
+			AvlPopulation -= 1
 			return
 	pass
 
