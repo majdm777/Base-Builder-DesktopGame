@@ -32,6 +32,10 @@ var WatchTower : PackedScene = ResourceLoader.load("res://Scenes/Defense/WatchTo
 var Post : PackedScene = ResourceLoader.load("res://Scenes/Defense/Post.tscn")
 var Barracks : PackedScene = ResourceLoader.load("res://Scenes/Defense/Barracks.tscn")
 
+var WatchTower : PackedScene = ResourceLoader.load("res://Scenes/Defense/WatchTower.tscn")
+var Post : PackedScene = ResourceLoader.load("res://Scenes/Defense/Post.tscn")
+var Barracks : PackedScene = ResourceLoader.load("res://Scenes/Defense/Barracks.tscn")
+
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
 
