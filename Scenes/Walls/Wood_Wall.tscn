@@ -10,7 +10,7 @@ data = PackedVector3Array(-0.95, 0.39999998, 0.049999997, -0.95, -0.049999997, 0
 size = Vector3(0.20066833, 0.45129395, 0.89660645)
 
 [node name="WallLvl1" type="StaticBody3D" unique_id=366057825 groups=["Wall", "building"]]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+transform = Transform3D(12, 0, 0, 0, 12, 0, 0, 0, 12, 0, 0, 0)
 script = ExtResource("1_6r32x")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2087051217]
