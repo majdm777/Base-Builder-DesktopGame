@@ -22,12 +22,18 @@ var Bar :PackedScene = ResourceLoader.load("res://Scenes/Community/Bar.tscn")
 var Wall_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Wall_lvl1.tscn")
 var Gate_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Gate_lvl1.tscn")
 
+var WatchTower : PackedScene = ResourceLoader.load("res://Scenes/Defense/WatchTower.tscn")
+var Post : PackedScene = ResourceLoader.load("res://Scenes/Defense/Post.tscn")
+var Barracks : PackedScene = ResourceLoader.load("res://Scenes/Defense/Barracks.tscn")
+
 var AbleToBuild : bool = true
 var currentSpawnable : StaticBody3D
 
 # --- Map reference (lazy, resolved on first use since this runs as an autoload) ---
 var map_root : Node
 
+signal selection_changed(node)
+var selected : Node3D = null
 
 func _get_map_root() -> Node:
 	if map_root == null:
@@ -73,7 +79,7 @@ func _handle_building_state() -> void:
 		currentSpawnable.ActiveBuildableObject = true
 
 	if AbleToBuild and Can_Afford(currentSpawnable) and GameManager.AvlPopulation >= currentSpawnable.PopulationCost:
-		if Input.is_action_just_pressed("LeftMouseDown"):
+		if Input.is_action_just_pressed("LeftMouseDown") and not _mouse_over_ui():
 			_place_building()
 
 	if Input.is_action_just_pressed("RightMouseDown"):
@@ -84,7 +90,58 @@ func _handle_building_state() -> void:
 
 	if Input.is_action_just_pressed("rotation"):
 		currentSpawnable.rotation_degrees += Vector3(0, 90, 0)
+func _mouse_over_ui() -> bool:
+	return get_viewport().gui_get_hovered_control() != null
 
+
+func _unhandled_input(event: InputEvent) -> void:
+	if GameManager.Current_State != GameManager.State.play:
+		return
+	if event is InputEventKey and event.pressed and event.keycode == KEY_0:
+		if selected is BuildingBarracks:
+			print("train: ", selected.train(GameManager.Soldiers["Archer"]))
+	if event.is_action_pressed("ui_cancel"):
+		clear_selection()
+		return
+	if not event.is_action_pressed("LeftMouseDown"):
+		return
+	if _mouse_over_ui():
+		return
+
+	var picked := _pick_selectable()
+	if picked:
+		select(picked)
+	else:
+		clear_selection()
+
+
+func _pick_selectable() -> Node3D:
+	var camera := get_viewport().get_camera_3d()
+	var mouse_pos := get_viewport().get_mouse_position()
+	var from := camera.project_ray_origin(mouse_pos)
+	var to := from + camera.project_ray_normal(mouse_pos) * 1000.0
+
+	var query := PhysicsRayQueryParameters3D.create(from, to)
+	query.collision_mask = 1
+	query.collide_with_areas = false
+
+	for i in 8:
+		var result := get_world_3d().direct_space_state.intersect_ray(query)
+		if result.is_empty():
+			return null
+		var hit = result.collider
+		if _is_selectable(hit):
+			return hit
+		query.exclude.append(result.rid)
+	return null
+
+
+func _is_selectable(node: Object) -> bool:
+	if not node.has_method("build_info"):
+		return false
+	if "spawned" in node and not node.spawned:
+		return false
+	return true
 
 func _place_building() -> void:
 	var obj = currentSpawnable.duplicate()
@@ -119,7 +176,7 @@ func _handle_destroying_state() -> void:
 		currentSpawnable.queue_free()
 		currentSpawnable = null
 
-	if Input.is_action_just_released("LeftMouseDown"):
+	if Input.is_action_just_released("LeftMouseDown") and not _mouse_over_ui():
 		var camera := get_viewport().get_camera_3d()
 		var mouse_pos := get_viewport().get_mouse_position()
 
@@ -218,6 +275,13 @@ func SpawnWall_lvl1():
 	SpawnObj(Wall_lvl1)
 func SpawnGate_lvl1():
 	SpawnObj(Gate_lvl1)
+func SpawnWatchTower():
+	SpawnObj(WatchTower)
+func SpawnPost():
+	SpawnObj(Post)
+func SpawnBarracks():
+	SpawnObj(Barracks)
+
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:
 		currentSpawnable.queue_free()
@@ -230,3 +294,13 @@ func SpawnObj(obj: PackedScene):
 	get_tree().current_scene.add_child(currentSpawnable)
 
 	GameManager.Current_State = GameManager.State.building
+
+
+func select(node: Node3D) -> void:
+	if selected == node:
+		return
+	selected = node
+	selection_changed.emit(node)
+
+func clear_selection() -> void:
+	select(null)
