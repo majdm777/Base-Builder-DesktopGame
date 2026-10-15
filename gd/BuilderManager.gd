@@ -19,8 +19,14 @@ var Church :PackedScene = ResourceLoader.load("res://Scenes/Community/Church.tsc
 var Shop :PackedScene = ResourceLoader.load("res://Scenes/Community/Shop.tscn")
 var Bar :PackedScene = ResourceLoader.load("res://Scenes/Community/Bar.tscn")
 
-var Wall_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Wall_lvl1.tscn")
-var Gate_lvl1 : PackedScene = ResourceLoader.load("res://Scenes/Walls/Gate_lvl1.tscn")
+var Wood_Wall : PackedScene = ResourceLoader.load("res://Scenes/Walls/Wood_Wall.tscn")
+var Wood_Gate : PackedScene = ResourceLoader.load("res://Scenes/Walls/Wood_Gate.tscn")
+var Stone_Wall : PackedScene = ResourceLoader.load("res://Scenes/Walls/Stone_Wall.tscn")
+var Stone_Gate : PackedScene = ResourceLoader.load("res://Scenes/Walls/Stone_Gate.tscn")
+var Stone_Arch : PackedScene = ResourceLoader.load("res://Scenes/Walls/Stone_Arch.tscn")
+var Tight_Corner : PackedScene = ResourceLoader.load("res://Scenes/Walls/Stone_Corner_Tight.tscn")
+var Wide_Corner : PackedScene = ResourceLoader.load("res://Scenes/Walls/Stone_Corner_Wide.tscn")
+
 
 var WatchTower : PackedScene = ResourceLoader.load("res://Scenes/Defense/WatchTower.tscn")
 var Post : PackedScene = ResourceLoader.load("res://Scenes/Defense/Post.tscn")
@@ -271,16 +277,27 @@ func SpawnBar():
 	SpawnObj(Bar)
 
 #wall
-func SpawnWall_lvl1():
-	SpawnObj(Wall_lvl1)
-func SpawnGate_lvl1():
-	SpawnObj(Gate_lvl1)
+func SpawnWoodWall():
+	SpawnObj(Wood_Wall)
+func SpawnWoodGate():
+	SpawnObj(Wood_Gate)
 func SpawnWatchTower():
 	SpawnObj(WatchTower)
 func SpawnPost():
 	SpawnObj(Post)
 func SpawnBarracks():
 	SpawnObj(Barracks)
+func SpawnStoneWall():
+	SpawnObj(Stone_Wall)
+func SpawnStoneGate():
+	SpawnObj(Stone_Gate)
+func SpawnStoneArch():
+	SpawnObj(Stone_Arch)
+func SpawnTightCorner():
+	SpawnObj(Tight_Corner)
+func SpawnWideCorner():
+	SpawnObj(Wide_Corner)
+	
 
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:

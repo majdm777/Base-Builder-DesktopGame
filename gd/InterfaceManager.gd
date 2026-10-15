@@ -83,10 +83,6 @@ func _on_church_button_down() -> void:
 	BuilderManager.SpawnChurch()
 	pass # Replace with function body.
 
-
-
-
-
 func _on_shop_button_down() -> void:
 	BuilderManager.SpawnShop()
 	pass # Replace with function body.
@@ -101,15 +97,6 @@ func _on_build_house_2_button_down() -> void:
 	BuilderManager.SpawnMediumHouse()
 	pass # Replace with function body.
 
-
-func _on_wall_lvl_1_button_down() -> void:
-	BuilderManager.SpawnWall_lvl1()
-	pass # Replace with function body.
-
-
-func _on_wall_gate_lvl_1_button_down() -> void:
-	BuilderManager.SpawnGate_lvl1()
-	pass # Replace with function body.
 
 var enemy : PackedScene = ResourceLoader.load("res://Scenes/Enemies/enemy.tscn")
 func _on_enemy_button_down() -> void:
@@ -138,4 +125,39 @@ func _on_soldier_button_down() -> void:
 
 func _on_barracks_button_down() -> void:
 	BuilderManager.SpawnBarracks()
+	pass # Replace with function body.
+
+
+func _on_wood_wall_button_down() -> void:
+	BuilderManager.SpawnWoodWall()
+	pass # Replace with function body.
+
+
+func _on_wood_gate_button_down() -> void:
+	BuilderManager.SpawnWoodGate()
+	pass # Replace with function body.
+
+
+func _on_stone_wall_button_down() -> void:
+	BuilderManager.SpawnStoneWall()
+	pass # Replace with function body.
+
+
+func _on_stone_gate_button_down() -> void:
+	BuilderManager.SpawnStoneGate()
+	pass # Replace with function body.
+
+
+func _on_stone_arch_button_down() -> void:
+	BuilderManager.SpawnStoneArch()
+	pass # Replace with function body.
+
+
+func _on_stone_corner_tight_button_down() -> void:
+	BuilderManager.SpawnTightCorner()
+	pass # Replace with function body.
+
+
+func _on_stone_corner_wide_button_down() -> void:
+	BuilderManager.SpawnWideCorner()
 	pass # Replace with function body.

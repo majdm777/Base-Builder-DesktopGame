@@ -756,7 +756,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 7
+current_tab = 5
 
 [node name="Huts" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=1732926609]
 visible = false
@@ -866,16 +866,40 @@ text = "Bar
 "
 
 [node name="Walls" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=379035408]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 5
 
-[node name="Wall_lvl1" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=1970469642]
+[node name="Wood_Wall" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=1970469642]
 layout_mode = 2
-text = "Wooden fence 
+text = "Wooden Wall
 "
 
-[node name="WallGate_lvl1" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=223364371]
+[node name="Stone_Wall" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=1845926716]
+layout_mode = 2
+text = "Stone Wall
+"
+
+[node name="Stone_Gate" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=161142643]
+layout_mode = 2
+text = "Stone Gate
+"
+
+[node name="Stone_Arch" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=1081771191]
+layout_mode = 2
+text = "Stone Arch
+"
+
+[node name="Stone_Corner_Tight" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=1493457725]
+layout_mode = 2
+text = "Tight Corner 
+"
+
+[node name="Stone_Corner_Wide" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=1045531926]
+layout_mode = 2
+text = "Wide Corner 
+"
+
+[node name="Wood_Gate" type="Button" parent="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls" unique_id=223364371]
 layout_mode = 2
 text = "Wooden Gate 
 "
@@ -895,6 +919,7 @@ layout_mode = 2
 text = "Soldier"
 
 [node name="Defense" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/Panel/TabContainer" unique_id=1888281998]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 7
 
@@ -1110,8 +1135,13 @@ text = "D"
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Community/Church" to="GameUI/UI/BuildingMenu" method="_on_church_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Community/Shop" to="GameUI/UI/BuildingMenu" method="_on_shop_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Community/Bar" to="GameUI/UI/BuildingMenu" method="_on_bar_button_down"]
-[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Wall_lvl1" to="GameUI/UI/BuildingMenu" method="_on_wall_lvl_1_button_down"]
-[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/WallGate_lvl1" to="GameUI/UI/BuildingMenu" method="_on_wall_gate_lvl_1_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Wood_Wall" to="GameUI/UI/BuildingMenu" method="_on_wood_wall_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Wall" to="GameUI/UI/BuildingMenu" method="_on_stone_wall_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Gate" to="GameUI/UI/BuildingMenu" method="_on_stone_gate_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Arch" to="GameUI/UI/BuildingMenu" method="_on_stone_arch_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Corner_Tight" to="GameUI/UI/BuildingMenu" method="_on_stone_corner_tight_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Stone_Corner_Wide" to="GameUI/UI/BuildingMenu" method="_on_stone_corner_wide_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Walls/Wood_Gate" to="GameUI/UI/BuildingMenu" method="_on_wood_gate_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/test/enemy" to="GameUI/UI/BuildingMenu" method="_on_enemy_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/test/Soldier" to="GameUI/UI/BuildingMenu" method="_on_soldier_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Defense/WatchTower" to="GameUI/UI/BuildingMenu" method="_on_watch_tower_button_down"]
