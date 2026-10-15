@@ -11,9 +11,9 @@
 [ext_resource type="Script" uid="uid://b3pkj3s5bu2j7" path="res://EntityInfo.gd" id="8_7s1p8"]
 [ext_resource type="Script" uid="uid://vj2cyqmm0wsd" path="res://gd/EnemySpawnPoint.gd" id="8_h2366"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_c07jr"]
-
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_c07jr"]
 
 [sub_resource type="Environment" id="Environment_ih4ol"]
 background_mode = 2
@@ -314,25 +314,6 @@ edge_size = 100.0
 [node name="Camera3D" type="Camera3D" parent="CameraRig" unique_id=707368133]
 transform = Transform3D(0.999999, 0.0013292, 0.000135404, -0.00084635, 0.551777, 0.833991, 0.00103383, -0.83399, 0.551778, 0, 100, 100)
 
-[node name="CastleKeep" parent="." unique_id=1965243952 groups=["NavMesh"] instance=ExtResource("5_c07jr")]
-transform = Transform3D(1.9995986, 1.5191884e-05, 0.04006758, -1.6377995e-05, 2, 5.904148e-05, -0.04006758, -5.9357742e-05, 1.9995986, 0, 0, 0)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CastleKeep" unique_id=393930494]
-transform = Transform3D(1.70215, 5.70964e-10, 2.32831e-10, 1.84031e-10, 1.8391, 3.49246e-10, 4.65661e-10, -1.74623e-10, 1.96311, 17.1882, 0.0116054, 0.00414438)
-mesh = SubResource("BoxMesh_c07jr")
-
-[node name="Marker3D" type="Marker3D" parent="CastleKeep/MeshInstance3D" unique_id=278450637 groups=["CitizenSpawnPoint"]]
-transform = Transform3D(1, -4.4615e-11, 0, -5.91456e-10, 1, 0, 7.27596e-11, 1.45519e-10, 1, 1.20474, 0.151812, 0.00381828)
-
-[node name="Marker3D2" type="Marker3D" parent="CastleKeep/MeshInstance3D" unique_id=685228633 groups=["CitizenSpawnPoint"]]
-transform = Transform3D(1, -4.46221e-11, 0, -7.07864e-10, 1, 0, 8.73115e-11, 1.74623e-10, 1, -1.34021, 0.148332, 0.00321582)
-
-[node name="Marker3D3" type="Marker3D" parent="CastleKeep/MeshInstance3D" unique_id=1297861826 groups=["CitizenSpawnPoint"]]
-transform = Transform3D(1, -4.46434e-11, 0, -9.40673e-10, 1, 0, 1.45519e-10, 2.32831e-10, 1, -0.0201907, 0.150662, 1.25117)
-
-[node name="Marker3D4" type="Marker3D" parent="CastleKeep/MeshInstance3D" unique_id=1951700019 groups=["CitizenSpawnPoint"]]
-transform = Transform3D(1, -4.46505e-11, 0, -9.40659e-10, 1, 0, 1.74623e-10, 2.61934e-10, 1, -0.0195246, 0.149775, -0.859124)
-
 [node name="Map2" type="StaticBody3D" parent="." unique_id=1556955267 groups=["NavMesh"]]
 transform = Transform3D(0.9999995, -2.2811264e-10, 3.2014214e-10, 3.5380054e-10, 0.9999995, 0, 1.7462298e-10, -3.783498e-10, 0.9999989, 0.103, 0.1, 0.042)
 collision_layer = 3
@@ -346,6 +327,25 @@ transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.4
 shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="Map" type="Node3D" parent="." unique_id=283358216 groups=["nav_geometry"]]
+
+[node name="CastleKeep" parent="Map" unique_id=1965243952 groups=["NavMesh"] instance=ExtResource("5_c07jr")]
+transform = Transform3D(1.9995985, 1.5191919e-05, 0.040067576, -1.6377984e-05, 1.9999998, 5.9041486e-05, -0.040067576, -5.935767e-05, 1.9995984, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Map/CastleKeep" unique_id=393930494]
+transform = Transform3D(1.70215, 5.70964e-10, 2.32831e-10, 1.84031e-10, 1.8391, 3.49246e-10, 4.65661e-10, -1.74623e-10, 1.96311, 17.1882, 0.0116054, 0.00414438)
+mesh = SubResource("BoxMesh_c07jr")
+
+[node name="Marker3D" type="Marker3D" parent="Map/CastleKeep/MeshInstance3D" unique_id=278450637 groups=["CitizenSpawnPoint"]]
+transform = Transform3D(1, -4.4615e-11, 0, -5.91456e-10, 1, 0, 7.27596e-11, 1.45519e-10, 1, 1.20474, 0.151812, 0.00381828)
+
+[node name="Marker3D2" type="Marker3D" parent="Map/CastleKeep/MeshInstance3D" unique_id=685228633 groups=["CitizenSpawnPoint"]]
+transform = Transform3D(1, -4.46221e-11, 0, -7.07864e-10, 1, 0, 8.73115e-11, 1.74623e-10, 1, -1.34021, 0.148332, 0.00321582)
+
+[node name="Marker3D3" type="Marker3D" parent="Map/CastleKeep/MeshInstance3D" unique_id=1297861826 groups=["CitizenSpawnPoint"]]
+transform = Transform3D(1, -4.46434e-11, 0, -9.40673e-10, 1, 0, 1.45519e-10, 2.32831e-10, 1, -0.0201907, 0.150662, 1.25117)
+
+[node name="Marker3D4" type="Marker3D" parent="Map/CastleKeep/MeshInstance3D" unique_id=1951700019 groups=["CitizenSpawnPoint"]]
+transform = Transform3D(1, -4.46505e-11, 0, -9.40659e-10, 1, 0, 1.74623e-10, 2.61934e-10, 1, -0.0195246, 0.149775, -0.859124)
 
 [node name="Tree_Small" parent="Map" unique_id=2086737538 instance=ExtResource("6_u7lc8")]
 transform = Transform3D(9.999978, -0.01477491, -0.002736042, 0.01477596, 9.999977, 0.003935586, 0.0027302296, -0.003939626, 9.999979, -171.71732, -0.04410989, -145.85841)
@@ -537,7 +537,7 @@ navigation_mesh = SubResource("NavigationMesh_4lt0l")
 [node name="EnemySpawnPoint" type="Node3D" parent="." unique_id=1920704200]
 
 [node name="enemyspawnpoint" type="Marker3D" parent="EnemySpawnPoint" unique_id=1661758245 groups=["EnemeySpawnPoint"]]
-transform = Transform3D(0.9999993, -3.4449243e-10, 3.4924597e-10, 3.5382186e-10, 0.9999993, 0, 1.4551915e-10, -4.0745363e-10, 0.99999857, 248.74289, -0.036010515, 146.11581)
+transform = Transform3D(0.999999, -4.6088644e-10, 4.947651e-10, 4.7035087e-10, 0.999999, 0, 2.3283064e-10, -5.820766e-10, 0.999998, 248.74265, 0.027926054, 146.11575)
 script = ExtResource("8_h2366")
 
 [node name="enemyspawnpoint6" type="Marker3D" parent="EnemySpawnPoint" unique_id=433799435 groups=["EnemeySpawnPoint"]]
@@ -593,11 +593,11 @@ transform = Transform3D(0.99999917, -3.444569e-10, 4.0745363e-10, 3.5384318e-10,
 script = ExtResource("8_h2366")
 
 [node name="enemyspawnpoint4" type="Marker3D" parent="EnemySpawnPoint" unique_id=1292914511 groups=["EnemeySpawnPoint"]]
-transform = Transform3D(0.9999991, -4.6085802e-10, 4.3655746e-10, 4.702727e-10, 0.9999991, 0, 2.0372681e-10, -5.2386895e-10, 0.9999982, -50.579277, -0.44065657, 241.5554)
+transform = Transform3D(0.99999875, -5.772307e-10, 6.1118044e-10, 5.8682303e-10, 0.99999875, 0, 2.910383e-10, -7.566996e-10, 0.9999975, -50.580036, 0.07212762, 241.55502)
 script = ExtResource("8_h2366")
 
 [node name="enemyspawnpoint5" type="Marker3D" parent="EnemySpawnPoint" unique_id=1696734225 groups=["EnemeySpawnPoint"]]
-transform = Transform3D(0.99999905, -4.608438e-10, 4.656613e-10, 4.702869e-10, 0.99999905, 0, 2.0372681e-10, -5.529728e-10, 0.9999981, -151.55641, -0.5898603, 241.5278)
+transform = Transform3D(0.9999989, -4.6087223e-10, 5.2386895e-10, 4.703722e-10, 0.9999989, 0, 2.6193447e-10, -6.4028427e-10, 0.99999785, -151.55713, -0.089906715, 241.52751)
 script = ExtResource("8_h2366")
 
 [node name="GameUI" type="CanvasLayer" parent="." unique_id=680525894]

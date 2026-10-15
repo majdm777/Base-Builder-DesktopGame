@@ -62,7 +62,7 @@ func _start_attack(round_num: int) -> void:
 	attack_in_progress = true
 	_spawning = true
 	round_started.emit(round_num)
-	print("Round %d: budget %d, %d enemies" % [round_num, _get_round_budget(round_num), wave.size()])
+	print("attack on progress Round %d: budget %d, %d enemies" % [round_num, _get_round_budget(round_num), wave.size()])
 
 	for i in wave.size():
 		var sp = active_points[i % active_points.size()]

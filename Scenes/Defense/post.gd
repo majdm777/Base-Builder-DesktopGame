@@ -7,7 +7,15 @@ extends BuildingObject
 
 var occupants : Array = []
 var incoming := 0
+var assigning_soldiers := false
 
+
+func _process(delta: float) -> void:
+	if AttackManager.attack_in_progress and occupants.size() > 0 and not assigning_soldiers:
+		assigning_soldiers = true
+		await assign()
+		assigning_soldiers = false
+	
 var remaining_spots : int:
 	get: return capacity - occupants.size() - incoming
 
@@ -29,7 +37,7 @@ func _occupy(soldier: Node3D) -> bool:
 	incoming = maxi(incoming - 1, 0)
 	if occupants.size() >= capacity:
 		return false
-	#soldier.visible =  ! hides_occupants
+	soldier.visible = ! hides_occupants
 	occupants.append(soldier)
 	return true
 
@@ -42,3 +50,11 @@ func run_despawn():
 			s.on_post_lost()
 	occupants.clear()
 	super()
+
+func assign():
+	var lost_occupants = occupants.duplicate()
+	occupants.clear()
+	for s in lost_occupants:
+		if is_instance_valid(s):
+			s.on_post_lost()
+			await get_tree().create_timer(1).timeout

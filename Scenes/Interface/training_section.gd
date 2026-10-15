@@ -28,6 +28,7 @@ func _build_buttons() -> void:
 
 		var row := HBoxContainer.new()
 		var name_label := Label.new()
+		name_label.theme_type_variation = "CardLabel"
 		name_label.text = d.name
 		name_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 		row.add_child(name_label)
@@ -79,6 +80,7 @@ func _rebuild_queue() -> void:
 		var label := Label.new()
 		label.text = d.name
 		label.custom_minimum_size.x = 70
+		label.theme_type_variation = "CardLabel"
 		row.add_child(label)
 
 		if i == 0:

@@ -163,7 +163,7 @@ func _damage(value : int , entity : Node3D) -> bool:
 	Health -= value
 	if Health <= 0:
 		is_alive = false
-		GameManager.Army[soldier] -= 1
+		GameManager.Soldiers[soldier] -= 1
 		queue_free()
 		return false
 	return true
