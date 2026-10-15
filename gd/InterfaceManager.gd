@@ -161,25 +161,3 @@ func _on_stone_corner_tight_button_down() -> void:
 func _on_stone_corner_wide_button_down() -> void:
 	BuilderManager.SpawnWideCorner()
 	pass # Replace with function body.
-
-
-func _on_watch_tower_button_down() -> void:
-	BuilderManager.SpawnWatchTower()
-	pass # Replace with function body.
-
-
-func _on_post_button_down() -> void:
-	BuilderManager.SpawnPost()
-	pass # Replace with function body.
-
-var soldier : PackedScene = ResourceLoader.load("res://Scenes/Soldiers/Knight.tscn")
-func _on_soldier_button_down() -> void:
-	var temp = soldier.instantiate()
-	BuilderManager.map_root.add_child(temp)
-	temp.global_position = Vector3(-100, 0, 100)
-	pass # Replace with function body.
-
-
-func _on_barracks_button_down() -> void:
-	BuilderManager.SpawnBarracks()
-	pass # Replace with function body.
