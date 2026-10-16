@@ -10,6 +10,8 @@
 [ext_resource type="Theme" uid="uid://rbpdaho5neo2" path="res://Scenes/Interface/ui_theme.tres" id="7_pij2x"]
 [ext_resource type="Script" uid="uid://b3pkj3s5bu2j7" path="res://EntityInfo.gd" id="8_7s1p8"]
 [ext_resource type="Script" uid="uid://vj2cyqmm0wsd" path="res://gd/EnemySpawnPoint.gd" id="8_h2366"]
+[ext_resource type="Texture2D" uid="uid://c16w3lka5qgem" path="res://Assets/Icon/IconGodotNode/white/icon_visibility.png" id="10_5tnxy"]
+[ext_resource type="Script" uid="uid://btm6f5j2sd3r7" path="res://buildable_info.gd" id="11_jr5po"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
@@ -712,7 +714,7 @@ horizontal_alignment = 1
 layout_mode = 1
 offset_left = -20.0
 offset_bottom = 60.0
-text = ">"
+icon = ExtResource("10_5tnxy")
 
 [node name="BuildingMenu" type="Control" parent="GameUI/UI" unique_id=1048098266]
 layout_mode = 1
@@ -1111,6 +1113,38 @@ grow_horizontal = 0
 grow_vertical = 0
 theme_type_variation = &"DanagerButton"
 text = "D"
+
+[node name="Buildable_Info" type="PanelContainer" parent="GameUI/UI" unique_id=239919168]
+custom_maximum_size = Vector2(142, -1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 15.0
+offset_top = -278.0
+offset_right = 157.0
+offset_bottom = -136.0
+grow_vertical = 0
+script = ExtResource("11_jr5po")
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/Buildable_Info" unique_id=1766848719]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="GameUI/UI/Buildable_Info/VBox" unique_id=1538951821]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = "Name"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/Buildable_Info/VBox" unique_id=1308693966]
+layout_mode = 2
+
+[node name="Cost" type="HFlowContainer" parent="GameUI/UI/Buildable_Info/VBox" unique_id=941762697]
+custom_maximum_size = Vector2(142, -1)
+layout_mode = 2
+
+[node name="Gives" type="HFlowContainer" parent="GameUI/UI/Buildable_Info/VBox" unique_id=1298234479]
+layout_mode = 2
 
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Huts/BuildStockPileButton" to="GameUI/UI/BuildingMenu" method="_on_build_stock_pile_button_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/Panel/TabContainer/Huts/BuildWoodCutterButton" to="GameUI/UI/BuildingMenu" method="_on_build_wood_cutter_button_button_down"]

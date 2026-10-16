@@ -96,7 +96,7 @@ func _handle_building_state() -> void:
 		return
 
 	if Input.is_action_just_pressed("rotation"):
-		currentSpawnable.rotation_degrees += Vector3(0, 90, 0)
+		currentSpawnable.rotation_degrees += Vector3(0, 45, 0)
 func _mouse_over_ui() -> bool:
 	return get_viewport().gui_get_hovered_control() != null
 

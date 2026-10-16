@@ -89,9 +89,10 @@ func _process(delta: float) -> void:
 		if houses.size() > 0:
 			await get_tree().create_timer(3.0).timeout
 			var citizen = TCitizen.instantiate()
-			BuilderManager.map_root.add_child(citizen)
+			#BuilderManager.map_root.add_child(citizen)
 			for house in houses:
 				if is_instance_valid(house) and house.spawned and house.remaining_space > 0 :
+					BuilderManager.map_root.add_child(citizen)
 					citizen.Home = house.occupy()
 					citizen.global_position = citizen.Home.global_position
 					citizen.current_task = citizen.Task.Wondering
