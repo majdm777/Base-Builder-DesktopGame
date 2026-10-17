@@ -28,6 +28,11 @@ NavChunks="*uid://seemkcpqgfmt"
 WorldTime="*uid://bwuwa1m4stn4o"
 AttackManager="*uid://cf8e2ayui81oy"
 
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
 [file_customization]
 
 folder_colors={

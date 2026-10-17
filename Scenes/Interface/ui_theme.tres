@@ -78,6 +78,17 @@ border_color = Color(0.7882353, 0.6313726, 0.23137255, 1)
 border_blend = true
 corner_detail = 4
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xn3di"]
+bg_color = Color(0.94509804, 0.9019608, 0.78431374, 1)
+border_width_left = 4
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.5411765, 0.41568628, 0.24705882, 1)
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+expand_margin_left = 3.0
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bu2nq"]
 bg_color = Color(0.5411765, 0.41568628, 0.24705882, 1)
 border_width_left = 2
@@ -85,6 +96,10 @@ border_width_top = 2
 border_width_right = 2
 border_width_bottom = 2
 border_color = Color(0.5411765, 0.41568628, 0.24705882, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bgcvw"]
 content_margin_left = 10.0
@@ -140,7 +155,24 @@ corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xn3di"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2lfnd"]
+bg_color = Color(0.16470589, 0.10980392, 0.07058824, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5411765, 0.41568628, 0.24705882, 1)
+border_blend = true
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+expand_margin_left = 4.0
+expand_margin_top = 4.0
+expand_margin_right = 4.0
+expand_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_85hv5"]
 content_margin_left = 8.0
 content_margin_top = 8.0
 content_margin_right = 8.0
@@ -230,6 +262,8 @@ DanagerButton/base_type = &"Button"
 DanagerButton/styles/hover = SubResource("StyleBoxFlat_kwgjv")
 DanagerButton/styles/normal = SubResource("StyleBoxFlat_6318g")
 DanagerButton/styles/pressed = SubResource("StyleBoxFlat_0umrx")
+DescriptionPanel/base_type = &"PanelContainer"
+DescriptionPanel/styles/panel = SubResource("StyleBoxFlat_xn3di")
 HSeparator/styles/separator = SubResource("StyleBoxFlat_bu2nq")
 Label/colors/font_color = Color(0.9529412, 0.9019608, 0.76862746, 1)
 PanelContainer/styles/panel = SubResource("StyleBoxFlat_bgcvw")
@@ -237,9 +271,11 @@ PreviewFrame/base_type = &"PanelContainer"
 PreviewFrame/styles/panel = SubResource("StyleBoxFlat_pij2x")
 ProgressBar/styles/background = SubResource("StyleBoxFlat_rgbp6")
 ProgressBar/styles/fill = SubResource("StyleBoxFlat_jkgsh")
+StatPanel/base_type = &"PanelContainer"
+StatPanel/styles/panel = SubResource("StyleBoxFlat_2lfnd")
 TabContainer/colors/font_selected_color = Color(0.9529412, 0.9019608, 0.76862746, 1)
 TabContainer/colors/font_unselected_color = Color(0.72156864, 0.6117647, 0.4392157, 1)
-TabContainer/styles/panel = SubResource("StyleBoxFlat_xn3di")
+TabContainer/styles/panel = SubResource("StyleBoxFlat_85hv5")
 TabContainer/styles/tab_hovered = SubResource("StyleBoxFlat_3b3j7")
 TabContainer/styles/tab_selected = SubResource("StyleBoxFlat_dydyi")
 TabContainer/styles/tab_unselected = SubResource("StyleBoxFlat_rvm3d")

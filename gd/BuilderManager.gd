@@ -322,3 +322,10 @@ func select(node: Node3D) -> void:
 
 func clear_selection() -> void:
 	select(null)
+
+func count_by_name() -> Dictionary:
+	var counts := {}
+	for b in map_root.get_children():
+		if b is BuildingObject and b.spawned:
+			counts[b.display_name] = counts.get(b.display_name, 0) + 1
+	return counts

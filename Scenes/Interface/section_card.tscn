@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cjso5u8jbxf5i"]
+
+[ext_resource type="Script" uid="uid://4vbtmnfh2rw2" path="res://Scenes/Interface/section_card.gd" id="1_1o472"]
+
+[node name="SectionCard" type="PanelContainer" unique_id=214996697]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1o472")
+
+[node name="VBox" type="VBoxContainer" parent="." unique_id=1159931538]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="VBox" unique_id=294409388]
+layout_mode = 2
+text = "Title"
+
+[node name="Content" type="VBoxContainer" parent="VBox" unique_id=1208516893]
+layout_mode = 2

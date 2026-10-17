@@ -10,6 +10,8 @@
 [ext_resource type="Theme" uid="uid://rbpdaho5neo2" path="res://Scenes/Interface/ui_theme.tres" id="7_pij2x"]
 [ext_resource type="Script" uid="uid://b3pkj3s5bu2j7" path="res://EntityInfo.gd" id="8_7s1p8"]
 [ext_resource type="Script" uid="uid://vj2cyqmm0wsd" path="res://gd/EnemySpawnPoint.gd" id="8_h2366"]
+[ext_resource type="Texture2D" uid="uid://d2kiqsj5gul1s" path="res://Assets/Icon/IconGodotNode/white/icon_chest.png" id="9_nlo1c"]
+[ext_resource type="Script" uid="uid://dqxl01ak8w4b5" path="res://res_handle.gd" id="10_2lfnd"]
 [ext_resource type="Texture2D" uid="uid://c16w3lka5qgem" path="res://Assets/Icon/IconGodotNode/white/icon_visibility.png" id="10_5tnxy"]
 [ext_resource type="Script" uid="uid://btm6f5j2sd3r7" path="res://buildable_info.gd" id="11_jr5po"]
 
@@ -649,7 +651,7 @@ anchors_preset = 11
 anchor_left = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -209.0
+offset_left = -238.0
 offset_top = 115.0
 offset_right = -3.0
 grow_horizontal = 0
@@ -666,10 +668,160 @@ grow_vertical = 2
 tab_alignment = 1
 current_tab = 0
 tabs_position = 1
+tab_0/icon = ExtResource("9_nlo1c")
 
-[node name="Res" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1197826833]
+[node name="Res" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=544825690]
+propagate_maximum_size = true
 layout_mode = 2
+script = ExtResource("10_2lfnd")
 metadata/_tab_index = 0
+metadata/_tab_name = ""
+
+[node name="Margin" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/Res" unique_id=1024442741]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 10
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin" unique_id=2032327771]
+layout_mode = 2
+theme_override_constants/separation = 11
+
+[node name="Resources" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=1541862098]
+layout_mode = 2
+text = "Resources"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=1599322053]
+layout_mode = 2
+
+[node name="WoodPanel" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=1434655266]
+layout_mode = 2
+theme_type_variation = &"StatPanel"
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WoodPanel" unique_id=1964261387]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WoodPanel/VBox" unique_id=1889334371]
+layout_mode = 2
+text = "Wood"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WoodPanel/VBox" unique_id=1504324172]
+layout_mode = 2
+value = 2.0
+
+[node name="StonePanel" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=1953327950]
+layout_mode = 2
+theme_type_variation = &"StatPanel"
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/StonePanel" unique_id=921873586]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/StonePanel/VBox" unique_id=742908619]
+layout_mode = 2
+text = "Wood"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/StonePanel/VBox" unique_id=2059535908]
+layout_mode = 2
+
+[node name="IronPanel" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=1386790145]
+layout_mode = 2
+theme_type_variation = &"StatPanel"
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/IronPanel" unique_id=2000484880]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/IronPanel/VBox" unique_id=1905856141]
+layout_mode = 2
+text = "Wood"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/IronPanel/VBox" unique_id=2029913164]
+layout_mode = 2
+
+[node name="GoldPanel" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=489101245]
+layout_mode = 2
+theme_type_variation = &"StatPanel"
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/GoldPanel" unique_id=1017652472]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/GoldPanel/VBox" unique_id=773805595]
+layout_mode = 2
+text = "Wood"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/GoldPanel/VBox" unique_id=1004046576]
+layout_mode = 2
+
+[node name="FoodPanel" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=1287026037]
+layout_mode = 2
+theme_type_variation = &"StatPanel"
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/FoodPanel" unique_id=1739049363]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/FoodPanel/VBox" unique_id=543141406]
+layout_mode = 2
+text = "Wood"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/FoodPanel/VBox" unique_id=241890183]
+layout_mode = 2
+
+[node name="food_consumtion" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=635153542]
+layout_mode = 2
+theme_type_variation = &"DescriptionPanel"
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/food_consumtion" unique_id=1706024798]
+layout_mode = 2
+
+[node name="FoodLasts" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/food_consumtion/VBox" unique_id=74298435]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
+text = " food consumtion : 10 / h"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HSeparator2" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=264050324]
+layout_mode = 2
+
+[node name="WorkerCount" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox" unique_id=1863463877]
+layout_mode = 2
+theme_type_variation = &"DescriptionPanel"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount" unique_id=1127193382]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=2029836047]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = "Workers"
+horizontal_alignment = 1
+
+[node name="Wood_cutter" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=1406838189]
+layout_mode = 2
+
+[node name="Stone_miner" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=1610705249]
+layout_mode = 2
+
+[node name="Iron_miner" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=519780814]
+layout_mode = 2
+
+[node name="Farmer" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=1587182031]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
 
 [node name="pop" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1707217378]
 visible = false
@@ -697,7 +849,9 @@ metadata/_tab_index = 4
 [node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/Info" unique_id=1347189302]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_constants/margin_left = 4
 theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 4
 theme_override_constants/margin_bottom = 10
 
 [node name="Control" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/Info/MarginContainer" unique_id=1947741221]

@@ -19,7 +19,8 @@ var capacities = {
 	"wood":20,
 	"stone":20,
 	"iron":20,
-	"food":20
+	"food":20,
+	"gold": 20
 }
 
 
