@@ -20,6 +20,14 @@ var Soldiers = {
 	"Archer" : 0,
 	"Knight" : 0
 }
+
+var Workers = {
+	"Farmer" : 0,
+	"Wood Cutter" : 0,
+	"Stone Miner" : 0,
+	"Iron Miner" : 0
+}
+
 var taxRate := 1
 
 var TCitizen : PackedScene
@@ -113,6 +121,26 @@ func assign_citizen():
 			return
 	pass
 
+func _spawn_citizen():
+	var houses = get_tree().get_nodes_in_group("House")
+	if houses.size() > 0:
+		await get_tree().create_timer(3.0).timeout
+		var citizen = TCitizen.instantiate()
+		for house in houses:
+			if is_instance_valid(house) and house.spawned and house.remaining_space > 0 :
+				BuilderManager.map_root.add_child(citizen)
+				citizen.Home = house.occupy()
+				citizen.global_position = citizen.Home.global_position
+				citizen.current_task = citizen.Task.Wondering
+				FoundHouse = true
+				population += 1
+				if population > MaxPopulation:
+					population = MaxPopulation
+				AvlPopulation += 1
+				break
+		if not FoundHouse:
+			citizen.queue_free()
+	pass
 func _on_community_decay_timeout() -> void:
 	if AvlPopulation <= 0:
 		return

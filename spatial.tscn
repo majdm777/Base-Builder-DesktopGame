@@ -810,14 +810,20 @@ theme_type_variation = &"CardLabel"
 text = "Workers"
 horizontal_alignment = 1
 
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=1879386979]
+layout_mode = 2
+
 [node name="Wood_cutter" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=1406838189]
 layout_mode = 2
+theme_type_variation = &"CardLabel"
 
 [node name="Stone_miner" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=1610705249]
 layout_mode = 2
+theme_type_variation = &"CardLabel"
 
 [node name="Iron_miner" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=519780814]
 layout_mode = 2
+theme_type_variation = &"CardLabel"
 
 [node name="Farmer" type="Label" parent="GameUI/UI/SideMenu/TabContainer/Res/Margin/VBox/WorkerCount/VBoxContainer" unique_id=1587182031]
 layout_mode = 2
