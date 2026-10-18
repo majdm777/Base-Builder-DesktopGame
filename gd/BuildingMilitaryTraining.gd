@@ -55,7 +55,8 @@ func train(type) -> bool:
 	var d : Dictionary = trainable[type]
 	for res in d.costs:
 		ResourceManager.resources[res] -= d.costs[res]
-	GameManager.assign_citizen()          # see question 1
+	GameManager.assign_citizen()
+	#GamerManager.Soldiers[]   TODO
 	queue.append(type)
 	queue_changed.emit()
 	return true

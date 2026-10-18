@@ -12,6 +12,7 @@ var cost_chips : Array = []     # [{ "chip": ..., "check": Callable }]
 
 func _ready() -> void:
 	_ignore_mouse(self)
+
 	visible = false
 
 

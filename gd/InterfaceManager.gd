@@ -1,21 +1,10 @@
 extends Control
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+
 	pass# Replace with function body.func _process(delta: float) -> void:
 func _process(delta: float) -> void:
-	$ResourcesBox/WoodLabel/WoodCountLabel.text = str(ResourceManager.resources["wood"], "/",ResourceManager.capacities["wood"])
-	$ResourcesBox/FoodLabel/FoodCountLabel.text = str(ResourceManager.resources["food"], "/",ResourceManager.capacities["food"])
-	$ResourcesBox/GoldLabel/GoldCountLabel.text = str(ResourceManager.resources["gold"])
-	$ResourcesBox/IronLabel/IronCountLabel.text = str(ResourceManager.resources["iron"], "/",ResourceManager.capacities["iron"])
-	$ResourcesBox/StoneLabel/StoneCountLabel.text = str(ResourceManager.resources["stone"], "/",ResourceManager.capacities["stone"])
-	$PopulationBox/AlvPop/AvlPopValue.text = str(GameManager.AvlPopulation)
-	$PopulationBox/Hap/HapValue.text = str(GameManager.Happiness)
-	$PopulationBox/Pop/PopValue.text= str(GameManager.population) + "/" + str(GameManager.MaxPopulation)
-	#$date/Date.text = WorldTime.get_date_string()
-	#$date/Time.text = WorldTime.get_time_string()
-	$PopulationBox/Army/ArmyValue.text = str(GameManager.Soldiers.values().reduce(func(a, b): return a + b, 0))
 	pass
 
 
