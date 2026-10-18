@@ -3,7 +3,7 @@ extends Handler
 
 @onready var previous_happiness_value = GameManager.Happiness
 
-@onready var pop_bar = $MarginContainer/VBox/PopulationBar
+@onready var pop_bar = $MarginContainer/VBox/Population_details/PopulationBar
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	super()
@@ -11,6 +11,7 @@ func _ready() -> void:
 	happiness_timer.one_shot = false
 	happiness_timer.timeout.connect(_on_happiness_timerout)
 	happiness_timer.wait_time = 10.0
+	add_child(happiness_timer)
 	happiness_timer.start()
 	pass # Replace with function body.
 
@@ -29,7 +30,9 @@ func _on_happiness_timerout():
 	else:
 		$MarginContainer/VBox/HappinessDetails/T_Happiness/Increase.visible = true
 		$MarginContainer/VBox/HappinessDetails/T_Happiness/Dercrease.visible = false
-		
+	previous_happiness_value = current_happiness_value
+
+
 func _refresh():
 	var soldiers := 0
 	var workers := 0
@@ -39,14 +42,15 @@ func _refresh():
 	for w in GameManager.Workers:
 		workers += GameManager.Workers[w]
 	pop_bar.set_values(workers, soldiers, avl, GameManager.MaxPopulation)
-	$"MarginContainer/VBox/Legend/VBox/Worker color/Label".text = "Worker : " + str(workers)
-	$"MarginContainer/VBox/Legend/VBox/Army Color/Label".text = "Soldiers : " + str(soldiers)
-	$"MarginContainer/VBox/Legend/VBox/Avalaible Color/Label".text = "Available : " + str(GameManager.AvlPopulation)
-	$"MarginContainer/VBox/Legend/VBox/Free Space/Label".text = "Free Space : " + str(GameManager.population - GameManager.MaxPopulation)
+	$"MarginContainer/VBox/Population_details/Legend/VBox/Worker color/Label".text = "Worker : " + str(workers)
+	$"MarginContainer/VBox/Population_details/Legend/VBox/Army Color/Label".text = "Soldiers : " + str(soldiers)
+	$"MarginContainer/VBox/Population_details/Legend/VBox/Avalaible Color/Label".text = "Available : " + str(GameManager.AvlPopulation)
+	$"MarginContainer/VBox/Population_details/Legend/VBox/Free Space/Label".text = "Free Space : " + str(GameManager.population - GameManager.MaxPopulation)
 	
 	$MarginContainer/VBox/Population_details/T_population/Tpop.text="T.Population : " + str(GameManager.population) +"/"+ str(GameManager.MaxPopulation)
 
 	_citizen_spawn()
+	_happiness_deatail()
 	pass
 
 func _citizen_spawn():
@@ -75,6 +79,7 @@ func _citizen_spawn():
 		if GameManager.population >= GameManager.MaxPopulation:
 			$MarginContainer/VBox/Population_details/Pop_time_counter/Requirment.text += "no enough space."
 		
+		
 
 func format_time(sec: float) -> String:
 	if is_inf(sec):
@@ -86,7 +91,7 @@ func format_time(sec: float) -> String:
 func _happiness_deatail():
 	var happiness = GameManager.Happiness
 	var status = $MarginContainer/VBox/HappinessDetails/HappinessStatus/Label
-	$MarginContainer/VBox/HappinessDetails/T_Happiness/Thap.text = str(GameManager.Happiness)
+	$MarginContainer/VBox/HappinessDetails/T_Happiness/Thap.text ="T.Happiness :" +str(GameManager.Happiness)
 	var color : Color
 	if happiness < 20:
 		status.text = "Status : Very Sad"
