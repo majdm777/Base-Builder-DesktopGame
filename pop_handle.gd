@@ -7,6 +7,9 @@ extends Handler
 
 @onready var pop_bar = $MarginContainer/VBox/Population_details/PopulationBar
 
+const GOOD := Color("#5a8a3a")
+const WARN := Color("#d19a2e")
+const BAD := Color("#a83a2a")
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	
@@ -125,17 +128,34 @@ func _happiness_deatail():
 	
 	hap_bar.value = happiness
 	
-	$MarginContainer/VBox/HappinessDetails/HappinessLegend/FoodFactor/ProgressBar.value = GameManager.food_availability
-	$MarginContainer/VBox/HappinessDetails/HappinessLegend/FoodFactor/Label.text = "Food "+ str(GameManager.food_availability)+"|60"
+	var progressbar :ProgressBar=$MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/FoodFactor/ProgressBar
+	_fill_Bar(progressbar,GameManager.food_availability , 60,"drain")
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/FoodFactor/Label.text = "Food "+ str(GameManager.food_availability)+"|60"
+	progressbar =$MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/CommunityFactor/ProgressBar
+	_fill_Bar(progressbar,GameManager.community , 20,"drain")
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/CommunityFactor/Label.text = "Cmty "+ str(GameManager.community)+"|20"
+	progressbar =$MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/SafetyFactor/ProgressBar
+	_fill_Bar( progressbar, GameManager.safety,20, "drain")
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/SafetyFactor/Label.text = "Safety "+ str(GameManager.safety)+"|20"
 	
-	$MarginContainer/VBox/HappinessDetails/HappinessLegend/CommunityFactor/ProgressBar.value = GameManager.community
-	$MarginContainer/VBox/HappinessDetails/HappinessLegend/CommunityFactor/Label.text = "Cmty "+ str(GameManager.community)+"|20"
 	
-	$MarginContainer/VBox/HappinessDetails/HappinessLegend/SafetyFactor/ProgressBar.value = GameManager.safety
-	$MarginContainer/VBox/HappinessDetails/HappinessLegend/SafetyFactor/Label.text = "Safety "+ str(GameManager.safety)+"|20"
-	
-	
-	
+func _fill_Bar(Bar : ProgressBar, Value : int, Max_Value : int, mode := "fill"):
+	Bar.max_value = Max_Value
+	Bar.value = Value
+
+	var r : float = float(Value) / max(Max_Value, 1)
+	var state := 0
+	if mode == "fill":
+		state = 2 if r >= 0.95 else (1 if r >= 0.75 else 0)
+	else:
+		state = 2 if r <= 0.25 else (1 if r <= 0.5 else 0)
+
+	if Bar.get_meta("state", -1) != state:    # per bar, not shared
+		Bar.set_meta("state", state)
+		var fill := StyleBoxFlat.new()
+		fill.bg_color = [GOOD, WARN, BAD][state]
+		fill.set_corner_radius_all(2)
+		Bar.add_theme_stylebox_override("fill", fill)
 	
 	
 

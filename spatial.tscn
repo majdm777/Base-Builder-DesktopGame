@@ -844,6 +844,10 @@ metadata/_tab_name = ""
 [node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/pop" unique_id=496794259]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 11
 
 [node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer" unique_id=651483979]
 layout_mode = 2
@@ -987,6 +991,7 @@ layout_mode = 2
 
 [node name="HappinessDetails" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox" unique_id=186882479]
 layout_mode = 2
+alignment = 1
 
 [node name="T_Happiness" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails" unique_id=1354598264]
 layout_mode = 2
@@ -1031,50 +1036,100 @@ clip_contents = true
 layout_mode = 2
 show_percentage = false
 
-[node name="HappinessLegend" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails" unique_id=666343190]
+[node name="HappinessLegend" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails" unique_id=846558238]
+layout_mode = 2
+title = "Happiness Factors"
+title_alignment = 1
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend" unique_id=1869742331]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="FoodFactor" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox" unique_id=2050917978]
 layout_mode = 2
 
-[node name="FoodFactor" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend" unique_id=2050917978]
-layout_mode = 2
-
-[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/FoodFactor" unique_id=1095896901]
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/FoodFactor" unique_id=1095896901]
+custom_maximum_size = Vector2(-1, 12)
 layout_mode = 2
 size_flags_horizontal = 3
+size_flags_vertical = 1
 max_value = 60.0
+show_percentage = false
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/FoodFactor" unique_id=122654816]
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/FoodFactor" unique_id=122654816]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
 text = "Food  12 | 60"
+horizontal_alignment = 3
+vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="CommunityFactor" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend" unique_id=2064937461]
+[node name="SafetyFactor" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox" unique_id=1517225221]
 layout_mode = 2
 
-[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/CommunityFactor" unique_id=826042511]
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/SafetyFactor" unique_id=952576784]
+custom_minimum_size = Vector2(0, 12)
 layout_mode = 2
 size_flags_horizontal = 3
 max_value = 20.0
+show_percentage = false
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/CommunityFactor" unique_id=1052248907]
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/SafetyFactor" unique_id=478285628]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
 text = "Food  12 | 60"
+horizontal_alignment = 3
+vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="SafetyFactor" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend" unique_id=1517225221]
+[node name="CommunityFactor" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox" unique_id=2064937461]
 layout_mode = 2
 
-[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/SafetyFactor" unique_id=952576784]
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/CommunityFactor" unique_id=826042511]
+custom_minimum_size = Vector2(0, 12)
 layout_mode = 2
 size_flags_horizontal = 3
 max_value = 20.0
+show_percentage = false
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/SafetyFactor" unique_id=478285628]
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/VBox/CommunityFactor" unique_id=1052248907]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
 text = "Food  12 | 60"
+horizontal_alignment = 3
+vertical_alignment = 1
 autowrap_mode = 3
+
+[node name="HSeparator3" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox" unique_id=389714708]
+layout_mode = 2
+
+[node name="CommunityDetails" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox" unique_id=776517647]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails" unique_id=2065673053]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/HBoxContainer" unique_id=2101574780]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Community Building : 15"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="FoldableContainer" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails" unique_id=624608659]
+layout_mode = 2
+title = "Commnity Buildings"
+title_alignment = 1
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer" unique_id=1432933817]
+layout_mode = 2
+text = "mirna ana kter bhebek"
 
 [node name="army" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1650570000]
 visible = false

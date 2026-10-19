@@ -30,8 +30,6 @@ AttackManager="*uid://cf8e2ayui81oy"
 
 [display]
 
-window/size/viewport_width=1500
-window/size/viewport_height=1000
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
