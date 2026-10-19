@@ -2,10 +2,15 @@
 extends Handler
 
 @onready var previous_happiness_value = GameManager.Happiness
+@onready var hap_bar : ProgressBar = $MarginContainer/VBox/HappinessDetails/HappinessBar
+
 
 @onready var pop_bar = $MarginContainer/VBox/Population_details/PopulationBar
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	
+	hap_bar.max_value = 100
 	super()
 	var happiness_timer := Timer.new()
 	happiness_timer.one_shot = false
@@ -48,7 +53,8 @@ func _refresh():
 	$"MarginContainer/VBox/Population_details/Legend/VBox/Free Space/Label".text = "Free Space : " + str(GameManager.population - GameManager.MaxPopulation)
 	
 	$MarginContainer/VBox/Population_details/T_population/Tpop.text="T.Population : " + str(GameManager.population) +"/"+ str(GameManager.MaxPopulation)
-
+	
+	
 	_citizen_spawn()
 	_happiness_deatail()
 	pass
@@ -117,16 +123,20 @@ func _happiness_deatail():
 		#$MarginContainer/VBox/HappinessDetails/HappinessStatus/Requirment.text += ""
 	#pass
 	
+	hap_bar.value = happiness
+	
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/FoodFactor/ProgressBar.value = GameManager.food_availability
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/FoodFactor/Label.text = "Food "+ str(GameManager.food_availability)+"|60"
+	
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/CommunityFactor/ProgressBar.value = GameManager.community
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/CommunityFactor/Label.text = "Cmty "+ str(GameManager.community)+"|20"
+	
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/SafetyFactor/ProgressBar.value = GameManager.safety
+	$MarginContainer/VBox/HappinessDetails/HappinessLegend/SafetyFactor/Label.text = "Safety "+ str(GameManager.safety)+"|20"
 	
 	
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
+
 	

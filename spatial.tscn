@@ -1026,7 +1026,10 @@ theme_override_font_sizes/font_size = 10
 autowrap_mode = 3
 
 [node name="HappinessBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails" unique_id=220087254]
+custom_minimum_size = Vector2(0, 15)
+clip_contents = true
 layout_mode = 2
+show_percentage = false
 
 [node name="HappinessLegend" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails" unique_id=666343190]
 layout_mode = 2
@@ -1037,6 +1040,7 @@ layout_mode = 2
 [node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/FoodFactor" unique_id=1095896901]
 layout_mode = 2
 size_flags_horizontal = 3
+max_value = 60.0
 
 [node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/FoodFactor" unique_id=122654816]
 layout_mode = 2
@@ -1050,6 +1054,7 @@ layout_mode = 2
 [node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/CommunityFactor" unique_id=826042511]
 layout_mode = 2
 size_flags_horizontal = 3
+max_value = 20.0
 
 [node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/CommunityFactor" unique_id=1052248907]
 layout_mode = 2
@@ -1063,6 +1068,7 @@ layout_mode = 2
 [node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/SafetyFactor" unique_id=952576784]
 layout_mode = 2
 size_flags_horizontal = 3
+max_value = 20.0
 
 [node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/HappinessDetails/HappinessLegend/SafetyFactor" unique_id=478285628]
 layout_mode = 2

@@ -7,7 +7,7 @@ enum State{
 }
 
 var food_availability := 60
-var safty := 20
+var safety := 20
 var community := 20
 
 var Current_State = State.play
@@ -80,12 +80,13 @@ func _restart_food_timer() -> void:
 
 
 func _on_food_timer_timeout() -> void:
-	if ResourceManager.resources["food"] == 0:
-		if food_availability > 0:
-			food_availability -= 1
-	else:
-		if food_availability <= 60:
-			food_availability += 1
+	if population > 0:
+		if ResourceManager.resources["food"] == 0:
+			if food_availability > 0:
+				food_availability -= 1
+		else:
+			if food_availability <= 60:
+				food_availability += 1
 	_restart_food_timer()
 
 
@@ -108,7 +109,7 @@ func _on_food_consumption_timeout() -> void:
 		ResourceManager.resources["food"] = 0
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:                                                 
-	Happiness = food_availability + safty + community
+	Happiness = food_availability + safety + community
 func assign_citizen():
 	if AvlPopulation <= 0:
 		return 
