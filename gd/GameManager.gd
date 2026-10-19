@@ -10,6 +10,7 @@ var food_availability := 60
 var safety := 20
 var community := 20
 
+
 var Current_State = State.play
 
 var population : int = 0
@@ -147,5 +148,41 @@ func _on_community_decay_timeout() -> void:
 	var decay_amount : int = 1 + int(population / 10.0)  # divisor = 10, tune as needed
 	community = max(0, community - decay_amount)
 
-func on_community_interaction() -> void:
-	community = min(20, community + 1)
+func on_community_interaction(Value : int) -> void:
+	community = min(20, community + Value)
+
+
+func _community_status() -> String:
+	var community_buildings : Array
+	for B in  get_tree().get_nodes_in_group("Community"):
+		if ! B.is_in_group("House"):
+			community_buildings.append(B)
+	if community_buildings.size() == 0:
+		return "Dead"
+		
+	var building_capacity := 0
+	for building in community_buildings:
+		building_capacity += building.capacity
+		
+	if building_capacity < AvlPopulation:
+		return "Poor" 
+		
+	var recommended_number_of_CB := 0.0
+	if AvlPopulation != 0.0:
+		
+		recommended_number_of_CB = log(max(1.0, AvlPopulation)) / log(2)
+		
+		var building_count = community_buildings.size()
+		
+		if building_count < min(0, recommended_number_of_CB - 2):
+			return "Dead"
+		elif building_count < recommended_number_of_CB:
+			return "Poor"
+		elif building_count == int(recommended_number_of_CB): 
+			return "Perfect"
+		elif building_count > recommended_number_of_CB + 2:
+			return "Redundant"
+		else: 
+			return "Thriving" # (Fixed the typo from 'Thrivig')
+	else:
+		return "Dead"

@@ -59,7 +59,8 @@ func _refresh():
 	
 	
 	_citizen_spawn()
-	_happiness_deatail()
+	_happiness_detail()
+	_community_detail()
 	pass
 
 func _citizen_spawn():
@@ -97,7 +98,7 @@ func format_time(sec: float) -> String:
 		return "out "
 	return "%dh %02dm" % [int(sec) / 60, int(sec) % 60]
 
-func _happiness_deatail():
+func _happiness_detail():
 	var happiness = GameManager.Happiness
 	var status = $MarginContainer/VBox/HappinessDetails/HappinessStatus/Label
 	$MarginContainer/VBox/HappinessDetails/T_Happiness/Thap.text ="T.Happiness :" +str(GameManager.Happiness)
@@ -158,5 +159,17 @@ func _fill_Bar(Bar : ProgressBar, Value : int, Max_Value : int, mode := "fill"):
 		Bar.add_theme_stylebox_override("fill", fill)
 	
 	
-
+func _community_detail():
+	var community_buildings : Array
+	for B in  get_tree().get_nodes_in_group("Community"):
+		if ! B.is_in_group("House"):
+			community_buildings.append(B)
+			
+	var building_capacity := 0
+	for building in community_buildings:
+		building_capacity += building.capacity
+	
+	$MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer/CommunityCount/Label.text = ">Nb. Community Buildings : " +str(community_buildings.size())
+	$MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer/CommunityCapacity/Label.text="> Community's Capacity : " +str(building_capacity)
+	$MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer/CommunitStatus/Status.text = GameManager._community_status()
 	

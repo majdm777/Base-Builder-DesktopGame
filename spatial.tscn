@@ -912,7 +912,7 @@ theme_type_variation = &"PopulationBar"
 show_percentage = false
 script = ExtResource("13_isvsb")
 
-[node name="Legend" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/Population_details" unique_id=1899599473]
+[node name="Legend" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/Population_details" unique_id=1869887871]
 layout_mode = 2
 size_flags_vertical = 3
 
@@ -1127,9 +1127,50 @@ layout_mode = 2
 title = "Commnity Buildings"
 title_alignment = 1
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer" unique_id=1432933817]
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer" unique_id=1730640344]
 layout_mode = 2
-text = "mirna ana kter bhebek"
+
+[node name="CommunityCount" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer" unique_id=1422470145]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer/CommunityCount" unique_id=1432933817]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
+text = ">Nb. Community Buildings :"
+autowrap_mode = 3
+
+[node name="CommunityCapacity" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer" unique_id=740105518]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer/CommunityCapacity" unique_id=1875118128]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
+text = "> Community's Capacity: "
+autowrap_mode = 3
+
+[node name="CommunitStatus" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer" unique_id=1908235208]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer/CommunitStatus" unique_id=1423410126]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
+text = ">Community Status : "
+autowrap_mode = 3
+
+[node name="Status" type="Label" parent="GameUI/UI/SideMenu/TabContainer/pop/MarginContainer/VBox/CommunityDetails/FoldableContainer/VBoxContainer/CommunitStatus" unique_id=579375977]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
+text = "poor"
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="army" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1650570000]
 visible = false
