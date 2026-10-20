@@ -15,6 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://c16w3lka5qgem" path="res://Assets/Icon/IconGodotNode/white/icon_visibility.png" id="10_5tnxy"]
 [ext_resource type="Texture2D" uid="uid://cy7traampr5uf" path="res://Assets/Icon/IconGodotNode/white/icon_graph.png" id="10_oy7l1"]
 [ext_resource type="Script" uid="uid://btm6f5j2sd3r7" path="res://buildable_info.gd" id="11_jr5po"]
+[ext_resource type="Texture2D" uid="uid://cnnub0th3hxtr" path="res://Assets/Icon/IconGodotNode/white/icon_sword.png" id="11_lljr5"]
 [ext_resource type="Script" uid="uid://bkqskvxim57sa" path="res://pop_handle.gd" id="12_pcflx"]
 [ext_resource type="Script" uid="uid://dp7yleary6pck" path="res://Scenes/Interface/population_bar.gd" id="13_isvsb"]
 [ext_resource type="Texture2D" uid="uid://lyah3dlpukc" path="res://Assets/Icon/TrioUIKit_FreeSample_v2.2/icons/icon_buff.svg" id="13_lljr5"]
@@ -670,10 +671,11 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 1
+current_tab = 2
 tabs_position = 1
 tab_0/icon = ExtResource("9_nlo1c")
 tab_1/icon = ExtResource("10_oy7l1")
+tab_2/icon = ExtResource("11_lljr5")
 
 [node name="Res" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=544825690]
 visible = false
@@ -836,6 +838,7 @@ layout_mode = 2
 theme_type_variation = &"CardLabel"
 
 [node name="pop" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=184070932]
+visible = false
 layout_mode = 2
 script = ExtResource("12_pcflx")
 metadata/_tab_index = 1
@@ -1172,10 +1175,119 @@ text = "poor"
 horizontal_alignment = 1
 autowrap_mode = 3
 
-[node name="army" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1650570000]
-visible = false
+[node name="army" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1977953118]
 layout_mode = 2
 metadata/_tab_index = 2
+metadata/_tab_name = ""
+
+[node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/army" unique_id=505061841]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer" unique_id=887141971]
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=1042719225]
+layout_mode = 2
+size_flags_vertical = 1
+text = "Army"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=424771987]
+layout_mode = 2
+
+[node name="ArmyDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=605192054]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail" unique_id=1020537605]
+layout_mode = 2
+text = "Total Soliders : 12"
+horizontal_alignment = 1
+
+[node name="FoldableContainer" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail" unique_id=1045261669]
+layout_mode = 2
+title = " Soldiers detail"
+title_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/FoldableContainer" unique_id=865728440]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/FoldableContainer/VBoxContainer" unique_id=1543675547]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = "Knights : 10"
+horizontal_alignment = 3
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/FoldableContainer/VBoxContainer" unique_id=1698574829]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = "Archers : 3"
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="HSeparator2" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=470353729]
+layout_mode = 2
+
+[node name="DefenseDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=203290352]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail" unique_id=144518304]
+layout_mode = 2
+text = "Defense"
+horizontal_alignment = 1
+
+[node name="FoldableContainer" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail" unique_id=1232133832]
+layout_mode = 2
+title = "Defense details"
+title_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer" unique_id=909613381]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=714181972]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = "WatchTowers "
+horizontal_alignment = 3
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=852543653]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = "Posts"
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="HSeparator3" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=1015511931]
+layout_mode = 2
+
+[node name="AttackDetails" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=1142280929]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails" unique_id=984004840]
+layout_mode = 2
+theme_type_variation = &"StatPanel"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails/PanelContainer" unique_id=192614371]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails/PanelContainer/VBoxContainer" unique_id=1679123156]
+layout_mode = 2
+text = "next attack in : "
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails/PanelContainer/VBoxContainer" unique_id=1599639441]
+layout_mode = 2
+text = "attack s round :"
+
+[node name="Label3" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails/PanelContainer/VBoxContainer" unique_id=966046767]
+layout_mode = 2
+text = "preperation state: weak"
 
 [node name="note" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=903314085]
 visible = false
@@ -1443,6 +1555,10 @@ layout_mode = 2
 
 [node name="Gives" type="HFlowContainer" parent="GameUI/UI/Buildable_Info/VBox" unique_id=1298234479]
 layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2127554334]
+offset_right = 40.0
+offset_bottom = 40.0
 
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Huts/BuildStockPileButton" to="GameUI/UI/BuildingMenu" method="_on_build_stock_pile_button_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Huts/BuildWoodCutterButton" to="GameUI/UI/BuildingMenu" method="_on_build_wood_cutter_button_button_down"]
