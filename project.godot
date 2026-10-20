@@ -58,6 +58,7 @@ Wall=""
 EnemySpawnPoint=""
 Enemy=""
 Post=""
+Defenses=""
 
 [input]
 

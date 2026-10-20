@@ -1199,13 +1199,98 @@ vertical_alignment = 1
 [node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=424771987]
 layout_mode = 2
 
-[node name="ArmyDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=605192054]
+[node name="Summary" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=1044221675]
+layout_mode = 2
+theme_type_variation = &"StatPanel"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary" unique_id=1611238298]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail" unique_id=1020537605]
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBoxContainer" unique_id=2020296519]
+layout_mode = 2
+text = "next attack in:"
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBoxContainer" unique_id=261978436]
+layout_mode = 2
+text = "preparation status :"
+
+[node name="Label3" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBoxContainer" unique_id=2085128554]
+layout_mode = 2
+text = "Attack round"
+
+[node name="ArmyDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=605192054]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail" unique_id=2097046879]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=1020537605]
 layout_mode = 2
 text = "Total Soliders : 12"
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/Label" unique_id=887616844]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 58.5
+offset_top = -18.0
+offset_right = 108.5
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 12
+text = "30% pop"
 horizontal_alignment = 1
+
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=795581854]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=1481203253]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_right = 10
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/MarginContainer" unique_id=1145437586]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/MarginContainer/HBoxContainer" unique_id=725381271]
+custom_maximum_size = Vector2(16, 16)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/MarginContainer/HBoxContainer" unique_id=968252511]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 12
+text = "free"
+
+[node name="ColorRect2" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/MarginContainer/HBoxContainer" unique_id=1367043400]
+custom_maximum_size = Vector2(16, -1)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/MarginContainer/HBoxContainer" unique_id=1310335886]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 12
+text = "Gar"
+
+[node name="ColorRect3" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/MarginContainer/HBoxContainer" unique_id=1135401837]
+custom_maximum_size = Vector2(16, -1)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label3" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/MarginContainer/HBoxContainer" unique_id=1753154932]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 12
+text = "Gar"
 
 [node name="FoldableContainer" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail" unique_id=1045261669]
 layout_mode = 2
@@ -1233,7 +1318,7 @@ vertical_alignment = 1
 [node name="HSeparator2" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=470353729]
 layout_mode = 2
 
-[node name="DefenseDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=203290352]
+[node name="DefenseDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=203290352 groups=["Defenses"]]
 layout_mode = 2
 
 [node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail" unique_id=144518304]
@@ -1241,15 +1326,79 @@ layout_mode = 2
 text = "Defense"
 horizontal_alignment = 1
 
-[node name="FoldableContainer" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail" unique_id=1232133832]
+[node name="FoldableContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail" unique_id=1856017252]
 layout_mode = 2
-title = "Defense details"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer" unique_id=1197167454]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=771124167]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = "total Buildings : 20"
+horizontal_alignment = 1
+vertical_alignment = 3
+
+[node name="Posts" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=1135957376]
+layout_mode = 2
+title = "posts : 12"
 title_alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer" unique_id=909613381]
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts" unique_id=909613381]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=714181972]
+[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer" unique_id=609227689]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer/HBoxContainer" unique_id=714181972]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "normal Post :"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer/HBoxContainer" unique_id=852543653]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = " 0 | 4"
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer" unique_id=275900136]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer/HBoxContainer2" unique_id=1014836284]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "normal Post :"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer/HBoxContainer2" unique_id=1568260818]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = " 0 | 4"
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="Defenses" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=744150683]
+layout_mode = 2
+title = "Defenses : 8"
+title_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Defenses" unique_id=536560446]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Defenses/VBoxContainer" unique_id=1186986150]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = "Posts"
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Defenses/VBoxContainer" unique_id=1653004047]
 layout_mode = 2
 theme_type_variation = &"CardLabel"
 text = "WatchTowers "
@@ -1257,37 +1406,8 @@ horizontal_alignment = 3
 vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=852543653]
-layout_mode = 2
-theme_type_variation = &"CardLabel"
-text = "Posts"
-horizontal_alignment = 3
-vertical_alignment = 1
-
 [node name="HSeparator3" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=1015511931]
 layout_mode = 2
-
-[node name="AttackDetails" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=1142280929]
-layout_mode = 2
-
-[node name="PanelContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails" unique_id=984004840]
-layout_mode = 2
-theme_type_variation = &"StatPanel"
-
-[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails/PanelContainer" unique_id=192614371]
-layout_mode = 2
-
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails/PanelContainer/VBoxContainer" unique_id=1679123156]
-layout_mode = 2
-text = "next attack in : "
-
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails/PanelContainer/VBoxContainer" unique_id=1599639441]
-layout_mode = 2
-text = "attack s round :"
-
-[node name="Label3" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/AttackDetails/PanelContainer/VBoxContainer" unique_id=966046767]
-layout_mode = 2
-text = "preperation state: weak"
 
 [node name="note" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=903314085]
 visible = false

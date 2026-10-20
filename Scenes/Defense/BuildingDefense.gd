@@ -5,6 +5,7 @@ extends BuildingObject
 @export var damage_per_archer : int = 15
 @export var attack_interval : float = 1.0
 
+
 @onready var detection_area : Area3D = $Range
 
 var archers : Array
@@ -14,6 +15,7 @@ var current_target
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	super() # Replace with function body.
+	name = "WatchTower"
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

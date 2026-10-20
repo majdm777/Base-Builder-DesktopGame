@@ -9,6 +9,8 @@ var occupants : Array = []
 var incoming := 0
 var assigning_soldiers := false
 
+func _ready() -> void:
+	name = "Normal Post"
 
 func _process(delta: float) -> void:
 	if AttackManager.attack_in_progress and occupants.size() > 0 and not assigning_soldiers:
