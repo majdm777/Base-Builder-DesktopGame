@@ -20,6 +20,7 @@
 [ext_resource type="Script" uid="uid://dp7yleary6pck" path="res://Scenes/Interface/population_bar.gd" id="13_isvsb"]
 [ext_resource type="Texture2D" uid="uid://lyah3dlpukc" path="res://Assets/Icon/TrioUIKit_FreeSample_v2.2/icons/icon_buff.svg" id="13_lljr5"]
 [ext_resource type="Texture2D" uid="uid://do56ub80l4v2g" path="res://Assets/Icon/TrioUIKit_FreeSample_v2.2/icons/icon_debuff.svg" id="14_f88lv"]
+[ext_resource type="Script" uid="uid://bbbg6a7omjeq6" path="res://army_handle.gd" id="17_f88lv"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
@@ -1177,6 +1178,7 @@ autowrap_mode = 3
 
 [node name="army" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1977953118]
 layout_mode = 2
+script = ExtResource("17_f88lv")
 metadata/_tab_index = 2
 metadata/_tab_name = ""
 
@@ -1203,18 +1205,19 @@ layout_mode = 2
 layout_mode = 2
 theme_type_variation = &"StatPanel"
 
-[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary" unique_id=1611238298]
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary" unique_id=1611238298]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBoxContainer" unique_id=2020296519]
+[node name="remaining" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBox" unique_id=2020296519]
 layout_mode = 2
 text = "next attack in:"
 
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBoxContainer" unique_id=261978436]
+[node name="Status" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBox" unique_id=261978436]
+visible = false
 layout_mode = 2
 text = "preparation status :"
 
-[node name="Label3" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBoxContainer" unique_id=2085128554]
+[node name="Round" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBox" unique_id=2085128554]
 layout_mode = 2
 text = "Attack round"
 
@@ -1318,7 +1321,7 @@ vertical_alignment = 1
 [node name="HSeparator2" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=470353729]
 layout_mode = 2
 
-[node name="DefenseDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=203290352 groups=["Defenses"]]
+[node name="DefenseDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=203290352]
 layout_mode = 2
 
 [node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail" unique_id=144518304]

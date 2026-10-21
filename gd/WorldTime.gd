@@ -80,3 +80,12 @@ func get_time_string() -> String:
 	
 func get_date_string() -> String:
 	return "%d/ %d / %d" % [day, month, year]
+	
+func _get_time_remaining(time: float) -> String:
+	var target_seconds := time * SECONDS_PER_DAY
+	var remaining := fposmod(target_seconds - elapsed_seconds_today, SECONDS_PER_DAY)
+
+	var hours := int(remaining / SECONDS_PER_HOUR)
+	var minutes := int(fmod(remaining, SECONDS_PER_HOUR) / SECONDS_PER_HOUR * 60.0)
+
+	return "%02dh:%02ds" % [hours, minutes]
