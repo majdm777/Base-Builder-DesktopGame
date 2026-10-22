@@ -1,14 +1,14 @@
 class_name BuildingDefense
 extends BuildingObject
 
-@export var garrison_capacity : int = 4
+@export var capacity : int = 4
 @export var damage_per_archer : int = 15
 @export var attack_interval : float = 1.0
 
 
 @onready var detection_area : Area3D = $Range
 
-var archers : Array
+var occupants : Array
 var cooldown := 0.0
 
 var current_target
@@ -30,7 +30,7 @@ func _process(delta: float) -> void:
 	if current_target == null:
 		return
 	cooldown = attack_interval
-	current_target._damage(damage_per_archer * archers.size() , self)
+	current_target._damage(damage_per_archer * occupants.size() , self)
 
 
 
@@ -47,12 +47,12 @@ func _pick_target() -> Node3D:
 	return nearest
 	
 func _occupy(archer: Node3D) -> bool:
-	if archers.size() < garrison_capacity:
-		archers.append(archer)
+	if occupants.size() < capacity:
+		occupants.append(archer)
 		return true
 	return false
 func run_despawn():
-	for i in archers:
+	for i in occupants:
 		pass  # survivors go back to the free pool
-	archers.clear()
+	occupants.clear()
 	super()
