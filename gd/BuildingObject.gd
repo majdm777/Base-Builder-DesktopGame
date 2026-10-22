@@ -64,6 +64,10 @@ func runSpawn():
 
 func run_despawn():
 	if SpawnActor and CurrentActor:
+		if CurrentActor.Name:
+			GameManager.Workers[CurrentActor.Name] -= 1
+			if GameManager.Workers[CurrentActor.Name] < 0:
+				GameManager.Workers[CurrentActor.Name] = 0
 		CurrentActor.queue_free()
 	GameManager.AvlPopulation += PopulationCost
 	if IncreaseCapAmount:

@@ -14,26 +14,9 @@ size = Vector3(0.8123803, 2.2924805, 1.720459)
 height = 1.0029297
 radius = 5.010254
 
-[node name="WatchTower" type="StaticBody3D" unique_id=388174377 groups=["building"]]
+[node name="WatchTower" type="StaticBody3D" unique_id=388174377 groups=["Defenses", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_xhg4l")
-garrison_capacity = null
-damage_per_archer = null
-attack_interval = null
-Max_Health = null
-WoodCost = null
-StoneCost = null
-IronCost = null
-GoldCost = null
-PopulationCost = null
-IncreasePopcap = null
-IncreaseCapAmount = null
-wood_capacity = null
-stone_capacity = null
-iron_capacity = null
-gold_capacity = null
-food_capacity = null
-SpawnActor = null
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1855983040]
 shape = SubResource("ConcavePolygonShape3D_tg3i3")

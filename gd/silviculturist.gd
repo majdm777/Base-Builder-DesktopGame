@@ -10,6 +10,7 @@ var is_busy: bool = false
 
 func _ready() -> void:
 	Hut.plot_ready.connect(_on_plot_ready)
+	GameManager.Workers["Farmer"] += 1
 	pass
 
 func _on_plot_ready(plot: Node3D) -> void:

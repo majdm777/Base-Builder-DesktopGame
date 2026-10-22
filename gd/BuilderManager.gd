@@ -96,7 +96,7 @@ func _handle_building_state() -> void:
 		return
 
 	if Input.is_action_just_pressed("rotation"):
-		currentSpawnable.rotation_degrees += Vector3(0, 90, 0)
+		currentSpawnable.rotation_degrees += Vector3(0, 45, 0)
 func _mouse_over_ui() -> bool:
 	return get_viewport().gui_get_hovered_control() != null
 
@@ -322,3 +322,10 @@ func select(node: Node3D) -> void:
 
 func clear_selection() -> void:
 	select(null)
+
+func count_by_name() -> Dictionary:
+	var counts := {}
+	for b in map_root.get_children():
+		if b is BuildingObject and b.spawned:
+			counts[b.display_name] = counts.get(b.display_name, 0) + 1
+	return counts

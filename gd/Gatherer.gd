@@ -21,6 +21,7 @@ var HeldresourcesAmount: int = 0
 @export var Gathering_Speed := 2
 @export var pocket_space := 5
 @export_enum("wood","stone","iron","food") var resource_type: String
+@export_enum("Wood Cutter","Stone Miner","Farmer" , "Iron Miner") var Name : String = "Wood Cutter"
 
 var going_to_storage := false
 # Called when the node enters the scene tree for the first time.
@@ -29,6 +30,7 @@ var runOnce : bool = true
 
 var current_target 
 func _ready() -> void:
+	GameManager.Workers[Name] += 1
 	pass # Replace with function body.
 
 func _physics_process(delta: float) -> void:

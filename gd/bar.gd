@@ -21,6 +21,6 @@ func _interact(character: Node3D) -> bool:
 	current_occupants -= 1
 	if is_instance_valid(character):
 		character.visible = true
-	GameManager.on_community_interaction()
+	GameManager.on_community_interaction(interaction_Value)
 
 	return true

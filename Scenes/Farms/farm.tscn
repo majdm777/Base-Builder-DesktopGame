@@ -18,10 +18,13 @@ data = PackedVector3Array(0, 1.75, -0.5247, 0.4544, 1.75, -0.26229998, 0, 1.7564
 size = Vector3(1.6136279, 0.99420166, 1.5598669)
 
 [node name="Farm" type="StaticBody3D" unique_id=1117096852 groups=["building", "nav_geometry"]]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.016469896, 0, 0.09972)
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_u438h")
 time_to_grow = 2
+WoodCost = 4
+StoneCost = 1
 PopulationCost = 1
+food_capacity = 5
 SpawnActor = true
 Actor = ExtResource("2_6vc4g")
 

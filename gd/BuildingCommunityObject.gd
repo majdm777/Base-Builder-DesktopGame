@@ -4,6 +4,7 @@ extends BuildingObject
 @export var capacity : int = 3
 @export var time_interacting = 5
 var current_occupants : int = 0
+@export var interaction_Value := 1
 
 func _ready() -> void:
 	super()

@@ -2,6 +2,7 @@ class_name BuildingBarracks
 extends BuildingMiltaryTraining
 
 func _ready() -> void:
+	super()
 	trainable = {
 		"Knight": {
 			"name": "Knight",

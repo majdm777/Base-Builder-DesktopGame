@@ -20,7 +20,6 @@ const SPAWN_JITTER := 2.0       # random offset around a spawn point
 # cost: budget points | min_round: first round it can appear | weight: how often it's picked
 const ENEMY_TYPES := [
 	{ "scene": preload("res://Scenes/Enemies/enemy.tscn"), "cost": 1, "min_round": 1, "weight": 10 },
-	# Uncomment as you create these scenes (a wrong path fails at parse time):
 	# { "scene": preload("res://Scenes/Enemies/enemy_ranged.tscn"), "cost": 3, "min_round": 3, "weight": 5 },
 	# { "scene": preload("res://Scenes/Enemies/enemy_brute.tscn"),  "cost": 8, "min_round": 6, "weight": 2 },
 ]

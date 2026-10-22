@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_8gm4k"]
 [ext_resource type="PackedScene" uid="uid://cdlanlrd576o8" path="res://Scenes/Actors/WoodCutter.tscn" id="2_x26ar"]
-[ext_resource type="Texture2D" uid="uid://ri7yry4hxd2o" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/fbx/buildings/blue/hexagons_medieval.png" id="3_xbic0"]
+[ext_resource type="Texture2D" uid="uid://ri7yry4hxd2o" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/fbx/buildings/blue/hexagons_medieval.png" id="3_xbic0"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_5h11f"]
 size = Vector3(1.8933105, 1.9408569, 1.6679688)
@@ -121,6 +121,7 @@ transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_8gm4k")
 SpawnActor = true
 Actor = ExtResource("2_x26ar")
+display_name = "Wood Cutter"
 
 [node name="Area" type="Area3D" parent="." unique_id=258350870]
 
