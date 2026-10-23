@@ -56,7 +56,7 @@ func train(type) -> bool:
 	for res in d.costs:
 		ResourceManager.resources[res] -= d.costs[res]
 	GameManager.assign_citizen()
-	#GamerManager.Soldiers[]   TODO
+	GameManager.Soldiers[type] += 1   #TODO
 	queue.append(type)
 	queue_changed.emit()
 	return true
@@ -68,7 +68,7 @@ func cancel(index: int) -> void:
 	var d : Dictionary = trainable[queue[index]]
 	for res in d.costs:
 		ResourceManager.resources[res] += d.costs[res]
-	# TODO: give the citizen back to the pool (see question 1)
+	# TODO: give the citizen back to the pool 
 	queue.remove_at(index)
 	if index == 0:
 		progress = 0.0                    # the next entry starts from zero

@@ -1213,27 +1213,26 @@ layout_mode = 2
 text = "next attack in:"
 
 [node name="Status" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBox" unique_id=261978436]
-visible = false
 layout_mode = 2
 text = "preparation status :"
+autowrap_mode = 3
 
 [node name="Round" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBox" unique_id=2085128554]
 layout_mode = 2
 text = "Attack round"
 
 [node name="ArmyDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=605192054]
-visible = false
 layout_mode = 2
 theme_override_constants/separation = 12
 
 [node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail" unique_id=2097046879]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=1020537605]
+[node name="TotalSoldiers" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=1020537605]
 layout_mode = 2
 text = "Total Soliders : 12"
 
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/Label" unique_id=887616844]
+[node name="Percentage" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/TotalSoldiers" unique_id=887616844]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -1251,9 +1250,11 @@ text = "30% pop"
 horizontal_alignment = 1
 
 [node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=795581854]
+visible = false
 layout_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=1481203253]
+visible = false
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_right = 10
@@ -1304,6 +1305,7 @@ title_alignment = 1
 layout_mode = 2
 
 [node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/FoldableContainer/VBoxContainer" unique_id=1543675547]
+visible = false
 layout_mode = 2
 theme_type_variation = &"CardLabel"
 text = "Knights : 10"

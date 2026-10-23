@@ -126,3 +126,7 @@ func _pick_weighted(types: Array) -> Dictionary:
 		if roll <= 0:
 			return t
 	return types[0]
+
+
+func _Power() -> float:
+	return (_build_wave(round_number + 1).size() * BASE_BUDGET * BUDGET_GROWTH * 100)

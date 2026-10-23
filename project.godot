@@ -59,6 +59,7 @@ EnemySpawnPoint=""
 Enemy=""
 Post=""
 Defenses=""
+Soldier=""
 
 [input]
 
