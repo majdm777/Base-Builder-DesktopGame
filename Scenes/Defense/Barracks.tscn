@@ -12,8 +12,6 @@ size = Vector3(2.0046387, 1.7188721, 2.0038757)
 [node name="Barracks" type="StaticBody3D" unique_id=1481298896 groups=["building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_pqaxp")
-wood_capacity = 5
-stone_capacity = 5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=158573669]
 shape = SubResource("ConcavePolygonShape3D_pqaxp")

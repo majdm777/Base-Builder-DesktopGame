@@ -14,15 +14,8 @@ var queue : Array = []     # soldier types, the front one is being trained
 var progress := 0.0        # seconds spent on the front entry
 
 func _ready() -> void:
-	trainable = {
-		"Archer": {
-			"name": "Archer",
-			"pop_cost": 1,
-			"costs": {"iron": 0},
-			"train_time": 3.0,
-			"scene_path": "res://Scenes/Soldiers/Knight.tscn",
-		},
-	}
+	super()
+	pass
 func _process(delta: float) -> void:
 	super(delta)
 	if not spawned or queue.is_empty():
