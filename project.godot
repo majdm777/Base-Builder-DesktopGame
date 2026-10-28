@@ -27,6 +27,7 @@ ResourceManager="*uid://b3voqa7nf8jrn"
 NavChunks="*uid://seemkcpqgfmt"
 WorldTime="*uid://bwuwa1m4stn4o"
 AttackManager="*uid://cf8e2ayui81oy"
+Notification="*uid://cemqp0l4pfsmf"
 
 [display]
 
