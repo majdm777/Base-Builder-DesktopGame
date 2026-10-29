@@ -10,12 +10,10 @@
 [ext_resource type="Theme" uid="uid://rbpdaho5neo2" path="res://Scenes/Interface/ui_theme.tres" id="7_pij2x"]
 [ext_resource type="Script" uid="uid://b3pkj3s5bu2j7" path="res://gd/EntityInfo.gd" id="8_7s1p8"]
 [ext_resource type="Script" uid="uid://vj2cyqmm0wsd" path="res://gd/EnemySpawnPoint.gd" id="8_h2366"]
-[ext_resource type="Texture2D" uid="uid://d2kiqsj5gul1s" path="res://Assets/Icon/IconGodotNode/white/icon_chest.png" id="9_nlo1c"]
 [ext_resource type="Script" uid="uid://dqxl01ak8w4b5" path="res://gd/res_handle.gd" id="10_2lfnd"]
 [ext_resource type="Texture2D" uid="uid://c16w3lka5qgem" path="res://Assets/Icon/IconGodotNode/white/icon_visibility.png" id="10_5tnxy"]
-[ext_resource type="Texture2D" uid="uid://cy7traampr5uf" path="res://Assets/Icon/IconGodotNode/white/icon_graph.png" id="10_oy7l1"]
+[ext_resource type="Texture2D" uid="uid://c0ju020mpymuq" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#2 - Transparent Icons & Drop Shadow.png" id="10_33nm3"]
 [ext_resource type="Script" uid="uid://btm6f5j2sd3r7" path="res://gd/buildable_info.gd" id="11_jr5po"]
-[ext_resource type="Texture2D" uid="uid://cnnub0th3hxtr" path="res://Assets/Icon/IconGodotNode/white/icon_sword.png" id="11_lljr5"]
 [ext_resource type="Script" uid="uid://bkqskvxim57sa" path="res://gd/pop_handle.gd" id="12_pcflx"]
 [ext_resource type="Script" uid="uid://dp7yleary6pck" path="res://Scenes/Interface/population_bar.gd" id="13_isvsb"]
 [ext_resource type="Texture2D" uid="uid://lyah3dlpukc" path="res://Assets/Icon/TrioUIKit_FreeSample_v2.2/icons/icon_buff.svg" id="13_lljr5"]
@@ -24,6 +22,7 @@
 [ext_resource type="Script" uid="uid://cipfk4huku0ea" path="res://note_handle.gd" id="18_33nm3"]
 [ext_resource type="PackedScene" uid="uid://bf21xg4asrqt6" path="res://Scenes/Interface/notification_card.tscn" id="18_hvh7e"]
 [ext_resource type="Script" uid="uid://sj107237pooj" path="res://toast_layer.gd" id="24_1wy7k"]
+[ext_resource type="Texture2D" uid="uid://2jtku55genxu" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="25_o3i8t"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
@@ -316,6 +315,30 @@ geometry_source_geometry_mode = 1
 geometry_source_group_name = &"nav_geometry"
 border_size = 2.0
 filter_baking_aabb = AABB(-1, -1.5, -1, 2.1400146, 12, 10.190002)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sk1fn"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(352, 352, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wy7k"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(256, 416, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o3i8t"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(32, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in6lh"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u33rn"]
+atlas = ExtResource("10_33nm3")
+region = Rect2(224, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4kxuq"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(256, 672, 32, 32)
 
 [node name="spatial" type="Node3D" unique_id=387631361]
 transform = Transform3D(0.999999, 0.0014775974, 0.0002730232, -0.0014774898, 0.999999, -0.00039396278, -0.00027360502, 0.00039355893, 1, 0, 0, 0)
@@ -630,6 +653,7 @@ mouse_filter = 2
 theme = ExtResource("7_pij2x")
 
 [node name="GameTimer" type="Control" parent="GameUI/UI" unique_id=1240471678]
+visible = false
 layout_mode = 1
 anchor_left = 0.859
 anchor_top = 0.037
@@ -680,11 +704,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 3
+current_tab = 4
 tabs_position = 1
-tab_0/icon = ExtResource("9_nlo1c")
-tab_1/icon = ExtResource("10_oy7l1")
-tab_2/icon = ExtResource("11_lljr5")
+tab_0/icon = SubResource("AtlasTexture_sk1fn")
+tab_1/icon = SubResource("AtlasTexture_1wy7k")
+tab_2/icon = SubResource("AtlasTexture_o3i8t")
+tab_3/icon = SubResource("AtlasTexture_in6lh")
+tab_4/icon = SubResource("AtlasTexture_u33rn")
 
 [node name="Res" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=544825690]
 visible = false
@@ -1424,9 +1450,11 @@ autowrap_mode = 3
 layout_mode = 2
 
 [node name="note" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=176163025]
+visible = false
 layout_mode = 2
 script = ExtResource("18_33nm3")
 metadata/_tab_index = 3
+metadata/_tab_name = ""
 
 [node name="Margin" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/note" unique_id=699234693]
 layout_mode = 2
@@ -1465,12 +1493,12 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]
-visible = false
 layout_mode = 2
 theme_override_constants/scrollbar_v_separation = 2
 horizontal_scroll_mode = 0
 script = ExtResource("8_7s1p8")
 metadata/_tab_index = 4
+metadata/_tab_name = ""
 
 [node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/Info" unique_id=1347189302]
 layout_mode = 2
@@ -1747,6 +1775,34 @@ offset_top = 39.0
 offset_right = 149.0
 offset_bottom = 72.0
 grow_horizontal = 2
+
+[node name="Time" type="PanelContainer" parent="GameUI/UI" unique_id=1219348566]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -338.0
+offset_bottom = 72.0
+grow_horizontal = 0
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/Time" unique_id=2053846735]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/Time/VBox" unique_id=2046823537]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TextureRect" type="TextureRect" parent="GameUI/UI/Time/VBox/HBoxContainer" unique_id=1771691333]
+custom_maximum_size = Vector2(32, 32)
+layout_mode = 2
+texture = SubResource("AtlasTexture_4kxuq")
+
+[node name="Label" type="Label" parent="GameUI/UI/Time/VBox/HBoxContainer" unique_id=1161910043]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/Time/VBox" unique_id=1038360300]
+layout_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=2127554334]
 offset_right = 40.0

@@ -7,6 +7,8 @@ const MAX_TOASTS := 4
 const DURATIONS := {
 	Notification.Severity.WARNING: 5.0,
 	Notification.Severity.DANGER: 8.0,
+	Notification.Severity.SUGGESTION: 5.0,
+	Notification.Severity.INFO: 8.0,
 }
 
 @onready var box : VBoxContainer = $Box

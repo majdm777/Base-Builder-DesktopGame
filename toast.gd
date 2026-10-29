@@ -3,7 +3,7 @@ extends PanelContainer
 signal closed(id: int)
 
 # index = Notifications.Severity: INFO, SUGGESTION, WARNING, DANGER
-const COLORS := [Color("#7a6140"), Color("#3f7f8a"), Color("#d19a2e"), Color("#a83a2a")]
+const COLORS := [Color("263F55"),Color("3F4529"), Color("a76f00ff"), Color("610d01ff")]
 
 var msg_id := -1
 var _duration := 5.0

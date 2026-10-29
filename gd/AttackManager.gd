@@ -62,7 +62,8 @@ func _start_attack(round_num: int) -> void:
 	_spawning = true
 	round_started.emit(round_num)
 	print("attack on progress Round %d: budget %d, %d enemies" % [round_num, _get_round_budget(round_num), wave.size()])
-
+	Notification.push(Notification.Severity.DANGER,"The Village is under attack", "round_start")
+	
 	for i in wave.size():
 		var sp = active_points[i % active_points.size()]
 		if not is_instance_valid(sp):
