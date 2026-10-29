@@ -23,6 +23,7 @@
 [ext_resource type="Script" uid="uid://bbbg6a7omjeq6" path="res://gd/army_handle.gd" id="17_f88lv"]
 [ext_resource type="Script" uid="uid://cipfk4huku0ea" path="res://note_handle.gd" id="18_33nm3"]
 [ext_resource type="PackedScene" uid="uid://bf21xg4asrqt6" path="res://Scenes/Interface/notification_card.tscn" id="18_hvh7e"]
+[ext_resource type="Script" uid="uid://sj107237pooj" path="res://toast_layer.gd" id="24_1wy7k"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
@@ -619,10 +620,10 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 1.0
-offset_top = -1.0
-offset_right = 1.0
-offset_bottom = -1.0
+offset_left = 3.0
+offset_top = -2.0
+offset_right = 3.0
+offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
@@ -630,9 +631,14 @@ theme = ExtResource("7_pij2x")
 
 [node name="GameTimer" type="Control" parent="GameUI/UI" unique_id=1240471678]
 layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
+anchor_left = 0.859
+anchor_top = 0.037
+anchor_right = 0.859
+anchor_bottom = 0.037
+offset_left = -0.5680542
+offset_top = 0.024000168
+offset_right = -0.5680542
+offset_bottom = 0.024000168
 grow_horizontal = 2
 
 [node name="Date" type="Label" parent="GameUI/UI/GameTimer" unique_id=850675595]
@@ -1442,6 +1448,7 @@ autowrap_mode = 3
 layout_mode = 2
 
 [node name="EmptyLabel" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=1375948436]
+visible = false
 layout_mode = 2
 size_flags_vertical = 3
 text = "No notifications"
@@ -1452,11 +1459,9 @@ vertical_alignment = 1
 layout_mode = 2
 
 [node name="NotificationCard" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/List" unique_id=1050485910 instance=ExtResource("18_hvh7e")]
-visible = false
 layout_mode = 2
 
 [node name="NotificationCard2" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/List" unique_id=714346231 instance=ExtResource("18_hvh7e")]
-visible = false
 layout_mode = 2
 
 [node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]
@@ -1720,6 +1725,28 @@ layout_mode = 2
 
 [node name="Gives" type="HFlowContainer" parent="GameUI/UI/Buildable_Info/VBox" unique_id=1298234479]
 layout_mode = 2
+
+[node name="ToastLayer" type="Control" parent="GameUI/UI" unique_id=1368766529]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_type_variation = &"NotificationPanel"
+script = ExtResource("24_1wy7k")
+
+[node name="Box" type="VBoxContainer" parent="GameUI/UI/ToastLayer" unique_id=1298325700]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -149.0
+offset_top = 39.0
+offset_right = 149.0
+offset_bottom = 72.0
+grow_horizontal = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=2127554334]
 offset_right = 40.0

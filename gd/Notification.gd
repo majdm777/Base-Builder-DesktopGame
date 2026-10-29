@@ -125,3 +125,4 @@ func _unhandled_input(event: InputEvent) -> void:
 		KEY_F4: push(Severity.DANGER, "The castle is under attack", "castle_attack")
 		KEY_F5: resolve("food_low")
 		KEY_F6: dismiss(messages[0].id) if not messages.is_empty() else null
+		KEY_F7: push(Severity.WARNING, "Storage is full")
