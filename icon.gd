@@ -6,10 +6,10 @@ const ICON_SIZE := 32
 
 # Each icon has its own coordinates in the sheet.
 var icons = {
-	"Sunrise": Vector2i(10, 20),
-	"Sunset": Vector2i(1, 0),
-	"Sun": Vector2i(2, 0),
-	"Moon": Vector2i(3, 0)
+	"Sunrise": Vector2i(7, 21),
+	"Sunset": Vector2i(9, 21),
+	"Sun": Vector2i(8, 21),
+	"Moon": Vector2i(10, 21)
 }
 
 func set_icon(icon_name: String) -> void:
