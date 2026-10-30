@@ -22,8 +22,11 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	super(delta)
 	day_time.text = WorldTime.get_time_string()
-	
-	day_date.text = "Day " + str(WorldTime.day) + " · " + MONTH_NAMES[WorldTime.month - 1]
+	if WorldTime.day < 10:
+		day_date.text = "Day 0" + str(WorldTime.day)
+	else:
+		day_date.text = "Day " + str(WorldTime.day)
+	day_date.text +=" · " + MONTH_NAMES[WorldTime.month - 1]
 	year.text = "year " + str(WorldTime.year)
 	
 	set_status()
