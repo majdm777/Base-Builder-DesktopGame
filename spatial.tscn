@@ -22,7 +22,9 @@
 [ext_resource type="Script" uid="uid://cipfk4huku0ea" path="res://note_handle.gd" id="18_33nm3"]
 [ext_resource type="PackedScene" uid="uid://bf21xg4asrqt6" path="res://Scenes/Interface/notification_card.tscn" id="18_hvh7e"]
 [ext_resource type="Script" uid="uid://sj107237pooj" path="res://toast_layer.gd" id="24_1wy7k"]
+[ext_resource type="Script" uid="uid://ce4m7q0yb057y" path="res://Time_Handle.gd" id="24_o3i8t"]
 [ext_resource type="Texture2D" uid="uid://2jtku55genxu" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="25_o3i8t"]
+[ext_resource type="Script" uid="uid://dtxewfnckd8ho" path="res://icon.gd" id="25_sk1fn"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
@@ -338,7 +340,7 @@ region = Rect2(224, 128, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4kxuq"]
 atlas = ExtResource("25_o3i8t")
-region = Rect2(256, 672, 32, 32)
+region = Rect2(0, 352, 32, 32)
 
 [node name="spatial" type="Node3D" unique_id=387631361]
 transform = Transform3D(0.999999, 0.0014775974, 0.0002730232, -0.0014774898, 0.999999, -0.00039396278, -0.00027360502, 0.00039355893, 1, 0, 0, 0)
@@ -1784,22 +1786,62 @@ anchor_right = 1.0
 offset_left = -338.0
 offset_bottom = 72.0
 grow_horizontal = 0
+script = ExtResource("24_o3i8t")
 
 [node name="VBox" type="VBoxContainer" parent="GameUI/UI/Time" unique_id=2053846735]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/Time/VBox" unique_id=2046823537]
+[node name="HBox" type="HBoxContainer" parent="GameUI/UI/Time/VBox" unique_id=2046823537]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="TextureRect" type="TextureRect" parent="GameUI/UI/Time/VBox/HBoxContainer" unique_id=1771691333]
+[node name="Icon" type="TextureRect" parent="GameUI/UI/Time/VBox/HBox" unique_id=1771691333]
 custom_maximum_size = Vector2(32, 32)
 layout_mode = 2
+offset_transform_enabled = true
 texture = SubResource("AtlasTexture_4kxuq")
+script = ExtResource("25_sk1fn")
+icon_sheet = ExtResource("25_o3i8t")
 
-[node name="Label" type="Label" parent="GameUI/UI/Time/VBox/HBoxContainer" unique_id=1161910043]
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/Time/VBox/HBox" unique_id=820697335]
+layout_mode = 2
+
+[node name="Date" type="Label" parent="GameUI/UI/Time/VBox/HBox/VBox" unique_id=1161910043]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "Day 07 · August"
+
+[node name="Time" type="Label" parent="GameUI/UI/Time/VBox/HBox/VBox" unique_id=1907607477]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "08:31 AM"
+
+[node name="VBox2" type="VBoxContainer" parent="GameUI/UI/Time/VBox/HBox" unique_id=1938765626]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="Year" type="Label" parent="GameUI/UI/Time/VBox/HBox/VBox2" unique_id=971062334]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
+text = "Year 1000"
+horizontal_alignment = 2
+
+[node name="status" type="Label" parent="GameUI/UI/Time/VBox/HBox/VBox2" unique_id=981783694]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 13
+text = "Morning "
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 3
 
 [node name="HSeparator" type="HSeparator" parent="GameUI/UI/Time/VBox" unique_id=1038360300]
 layout_mode = 2

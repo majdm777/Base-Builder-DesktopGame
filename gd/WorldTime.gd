@@ -4,7 +4,7 @@ signal day_changed(day: int, month: int, year: int)
 signal month_changed(month: int, year: int)
 signal year_changed(year: int)
 
-const SECONDS_PER_HOUR := 60
+const SECONDS_PER_HOUR := 2
 const HOURS_PER_DAY := 24.0
 const SECONDS_PER_DAY := SECONDS_PER_HOUR * HOURS_PER_DAY  # 1440
 
@@ -42,6 +42,7 @@ func _process(delta: float) -> void:
 
 	_update_sun()
 	_update_moon()
+	
 
 func _advance_day() -> void:
 	day += 1
@@ -75,7 +76,9 @@ func _update_moon() -> void:
 
 func get_time_string() -> String:
 	var hours := int(elapsed_seconds_today / SECONDS_PER_HOUR)
+	
 	var minutes := int(fmod(elapsed_seconds_today, SECONDS_PER_HOUR) / SECONDS_PER_HOUR * 60.0)
+
 	return "%02d:%02d" % [hours, minutes]
 	
 func get_date_string() -> String:
@@ -89,3 +92,9 @@ func _get_time_remaining(time: float) -> String:
 	var minutes := int(fmod(remaining, SECONDS_PER_HOUR) / SECONDS_PER_HOUR * 60.0)
 
 	return "%02dh:%02ds" % [hours, minutes]
+
+func _get_worldtime_minutes():
+	return int(fmod(elapsed_seconds_today, SECONDS_PER_HOUR) / SECONDS_PER_HOUR * 60.0)
+
+func _get_worldtime_hours():
+	return int(elapsed_seconds_today / SECONDS_PER_HOUR)
