@@ -1454,13 +1454,14 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="List" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=512992699]
-visible = false
 layout_mode = 2
 
 [node name="NotificationCard" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/List" unique_id=1050485910 instance=ExtResource("18_hvh7e")]
+visible = false
 layout_mode = 2
 
 [node name="NotificationCard2" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/List" unique_id=714346231 instance=ExtResource("18_hvh7e")]
+visible = false
 layout_mode = 2
 
 [node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]
