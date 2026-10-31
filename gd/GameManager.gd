@@ -11,6 +11,7 @@ var safety := 20
 var community := 20
 
 
+
 var Current_State = State.play
 
 var population : int = 0

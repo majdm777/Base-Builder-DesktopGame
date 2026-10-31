@@ -17,7 +17,7 @@ func _ready() -> void:
 	offset_left = 0.0
 	offset_right = get_open_width()
 	
-	$Handle.icon = show
+	$Handle.icon = _show
 
 	$Handle.pressed.connect(toggle)
 
