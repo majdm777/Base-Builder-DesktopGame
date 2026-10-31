@@ -19,6 +19,8 @@ const JUMP_VELOCITY = 4.5
 @export var attack_damage := 10
 @export var attack_interval := 1.5
 
+var dps : float = attack_damage / max(0.1 , attack_interval)
+
 var chasing_enemy := false
 var cooldown := false
 var is_alive :bool = true

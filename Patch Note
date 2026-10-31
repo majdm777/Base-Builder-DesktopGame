@@ -82,3 +82,6 @@ V1.0.2.12: edited the UI/UX with a new design now its mush better
 V1.0.2.13: added and box that shows the cost and the gives of each object in building state
         - V1.0.2.13.1: completed the res(resources tab) plus added a workers to show how many there is in the game 
         - V1.0.2.13.2 : completed the pop tab and started with the army tab
+        - V1.0.2.13.3 : completed the the army tab may add some feature to it later .
+        - V1.0.2.13.4 : completed the notification tab , that shows 4 catrgories [ INFO , SUGGESTIONS (optional), WARNING , DANAGER] and can be deleted( dismiss)
+        - V1.0.2.13.5 : now the camera focus on the objcet the has been selected .

@@ -62,7 +62,8 @@ func _start_attack(round_num: int) -> void:
 	_spawning = true
 	round_started.emit(round_num)
 	print("attack on progress Round %d: budget %d, %d enemies" % [round_num, _get_round_budget(round_num), wave.size()])
-
+	Notification.push(Notification.Severity.DANGER,"The Village is under attack", "round_start")
+	
 	for i in wave.size():
 		var sp = active_points[i % active_points.size()]
 		if not is_instance_valid(sp):
@@ -126,3 +127,7 @@ func _pick_weighted(types: Array) -> Dictionary:
 		if roll <= 0:
 			return t
 	return types[0]
+
+
+func _Power() -> float:
+	return (_build_wave(round_number + 1).size() * BASE_BUDGET * BUDGET_GROWTH * 100)

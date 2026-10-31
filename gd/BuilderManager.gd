@@ -319,6 +319,9 @@ func select(node: Node3D) -> void:
 		return
 	selected = node
 	selection_changed.emit(node)
+	var rig = get_tree().get_first_node_in_group("CameraRig")
+	if rig and is_instance_valid(node) :
+		rig.focus_on(node.global_position)
 
 func clear_selection() -> void:
 	select(null)

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://n7tpaonqds0e"]
+
+[ext_resource type="Script" uid="uid://ice8oqshr30e" path="res://toast.gd" id="1_y0lyc"]
+
+[node name="Toast" type="PanelContainer" unique_id=538402191]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_y0lyc")
+
+[node name="VBox" type="VBoxContainer" parent="." unique_id=892533244]
+layout_mode = 2
+
+[node name="Stripe" type="ColorRect" parent="VBox" unique_id=372748382]
+custom_minimum_size = Vector2(0, 5)
+layout_mode = 2
+
+[node name="Text" type="Label" parent="VBox" unique_id=976852865]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+horizontal_alignment = 1

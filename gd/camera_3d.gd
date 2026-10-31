@@ -8,6 +8,15 @@ extends Node3D
 @export var min_z := -154.0
 @export var max_z := 154.0
 
+@export var min_zoom := 25
+@export var max_zoom := 200
+
+@export var focus_zoom := 65.0
+var _focus_tween : Tween
+
+func _ready() -> void:
+	add_to_group("CameraRig")
+	pass
 
 func _mouse_over_ui() -> bool:
 	return get_viewport().gui_get_hovered_control() != null
@@ -40,12 +49,31 @@ func _process(delta: float) -> void:
 		rotation_degrees += Vector3(0, 90, 0)
 
 	if Input.is_action_just_released("MouseWheelUp") and not over_ui:
-		if $Camera3D.global_position.distance_to(global_position) > 45:
-			$Camera3D.global_position -= $Camera3D.global_transform.basis.z * 10
+		if $Camera3D.position.length() > min_zoom:
+			$Camera3D.position -= $Camera3D.position.normalized() * 10
 
 	if Input.is_action_just_released("MouseWheelDown") and not over_ui:
-		if $Camera3D.global_position.distance_to(global_position) < 200:
-			$Camera3D.global_position += $Camera3D.global_transform.basis.z * 10
+		if $Camera3D.position.length() < max_zoom:
+			$Camera3D.position += $Camera3D.position.normalized() * 10
 
 	global_position.x = clamp(global_position.x, min_x, max_x)
 	global_position.z = clamp(global_position.z, min_z, max_z)
+
+
+
+func focus_on(world_pos: Vector3) -> void:
+	var dest := Vector3(
+		clamp(world_pos.x, min_x, max_x),
+	global_position.y,
+	clamp(world_pos.z, min_z, max_z)
+	)
+
+	if _focus_tween:
+		_focus_tween.kill()
+
+	var zoom_dest = $Camera3D.position.normalized() * min_zoom
+
+	_focus_tween = create_tween().set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_OUT)
+
+	_focus_tween.tween_property(self, "global_position", dest, 0.5)
+	_focus_tween.parallel().tween_property($Camera3D, "position", zoom_dest, 0.5)

@@ -90,7 +90,6 @@ border_width_bottom = 1
 border_color = Color(0.5411765, 0.41568628, 0.24705882, 1)
 corner_radius_top_right = 2
 corner_radius_bottom_right = 2
-expand_margin_left = 3.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n7gie"]
 content_margin_left = 10.0
@@ -164,6 +163,13 @@ corner_radius_top_left = 5
 corner_radius_top_right = 5
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_141me"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.41960785, 0.2901961, 0.16862746, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_luv14"]
 content_margin_left = 10.0
@@ -352,6 +358,8 @@ Label/colors/font_color = Color(0.9529412, 0.9019608, 0.76862746, 1)
 NotationLabel/base_type = &"Label"
 NotationLabel/colors/font_color = Color(0.9098039, 0.8862745, 0.8352941, 1)
 NotationLabel/font_sizes/font_size = 10
+NotificationPanel/base_type = &"PanelContainer"
+NotificationPanel/styles/panel = SubResource("StyleBoxFlat_141me")
 PanelContainer/styles/panel = SubResource("StyleBoxFlat_luv14")
 PopulationBar/base_type = &"ProgressBar"
 PopulationBar/colors/Army = Color(0.65882355, 0.22745098, 0.16470589, 1)

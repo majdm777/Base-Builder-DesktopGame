@@ -11,6 +11,7 @@ var safety := 20
 var community := 20
 
 
+
 var Current_State = State.play
 
 var population : int = 0
@@ -183,6 +184,23 @@ func _community_status() -> String:
 		elif building_count > recommended_number_of_CB + 2:
 			return "Redundant"
 		else: 
-			return "Thriving" # (Fixed the typo from 'Thrivig')
+			return "Thriving" 
 	else:
 		return "Dead"
+
+
+func _Power() -> float: # power = dps * totalHealth 
+	var dps : float = 0.0
+	var total_health :float = 0.0
+	var soldier = get_tree().get_nodes_in_group("Soldier")
+	var defenses =  get_tree().get_nodes_in_group("Defenses")
+	
+	for s in soldier:
+		dps += s.dps
+		total_health += s.Health
+	for d in defenses:
+		dps += (d.dps * d.occupants.size() )
+		total_health += d.Health
+	
+	return dps * total_health
+	

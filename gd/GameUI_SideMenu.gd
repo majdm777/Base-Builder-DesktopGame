@@ -9,15 +9,15 @@ func get_open_width() -> float:
 var is_open := false
 var tween : Tween
 
-var show :Texture2D=ResourceLoader.load("res://Assets/Icon/IconGodotNode/white/icon_visibility.png")
-var hide : Texture2D=ResourceLoader.load("res://Assets/Icon/IconGodotNode/white/icon_visibility_off.png")
+var _show :Texture2D=ResourceLoader.load("res://Assets/Icon/IconGodotNode/white/icon_visibility.png")
+var _hide : Texture2D=ResourceLoader.load("res://Assets/Icon/IconGodotNode/white/icon_visibility_off.png")
 
 func _ready() -> void:
 	# closed: pushed one full width off the right edge
 	offset_left = 0.0
 	offset_right = get_open_width()
 	
-	$Handle.icon = show
+	$Handle.icon = _show
 
 	$Handle.pressed.connect(toggle)
 
@@ -30,7 +30,7 @@ func toggle() -> void:
 	tween.tween_property(self, "offset_left", -get_open_width() if is_open else 0.0, anim_time)
 	tween.tween_property(self, "offset_right", 0.0 if is_open else get_open_width(), anim_time)
 	#$Handle.text = ">" if is_open else "<"
-	$Handle.icon = hide if is_open else show
+	$Handle.icon = _hide if is_open else _show
 
 func open() -> void:
 	if not is_open:

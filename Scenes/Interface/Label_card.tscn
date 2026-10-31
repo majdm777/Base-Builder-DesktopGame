@@ -12,6 +12,7 @@ size_flags_vertical = 3
 [node name="Symbol" type="Label" parent="." unique_id=1931885820]
 layout_mode = 2
 size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
 text = "majd"
 horizontal_alignment = 1
 

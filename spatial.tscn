@@ -6,21 +6,25 @@
 [ext_resource type="ArrayMesh" uid="uid://blmwwxy6hyhc7" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/base/hex_grass_bottom.obj" id="5_7s1p8"]
 [ext_resource type="PackedScene" uid="uid://dg0fq677q3d03" path="res://CastleKeep.tscn" id="5_c07jr"]
 [ext_resource type="PackedScene" uid="uid://c42aeiyw66dc3" path="res://Scenes/RecourceProducers/Trees/tree.tscn" id="6_u7lc8"]
-[ext_resource type="Script" uid="uid://cuymj1vq36qje" path="res://GameUI_SideMenu.gd" id="7_h2366"]
+[ext_resource type="Script" uid="uid://cuymj1vq36qje" path="res://gd/GameUI_SideMenu.gd" id="7_h2366"]
 [ext_resource type="Theme" uid="uid://rbpdaho5neo2" path="res://Scenes/Interface/ui_theme.tres" id="7_pij2x"]
-[ext_resource type="Script" uid="uid://b3pkj3s5bu2j7" path="res://EntityInfo.gd" id="8_7s1p8"]
+[ext_resource type="Script" uid="uid://b3pkj3s5bu2j7" path="res://gd/EntityInfo.gd" id="8_7s1p8"]
 [ext_resource type="Script" uid="uid://vj2cyqmm0wsd" path="res://gd/EnemySpawnPoint.gd" id="8_h2366"]
-[ext_resource type="Texture2D" uid="uid://d2kiqsj5gul1s" path="res://Assets/Icon/IconGodotNode/white/icon_chest.png" id="9_nlo1c"]
-[ext_resource type="Script" uid="uid://dqxl01ak8w4b5" path="res://res_handle.gd" id="10_2lfnd"]
+[ext_resource type="Script" uid="uid://dqxl01ak8w4b5" path="res://gd/res_handle.gd" id="10_2lfnd"]
 [ext_resource type="Texture2D" uid="uid://c16w3lka5qgem" path="res://Assets/Icon/IconGodotNode/white/icon_visibility.png" id="10_5tnxy"]
-[ext_resource type="Texture2D" uid="uid://cy7traampr5uf" path="res://Assets/Icon/IconGodotNode/white/icon_graph.png" id="10_oy7l1"]
-[ext_resource type="Script" uid="uid://btm6f5j2sd3r7" path="res://buildable_info.gd" id="11_jr5po"]
-[ext_resource type="Texture2D" uid="uid://cnnub0th3hxtr" path="res://Assets/Icon/IconGodotNode/white/icon_sword.png" id="11_lljr5"]
-[ext_resource type="Script" uid="uid://bkqskvxim57sa" path="res://pop_handle.gd" id="12_pcflx"]
+[ext_resource type="Texture2D" uid="uid://c0ju020mpymuq" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#2 - Transparent Icons & Drop Shadow.png" id="10_33nm3"]
+[ext_resource type="Script" uid="uid://btm6f5j2sd3r7" path="res://gd/buildable_info.gd" id="11_jr5po"]
+[ext_resource type="Script" uid="uid://bkqskvxim57sa" path="res://gd/pop_handle.gd" id="12_pcflx"]
 [ext_resource type="Script" uid="uid://dp7yleary6pck" path="res://Scenes/Interface/population_bar.gd" id="13_isvsb"]
 [ext_resource type="Texture2D" uid="uid://lyah3dlpukc" path="res://Assets/Icon/TrioUIKit_FreeSample_v2.2/icons/icon_buff.svg" id="13_lljr5"]
 [ext_resource type="Texture2D" uid="uid://do56ub80l4v2g" path="res://Assets/Icon/TrioUIKit_FreeSample_v2.2/icons/icon_debuff.svg" id="14_f88lv"]
-[ext_resource type="Script" uid="uid://bbbg6a7omjeq6" path="res://army_handle.gd" id="17_f88lv"]
+[ext_resource type="Script" uid="uid://bbbg6a7omjeq6" path="res://gd/army_handle.gd" id="17_f88lv"]
+[ext_resource type="Script" uid="uid://cipfk4huku0ea" path="res://note_handle.gd" id="18_33nm3"]
+[ext_resource type="PackedScene" uid="uid://bf21xg4asrqt6" path="res://Scenes/Interface/notification_card.tscn" id="18_hvh7e"]
+[ext_resource type="Script" uid="uid://sj107237pooj" path="res://toast_layer.gd" id="24_1wy7k"]
+[ext_resource type="Script" uid="uid://ce4m7q0yb057y" path="res://Time_Handle.gd" id="24_o3i8t"]
+[ext_resource type="Texture2D" uid="uid://2jtku55genxu" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="25_o3i8t"]
+[ext_resource type="Script" uid="uid://dtxewfnckd8ho" path="res://icon.gd" id="25_sk1fn"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
@@ -313,6 +317,30 @@ geometry_source_geometry_mode = 1
 geometry_source_group_name = &"nav_geometry"
 border_size = 2.0
 filter_baking_aabb = AABB(-1, -1.5, -1, 2.1400146, 12, 10.190002)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sk1fn"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(352, 352, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wy7k"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(256, 416, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o3i8t"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(32, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in6lh"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u33rn"]
+atlas = ExtResource("10_33nm3")
+region = Rect2(224, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4kxuq"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(256, 672, 32, 32)
 
 [node name="spatial" type="Node3D" unique_id=387631361]
 transform = Transform3D(0.999999, 0.0014775974, 0.0002730232, -0.0014774898, 0.999999, -0.00039396278, -0.00027360502, 0.00039355893, 1, 0, 0, 0)
@@ -617,39 +645,14 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 1.0
-offset_top = -1.0
-offset_right = 1.0
-offset_bottom = -1.0
+offset_left = 3.0
+offset_top = -2.0
+offset_right = 3.0
+offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 theme = ExtResource("7_pij2x")
-
-[node name="GameTimer" type="Control" parent="GameUI/UI" unique_id=1240471678]
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-grow_horizontal = 2
-
-[node name="Date" type="Label" parent="GameUI/UI/GameTimer" unique_id=850675595]
-layout_mode = 0
-offset_left = 13.0
-offset_top = 10.0
-offset_right = 99.0
-offset_bottom = 33.0
-text = "30/12/1000"
-horizontal_alignment = 1
-
-[node name="Time" type="Label" parent="GameUI/UI/GameTimer" unique_id=867097707]
-layout_mode = 0
-offset_left = 14.0
-offset_top = 31.0
-offset_right = 100.0
-offset_bottom = 54.0
-text = "00:0"
-horizontal_alignment = 1
 
 [node name="SideMenu" type="Panel" parent="GameUI/UI" unique_id=1060481500]
 layout_mode = 1
@@ -672,11 +675,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 2
+current_tab = 4
 tabs_position = 1
-tab_0/icon = ExtResource("9_nlo1c")
-tab_1/icon = ExtResource("10_oy7l1")
-tab_2/icon = ExtResource("11_lljr5")
+tab_0/icon = SubResource("AtlasTexture_sk1fn")
+tab_1/icon = SubResource("AtlasTexture_1wy7k")
+tab_2/icon = SubResource("AtlasTexture_o3i8t")
+tab_3/icon = SubResource("AtlasTexture_in6lh")
+tab_4/icon = SubResource("AtlasTexture_u33rn")
 
 [node name="Res" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=544825690]
 visible = false
@@ -1177,6 +1182,7 @@ horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="army" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=1977953118]
+visible = false
 layout_mode = 2
 script = ExtResource("17_f88lv")
 metadata/_tab_index = 2
@@ -1213,27 +1219,26 @@ layout_mode = 2
 text = "next attack in:"
 
 [node name="Status" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBox" unique_id=261978436]
-visible = false
 layout_mode = 2
 text = "preparation status :"
+autowrap_mode = 3
 
 [node name="Round" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/Summary/VBox" unique_id=2085128554]
 layout_mode = 2
 text = "Attack round"
 
 [node name="ArmyDetail" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=605192054]
-visible = false
 layout_mode = 2
 theme_override_constants/separation = 12
 
 [node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail" unique_id=2097046879]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=1020537605]
+[node name="TotalSoldiers" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=1020537605]
 layout_mode = 2
 text = "Total Soliders : 12"
 
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/Label" unique_id=887616844]
+[node name="Percentage" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer/TotalSoldiers" unique_id=887616844]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -1251,9 +1256,11 @@ text = "30% pop"
 horizontal_alignment = 1
 
 [node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=795581854]
+visible = false
 layout_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/VBoxContainer" unique_id=1481203253]
+visible = false
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_right = 10
@@ -1304,6 +1311,7 @@ title_alignment = 1
 layout_mode = 2
 
 [node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/ArmyDetail/FoldableContainer/VBoxContainer" unique_id=1543675547]
+visible = false
 layout_mode = 2
 theme_type_variation = &"CardLabel"
 text = "Knights : 10"
@@ -1329,49 +1337,31 @@ layout_mode = 2
 text = "Defense"
 horizontal_alignment = 1
 
-[node name="FoldableContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail" unique_id=1856017252]
+[node name="panelContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail" unique_id=1856017252]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer" unique_id=1197167454]
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer" unique_id=1197167454]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=771124167]
+[node name="TotalBuilding" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox" unique_id=771124167]
 layout_mode = 2
 theme_type_variation = &"CardLabel"
 text = "total Buildings : 20"
 horizontal_alignment = 1
 vertical_alignment = 3
 
-[node name="Posts" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=1135957376]
+[node name="Posts" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox" unique_id=1135957376]
 layout_mode = 2
 title = "posts : 12"
 title_alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts" unique_id=909613381]
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Posts" unique_id=909613381]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer" unique_id=609227689]
+[node name="HBox" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Posts/VBox" unique_id=609227689]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer/HBoxContainer" unique_id=714181972]
-layout_mode = 2
-size_flags_horizontal = 3
-theme_type_variation = &"CardLabel"
-text = "normal Post :"
-vertical_alignment = 1
-autowrap_mode = 3
-
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer/HBoxContainer" unique_id=852543653]
-layout_mode = 2
-theme_type_variation = &"CardLabel"
-text = " 0 | 4"
-horizontal_alignment = 3
-vertical_alignment = 1
-
-[node name="HBoxContainer2" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer" unique_id=275900136]
-layout_mode = 2
-
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer/HBoxContainer2" unique_id=1014836284]
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Posts/VBox/HBox" unique_id=714181972]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_type_variation = &"CardLabel"
@@ -1379,29 +1369,47 @@ text = "normal Post :"
 vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Posts/VBoxContainer/HBoxContainer2" unique_id=1568260818]
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Posts/VBox/HBox" unique_id=852543653]
 layout_mode = 2
 theme_type_variation = &"CardLabel"
 text = " 0 | 4"
 horizontal_alignment = 3
 vertical_alignment = 1
 
-[node name="Defenses" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer" unique_id=744150683]
+[node name="HBox2" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Posts/VBox" unique_id=275900136]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Posts/VBox/HBox2" unique_id=1014836284]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "normal Post :"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Posts/VBox/HBox2" unique_id=1568260818]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+text = " 0 | 4"
+horizontal_alignment = 3
+vertical_alignment = 1
+
+[node name="Defenses" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox" unique_id=744150683]
 layout_mode = 2
 title = "Defenses : 8"
 title_alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Defenses" unique_id=536560446]
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Defenses" unique_id=536560446]
 layout_mode = 2
 
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Defenses/VBoxContainer" unique_id=1186986150]
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Defenses/VBox" unique_id=1186986150]
 layout_mode = 2
 theme_type_variation = &"CardLabel"
 text = "Posts"
 horizontal_alignment = 3
 vertical_alignment = 1
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/FoldableContainer/VBoxContainer/Defenses/VBoxContainer" unique_id=1653004047]
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer/DefenseDetail/panelContainer/VBox/Defenses/VBox" unique_id=1653004047]
 layout_mode = 2
 theme_type_variation = &"CardLabel"
 text = "WatchTowers "
@@ -1412,18 +1420,57 @@ autowrap_mode = 3
 [node name="HSeparator3" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/army/MarginContainer/VBoxContainer" unique_id=1015511931]
 layout_mode = 2
 
-[node name="note" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=903314085]
+[node name="note" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=176163025]
 visible = false
 layout_mode = 2
+script = ExtResource("18_33nm3")
 metadata/_tab_index = 3
+metadata/_tab_name = ""
+
+[node name="Margin" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/note" unique_id=699234693]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin" unique_id=47616444]
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="Notification" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=2139192154]
+layout_mode = 2
+text = "Notification"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=1476425920]
+layout_mode = 2
+
+[node name="EmptyLabel" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=1375948436]
+layout_mode = 2
+size_flags_vertical = 3
+text = "No notifications"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="List" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=512992699]
+layout_mode = 2
+
+[node name="NotificationCard" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/List" unique_id=1050485910 instance=ExtResource("18_hvh7e")]
+visible = false
+layout_mode = 2
+
+[node name="NotificationCard2" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/List" unique_id=714346231 instance=ExtResource("18_hvh7e")]
+visible = false
+layout_mode = 2
 
 [node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]
-visible = false
 layout_mode = 2
 theme_override_constants/scrollbar_v_separation = 2
 horizontal_scroll_mode = 0
 script = ExtResource("8_7s1p8")
 metadata/_tab_index = 4
+metadata/_tab_name = ""
 
 [node name="MarginContainer" type="MarginContainer" parent="GameUI/UI/SideMenu/TabContainer/Info" unique_id=1347189302]
 layout_mode = 2
@@ -1677,6 +1724,98 @@ custom_maximum_size = Vector2(142, -1)
 layout_mode = 2
 
 [node name="Gives" type="HFlowContainer" parent="GameUI/UI/Buildable_Info/VBox" unique_id=1298234479]
+layout_mode = 2
+
+[node name="ToastLayer" type="Control" parent="GameUI/UI" unique_id=1368766529]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_type_variation = &"NotificationPanel"
+script = ExtResource("24_1wy7k")
+
+[node name="Box" type="VBoxContainer" parent="GameUI/UI/ToastLayer" unique_id=1298325700]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -149.0
+offset_top = 39.0
+offset_right = 149.0
+offset_bottom = 72.0
+grow_horizontal = 2
+
+[node name="Time" type="PanelContainer" parent="GameUI/UI" unique_id=1219348566]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -349.0
+offset_top = 15.0
+offset_right = -11.0
+offset_bottom = 93.0
+grow_horizontal = 0
+script = ExtResource("24_o3i8t")
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/Time" unique_id=2053846735]
+layout_mode = 2
+
+[node name="HBox" type="HBoxContainer" parent="GameUI/UI/Time/VBox" unique_id=2046823537]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Icon" type="TextureRect" parent="GameUI/UI/Time/VBox/HBox" unique_id=1771691333]
+custom_maximum_size = Vector2(32, 32)
+layout_mode = 2
+offset_transform_enabled = true
+texture = SubResource("AtlasTexture_4kxuq")
+script = ExtResource("25_sk1fn")
+icon_sheet = ExtResource("25_o3i8t")
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/Time/VBox/HBox" unique_id=820697335]
+layout_mode = 2
+
+[node name="Date" type="Label" parent="GameUI/UI/Time/VBox/HBox/VBox" unique_id=1161910043]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "Day 07 · August"
+
+[node name="Time" type="Label" parent="GameUI/UI/Time/VBox/HBox/VBox" unique_id=1907607477]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "08:31 AM"
+
+[node name="VBox2" type="VBoxContainer" parent="GameUI/UI/Time/VBox/HBox" unique_id=1938765626]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="Year" type="Label" parent="GameUI/UI/Time/VBox/HBox/VBox2" unique_id=971062334]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 12
+text = "Year 1000"
+horizontal_alignment = 2
+
+[node name="status" type="Label" parent="GameUI/UI/Time/VBox/HBox/VBox2" unique_id=981783694]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_type_variation = &"CardLabel"
+theme_override_font_sizes/font_size = 13
+text = "Morning "
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/Time/VBox" unique_id=1038360300]
 layout_mode = 2
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=2127554334]
