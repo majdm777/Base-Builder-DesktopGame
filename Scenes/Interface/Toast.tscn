@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://n7tpaonqds0e"]
 
-[ext_resource type="Script" uid="uid://ice8oqshr30e" path="res://toast.gd" id="1_y0lyc"]
+[ext_resource type="Script" uid="uid://ice8oqshr30e" path="res://gd/toast.gd" id="1_y0lyc"]
 
 [node name="Toast" type="PanelContainer" unique_id=538402191]
 anchors_preset = 15
