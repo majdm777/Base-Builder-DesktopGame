@@ -19,12 +19,12 @@
 [ext_resource type="Texture2D" uid="uid://lyah3dlpukc" path="res://Assets/Icon/TrioUIKit_FreeSample_v2.2/icons/icon_buff.svg" id="13_lljr5"]
 [ext_resource type="Texture2D" uid="uid://do56ub80l4v2g" path="res://Assets/Icon/TrioUIKit_FreeSample_v2.2/icons/icon_debuff.svg" id="14_f88lv"]
 [ext_resource type="Script" uid="uid://bbbg6a7omjeq6" path="res://gd/army_handle.gd" id="17_f88lv"]
-[ext_resource type="Script" uid="uid://cipfk4huku0ea" path="res://note_handle.gd" id="18_33nm3"]
+[ext_resource type="Script" uid="uid://cipfk4huku0ea" path="res://gd/note_handle.gd" id="18_33nm3"]
 [ext_resource type="PackedScene" uid="uid://bf21xg4asrqt6" path="res://Scenes/Interface/notification_card.tscn" id="18_hvh7e"]
-[ext_resource type="Script" uid="uid://sj107237pooj" path="res://toast_layer.gd" id="24_1wy7k"]
-[ext_resource type="Script" uid="uid://ce4m7q0yb057y" path="res://Time_Handle.gd" id="24_o3i8t"]
+[ext_resource type="Script" uid="uid://sj107237pooj" path="res://gd/toast_layer.gd" id="24_1wy7k"]
+[ext_resource type="Script" uid="uid://ce4m7q0yb057y" path="res://gd/Time_Handle.gd" id="24_o3i8t"]
 [ext_resource type="Texture2D" uid="uid://2jtku55genxu" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="25_o3i8t"]
-[ext_resource type="Script" uid="uid://dtxewfnckd8ho" path="res://icon.gd" id="25_sk1fn"]
+[ext_resource type="Script" uid="uid://dtxewfnckd8ho" path="res://gd/icon.gd" id="25_sk1fn"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
