@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://d0qnkdmgqdd45"]
+
+[ext_resource type="Script" uid="uid://gd3mndg6afke" path="res://Scenes/Interface/house_card.gd" id="1_iorkq"]
+
+[node name="HouseCard" type="PanelContainer" unique_id=1582893957]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_iorkq")
+
+[node name="VBox" type="VBoxContainer" parent="." unique_id=150414209]
+layout_mode = 2
+
+[node name="HBox" type="HBoxContainer" parent="VBox" unique_id=2004027194]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Capacity" type="Label" parent="VBox/HBox" unique_id=1803898792]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "Remaing space :"
+
+[node name="Value" type="Label" parent="VBox/HBox" unique_id=1606087333]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CardLabel"
+text = "3 / 4"
+horizontal_alignment = 1

@@ -8,11 +8,11 @@ var Gold : int = 0
 var Food : int =100
 
 var resources = {
-	"wood":0,
-	"stone":0,
-	"iron":0,
-	"food":0,
-	"gold":0
+	"wood":100,
+	"stone":100,
+	"iron":100,
+	"food":100,
+	"gold":100
 }
 
 var capacities = {
