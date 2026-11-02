@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dml5deqeaoea5"]
+
+[ext_resource type="Script" uid="uid://dmsolo625cf7g" path="res://Scenes/Interface/farm_card.gd" id="1_noy10"]
+
+[node name="FarmCard" type="PanelContainer" unique_id=1279311870]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_noy10")
+
+[node name="VBox" type="VBoxContainer" parent="." unique_id=1465827020]
+layout_mode = 2
+
+[node name="TimeToGrow" type="Label" parent="VBox" unique_id=426924791]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+
+[node name="CropsAmount" type="Label" parent="VBox" unique_id=483697664]
+layout_mode = 2
+theme_type_variation = &"CardLabel"
+
+[node name="HSeparator" type="HSeparator" parent="VBox" unique_id=1174561503]
+layout_mode = 2
+
+[node name="Container" type="VBoxContainer" parent="VBox" unique_id=1821154966]
+layout_mode = 2

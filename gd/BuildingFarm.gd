@@ -5,6 +5,8 @@ signal plot_ready(plot)
 var plots
 @export var crops_amount: int = 20
 
+const FARM_CARD = preload("res://Scenes/Interface/farm_card.tscn")
+var farm_card
 func _ready() -> void:
 	super()
 	plots = $farm/beds.get_children()
@@ -20,3 +22,16 @@ func _on_spawned() -> void:
 
 func _on_plot_ready(plot) -> void:
 	plot_ready.emit(plot)
+
+func build_info(container: Control) -> void:
+	super(container)
+	farm_card = FARM_CARD.instantiate()
+	container.add_child(farm_card)
+	farm_card.setup(self)
+	pass
+ 
+func update_info() -> void:
+	super()
+	if is_instance_valid(farm_card):
+		farm_card.update()
+	
