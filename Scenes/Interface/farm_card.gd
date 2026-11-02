@@ -5,6 +5,12 @@ extends PanelContainer
 @onready var container := $VBox/Container
 
 const plot_status = ["ready","empty","growing","harvested"]
+const plot_status_colors = [
+	Color("#D6B45C"), # Ready - Gold
+	Color("#A89B88"), # Empty - Muted stone
+	Color("#8CCB78"), # Growing - Green
+	Color("#D99A58")  # Harvested - Warm orange
+]
 var plot_state_labels: Dictionary = {}
 
 var House: Node
@@ -36,6 +42,7 @@ func update():
 
 		var state_label: Label = plot_state_labels[plot]
 		state_label.text = plot_status[plot.current_state]
+		state_label.add_theme_color_override("font_color",plot_status_colors[plot.current_state])
 		
 
 func Buildcard(plot: Node):
@@ -43,14 +50,14 @@ func Buildcard(plot: Node):
 	var Name = Label.new()
 	var Plot_state = Label.new()
 
-	Name.theme_type_variation = "CardLabel"
+	#Name.theme_type_variation = "CardLabel"
 	Name.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	Name.text = "Plot"
 
-	Plot_state.theme_type_variation = "CardLabel"
+	#Plot_state.theme_type_variation = "CardLabel"
 	Plot_state.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	Plot_state.text = plot_status[plot.current_state]
-
+	Plot_state.add_theme_color_override("font_color",plot_status_colors[plot.current_state])
 	Hbox.add_child(Name)
 	Hbox.add_child(Plot_state)
 

@@ -675,7 +675,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 3
+current_tab = 0
 tabs_position = 1
 tab_0/icon = SubResource("AtlasTexture_sk1fn")
 tab_1/icon = SubResource("AtlasTexture_1wy7k")
@@ -684,7 +684,6 @@ tab_3/icon = SubResource("AtlasTexture_in6lh")
 tab_4/icon = SubResource("AtlasTexture_u33rn")
 
 [node name="Res" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=544825690]
-visible = false
 propagate_maximum_size = true
 layout_mode = 2
 script = ExtResource("10_2lfnd")
@@ -1421,6 +1420,7 @@ autowrap_mode = 3
 layout_mode = 2
 
 [node name="note" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=176163025]
+visible = false
 layout_mode = 2
 script = ExtResource("18_33nm3")
 metadata/_tab_index = 3
