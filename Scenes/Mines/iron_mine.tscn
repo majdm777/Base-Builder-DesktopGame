@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bp835mh8u3s6g"]
 
-[ext_resource type="Script" uid="uid://d3i12d678qttt" path="res://gd/BuildingObject.gd" id="1_2pek0"]
+[ext_resource type="Script" uid="uid://pmjwjj7aut6o" path="res://gd/BuildingMine.gd" id="1_2pek0"]
 [ext_resource type="Script" uid="uid://bm18f3w32v2uy" path="res://gd/mine_cooldown.gd" id="2_2ew2m"]
 [ext_resource type="ArrayMesh" uid="uid://coay1ouw164v" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_mine_blue.obj" id="3_2pek0"]
 [ext_resource type="ArrayMesh" uid="uid://cx8gb74ddooh7" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/flag_blue.obj" id="4_2ew2m"]
@@ -72,6 +72,7 @@ size = Vector3(2.2901917, 1.5653687, 2.6030273)
 [node name="iron_mine" type="StaticBody3D" unique_id=1488272549 groups=["building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_2pek0")
+ResourceType = "iron"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1659906098]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008666992, 0.566803, -0.250885)
@@ -107,7 +108,7 @@ mesh = ExtResource("7_b6nmn")
 [node name="SpawnPoint" type="Marker3D" parent="Building" unique_id=2021608981 groups=["Iron"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.020578474, 0.9002566)
 script = ExtResource("8_2pek0")
-amount = 100
+amount = 15
 ResourceType = "Iron"
 
 [node name="Area" type="Area3D" parent="." unique_id=1000582745]

@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://cqhvd7kbuoosq"]
+
+[ext_resource type="Script" uid="uid://e1q2gb3t0eb2" path="res://Scenes/Interface/mine_card.gd" id="1_2ocya"]
+[ext_resource type="Texture2D" uid="uid://2jtku55genxu" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="2_0h7js"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4kxuq"]
+atlas = ExtResource("2_0h7js")
+region = Rect2(160, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mti6b"]
+atlas = ExtResource("2_0h7js")
+region = Rect2(480, 320, 32, 32)
+
+[node name="MineCard" type="PanelContainer" unique_id=1460859122]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"StatPanel"
+script = ExtResource("1_2ocya")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2143169557]
+layout_mode = 2
+
+[node name="ResourceName" type="Label" parent="VBoxContainer" unique_id=453235124]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer" unique_id=358514087]
+layout_mode = 2
+
+[node name="HBox" type="HBoxContainer" parent="VBoxContainer" unique_id=966436272]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VBox" type="VBoxContainer" parent="VBoxContainer/HBox" unique_id=972429298]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Icon" type="TextureRect" parent="VBoxContainer/HBox/VBox" unique_id=673225226]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 3
+texture = SubResource("AtlasTexture_4kxuq")
+
+[node name="Remaining" type="Label" parent="VBoxContainer/HBox/VBox" unique_id=1031166211]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+
+[node name="Bar" type="ProgressBar" parent="VBoxContainer/HBox" unique_id=82338018]
+custom_minimum_size = Vector2(35, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 1
+fill_mode = 3
+show_percentage = false
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer" unique_id=1303431855]
+layout_mode = 2
+
+[node name="Status" type="Label" parent="VBoxContainer" unique_id=1067186235]
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+
+[node name="Generatinglabel" type="HBoxContainer" parent="VBoxContainer" unique_id=2136460216]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="icon" type="TextureRect" parent="VBoxContainer/Generatinglabel" unique_id=644954649]
+custom_maximum_size = Vector2(16, 16)
+layout_mode = 2
+size_flags_vertical = 8
+texture = SubResource("AtlasTexture_mti6b")
+
+[node name="Timer" type="Label" parent="VBoxContainer/Generatinglabel" unique_id=220149401]
+custom_maximum_size = Vector2(-1, 16)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
+theme_override_font_sizes/font_size = 10
+text = "Regeneration in : 1m15s
+"

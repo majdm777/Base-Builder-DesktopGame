@@ -338,6 +338,14 @@ region = Rect2(96, 0, 32, 32)
 atlas = ExtResource("10_33nm3")
 region = Rect2(224, 128, 32, 32)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_mti6b"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(160, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mm1bc"]
+atlas = ExtResource("25_o3i8t")
+region = Rect2(480, 320, 32, 32)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_4kxuq"]
 atlas = ExtResource("25_o3i8t")
 region = Rect2(256, 672, 32, 32)
@@ -651,6 +659,7 @@ offset_right = 3.0
 offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
+rotation = 0.0006246977
 mouse_filter = 2
 theme = ExtResource("7_pij2x")
 
@@ -675,7 +684,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 0
+current_tab = 3
 tabs_position = 1
 tab_0/icon = SubResource("AtlasTexture_sk1fn")
 tab_1/icon = SubResource("AtlasTexture_1wy7k")
@@ -684,6 +693,7 @@ tab_3/icon = SubResource("AtlasTexture_in6lh")
 tab_4/icon = SubResource("AtlasTexture_u33rn")
 
 [node name="Res" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=544825690]
+visible = false
 propagate_maximum_size = true
 layout_mode = 2
 script = ExtResource("10_2lfnd")
@@ -1420,7 +1430,6 @@ autowrap_mode = 3
 layout_mode = 2
 
 [node name="note" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=176163025]
-visible = false
 layout_mode = 2
 script = ExtResource("18_33nm3")
 metadata/_tab_index = 3
@@ -1465,41 +1474,71 @@ layout_mode = 2
 visible = false
 layout_mode = 2
 
-[node name="PanelContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=2005204645]
+[node name="PanelContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=1891770749]
+layout_mode = 2
+theme_type_variation = &"StatPanel"
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer" unique_id=2106927528]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer" unique_id=5260109]
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=685967719]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Resource Type : Iron"
+
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=460998639]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=1246868525]
+[node name="HBox" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=230999641]
+layout_mode = 2
+
+[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/HBox" unique_id=1493297639]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_type_variation = &"CardLabel"
-theme_override_font_sizes/font_size = 12
-text = "Time to grow : 5mins / each"
-vertical_alignment = 1
-autowrap_mode = 3
+theme_override_constants/separation = 0
 
-[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=862829386]
+[node name="TextureRect" type="TextureRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/HBox/VBox" unique_id=993317446]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
-size_flags_horizontal = 3
-theme_type_variation = &"CardLabel"
-theme_override_font_sizes/font_size = 12
-text = "Crops Amount : 5 / each"
-vertical_alignment = 1
-autowrap_mode = 3
+size_flags_horizontal = 0
+texture = SubResource("AtlasTexture_mti6b")
 
-[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=195531703]
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/HBox/VBox" unique_id=962222709]
+layout_mode = 2
+size_flags_vertical = 10
+theme_override_font_sizes/font_size = 9
+text = "65% remaining"
+
+[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/HBox" unique_id=685617206]
+custom_minimum_size = Vector2(35, 0)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 1
+value = 50.0
+fill_mode = 3
+show_percentage = false
+
+[node name="HSeparator2" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=1709864116]
 layout_mode = 2
 
-[node name="FoldableContainer" type="FoldableContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=176244585]
+[node name="Status" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=175965341]
 layout_mode = 2
-title = "Plots"
-title_alignment = 1
+theme_override_font_sizes/font_size = 13
+text = "the mine is available "
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/FoldableContainer" unique_id=1309838436]
+[node name="EmptyLabel" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=62849348]
 layout_mode = 2
-text = "Plot1 : State"
+theme_override_constants/separation = 0
+
+[node name="icon" type="TextureRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/EmptyLabel" unique_id=581628094]
+custom_maximum_size = Vector2(16, 16)
+layout_mode = 2
+texture = SubResource("AtlasTexture_mm1bc")
+
+[node name="Label3" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/EmptyLabel" unique_id=1174787492]
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "regenerating in : 1m 15s "
 
 [node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]
 visible = false

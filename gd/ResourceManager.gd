@@ -10,7 +10,7 @@ var Food : int =100
 var resources = {
 	"wood":100,
 	"stone":100,
-	"iron":100,
+	"iron":0,
 	"food":100,
 	"gold":100
 }

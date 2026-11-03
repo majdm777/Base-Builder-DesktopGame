@@ -2,6 +2,7 @@ extends ResourceProducer
 
 
 
+
 func on_harvest() -> void:
 	var mesh = get_parent().get_node_or_null("wheelbarrow")
 	if mesh != null:
