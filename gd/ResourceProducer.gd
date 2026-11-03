@@ -20,7 +20,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if is_empty and not is_harvesting:
-		pass
+		queue_free()
 	pass
 func _Harvest(GathererCapacity: int) -> int:
 	is_harvesting = true
@@ -37,7 +37,7 @@ func _Harvest(GathererCapacity: int) -> int:
 	
 	await on_harvest()
 	if remaining_resource_amount <= 0:
-		is_empty = true
+		queue_free()
 
 	is_harvesting = false
 	return amount

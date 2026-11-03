@@ -79,8 +79,8 @@ func _process(delta: float) -> void:
 					CurrentTask = Task.Searching
 				if Producers.size() <= 0:
 					CurrentTask = Task.Delivering
-			else :
-				CurrentTask = Task.Searching
+			#else :
+				#CurrentTask = Task.Searching
 		Task.Delivering:
 			var spawnedStorage = get_spawned_storage()
 			if spawnedStorage.size() > 0 and HeldresourcesAmount > 0 and ResourceManager.resources[resource_type] < ResourceManager.capacities[resource_type]:
