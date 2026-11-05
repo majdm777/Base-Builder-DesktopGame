@@ -338,14 +338,6 @@ region = Rect2(96, 0, 32, 32)
 atlas = ExtResource("10_33nm3")
 region = Rect2(224, 128, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_mti6b"]
-atlas = ExtResource("25_o3i8t")
-region = Rect2(160, 128, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mm1bc"]
-atlas = ExtResource("25_o3i8t")
-region = Rect2(480, 320, 32, 32)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_4kxuq"]
 atlas = ExtResource("25_o3i8t")
 region = Rect2(256, 672, 32, 32)
@@ -1474,71 +1466,180 @@ layout_mode = 2
 visible = false
 layout_mode = 2
 
-[node name="PanelContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=1891770749]
+[node name="PanelContainer" type="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=863204977]
 layout_mode = 2
 theme_type_variation = &"StatPanel"
 
-[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer" unique_id=2106927528]
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer" unique_id=2135201271]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=685967719]
-layout_mode = 2
-theme_override_font_sizes/font_size = 12
-text = "Resource Type : Iron"
-
-[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=460998639]
+[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=221787967]
 layout_mode = 2
 
-[node name="HBox" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=230999641]
-layout_mode = 2
-
-[node name="VBox" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/HBox" unique_id=1493297639]
+[node name="Name" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/HBoxContainer" unique_id=706499852]
 layout_mode = 2
 size_flags_horizontal = 3
-theme_override_constants/separation = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Defense Details"
 
-[node name="TextureRect" type="TextureRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/HBox/VBox" unique_id=993317446]
-custom_minimum_size = Vector2(40, 40)
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/HBoxContainer" unique_id=1261843468]
 layout_mode = 2
-size_flags_horizontal = 0
-texture = SubResource("AtlasTexture_mti6b")
+theme_type_variation = &"Inactive"
+text = "Active"
 
-[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/HBox/VBox" unique_id=962222709]
+[node name="HSeparator" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=1368073249]
 layout_mode = 2
-size_flags_vertical = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=2114682272]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer" unique_id=1555035295]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99609375, 0.99609375, 0.99609375, 1)
+text = "Combat statistics"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer" unique_id=335585547]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer" unique_id=558035621]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer/VBoxContainer" unique_id=2002841355]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Damage / Soldier"
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer/VBoxContainer" unique_id=1397099323]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "15"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer" unique_id=61173360]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer/VBoxContainer2" unique_id=186397375]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Attack Interval"
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer/VBoxContainer2" unique_id=1962079691]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "15"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer" unique_id=1178732567]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer2" unique_id=658544720]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer2/VBoxContainer" unique_id=2110596613]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Dps"
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer2/VBoxContainer" unique_id=807595138]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "15"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer2" unique_id=1181579732]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer2/VBoxContainer2" unique_id=1932628746]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Range"
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer/HBoxContainer2/VBoxContainer2" unique_id=331966039]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "15"
+
+[node name="HSeparator2" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=1527746566]
+layout_mode = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer" unique_id=2105343423]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2" unique_id=1497062265]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Garrison"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2" unique_id=1020890582]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer" unique_id=58115963]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 12
+text = "Soldiers stationed"
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer" unique_id=888443413]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "0/4"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2" unique_id=795902846]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=1732302149]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.36504292, 0.97265625, 0.2963562, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=1865277928]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.36504292, 0.97265625, 0.2963562, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=1655329570]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.36504292, 0.97265625, 0.2963562, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=1493453565]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.36504292, 0.97265625, 0.2963562, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=1996108556]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.36504292, 0.97265625, 0.2963562, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=1080776913]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.36504292, 0.97265625, 0.2963562, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=66673552]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.29296875, 0.16880035, 0.009155273, 1)
+
+[node name="ColorRect8" type="ColorRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2/HBoxContainer2" unique_id=49831888]
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(0.29296875, 0.16880035, 0.009155273, 1)
+
+[node name="Label2" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBoxContainer/VBoxContainer2" unique_id=1729865154]
+layout_mode = 2
 theme_override_font_sizes/font_size = 9
-text = "65% remaining"
-
-[node name="ProgressBar" type="ProgressBar" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/HBox" unique_id=685617206]
-custom_minimum_size = Vector2(35, 0)
-layout_mode = 2
-size_flags_horizontal = 6
-size_flags_vertical = 1
-value = 50.0
-fill_mode = 3
-show_percentage = false
-
-[node name="HSeparator2" type="HSeparator" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=1709864116]
-layout_mode = 2
-
-[node name="Status" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=175965341]
-layout_mode = 2
-theme_override_font_sizes/font_size = 13
-text = "the mine is available "
-
-[node name="EmptyLabel" type="HBoxContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox" unique_id=62849348]
-layout_mode = 2
-theme_override_constants/separation = 0
-
-[node name="icon" type="TextureRect" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/EmptyLabel" unique_id=581628094]
-custom_maximum_size = Vector2(16, 16)
-layout_mode = 2
-texture = SubResource("AtlasTexture_mm1bc")
-
-[node name="Label3" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/PanelContainer/VBox/EmptyLabel" unique_id=1174787492]
-layout_mode = 2
-theme_override_font_sizes/font_size = 10
-text = "regenerating in : 1m 15s "
+text = "tower is empty"
 
 [node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]
 visible = false

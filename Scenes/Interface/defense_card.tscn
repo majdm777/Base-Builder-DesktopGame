@@ -1,0 +1,131 @@
+[gd_scene format=3 uid="uid://0ypbiw4fcpri"]
+
+[ext_resource type="Script" uid="uid://b1cork1quueyv" path="res://Scenes/Interface/defense_card.gd" id="1_2slwy"]
+
+[node name="PanelContainer" type="PanelContainer" unique_id=569228313]
+theme_type_variation = &"StatPanel"
+script = ExtResource("1_2slwy")
+
+[node name="Card" type="VBoxContainer" parent="." unique_id=133260978]
+layout_mode = 2
+
+[node name="header" type="HBoxContainer" parent="Card" unique_id=1984595638]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="Card/header" unique_id=1132286913]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Defense Details"
+
+[node name="State" type="Label" parent="Card/header" unique_id=477317840]
+layout_mode = 2
+theme_type_variation = &"Inactive"
+text = "Active"
+
+[node name="HSeparator" type="HSeparator" parent="Card" unique_id=926217619]
+layout_mode = 2
+
+[node name="CombatStat" type="VBoxContainer" parent="Card" unique_id=1214581275]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Card/CombatStat" unique_id=1009399479]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99609375, 0.99609375, 0.99609375, 1)
+text = "Combat statistics"
+
+[node name="RowStat1" type="HBoxContainer" parent="Card/CombatStat" unique_id=725968041]
+layout_mode = 2
+
+[node name="Damage_Soldier" type="VBoxContainer" parent="Card/CombatStat/RowStat1" unique_id=1965245278]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="Card/CombatStat/RowStat1/Damage_Soldier" unique_id=549799158]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Damage / Soldier"
+
+[node name="Value" type="Label" parent="Card/CombatStat/RowStat1/Damage_Soldier" unique_id=113037460]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "15"
+
+[node name="AttackInterval" type="VBoxContainer" parent="Card/CombatStat/RowStat1" unique_id=340635379]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="Card/CombatStat/RowStat1/AttackInterval" unique_id=1941688510]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Attack Interval"
+
+[node name="Value" type="Label" parent="Card/CombatStat/RowStat1/AttackInterval" unique_id=1035931750]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "15"
+
+[node name="RowStat2" type="HBoxContainer" parent="Card/CombatStat" unique_id=234242729]
+layout_mode = 2
+
+[node name="Dps" type="VBoxContainer" parent="Card/CombatStat/RowStat2" unique_id=1049533509]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="Card/CombatStat/RowStat2/Dps" unique_id=1398180628]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Dps"
+
+[node name="Value" type="Label" parent="Card/CombatStat/RowStat2/Dps" unique_id=64637560]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "15"
+
+[node name="Range" type="VBoxContainer" parent="Card/CombatStat/RowStat2" unique_id=1743260295]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="Card/CombatStat/RowStat2/Range" unique_id=1834310500]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Range"
+
+[node name="Value" type="Label" parent="Card/CombatStat/RowStat2/Range" unique_id=1447130014]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "15"
+
+[node name="HSeparator2" type="HSeparator" parent="Card" unique_id=1629782928]
+layout_mode = 2
+
+[node name="Garrison" type="VBoxContainer" parent="Card" unique_id=762444725]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Card/Garrison" unique_id=260080255]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Garrison"
+
+[node name="Capacity" type="HBoxContainer" parent="Card/Garrison" unique_id=257377608]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Card/Garrison/Capacity" unique_id=427540181]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 12
+text = "Soldiers stationed"
+
+[node name="Value" type="Label" parent="Card/Garrison/Capacity" unique_id=1762141070]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "0/4"
+
+[node name="Occupants" type="HBoxContainer" parent="Card/Garrison" unique_id=1013408052]
+layout_mode = 2
+
+[node name="info" type="Label" parent="Card/Garrison" unique_id=798524290]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 9
+text = "tower is empty"

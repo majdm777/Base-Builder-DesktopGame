@@ -90,3 +90,6 @@ V1.0.2.14: redesigned the stockpile shape , plus organized the files .
 
 V1.0.2.15 : add extra cards for each building type
             - V1.0.2.15.1 : added the House_card and the farm_card
+            - V1.0.2.15.2 : added the mine_card
+            - V1.0.2.15.3 : added the defense_card
+            

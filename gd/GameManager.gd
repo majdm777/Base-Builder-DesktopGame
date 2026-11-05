@@ -199,7 +199,7 @@ func _Power() -> float: # power = dps * totalHealth
 		dps += s.dps
 		total_health += s.Health
 	for d in defenses:
-		dps += (d.dps * d.occupants.size() )
+		dps += d.dps
 		total_health += d.Health
 	
 	return dps * total_health
