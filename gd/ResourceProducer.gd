@@ -5,7 +5,7 @@ extends Node3D
 @export var amount :int = 10
 
 var remaining_resource_amount 
-
+var is_empty :bool = false
 
 var is_harvesting: bool = false
 
@@ -19,6 +19,8 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	if is_empty and not is_harvesting:
+		queue_free()
 	pass
 func _Harvest(GathererCapacity: int) -> int:
 	is_harvesting = true

@@ -3,10 +3,10 @@ extends Node3D
 @export var move_speed := 100.0
 @export var edge_size := 20.0      # width of the scroll zone in pixels
 
-@export var min_x := -150.0
-@export var max_x := 150.0
-@export var min_z := -154.0
-@export var max_z := 154.0
+@export var min_x := -200.0
+@export var max_x := 200.0
+@export var min_z := -200.0
+@export var max_z := 200.0
 
 @export var min_zoom := 25
 @export var max_zoom := 200

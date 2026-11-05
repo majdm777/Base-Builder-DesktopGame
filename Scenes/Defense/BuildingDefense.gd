@@ -1,6 +1,9 @@
 class_name BuildingDefense
 extends BuildingObject
 
+const DEFENSE_CARD := preload("res://Scenes/Interface/defense_card.tscn")
+var defense_card
+
 @export var capacity : int = 4
 @export var damage_per_soldier : int = 15
 @export var attack_interval : float = 1.0
@@ -15,8 +18,8 @@ var current_target
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	super() # Replace with function body.
-	name = "WatchTower"
-	dps = damage_per_soldier / max(0.1 , attack_interval)
+	name = "Defense"
+	dps = (damage_per_soldier * occupants.size()) / max(0.1 , attack_interval)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -57,3 +60,16 @@ func run_despawn():
 		pass  # survivors go back to the free pool
 	occupants.clear()
 	super()
+
+func build_info(container: Control) -> void:
+	super(container)
+	defense_card = DEFENSE_CARD.instantiate()
+	container.add_child(defense_card)
+	defense_card.setup(self)
+	pass
+ 
+func update_info() -> void:
+	super()
+	if is_instance_valid(defense_card):
+		defense_card.update()
+	

@@ -56,6 +56,7 @@ func _process(delta: float) -> void:
 	match CurrentTask:
 		Task.Gathering:
 			if runOnce and is_instance_valid(current_target):
+				print("found")
 				runOnce = false
 				
 				if current_target.has_method("_Harvest"):
@@ -67,9 +68,9 @@ func _process(delta: float) -> void:
 					if "current_state" in current_target:
 						current_target.current_state = current_target.State.harvested
 				# Harvest done — remove this plot from the queue for good
-				if is_instance_valid(current_target):
-					Producers.erase(current_target)
-					current_target = null
+
+				Producers.erase(current_target)
+				current_target = null
 				runOnce = true
 				if HeldresourcesAmount >= pocket_space:
 					HeldresourcesAmount =pocket_space
@@ -78,7 +79,8 @@ func _process(delta: float) -> void:
 					CurrentTask = Task.Searching
 				if Producers.size() <= 0:
 					CurrentTask = Task.Delivering
-
+			#else :
+				#CurrentTask = Task.Searching
 		Task.Delivering:
 			var spawnedStorage = get_spawned_storage()
 			if spawnedStorage.size() > 0 and HeldresourcesAmount > 0 and ResourceManager.resources[resource_type] < ResourceManager.capacities[resource_type]:
