@@ -9,6 +9,7 @@ const CEMPTY= "#493A2B"
 @onready var AttackInterval := $Card/CombatStat/RowStat1/AttackInterval/Value
 @onready var Dps := $Card/CombatStat/RowStat2/Dps/Value
 @onready var AttackRange := $Card/CombatStat/RowStat2/Range/Value
+@onready var TotalDamage := $Card/CombatStat/TotalDamage
 
 @onready var Capacity := $Card/Garrison/Capacity/Value
 
@@ -46,7 +47,7 @@ func update():
 	AttackRange.text = "--"
 	
 	Capacity.text = str(Defense.occupants.size())+"/"+str(Defense.capacity)
-	
+	TotalDamage.text = "Total Damage : "+str(Defense.occupants.size() * Defense.damage_per_soldier)
 	for i in OccupantsBar.get_children():
 		i.queue_free()
 		

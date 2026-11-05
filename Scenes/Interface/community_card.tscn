@@ -1,0 +1,99 @@
+[gd_scene format=3 uid="uid://832rhu1d3oqf"]
+
+[ext_resource type="Script" uid="uid://biewn5onrkjgn" path="res://Scenes/Interface/community_card.gd" id="1_0kd0m"]
+
+[node name="CommunityCard" type="PanelContainer" unique_id=1065834932]
+theme_type_variation = &"StatPanel"
+script = ExtResource("1_0kd0m")
+
+[node name="Card" type="VBoxContainer" parent="." unique_id=1861693648]
+layout_mode = 2
+
+[node name="Header" type="HBoxContainer" parent="Card" unique_id=1238217627]
+layout_mode = 2
+
+[node name="title" type="Label" parent="Card/Header" unique_id=5501303]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 15
+text = "Community Details"
+autowrap_mode = 3
+
+[node name="state" type="Label" parent="Card/Header" unique_id=1166033001]
+layout_mode = 2
+theme_type_variation = &"Active"
+text = "Active"
+
+[node name="HSeparator" type="HSeparator" parent="Card" unique_id=1578396127]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Card" unique_id=426566021]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 14
+text = "Building Statistics"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Card" unique_id=323549669]
+layout_mode = 2
+
+[node name="InteractionValue" type="VBoxContainer" parent="Card/HBoxContainer" unique_id=1182306996]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="Card/HBoxContainer/InteractionValue" unique_id=1534447589]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Interaction Value"
+
+[node name="Value" type="Label" parent="Card/HBoxContainer/InteractionValue" unique_id=1166050059]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "+1"
+
+[node name="InteractionTime" type="VBoxContainer" parent="Card/HBoxContainer" unique_id=207266701]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="Card/HBoxContainer/InteractionTime" unique_id=1661936669]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Interaction Time"
+
+[node name="Value" type="Label" parent="Card/HBoxContainer/InteractionTime" unique_id=995179026]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "5 sec"
+
+[node name="HSeparator2" type="HSeparator" parent="Card" unique_id=1375828071]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="Card" unique_id=439972030]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 14
+text = "Occupancy"
+
+[node name="Capacity" type="HBoxContainer" parent="Card" unique_id=1846084053]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Card/Capacity" unique_id=1398588290]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 12
+text = "Citizens inside"
+autowrap_mode = 3
+
+[node name="Value" type="Label" parent="Card/Capacity" unique_id=864078905]
+layout_mode = 2
+text = "1/3"
+
+[node name="Occupancy" type="HBoxContainer" parent="Card" unique_id=452098604]
+layout_mode = 2
+
+[node name="info" type="Label" parent="Card" unique_id=1166997823]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "The building is empty"
+autowrap_mode = 3
