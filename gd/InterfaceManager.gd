@@ -150,3 +150,8 @@ func _on_stone_corner_tight_button_down() -> void:
 func _on_stone_corner_wide_button_down() -> void:
 	BuilderManager.SpawnWideCorner()
 	pass # Replace with function body.
+
+
+func _on_archery_button_down() -> void:
+	BuilderManager.SpawnArchery()
+	pass # Replace with function body.

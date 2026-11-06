@@ -138,10 +138,15 @@ func _damage(value : int , entity : Node3D) -> bool:
 	if Health <= 0:
 		queue_free()
 		return false
-	if current_target != entity:
+	if not is_instance_valid(entity):
+		return true
+	if (current_target.is_in_group("Soldier") or current_target.is_in_group("Defenses")):
+		pass
+	else:
 		current_target = entity
 		navigation.target_position = current_target.global_position
 		current_state = State.Walking
+
 	return true
 
 func _is_in_attack_range() -> bool:

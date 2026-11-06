@@ -282,12 +282,6 @@ func SpawnWoodWall():
 	SpawnObj(Wood_Wall)
 func SpawnWoodGate():
 	SpawnObj(Wood_Gate)
-func SpawnWatchTower():
-	SpawnObj(WatchTower)
-func SpawnPost():
-	SpawnObj(Post)
-func SpawnBarracks():
-	SpawnObj(Barracks)
 func SpawnStoneWall():
 	SpawnObj(Stone_Wall)
 func SpawnStoneGate():
@@ -299,6 +293,15 @@ func SpawnTightCorner():
 func SpawnWideCorner():
 	SpawnObj(Wide_Corner)
 	
+
+func SpawnWatchTower():
+	SpawnObj(WatchTower)
+func SpawnPost():
+	SpawnObj(Post)
+func SpawnBarracks():
+	SpawnObj(Barracks)
+func SpawnArchery():
+	SpawnObj(Packed_Scene.Archery)
 
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:

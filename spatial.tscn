@@ -1520,7 +1520,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-current_tab = 5
+current_tab = 7
 
 [node name="Huts" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/TabContainer" unique_id=1732926609]
 visible = false
@@ -1630,6 +1630,7 @@ text = "Bar
 "
 
 [node name="Walls" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/TabContainer" unique_id=379035408]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 5
 
@@ -1683,7 +1684,6 @@ layout_mode = 2
 text = "Soldier"
 
 [node name="Defense" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/TabContainer" unique_id=1888281998]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 7
 
@@ -1701,6 +1701,10 @@ text = "Post
 layout_mode = 2
 text = "Barracks
 "
+
+[node name="Archery" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1578466400]
+layout_mode = 2
+text = "Archery"
 
 [node name="Buildable_Info" type="PanelContainer" parent="GameUI/UI" unique_id=239919168]
 layout_mode = 1
@@ -1852,3 +1856,4 @@ offset_bottom = 40.0
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/WatchTower" to="GameUI/UI/BuildingMenu" method="_on_watch_tower_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Post" to="GameUI/UI/BuildingMenu" method="_on_post_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Barracks" to="GameUI/UI/BuildingMenu" method="_on_barracks_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Archery" to="GameUI/UI/BuildingMenu" method="_on_archery_button_down"]
