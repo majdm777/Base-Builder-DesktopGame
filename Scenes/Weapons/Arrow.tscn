@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bk7erd6m3yo8q"]
+
+[ext_resource type="Script" uid="uid://kam6eehide78" path="res://Scenes/Weapons/arrow.gd" id="1_gi5sg"]
+[ext_resource type="ArrayMesh" uid="uid://bg2d2xpw0vy5n" path="res://Assets/KayKit_Adventurers/Assets/obj/arrow_bow.obj" id="2_omy4n"]
+
+[node name="Arrow" type="Node3D" unique_id=1231040271]
+script = ExtResource("1_gi5sg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=493974557]
+mesh = ExtResource("2_omy4n")

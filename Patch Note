@@ -93,3 +93,6 @@ V1.0.2.15 : add extra cards for each building type
             - V1.0.2.15.2 : added the mine_card
             - V1.0.2.15.3 : added the defense_card
             - V1.0.2.15.4 : added the community_card
+
+V1.0.2.16 : added the archer and the bow . the archer can shoot the enemy from a specific range. also added the archery that specialized for training the archer .
+            also edited the enemy script made him ignores the hits if its curret target is soldier or defenses .
