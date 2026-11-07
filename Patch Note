@@ -96,3 +96,6 @@ V1.0.2.15 : add extra cards for each building type
 
 V1.0.2.16 : added the archer and the bow . the archer can shoot the enemy from a specific range. also added the archery that specialized for training the archer .
             also edited the enemy script made him ignores the hits if its curret target is soldier or defenses .
+
+V1.0.2.17 : added the Priority Post and now soldiers go to their first 
+            - V1.0.2.17.1 : now the gate can be closed and opened

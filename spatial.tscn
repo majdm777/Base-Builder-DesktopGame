@@ -21,6 +21,7 @@
 [ext_resource type="Script" uid="uid://bbbg6a7omjeq6" path="res://gd/army_handle.gd" id="17_f88lv"]
 [ext_resource type="Script" uid="uid://cipfk4huku0ea" path="res://gd/note_handle.gd" id="18_33nm3"]
 [ext_resource type="PackedScene" uid="uid://bf21xg4asrqt6" path="res://Scenes/Interface/notification_card.tscn" id="18_hvh7e"]
+[ext_resource type="PackedScene" uid="uid://cl22oh1ffr2fg" path="res://Scenes/Interface/gate_card.tscn" id="19_sk1fn"]
 [ext_resource type="Script" uid="uid://sj107237pooj" path="res://gd/toast_layer.gd" id="24_1wy7k"]
 [ext_resource type="Script" uid="uid://ce4m7q0yb057y" path="res://gd/Time_Handle.gd" id="24_o3i8t"]
 [ext_resource type="Texture2D" uid="uid://2jtku55genxu" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="25_o3i8t"]
@@ -1466,6 +1467,9 @@ layout_mode = 2
 visible = false
 layout_mode = 2
 
+[node name="PanelContainer" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=782652115 instance=ExtResource("19_sk1fn")]
+layout_mode = 2
+
 [node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]
 visible = false
 layout_mode = 2
@@ -1692,9 +1696,9 @@ layout_mode = 2
 text = "WatchTower
 "
 
-[node name="Post" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=97878566]
+[node name="NormalPost" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=97878566]
 layout_mode = 2
-text = "Post
+text = "Normal Post
 "
 
 [node name="Barracks" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1434387295]
@@ -1705,6 +1709,11 @@ text = "Barracks
 [node name="Archery" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1578466400]
 layout_mode = 2
 text = "Archery"
+
+[node name="PriorityPost" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1402236320]
+layout_mode = 2
+text = "PriorityPost
+"
 
 [node name="Buildable_Info" type="PanelContainer" parent="GameUI/UI" unique_id=239919168]
 layout_mode = 1
@@ -1854,6 +1863,7 @@ offset_bottom = 40.0
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/test/enemy" to="GameUI/UI/BuildingMenu" method="_on_enemy_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/test/Soldier" to="GameUI/UI/BuildingMenu" method="_on_soldier_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/WatchTower" to="GameUI/UI/BuildingMenu" method="_on_watch_tower_button_down"]
-[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Post" to="GameUI/UI/BuildingMenu" method="_on_post_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/NormalPost" to="GameUI/UI/BuildingMenu" method="_on_normal_post_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Barracks" to="GameUI/UI/BuildingMenu" method="_on_barracks_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Archery" to="GameUI/UI/BuildingMenu" method="_on_archery_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/PriorityPost" to="GameUI/UI/BuildingMenu" method="_on_priority_post_button_down"]

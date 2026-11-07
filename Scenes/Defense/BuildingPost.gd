@@ -1,29 +1,30 @@
-class_name Post
+class_name BuildingPost
 extends BuildingObject
 
 @export var capacity : int = 4
 @export var hides_occupants : bool = false   # tower: true, checkpoint: false
-@export var post_group : String = "Post"         # "Tower" or "CheckPoint"
+#@export var post_group : String = "Post"         # "Tower" or "CheckPoint"
 
-var occupants : Array = []
+@export_enum("NORMAL","PRIORITY") var PostType : String = "NORMAL"
+
+var occupants : Array = []  
 var incoming := 0
 var assigning_soldiers := false
 
 func _ready() -> void:
+	super()
 	name = "Normal Post"
 
 func _process(delta: float) -> void:
-	if AttackManager.attack_in_progress and occupants.size() > 0 and not assigning_soldiers:
-		assigning_soldiers = true
-		await assign()
-		assigning_soldiers = false
+	super(delta)
+	_deploy()
 	
 var remaining_spots : int:
 	get: return capacity - occupants.size() - incoming
 
 func runSpawn():
 	await super()
-	add_to_group(post_group)
+	add_to_group("Post")
 	add_to_group("building")    # join only when really placed, so the ghost never counts
 
 func _reserve_slot() -> bool:
@@ -60,3 +61,10 @@ func assign():
 		if is_instance_valid(s):
 			s.on_post_lost()
 			await get_tree().create_timer(1).timeout
+
+func _deploy():
+	if AttackManager.attack_in_progress and occupants.size() > 0 and not assigning_soldiers:
+		assigning_soldiers = true
+		await assign()
+		assigning_soldiers = false
+	pass

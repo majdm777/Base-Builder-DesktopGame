@@ -29,7 +29,6 @@ var Wide_Corner : PackedScene = ResourceLoader.load("res://Scenes/Walls/Stone_Co
 
 
 var WatchTower : PackedScene = ResourceLoader.load("res://Scenes/Defense/WatchTower.tscn")
-var Post : PackedScene = ResourceLoader.load("res://Scenes/Defense/Post.tscn")
 var Barracks : PackedScene = ResourceLoader.load("res://Scenes/Defense/Barracks.tscn")
 
 
@@ -297,7 +296,9 @@ func SpawnWideCorner():
 func SpawnWatchTower():
 	SpawnObj(WatchTower)
 func SpawnPost():
-	SpawnObj(Post)
+	SpawnObj(Packed_Scene.NormalPost)
+func SpawnPriorityPost():
+	SpawnObj(Packed_Scene.PriorityPost)
 func SpawnBarracks():
 	SpawnObj(Barracks)
 func SpawnArchery():

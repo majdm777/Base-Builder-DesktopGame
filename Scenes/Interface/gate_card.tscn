@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://cl22oh1ffr2fg"]
+
+[ext_resource type="Script" uid="uid://dcyjywju3glxw" path="res://Scenes/Interface/gate_card.gd" id="1_v1fbn"]
+
+[node name="PanelContainer" type="PanelContainer" unique_id=782652115]
+script = ExtResource("1_v1fbn")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1313206072]
+layout_mode = 2
+
+[node name="Close" type="Button" parent="HBoxContainer" unique_id=706288841]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Close"
+
+[node name="Open" type="Button" parent="HBoxContainer" unique_id=592151080]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Open
+"
+
+[connection signal="button_down" from="HBoxContainer/Close" to="." method="_on_close_button_down"]
+[connection signal="button_down" from="HBoxContainer/Open" to="." method="_on_open_button_down"]
