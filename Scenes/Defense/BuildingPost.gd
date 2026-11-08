@@ -3,7 +3,7 @@ extends BuildingObject
 
 @export var capacity : int = 4
 @export var hides_occupants : bool = false   # tower: true, checkpoint: false
-#@export var post_group : String = "Post"         # "Tower" or "CheckPoint"
+
 
 @export_enum("NORMAL","PRIORITY","GATE","RANGE") var PostType : String = "NORMAL"
 
