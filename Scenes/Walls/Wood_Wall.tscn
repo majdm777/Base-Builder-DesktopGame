@@ -14,16 +14,18 @@ transform = Transform3D(12, 0, 0, 0, 12, 0, 0, 0, 12, 0, 0, 0)
 script = ExtResource("1_6r32x")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2087051217]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9993888, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9993888, 0.05098931, 0)
 shape = SubResource("ConcavePolygonShape3D_6r32x")
 
 [node name="Node3D" type="Node3D" parent="." unique_id=144694542]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0483843, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Node3D" unique_id=1142070293]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9993888, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9993888, 0.0022563934, 0)
 mesh = ExtResource("1_l1pek")
 
 [node name="Area" type="Area3D" parent="." unique_id=477541099]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05246091, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=1680732800]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0010604858, 0.17437744, 0.0010375977)

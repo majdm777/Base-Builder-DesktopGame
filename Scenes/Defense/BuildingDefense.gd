@@ -33,6 +33,7 @@ func _process(delta: float) -> void:
 	current_target = _pick_target()
 	if current_target == null:
 		return
+	print("ATTACK!")
 	cooldown = attack_interval
 	current_target._damage(damage_per_soldier * occupants.size() , self)
 
@@ -48,6 +49,7 @@ func _pick_target() -> Node3D:
 		if d < nearest_dist:
 			nearest = body
 			nearest_dist = d
+
 	return nearest
 	
 func _occupy(soldier: Node3D) -> bool:

@@ -14,7 +14,7 @@ const JUMP_VELOCITY = 4.5
 @export var SPEED := 17.0
 @export var Health := 100
 @export var soldier :String = "Knight"
-@export var post_priority : Array[String] = ["PRIORITY", "NORMAL"]
+@export var post_priority : Array[String] = ["PRIORITY", "NORMAL","GATE","RANGE"]
 
 @export var attack_damage := 10
 @export var attack_interval := 1.5
@@ -67,7 +67,6 @@ func _process(delta: float) -> void:
 				current_state = State.Walking
 				return
 			pass
-		
 		State.Walking:
 			if is_instance_valid(current_target):
 				if chasing_enemy:
@@ -192,3 +191,8 @@ func _damage(value : int , entity : Node3D) -> bool:
 			#post._cancel_reservation()
 	#GameManager.army[soldier_type] -= 1
 	#queue_free()
+
+func _find_nearest_gate() -> Node3D:
+	var gates := get_tree().get_nodes_in_group("Gate")
+	return _find_nearest(gates)
+	

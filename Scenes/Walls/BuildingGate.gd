@@ -1,10 +1,12 @@
 class_name BuildingGate
-extends BuildingObject
+extends BuildingPost
 
 const GATE_CARD = preload("res://Scenes/Interface/gate_card.tscn")
 var gate_card
 
+
 var is_open : bool = false
+var enemy_at_the_gate = false
 
 var aabb # for the navchunk
 var animation_player
@@ -13,6 +15,7 @@ func _ready() -> void:
 	super()
 	animation_player = $Building/Gate/AnimationPlayer
 	aabb = BuilderManager._building_world_aabb(self)
+	#Gate_Post.runSpawn()
 	pass # Replace with function body.
 
 
@@ -53,3 +56,16 @@ func update_info() -> void:
 	if is_instance_valid(gate_card):
 		gate_card.update()
 	
+	
+func _on_range_body_entered(body: Node3D) -> void:
+	if not spawned:
+		return 
+	if occupants.size() == 0:
+		return
+	if body.is_in_group("Soldier"):
+		_open_gate()
+		await get_tree().create_timer(2).timeout
+		_close_gate()
+	elif  body.is_in_group("Enemy"):
+		_deploy()
+	pass # Replace with function body.

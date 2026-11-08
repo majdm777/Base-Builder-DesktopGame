@@ -83,7 +83,6 @@ func _handle_building_state() -> void:
 			round(cursor_pos.z)
 		)
 		currentSpawnable.ActiveBuildableObject = true
-
 	if AbleToBuild and Can_Afford(currentSpawnable) and GameManager.AvlPopulation >= currentSpawnable.PopulationCost:
 		if Input.is_action_just_pressed("LeftMouseDown") and not _mouse_over_ui():
 			_place_building()
@@ -156,6 +155,7 @@ func _place_building() -> void:
 
 	_get_map_root().add_child(obj)
 	print("Placed object groups: ", obj.get_groups())
+	print(obj,position)
 
 	obj.ActiveBuildableObject = false
 
@@ -303,6 +303,8 @@ func SpawnBarracks():
 	SpawnObj(Barracks)
 func SpawnArchery():
 	SpawnObj(Packed_Scene.Archery)
+func SpawnRangePost():
+	SpawnObj(Packed_Scene.RangePost)
 
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:

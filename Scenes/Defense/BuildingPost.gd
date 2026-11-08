@@ -5,19 +5,21 @@ extends BuildingObject
 @export var hides_occupants : bool = false   # tower: true, checkpoint: false
 #@export var post_group : String = "Post"         # "Tower" or "CheckPoint"
 
-@export_enum("NORMAL","PRIORITY") var PostType : String = "NORMAL"
+@export_enum("NORMAL","PRIORITY","GATE","RANGE") var PostType : String = "NORMAL"
 
 var occupants : Array = []  
 var incoming := 0
 var assigning_soldiers := false
 
+@export var Available : bool = true # if true the post can be occupied 
+
 func _ready() -> void:
 	super()
+	AttackManager.round_started.connect(_on_round_started)
 	name = "Normal Post"
 
 func _process(delta: float) -> void:
 	super(delta)
-	_deploy()
 	
 var remaining_spots : int:
 	get: return capacity - occupants.size() - incoming
@@ -25,10 +27,10 @@ var remaining_spots : int:
 func runSpawn():
 	await super()
 	add_to_group("Post")
-	add_to_group("building")    # join only when really placed, so the ghost never counts
+	add_to_group("building")    # join only when really placed, so thea ghost never counts
 
 func _reserve_slot() -> bool:
-	if not spawned or remaining_spots <= 0:
+	if not spawned or remaining_spots <= 0 or not Available:
 		return false
 	incoming += 1
 	return true
@@ -63,8 +65,11 @@ func assign():
 			await get_tree().create_timer(1).timeout
 
 func _deploy():
-	if AttackManager.attack_in_progress and occupants.size() > 0 and not assigning_soldiers:
+	if occupants.size() > 0 and not assigning_soldiers:
 		assigning_soldiers = true
 		await assign()
 		assigning_soldiers = false
 	pass
+
+func _on_round_started():
+	_deploy()
