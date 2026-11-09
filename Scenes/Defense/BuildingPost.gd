@@ -12,6 +12,7 @@ var incoming := 0
 var assigning_soldiers := false
 
 @export var Available : bool = true # if true the post can be occupied 
+@export var Active := true
 
 func _ready() -> void:
 	super()
@@ -65,7 +66,7 @@ func assign():
 			await get_tree().create_timer(1).timeout
 
 func _deploy():
-	if occupants.size() > 0 and not assigning_soldiers:
+	if occupants.size() > 0 and not assigning_soldiers and Active:
 		assigning_soldiers = true
 		await assign()
 		assigning_soldiers = false
