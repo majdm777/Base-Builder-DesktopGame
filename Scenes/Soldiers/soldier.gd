@@ -14,7 +14,7 @@ const JUMP_VELOCITY = 4.5
 @export var SPEED := 17.0
 @export var Health := 100
 @export var soldier :String = "Knight"
-@export var post_groups : Array[String] = ["Post"]
+@export var post_priority : Array[String] = ["PRIORITY", "NORMAL","GATE","RANGE"]
 
 @export var attack_damage := 10
 @export var attack_interval := 1.5
@@ -67,7 +67,6 @@ func _process(delta: float) -> void:
 				current_state = State.Walking
 				return
 			pass
-		
 		State.Walking:
 			if is_instance_valid(current_target):
 				if chasing_enemy:
@@ -108,15 +107,25 @@ func _process(delta: float) -> void:
 
 
 func _find_post() -> Node3D:
-	for group in post_groups:
+	var posts := get_tree().get_nodes_in_group("Post")
+	for type in post_priority:
 		var best : Node3D = null
 		var best_free := 0
-		for p in get_tree().get_nodes_in_group(group):
-			if is_instance_valid(p) and p.remaining_spots > best_free:
-				best_free = p.remaining_spots
+		var best_dist := INF
+		for p in posts:
+			if not is_instance_valid(p) or p.PostType != type:
+				continue
+			var free : int = p.remaining_spots
+			if free <= 0:
+				continue
+			var d := global_position.distance_to(p.global_position)
+			# emptiest wins, and the nearest breaks ties
+			if free > best_free or (free == best_free and d < best_dist):
 				best = p
+				best_free = free
+				best_dist = d
 		if best != null:
-			return best
+			return best           # the first type that has any room wins, lower types are never looked at
 	return null
 
 func _enemy() -> Node3D:
@@ -182,3 +191,8 @@ func _damage(value : int , entity : Node3D) -> bool:
 			#post._cancel_reservation()
 	#GameManager.army[soldier_type] -= 1
 	#queue_free()
+
+func _find_nearest_gate() -> Node3D:
+	var gates := get_tree().get_nodes_in_group("Gate")
+	return _find_nearest(gates)
+	

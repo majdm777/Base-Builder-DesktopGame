@@ -1,33 +1,39 @@
-class_name Post
+class_name BuildingPost
 extends BuildingObject
 
 @export var capacity : int = 4
 @export var hides_occupants : bool = false   # tower: true, checkpoint: false
-@export var post_group : String = "Post"         # "Tower" or "CheckPoint"
 
-var occupants : Array = []
+const POST_CARD := preload("res://Scenes/Interface/post_card.tscn")
+var post_card
+
+@export_enum("NORMAL","PRIORITY","GATE","RANGE") var PostType : String = "NORMAL"
+
+var occupants : Array = []  
 var incoming := 0
 var assigning_soldiers := false
 
+@export var Available : bool = true # if true the post can be occupied 
+@export var Active := true
+
 func _ready() -> void:
+	super()
+	AttackManager.round_started.connect(_on_round_started)
 	name = "Normal Post"
 
 func _process(delta: float) -> void:
-	if AttackManager.attack_in_progress and occupants.size() > 0 and not assigning_soldiers:
-		assigning_soldiers = true
-		await assign()
-		assigning_soldiers = false
+	super(delta)
 	
 var remaining_spots : int:
 	get: return capacity - occupants.size() - incoming
 
 func runSpawn():
 	await super()
-	add_to_group(post_group)
-	add_to_group("building")    # join only when really placed, so the ghost never counts
+	add_to_group("Post")
+	add_to_group("building")    # join only when really placed, so thea ghost never counts
 
 func _reserve_slot() -> bool:
-	if not spawned or remaining_spots <= 0:
+	if not spawned or remaining_spots <= 0 or not Available:
 		return false
 	incoming += 1
 	return true
@@ -60,3 +66,26 @@ func assign():
 		if is_instance_valid(s):
 			s.on_post_lost()
 			await get_tree().create_timer(1).timeout
+
+func _deploy():
+	if occupants.size() > 0 and not assigning_soldiers and Active:
+		assigning_soldiers = true
+		await assign()
+		assigning_soldiers = false
+	pass
+
+func _on_round_started():
+	_deploy()
+
+func build_info(container: Control) -> void:
+	super(container)
+	post_card = POST_CARD.instantiate()
+	container.add_child(post_card)
+	post_card.setup(self)
+	pass
+ 
+func update_info() -> void:
+	super()
+	if is_instance_valid(post_card):
+		post_card.update()
+	

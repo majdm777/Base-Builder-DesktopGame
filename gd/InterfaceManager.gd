@@ -100,7 +100,7 @@ func _on_watch_tower_button_down() -> void:
 	pass # Replace with function body.
 
 
-func _on_post_button_down() -> void:
+func _on_normal_post_button_down() -> void:
 	BuilderManager.SpawnPost()
 	pass # Replace with function body.
 
@@ -154,4 +154,14 @@ func _on_stone_corner_wide_button_down() -> void:
 
 func _on_archery_button_down() -> void:
 	BuilderManager.SpawnArchery()
+	pass # Replace with function body.
+
+
+func _on_priority_post_button_down() -> void:
+	BuilderManager.SpawnPriorityPost()
+	pass # Replace with function body.
+
+
+func _on_range_post_button_down() -> void:
+	BuilderManager.SpawnRangePost()
 	pass # Replace with function body.

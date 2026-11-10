@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://5fpl0ei2xvpf"]
+
+[ext_resource type="Script" uid="uid://ds2kgdsnxhmd" path="res://Scenes/Defense/BuildingPost.gd" id="1_7i2jw"]
+[ext_resource type="ArrayMesh" uid="uid://3up58a8wuuau" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/tent.obj" id="2_x5v6x"]
+[ext_resource type="ArrayMesh" uid="uid://wtlt54ucvmjr" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/barrel_large_decorated.obj" id="3_u54sk"]
+[ext_resource type="ArrayMesh" uid="uid://bgvx02tlyt8xe" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/torch_lit.obj" id="4_oip74"]
+[ext_resource type="ArrayMesh" uid="uid://cstva5rwl7x51" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/banner_shield_blue.obj" id="5_blmg4"]
+[ext_resource type="ArrayMesh" uid="uid://cx8gb74ddooh7" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/flag_blue.obj" id="6_8vfu6"]
+[ext_resource type="ArrayMesh" uid="uid://c78k7fl5nsx65" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/weaponrack.obj" id="7_ndfdb"]
+[ext_resource type="ArrayMesh" uid="uid://dgr0qatgurnq5" path="res://Assets/KayKit_Adventurers/Assets/obj/sword_1handed.obj" id="8_ppxml"]
+[ext_resource type="ArrayMesh" uid="uid://deyjfea8n8oti" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/bucket_arrows.obj" id="9_fj22i"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wnlh3"]
+size = Vector3(0.51782227, 0.5032654, 0.52233887)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bjyv2"]
+size = Vector3(7.838928, 5.043701, 7.861328)
+
+[node name="Post" type="StaticBody3D" unique_id=693566234 groups=["Post", "building"]]
+script = ExtResource("1_7i2jw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=505872545]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.0036621094, 2.5065613, -0.03967285)
+shape = SubResource("BoxShape3D_wnlh3")
+
+[node name="Main Building" type="Node3D" parent="." unique_id=1564406666]
+
+[node name="Tent" type="MeshInstance3D" parent="Main Building" unique_id=655823454]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+mesh = ExtResource("2_x5v6x")
+
+[node name="barrel" type="MeshInstance3D" parent="Main Building" unique_id=1695926120]
+transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 1.1195931, 0, -1.6469727)
+mesh = ExtResource("3_u54sk")
+
+[node name="Tourch" type="MeshInstance3D" parent="Main Building" unique_id=312911948]
+transform = Transform3D(0.7647763, 0, -0.64429593, -0.15623912, 0.97015256, -0.18545508, 0.6250654, 0.24249586, 0.7419497, 2.1001587, 1.9604797, 2.5807252)
+mesh = ExtResource("4_oip74")
+
+[node name="light" type="OmniLight3D" parent="Main Building" unique_id=587456828]
+transform = Transform3D(0.76477623, -2.6645353e-15, -0.64429605, -0.15623912, 0.9701525, -0.18545505, 0.6250654, 0.24249585, 0.74194956, 2.1001587, 2.6443024, 2.729651)
+light_energy = 3.0
+omni_range = 7.214505
+
+[node name="baner" type="MeshInstance3D" parent="Main Building" unique_id=929763969]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8196468, -0.2921872, 2.1417022)
+mesh = ExtResource("5_blmg4")
+
+[node name="Flag" type="MeshInstance3D" parent="Main Building" unique_id=784522396]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 5.009483, 0)
+mesh = ExtResource("6_8vfu6")
+
+[node name="holder" type="MeshInstance3D" parent="Main Building" unique_id=1450678384]
+transform = Transform3D(4.883015, 0, 5.015592, 0, 7, 0, -5.015592, 0, 4.883015, -1.552124, 0, -1.3139725)
+mesh = ExtResource("7_ndfdb")
+
+[node name="sword" type="MeshInstance3D" parent="Main Building" unique_id=1782663631]
+transform = Transform3D(0.7015419, 0.2699615, -0.6595147, 0.09295576, -0.95222735, -0.29089925, -0.70653975, 0.14277244, -0.6931221, -1.9472656, 1.6256714, -1.0798416)
+mesh = ExtResource("8_ppxml")
+
+[node name="sword1" type="MeshInstance3D" parent="Main Building" unique_id=1602753553]
+transform = Transform3D(0.6525851, 0.037331153, -0.7567952, -0.22290748, -0.9451297, -0.23883468, -0.7241857, 0.32455543, -0.6084564, -1.48703, 1.6256714, -1.5555496)
+mesh = ExtResource("8_ppxml")
+
+[node name="bucket" type="MeshInstance3D" parent="Main Building" unique_id=1648924173]
+transform = Transform3D(4.883015, 0, 5.015592, 0, 7, 0, -5.015592, 0, 4.883015, 2.2808838, 0, -1.3139725)
+mesh = ExtResource("9_fj22i")
+
+[node name="Area" type="Area3D" parent="." unique_id=1386656251]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=580790176]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0035095215, 2.5064697, -0.017578125)
+shape = SubResource("BoxShape3D_bjyv2")

@@ -1,0 +1,126 @@
+[gd_scene format=3 uid="uid://cxwj1x0tit0x2"]
+
+[ext_resource type="Script" uid="uid://bysqhjh8of7ht" path="res://Scenes/Interface/post_card.gd" id="1_01sg1"]
+[ext_resource type="Texture2D" uid="uid://2jtku55genxu" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="1_r1v7a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mti6b"]
+atlas = ExtResource("1_r1v7a")
+region = Rect2(96, 128, 32, 32)
+
+[node name="post_card" type="PanelContainer" unique_id=1492552417]
+theme_type_variation = &"StatPanel"
+script = ExtResource("1_01sg1")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1451951710]
+layout_mode = 2
+
+[node name="Header" type="HBoxContainer" parent="VBoxContainer" unique_id=110279301]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="VBoxContainer/Header" unique_id=2014910700]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Miltary Post"
+
+[node name="State" type="Label" parent="VBoxContainer/Header" unique_id=1208093463]
+layout_mode = 2
+theme_type_variation = &"Active"
+text = "Active"
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer" unique_id=1744756925]
+layout_mode = 2
+
+[node name="PostType" type="HBoxContainer" parent="VBoxContainer" unique_id=223233946]
+layout_mode = 2
+
+[node name="icon" type="TextureRect" parent="VBoxContainer/PostType" unique_id=2023102512]
+layout_mode = 2
+texture = SubResource("AtlasTexture_mti6b")
+
+[node name="VBox" type="VBoxContainer" parent="VBoxContainer/PostType" unique_id=770988022]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Name" type="Label" parent="VBoxContainer/PostType/VBox" unique_id=982129867]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 14
+text = "Normal Post"
+
+[node name="Availability" type="Label" parent="VBoxContainer/PostType/VBox" unique_id=771227364]
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_font_sizes/font_size = 9
+text = "Available for assignment "
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer" unique_id=539525464]
+layout_mode = 2
+
+[node name="HBox" type="HBoxContainer" parent="VBoxContainer" unique_id=431415913]
+layout_mode = 2
+
+[node name="Occupancy" type="Label" parent="VBoxContainer/HBox" unique_id=2082599652]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Occupancy"
+
+[node name="Value" type="Label" parent="VBoxContainer/HBox" unique_id=19410800]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "1/4"
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1858051190]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Soldiers stationed"
+
+[node name="Occupancy" type="HBoxContainer" parent="VBoxContainer" unique_id=1838242558]
+layout_mode = 2
+
+[node name="HBox2" type="HBoxContainer" parent="VBoxContainer" unique_id=1036543133]
+layout_mode = 2
+
+[node name="Incoming" type="Label" parent="VBoxContainer/HBox2" unique_id=805437333]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 9
+text = "incoming soldiers"
+
+[node name="value" type="Label" parent="VBoxContainer/HBox2" unique_id=1340759149]
+layout_mode = 2
+theme_override_font_sizes/font_size = 9
+text = "1"
+
+[node name="HSeparator3" type="HSeparator" parent="VBoxContainer" unique_id=459812447]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1497914828]
+layout_mode = 2
+
+[node name="Active" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=1199605520]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonActive"
+theme_override_font_sizes/font_size = 12
+text = "Activate"
+
+[node name="Available" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=993630651]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonDeactive"
+theme_override_font_sizes/font_size = 12
+text = "Unavialable"
+
+[node name="Deploy" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=2056953800]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonAttention"
+theme_override_font_sizes/font_size = 12
+text = "Deploy"
+
+[connection signal="button_down" from="VBoxContainer/HBoxContainer/Active" to="." method="_on_active_button_down"]
+[connection signal="button_down" from="VBoxContainer/HBoxContainer/Available" to="." method="_on_available_button_down"]
+[connection signal="button_down" from="VBoxContainer/HBoxContainer/Deploy" to="." method="_on_deploy_button_down"]

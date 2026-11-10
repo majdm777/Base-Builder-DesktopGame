@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://b8khwxixwh2cl" path="res://gd/InterfaceManager.gd" id="2_ne8tm"]
 [ext_resource type="ArrayMesh" uid="uid://blmwwxy6hyhc7" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/base/hex_grass_bottom.obj" id="5_7s1p8"]
 [ext_resource type="PackedScene" uid="uid://dg0fq677q3d03" path="res://CastleKeep.tscn" id="5_c07jr"]
+[ext_resource type="ArrayMesh" uid="uid://bq1me8233x2om" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/tiles/base/hex_grass.obj" id="6_pkshj"]
 [ext_resource type="PackedScene" uid="uid://c42aeiyw66dc3" path="res://Scenes/RecourceProducers/Trees/tree.tscn" id="6_u7lc8"]
 [ext_resource type="Script" uid="uid://cuymj1vq36qje" path="res://gd/GameUI_SideMenu.gd" id="7_h2366"]
 [ext_resource type="Theme" uid="uid://rbpdaho5neo2" path="res://Scenes/Interface/ui_theme.tres" id="7_pij2x"]
@@ -28,8 +29,6 @@
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ne8tm"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_c07jr"]
-
 [sub_resource type="Environment" id="Environment_ih4ol"]
 background_mode = 2
 ambient_light_color = Color(0.78775924, 0.78775924, 0.78775924, 1)
@@ -39,8 +38,6 @@ ambient_light_sky_contribution = 0.0
 dof_blur_far_distance = 2375.79
 
 [sub_resource type="Compositor" id="Compositor_7s1p8"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_s8d5f"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_pij2x"]
 vertices = PackedVector3Array(1, 0, 99, 99, 0, 99, 99, 0, 1, 1, 0, 1)
@@ -354,6 +351,7 @@ transform = Transform3D(0.999999, 0.0013292, 0.000135404, -0.00084635, 0.551777,
 
 [node name="Map2" type="StaticBody3D" parent="." unique_id=1556955267 groups=["NavMesh"]]
 transform = Transform3D(0.9999995, -2.2811264e-10, 3.2014214e-10, 3.5380054e-10, 0.9999995, 0, 1.7462298e-10, -3.783498e-10, 0.9999989, 0.103, 0.1, 0.042)
+visible = false
 collision_layer = 3
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Map2" unique_id=601573817]
@@ -367,35 +365,19 @@ shape = SubResource("BoxShape3D_ne8tm")
 [node name="Map" type="Node3D" parent="." unique_id=283358216 groups=["nav_geometry"]]
 
 [node name="CastleKeep" parent="Map" unique_id=1965243952 groups=["NavMesh"] instance=ExtResource("5_c07jr")]
-transform = Transform3D(1.9995985, 1.5191919e-05, 0.040067576, -1.6377984e-05, 1.9999998, 5.9041486e-05, -0.040067576, -5.935767e-05, 1.9995984, 0, 0, 0)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Map/CastleKeep" unique_id=393930494]
-transform = Transform3D(1.70215, 5.70964e-10, 2.32831e-10, 1.84031e-10, 1.8391, 3.49246e-10, 4.65661e-10, -1.74623e-10, 1.96311, 17.1882, 0.0116054, 0.00414438)
-mesh = SubResource("BoxMesh_c07jr")
-
-[node name="Marker3D" type="Marker3D" parent="Map/CastleKeep/MeshInstance3D" unique_id=278450637 groups=["CitizenSpawnPoint"]]
-transform = Transform3D(1, -4.4615e-11, 0, -5.91456e-10, 1, 0, 7.27596e-11, 1.45519e-10, 1, 1.20474, 0.151812, 0.00381828)
-
-[node name="Marker3D2" type="Marker3D" parent="Map/CastleKeep/MeshInstance3D" unique_id=685228633 groups=["CitizenSpawnPoint"]]
-transform = Transform3D(1, -4.46221e-11, 0, -7.07864e-10, 1, 0, 8.73115e-11, 1.74623e-10, 1, -1.34021, 0.148332, 0.00321582)
-
-[node name="Marker3D3" type="Marker3D" parent="Map/CastleKeep/MeshInstance3D" unique_id=1297861826 groups=["CitizenSpawnPoint"]]
-transform = Transform3D(1, -4.46434e-11, 0, -9.40673e-10, 1, 0, 1.45519e-10, 2.32831e-10, 1, -0.0201907, 0.150662, 1.25117)
-
-[node name="Marker3D4" type="Marker3D" parent="Map/CastleKeep/MeshInstance3D" unique_id=1951700019 groups=["CitizenSpawnPoint"]]
-transform = Transform3D(1, -4.46505e-11, 0, -9.40659e-10, 1, 0, 1.74623e-10, 2.61934e-10, 1, -0.0195246, 0.149775, -0.859124)
+transform = Transform3D(1.9995981, 1.5191454e-05, 0.040067565, -1.6377515e-05, 1.999999, 5.9041427e-05, -0.040067565, -5.9357553e-05, 1.9995977, 0, 0, 0)
 
 [node name="Tree_Small" parent="Map" unique_id=2086737538 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.999978, -0.01477491, -0.002736042, 0.01477596, 9.999977, 0.003935586, 0.0027302296, -0.003939626, 9.999979, -171.71732, -0.04410989, -145.85841)
+transform = Transform3D(9.999978, -0.01477491, -0.002736042, 0.01477596, 9.999977, 0.003935586, 0.0027302296, -0.003939626, 9.999979, -171.717, 0, -145.858)
 
 [node name="Tree_Small2" parent="Map" unique_id=1817092831 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.999981, -0.014774911, -0.0027360434, 0.0147759635, 9.99998, 0.003935588, 0.00273023, -0.0039396263, 9.999985, 60.245827, 0.34492713, -28.300999)
+transform = Transform3D(9.999981, -0.014774911, -0.0027360434, 0.0147759635, 9.99998, 0.003935588, 0.00273023, -0.0039396263, 9.999985, 60.246, 0, -28.301)
 
 [node name="Tree_Small3" parent="Map" unique_id=961585219 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.99998, -0.014774911, -0.0027360432, 0.014775963, 9.999979, 0.003935587, 0.0027302299, -0.0039396263, 9.999983, 60.240753, 0.35222152, -9.7664175)
+transform = Transform3D(9.99998, -0.014774911, -0.0027360432, 0.014775963, 9.999979, 0.003935587, 0.0027302299, -0.0039396263, 9.999983, 60.241, 0, -9.766)
 
 [node name="Tree_Small4" parent="Map" unique_id=1791539150 instance=ExtResource("6_u7lc8")]
-transform = Transform3D(9.999978, -0.014774907, -0.0027360423, 0.01477596, 9.999977, 0.0039355857, 0.0027302296, -0.0039396263, 9.999979, 18.598654, 0.02779017, -9.7778635)
+transform = Transform3D(9.999973, -0.014774903, -0.00273604, 0.014775955, 9.999972, 0.003935583, 0.0027302292, -0.0039396253, 9.9999695, 22.334, 0, -9.777)
 
 [node name="Sun" type="DirectionalLight3D" parent="Map" unique_id=285093446]
 transform = Transform3D(0.8660254, 0.38302192, -0.3213938, 5.820766e-11, 0.6427877, 0.7660441, 0.49999973, -0.6634137, 0.55667055, 192.84297, 181.74695, -0.018765196)
@@ -415,18 +397,19 @@ camera_attributes = SubResource("CameraAttributesPractical_7s1p8")
 compositor = SubResource("Compositor_7s1p8")
 
 [node name="terrain" type="StaticBody3D" parent="Map" unique_id=817173769 groups=["NavMesh"]]
-transform = Transform3D(0.99999946, -2.2809843e-10, 3.4924597e-10, 3.5381476e-10, 0.99999946, 0, 1.7462298e-10, -4.0745363e-10, 0.9999988, 0, -0.53, 0)
+transform = Transform3D(0.99999946, 0, 0, 0, 0.99999946, 0, 0, 0, 0.9999988, 0, 0, 0)
 collision_layer = 2
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Map/terrain" unique_id=2130248338]
 transform = Transform3D(500, 0, 0, 0, 0.53, 0, 0, 0, 508.051, 0, 0, 0)
-mesh = SubResource("BoxMesh_s8d5f")
+mesh = ExtResource("6_pkshj")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Map/terrain" unique_id=264632891]
 transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.49012e-08, -5.82077e-11, 508.051, 0, 0, 0)
 shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="Navigation" type="Node3D" parent="Map" unique_id=452769991]
+transform = Transform3D(0.99999994, 4.519052e-12, 2.910383e-11, 4.504841e-12, 0.99999994, 0, 0, -2.910383e-11, 0.9999999, 0, 1, 0)
 
 [node name="chunk_0_0" type="NavigationRegion3D" parent="Map/Navigation" unique_id=547906855]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.07, 0, -254.09)
@@ -1447,7 +1430,6 @@ autowrap_mode = 3
 layout_mode = 2
 
 [node name="EmptyLabel" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=1375948436]
-visible = false
 layout_mode = 2
 size_flags_vertical = 3
 text = "No notifications"
@@ -1692,9 +1674,14 @@ layout_mode = 2
 text = "WatchTower
 "
 
-[node name="Post" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=97878566]
+[node name="NormalPost" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=97878566]
 layout_mode = 2
-text = "Post
+text = "Normal Post
+"
+
+[node name="RangePost" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1648311363]
+layout_mode = 2
+text = "Range Post
 "
 
 [node name="Barracks" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1434387295]
@@ -1705,6 +1692,11 @@ text = "Barracks
 [node name="Archery" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1578466400]
 layout_mode = 2
 text = "Archery"
+
+[node name="PriorityPost" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1402236320]
+layout_mode = 2
+text = "PriorityPost
+"
 
 [node name="Buildable_Info" type="PanelContainer" parent="GameUI/UI" unique_id=239919168]
 layout_mode = 1
@@ -1796,7 +1788,7 @@ text = "Day 07 · August"
 layout_mode = 2
 size_flags_horizontal = 3
 theme_type_variation = &"CardLabel"
-text = "08:31 AM"
+text = "09:42 AM"
 
 [node name="VBox2" type="VBoxContainer" parent="GameUI/UI/Time/VBox/HBox" unique_id=1938765626]
 layout_mode = 2
@@ -1854,6 +1846,8 @@ offset_bottom = 40.0
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/test/enemy" to="GameUI/UI/BuildingMenu" method="_on_enemy_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/test/Soldier" to="GameUI/UI/BuildingMenu" method="_on_soldier_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/WatchTower" to="GameUI/UI/BuildingMenu" method="_on_watch_tower_button_down"]
-[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Post" to="GameUI/UI/BuildingMenu" method="_on_post_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/NormalPost" to="GameUI/UI/BuildingMenu" method="_on_normal_post_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/RangePost" to="GameUI/UI/BuildingMenu" method="_on_range_post_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Barracks" to="GameUI/UI/BuildingMenu" method="_on_barracks_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Archery" to="GameUI/UI/BuildingMenu" method="_on_archery_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/PriorityPost" to="GameUI/UI/BuildingMenu" method="_on_priority_post_button_down"]

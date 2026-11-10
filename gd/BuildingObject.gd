@@ -75,6 +75,8 @@ func run_despawn():
 	queue_free()
 
 func _on_area_area_entered(area: Area3D) -> void:
+	if area.name != "Area":
+		return 
 	if(ActiveBuildableObject):
 		BuilderManager.AbleToBuild = false
 		object.append(area)

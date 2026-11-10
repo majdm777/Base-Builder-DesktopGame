@@ -140,7 +140,7 @@ func _damage(value : int , entity : Node3D) -> bool:
 		return false
 	if not is_instance_valid(entity):
 		return true
-	if (current_target.is_in_group("Soldier") or current_target.is_in_group("Defenses")):
+	if current_target != null and (current_target.is_in_group("Soldier") or current_target.is_in_group("Defenses")):
 		pass
 	else:
 		current_target = entity

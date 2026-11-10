@@ -1,0 +1,31 @@
+extends PanelContainer
+
+
+var Gate : Node
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+
+func setup(gate : Node):
+	Gate = gate
+	update()
+	pass
+	
+func update():
+	if not is_instance_valid(Gate):
+		return
+	
+
+func _on_close_button_down() -> void:
+	Gate._close_gate()
+	pass # Replace with function body.
+
+
+func _on_open_button_down() -> void:
+	Gate._open_gate()
+	pass # Replace with function body.
