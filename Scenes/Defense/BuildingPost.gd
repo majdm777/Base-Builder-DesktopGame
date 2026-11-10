@@ -4,6 +4,8 @@ extends BuildingObject
 @export var capacity : int = 4
 @export var hides_occupants : bool = false   # tower: true, checkpoint: false
 
+const POST_CARD := preload("res://Scenes/Interface/post_card.tscn")
+var post_card
 
 @export_enum("NORMAL","PRIORITY","GATE","RANGE") var PostType : String = "NORMAL"
 
@@ -74,3 +76,16 @@ func _deploy():
 
 func _on_round_started():
 	_deploy()
+
+func build_info(container: Control) -> void:
+	super(container)
+	post_card = POST_CARD.instantiate()
+	container.add_child(post_card)
+	post_card.setup(self)
+	pass
+ 
+func update_info() -> void:
+	super()
+	if is_instance_valid(post_card):
+		post_card.update()
+	

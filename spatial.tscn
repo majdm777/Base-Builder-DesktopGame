@@ -22,7 +22,6 @@
 [ext_resource type="Script" uid="uid://bbbg6a7omjeq6" path="res://gd/army_handle.gd" id="17_f88lv"]
 [ext_resource type="Script" uid="uid://cipfk4huku0ea" path="res://gd/note_handle.gd" id="18_33nm3"]
 [ext_resource type="PackedScene" uid="uid://bf21xg4asrqt6" path="res://Scenes/Interface/notification_card.tscn" id="18_hvh7e"]
-[ext_resource type="PackedScene" uid="uid://cxwj1x0tit0x2" path="res://Scenes/Interface/post_card.tscn" id="20_pkshj"]
 [ext_resource type="Script" uid="uid://sj107237pooj" path="res://gd/toast_layer.gd" id="24_1wy7k"]
 [ext_resource type="Script" uid="uid://ce4m7q0yb057y" path="res://gd/Time_Handle.gd" id="24_o3i8t"]
 [ext_resource type="Texture2D" uid="uid://2jtku55genxu" path="res://Assets/Icon/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="25_o3i8t"]
@@ -1431,7 +1430,6 @@ autowrap_mode = 3
 layout_mode = 2
 
 [node name="EmptyLabel" type="Label" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=1375948436]
-visible = false
 layout_mode = 2
 size_flags_vertical = 3
 text = "No notifications"
@@ -1448,9 +1446,6 @@ layout_mode = 2
 
 [node name="NotificationCard2" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox/List" unique_id=714346231 instance=ExtResource("18_hvh7e")]
 visible = false
-layout_mode = 2
-
-[node name="post_card" parent="GameUI/UI/SideMenu/TabContainer/note/Margin/VBox" unique_id=1492552417 instance=ExtResource("20_pkshj")]
 layout_mode = 2
 
 [node name="Info" type="ScrollContainer" parent="GameUI/UI/SideMenu/TabContainer" unique_id=43090114]

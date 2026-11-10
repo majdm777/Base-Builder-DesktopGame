@@ -100,4 +100,4 @@ V1.0.2.16 : added the archer and the bow . the archer can shoot the enemy from a
 V1.0.2.17 : added the Priority Post and now soldiers go to their first 
             - V1.0.2.17.1 : now the gate can be closed and opened
             - V1.0.2.17.2 : added the gatepost and rangepost that deploy the troops when the enemy enters its range 
-            
+            - added the post_card

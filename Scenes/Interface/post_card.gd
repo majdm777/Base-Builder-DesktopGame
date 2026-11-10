@@ -36,8 +36,20 @@ func setup(post:Node):
 func update():
 	if not is_instance_valid(Post):
 		return
-	OccupancyValue.text = str(Post.occupants.size) + "/" + str(Post.capacity)
+	OccupancyValue.text = str(Post.occupants.size()) + "/" + str(Post.capacity)
 	IncomingValue.text = str(Post.incoming)
+	
+	for i in Occupancy.get_children():
+		i.queue_free()
+		
+	for i in Post.occupants.size():
+		var cr = get_ColorRect(true)
+		Occupancy.add_child(cr)
+		pass
+	for y in (Post.capacity - Post.occupants.size()):
+		var cr = get_ColorRect(false)
+		Occupancy.add_child(cr)
+		pass
 	
 	pass
 
@@ -64,16 +76,16 @@ func _on_active_button_down() -> void:
 		return
 	if Post.Active:
 		Post.Active = false
-		State.Text = "Inactive"
+		State.text = "Inactive"
 		State.theme_type_variation = "Inactive"
 		$VBoxContainer/HBoxContainer/Active.text = "Activate"
-		$VBoxContainer/HBoxContainer/Active.theme_type_variation = "ButtonDeactive"
+		$VBoxContainer/HBoxContainer/Active.theme_type_variation = "ButtonActive"
 	else:
 		Post.Active = true
-		State.Text = "Active"
+		State.text = "Active"
 		State.theme_type_variation = "Active"
 		$VBoxContainer/HBoxContainer/Active.text = "Deactivate"
-		$VBoxContainer/HBoxContainer/Active.theme_type_variation = "ButtonActivate"
+		$VBoxContainer/HBoxContainer/Active.theme_type_variation = "ButtonUnactive"
 	pass # Replace with function body.
 
 
@@ -84,10 +96,14 @@ func _on_available_button_down() -> void:
 		return
 	if Post.Available:
 		Post.Available = false
-		Availability.Text = "Unavailable for assignment"
+		Availability.text = "Available for assignment"
+		$VBoxContainer/HBoxContainer/Available.text = "Unavailable"
+		$VBoxContainer/HBoxContainer/Available.theme_type_variation = "ButtonDeactive"
 	else:
 		Post.Available = true
-		Availability.Text = "Available for assignment"
+		Availability.text = "Unavailable for assignment"
+		$VBoxContainer/HBoxContainer/Available.text = "Available"
+		$VBoxContainer/HBoxContainer/Available.theme_type_variation = "ButtonActive"
 	pass # Replace with function body.
 
 
