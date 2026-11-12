@@ -10,7 +10,7 @@ var defense_card
 var dps : float = 0
 
 @onready var detection_area : Area3D = $Range
-
+@export_enum("WatchTower") var DefenseType : String = "WatchTower"
 var occupants : Array
 var cooldown := 0.0
 
