@@ -61,6 +61,12 @@ func _process(delta: float) -> void:
 				navigation.target_position = current_target.global_position
 				current_state = State.Walking
 				return
+			current_target = _find_Defenses()
+			if current_target != null and current_target._reserve_slot():
+				chasing_enemy = false
+				navigation.target_position = current_target.global_position
+				current_state = State.Walking
+				return
 			current_target = _find_post()
 			if current_target != null and current_target._reserve_slot():
 				chasing_enemy = false
@@ -121,6 +127,8 @@ func _find_Defenses()-> Node3D:
 	for type in defense_priority:
 		var typed := defenses.filter(func(p): return is_instance_valid(p) and p.DefenseType == type)
 		var best := _emptiest(typed)
+		if best != null:
+			return best
 		pass
 	return null
 
