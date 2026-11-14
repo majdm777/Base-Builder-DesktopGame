@@ -20,7 +20,7 @@ text = "Defense Details"
 
 [node name="State" type="Label" parent="Card/header" unique_id=477317840]
 layout_mode = 2
-theme_type_variation = &"Inactive"
+theme_type_variation = &"Active"
 text = "Active"
 
 [node name="HSeparator" type="HSeparator" parent="Card" unique_id=926217619]
@@ -29,10 +29,22 @@ layout_mode = 2
 [node name="CombatStat" type="VBoxContainer" parent="Card" unique_id=1214581275]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="Card/CombatStat" unique_id=1009399479]
+[node name="HBoxContainer" type="HBoxContainer" parent="Card/CombatStat" unique_id=1590722463]
 layout_mode = 2
+
+[node name="Label" type="Label" parent="Card/CombatStat/HBoxContainer" unique_id=1009399479]
+layout_mode = 2
+size_flags_horizontal = 3
 theme_override_colors/font_color = Color(0.99609375, 0.99609375, 0.99609375, 1)
 text = "Combat statistics"
+
+[node name="Availability" type="Label" parent="Card/CombatStat/HBoxContainer" unique_id=1977407087]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_type_variation = &"Active"
+theme_override_colors/font_color = Color(0.99609375, 0.99609375, 0.99609375, 1)
+theme_override_font_sizes/font_size = 14
+text = "Open"
 
 [node name="TotalDamage" type="Label" parent="Card/CombatStat" unique_id=121367793]
 layout_mode = 2
@@ -134,3 +146,31 @@ visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 9
 text = "tower is empty"
+
+[node name="Button" type="HBoxContainer" parent="Card" unique_id=191159404]
+layout_mode = 2
+
+[node name="Activate" type="Button" parent="Card/Button" unique_id=1648691657]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonDeactive"
+theme_override_font_sizes/font_size = 12
+text = "Deactivate"
+
+[node name="Available" type="Button" parent="Card/Button" unique_id=199562857]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonDeactive"
+theme_override_font_sizes/font_size = 12
+text = "Close"
+
+[node name="Deploy" type="Button" parent="Card/Button" unique_id=1759814762]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"ButtonAttention"
+theme_override_font_sizes/font_size = 12
+text = "Deploy"
+
+[connection signal="button_down" from="Card/Button/Activate" to="." method="_on_activate_button_down"]
+[connection signal="button_down" from="Card/Button/Available" to="." method="_on_available_button_down"]
+[connection signal="button_down" from="Card/Button/Deploy" to="." method="_on_deploy_button_down"]

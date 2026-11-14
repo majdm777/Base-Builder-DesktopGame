@@ -115,3 +115,7 @@ func demolish() -> void:
 	var aabb := BuilderManager._building_world_aabb(self)   # capture before it is freed
 	run_despawn()
 	BuilderManager._handle_navchunk(aabb) 
+
+func _get_SpawnPoint() -> Vector3:
+	var sp = get_node_or_null("SpawnPoint")
+	return sp.global_position if sp else global_position

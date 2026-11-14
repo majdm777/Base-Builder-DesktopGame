@@ -64,7 +64,7 @@ func _process(delta: float) -> void:
 			current_target = _find_Defenses()
 			if current_target != null and current_target._reserve_slot():
 				chasing_enemy = false
-				navigation.target_position = current_target.global_position
+				navigation.target_position = current_target._get_SpawnPoint()
 				current_state = State.Walking
 				return
 			current_target = _find_post()

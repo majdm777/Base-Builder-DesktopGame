@@ -409,7 +409,7 @@ transform = Transform3D(500, 2.99032e-11, 0, 2.22255e-07, 0.53, 1.49012e-08, 1.4
 shape = SubResource("BoxShape3D_ne8tm")
 
 [node name="Navigation" type="Node3D" parent="Map" unique_id=452769991]
-transform = Transform3D(0.99999994, 4.519052e-12, 2.910383e-11, 4.504841e-12, 0.99999994, 0, 0, -2.910383e-11, 0.9999999, 0, 1, 0)
+transform = Transform3D(0.99999976, -1.1185364e-10, 1.1641532e-10, 1.2095569e-10, 0.99999976, 0, 5.820766e-11, -1.4551915e-10, 0.9999995, 0.001, 0.05, 0)
 
 [node name="chunk_0_0" type="NavigationRegion3D" parent="Map/Navigation" unique_id=547906855]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250.07, 0, -254.09)
