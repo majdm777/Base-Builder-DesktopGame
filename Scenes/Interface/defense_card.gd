@@ -86,13 +86,13 @@ func _on_available_button_down() -> void:
 	if Defense.Available:
 		Defense.Available = false
 		Availability.text = "Opened"
-		Availability.theme_type_variation = "ButtonActive"
+		Availability.theme_type_variation = "Active"
 		$Card/Button/Available.text = "close"
 		$Card/Button/Available.theme_type_variation = "ButtonDeactive"
 	else:
 		Defense.Available = true
 		Availability.text = "Closed"
-		Availability.theme_type_variation = "ButtonDeactive"
+		Availability.theme_type_variation = "Inactive"
 		$Card/Button/Available.text = "open"
 		$Card/Button/Available.theme_type_variation = "ButtonActive"
 	pass # Replace with function body.
