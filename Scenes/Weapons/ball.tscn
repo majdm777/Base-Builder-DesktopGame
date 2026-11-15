@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://1tok4p4mh4m5"]
+
+[ext_resource type="Script" uid="uid://nx2wpdf3caav" path="res://Scenes/Weapons/ball.gd" id="1_25agt"]
+[ext_resource type="ArrayMesh" uid="uid://rmicmt6igacp" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/neutral/projectile_catapult.obj" id="1_tl1a2"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ds531"]
+radius = 0.8250972
+
+[node name="Ball" type="Node3D" unique_id=2029860819]
+script = ExtResource("1_25agt")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1516686375]
+mesh = ExtResource("1_tl1a2")
+
+[node name="Area" type="Area3D" parent="." unique_id=2097882587]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=1622689473]
+shape = SubResource("SphereShape3D_ds531")

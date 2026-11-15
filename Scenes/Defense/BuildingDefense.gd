@@ -4,7 +4,7 @@ extends BuildingObject
 const DEFENSE_CARD := preload("res://Scenes/Interface/defense_card.tscn")
 
 
-@export_enum("WatchTower") var DefenseType : String = "WatchTower"
+@export_enum("WatchTower","Catapult") var DefenseType : String = "WatchTower"
 @export var capacity : int = 4
 @export var damage_per_soldier : int = 15
 @export var attack_interval : float = 1.0
