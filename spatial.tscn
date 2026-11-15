@@ -1674,6 +1674,11 @@ layout_mode = 2
 text = "WatchTower
 "
 
+[node name="CatapultTower" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=1474761783]
+layout_mode = 2
+text = "CatapultTower
+"
+
 [node name="NormalPost" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Defense" unique_id=97878566]
 layout_mode = 2
 text = "Normal Post
@@ -1846,6 +1851,7 @@ offset_bottom = 40.0
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/test/enemy" to="GameUI/UI/BuildingMenu" method="_on_enemy_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/test/Soldier" to="GameUI/UI/BuildingMenu" method="_on_soldier_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/WatchTower" to="GameUI/UI/BuildingMenu" method="_on_watch_tower_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/CatapultTower" to="GameUI/UI/BuildingMenu" method="_on_catapult_tower_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/NormalPost" to="GameUI/UI/BuildingMenu" method="_on_normal_post_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/RangePost" to="GameUI/UI/BuildingMenu" method="_on_range_post_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Defense/Barracks" to="GameUI/UI/BuildingMenu" method="_on_barracks_button_down"]

@@ -31,7 +31,7 @@ var remaining_spots : int:
 
 func _process(delta: float) -> void:
 	super(delta)
-	if not spawned or not Active:
+	if not spawned or not Active or not _can_fire():
 		return
 	cooldown -= delta
 	if cooldown > 0.0:
@@ -128,3 +128,6 @@ func update_info() -> void:
 	super()
 	if is_instance_valid(defense_card):
 		defense_card.update()
+
+func _can_fire() -> bool:
+	return true

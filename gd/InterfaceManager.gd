@@ -165,3 +165,7 @@ func _on_priority_post_button_down() -> void:
 func _on_range_post_button_down() -> void:
 	BuilderManager.SpawnRangePost()
 	pass # Replace with function body.
+
+func _on_catapult_tower_button_down() -> void:
+	BuilderManager.SpawnCatapultTower()
+	pass # Replace with function body.

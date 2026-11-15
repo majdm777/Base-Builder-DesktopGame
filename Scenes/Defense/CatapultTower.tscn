@@ -215,6 +215,10 @@ radius = 5.010254
 [node name="CatapultTower" type="StaticBody3D" unique_id=388174377 groups=["Defenses", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_wsujw")
+capacity = 2
+damage_per_soldier = 50
+attack_interval = 10.0
+shoot_height = 23.0
 
 [node name="building_tower_catapult_blue" type="Node3D" parent="." unique_id=1318375593]
 
@@ -233,7 +237,7 @@ mesh = SubResource("ArrayMesh_w8dyh")
 skeleton = NodePath("")
 
 [node name="catapult_arm_blue" type="MeshInstance3D" parent="building_tower_catapult_blue/building_tower_catapult_blue/catapult_turret_blue" unique_id=1870712164]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00069999933, 0.0039999997)
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0006999993, 0.0039999997)
 mesh = SubResource("ArrayMesh_ah7it")
 skeleton = NodePath("")
 
