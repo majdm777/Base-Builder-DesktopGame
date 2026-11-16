@@ -10,6 +10,7 @@ const CEMPTY= "#493A2B"
 @onready var Dps := $Card/CombatStat/RowStat2/Dps/Value
 @onready var AttackRange := $Card/CombatStat/RowStat2/Range/Value
 @onready var TotalDamage := $Card/CombatStat/TotalDamage
+@onready var Availability := $Card/CombatStat/HBoxContainer/Availability
 
 @onready var Capacity := $Card/Garrison/Capacity/Value
 
@@ -31,19 +32,10 @@ func setup(defense : Node):
 func update():
 	if not is_instance_valid(Defense):
 		return
-	if Defense.occupants.size() == 0:
-		State.text ="Inactive"
-		State.theme_type_variation ="Inactive"
-		info.visible = true
-		info.text = "Tower Is Empty"
-	else:
-		State.text ="Active"
-		State.theme_type_variation ="Active"
-		info.visible = false
 		
 	DamagePerSoldier.text =str(Defense.damage_per_soldier)
 	AttackInterval.text = str(Defense.attack_interval)
-	Dps.text = str(Defense.dps)
+	Dps.text = str(Defense.get_dps())
 	AttackRange.text = "--"
 	
 	Capacity.text = str(Defense.occupants.size())+"/"+str(Defense.capacity)
@@ -69,3 +61,45 @@ func get_ColorRect(taken : bool) -> ColorRect:
 	cr.custom_minimum_size.y = 6
 	cr.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	return cr
+
+
+func _on_activate_button_down() -> void:
+	if not is_instance_valid(Defense):
+		return
+	if Defense.Active:
+		Defense.Active = false
+		State.text = "Inactive"
+		State.theme_type_variation = "Inactive"
+		$Card/Button/Activate.text = "Activate"
+		$Card/Button/Activate.theme_type_variation = "ButtonActive"
+	else:
+		Defense.Active = true
+		State.text = "Active"
+		State.theme_type_variation = "Active"
+		$Card/Button/Activate.text = "Deactivate"
+		$Card/Button/Activate.theme_type_variation = "ButtonDeactive"
+
+
+func _on_available_button_down() -> void:
+	if not is_instance_valid(Defense):
+		return
+	if Defense.Available:
+		Defense.Available = false
+		Availability.text = "Opened"
+		Availability.theme_type_variation = "Active"
+		$Card/Button/Available.text = "close"
+		$Card/Button/Available.theme_type_variation = "ButtonDeactive"
+	else:
+		Defense.Available = true
+		Availability.text = "Closed"
+		Availability.theme_type_variation = "Inactive"
+		$Card/Button/Available.text = "open"
+		$Card/Button/Available.theme_type_variation = "ButtonActive"
+	pass # Replace with function body.
+
+
+func _on_deploy_button_down() -> void:
+	if not is_instance_valid(Defense):
+		return
+	Defense._deploy()
+	pass # Replace with function body.

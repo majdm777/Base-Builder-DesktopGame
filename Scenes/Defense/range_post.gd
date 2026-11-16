@@ -18,6 +18,5 @@ func _on_round_started():
 
 func _on_range_body_entered(body: Node3D) -> void:
 	if body.is_in_group("Enemy"):
-		print("Majd")
 		_deploy()
 	pass # Replace with function body.

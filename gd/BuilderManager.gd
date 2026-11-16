@@ -305,6 +305,8 @@ func SpawnArchery():
 	SpawnObj(Packed_Scene.Archery)
 func SpawnRangePost():
 	SpawnObj(Packed_Scene.RangePost)
+func SpawnCatapultTower():
+	SpawnObj(Packed_Scene.CatapultTower)
 
 func SpawnObj(obj: PackedScene):
 	if currentSpawnable:

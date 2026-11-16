@@ -85,9 +85,8 @@ func _on_active_button_down() -> void:
 		State.text = "Active"
 		State.theme_type_variation = "Active"
 		$VBoxContainer/HBoxContainer/Active.text = "Deactivate"
-		$VBoxContainer/HBoxContainer/Active.theme_type_variation = "ButtonUnactive"
+		$VBoxContainer/HBoxContainer/Active.theme_type_variation = "ButtonDeactive"
 	pass # Replace with function body.
-
 
 
 func _on_available_button_down() -> void:

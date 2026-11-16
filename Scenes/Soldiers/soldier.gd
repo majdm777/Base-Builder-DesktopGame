@@ -15,9 +15,13 @@ const JUMP_VELOCITY = 4.5
 @export var Health := 100
 @export var soldier :String = "Knight"
 @export var post_priority : Array[String] = ["PRIORITY", "NORMAL","GATE","RANGE"]
+@export var defense_priority : Array[String] = ["WatchTower"]     # knight: empty, archer: ["Defense"]
 
 @export var attack_damage := 10
 @export var attack_interval := 1.5
+
+@export var turn_speed := 10.0         # higher = snappier turning
+@export var forward_offset := 0.0      # set to PI if the model walks backwards
 
 var dps : float = attack_damage / max(0.1 , attack_interval)
 
@@ -30,6 +34,8 @@ var current_target = null
 
 @onready var attack_area : Area3D = $AttackRange
 @onready var navigation : NavigationAgent3D = $NavigationAgent3D
+
+
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -40,9 +46,14 @@ func _physics_process(delta: float) -> void:
 			var direction = global_position.direction_to(targetPos)
 			velocity.x = direction.x * SPEED
 			velocity.z = direction.z * SPEED
+			_face(direction, delta)                       # face where we are going
 		else:
 			velocity.x = 0
 			velocity.z = 0
+	elif current_state == State.Attacking and is_instance_valid(current_target):
+		velocity.x = 0
+		velocity.z = 0
+		_face(current_target.global_position - global_position, delta)   # face the enemy
 	else:
 		velocity.x = 0
 		velocity.z = 0
@@ -58,6 +69,12 @@ func _process(delta: float) -> void:
 			if current_target != null:
 				chasing_enemy = true
 				navigation.target_position = current_target.global_position
+				current_state = State.Walking
+				return
+			current_target = _find_Defenses()
+			if current_target != null and current_target._reserve_slot():
+				chasing_enemy = false
+				navigation.target_position = current_target._get_SpawnPoint()
 				current_state = State.Walking
 				return
 			current_target = _find_post()
@@ -109,24 +126,39 @@ func _process(delta: float) -> void:
 func _find_post() -> Node3D:
 	var posts := get_tree().get_nodes_in_group("Post")
 	for type in post_priority:
-		var best : Node3D = null
-		var best_free := 0
-		var best_dist := INF
-		for p in posts:
-			if not is_instance_valid(p) or p.PostType != type:
-				continue
-			var free : int = p.remaining_spots
-			if free <= 0:
-				continue
-			var d := global_position.distance_to(p.global_position)
-			# emptiest wins, and the nearest breaks ties
-			if free > best_free or (free == best_free and d < best_dist):
-				best = p
-				best_free = free
-				best_dist = d
+		var typed := posts.filter(func(p): return is_instance_valid(p) and p.PostType == type)
+		var best := _emptiest(typed)
 		if best != null:
-			return best           # the first type that has any room wins, lower types are never looked at
+			return best
 	return null
+
+func _find_Defenses()-> Node3D:
+	var defenses := get_tree().get_nodes_in_group("Defenses")
+	for type in defense_priority:
+		var typed := defenses.filter(func(p): return is_instance_valid(p) and p.DefenseType == type)
+		var best := _emptiest(typed)
+		if best != null:
+			return best
+		pass
+	return null
+
+# most free slots wins, the nearest breaks ties
+func _emptiest(candidates: Array) -> Node3D:
+	var best : Node3D = null
+	var best_free := 0
+	var best_dist := INF
+	for c in candidates:
+		if not is_instance_valid(c):
+			continue
+		var free : int = c.remaining_spots
+		if free <= 0:
+			continue
+		var d := global_position.distance_to(c.global_position)
+		if free > best_free or (free == best_free and d < best_dist):
+			best = c
+			best_free = free
+			best_dist = d
+	return best
 
 func _enemy() -> Node3D:
 	var enemies = get_tree().get_nodes_in_group("Enemy")
@@ -196,3 +228,9 @@ func _find_nearest_gate() -> Node3D:
 	var gates := get_tree().get_nodes_in_group("Gate")
 	return _find_nearest(gates)
 	
+func _face(direction: Vector3, delta: float) -> void:
+	direction.y = 0.0
+	if direction.length() < 0.01:
+		return                                      # nothing to face
+	var target_yaw := atan2(direction.x, direction.z) + forward_offset
+	rotation.y = lerp_angle(rotation.y, target_yaw, clamp(turn_speed * delta, 0.0, 1.0))

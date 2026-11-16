@@ -2,42 +2,55 @@ class_name BuildingDefense
 extends BuildingObject
 
 const DEFENSE_CARD := preload("res://Scenes/Interface/defense_card.tscn")
-var defense_card
 
+
+@export_enum("WatchTower","Catapult") var DefenseType : String = "WatchTower"
 @export var capacity : int = 4
 @export var damage_per_soldier : int = 15
 @export var attack_interval : float = 1.0
-var dps : float = 0
+@export var shoot_height := 16.0
+@export var hides_occupants : bool = true
+@export var Available : bool = true    # can soldiers be assigned here
+@export var Active := true             # does it shoot
+
+var defense_card
+var occupants : Array = []
+var incoming := 0
+var cooldown := 0.0
+var current_target : Node3D = null
 
 @onready var detection_area : Area3D = $Range
 
-var occupants : Array
-var cooldown := 0.0
-
-var current_target
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	super() # Replace with function body.
-	name = "Defense"
-	dps = (damage_per_soldier * occupants.size()) / max(0.1 , attack_interval)
+# a ghost or a closed tower never reports free slots
+var remaining_spots : int:
+	get:
+		if not spawned or not Available:
+			return 0
+		return capacity - occupants.size() - incoming
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	super(delta)
-	if not spawned: # or# archers.size() == 0:
+	if not spawned or not Active or not _can_fire():
 		return
 	cooldown -= delta
 	if cooldown > 0.0:
 		return
+	_clean_occupants()
+	if occupants.is_empty():
+		return
 	current_target = _pick_target()
 	if current_target == null:
 		return
-	print("ATTACK!")
 	cooldown = attack_interval
-	current_target._damage(damage_per_soldier * occupants.size() , self)
+	_attack()
 
 
+func get_dps() -> float:
+	return damage_per_soldier * occupants.size() / max(0.1, attack_interval)
+
+
+# ---------------- Combat ----------------
 
 func _pick_target() -> Node3D:
 	var nearest : Node3D = null
@@ -49,29 +62,72 @@ func _pick_target() -> Node3D:
 		if d < nearest_dist:
 			nearest = body
 			nearest_dist = d
-
 	return nearest
-	
+
+
+func _attack() -> void:
+	pass
+
+
+# ---------------- Garrison ----------------
+
+func _reserve_slot() -> bool:
+	if remaining_spots <= 0:
+		return false
+	incoming += 1
+	return true
+
+
+func _cancel_reservation() -> void:
+	incoming = maxi(incoming - 1, 0)
+
+
 func _occupy(soldier: Node3D) -> bool:
-	if occupants.size() < capacity:
-		occupants.append(soldier)
-		return true
-	return false
-func run_despawn():
-	for i in occupants:
-		pass  # survivors go back to the free pool
+	incoming = maxi(incoming - 1, 0)
+	if occupants.size() >= capacity:
+		return false
+	occupants.append(soldier)
+	soldier.visible = not hides_occupants
+	return true
+
+
+func _leave(soldier: Node3D) -> void:         # call this from the soldier's death code
+	occupants.erase(soldier)
+
+
+func _clean_occupants() -> void:               # safety net for freed nodes
+	occupants = occupants.filter(func(s): return is_instance_valid(s))
+
+
+func _release_all() -> void:
+	for s in occupants.duplicate():
+		if is_instance_valid(s):
+			s.on_post_lost()
 	occupants.clear()
+
+
+func _deploy() -> void:
+	_release_all()
+
+
+func run_despawn():
+	_release_all()
 	super()
+
+
+# ---------------- Info panel ----------------
 
 func build_info(container: Control) -> void:
 	super(container)
 	defense_card = DEFENSE_CARD.instantiate()
 	container.add_child(defense_card)
 	defense_card.setup(self)
-	pass
- 
+
+
 func update_info() -> void:
 	super()
 	if is_instance_valid(defense_card):
 		defense_card.update()
-	
+
+func _can_fire() -> bool:
+	return true

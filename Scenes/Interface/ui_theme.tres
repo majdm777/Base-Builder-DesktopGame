@@ -81,6 +81,18 @@ corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nn8d8"]
+bg_color = Color(0.22352941, 0.4862745, 0.33333334, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.14117648, 0.36078432, 0.23921569, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6vnta"]
 bg_color = Color(0.72156864, 0.4509804, 0.16862746, 1)
 border_width_left = 1
@@ -124,6 +136,18 @@ border_width_top = 1
 border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0.6, 0.26666668, 0.2784314, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jyaxc"]
+bg_color = Color(0.6, 0.26666668, 0.2784314, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.4627451, 0.18431373, 0.19607843, 1)
 corner_radius_top_left = 10
 corner_radius_top_right = 10
 corner_radius_bottom_right = 10
@@ -466,8 +490,10 @@ Button/styles/pressed = SubResource("StyleBoxFlat_gjuqw")
 ButtonActive/base_type = &"Button"
 ButtonActive/colors/font_color = Color(1, 1, 1, 1)
 ButtonActive/colors/font_hover_color = Color(1, 1, 1, 1)
+ButtonActive/colors/font_pressed_color = Color(1, 1, 1, 1)
 ButtonActive/styles/hover = SubResource("StyleBoxFlat_mti6b")
 ButtonActive/styles/normal = SubResource("StyleBoxFlat_qd0u1")
+ButtonActive/styles/pressed = SubResource("StyleBoxFlat_nn8d8")
 ButtonAttention/base_type = &"Button"
 ButtonAttention/colors/font_color = Color(1, 1, 1, 1)
 ButtonAttention/colors/font_hover_color = Color(1, 1, 1, 1)
@@ -478,6 +504,7 @@ ButtonDeactive/colors/font_color = Color(1, 1, 1, 1)
 ButtonDeactive/colors/font_hover_color = Color(1, 1, 1, 1)
 ButtonDeactive/styles/hover = SubResource("StyleBoxFlat_62yky")
 ButtonDeactive/styles/normal = SubResource("StyleBoxFlat_mm1bc")
+ButtonDeactive/styles/pressed = SubResource("StyleBoxFlat_jyaxc")
 CardLabel/base_type = &"Label"
 CardLabel/colors/font_color = Color(0.18039216, 0.12156863, 0.07058824, 1)
 ChipPanel/base_type = &"PanelContainer"
