@@ -65,7 +65,6 @@ func _attack() -> void:
 			_fire_ball()
 
 	animator.play("re-load")
-	await animator.animation_finished
 	can_fire = true
 
 

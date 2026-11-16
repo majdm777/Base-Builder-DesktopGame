@@ -20,6 +20,9 @@ const JUMP_VELOCITY = 4.5
 @export var attack_damage := 10
 @export var attack_interval := 1.5
 
+@export var turn_speed := 10.0         # higher = snappier turning
+@export var forward_offset := 0.0      # set to PI if the model walks backwards
+
 var dps : float = attack_damage / max(0.1 , attack_interval)
 
 var chasing_enemy := false
@@ -31,6 +34,8 @@ var current_target = null
 
 @onready var attack_area : Area3D = $AttackRange
 @onready var navigation : NavigationAgent3D = $NavigationAgent3D
+
+
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -41,9 +46,14 @@ func _physics_process(delta: float) -> void:
 			var direction = global_position.direction_to(targetPos)
 			velocity.x = direction.x * SPEED
 			velocity.z = direction.z * SPEED
+			_face(direction, delta)                       # face where we are going
 		else:
 			velocity.x = 0
 			velocity.z = 0
+	elif current_state == State.Attacking and is_instance_valid(current_target):
+		velocity.x = 0
+		velocity.z = 0
+		_face(current_target.global_position - global_position, delta)   # face the enemy
 	else:
 		velocity.x = 0
 		velocity.z = 0
@@ -218,3 +228,9 @@ func _find_nearest_gate() -> Node3D:
 	var gates := get_tree().get_nodes_in_group("Gate")
 	return _find_nearest(gates)
 	
+func _face(direction: Vector3, delta: float) -> void:
+	direction.y = 0.0
+	if direction.length() < 0.01:
+		return                                      # nothing to face
+	var target_yaw := atan2(direction.x, direction.z) + forward_offset
+	rotation.y = lerp_angle(rotation.y, target_yaw, clamp(turn_speed * delta, 0.0, 1.0))
