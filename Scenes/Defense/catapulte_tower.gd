@@ -6,7 +6,10 @@ const BALL := preload("res://Scenes/Weapons/ball.tscn")
 @export var splash_radius := 6.0
 @export var ball_speed := 25.0
 @export var Damage := 50
+@export var rotation_offset: float = 35.0
 var can_fire :bool = true
+
+@onready var turret = $building_tower_catapult_blue/building_tower_catapult_blue/catapult_turret_blue
 
 @onready var animator :AnimationPlayer = $building_tower_catapult_blue/AnimationPlayer
 
@@ -35,7 +38,14 @@ func _pick_target() -> Node3D:
 			best = e
 	return best
 
+func _process(delta: float) -> void:
+	super(delta)
+	if current_target:
+		var direction = current_target.global_position - turret.global_position
+		var target_angle = atan2(direction.y, direction.x)
 
+		turret.global_rotation.z = target_angle + deg_to_rad(rotation_offset)
+		
 func _attack() -> void:
 	if not can_fire or not is_instance_valid(current_target):
 		return

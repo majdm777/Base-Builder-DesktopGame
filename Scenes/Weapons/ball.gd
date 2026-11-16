@@ -3,7 +3,7 @@ extends Node3D
 
 @export var speed := 25.0
 @export var arc_height := 12.0
-@export var radius := 6.0            # splash radius
+@export var radius := 2.0            # splash radius
 @export var edge_damage := 0.4       # damage multiplier at the very edge (1.0 = no falloff)
 
 var damage := 50

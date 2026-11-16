@@ -210,7 +210,7 @@ size = Vector3(0.8123803, 2.2924805, 1.720459)
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_mti6b"]
 height = 1.0029297
-radius = 5.010254
+radius = 8.758789
 
 [node name="CatapultTower" type="StaticBody3D" unique_id=388174377 groups=["Defenses", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
@@ -232,7 +232,7 @@ mesh = SubResource("ArrayMesh_e0elh")
 skeleton = NodePath("")
 
 [node name="catapult_turret_blue" type="MeshInstance3D" parent="building_tower_catapult_blue/building_tower_catapult_blue" unique_id=932501670]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0139999995)
+transform = Transform3D(1, 0, 0, 0, 0.99999994, 0, 0, 0, 1, 0, 0, 0.0139999995)
 mesh = SubResource("ArrayMesh_w8dyh")
 skeleton = NodePath("")
 
