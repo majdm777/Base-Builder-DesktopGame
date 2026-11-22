@@ -1,0 +1,147 @@
+[gd_scene format=3 uid="uid://8j5eramemtab"]
+
+[ext_resource type="ArrayMesh" uid="uid://bqrcsvg1rw8wh" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_tower_B_blue.obj" id="1_ryfci"]
+[ext_resource type="ArrayMesh" uid="uid://5xnfesdr5d3f" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/banner_shield_green.obj" id="2_07eor"]
+[ext_resource type="ArrayMesh" uid="uid://3up58a8wuuau" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/tent.obj" id="3_hrafd"]
+[ext_resource type="ArrayMesh" uid="uid://drb2hindqc3su" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/bed_decorated.obj" id="4_kyjhg"]
+[ext_resource type="ArrayMesh" uid="uid://cx8gb74ddooh7" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/flag_blue.obj" id="5_2etpb"]
+[ext_resource type="ArrayMesh" uid="uid://cyy5fjs34xljm" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_tower_A_blue_building_tower_A_top_blue.obj" id="6_hoqc2"]
+[ext_resource type="ArrayMesh" uid="uid://b47175k651isu" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_home_B_blue.obj" id="7_nauxq"]
+[ext_resource type="ArrayMesh" uid="uid://bjvoohh2jnbg" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/nature/cloud_big.obj" id="8_diwik"]
+
+[sub_resource type="Animation" id="Animation_4413w"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("cloud:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.4500545, 1.3478837, -0.40052748)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("cloud:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_0ecwm"]
+resource_name = "active"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("cloud:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4500545, 1.3478837, -0.40052748), Vector3(0.4500545, 2.2446122, -0.40052748)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("cloud:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.8),
+"transitions": PackedFloat32Array(0.064704224, 6.498026),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_mklf6"]
+_data = {
+&"RESET": SubResource("Animation_4413w"),
+&"active": SubResource("Animation_0ecwm")
+}
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mti6b"]
+size = Vector3(1.683075, 1.8538818, 1.1053314)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mm1bc"]
+size = Vector3(2.841507, 1.4692383, 1.8293457)
+
+[node name="Hospital" type="StaticBody3D" unique_id=330251986 groups=["Hospital", "building"]]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="MainBuilding" type="Node3D" parent="." unique_id=226717293]
+
+[node name="tower" type="MeshInstance3D" parent="MainBuilding" unique_id=929250291]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.43254566, 0, 0)
+mesh = ExtResource("1_ryfci")
+
+[node name="banner" type="MeshInstance3D" parent="MainBuilding" unique_id=1006171914]
+transform = Transform3D(0.086259484, 0, -0.050589543, 0, 0.09999998, 0, 0.050589543, 0, 0.086259484, -0.67524964, 1.0900624, 0.35154158)
+mesh = ExtResource("2_07eor")
+
+[node name="banner2" type="MeshInstance3D" parent="MainBuilding" unique_id=450340150]
+transform = Transform3D(0.08781281, 0, 0.047842536, 0, 0.099999964, 0, -0.047842536, 0, 0.08781281, -0.21661344, 1.0900624, 0.36831194)
+mesh = ExtResource("2_07eor")
+
+[node name="tent" type="MeshInstance3D" parent="MainBuilding" unique_id=202724676]
+transform = Transform3D(0.7429344, 0, -0.6693643, 0, 1, 0, 0.6693643, 0, 0.7429344, -1.1372991, -5.9604645e-08, 0.5419675)
+mesh = ExtResource("3_hrafd")
+
+[node name="bed" type="MeshInstance3D" parent="MainBuilding" unique_id=1790690643]
+transform = Transform3D(0.09316933, 0, 0.036324553, 0, 0.099999994, 0, -0.036324553, 0, 0.09316933, -1.1657076, -5.9604645e-08, 0.5600866)
+mesh = ExtResource("4_kyjhg")
+
+[node name="flag" type="MeshInstance3D" parent="MainBuilding" unique_id=2144865811]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.43254566, 2.1677716, 0)
+mesh = ExtResource("5_2etpb")
+
+[node name="towerhead" type="MeshInstance3D" parent="MainBuilding" unique_id=33061167]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.44065666, 0, 0)
+mesh = ExtResource("6_hoqc2")
+
+[node name="building" type="MeshInstance3D" parent="MainBuilding" unique_id=1656715103]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.31466007, 0, 0.005135834)
+mesh = ExtResource("7_nauxq")
+
+[node name="cloud" type="MeshInstance3D" parent="MainBuilding" unique_id=238321747]
+transform = Transform3D(0.05399244, 0, 0, 0, 0.09420747, 0, 0, 0, 0.1, 0.4500545, 1.3478837, -0.40052748)
+mesh = ExtResource("8_diwik")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="MainBuilding" unique_id=518485328]
+libraries/ = SubResource("AnimationLibrary_mklf6")
+
+[node name="light" type="OmniLight3D" parent="MainBuilding" unique_id=1926463578]
+transform = Transform3D(1, 0, 0, 0, 0.8067698, -0.5908659, 0, 0.5908659, 0.8067698, -0.21815681, 0.93859863, 0.3758545)
+visible = false
+light_color = Color(1, 0.7019608, 0.2784314, 1)
+omni_range = 0.93208224
+
+[node name="light2" type="OmniLight3D" parent="MainBuilding" unique_id=329789426]
+transform = Transform3D(1, 0, 0, 0, 0.8067698, -0.5908659, 0, 0.5908659, 0.8067698, -0.6423588, 0.93859863, 0.36914063)
+visible = false
+light_color = Color(1, 0.7019608, 0.2784314, 1)
+omni_range = 0.93208224
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=136714503]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.022323608, 0.8834839, 0.018882751)
+shape = SubResource("BoxShape3D_mti6b")
+
+[node name="Area" type="Area3D" parent="." unique_id=1984955592]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area" unique_id=209566498]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2928543, 0.7429789, 0.10559082)
+shape = SubResource("BoxShape3D_mm1bc")
+
+[node name="Marker3D" type="Marker3D" parent="." unique_id=767219993]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.43227234, 0, 0.69173586)
