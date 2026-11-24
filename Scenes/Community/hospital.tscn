@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://8j5eramemtab"]
 
+[ext_resource type="Script" uid="uid://23pra8j3je1" path="res://Scenes/Community/hospital.gd" id="1_07eor"]
 [ext_resource type="ArrayMesh" uid="uid://bqrcsvg1rw8wh" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/buildings/blue/building_tower_B_blue.obj" id="1_ryfci"]
 [ext_resource type="ArrayMesh" uid="uid://5xnfesdr5d3f" path="res://Assets/KayKit_Dungeon_Pack/Assets/obj/banner_shield_green.obj" id="2_07eor"]
 [ext_resource type="ArrayMesh" uid="uid://3up58a8wuuau" path="res://Assets/KayKit_Medieval_Hexagon_Pack/Assets/obj/decoration/props/tent.obj" id="3_hrafd"]
@@ -79,6 +80,7 @@ size = Vector3(2.841507, 1.4692383, 1.8293457)
 
 [node name="Hospital" type="StaticBody3D" unique_id=330251986 groups=["Hospital", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+script = ExtResource("1_07eor")
 
 [node name="MainBuilding" type="Node3D" parent="." unique_id=226717293]
 

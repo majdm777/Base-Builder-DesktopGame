@@ -12,6 +12,7 @@ enum State {
 const JUMP_VELOCITY = 4.5
 
 @export var SPEED := 17.0
+@export var MaxHealth := 100
 @export var Health := 100
 @export var soldier :String = "Knight"
 @export var post_priority : Array[String] = ["PRIORITY", "NORMAL","GATE","RANGE"]

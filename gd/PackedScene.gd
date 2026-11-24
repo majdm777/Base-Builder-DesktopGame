@@ -8,7 +8,7 @@ var NormalPost: PackedScene = ResourceLoader.load("res://Scenes/Defense/NormalPo
 var PriorityPost : PackedScene = ResourceLoader.load("res://Scenes/Defense/PriorityPost.tscn")
 var RangePost : PackedScene = ResourceLoader.load("res://Scenes/Defense/RangePost.tscn")
 var CatapultTower :PackedScene = ResourceLoader.load("res://Scenes/Defense/CatapultTower.tscn")
-
+var Hospital:PackedScene = ResourceLoader.load("res://Scenes/Community/hospital.tscn")
 
 func _ready():
 	pass

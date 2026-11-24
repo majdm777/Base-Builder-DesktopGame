@@ -1611,6 +1611,11 @@ layout_mode = 2
 text = "Bar
 "
 
+[node name="Hospital" type="Button" parent="GameUI/UI/BuildingMenu/TabContainer/Community" unique_id=1677783567]
+layout_mode = 2
+text = "Hospital
+"
+
 [node name="Walls" type="HBoxContainer" parent="GameUI/UI/BuildingMenu/TabContainer" unique_id=379035408]
 visible = false
 layout_mode = 2
@@ -1841,6 +1846,7 @@ offset_bottom = 40.0
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Community/Church" to="GameUI/UI/BuildingMenu" method="_on_church_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Community/Shop" to="GameUI/UI/BuildingMenu" method="_on_shop_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Community/Bar" to="GameUI/UI/BuildingMenu" method="_on_bar_button_down"]
+[connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Community/Hospital" to="GameUI/UI/BuildingMenu" method="_on_hospital_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Walls/Wood_Wall" to="GameUI/UI/BuildingMenu" method="_on_wood_wall_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Walls/Wood_Gate" to="GameUI/UI/BuildingMenu" method="_on_wood_gate_button_down"]
 [connection signal="button_down" from="GameUI/UI/BuildingMenu/TabContainer/Walls/Stone_Wall" to="GameUI/UI/BuildingMenu" method="_on_stone_wall_button_down"]
