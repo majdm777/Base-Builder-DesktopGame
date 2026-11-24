@@ -78,7 +78,7 @@ size = Vector3(1.683075, 1.8538818, 1.1053314)
 [sub_resource type="BoxShape3D" id="BoxShape3D_mm1bc"]
 size = Vector3(2.841507, 1.4692383, 1.8293457)
 
-[node name="Hospital" type="StaticBody3D" unique_id=330251986 groups=["Hospital", "building"]]
+[node name="Hospital" type="StaticBody3D" unique_id=330251986 groups=["Hospital", "Infirmaries", "building"]]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 script = ExtResource("1_07eor")
 
@@ -145,5 +145,5 @@ shape = SubResource("BoxShape3D_mti6b")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2928543, 0.7429789, 0.10559082)
 shape = SubResource("BoxShape3D_mm1bc")
 
-[node name="Marker3D" type="Marker3D" parent="." unique_id=767219993]
+[node name="SpawnPoint" type="Marker3D" parent="." unique_id=767219993]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.43227234, 0, 0.69173586)

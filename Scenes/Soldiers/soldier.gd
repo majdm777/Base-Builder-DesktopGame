@@ -6,6 +6,7 @@ enum State {
 	Walking,
 	Attacking,
 	Garrisoned,
+	Healing,
 	Dieing,
 }
 
@@ -27,6 +28,8 @@ const JUMP_VELOCITY = 4.5
 var dps : float = attack_damage / max(0.1 , attack_interval)
 
 var chasing_enemy := false
+var going_to_heal := false
+
 var cooldown := false
 var is_alive :bool = true
 
@@ -66,6 +69,8 @@ func _process(delta: float) -> void:
 	match current_state :
 		
 		State.Idle:
+			chasing_enemy = false
+			going_to_heal = false
 			current_target = _enemy()
 			if current_target != null:
 				chasing_enemy = true
@@ -84,6 +89,9 @@ func _process(delta: float) -> void:
 				navigation.target_position = current_target.global_position
 				current_state = State.Walking
 				return
+			if Health < MaxHealth:
+				_go_heal()
+				pass
 			pass
 		State.Walking:
 			if is_instance_valid(current_target):
@@ -98,7 +106,10 @@ func _process(delta: float) -> void:
 				else:
 					if navigation.is_navigation_finished():
 						if is_instance_valid(current_target):
-							if current_target._occupy(self) :
+							if going_to_heal:
+								current_target._interact(self)
+								current_state = State.Healing
+							elif current_target._occupy(self) :
 								current_state = State.Garrisoned
 								#visible = false
 								return
@@ -120,6 +131,8 @@ func _process(delta: float) -> void:
 			pass
 		
 		State.Dieing:
+			pass
+		State.Healing:
 			pass
 	pass
 
@@ -235,3 +248,14 @@ func _face(direction: Vector3, delta: float) -> void:
 		return                                      # nothing to face
 	var target_yaw := atan2(direction.x, direction.z) + forward_offset
 	rotation.y = lerp_angle(rotation.y, target_yaw, clamp(turn_speed * delta, 0.0, 1.0))
+
+func _go_heal():
+	if Health == MaxHealth:
+		return
+	var Infirmaries = get_tree().get_nodes_in_group("Infirmaries")
+	if Infirmaries.is_empty():
+		return
+	current_target = _find_nearest(Infirmaries)
+	going_to_heal = true 
+	navigation.target_position = current_target._get_SpawnPoint()
+	current_state = State.Walking

@@ -104,3 +104,4 @@ V1.0.2.17 : added the Priority Post and now soldiers go to their first
             - V1.0.2.17.3 :added the the watchtower that can attack enemies by shooting arrows and added catapult that throws rockets, each with a specific requirement and specific role . now the soldier can face the direction theya are going to   
 
 V1.0.2.18: added the design and the functionality of the hospital still need to be   tested and edit the soldiers to go to it when injured .
+            _ V1.0.2.18.1 : now the soldier can go to the Infirmaries to heal if there is nothing to do , also added a function that force the soldier to go to heal , that can be activated through a button in the soldier ui (later ).
