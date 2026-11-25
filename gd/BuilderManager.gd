@@ -275,6 +275,8 @@ func SpawnShop():
 	SpawnObj(Shop)
 func SpawnBar():
 	SpawnObj(Bar)
+func SpawnHospital():
+	SpawnObj(Packed_Scene.Hospital)
 
 #wall
 func SpawnWoodWall():
