@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://c42aeiyw66dc3" path="res://Scenes/RecourceProducers/Trees/tree.tscn" id="6_u7lc8"]
 [ext_resource type="Script" uid="uid://cuymj1vq36qje" path="res://gd/GameUI_SideMenu.gd" id="7_h2366"]
 [ext_resource type="Theme" uid="uid://rbpdaho5neo2" path="res://Scenes/Interface/ui_theme.tres" id="7_pij2x"]
+[ext_resource type="Script" uid="uid://dfe8sl5d41ma" path="res://testing.gd" id="7_pkshj"]
 [ext_resource type="Script" uid="uid://b3pkj3s5bu2j7" path="res://gd/EntityInfo.gd" id="8_7s1p8"]
 [ext_resource type="Script" uid="uid://vj2cyqmm0wsd" path="res://gd/EnemySpawnPoint.gd" id="8_h2366"]
 [ext_resource type="Script" uid="uid://dqxl01ak8w4b5" path="res://gd/res_handle.gd" id="10_2lfnd"]
@@ -554,6 +555,10 @@ navigation_mesh = SubResource("NavigationMesh_g8kdg")
 [node name="chunk_5_5" type="NavigationRegion3D" parent="Map/Navigation" unique_id=1059733156]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 249.93, 0, 245.91)
 navigation_mesh = SubResource("NavigationMesh_4lt0l")
+
+[node name="testing" type="Node3D" parent="Map" unique_id=455845757]
+transform = Transform3D(0.9999999, 4.5332627e-12, 5.820766e-11, 4.5119464e-12, 0.9999999, 0, 2.910383e-11, -5.820766e-11, 0.99999976, -55.05032, 22.94231, 59.9759)
+script = ExtResource("7_pkshj")
 
 [node name="EnemySpawnPoint" type="Node3D" parent="." unique_id=1920704200]
 
